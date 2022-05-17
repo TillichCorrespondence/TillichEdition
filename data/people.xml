@@ -1,1 +1,25 @@
-
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="persons" type="Person">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alfred Escher Briefedition: Personendaten</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <standOff>
+        <listPerson>
+            <person xml:id="Lingg-J.-Anton" n="Lingg J. Anton" type="mentioned">
+                <persName>
+                    <forename>J. Anton</forename>
+                    <surname>Lingg</surname>
+                </persName>
+            </person>
+                  </listPerson>
+    </standOff>
+</TEI>
