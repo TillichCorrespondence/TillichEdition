@@ -1,0 +1,123 @@
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Wilhelm Lütgert an Paul Tillich
+               <lb/>vom 08.07.1915
+            </title>
+            <author ref="Wilhelm Lütgert">Wilhelm Lütgert</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Leopold Potyka</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="typoscript">
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge">Cambridge</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974</collection>
+                  <idno>Box 163(6)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>maschinenschriftlich</p>
+               </physDesc>   
+            </msDesc>       
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="Wilhelm Lütgert">Wilhelm Lütgert</persName>
+              <placeName ref="Halle a.S.">Halle</placeName>
+              <date when="1915-07-08">08.07.1915</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="Paul Tillich">Paul Tillich</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="LP" when="2022-04-05">Intitale Auszeichnung des Transkripts</change>
+        <change who="Initialien des Editors" when="1886-08-20"><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+        
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+           <dateline><placeName ref="Halle a.S.">Halle</placeName><date when="1915-07-08">8. <del rend="ow">Juli</del> 1915.</date></dateline>
+           <salute>Lieber Herr Tillich!</salute>
+        </opener>
+        <p>Endlich kann ich Ihnen definitive Antwort geben. Wir sind alle und <sic>speciel</sic> ich so in Anspruch genommen, dass die Geschäfte nur langsam gehen.
+           Ich teile Ihnen also das Urteil der Fakultät mit.
+           Gegen die vorige <del rend="ow">Antwort</del> <add>Arbeit</add> wendeten die Kollegen ein, dass sie zu ausschliesslich nur philosophisch wäre. Es wurde Ihnen gesagt, dass Sie diesmal eine Theologische Arbeit vorlegen sollten.
+           Auch gegen diese Arbeit haben die Referenten eingewendet, dass sie besonders in ihrem ersten Kapitel viel<add> </add>zu sehr philosophisch wäre. Sie haben dabei davon abgesehen, ihren abweichenden theologischen Standpunkt geltend zu machen und die Verhandlung hat sich in den Grenzen gehalten, dass Ihr theologischer Standpunkt und auch Ihre Methode für die Beurteilung der Arbeit <del rend="s">n</del> nicht massgebend sein dürfte.
+           Allein besonders der <persName ref="??">Korreferent</persName> hat mit Recht geltend gemacht, dass die Arbeit auch nicht wirklich historisch sei. Sie entspricht nicht dem, was der Titel sagt: sie ist nicht eine Entwicklung des Begriffs des Übernatürlichen im älteren Supranaturalismus. Wie dieser Begriff entstanden ist, wie er begründet ist, wie er sich zu dem entsprechenden Begriff des Supranaturalismus verhält, und wie zur Orthodoxie, dies alles wird garnicht berührt. Der Begriff wird nicht einmal für sich dargestellt. Am Eigentümlichsten wirkt dies in den christologischen Partieen. Die Arbeit ist nicht historisch, sondern rein logisch, rein dialektisch. Und zwar geht sie von den Voraussetzungen der<pb n="2"/>
+           Identitätsphilosophie wie von einer selbstverständlichen Sache aus. Von der Dialektik aus, die mit ihr gegeben ist, wird der Supranaturalismus geprüft und bekommt selbstverständlich immer Unrecht.
+           Sie haben uns die Sache also nicht leicht gemacht. Wir unsrerseits möchten Ihnen die Sache aber nicht erschweren. Wir haben alle das Interesse, Ihnen besonders jetzt die Vorarbeit für Ihre Habilitation nicht unnötig schwer zu machen. So habe ich denn als dritter Referent, eine Fakultätssitzung abgewartet und in ihr referiert und wir haben demgemäss beschlossen.
+           Unsere einstimmige Meinung war die, dass die <sic>Arbei</sic>, so wie sie ist, unter diesem Titel nicht in die Welt gehen kann, denn sie ist eben keine historische Darstellung des Begriffes beim Supranaturalismus nicht einmal eine systematische. Die Darstellung muss aber ihrem Namen entsprechen.
+           Will man nun genau sagen, was Ihre Arbeit eigentlich bringt, so läßt sich das nur in den Titel fassen:
+           Der Begriff des Uebernatürlichen im älteren Supranaturalismus beurteilt vom Standpunkt der <persName ref="F.W.J. Schelling">Schellingschen</persName> Identitätsphilosophie aus.
+           Das ist der wirkliche Inhalt der Arbeit. Sie ist rein formal logisch dialektisch, lediglich die Kritik eines Begriffes. <del rend="s">Man</del>
+           Nun will die Fakultät damit einverstanden sein, dass Sie die Arbeit unter diesem Titel drucken lassen. Ganz günstig für Sie ist eine solche Proklamation eines bestimmten Standpunktes nicht und Sie könnten durch ein Vorwort sich über diesen Standpunkt aussprechen. Allein es lässt sich nun <del rend="s">e</del> einmal, so wie Sie die Arbeit angelegt haben, nicht ändern.<pb n="3"/>
+           Die Hauptsache ist ja auch jetzt für Sie, dass Sie sich habilitieren können. Dies <sic>möchte</sic> wir in Ihrem Interesse nicht verzögern. Eine Umarbeitung zu einer wirklich historischen Arbeit ist nicht mit kleinen Aenderungen gemacht. Die ganze Arbeit müsste anders angelegt sein und ich fürchte nicht nur, dass dazu Zeit und Arbeitsgelegenheit jetzt bei Ihnen nicht ausreicht sondern auch, dass Sie das wirklich nicht wollen und können.
+           Sie wollen eben die Ueberlegenheit der Schellingschen Dialektik über den Supranaturalismus darstellen. Das wollen wir Ihnen nicht einschränken. Wir nehmen also die Arbeit so an, wie sie ist unter der angegebenen Titeländerung, die durch ein Vorwort begründet werden müsste.
+           Sie bekommen die Arbeit am Anfang des August. Das ist in keineme Falle zu spät. Denn es ist ja so gut wie sicher, dass wir im nächsten Semester noch nicht wieder in geordneten Verhältnissen werden arbeiten können. Bis zum Anfang des Semesters kann die Arbeit aber fertig sein.
+           Es hat uns gefreut, Ihre Frau <persName ref="Margarete Tillich">Gemahlin</persName> bei uns gesehen zu haben.
+           Sie wird Ihnen von uns erzählt haben. Alles ist Krieg bis in die Themata der Seminare hinein. Ich lasse Kriegsethik behandeln: <persName ref="Immanuel Kant">Kants</persName> ewigen Frieden, <persName ref="Johann Gottlieb Fichte">Fichtes</persName> wahrhaftigen Krieg, <persName ref="G.W.F. Hegel">Hegel</persName>, <persName ref="Carl von Clausewitz">Clausewitz</persName>, <persName ref="Heinrich von Treitschke">Treitschke</persName> u.s.w. Sie leben in der Wirklichkeit des Krieges und das wird noch lehrreicher sein. Aus Ihrem letzten Briefe ersehe ich, dass Sie nicht übermässig zu thun haben. Oder wechselt Ihre Stellung? Uebri<del rend="s">e</del>gens bedarf es eines besondern Antrages an die Fakultät nicht mehr.<pb n="4"/>
+           Ich muss schliessen, weil ich noch viel Geschäftliches zu thun habe.
+        </p>
+        <closer>
+           <salute>Mit bestem Gruss Ihr</salute>
+           <signed><hi rend="hand">W. Lütgert</hi></signed>
+        </closer>
+        
+        <postscript><p><add resp="PT"><hi rend="hand"> 1) Das Übern. im älteren Subran., dargestellt und kritisiert vom Prinzip der Identität
+           2) Die Dialektik des Subpran., dargestellt an der älteren supran. Theologie
+           3) Die supran. Begriffsbildung und ihre dialektische Zersetzung durch das Identitätsprinzip, dargestellt an der älteren supran. Theologie.
+           1. Die supranaturalistische Begriffsbildung, ihre logischen Probleme und das Prinzip der Identität, dargestellt an …
+           2. Die logischen Probleme des Supran., dargestellt an …
+           3. Der Begriff des Übernatürlichen, sein logischer Charakter und das Prinzip der Identität, dargestellt an …</hi></add></p></postscript>
+
+     </div>
+    </body>
+  </text>
+</TEI>

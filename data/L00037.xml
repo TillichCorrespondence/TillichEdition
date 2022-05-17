@@ -1,0 +1,210 @@
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Paul Tillich an Margarete Tillich
+               <lb/>vom 18.02.1915
+            </title>
+            <author ref="Paul Tillich">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Leopold Potyka</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge">Cambridge</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library </repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974</collection>
+                  <idno>Box 193(21)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>handschriftlich</p>
+                  </physDesc>
+               <additional> <!-- Wenn Brief bereits publiziert hier die richtige Struktur aussuchen -->
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint"><!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!--> </author>
+                           <title><!-->Titel der Monographie<!--></title>
+                           <edition><!-->Auflage<!--></edition>
+                           <imprint>
+                              <publisher><!-->Herausgeber<!--></publisher>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Reihe<!--></title>
+                           <biblScope><!-->Reihennummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                     <biblStruct type="journal" n="reprint"><!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!--> </author>
+                           <title><!-->Titel des Aufsatzes<!--></title>
+                           <imprint>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Zeitschrift<!--></title>
+                           <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <biblStruct type="monograph"><!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien überliefert sind und im Original nicht mehr vorhanden!-->
+               <monogr>
+                  <author><!-->Autor<!--> </author>
+                  <title><!-->Titel der Monographie<!--></title>
+                  <edition><!-->Auflage<!--></edition>
+                  <imprint>
+                     <publisher><!-->Herausgeber<!--></publisher>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Reihe<!--></title>
+                  <biblScope><!-->Reihennummer<!--></biblScope>
+               </series>
+            </biblStruct>
+            <biblStruct type="journal"><!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften überliefert sind und im Original nicht mehr vorhanden<!-->
+               <monogr>
+                  <author><!-->Autor<!--> </author>
+                  <title><!-->Titel des Aufsatzes<!--></title>
+                  <imprint>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Zeitschrift<!--></title>
+                  <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="Paul Tillich">Paul Tillich</persName>
+              <placeName ref="Bieuxy">Bieuxy</placeName>
+              <date when="1915-02-18">18.02.1915</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="Margarete Tillich">Margarete Tillich</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="LP" when="2022-05-02">Intitale Auszeichnung des Transkripts</change>
+        <change who="Initialien des Editors" when="1886-08-20"><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+        
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+           <dateline> <placeName ref="Bieuxy">Bieuxy</placeName>, d. <date when="1915-02-18">18. Febr. 1915.</date></dateline>
+        </opener>
+        <p>…denn nach Osten sehnt ich mich von Jugend auf,
+           Wo die weiten Ebnen Wehmut hauchen,
+           Wo im Abenddunst die Moore rauchen,
+           Wo die Sonne glühend anfängt ihren Lauf!
+           
+           Weiß des Meeres. Welle an das Ufer schäumt,
+           Und ich stand zu stürmisch dunklen Zeiten,
+           Blickte sinnend in die düstren Weiten,
+           Hab im Osten die Unendlichkeit geträumt.
+           
+           Traum des Denkens, Sehnsuchtsziel der Phantasie,
+           In das Grenzenlose zu entfliehen,
+           In das Unbekannte fortzuziehen:
+           Jetzt kann dir Erfüllung werden oder nie!
+           
+           Denn im Osten geht jetzt auf ein neuer Tag
+           Kalt und blutrot seine ersten Stunden,
+           Auf den Schneegefilden tausend Wunden,
+           Blut und Morgenrot: der Weltgeschichte Schlag!
+           
+           Doch <hi rend="u">wir</hi> liegen traurig stumm in Lehm und Kot
+           Hier im Westen, werden ernst und alt,
+           Denn des Sonnenuntergangs Gewalt
+           Hüllt vergangnen Tag in Dämmerung und Tod.
+           <pb n="2"/>
+           
+           Laßt mich fliehn aus der Verwesung feuchtem Dunst,
+           Aus der alten Schönheit Trümmerstätte,
+           Von der Wache an dem Sterbebette,
+           Laßt nach Osten mich, gewährt mir doch die Gunst!
+           
+           Wo die eisgen Winde mich umbrausen toll,
+           Wo wir ostwärts, immer ostwärts ziehen,
+           Und die Feinde und die Schwermut fliehen,
+           Und des Grenzenlosen unsre Seele voll!
+           
+           So laßt mich hin, und gehts vorbei an Eurem Haus,
+           Großmutter, blick heraus, ich will Dir winken,
+           Doch keine Träne soll im Aug‘ Dir blinken
+           Nach Osten geht es ja, ins Morgenrot hinaus!
+           
+           P.T.
+           Das, Ihr Lieben, ist meine und vieler, der meisten, Stimmung. Wenn eine Gelegenheit wäre, mit einem mürben Russen-Kämpfer zu tauschen, wenn für neue Formationen alte Kräfte gebraucht werden – ich bin jederzeit bereit und froh! Und die Strapazen sind ein frischer Wind, der Leib und Geist lebendig macht. Schickt das Gedicht an <persName ref="Johannes Tillich">Papa</persName>; wenn er eine Gelegenheit findet, bitte ich ihn, sie beim Schopfe zu fassen… denn nach Osten u.s.w.
+           Es grüßt Euch herzlich und dank Dir für Brief und Karten
+             </p>
+        <closer>
+           <salute>Dein alter Neffe </salute>
+           <signed>Paul.</signed>
+        </closer>
+        
+     
+     </div>
+    </body>
+  </text>
+</TEI>

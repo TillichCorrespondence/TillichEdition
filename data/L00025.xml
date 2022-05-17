@@ -1,0 +1,140 @@
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Johannes Tillich, Toni Winkler und Johanna Tillich an Paul Tillich
+               <lb/>vom 13.02.1907 </title>
+            <author ref="Johannes Tillich">Johannes Tillich</author>
+            <author ref="Toni Winkler">Toni Winkler</author>
+            <author ref="Johanna Tillich">Johanna Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974.</collection>
+                  <idno>bMS 649/193</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="Johannes Tillich">Johannes Tillich</persName>
+               <persName ref="Toni Winkler">Toni Winkler</persName>
+               <persName ref="Johanna Tillich">Johanna Tillich</persName>
+               <placeName ref="Berlin">Berlin</placeName>
+               <date when="1907-02-13">13.02.1907</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="Paul Tillich">Paul Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2022-05-02">Intitale Auszeichnung des Transkripts</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="JohannesTillich">
+            <pb n="1"/>
+            <opener>
+               <dateline><placeName ref="Berlin">Berlin</placeName> d. <date when="1907-02-13">13./II. 07.</date></dateline>
+               <salute>Mein lieber Sohn.</salute>
+            </opener>
+            <p>Gestern hatte ich noch nicht Zeit, auf Deinen u. <persName ref="Hermann Schafft">Schafft's</persName> Brief zu antworten; auch mußte ich mir die Sache erst durch
+               Kopf u. Herz gehen lassen. Ich habe nun beim Ueberlegen keinen ausreichenden Grund
+               gefunden, Deinem Wunsche entgegen zu sein. Freilich sähe ich Dich lieber
+               zurückkehren; aber es ist vielleicht in der That für Deine Charakterbildung und
+               sonstige Ausbildung von Wert, wenn Du einmal in der verantwortlichen Stellung eines x
+               bist. Auch bin ich ja wie Du weißt Wingolfit genug, um der Verbindung
+                  <sic>einpersönliches</sic> Opfer zu bringen. Will man <pb n="2"/>Dich also zum
+               Ersten haben, so bleibe noch ein Semester in <placeName ref="Halle">Halle</placeName>
+               in Gottes Namen. Du mußt dann Deine Zeit durch die rechte Arbeitsweise ausnutzen;
+               doch darüber können wir später mündlich verhandeln. Mache nur auch diese Sache zum
+               Gegenstand Deines Gebets und sei dann in jedem Fall zufrieden, wie Gott es führen
+               wird.</p>
+            <p>Danke Schafft für seinen Brief, und sein fürsorgendes Interesse für Dich.</p>
+            <closer>
+               <salute><add resp="Johannes Tillich">Gott behüte Dich, mein lieber Junge; Gruß u.
+                     Kuß</add></salute>
+               <signed><add resp="Johannes Tillich">Dein tr. Vater</add></signed>
+            </closer>
+         </div>
+         <div type="ToniWinkler">
+            <opener>
+               <salute>Mein lieber <persName ref="Paul Tillich">Paul</persName>.</salute>
+            </opener>
+            <p>Auch von mir noch bes. Gruß. Es hat uns mächtig interessiert Dein u. <persName ref="Hermann Schafft">Schaffts</persName> Brief, u. so gern wir Dich bald wieder
+               hier hätten, es wäre doch herrlich wenn Du x würdest u. Du Deiner Verbindung etwas
+               dadurch sein könntest.. Meinst Du nicht auch, ob es nicht viel besser wäre, wir kämen
+               nun nicht in Winterskälte nach <placeName ref="Halle">Halle</placeName>, wir
+                  wartete<del rend="ow">t</del>n lieber bis zum Frühjahr, da <persName ref="Johanna Tillich">Johanna</persName> Dich ja dann noch immer besuchen könnte.
+               Augenblicklich ist sie stark erkältet, so daß <pb n="3"/>sie Dir noch ausführlich von
+               ihrem Geburtstag berichten kann. Gesten waren viel junge Mädchen hier, u. am Geb.
+               selbst die Großeltern u. <persName ref="Tante Eugenie">Tante Eugenie</persName> zum
+               Kaffee. Am Abend waren wir im Wingolf kamen erst um <formula notation="TeX">\frac{1}{2}</formula> 5 Uhr nach Haus Nun noch recht herzl. Gruß von</p>
+            <signed><persName ref="Toni Winkler">Tante Toni</persName>.</signed>
+         </div>
+         <div type="JohannaTillich">
+            <opener><salute>lieber <persName ref="Paul Tillich">Paul</persName>,</salute></opener>
+            <p>Dank für das feine Buch u. d. Brief.</p>
+            <p>Ich kann heute noch nicht viel schreiben, aber um eines würde ich Dich bitten. Ich
+               käme viel lieber <hi rend="u">jetzt</hi> nach <placeName ref="Halle">Halle</placeName>, als im Frühjahr, wo es doch nichts würde. Also wenn kein
+               zwingender Grund da ist, dann schreibe Du nur auch, daß wir <hi rend="u">jetzt</hi>
+               kommen wollen. Ich habe Wurzelhautentzündung seit 3 Tagen; so habe ich nicht viel v.
+               Geburtstag u. <unclear cert="high">Tanz</unclear> gehabt. Näheres bald.</p>
+            <signed>Deine J.</signed>
+         </div>
+      </body>
+   </text>
+</TEI>
