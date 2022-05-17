@@ -1,0 +1,8 @@
+{
+  "name" : "tillichcorrespondence",
+  "version" : "1.0.0",
+  "description" : "Edition des Briefwechsels von Paul Tillich",
+  "dependencies" : {
+    "@teipublisher/pb-components" : "1.24.18"
+  }
+}

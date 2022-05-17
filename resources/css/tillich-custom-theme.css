@@ -1,0 +1,17 @@
+.logo {
+    background-image: url("../images/tillich_logo4.png");
+
+}
+
+.splash {
+    background-image: url("../images/tillich_background_spash.jpeg");
+}
+
+body {
+    --pb-logo-image-width: 160px;
+    --pb-logo-image-height: 60px;
+    --pb-menubar-background-color: white;
+    --pb-toolbar-background-color: #0063A6;
+    --pb-color-inverse: #0063A6;
+    --pb-toolbar-color: white;
+}
