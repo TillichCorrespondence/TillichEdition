@@ -1,1 +1,32 @@
-
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="places" type="Ort">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Paul Tillich Korrepondenz: Ortsdaten</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Evangelisch Theologische Fakukltät Universität Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                        <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 License.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <standOff>
+        <listPlace>
+            <place xml:id="Aachen_D" n="Aachen (D)" type="approximate">
+                <placeName type="main">Aachen <add>(D)</add>
+        </placeName>
+                <placeName type="add">(D)</placeName>
+                <location>
+                    <geo>50.7754385 6.0815102</geo>
+                </location>
+            </place>
+                  </listPlace>
+    </standOff>
+</TEI>
