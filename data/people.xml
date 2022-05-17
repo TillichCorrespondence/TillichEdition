@@ -5,7 +5,12 @@
                 <title>Paul Tillich Korrespondenz: Personendaten</title>
             </titleStmt>
             <publicationStmt>
-                <p>Publication Information</p>
+                <publisher>Evangelisch Theologische Fakukltät Universität Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                        <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 License.</p>
+                    </licence>
+                </availability>
             </publicationStmt>
             <sourceDesc>
                 <p>Information about the source</p>
