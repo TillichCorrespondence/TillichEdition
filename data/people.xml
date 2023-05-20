@@ -128,7 +128,7 @@
                   <surname>Adenauer</surname>
                </persName>
                <birth>
-                  <date>1876</date>
+                  <date when="1876">1876</date>
                   <placeName>Köln</placeName>
                </birth>
                <death>
