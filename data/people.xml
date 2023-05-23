@@ -26,10 +26,10 @@
                   <surname>Abélard</surname>
                </persName>
                <birth>
-                  <date>1079</date>
+                  <date when="1079">1079</date>
                </birth>
                <death>
-                  <date>1142</date>
+                  <date when="1142">1142</date>
                </death>
             </person>
             <person xml:id="P00002">
@@ -40,10 +40,10 @@
                   <surname>Abe</surname>
                </persName>
                <birth>
-                  <date>1915</date>
+                  <date when="1915">1915</date>
                </birth>
                <death>
-                  <date>2006</date>
+                  <date when="2006">2006</date>
                </death>
                <occupation>Japanischer Buddhist und Religionswissenschaftler</occupation>
             </person>
@@ -69,11 +69,11 @@
                   <surname>Abusch</surname>
                </persName>
                <birth>
-                  <date>1902</date>
+                  <date when="1902">1902</date>
                   <placeName>Krakau</placeName>
                </birth>
                <death>
-                  <date>1982</date>
+                  <date when="1982">1982</date>
                   <placeName>Berlin-Ost</placeName>
                </death>
                <occupation>Schriftsteller, Kulturpolitiker, Journalist, Politiker, Publizist</occupation>
@@ -90,11 +90,11 @@
                   <surname>Aconcio</surname>
                </persName>
                <birth>
-                  <date>1492</date>
+                  <date when="1492">1492</date>
                   <placeName>Ossana</placeName>
                </birth>
                <death>
-                  <date>1566</date>
+                  <date when="1566">1566</date>
                </death>
                <occupation>Philosoph, Theologe, Jurist und Ingenieur</occupation>
             </person>
@@ -113,10 +113,10 @@
                   <surname>Adams</surname>
                </persName>
                <birth>
-                  <date>1901</date>
+                  <date when="1901">1901</date>
                </birth>
                <death>
-                  <date>1994</date>
+                  <date when="1994">1994</date>
                </death>
                <occupation>Amerikanischer Theologe</occupation>
             </person>
@@ -128,11 +128,11 @@
                   <surname>Adenauer</surname>
                </persName>
                <birth>
-                  <date>1876</date>
+                  <date when="1876">1876</date>
                   <placeName>Köln</placeName>
                </birth>
                <death>
-                  <date>1967</date>
+                  <date when="1967">1967</date>
                   <placeName>Bad Honnef-Rhöndorf (Rhein)</placeName>
                </death>
                <occupation>Politiker, Oberbürgermeister von Köln, deutscher Bundeskanzler, Jurist, Regierungschef, Oberbürgermeister</occupation>
@@ -149,11 +149,11 @@
                   <forename>Ada</forename><forename>Sara</forename><surname>Adler</surname>
                </persName>
                <birth>
-                  <date>1878</date>
+                  <date when="1878">1878</date>
                   <placeName>Fredriksberg</placeName>
                </birth>
                <death>
-                  <date>1946</date>
+                  <date when="1946">1946</date>
                   <placeName>Kopenhagen</placeName>
                </death>
                <occupation>Dänische klassische Philologin und Bibliothekarin</occupation>
@@ -166,11 +166,11 @@
                   <surname>Adler</surname>
                </persName>
                <birth>
-                  <date>7. Feber 1870</date>
+                  <date when="1870-02-07">7. Februar 1870</date>
                   <placeName>Penzig bei Wien</placeName>
                </birth>
                <death>
-                  <date>28. Mai 1937</date>
+                  <date when="1937-05-28">28. Mai 1937</date>
                   <placeName>Aberdeen</placeName>
                </death>
                <occupation>Arzt und Psychologe</occupation>
@@ -183,11 +183,11 @@
                   <surname>Adler</surname>
                </persName>
                <birth>
-                  <date>15. Jänner 1873</date>
+                  <date when="1873-01-15">15. Januar 1873</date>
                   <placeName>Wien</placeName>
                </birth>
                <death>
-                  <date>28. Juni 1937</date>
+                  <date when="1937-06-28">28. Juni 1937</date>
                   <placeName>Wien</placeName>
                </death>
                <occupation>Soziologe</occupation>
@@ -204,11 +204,11 @@
                </persName>
                <persName type="pseud">Urban Roedl</persName>
                <birth>
-                  <date>1888</date>
+                  <date when="1888">1888</date>
                   <placeName>Karlsbad</placeName>
                </birth>
                <death>
-                  <date>1968</date>
+                  <date when="1968">1968</date>
                   <placeName>London</placeName>
                </death>
                <occupation>Deutscher Kunsthistoriker und Literaturwissenschaftler</occupation>
@@ -235,11 +235,11 @@
                </persName>
                <persName type="nickname">Teddy</persName>
                <birth>
-                  <date>1903</date>
+                  <date when="1903-09-11">11. September 1903</date>
                   <placeName>Frankfurt am Main</placeName>
                </birth>
                <death>
-                  <date>1969</date>
+                  <date when="1969-08-06">6. August 1969</date>
                   <placeName>Visp</placeName>
                </death>
                <occupation>Deutscher Musik- und Sozialphilosoph</occupation>
@@ -255,10 +255,10 @@
                   <surname>Adriani</surname>
                </persName>
                <birth>
-                  <date>1881</date>
+                  <date when="1881">1881</date>
                </birth>
                <death>
-                  <date>1971</date>
+                  <date when="1971">1971</date>
                </death>
                <occupation>Deutsch-US-amerikanischer Jurist, Kunsthistoriker und Mäzen</occupation>
             </person>
@@ -269,10 +269,10 @@
                   <surname>Aegidius Romanus</surname>
                </persName>
                <birth>
-                  <date>1604</date>
+                  <date when="1604">1604</date>
                </birth>
                <death>
-                  <date>1684</date>
+                  <date when="1684">1684</date>
                </death>
                <occupation>Römisch-katholischer Theologe und Abt</occupation>
             </person>
@@ -284,10 +284,10 @@
                   <surname>Agricola</surname>
                </persName>
                <birth>
-                  <date>40</date>
+                  <date when="0040">40</date>
                </birth>
                <death>
-                  <date>93</date>
+                  <date when="0093">93</date>
                </death>
                <occupation>Politiker und Feldherr</occupation>
             </person>
@@ -299,10 +299,10 @@
                   <surname>Ahlborn</surname>
                </persName>
                <birth>
-                  <date>1888</date>
+                  <date when="1888">1888</date>
                </birth>
                <death>
-                  <date>1977</date>
+                  <date when="1977">1977</date>
                </death>
                <occupation>Führer der Jugendbewegung, Mediziner und Arzt</occupation>
             </person>
@@ -329,10 +329,10 @@
                   <surname>Al-Ghazali</surname>
                </persName>
                <birth>
-                  <date>1058</date>
+                  <date when="1058">1058</date>
                </birth>
                <death>
-                  <date>1111</date>
+                  <date when="1111">1111</date>
                </death>
                <occupation>Islamischer Theologe, Philosoph und Sufi</occupation>
             </person>
@@ -343,10 +343,10 @@
                   <surname>Al-Halladsch</surname>
                </persName>
                <birth>
-                  <date>858</date>
+                  <date when="0858">858</date>
                </birth>
                <death>
-                  <date>922</date>
+                  <date when="0922">922</date>
                </death>
                <occupation>Islamischer Theologe und Mystiker</occupation>
             </person>
@@ -357,10 +357,10 @@
                </persName>
                <persName type="full">Abu Ya'qub ibn Ishaq al-Kindi</persName>
                <birth>
-                  <date>801</date>
+                  <date when="0801">801</date>
                </birth>
                <death>
-                  <date>870</date>
+                  <date when="0870">870</date>
                </death>
                <occupation>Arabischer Philosoph, Wissenschaftler, Mathematiker, Arzt und Musiker</occupation>
             </person>
@@ -371,10 +371,10 @@
                   <surname>Alanus de Insulis</surname>
                </persName>
                <birth>
-                  <date>1128</date>
+                  <date when="1128">1128</date>
                </birth>
                <death>
-                  <date>1202</date>
+                  <date when="1202">1202</date>
                </death>
                <occupation>Theologischer Gelehrter</occupation>
             </person>
@@ -385,10 +385,10 @@
                   <surname>Alarich I.</surname>
                </persName>
                   <birth>
-                     <date>370</date>
+                     <date when="0370">370</date>
                   </birth>
                   <death>
-                     <date>410</date>
+                     <date when="0410">410</date>
                   </death>
                   <occupation>König der Westgoten</occupation>
             </person>
@@ -399,10 +399,10 @@
                   <surname>Albert von Sachsen</surname>
                </persName>
                <birth>
-                  <date>1316</date>
+                  <date when="1316">1316</date>
                </birth>
                <death>
-                  <date>1390</date>
+                  <date when="1390">1390</date>
                </death>
                <occupation>Deutscher Philosoph, Naturforscher, Mathematiker, Logiker und Bischof von Halberstadt</occupation>
             </person>
@@ -413,10 +413,10 @@
                   <surname>Albertus Magnus</surname>
                </persName>
                   <birth>
-                     <date>1193</date>
+                     <date when="1193">1193</date>
                   </birth>
                   <death>
-                     <date>1280</date>
+                     <date when="1280">1280</date>
                   </death>
                   <occupation>Deutscher Theologe, Gelehrter, Dominikaner und Bischof von Regensburg</occupation>
             </person>
@@ -432,10 +432,10 @@
                   <surname>Preissler</surname>
                </persName>
                <birth>
-                  <date>1962</date>
+                  <date when="1962">1962</date>
                </birth>
                <death>
-                  <date>1990</date>
+                  <date when="1990">1990</date>
                </death>
                <occupation>Leiterin des "Goethe-Instituts zur Pflege der Deutschen Sprache im Ausland und zur Förderung der Internationalen Kulturellen Zusammenarbeit"</occupation>
             </person>
@@ -445,10 +445,10 @@
                   <surname>Alcuin</surname>
                </persName>
                   <birth>
-                     <date>735</date>
+                     <date when="0735">735</date>
                   </birth>
                   <death>
-                     <date>804</date>
+                     <date when="0804">804</date>
                   </death>
                <occupation>Englischer Gelehrter und wichtigster Berater Karls des Großen</occupation>
             </person>
@@ -467,10 +467,10 @@
                   <surname>Alexander der Große</surname>
                </persName>
                   <birth>
-                     <date>356 v. Chr.</date>
+                     <date when="-0356">356 v. Chr.</date>
                   </birth>
                   <death>
-                     <date>323 n. Chr.</date>
+                     <date when="-0323">323 v. Chr.</date>
                   </death>
                <occupation>König von Makedonien und Hegemon des Korinthischen Bundes</occupation>
             </person>
@@ -481,10 +481,10 @@
                   <surname>Alexander Neckham</surname>
                </persName>
                <birth>
-                  <date>1157</date>
+                  <date when="1157">1157</date>
                </birth>
                <death>
-                  <date>1217</date>
+                  <date when="1217">1217</date>
                </death>
                <occupation>Englischer Wissenschaftler und Gelehrter</occupation>
             </person>
@@ -503,10 +503,10 @@
                   <surname>Alexander von Hales</surname>
                </persName>
                <birth>
-                  <date>1185</date>
+                  <date when="1185">1185</date>
                </birth>
                <death>
-                  <date>1245</date>
+                  <date when="1245">1245</date>
                </death>
                <occupation>Philosoph und Theologe</occupation>
             </person>
@@ -517,10 +517,10 @@
                   <surname>Alexejew</surname>
                </persName>
                   <birth>
-                     <date>1879</date>
+                     <date when="1879">1879</date>
                   </birth>
                   <death>
-                     <date>1964</date>
+                     <date when="1964">1964</date>
                   </death>
                   <occupation>Russischer Philosoph und Jurist</occupation>
                <note type="bio">
@@ -535,10 +535,10 @@
                </persName>
                <persName type="alternative">Alfred von Sareshel</persName>
                <birth>
-                  <date>1175</date>
+                  <date when="1175">1175</date>
                </birth>
                <death>
-                  <date>1245</date>
+                  <date when="1245">1245</date>
                </death>
                <occupation>Philosoph, Übersetzer und Scholastiker</occupation>
             </person>
@@ -550,10 +550,10 @@
                </persName>
                <persName type="full">Ali ibn Abi Talib</persName>
                   <birth>
-                     <date>600</date>
+                     <date when="0600">600</date>
                   </birth>
                   <death>
-                     <date>661</date>
+                     <date when="0661">661</date>
                   </death>
                   <occupation>4. Kalif und Vetter sowie Schwiegersohn Mohammeds</occupation>
             </person>
@@ -564,10 +564,10 @@
                   <surname>Alkibiades</surname>
                </persName>
                <birth>
-                  <date>450 v. Chr.</date>
+                  <date when="-0450">450 v. Chr.</date>
                </birth>
                <death>
-                  <date>404 v. Chr.</date>
+                  <date when="-0404">404 v. Chr.</date>
                </death>
                <occupation>Griech. Politiker u. Feldherr in Athen</occupation>
             </person>
@@ -578,10 +578,10 @@
                   <surname>Alkmaion</surname>
                </persName>
                <birth>
-                  <date>570 v. Chr.</date>
+                  <date when="-0570">570 v. Chr.</date>
                </birth>
                <death>
-                  <date>500 v. Chr.</date>
+                  <date when="-0500">500 v. Chr.</date>
                </death>
                <occupation>Griech. Naturphilosoph u. Arzt</occupation>
             </person>
@@ -1534,11 +1534,11 @@
                <persName type="alt"><addName type="nick">Paulus</addName></persName>
                <persName type="alt"><addName type="nick">Paule</addName></persName>
                <birth>
-                  <date>20. August 1886</date>
+                  <date when="1886-08-20">20. August 1886</date>
                   <placeName>Starzeddel</placeName>
                </birth>
                <death>
-                  <date>20. Oktober 1965</date>
+                  <date when="1965-10-20">20. Oktober 1965</date>
                   <placeName>Chicago, Illinois</placeName>
                </death>
                <occupation>Evangelischer Theologie</occupation>
