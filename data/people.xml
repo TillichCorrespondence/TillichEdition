@@ -745,10 +745,10 @@
                   <surname>Anaxagoras</surname>
                </persName>
                <birth>
-                  <date>500 v. Chr.</date>
+                  <date when="-0500">500 v. Chr.</date>
                </birth>
                <death>
-                  <date>428 v. Chr.</date>
+                  <date when="-0428">428 v. Chr.</date>
                </death>
                <occupation>Naturphilosoph</occupation>
             </person>
@@ -759,10 +759,10 @@
                   <surname>Anaximander</surname>
                </persName>
                <birth>
-                  <date>610 v. Chr.</date>
+                  <date when="-0610">610 v. Chr.</date>
                </birth>
                <death>
-                  <date>546 v. Chr.</date>
+                  <date when="-0546">546 v. Chr.</date>
                </death>
                <occupation>Philosoph</occupation>
             </person>
@@ -773,10 +773,10 @@
                   <surname>Anaximenes</surname>
                </persName>
                <birth>
-                  <date>546 v. Chr.</date>
+                  <date when="-0546">546 v. Chr.</date>
                </birth>
                <death>
-                  <date>528 n. Chr.</date>
+                  <date when="-0528">528 v. Chr.</date>
                </death>
                <occupation>Naturphilosoph</occupation>
             </person>
@@ -792,10 +792,10 @@
                   <surname>Stern</surname>
                </persName>
                <birth>
-                  <date>1902</date>
+                  <date when="1902">1902</date>
                </birth>
                <death>
-                  <date>1992</date>
+                  <date when="1992">1992</date>
                </death>
                <occupation>Literat, Ehemann von Hannah Arendt</occupation>
             </person>
@@ -823,10 +823,10 @@
                   <surname>Angell</surname>
                </persName>
                <birth>
-                  <date>1874</date>
+                  <date when="1874">1874</date>
                </birth>
                <death>
-                  <date>1967</date>
+                  <date when="1967">1967</date>
                </death>
                <occupation>Journalist und Schriftsteller</occupation>
             </person>
@@ -837,10 +837,10 @@
                   <surname>Angelus Silesius</surname>
                </persName>
                <birth>
-                  <date>1624</date>
+                  <date when="1624">1624</date>
                </birth>
                <death>
-                  <date>1677</date>
+                  <date when="1677">1677</date>
                </death>
                <occupation>Religiöser Dichter</occupation>
             </person>
@@ -851,10 +851,10 @@
                   <surname>Anselm von Canterbury</surname>
                </persName>
                <birth>
-                  <date>1033</date>
+                  <date when="1033">1033</date>
                </birth>
                <death>
-                  <date>1109</date>
+                  <date when="1109">1109</date>
                </death>
                <occupation>scholastischer Theologe; Abt; Erzbischof; Mönch; Philosoph; Theologe; Kirchenlehrer</occupation>
             </person>
@@ -865,10 +865,10 @@
                   <surname>Anselm von Laon</surname>
                </persName>
                <birth>
-                  <date>1050</date>
+                  <date when="1050">1050</date>
                </birth>
                <death>
-                  <date>1117</date>
+                  <date when="1117">1117</date>
                </death>
                <occupation>Theologe</occupation>
             </person>
@@ -880,10 +880,10 @@
                   <surname>Anshen</surname>
                </persName>
                <birth>
-                  <date>1900</date>
+                  <date when="1900">1900</date>
                </birth>
                <death>
-                  <date>2003</date>
+                  <date when="2003">2003</date>
                </death>
                <occupation>Amerikanische Philosophin, Autorin und Herausgeberin</occupation>
             </person>
@@ -894,8 +894,11 @@
                   <surname>Anspach</surname>
                </persName>
                <birth>
-                  <date>1973</date>
+                  <date when="1913">1913</date>
                </birth>
+               <death>
+                  <date when="2002">2002</date>
+               </death>
                <occupation>Lawyer and collector of 20th century sculpture, and from 1956 African sculpture as well</occupation>
             </person>
             <person xml:id="P00064">
@@ -905,10 +908,10 @@
                   <surname>Antiochos von Askalon</surname>
                </persName>
                <birth>
-                  <date>120 v. Chr.</date>
+                  <date when="-0120">120 v. Chr.</date>
                </birth>
                <death>
-                  <date>68 v. Chr.</date>
+                  <date when="-0068">68 v. Chr.</date>
                </death>
                <occupation>Griechischer Philosoph</occupation>
             </person>
@@ -919,10 +922,10 @@
                   <surname>Antiochus IV. Epiphanes</surname>
                </persName>
                <birth>
-                  <date>215 v. Chr.</date>
+                  <date when="-0215">215 v. Chr.</date>
                </birth>
                <death>
-                  <date>164 v. Chr.</date>
+                  <date when="-0164">164 v. Chr.</date>
                </death>
                <occupation>König des Seleukidenreiches</occupation>
             </person>
@@ -933,10 +936,10 @@
                   <surname>Antisthenes</surname>
                </persName>
                <birth>
-                  <date>450 v. Chr.</date>
+                  <date when="-0450">450 v. Chr.</date>
                </birth>
                <death>
-                  <date>370 v. Chr.</date>
+                  <date when="-0370">370 v. Chr.</date>
                </death>
                <occupation>Philosoph und Schriftsteller</occupation>
             </person>
@@ -948,10 +951,10 @@
                   <surname>Apelt</surname>
                </persName>
                <birth>
-                  <date>1845</date>
+                  <date when="1845">1845</date>
                </birth>
                <death>
-                  <date>1932</date>
+                  <date when="1932">1932</date>
                </death>
                <occupation>Plato-Übersetzer; Gymnasialdirektor; Übersetzer; Klassischer Philologe</occupation>
             </person>
@@ -962,10 +965,10 @@
                   <surname>Apollinaris von Laodicea</surname>
                </persName>
                <birth>
-                  <date>310</date>
+                  <date when="0310">310</date>
                </birth>
                <death>
-                  <date>390</date>
+                  <date when="0390">390</date>
                </death>
                <occupation>Bischof von Laodicea</occupation>
             </person>
@@ -983,10 +986,10 @@
                   <surname>Apollonios von Tyana</surname>
                </persName>
                <birth>
-                  <date>ca. 1. Jhdt.</date>
+                  <date when="0040">um 40</date>
                </birth>
                <death>
-                  <date>ca. 1. Jhdt.</date>
+                  <date when="0120">um 120</date>
                </death>
                <occupation>Philosoph</occupation>
             </person>
@@ -996,12 +999,6 @@
                <persName type="reg">
                   <surname>Apollos</surname>
                </persName>
-               <birth>
-                  <date>ca. 1. Jhdt.</date>
-               </birth>
-               <death>
-                  <date>ca. 1. Jhdt.</date>
-               </death>
                <occupation>Bibl. Person; alexandrin. Jude; urkirchl. Missionar in Ephesos und Korinth</occupation>
             </person>
             <person xml:id="P00072">
@@ -1022,10 +1019,10 @@
                   <surname>Apuleius</surname>
                </persName>
                <birth>
-                  <date>123</date>
+                  <date when="0123">123</date>
                </birth>
                <death>
-                  <date>170</date>
+                  <date when="0170">170</date>
                </death>
                <occupation>Philosoph; Rechtsanwalt; Schriftsteller</occupation>
             </person>
@@ -1036,10 +1033,10 @@
                   <surname>Archytas</surname>
                </persName>
                <birth>
-                  <date>430 v. Chr.</date>
+                  <date when="-0430">430 v. Chr.</date>
                </birth>
                <death>
-                  <date>345 v. Chr.</date>
+                  <date when="-0345">345 v. Chr.</date>
                </death>
                <occupation>Ingenieur; Mathematiker; Philosoph; Physiker; Musikwissenschaftler</occupation>
             </person>
@@ -1051,10 +1048,10 @@
                   <surname>Arendt</surname>
                </persName>
                <birth>
-                  <date>1906</date>
+                  <date when="1906">1906</date>
                </birth>
                <death>
-                  <date>1975</date>
+                  <date when="1975">1975</date>
                </death>
                <occupation>Politische Theoretikerin</occupation>
             </person>
@@ -1065,10 +1062,10 @@
                   <surname>Aretaeus</surname>
                </persName>
                <birth>
-                  <date>ca. 1. Jhdt.</date>
+                  <date notBefore="0080-01-01" notAfter="0081-12-31">80 oder 81</date>
                </birth>
                <death>
-                  <date>ca. 1. Jhdt.</date>
+                  <date notBefore="0130-01-01" notAfter="0138-12-31">zwischen 130 und 138</date>
                </death>
                <occupation>Arzt</occupation>
             </person>
