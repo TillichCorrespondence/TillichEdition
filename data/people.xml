@@ -593,10 +593,10 @@
                   <surname>Allwohn</surname>
                </persName>
                <birth>
-                  <date>1893</date>
+                  <date when="1893">1893</date>
                </birth>
                <death>
-                  <date>1975</date>
+                  <date when="1975">1975</date>
                </death>
                <occupation>apl. Prof. für Religionsphilosophie an der Joh. Wolfg. Goethe Universität in Frankfurt a.M.</occupation>
             </person>
@@ -608,10 +608,10 @@
                   <surname>Althaus</surname>
                </persName>
                <birth>
-                  <date>1888</date>
+                  <date when="1888">1888</date>
                </birth>
                <death>
-                  <date>1966</date>
+                  <date when="1966">1966</date>
                </death>
                <occupation>evangelischer Theologe; Hochschullehrer; Neutestamentler</occupation>
             </person>
@@ -623,10 +623,10 @@
                   <surname>Althusius</surname>
                </persName>
                <birth>
-                  <date>1557</date>
+                  <date when="1557">1557</date>
                </birth>
                <death>
-                  <date>1638</date>
+                  <date when="1638">1638</date>
                </death>
                <occupation>Jurist und Politiker</occupation>
             </person>
@@ -637,10 +637,10 @@
                   <surname>Amalrich von Bena</surname>
                </persName>
                <birth>
-                  <date>1140</date>
+                  <date when="1140">1140</date>
                </birth>
                <death>
-                  <date>1206</date>
+                  <date when="1206">1206</date>
                </death>
                <occupation>Franz. scholast. Philosoph u. Theologe; Angehöriger d. Schule von Chartres; wegen seiner pantheistischen Lehren 1210 postum als Ketzer verurteilt</occupation>
             </person>
@@ -652,10 +652,10 @@
                   <surname>Amelung</surname>
                </persName>
                <birth>
-                  <date>1926</date>
+                  <date when="1926">1926</date>
                </birth>
                <death>
-                  <date>2008</date>
+                  <date when="2008">2008</date>
                </death>
                <occupation>deutscher evangelischer Theologe und Sozialethiker</occupation>
             </person>
@@ -666,10 +666,10 @@
                   <surname>Amenophis I.</surname>
                </persName>
                <birth>
-                  <date>1527 v. Chr.</date>
+                  <date when="-1527">1527 v. Chr.</date>
                </birth>
                <death>
-                  <date>1506 v. Chr.</date>
+                  <date when="-1506">1506 v. Chr.</date>
                </death>
                <occupation>Ägyptischer Pharao</occupation>
             </person>
@@ -680,10 +680,10 @@
                   <surname>Ammonios Sakkas</surname>
                </persName>
                <birth>
-                  <date>175</date>
+                  <date when="0175">175</date>
                </birth>
                <death>
-                  <date>242</date>
+                  <date when="0242">242</date>
                </death>
                <occupation>Philosoph</occupation>
             </person>
@@ -701,10 +701,10 @@
                   <surname>Amos</surname>
                </persName>
                <birth>
-                  <date>ca. 8. Jhdt. v. Chr.</date>
+                  <date notBefore="-0800">ca. 8. Jhdt. v. Chr.</date>
                </birth>
                <death>
-                  <date>ca. 8. Jhdt. v. Chr.</date>
+                  <date notAfter="-0701">ca. 8. Jhdt. v. Chr.</date>
                </death>
                <occupation>Alttestamentlicher Prophet</occupation>
             </person>
@@ -716,10 +716,10 @@
                   <surname>Amsdorf</surname>
                </persName>
                <birth>
-                  <date>1483</date>
+                  <date when="1483">1483</date>
                </birth>
                <death>
-                  <date>1565</date>
+                  <date when="1565">1565</date>
                </death>
                <occupation>Lutherischer Theologe</occupation>
             </person>
@@ -731,10 +731,10 @@
                   <surname>Amyraut</surname>
                </persName>
                <birth>
-                  <date>1596</date>
+                  <date when="1596">1596</date>
                </birth>
                <death>
-                  <date>1664</date>
+                  <date when="1664">1664</date>
                </death>
                <occupation>Theologe</occupation>
             </person>
