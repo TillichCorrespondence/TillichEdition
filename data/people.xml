@@ -1076,10 +1076,10 @@
                   <surname>Aristarch von Samos</surname>
                </persName>
                <birth>
-                  <date>310 v. Chr.</date>
+                  <date when="-0310">310 v. Chr.</date>
                </birth>
                <death>
-                  <date>230 v. Chr.</date>
+                  <date when="-0230">230 v. Chr.</date>
                </death>
                <occupation>Astronom; Mathematiker</occupation>
             </person>
@@ -1090,11 +1090,8 @@
                   <surname>Aristides</surname>
                </persName>
                <birth>
-                  <date>ca. 2. Jhdt.</date>
+                  <date notBefore="0101" notAfter="0150">Erste Hälfte des 2. Jahrhunderts</date>
                </birth>
-               <death>
-                  <date>ca. 2. Jhdt.</date>
-               </death>
                <occupation>Frühchristlicher Apologet</occupation>
             </person>
             <person xml:id="P00079">
@@ -1104,10 +1101,10 @@
                   <surname>Aristipp von Kyrene</surname>
                </persName>
                <birth>
-                  <date>435 v. Chr.</date>
+                  <date when="-0435">435 v. Chr.</date>
                </birth>
                <death>
-                  <date>366 v. Chr.</date>
+                  <date when="-0366">366 v. Chr.</date>
                </death>
                <occupation>Philosoph</occupation>
             </person>
@@ -1118,10 +1115,10 @@
                   <surname>Aristoteles</surname>
                </persName>
                <birth>
-                  <date>384 v. Chr.</date>
+                  <date when="-0384">384 v. Chr.</date>
                </birth>
                <death>
-                  <date>322 v. Chr.</date>
+                  <date when="-0322">322 v. Chr.</date>
                </death>
                <occupation>Philosoph und Lehrer</occupation>
             </person>
@@ -1132,10 +1129,10 @@
                   <surname>Arius</surname>
                </persName>
                <birth>
-                  <date>260</date>
+                  <date when="0260">260</date>
                </birth>
                <death>
-                  <date>336</date>
+                  <date when="0336">336</date>
                </death>
                <occupation>Frühchristlicher Häretiker</occupation>
             </person>
@@ -1146,10 +1143,10 @@
                   <surname>Arkesilaos</surname>
                </persName>
                <birth>
-                  <date>316 v. Chr.</date>
+                  <date when="-0316">316 v. Chr.</date>
                </birth>
                <death>
-                  <date>240 v. Chr.</date>
+                  <date when="-0240">240 v. Chr.</date>
                </death>
                <occupation>Autor</occupation>
             </person>
@@ -1161,10 +1158,10 @@
                   <surname>Arminius</surname>
                </persName>
                <birth>
-                  <date>1560</date>
+                  <date when="1560">1560</date>
                </birth>
                <death>
-                  <date>1609</date>
+                  <date when="1609">1609</date>
                </death>
                <occupation>Theologe</occupation>
             </person>
@@ -1176,10 +1173,10 @@
                   <surname>Arndt</surname>
                </persName>
                <birth>
-                  <date>1555</date>
+                  <date when="1555-12-27">27. Dezember 1555</date>
                </birth>
                <death>
-                  <date>1621</date>
+                  <date when="1621-05-11">11. Mai 1621</date>
                </death>
                <occupation>Lutherischer Theologe und Mystiker</occupation>
             </person>
@@ -1191,10 +1188,10 @@
                   <surname>Arnim</surname>
                </persName>
                <birth>
-                  <date>1859</date>
+                  <date when="1859-09-14">14. September 1859</date>
                </birth>
                <death>
-                  <date>1931</date>
+                  <date when="1931-05-25">25. Mai 1931</date>
                </death>
                <occupation>Altphilologe</occupation>
             </person>
@@ -1205,10 +1202,10 @@
                   <surname>Arnobius</surname>
                </persName>
                <birth>
-                  <date>ca. 4. Jhdt.</date>
+                  <date notBefore="0250">zweite Hälfte des 3. Jahrunderts</date>
                </birth>
                <death>
-                  <date>ca. 4. Jhdt.</date>
+                  <date when="0330">ca. 330</date>
                </death>
                <occupation>heidnischer Rhetor in Sicca Veneria/Afrika; später christlicher Apologet</occupation>
             </person>
@@ -1227,10 +1224,10 @@
                   <surname>Arnold</surname>
                </persName>
                <birth>
-                  <date>1913</date>
+                  <date when="1913">1913</date>
                </birth>
                <death>
-                  <date>2000</date>
+                  <date when="2000">2000</date>
                </death>
                <occupation>Harpers and Row, Publishers</occupation>
             </person>
@@ -1242,10 +1239,10 @@
                   <surname>Arnold</surname>
                </persName>
                <birth>
-                  <date>1883</date>
+                  <date when="1883-07-26">26. Juli 1883</date>
                </birth>
                <death>
-                  <date>1935</date>
+                  <date when="1935-11-22">22. November 1935</date>
                </death>
                <occupation>Volkserzieher, Begründer der heutigen Bruderhöfe</occupation>
             </person>
