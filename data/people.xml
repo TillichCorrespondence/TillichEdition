@@ -4406,12 +4406,12 @@
                      <surname>Pescatore</surname>
                   </persName>
                   <birth>
-                     <date>1879</date>
+                     <date when="1879-04-22">22. April 1879</date>
                   </birth>
                   <death>
-                     <date>k. A.</date>
+                     <date when="1957-05-08">8. Mai 1957</date>
                   </death>
-                  <occupation>Rittmeister im 1. Weltkrieg; besaß ein Allodialgut in Schwenzin bei Waren (Mecklenburg).</occupation>
+                  <occupation>Rittmeister im 1. Weltkrieg; besaß ein Allodialgut in Schwenzin bei Waren (Mecklenburg). Weitere Informationen: https://ancestors.familysearch.org/en/KC1N-D64/dominik-wilhelm-von-pescatore-1879-1957</occupation>
                </person>      
                <person xml:id="P02331">
                   <idno type="gnd">k. A.</idno>
@@ -4427,38 +4427,28 @@
                      <date>k. A.</date>
                   </death>
                   <occupation>Oberleutnant im 1. Weltkrieg</occupation>
-               </person>      
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
+               </person>       
             <person xml:id="P02332">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
                   <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <surname>Dietrich</surname>
                </persName>
                <birth>
-                  <date when="1859-09-14">14. September 1859</date>
+                  <date when="0001-01-01">k. A.</date>
                </birth>
                <death>
-                  <date when="1931-05-25">25. Mai 1931</date>
+                  <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>Altphilologe</occupation>
+               <occupation>Katholischer Pfarrer; mit Tillich im 1. WK.</occupation>
             </person>
             <person xml:id="P02333">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
                   <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <surname>Heireke</surname>
                </persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
@@ -4466,14 +4456,14 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Gerichtssektretär; mit Tillich im 1. WK.</occupation>
             </person>
             <person xml:id="P02334">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
                   <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <surname>Rosental</surname>
                </persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
@@ -4481,14 +4471,14 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Oberstabsarzt 1. WK.</occupation>
             </person>
             <person xml:id="P02335">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
                   <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <surname>Müller</surname>
                </persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
@@ -4496,14 +4486,14 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Kriegsgerichtsrat 1. WK.</occupation>
             </person>
             <person xml:id="P02336">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
                   <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <surname>Giese</surname>
                </persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
@@ -4511,14 +4501,14 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>In 1907.10.13. Schreiber, H. an Tillich, P. erwähnt als Lesezimmerdachs</occupation>
             </person>
             <person xml:id="P02337">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
                   <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <surname>Böke</surname>
                </persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
@@ -4526,14 +4516,14 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>In 1907.10.13. Schreiber, H. an Tillich, P. erwähnt als nicht der Lesezimmerdachs</occupation>
             </person>
             <person xml:id="P02338">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>O.</forename>
+                  <surname>Schetelig</surname>
                </persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
@@ -4541,14 +4531,14 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Wahrscheinlich der Bruder von Wilhelm S.? Erwähnt in: 1907.10.13. Schreiber, H. an Tillich, P:</occupation>
             </person>
             <person xml:id="P02339">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
                   <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <surname>Mensching</surname>
                </persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
@@ -4556,29 +4546,29 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Erwähnt in 1907.10.13. Schreiber, H. an Tillich, P.</occupation>
             </person>
             <person xml:id="P02340">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">118844814</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118844814.html</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Emil</forename>
+                  <surname>Felden</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1874-05-07">7. Mai 1874</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1959-12-04">4. Dezember 1959</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Als Pastor von Bremen erwähnt in 1907.10.13. Schreiber, H. an Tillich, P.</occupation>
             </person>
             <person xml:id="P02341">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
                   <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <surname>Büttner</surname>
                </persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
@@ -4586,14 +4576,14 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Pastor in Bremen (?) 1907.10.13. Schreiber, H. an Tillich, P.</occupation>
             </person>
             <person xml:id="P02342">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
                   <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <surname>Groeber</surname>
                </persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
@@ -4601,29 +4591,29 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Erwähnt in 1907.10.13. Schreiber, H. an Tillich, P.</occupation>
             </person>
             <person xml:id="P02343">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">117632279</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd117632279.html</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Gotthelf Matthias</forename>
+                  <surname>Bronisch</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1868-06-03">3. Juni 1868</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1937-01-12">12. Januar 1937</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Übersetzer; Pfarrer; Superintendent; Philologe</occupation>
             </person>
             <person xml:id="P02344">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
                   <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <surname>Portig</surname>
                </persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
@@ -4631,14 +4621,14 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Erwähnt als Theologe, der ein Buch geschrieben hat, das Troeltschs "Schwenk zur Metaphysik" bedingt haben soll: 1907.10.13. Schreiber, H. an Tillich, P.</occupation>
             </person>
             <person xml:id="P02345">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
                   <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <surname>Fritsch</surname>
                </persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
@@ -4646,14 +4636,14 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Erwähnt in 1907.10.27. Vethake, H. an Tillich, P.</occupation>
             </person>
             <person xml:id="P02346">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
                   <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <surname>Heydemeyer</surname>
                </persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
@@ -4661,14 +4651,14 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Mitstudent im Hallenser Wingolf.  Erwähnt in 1907.10.27. Vethake, H. an Tillich, P.</occupation>
             </person>
             <person xml:id="P02347">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Sepp</forename>
+                  <surname>Schafft</surname>
                </persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
@@ -4676,44 +4666,44 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Vielleicht ein Bruder Schaffts? Erwähnt in 1907.10.27. Vethake, H. an Tillich, P.</occupation>
             </person>
             <person xml:id="P02348">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">121447316</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd121447316.html</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Johannes</forename>
+                  <surname>Brachmann</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1571">1571</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1631">1631</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Lutherischer Theologe; Pfarrer; Gymnasiallehrer; Rektor; Erwähnt in: 1907.11.06. Lotz, E. an Tillich, P.</occupation>
             </person>
             <person xml:id="P02349">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">116922923</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd116922923.html</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Karl</forename>
+                  <surname>Schornbaum</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1875-03-07">7. März 1975</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1953-01-18">18. Januar 1953</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Kirchenhistoriker; Archivar;Evangelischer Theologe; Pfarrer; Erwähnt in: 1907.11.06. Lotz, E. an Tillich, P.</occupation>
             </person>
             <person xml:id="P02350">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
                   <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <surname>Grießhammer</surname>
                </persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
@@ -4721,14 +4711,14 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Erwähnt in: 1907.11.06. Lotz, E. an Tillich, P.</occupation>
             </person>
             <person xml:id="P02351">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
                   <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <surname>Rupprecht</surname>
                </persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
@@ -4736,14 +4726,14 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Erlanger Wingolfit. Erwähnt in: 1907.11.06. Lotz, E. an Tillich, P.</occupation>
             </person>
             <person xml:id="P02352">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
                   <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <surname>Weber</surname>
                </persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
@@ -4751,74 +4741,75 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Erlanger Wingolfit. Erwähnt in: 1907.11.06. Lotz, E. an Tillich, P.</occupation>
             </person>
             <person xml:id="P02353">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">118909991</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118909991.html</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Wilhelm</forename>
+                  <surname>Hopfmüller</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1885">1885</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1951">1951</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Dt. Pfarrer; Kirchenmusiker; Erlanger Wingolfit. Erwähnt in: 1907.11.06. Lotz, E. an Tillich, P.</occupation>
             </person>
             <person xml:id="P02354">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">1034730894</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd1034730894.html</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Johann Gerhard</forename>
+                  <surname>Behrens</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1889-09-05">5. September 1889</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1979-03-23">23. März 1979</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Evangelisch-lutherischer Pastor; Astronom; Erlanger Wingolfit. Erwähnt in: 1907.11.06. Lotz, E. an Tillich, P.</occupation>
             </person>
             <person xml:id="P02355">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Erich Wilhelm Karl Paul</forename>
+                  <surname>Dürr</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1889-10-02">2. Oktober 1889</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1945-11-21">21. November 1945</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Evtl. erwähnt im Brief PTs an Hannah Tillich vom 4.2.31. Vgl. https://kalliope-verbund.info/ead?ead.id=DE-611-HS-3079428. Weitere Informationen: https://ancestors.familysearch.org/en/L1F6-HRY/erich-wilhelm-karl-paul-d%C3%BCrr-1889-1945</occupation>
             </person>
             <person xml:id="P02356">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
                   <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <surname>Vandewater</surname>
                </persName>
+               <persName type="alternative">Van de Water</persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
                </birth>
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Leiter der Internationalen Schule für Philosophie, Erwähnt in: 1931.10.19. de Man, H an Tillich, P</occupation>
             </person>
             <person xml:id="P02357">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
                   <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <surname>Borchers</surname>
                </persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
@@ -4826,14 +4817,14 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>nicht ermittelt; wom. Eine Verwandte von Wilhelm Borchers. Erwähnt in PT an Hannah Tillich vom 5.3.1931</occupation>
             </person>
             <person xml:id="P02358">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Clara</forename>
+                  <surname>Medicus</surname>
                </persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
@@ -4841,13 +4832,13 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Vermutlich Frau Fritz Medicus Erwähnt in: 1928.04.19. Tillich, P an Medicus, F</occupation>
             </person>
             <person xml:id="P02359">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
+                  <forename>Anna</forename>
                   <surname>k. A.</surname>
                </persName>
                <birth>
@@ -4856,14 +4847,14 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>bisher nicht ermittelt, erwähnt in PT an Hannah Tillich, 22.09.1932</occupation>
             </person>
             <person xml:id="P02360">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Gisela</forename>
+                  <surname>Walker</surname>
                </persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
@@ -4871,14 +4862,14 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Patentochter von Paul Tillich</occupation>
             </person>
             <person xml:id="P02361">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Christian</forename>
+                  <surname>Herrmann</surname>
                </persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
@@ -4892,53 +4883,56 @@
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Amalija</forename>
+                  <surname>Ossipowna</surname>
                </persName>
+               <persName type="maidenname">Gawronska</persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1882">1882</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1935">1935</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Enkelin des Teekönigs Kalonymos Wissotzky; Frau von Ilja Issidorowitsch Fondaminski</occupation>
             </person>
             <person xml:id="P02363">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">1107814014</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd1107814014.html</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Natalja Nikolaevna</forename>
+                  <surname>Stepun</surname>
                </persName>
+               <persName type="maidenname">Nikolskaja</persName>
+               <persName type="nickname">Natascha</persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1961">1961</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Frau von Fedor Stepun</occupation>
             </person>
             <person xml:id="P02364">
-               <idno type="gnd">k. A.</idno>
+               <idno type="gnd">1236435281</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Ilja Issidorowitsch</forename>
+                  <surname>Fondaminski</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1880-02-29">29. Februar 1880</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1942-11-19">19. November 1942</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Russischer Revolutionär; Herausgeber</occupation>
             </person>
             <person xml:id="P02365">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Hermann [unsicher]</forename>
+                  <surname>Schwarz</surname>
                </persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
@@ -4946,13 +4940,13 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Erwähnt im Brief PT an Hannah Tillich vom 7.9.1926; könnte sich um Hermann Schwarz handeln, den Tillich schon früher rezensiert hatte - aber das ist reine Spekulation</occupation>
             </person>
             <person xml:id="P02366">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
+                  <forename>Elis</forename>
                   <surname>k. A.</surname>
                </persName>
                <birth>
@@ -4961,13 +4955,13 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Ab und zu erwähnt, bisher nicht identifiziert</occupation>
             </person>
             <person xml:id="P02367">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
+                  <forename>Lydia</forename>
                   <surname>k. A.</surname>
                </persName>
                <birth>
@@ -4976,14 +4970,14 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Bisher nicht ermittelt; erwähnt im Brief PT an Hannah Tillich vom 7.9.1926</occupation>
             </person>
             <person xml:id="P02368">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
                   <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <surname>Bogmann</surname>
                </persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
@@ -4991,14 +4985,14 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Jägeroberleutnant 1. WK; Assessor in Kiel</occupation>
             </person>
             <person xml:id="P02369">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
                   <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <surname>Cordier</surname>
                </persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
@@ -5006,74 +5000,74 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Unsichere Lesart; Oberleutnant der Feldtelephonabteilung 1. WK:, Ingenieur bei Krupp, kennt Immanuel Fritz sehr gut</occupation>
             </person>
             <person xml:id="P02370">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">138219885</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd138219885.html</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Karl</forename>
+                  <surname>Müller</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1852-09-03">3. September 1852</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1940-02-10">10. Februar 1940</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Evangelischer Theologe und Kirchenhistoriker</occupation>
             </person>
             <person xml:id="P02371">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">117684058</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd117684058.html</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Quistorp [der Ältere]</forename>
+                  <surname>Johann</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1554-08-18">18. August 1554</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1648-05-02">2. Mai 1648</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Theologe</occupation>
             </person>
             <person xml:id="P02372">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">131640879</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd131640879.html</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>David</forename>
+                  <surname>Hollaz</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1648">1648</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1713-04-17">17. April 1713</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Lutherischer Dogmatiker</occupation>
             </person>
             <person xml:id="P02373">
-               <idno type="gnd">k. A.</idno>
+               <idno type="gnd">1024984346</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Hans</forename>
+                  <surname>Gelderblom</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1897-03-18">18. März 1897</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1966-09-22">22. September 1966</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Baumeister. War befreundet mit Hermann Schafft.</occupation>
             </person>
             <person xml:id="P02374">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>M.</forename>
+                  <surname>Gottschalk</surname>
                </persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
@@ -5081,14 +5075,14 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Hallenser Wingolfit. Unterschreibt auf: 1907.11.20. Wingolfbrüder an Tillich, P.</occupation>
             </person>
             <person xml:id="P02375">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
                   <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <surname>Bensch</surname>
                </persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
@@ -5096,44 +5090,45 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Hallenser Wingolfit. Erwähnt in: 1907.11.23. Smissen, G. an Tillich, P.</occupation>
             </person>
             <person xml:id="P02376">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">106015850</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd106015850.html</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Gräfin Goedela</forename>
+                  <surname>Keyserling-Bismarck</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1896">1896</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1981">1981</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Frau des Philosophen Hermann Graf Keyserling. Erwähnt in: "1931.11.07. Keyserling-Bismarck, Gräfin G. an Tillich, P."</occupation>
             </person>
             <person xml:id="P02377">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
                   <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <surname>Schnitzler</surname>
                </persName>
+               <persName type="alternative">Frau von Schnitzler</persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
                </birth>
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Erwähnt in: "1931.11.07. Keyserling-Bismarck, Gräfin G. an Tillich, P."</occupation>
             </person>
             <person xml:id="P02378">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
                   <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <surname>Theel</surname>
                </persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
@@ -5141,29 +5136,29 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Oberarzt und Adjudant des Oberstabsarztes Rosental im 1. WK.</occupation>
             </person>
             <person xml:id="P02379">
-               <idno type="gnd">k. A.</idno>
+               <idno type="gnd">1200987659</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Richard</forename>
+                  <surname>Hafemann</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1886">1886</date>
                </birth>
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Arzt; Freund von Oberarzt Theel</occupation>
             </person>
             <person xml:id="P02380">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
                   <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <surname>Bolkansky</surname>
                </persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
@@ -5171,29 +5166,29 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Hauptmann 1. WK.; der erste Adjudant zur Rechten von Exzellenz (Gronau)</occupation>
             </person>
             <person xml:id="P02381">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">116971886</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd116971886.html</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Immanuel</forename>
+                  <surname>Holzapfel</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1849">1849</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1919">1919</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Pastor; Erwähnt in: 1907.11.28. Hanffstengel, G. an Tillich, P.</occupation>
             </person>
             <person xml:id="P02382">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
                   <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <surname>Hukmann</surname>
                </persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
@@ -5201,14 +5196,14 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Göttinger Wingolfit. Erwähnt in: 1907.11.28. Hanffstengel, G. an Tillich, P.</occupation>
             </person>
             <person xml:id="P02383">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
                   <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <surname>Zähringer</surname>
                </persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
@@ -5216,14 +5211,14 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Als Kneipgast erwähnt in: 1907.12.31. Schreiber, H. an Tillich, P.</occupation>
             </person>
             <person xml:id="P02384">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
                   <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <surname>Bublitz</surname>
                </persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
@@ -5231,14 +5226,14 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Erwähnt in 1907.12.31. Schreiber, H. an Tillich, P.</occupation>
             </person>
             <person xml:id="P02385">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Joh.</forename>
+                  <surname>Kilger</surname>
                </persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
@@ -5246,14 +5241,14 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Offensichtlich Bruder von Albert Kilger. Erwähnt in 1907.12.31. Schreiber, H. an Tillich, P.</occupation>
             </person>
             <person xml:id="P02386">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Käthe</forename>
+                  <surname>Neumeister</surname>
                </persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
@@ -5264,56 +5259,56 @@
                <occupation>k. A.</occupation>
             </person>
             <person xml:id="P02387">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">102824407X</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd102824407X.html</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>August</forename>
+                  <surname>Heldmann</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1834">1834</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1919">1919</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Historiker; Pfarrer; unklar, ob dieser August Heldmann mit dem genannten Herrn Heldmann im Brief übereinstimmt; wenn ja, ist er mit Böke offensichtlich in eine Wingolf-Angelegenheit verwickelt. Siehe: 1908.02.10. Balke, H. an Tillich, P.</occupation>
             </person>
             <person xml:id="P02388">
-               <idno type="gnd">k. A.</idno>
+               <idno type="gnd">1089666586</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Emmy</forename>
+                  <surname>Frey</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1884">1884</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1956">1956</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Erwähnt z.B. im Brief Tillichs an Hannah und Erdmuthe Tillich vom 4.12.1932; Vgl. evtl. (Identifikation unsicher!): https://www2.landesarchiv-bw.de/ofs21/olf/einfueh.php?bestand=50270</occupation>
             </person>
             <person xml:id="P02389">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">119154714</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd119154714.html</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Hans</forename>
+                  <surname>Mislin</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1907-05-24">24. Mai 1907</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1993-03-24">24. März 1993</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Vgl. PT an Hannah Tillich vom 6.12.1932 aus Basel; M. studierte zu jener Zeit Zoologie in Basel, engagierte sich 1935 gegen den Faschismus (vgl. Simon, An der Peripherie des nazifizierten deutschen Hochschulsystems, 67 und 693), später Professor der Zoologie; https://www.gutenberg-biographics.ub.uni-mainz.de/personen/register/eintrag/hans-mislin.html</occupation>
             </person>
             <person xml:id="P02390">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
                   <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <surname>Mislin</surname>
                </persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
@@ -5321,29 +5316,29 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Vermutlich Mutter von Hans Mislin</occupation>
             </person>
             <person xml:id="P02391">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">11600780X</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd11600780X.html</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Erich</forename>
+                  <surname>Adickes</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1866-06-29">29. Juni 1866</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1928-07-08">8. Juli 1928</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Philosoph</occupation>
             </person>
             <person xml:id="P02392">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
                   <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <surname>Manzenstein</surname>
                </persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
@@ -5351,14 +5346,14 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Erwähnt in: 1915.07.19. Tillich, M an Tillich, P</occupation>
             </person>
             <person xml:id="P02393">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
                   <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <surname>Lothauser</surname>
                </persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
@@ -5366,59 +5361,60 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Erwähnt in: 1915.07.19. Tillich, M an Tillich, P</occupation>
             </person>
             <person xml:id="P02394">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">118907832</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118907832.html</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>David</forename>
+                  <surname>Teniers</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1610">1610</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1690">1690</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Flämischer Maler</occupation>
             </person>
             <person xml:id="P02395">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
                   <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <surname>SPD Gross-Frankfurt</surname>
                </persName>
+               <persName type="alternative">Vorstand der S.P.D. Gross-Frankfurt</persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
                </birth>
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>(Partei)Erwähnt in: "1932.10.07. SPD Groß-Frankfurt an Tillich, P"</occupation>
             </person>
             <person xml:id="P02396">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">116546662</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd116546662.html</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Walter</forename>
+                  <surname>Riezler</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1878-10-02">2. Oktober 1878</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1965-01-22">22. Januar 1965</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Kunsthistoriker und Musikwissenschaftler</occupation>
             </person>
             <person xml:id="P02397">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
                   <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <surname>Amerikanischer Professor</surname>
                </persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
@@ -5426,104 +5422,109 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>nicht ermittelt, erwähnt in: PT an Hannah Tillich vom 9.5.1929</occupation>
             </person>
             <person xml:id="P02398">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">118795570</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118795570.html</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Franz</forename>
+                  <surname>Schultz</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1877-12-04">1877</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1950-10-06">1950</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Germanist und Professor für Neuere deutsche Literaturgeschichte</occupation>
             </person>
             <person xml:id="P02399">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Hildegard</forename>
+                  <surname>Schultz</surname>
                </persName>
+               <persName type="maidenname">Rampenthal</persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
                </birth>
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>(Zweite) Frau von Franz Schultz</occupation>
             </person>
             <person xml:id="P02400">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">116996242</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd116996242.html</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Käthe</forename>
+                  <surname>Riezler</surname>
                </persName>
+               <persName type="maidenname">Liebermann</persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1885">1885</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1952">1952</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Tochter Max Liebermanns, Ehefrau Kurt Riezlers</occupation>
             </person>
             <person xml:id="P02401">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Nelly</forename>
+                  <surname>Gelb</surname>
                </persName>
+               <persName type="maidenname">Achenbach</persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1888">1888</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1969">1969</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Frau Adhémar Gelbs, Tochter Max Alvarys</occupation>
             </person>      
             <person xml:id="P02402">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">117251062</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd117251062.html</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Felix</forename>
+                  <surname>Weil</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1898-02-08">8. Februar 1898</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1975-09-18">18. September 1975</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Gründer/Finazier des Instituts für Sozialforschung</occupation>
             </person>
             <person xml:id="P02403">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Anita</forename>
+                  <surname>Gonzala</surname>
                </persName>
+               <persName type="maidenname">Weil</persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1901">1901</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1953">1953</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Schwester von Felix Weil</occupation>
             </person>
             <person xml:id="P02404">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Käthe</forename>
+                  <surname>Weil</surname>
+                  <persName type="maidenname">Bachert</persName>
                </persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
@@ -5531,149 +5532,152 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Frau von Felix Weil</occupation>
             </person>
             <person xml:id="P02405">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Doris</forename>
+                  <surname>Wolfers</surname>
                </persName>
+               <persName type="maidenname">Forrer [unsicher]</persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
                </birth>
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Frau von Arnold Wolfers</occupation>
             </person>
             <person xml:id="P02406">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">116744200</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd116744200.html</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Heinrich</forename>
+                  <surname>Hermelink</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1877-12-30">30. Dezember 1877</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1958-02-11">11. Februar 1958</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Theologe (Kirchenhistoriker)</occupation>
             </person>
             <person xml:id="P02407">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">116927461</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd116927461.html</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Gustav</forename>
+                  <surname>Hölscher</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1877-06-17">17. Juni 1877</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1955-09-16">16. September 1955</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Theologe (Altes Testament)</occupation>
             </person>
             <person xml:id="P02408">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">1044769491</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd1044769491.html</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Gerda</forename>
+                  <surname>Schairer</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1888-09-28">28. September 1888</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1971-10">Oktober 1971</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Autorin; Frau von Reinhold Schairer</occupation>
             </person>
             <person xml:id="P02409">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Elfriede Margarete von</forename>
+                  <surname>Sydow</surname>
                </persName>
+               <persName type="maidenname">Wedel</persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1856">1856</date>
                </birth>
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Mutter von Eckart von Sydow</occupation>
             </person>
             <person xml:id="P02410">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Helene Antonie Mathilde Kathinka</forename>
+                  <surname>Sydow</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1881">1881</date>
                </birth>
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Schwester von Eckart von Sydow</occupation>
             </person>
             <person xml:id="P02411">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">1038829402</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd1038829402.html</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Stephan</forename>
+                  <surname>Hirzel</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1899-05-25">25. Mai 1899</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1970-02-18">18. Februar 1970</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Architekt, baute u.a. das "Haus auf dem Küssel"</occupation>
             </person>
             <person xml:id="P02412">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">11859138X</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd11859138X.html</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Max</forename>
+                  <surname>Pallenberg</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1877-12-18">18. Dezember 1877</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1934-06-26">26. Juni 1934</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Schauspieler</occupation>
             </person>
             <person xml:id="P02413">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Mascha</forename>
+                  <surname>Grimme</surname>
                </persName>
+               <persName type="maidenname">Brachvogel</persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
                </birth>
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Frau von Adolf Grimme</occupation>
             </person>
             <person xml:id="P02414">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
                   <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <surname>Königs</surname>
                </persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
@@ -5681,14 +5685,14 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Als "Comphil." (?) erwähnt in: 1914.10.05. Schafft, H. an Tillich, P.</occupation>
             </person>
             <person xml:id="P02415">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
                   <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <surname>Wagner</surname>
                </persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
@@ -5696,28 +5700,29 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Bisher nicht ermittelt; Dresdner Umfeld; erwähnt in PT an Hannah Tillich vom 2.März 1933</occupation>
             </person>
             <person xml:id="P02416">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Friedrich</forename>
+                  <surname>Bienert</surname>
                </persName>
+               <persName type="nickname">Fritz</persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1891-11-21">21. November 1891</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1969-02-15">15. Februar 1969</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Großindustrieller, Sammler, Mäzen; Sohn von Ida und(?) Erwin Bienert.</occupation>
             </person>
             <person xml:id="P02417">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
+                  <forename>Wolfgang</forename>
                   <surname>k. A.</surname>
                </persName>
                <birth>
@@ -5726,14 +5731,14 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>verm. aus Halle; bisher nicht ermittelt; z.B. erwähnt in PT an Hannah Tillich vom 1.4.1933</occupation>
             </person>
             <person xml:id="P02418">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Paul</forename>
+                  <surname>Viergutz</surname>
                </persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
@@ -5741,13 +5746,13 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Da gibt es einen Brief von ihm an Tillich: 1925.08.10. Viergutz, P. an Tillich, P.</occupation>
             </person>
             <person xml:id="P02419">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
+                  <forename>Gretha</forename>
                   <surname>k. A.</surname>
                </persName>
                <birth>
@@ -5756,89 +5761,90 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Bekannt nur aus: 1926.01.08. Gretha an Tillich, P. Sollte eine enge Bekannte von Paul Tillich sein, aus Berlin (?).</occupation>
             </person>
             <person xml:id="P02420">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">116234210</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd116234210.html</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Heinrich</forename>
+                  <surname>Kloppenburg</surname>
                </persName>
+               <persName type="nickname">Heinz</persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1903-05-10">10. Mai 1903</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1986-02-18">18. Februar 1986</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Theologe</occupation>
             </person>
             <person xml:id="P02421">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Astrid</forename>
+                  <surname>Billström</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1888">1888</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1929">1929</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Schwedische Freundin von Tillich. Frau von Jacob Billström</occupation>
             </person>
             <person xml:id="P02422">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">116372222</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd116372222.html</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Ernst von</forename>
+                  <surname>Aster</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1880-02-18">18. Feburar 1880</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1948-10-22">22. Oktober 1948</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Philosoph</occupation>
             </person>
             <person xml:id="P02423">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">101206844</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd101206844.html</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Hildur Emma Eufrosyne</forename>
+                  <surname>Dixelius - von Aster</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1879">1879</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1969">1969</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Dichterin. Frau von Ernst von Aster</occupation>
             </person>
             <person xml:id="P02424">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">118682253</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118682253.html</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Carl</forename>
+                  <surname>Erdmann</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1898-11-27">27. November 1898</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1945-03-03">3. März 1945</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Vielleicht der Mediävist? Unklar, ob er gemeint ist. Schreibt an Paul Tillich am 14. Juli 1927</occupation>
             </person>
             <person xml:id="P02425">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Heinrich</forename>
+                  <surname>Herrmann</surname>
                </persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
@@ -5846,59 +5852,75 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Irgendein Verehrer, der Tillich auf einem seiner Vorträge hin schreibt: 1928.03.04. Hermann, H. an Tillich, P.</occupation>
             </person>
             <person xml:id="P02426">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">116595167</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd116595167.html</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Georg</forename>
+                  <surname>Gerullis</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1888-08-13">13. August 1888</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1945-08-09">9. August 1945</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Baltist, seit April 1933 Ministerialdirektor im Wissenschafts- bzw. Kultusministerium</occupation>
             </person>
             <person xml:id="P02427">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">116963522</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd116963522.html</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Lina</forename>
+                  <surname>Mayer-Kulenkampff</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1886-04-30">30. April 1886</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1971-03-10">10. März 1971</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Historikerin, Pädagogin und Schulleiterin</occupation>
             </person>
             <person xml:id="P02428">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">117164550</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd117164550.html</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Alvin</forename>
+                  <surname>Johnson</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1874-12-18">18. Dezember 1874</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1971-06-07">7. Juni 1971</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Wirtschaftswissenschaftler und Initiator der University of Exile an der New School for Social Research</occupation>
             </person>
             <person xml:id="P02429">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
-                  <surname>k. A.</surname>
+                  <forename>Suzanne</forename>
+                  <surname>Blum</surname>
+               </persName>
+               <persName type="maidenname">Kullmann</persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Frau von Emil Blum, https://hls-dhs-dss.ch/de/articles/010547/2002-11-05/</occupation>
+            </person>  
+            <person xml:id="P02430">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Anja</forename>
+                  <surname>Schümer</surname>
                </persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
@@ -5908,6 +5930,187 @@
                </death>
                <occupation>k. A.</occupation>
             </person>          
+            <person xml:id="P02431">
+               <idno type="gnd">118693220</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118693220.html</idno>
+               <persName type="reg">
+                  <forename>Dagobert</forename>
+                  <surname>Frey</surname>
+               </persName>
+               <birth>
+                  <date when="1883-04-23">23. April 1883</date>
+               </birth>
+               <death>
+                  <date when="1962-05-13">13. Mai 1962</date>
+               </death>
+               <occupation>Österreichischer Kunsthistoriker Erwähnt in: "1929.09.30. Passarge, W. an Tillich, P", Recherchiert aus: "Walter Passarge Die Philosophie der Kunstgeschichte in der Gegenwart(Heft 1)"</occupation>
+            </person>          
+            <person xml:id="P02432">
+               <idno type="gnd">118807900</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118807900.html</idno>
+               <persName type="reg">
+                  <forename>Wilhelm Robert</forename>
+                  <surname>Worringer</surname>
+               </persName>
+               <birth>
+                  <date when="1881-01-13">13. Januar 1881</date>
+               </birth>
+               <death>
+                  <date when="1965-03-29">29. März 1965</date>
+               </death>
+               <occupation>Deutscher Kunsthistoriker Erwähnt in: "1929.09.30. Passarge, W. an Tillich, P", Recherchiert aus: "Walter Passarge Die Philosophie der Kunstgeschichte in der Gegenwart(Heft 1)"</occupation>
+            </person>          
+            <person xml:id="P02433">
+               <idno type="gnd">118600818</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118600818.html</idno>
+               <persName type="reg">
+                  <forename>Alois</forename>
+                  <surname>Riegl</surname>
+               </persName>
+               <birth>
+                  <date when="1858-01-14">14. Januar 1858</date>
+               </birth>
+               <death>
+                  <date when="1905-06-17">17. Juni 1905</date>
+               </death>
+               <occupation>Österreichischer Kunsthistoriker,  Professor für Kunstgeschichte Erwähnt in: "1929.09.30. Passarge, W. an Tillich, P", Recherchiert aus: "Walter Passarge Die Philosophie der Kunstgeschichte in der Gegenwart(Heft 1)"</occupation>
+            </person>          
+            <person xml:id="P02434">
+               <idno type="gnd">115671994</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd115671994.html</idno>
+               <persName type="reg">
+                  <forename>Paul</forename>
+                  <surname>Frankl</surname>
+               </persName>
+               <birth>
+                  <date when="1878-01-02">2. Januar 1878</date>
+               </birth>
+               <death>
+                  <date when="1962-04-22">22. April 1962</date>
+               </death>
+               <occupation>deutscher Kunsthistoriker Erwähnt in: "1929.09.30. Passarge, W. an Tillich, P", Recherchiert aus: "Walter Passarge Die Philosophie der Kunstgeschichte in der Gegenwart(Heft 1)"</occupation>
+            </person>          
+            <person xml:id="P02435">
+               <idno type="gnd">118528378</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118528378.html</idno>
+               <persName type="reg">
+                  <forename>Max</forename>
+                  <surname>Dvořák</surname>
+               </persName>
+               <birth>
+                  <date when="1874-06-24">24. Juni 1874</date>
+               </birth>
+               <death>
+                  <date when="1921-02-08">8. Februar 1921</date>
+               </death>
+               <occupation>Österreichischer Kunsthistoriker und Denkmalpfleger Erwähnt in: "1929.09.30. Passarge, W. an Tillich, P", Recherchiert aus: "Walter Passarge Die Philosophie der Kunstgeschichte in der Gegenwart(Heft 1)"</occupation>
+            </person>          
+            <person xml:id="P02436">
+               <idno type="gnd">118634496</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118634496.html</idno>
+               <persName type="reg">
+                  <forename>Heinrich</forename>
+                  <surname>Wölfflin</surname>
+               </persName>
+               <birth>
+                  <date when="1864-06-21">21. Juni 1864</date>
+               </birth>
+               <death>
+                  <date when="1945-06-19">19. Juli 1945</date>
+               </death>
+               <occupation>Schweizer Kunsthistoriker  Erwähnt in: "1929.09.30. Passarge, W. an Tillich, P", Recherchiert aus: "Walter Passarge Die Philosophie der Kunstgeschichte in der Gegenwart(Heft 1)"</occupation>
+            </person>          
+            <person xml:id="P02437">
+               <idno type="gnd">116621931</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd116621931.html</idno>
+               <persName type="reg">
+                  <forename>Ludwig</forename>
+                  <surname>Coellen</surname>
+               </persName>
+               <birth>
+                  <date when="1875">1875</date>
+               </birth>
+               <death>
+                  <date when="1945">1945</date>
+               </death>
+               <occupation>Deutscher Philosoph und Kunsthistoriker Erwähnt in: "1929.09.30. Passarge, W. an Tillich, P", Recherchiert aus: "Walter Passarge Die Philosophie der Kunstgeschichte in der Gegenwart(Heft 1)"</occupation>
+            </person>          
+            <person xml:id="P02438">
+               <idno type="gnd">118674129</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118674129.html</idno>
+               <persName type="reg">
+                  <forename>Albert Erich</forename>
+                  <surname>Brinckmann</surname>
+               </persName>
+               <birth>
+                  <date when="1881-09-04">4. September 1881</date>
+               </birth>
+               <death>
+                  <date when="1958-08-10">10. August 1958</date>
+               </death>
+               <occupation>Deutscher Kunsthistoriker, Kunstkritiker Erwähnt in: "1929.09.30. Passarge, W. an Tillich, P", Recherchiert aus: "Walter Passarge Die Philosophie der Kunstgeschichte in der Gegenwart(Heft 1)"</occupation>
+            </person>          
+            <person xml:id="P02439">
+               <idno type="gnd">118792237</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118792237.html</idno>
+               <persName type="reg">
+                  <forename>Wilhelm</forename>
+                  <surname>Pinder</surname>
+               </persName>
+               <birth>
+                  <date when="1878-06-25">25. Juni 1878</date>
+               </birth>
+               <death>
+                  <date when="1947-05-13">13. Mai 1947</date>
+               </death>
+               <occupation>Deutscher Kunsthistoriker, Erwähnt in: "1929.09.30. Passarge, W. an Tillich, P", Recherchiert aus: "Walter Passarge Die Philosophie der Kunstgeschichte in der Gegenwart(Heft 1)"</occupation>
+            </person>          
+            <person xml:id="P02440">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>k. A.</forename>
+                  <surname>Passarge</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Frau von Walter Passarge. Erwähnt in: "1929.09.30. Passarge, W. an Tillich, P"</occupation>
+            </person>          
+            <person xml:id="P02441">
+               <idno type="gnd">116422521</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd116422521.html</idno>
+               <persName type="reg">
+                  <forename>Hans</forename>
+                  <surname>Hamburger</surname>
+               </persName>
+               <birth>
+                  <date when="1889-08-05">5. August 1889</date>
+               </birth>
+               <death>
+                  <date when="1956-08-14">14. August 1956</date>
+               </death>
+               <occupation>Mathematiker, Mitte der 1920er in Köln; zu dieser Zeit mit Tillich bekannt; trafen sich auch 1926 in Paris</occupation>
+            </person>          
+            <person xml:id="P02442">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Malla</forename>
+                  <surname>Jessen</surname>
+               </persName>
+               <persName type="alternative">Martha Jessen</persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>War Mitte der 1920er Jahre Freundin von Hans  Hamburger, seit 15.Oktober 1925 seine Frau (später geschieden); in dieser Zeit mit Tillichs befreundet, verbrachten 1926 auch viel Zeit in Paris miteinander; Tochter des Direktors der Bibliothek des Berliner Kunstgewerbemuseums</occupation>
+            </person>                
          </listPerson>
   </standOff>
 </TEI>
