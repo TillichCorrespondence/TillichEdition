@@ -47,15 +47,15 @@
             </outputRendition>
         </model></elementSpec><elementSpec ident="persName" mode="add"><model behaviour="alternate">
             <param name="default" value="."/>
-            <param name="alternate" value="@ref"/>
+            <param name="alternate" value="id(@ref, doc(&#34;/db/apps/tillichcorrespondence/data/people.xml&#34;))"/>
             <outputRendition xml:space="preserve">
             color: grey;
             </outputRendition>
-        </model></elementSpec><elementSpec ident="unclear" mode="change"><model behaviour="omit"/><model behaviour="inline">
+        </model><model behaviour="inline"/></elementSpec><elementSpec ident="unclear" mode="change"><model behaviour="inline">
             <outputRendition xml:space="preserve" scope="after">
             content: ' [?] ';
             </outputRendition>
-        </model></elementSpec><elementSpec ident="placeName" mode="add"><model behaviour="alternate">
+        </model><model behaviour="omit"/></elementSpec><elementSpec ident="placeName" mode="add"><model behaviour="alternate">
             <param name="default" value="."/>
             <param name="alternate" value="@ref"/>
             <outputRendition xml:space="preserve">
@@ -79,8 +79,34 @@
                 font-weight: bold;
                 </outputRendition>
                 <outputRendition xml:space="preserve" scope="after">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
                 content: "\a";
 white-space: pre;
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
                 </outputRendition>
             </model>
             <model behaviour="inline">
@@ -95,8 +121,34 @@ white-space: pre;
                 content: '; ';
                 </outputRendition>
                 <outputRendition xml:space="preserve" scope="after">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
                 content: "\a";
 white-space: pre;
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
                 </outputRendition>
             </model>
             <model behaviour="inline">
@@ -124,14 +176,117 @@ white-space: pre;
         </model><model predicate="@rend='uu'" behaviour="inline">
             <outputRendition xml:space="preserve">
             
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             text-decoration-line: underline;
   text-decoration-style: double;
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             
             </outputRendition>
         </model><model predicate="@rend='smaller'" behaviour="inline">
             <outputRendition xml:space="preserve">
             font-size: smaller;
             </outputRendition>
-        </model></elementSpec></schemaSpec>
+        </model></elementSpec><elementSpec ident="title" mode="change"><model predicate="$parameters?header='short'" behaviour="heading">
+            <param name="level" value="5"/>
+        </model><modelSequence predicate="parent::titleStmt/parent::fileDesc">
+            <model predicate="preceding-sibling::title" behaviour="text">
+                <param name="content" value="' — '"/>
+            </model>
+            <model behaviour="inline"/>
+        </modelSequence><model predicate="not(@level) and parent::bibl" behaviour="inline"/><modelSequence predicate="@level='m' or not(@level)">
+            <model behaviour="inline">
+                <outputRendition xml:space="preserve">
+                font-style: italic;
+                </outputRendition>
+            </model>
+            <model predicate="ancestor::biblFull" behaviour="text">
+                <param name="content" value="', '"/>
+            </model>
+        </modelSequence><modelSequence predicate="@level='s' or @level='j'">
+            <model behaviour="inline">
+                <outputRendition xml:space="preserve">
+                font-style: italic;
+                </outputRendition>
+            </model>
+            <model predicate="following-sibling::* and     (  ancestor::biblFull)" behaviour="text">
+                <param name="content" value="', '"/>
+            </model>
+        </modelSequence><modelSequence predicate="@level='u' or @level='a'">
+            <model behaviour="inline">
+                <outputRendition xml:space="preserve">
+                font-style: italic;
+                </outputRendition>
+            </model>
+            <model predicate="following-sibling::* and     (    ancestor::biblFull)" behaviour="text">
+                <param name="content" value="'. '"/>
+            </model>
+        </modelSequence><model behaviour="inline">
+            <outputRendition xml:space="preserve">
+            font-style: italic;
+            </outputRendition>
+        </model></elementSpec><elementSpec ident="person" mode="add"><modelSequence>
+            <model behaviour="block">
+                <param name="content" value="(/persName[@type='reg'], if (birth and death) then (&#34; | &#34;, birth/date, &#34;–&#34;, death/date) else (if (birth) then (&#34; | geb. &#34;, birth/date) else (if (death) then (&#34; | gest. &#34;, death/date) else ('null'))))"/>
+            </model>
+            <model behaviour="block">
+                <param name="content" value="note"/>
+            </model>
+            <model behaviour="block">
+                <param name="content" value="idno[@type='DB']"/>
+            </model>
+        </modelSequence></elementSpec><elementSpec ident="note" mode="change"><model predicate="parent::person" behaviour="inline"/><model behaviour="note">
+            <param name="place" value="@place"/>
+            <param name="label" value="@n"/>
+        </model></elementSpec><elementSpec ident="idno" mode="add"><model predicate="parent::person" behaviour="link">
+            <param name="uri" value="."/>
+        </model></elementSpec><elementSpec ident="TEI" mode="change"><model behaviour="document">
+            <param name="content" value="text"/>
+        </model></elementSpec><elementSpec ident="head" mode="change"><model predicate="@type=&#34;context&#34;" behaviour="heading">
+            <param name="level" value="3"/>
+        </model><model predicate="$parameters?header='short'" behaviour="inline">
+            <param name="content" value="replace(string-join(.//text()[not(parent::ref)]), '^(.*?)[^\w]*$', '$1')"/>
+        </model><model predicate="parent::figure" behaviour="block">
+            <outputRendition xml:space="preserve">
+            font-style: italic;
+            </outputRendition>
+        </model><model predicate="parent::table" behaviour="block">
+            <outputRendition xml:space="preserve">
+            font-style: italic;
+            </outputRendition>
+        </model><model predicate="parent::lg" behaviour="block">
+            <outputRendition xml:space="preserve">
+            font-style: italic;
+            </outputRendition>
+        </model><model predicate="parent::list" behaviour="block">
+            <outputRendition xml:space="preserve">
+            font-weight: bold;
+            </outputRendition>
+        </model><model predicate="parent::div" behaviour="heading">
+            <param name="level" value="count(ancestor::div)"/>
+        </model><model behaviour="block"/></elementSpec></schemaSpec>
         </body>
     </text></TEI>

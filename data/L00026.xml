@@ -1,0 +1,151 @@
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Johanna Tillich und Johannes Tillich an Paul Tillich <lb/>vom
+               18.02.1907 </title>
+            <author ref="Johanna Tillich">Johanna Tillich</author>
+            <author ref="Johannes Tillich">Johannes Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1885-1965. Papers, 1894-1974.</collection>
+                  <idno>bMS 649/193</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="Johanna Tillich">Johanna Tillich</persName>
+               <persName ref="Johannes Tillich">Johannes Tillich</persName>
+               <placeName ref="Berlin">Berlin</placeName>
+               <date when="1907-02-18">18.02.1907</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="Paul Tillich">Paul Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2022-05-02">Intitale Auszeichnung des Transkripts</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="JohannaTillich">
+            <pb n="1"/>
+            <opener>
+               <dateline>
+                  <placeName ref="Berlin">Berlin</placeName> d. <date when="1907-02-18">18.2.07</date></dateline>
+               <salute>Mein lieber <persName ref="Paul Tillich">Paul</persName>,</salute>
+            </opener>
+            <p>nun bin ich heute zum ersten Mal ordentlich auf, und es geht mir auch so viel besser,
+               daß ich Dir gleich ausführlicher schreiben will. Das waren böse Tage, die ich seit
+               meinem Geburtstag im Bett verlebt habe. Dieser schreckliche Vorderzahn hat mich
+               wirklich namenlos gequält, besonders in den Nächten. Ich glaube, ich lasse ihn nicht
+               mehr lange drin. </p>
+            <p>Eben war <persName ref="Riedel"><hi rend="aq">Riedel</hi></persName> noch einmal hier
+               und hat mich „besehen“ und für ganz gut gefunden.<pb n="2"/></p>
+            <p>Leider darf ich erst morgen hinaus gehen. – Diesen Umständen nach können <persName ref="Toni Winkler">Toni</persName> und ich uns noch nicht bestimmt anmelden, doch
+               denke ich, es wird doch etwas werden. Wir schreiben dann in den folgenden Tagen noch
+               einmal. Hoffentlich bleibt das Wetter für uns so schön!</p>
+            <p>Nun will ich Dir aber noch einmal danken für Dein Buch und den Brief. Eins bitte ich
+               Dich nur, fange Du nicht brieflich mit K. an über mich zu verhandeln. Ein dritter
+               stört leicht. Ich hoffe, daß Du es noch nicht getan! Im übrigen hat K. weder zum
+               Geburtstag noch sonst etwas seit 4 Wochen von sich hören lassen. Einesteils kann es
+               mir ja nur <pb n="3"/> recht sein, wenn es auch manchmal <hi rend="u">verletzt</hi>.-
+               Bitte nichts davon erwähnen! </p>
+            <p>Denke Dir, 7 Bücher habe ich noch erhalten: <hi rend="u"><hi rend="aq">Idealismus</hi></hi> von <hi rend="aq"><hi rend="u"><persName ref="Christian Muff">Muff</persName></hi></hi>. (von <persName ref="Toni Winkler"><hi rend="aq">Toni</hi></persName>) Er (<hi rend="aq"><persName ref="Christian Muff">Muff</persName></hi>) selbst hat mir eine Widmung
+               hineingeschrieben, ich will ihm heute noch danken. <hi rend="u"><hi rend="aq">Gedichte</hi></hi> von <persName ref="Conrad Ferdinand Meyer"><hi rend="u"><hi rend="aq">C. F. Meyer</hi></hi></persName> von Papa. <hi rend="aq"><hi rend="u">Islandfischer</hi></hi> von <persName ref="Pierre Loti"><hi rend="aq">Pierre Loti</hi></persName> von <persName ref="Käte">Käte</persName>. - <hi rend="u"><hi rend="aq">Hann Klüt</hi></hi> v. <persName ref="Georg Engel"><hi rend="aq">G. Engel</hi></persName> von <persName ref="Käte Held"><hi rend="aq">Käte Held</hi></persName>. - <hi rend="aq"><hi rend="u">Vor 30
+                  Jahren</hi></hi> (<hi rend="aq"><persName ref="Bertholt Auerbach">Auerbach</persName></hi>) v. <unclear cert="medium"><persName ref="Tante Eugenie"><hi rend="aq">Eugenia</hi></persName></unclear>. - <hi rend="aq"><hi rend="u"><persName ref="Eduard Möricke">Möricke</persName></hi></hi>
+               v. <persName ref="Tante Else">Tante <hi rend="aq">Else</hi></persName>.
+                  <sic>und</sic>
+               <hi rend="aq">Gott grüße Dich</hi> (<hi rend="aq"><persName ref="Paul Conrad">Conrad</persName></hi>) von <persName ref="M. v. Döring"/><hi rend="aq">M. v.
+                  Döring</hi>.</p>
+            <p>Außerdem habe ich noch soviel schöne Dinge erhalten! Wirklich viel zu viel: <add place="superlinear">Bilder</add>Mappe v. <hi rend="aq"><persName ref="Richter">Richter</persName></hi>, <hi rend="aq"><persName ref="Rahel">Rahel</persName></hi> u. <hi rend="aq"><persName ref="Esther">Esther</persName></hi>, 2 gr. Bilder mit Rahmen, <pb n="3"/> Regenschirm,
+               Briefbogen u.s.w. Die bewußte <unclear cert="medium">Schokolatha</unclear> bringe ich
+               Dir mit; ich hätte Dir wieder ein Päckchen geschickt, wenn ich nicht krank geworden. </p>
+            <p>Aber nun noch eine große Freude für Dich. Heute morgen kam ein Brief von <persName ref="Tante Emma">Tante Emma</persName> mit 300 <hi rend="aq">M</hi> für Dich zum
+                  <hi rend="aq">Dr</hi>. Ist das nicht reizend nett? Danke ihr aber nicht dafür,
+               weil sie es nicht Onkel wissen lassen möchte. Schreibe ihr einmal so und erzähle v.
+               Deinem Studium. </p>
+            <p>Also Du willst uns auch noch im nächsten Semester untreu sein u. in <placeName ref="Halle">H.</placeName> bleiben. Ich freue mich aber für Dich! Wie schade, daß
+               Deine nächsten Freunde nicht auch noch dort bleiben. Hoffentlich treffen wir Dich
+               nicht <hi rend="u">zu</hi> elend an.</p>
+            <p>Seit 3 Tagen ist <persName ref="Anna">Annas</persName> Mutter aus <placeName ref="Schönfließ">Schönfließ</placeName> hier bei uns, um den Geburtstag (heute) v.
+                  <persName ref="Anna">Anna</persName> mit zu feiern. Die Freude war groß.</p>
+         </div>
+         <div><!--Dieser kurze Textteil ist am oberen Ende der Seite und kopfüber hinzugefügt worden, da unten kein Platz mehr. PS -->
+            <p>Nun aber Schluß! und hoffentlich auf Wiedersehen freitag!!! Herzl. Grüße
+               allerseits.</p>
+
+            <closer>
+               <salute>In herzl. Gedenken</salute>
+               <signed>Deine Schwester J.</signed>
+            </closer>
+         </div>
+         <div type="JohannesTillich">
+            <opener><salute>Lieber Sohn!</salute></opener>
+            <p>Ich danke Dir für Deinen Brief. Hoffentlich ist Euch d. Bummel gut bekommen, es war
+               ja greuliches Wetter; e. Karte von Dir traf noch nicht ein. Schreibe umgehend ob d.
+                  <unclear cert="medium">Partie</unclear> Dir gut bekommen ist,– die Geldgabe von
+               Tante <persName ref="Tante Emma">E.</persName> lege ich für Dich an; wenn nicht zum
+               Dr. <unclear cert="medium">Theol.</unclear> kann sie vielleicht zum Lizentiaten
+               dienen.– Deine Wingolfsdogmatik ist e. schwere Aufgabe, schreibe nicht zu
+               abstrakt,</p>
+            <closer><salute>Gruß u. Kuß</salute><signed>D. tr. Vater</signed></closer>
+         </div>
+      </body>
+   </text>
+</TEI>

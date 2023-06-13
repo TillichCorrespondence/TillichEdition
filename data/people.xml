@@ -146,7 +146,9 @@
                   <surname>Adler</surname>
                </persName>
                <persName type="full">
-                  <forename>Ada</forename><forename>Sara</forename><surname>Adler</surname>
+                  <forename>Ada</forename>
+                    <forename>Sara</forename>
+                    <surname>Adler</surname>
                </persName>
                <birth>
                   <date when="1878">1878</date>
@@ -200,7 +202,9 @@
                   <surname>Adler</surname>
                </persName>
                <persName type="full">
-                  <forename>Bruno</forename><forename>Maria</forename><surname>Adler</surname>
+                  <forename>Bruno</forename>
+                    <forename>Maria</forename>
+                    <surname>Adler</surname>
                </persName>
                <persName type="pseud">Urban Roedl</persName>
                <birth>
@@ -231,7 +235,9 @@
                   <surname>Adorno</surname>
                </persName>
                <persName type="full">
-                  <forename>Theodor</forename><forename>Wiesengrund</forename><surname>Adorno</surname>
+                  <forename>Theodor</forename>
+                    <forename>Wiesengrund</forename>
+                    <surname>Adorno</surname>
                </persName>
                <persName type="nickname">Teddy</persName>
                <birth>
@@ -1496,6 +1502,7 @@
             
             <person xml:id="P00641">
                <idno type="gnd">1162904755</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd1162904755.html</idno>
                <persName type="reg">
                   <forename>Alfred</forename>
                   <surname>Fritz</surname>
@@ -1539,11 +1546,17 @@
                   <surname>Tillich</surname>
                </persName>
                <persName type="full">
-                  <forename>Paul</forename><forename>Johannes</forename><surname>Tillich</surname>
+                  <forename>Paul</forename>
+                    <forename>Johannes</forename>
+                    <surname>Tillich</surname>
                </persName>
                <persName type="pseud">Philosoph</persName>
-               <persName type="alt"><addName type="nick">Paulus</addName></persName>
-               <persName type="alt"><addName type="nick">Paule</addName></persName>
+               <persName type="alt">
+                    <addName type="nick">Paulus</addName>
+                </persName>
+               <persName type="alt">
+                    <addName type="nick">Paule</addName>
+                </persName>
                <birth>
                   <date when="1886-08-20">20. August 1886</date>
                   <placeName>Starzeddel</placeName>
@@ -1773,7 +1786,7 @@
                <death>
                   <date>k. A.</date>
                </death>
-               <occupation>Vgl. Studentenverbindung, vgl. 1907. Tillich, P. an Fritz, A (Hätte ich...)</occupation>
+               <occupation>Vgl. Studentenverbindung, vgl. 1907. Tillich, P. an Fritz, A (Hätte ich...)</occupation>
             </person>
             <person xml:id="P02152">
                <idno type="gnd">k. A.</idno>
@@ -1878,7 +1891,7 @@
                <death>
                   <date>k. A.</date>
                </death>
-               <occupation>Studienkollege Tillichs (Halle?); Studentenverbindung, vgl. 1907. Tillich, P. an Fritz, A (Hätte ich...), 1907 Tillich, P. an Fritz, A (So schwer…). Siehe: 1906. Wingolfsbrüder an Tillich, P</occupation>
+               <occupation>Studienkollege Tillichs (Halle?); Studentenverbindung, vgl. 1907. Tillich, P. an Fritz, A (Hätte ich...), 1907 Tillich, P. an Fritz, A (So schwer…). Siehe: 1906. Wingolfsbrüder an Tillich, P</occupation>
             </person>
             <person xml:id="P02159">
                <idno type="gnd">k. A.</idno>
@@ -1939,7 +1952,8 @@
                   <date>k. A.</date>
                </death>
                <occupation>Ein Funktionär des Wingolfs</occupation>
-            </person><person xml:id="P02163">
+            </person>
+            <person xml:id="P02163">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
@@ -1953,7 +1967,8 @@
                   <date>k. A.</date>
                </death>
                <occupation>Studienkollege Tillichs</occupation>
-            </person><person xml:id="P02164">
+            </person>
+            <person xml:id="P02164">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
@@ -1967,7 +1982,8 @@
                   <date>k. A.</date>
                </death>
                <occupation>Ein Funktionär des Wingolfs (Philister)</occupation>
-            </person><person xml:id="P02165">
+            </person>
+            <person xml:id="P02165">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
@@ -1980,8 +1996,9 @@
                <death>
                   <date>k. A.</date>
                </death>
-               <occupation>Studentenverbindung, vgl. 1907. Tillich, P. an Fritz, A (Hätte ich...)</occupation>
-            </person><person xml:id="P02166">
+               <occupation>Studentenverbindung, vgl. 1907. Tillich, P. an Fritz, A (Hätte ich...)</occupation>
+            </person>
+            <person xml:id="P02166">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
@@ -1994,8 +2011,9 @@
                <death>
                   <date>k. A.</date>
                </death>
-               <occupation>Studentenverbindung, vgl. 1907. Tillich, P. an Fritz, A (Hätte ich...); (Verzicht auf Recht)</occupation>
-            </person><person xml:id="P02167">
+               <occupation>Studentenverbindung, vgl. 1907. Tillich, P. an Fritz, A (Hätte ich...); (Verzicht auf Recht)</occupation>
+            </person>
+            <person xml:id="P02167">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
@@ -2008,8 +2026,9 @@
                <death>
                   <date>k. A.</date>
                </death>
-               <occupation>Studentenverbindung, vgl. 1907. Tillich, P. an Fritz, A (Hätte ich...)</occupation>
-            </person><person xml:id="P02168">
+               <occupation>Studentenverbindung, vgl. 1907. Tillich, P. an Fritz, A (Hätte ich...)</occupation>
+            </person>
+            <person xml:id="P02168">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
@@ -2022,8 +2041,9 @@
                <death>
                   <date>k. A.</date>
                </death>
-               <occupation>Studentenverbindung, vgl. 1907. Tillich, P. an Fritz, A (Hätte ich...)</occupation>
-            </person><person xml:id="P02169">
+               <occupation>Studentenverbindung, vgl. 1907. Tillich, P. an Fritz, A (Hätte ich...)</occupation>
+            </person>
+            <person xml:id="P02169">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
@@ -2036,8 +2056,9 @@
                <death>
                   <date>k. A.</date>
                </death>
-               <occupation>Studentenverbindung, vgl. 1907. Tillich, P. an Fritz, A (Hätte ich...)</occupation>
-            </person><person xml:id="P02170">
+               <occupation>Studentenverbindung, vgl. 1907. Tillich, P. an Fritz, A (Hätte ich...)</occupation>
+            </person>
+            <person xml:id="P02170">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
@@ -2050,8 +2071,9 @@
                <death>
                   <date>k. A.</date>
                </death>
-               <occupation>Studentenverbindung, vgl. 1907. Tillich, P. an Fritz, A (Hätte ich...)</occupation>
-            </person><person xml:id="P02171">
+               <occupation>Studentenverbindung, vgl. 1907. Tillich, P. an Fritz, A (Hätte ich...)</occupation>
+            </person>
+            <person xml:id="P02171">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
@@ -2064,8 +2086,9 @@
                <death>
                   <date>k. A.</date>
                </death>
-               <occupation>Studentenverbindung, vgl. 1907. Tillich, P. an Fritz, A (Hätte ich...)</occupation>
-            </person><person xml:id="P02172">
+               <occupation>Studentenverbindung, vgl. 1907. Tillich, P. an Fritz, A (Hätte ich...)</occupation>
+            </person>
+            <person xml:id="P02172">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
@@ -2078,8 +2101,9 @@
                <death>
                   <date>k. A.</date>
                </death>
-               <occupation>Studentenverbindung, vgl. 1907. Tillich, P. an Fritz, A (Hätte ich...); 1907. Tillich, P. an Fritz, A._Endlich soweit</occupation>
-            </person><person xml:id="P02173">
+               <occupation>Studentenverbindung, vgl. 1907. Tillich, P. an Fritz, A (Hätte ich...); 1907. Tillich, P. an Fritz, A._Endlich soweit</occupation>
+            </person>
+            <person xml:id="P02173">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
@@ -2092,8 +2116,9 @@
                <death>
                   <date>k. A.</date>
                </death>
-               <occupation>Studentenverbindung, vgl. 1907. Tillich, P. an Fritz, A (Hätte ich...)</occupation>
-            </person><person xml:id="P02174">
+               <occupation>Studentenverbindung, vgl. 1907. Tillich, P. an Fritz, A (Hätte ich...)</occupation>
+            </person>
+            <person xml:id="P02174">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
@@ -2106,8 +2131,9 @@
                <death>
                   <date>k. A.</date>
                </death>
-               <occupation>Studienkollege Tillichs, vgl. 1907. Tillich, P. an Fritz, A (Hätte ich...);  1907. Tillich, P. an Fritz, A. (So schwer...); 1907. Tillich, P. an Fritz, A. (Fast wage...); 1907. Tillich, P. an Fritz, A._Endlich soweit; identisch mit Daniel Schuster P02172?</occupation>
-            </person><person xml:id="P02175">
+               <occupation>Studienkollege Tillichs, vgl. 1907. Tillich, P. an Fritz, A (Hätte ich...);  1907. Tillich, P. an Fritz, A. (So schwer...); 1907. Tillich, P. an Fritz, A. (Fast wage...); 1907. Tillich, P. an Fritz, A._Endlich soweit; identisch mit Daniel Schuster P02172?</occupation>
+            </person>
+            <person xml:id="P02175">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
@@ -2121,8 +2147,9 @@
                <death>
                   <date>k. A.</date>
                </death>
-               <occupation>Studentenverbindung, vgl. 1907. Tillich, P. an Fritz, A (Hätte ich...)</occupation>
-            </person><person xml:id="P02176">
+               <occupation>Studentenverbindung, vgl. 1907. Tillich, P. an Fritz, A (Hätte ich...)</occupation>
+            </person>
+            <person xml:id="P02176">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
@@ -2135,8 +2162,9 @@
                <death>
                   <date>k. A.</date>
                </death>
-               <occupation>Studentenverbindung, vgl. 1907. Tillich, P. an Fritz, A (Hätte ich...)</occupation>
-            </person><person xml:id="P02177">
+               <occupation>Studentenverbindung, vgl. 1907. Tillich, P. an Fritz, A (Hätte ich...)</occupation>
+            </person>
+            <person xml:id="P02177">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
@@ -2149,8 +2177,9 @@
                <death>
                   <date>k. A.</date>
                </death>
-               <occupation>Studentenverbindung, vgl. 1907. Tillich, P. an Fritz, A (Hätte ich...)</occupation>
-            </person><person xml:id="P02178">
+               <occupation>Studentenverbindung, vgl. 1907. Tillich, P. an Fritz, A (Hätte ich...)</occupation>
+            </person>
+            <person xml:id="P02178">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
@@ -2163,8 +2192,9 @@
                <death>
                   <date>k. A.</date>
                </death>
-               <occupation>Studentenverbindung, vgl. 1907. Tillich, P. an Fritz, A (Hätte ich...)</occupation>
-            </person><person xml:id="P02179">
+               <occupation>Studentenverbindung, vgl. 1907. Tillich, P. an Fritz, A (Hätte ich...)</occupation>
+            </person>
+            <person xml:id="P02179">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
@@ -2177,8 +2207,9 @@
                <death>
                   <date>k. A.</date>
                </death>
-               <occupation>Studentenverbindung, vgl. 1907. Tillich, P. an Fritz, A (Hätte ich...)s</occupation>
-            </person><person xml:id="P02180">
+               <occupation>Studentenverbindung, vgl. 1907. Tillich, P. an Fritz, A (Hätte ich...)s</occupation>
+            </person>
+            <person xml:id="P02180">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
@@ -2191,8 +2222,9 @@
                <death>
                   <date>k. A.</date>
                </death>
-               <occupation>Studentenverbindung, vgl. 1907. Tillich, P. an Fritz, A (Hätte ich...)</occupation>
-            </person><person xml:id="P02181">
+               <occupation>Studentenverbindung, vgl. 1907. Tillich, P. an Fritz, A (Hätte ich...)</occupation>
+            </person>
+            <person xml:id="P02181">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
@@ -2205,8 +2237,9 @@
                <death>
                   <date>k. A.</date>
                </death>
-               <occupation>Studentenverbindung, vgl. 1907. Tillich, P. an Fritz, A (Hätte ich...)</occupation>
-            </person><person xml:id="P02182">
+               <occupation>Studentenverbindung, vgl. 1907. Tillich, P. an Fritz, A (Hätte ich...)</occupation>
+            </person>
+            <person xml:id="P02182">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
@@ -2219,8 +2252,9 @@
                <death>
                   <date>k. A.</date>
                </death>
-               <occupation>Studentenverbindung, vgl. 1907. Tillich, P. an Fritz, A (Hätte ich...)</occupation>
-            </person><person xml:id="P02183">
+               <occupation>Studentenverbindung, vgl. 1907. Tillich, P. an Fritz, A (Hätte ich...)</occupation>
+            </person>
+            <person xml:id="P02183">
                <idno type="gnd">118824821</idno>
                <idno type="DB">https://www.deutsche-biographie.de/pnd118824821.html</idno>
                <persName type="reg">
@@ -2233,8 +2267,9 @@
                <death>
                   <date>1942</date>
                </death>
-               <occupation>Naturwissenschaftler, Schriftsteller, Lehrer, Studentenverbindung, vgl. 1907. Tillich, P. an Fritz, A (Hätte ich...)</occupation>
-            </person><person xml:id="P02184">
+               <occupation>Naturwissenschaftler, Schriftsteller, Lehrer, Studentenverbindung, vgl. 1907. Tillich, P. an Fritz, A (Hätte ich...)</occupation>
+            </person>
+            <person xml:id="P02184">
                <idno type="gnd">118991787</idno>
                <idno type="DB">https://www.deutsche-biographie.de/pnd118991787.html</idno>
                <persName type="reg">
@@ -2249,7 +2284,8 @@
                   <date>1933</date>
                </death>
                <occupation>Evangelischer Theologe, Neutestamentler, Patristiker</occupation>
-            </person><person xml:id="P02185">
+            </person>
+            <person xml:id="P02185">
                <idno type="gnd">14373685X</idno>
                <idno type="DB">https://www.deutsche-biographie.de/pnd14373685X.html</idno>
                <persName type="reg">
@@ -2263,7 +2299,8 @@
                   <date>1938</date>
                </death>
                <occupation>Ingenieur</occupation>
-            </person><person xml:id="P02186">
+            </person>
+            <person xml:id="P02186">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
@@ -2277,7 +2314,8 @@
                   <date>k. A.</date>
                </death>
                <occupation>k. A.</occupation>
-            </person><person xml:id="P02187">
+            </person>
+            <person xml:id="P02187">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
@@ -2291,7 +2329,8 @@
                   <date>k. A.</date>
                </death>
                <occupation>Offenbar kleiner Bruder von Lorenz. Siehe: 1907.08.13. Hanffstengel, G. an Tillich, P</occupation>
-            </person><person xml:id="P02188">
+            </person>
+            <person xml:id="P02188">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
@@ -2305,7 +2344,8 @@
                   <date>k. A.</date>
                </death>
                <occupation>Mitstudent oder zumindest Mitbruder des Wingolfs. Siehe u. a. 1907.08.13. Hanffstengel, G. an Tillich, P. / 1907.03.22. Hanffstengel, P. an Tillich, P / 1907. Tillich, P. an Fritz, A._Endlich soweit</occupation>
-            </person><person xml:id="P02189">
+            </person>
+            <person xml:id="P02189">
                <idno type="gnd">1015874843</idno>
                <idno type="DB">https://www.deutsche-biographie.de/pnd1015874843.html</idno>
                <persName type="reg">
@@ -2319,7 +2359,8 @@
                   <date>k. A.</date>
                </death>
                <occupation>Pfarrer; Mitstudent oder zumindest Mitbruder des Wingolfs. Siehe u. a. 1907.08.13. Hanffstengel, G. an Tillich, P.</occupation>
-            </person><person xml:id="P02190">
+            </person>
+            <person xml:id="P02190">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
@@ -2333,7 +2374,8 @@
                   <date>k. A.</date>
                </death>
                <occupation>Mitstudent oder zumindest Mitbruder des Wingolfs. Siehe u. a. 1907.08.13. Hanffstengel, G. an Tillich, P.</occupation>
-            </person><person xml:id="P02191">
+            </person>
+            <person xml:id="P02191">
                <idno type="gnd">139617159</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
@@ -2347,7 +2389,8 @@
                   <date>k. A.</date>
                </death>
                <occupation>Ingenieur; wohl ältesteser Bruder der Smissen-Geschwister. Studierte Chemie.</occupation>
-            </person><person xml:id="P02192">
+            </person>
+            <person xml:id="P02192">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
@@ -2361,7 +2404,8 @@
                   <date>k. A.</date>
                </death>
                <occupation>Damit ist irgendein Professor für Chemie an der Hochschule in Berlin gemeint.</occupation>
-            </person><person xml:id="P02193">
+            </person>
+            <person xml:id="P02193">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
@@ -2375,7 +2419,8 @@
                   <date>k. A.</date>
                </death>
                <occupation>Vgl. 1907. Tillich, P. an Fritz, A. (So schwer...); Tillich spricht von dessen kürzlicher "Trauerkneipe"</occupation>
-            </person><person xml:id="P02194">
+            </person>
+            <person xml:id="P02194">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
@@ -2389,7 +2434,8 @@
                   <date>k. A.</date>
                </death>
                <occupation>Vgl. 1907. Tillich, P. an Fritz, A. (So schwer...); (Verzicht auf Recht)</occupation>
-            </person><person xml:id="P02195">
+            </person>
+            <person xml:id="P02195">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
@@ -2403,7 +2449,8 @@
                   <date>k. A.</date>
                </death>
                <occupation>Scheint ein Studienkollege zu sein. Nachname ist nicht bekannt. Wird erwähnt im Brief: 1907.10.02. Balke, H. an Tillich, P.</occupation>
-            </person><person xml:id="P02196">
+            </person>
+            <person xml:id="P02196">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
@@ -2417,7 +2464,8 @@
                   <date>k. A.</date>
                </death>
                <occupation>So unterschreibt irgendein Mädel dass Tillich öfters gereimte Postkarten zusendet.</occupation>
-            </person><person xml:id="P02197">
+            </person>
+            <person xml:id="P02197">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
@@ -2431,7 +2479,8 @@
                   <date>k. A.</date>
                </death>
                <occupation>Conchargierter von Fr. Banzhaf und vermutlich drum auch ein Fuxmajor im Tübinger Wingolf. Siehe: 1907.08.18. Banzhaf, F. an Tillich, P.</occupation>
-            </person><person xml:id="P02198">
+            </person>
+            <person xml:id="P02198">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
@@ -2445,7 +2494,8 @@
                   <date>k. A.</date>
                </death>
                <occupation>Ein Mitstudent von Tillich der in irgendeine Austrittsangelegenheit verwickelt war. Siehe: 1907.12.11. Balke, H. an Tillich, P.</occupation>
-            </person><person xml:id="P02199">
+            </person>
+            <person xml:id="P02199">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
@@ -2459,7 +2509,8 @@
                   <date>k. A.</date>
                </death>
                <occupation>Mitstudent Tillichs in Halle. Vgl. 1907.04.21. Schubert, D. an Tillich, P.; 1907. Tillich, P. an Fritz, A. (Fast wage)</occupation>
-            </person><person xml:id="P02200">
+            </person>
+            <person xml:id="P02200">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
@@ -2473,7 +2524,8 @@
                   <date>k. A.</date>
                </death>
                <occupation>Tante von Paul Tillich.</occupation>
-            </person><person xml:id="P02201">
+            </person>
+            <person xml:id="P02201">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
@@ -2487,7 +2539,8 @@
                   <date>k. A.</date>
                </death>
                <occupation>Der Bruder von Alfred Fritz. Erwähnt in: 1907.07.27. Fritz, A. an Tillich, P. Den Vornamen gilt es noch herauszufinden. (Gottlieb Fritz ist der Vater);  ebenso erwähnt in 1907. Tillich, P. an Fritz, A. (Fast wage)</occupation>
-            </person><person xml:id="P02202">
+            </person>
+            <person xml:id="P02202">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
@@ -5122,7 +5175,7 @@
                <death>
                   <date when="1981">1981</date>
                </death>
-               <occupation>Frau des Philosophen Hermann Graf Keyserling. Erwähnt in: "1931.11.07. Keyserling-Bismarck, Gräfin G. an Tillich, P."</occupation>
+               <occupation>Frau des Philosophen Hermann Graf Keyserling. Erwähnt in: "1931.11.07. Keyserling-Bismarck, Gräfin G. an Tillich, P."</occupation>
             </person>
             <person xml:id="P02377">
                <idno type="gnd">k. A.</idno>
@@ -5138,7 +5191,7 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>Erwähnt in: "1931.11.07. Keyserling-Bismarck, Gräfin G. an Tillich, P."</occupation>
+               <occupation>Erwähnt in: "1931.11.07. Keyserling-Bismarck, Gräfin G. an Tillich, P."</occupation>
             </person>
             <person xml:id="P02378">
                <idno type="gnd">k. A.</idno>
