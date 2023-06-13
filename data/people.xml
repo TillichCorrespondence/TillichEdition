@@ -1494,7 +1494,24 @@
             
             
             
-
+            <person xml:id="P00641">
+               <idno type="gnd">1162904755</idno>
+               <persName type="reg">
+                  <forename>Alfred</forename>
+                  <surname>Fritz</surname>
+               </persName>
+               <persName type="pseud">Frede</persName>
+               <birth>
+                  <date>1886</date>
+               </birth>
+               <death>
+                  <date>1963</date>
+               </death>
+               <occupation>Pfarrer</occupation>
+               <occupation>Heimleiter</occupation>
+               <note type="bio">Evangelischer Theologe, Studienkollege und Schwager Paul Tillichs, dessen Schwester Johanna mit ihm verheiratet war.</note>
+            </person>
+            
             <person xml:id="P01595">
                <idno type="gnd">1243813822</idno>
                <persName type="reg">
