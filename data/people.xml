@@ -1500,6 +1500,8 @@
             
             
             
+            
+            
             <person xml:id="P00641">
                <idno type="gnd">1162904755</idno>
                <idno type="DB">https://www.deutsche-biographie.de/pnd1162904755.html</idno>
@@ -1575,8 +1577,322 @@
             
             
             
-            
-            
+            <person xml:id="P02117">
+               <idno type="gnd">118808176</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118808176.html</idno>
+               <persName type="reg">
+                  <forename>Owen D.</forename>
+                  <surname>Young</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Diplomat; Rechtsanwalt; Unternehmer; Geschäftsmann</occupation>
+            </person>    
+            <person xml:id="P02118">
+               <idno type="gnd">119079577</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd119079577.html</idno>
+               <persName type="reg">
+                  <forename>Jacob</forename>
+                  <surname>Zabarella</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation> Philosoph</occupation>
+            </person>    
+            <person xml:id="P02119">
+               <idno type="gnd">119296411</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd119296411.html</idno>
+               <persName type="reg">
+                  <forename>Girolamo</forename>
+                  <surname>Zanchi</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Reformierter Theologe und Dogmatiker</occupation>
+            </person>    
+            <person xml:id="P02120">
+               <idno type="gnd">118636227</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118636227.html</idno>
+               <persName type="reg">
+                  <forename>k. A.</forename>
+                  <surname>Zarathustra</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Religionsstifter</occupation>
+            </person>    
+            <person xml:id="P02121">
+               <idno type="gnd">116966467</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd116966467.html</idno>
+               <persName type="reg">
+                  <forename>Lilly</forename>
+                  <surname>Zarncke</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Psychologin; Theologin; Autorin</occupation>
+            </person>    
+            <person xml:id="P02122">
+               <idno type="gnd">11877235X</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd11877235X.html</idno>
+               <persName type="reg">
+                  <forename>Hans</forename>
+                  <surname>Zehrer</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Chefredakteur der "Welt"; Journalist; Übersetzer; Publizist</occupation>
+            </person>    
+            <person xml:id="P02123">
+               <idno type="gnd">118636383</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118636383.html</idno>
+               <persName type="reg">
+                  <forename>Eduard</forename>
+                  <surname>Zeller</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Philosoph; Evangelischer Theologe; Historiker; Hochschullehrer</occupation>
+            </person>    
+            <person xml:id="P02124">
+               <idno type="gnd">100964338</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd100964338.html</idno>
+               <persName type="reg">
+                  <forename>k. A.</forename>
+                  <surname>Zeno</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Bischof von Verona; Heiliger</occupation>
+            </person>    
+            <person xml:id="P02125">
+               <idno type="gnd">123429455</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd123429455.html</idno>
+               <persName type="reg">
+                  <forename>Christian</forename>
+                  <surname>Zervos</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Kunstkritiker; Kunstsammler</occupation>
+            </person>    
+            <person xml:id="P02126">
+               <idno type="gnd">1041936451</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd1041936451.html</idno>
+               <persName type="reg">
+                  <forename>Gregory</forename>
+                  <surname>Zilboorg</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Übersetzer; Psychoanalytiker</occupation>
+            </person>    
+            <person xml:id="P02127">
+               <idno type="gnd">1012561151</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd1012561151.html</idno>
+               <persName type="reg">
+                  <forename>Heinrich</forename>
+                  <surname>Zimmern</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Evangelischer Theologe; Pfarrer</occupation>
+            </person>    
+            <person xml:id="P02128">
+               <idno type="gnd">11863707X</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd11863707X.html</idno>
+               <persName type="reg">
+                  <forename>Nikolaus Ludwig Graf von</forename>
+                  <surname>Zinzendorf</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Pietist; Stifter der Herrnhuter Brüdergemeine</occupation>
+            </person>    
+            <person xml:id="P02129">
+               <idno type="gnd">118637223</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118637223.html</idno>
+               <persName type="reg">
+                  <forename>Émile</forename>
+                  <surname>Zola</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Schriftsteller; Journalist; Fotograf; Kunstkritiker; Librettist</occupation>
+            </person>    
+            <person xml:id="P02130">
+               <idno type="gnd">118773062</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118773062.html</idno>
+               <persName type="reg">
+                  <forename>Wilhelm</forename>
+                  <surname>Zöllner</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Evangelischer Theologe; Pfarrer</occupation>
+            </person>    
+            <person xml:id="P02131">
+               <idno type="gnd">117015067</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd117015067.html</idno>
+               <persName type="reg">
+                  <forename>Leopold</forename>
+                  <surname>Zscharnack</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Evangelischer Theologe</occupation>
+            </person>    
+            <person xml:id="P02132">
+               <idno type="gnd">128013141</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Gertrud</forename>
+                  <surname>Zschorsch</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>    
+            <person xml:id="P02133">
+               <idno type="gnd">118637304</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118637304.html</idno>
+               <persName type="reg">
+                  <forename>Carl</forename>
+                  <surname>Zuckmayer</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Schriftsteller; Dramatiker; Drehbuchautor</occupation>
+            </person>    
+            <person xml:id="P02134">
+               <idno type="gnd">127949062</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd127949062.html</idno>
+               <persName type="reg">
+                  <forename>Arnold</forename>
+                  <surname>Zur Nieden</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Theologe; Pfarrer; Superintendent</occupation>
+            </person>    
+            <person xml:id="P02135">
+               <idno type="gnd">118637460</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118637460.html</idno>
+               <persName type="reg">
+                  <forename>Friderike Maria</forename>
+                  <surname>Zweig</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Schriftstellerin; Journalistin; Lehrerin; Übersetzerin</occupation>
+            </person>    
+            <person xml:id="P02136">
+               <idno type="gnd">118637479</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118637479.html</idno>
+               <persName type="reg">
+                  <forename>Stefan</forename>
+                  <surname>Zweig</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Schriftsteller; Journalist; Musiker; Übersetzer; Pazifist; Sammler</occupation>
+            </person>    
+            <person xml:id="P02137">
+               <idno type="gnd">118637533</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118637533.html</idno>
+               <persName type="reg">
+                  <forename>Ulrich</forename>
+                  <surname>Zwingli</surname>
+               </persName>
+               <persName type="alternative">Huldrych Zwingli</persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Reformator</occupation>
+            </person>    
             <person xml:id="P02138">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
@@ -6180,7 +6496,67 @@
                   <date when="0001-01-01">k. A.</date>
                </death>
                <occupation>War Mitte der 1920er Jahre Freundin von Hans  Hamburger, seit 15.Oktober 1925 seine Frau (später geschieden); in dieser Zeit mit Tillichs befreundet, verbrachten 1926 auch viel Zeit in Paris miteinander; Tochter des Direktors der Bibliothek des Berliner Kunstgewerbemuseums</occupation>
-            </person>                
+            </person>              
+            <person xml:id="P02443">
+               <idno type="gnd">114681593X</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Richard Hugo Ernst Graf von</forename>
+                  <surname>Schwerin</surname>
+               </persName>
+               <birth>
+                  <date when="1892-05-24">24. Mai 1892</date>
+               </birth>
+               <death>
+                  <date when="1951-07-23">23. Juli 1951</date>
+               </death>
+               <occupation>Leutnant im 1. Weltkrieg; Generalleutnant im 2. Weltkrieg</occupation>
+            </person>               
+            <person xml:id="P02444">
+               <idno type="gnd">121594165</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd121594165.html</idno>
+               <persName type="reg">
+                  <forename>Carl</forename>
+                  <surname>Dreyfuß</surname>
+               </persName>
+               <birth>
+                  <date when="1905">1905</date>
+               </birth>
+               <death>
+                  <date when="1949-09-24">24. September 1949</date>
+               </death>
+               <occupation>Freund Adornos, Bekannter Tillichs (Frankfurter Umfeld), Umfeld Institut für Sozialforschung, später Filmemacher; weitere Informationen: https://www.psychoanalysis.org.il/en/dreyfuss-dr-daniel-carl/</occupation>
+            </person>         
+            <person xml:id="P02445">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>k. A.</forename>
+                  <surname>Verlag Mohr Siebeck</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Institution: Verlag</occupation>
+            </person>         
+            <person xml:id="P02446">
+               <idno type="gnd">118514636</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118514636.html</idno>
+               <persName type="reg">
+                  <forename>Otto</forename>
+                  <surname>Braun</surname>
+               </persName>
+               <birth>
+                  <date when="1872-01-28">28. Januar 1872</date>
+               </birth>
+               <death>
+                  <date when="1955-12-15">15. Dezember 1955</date>
+               </death>
+               <occupation>Ministrapräsident SPD 1920-1932, Erwähnt in:"1932.10.07. SPD Groß-Frankfurt an Tillich, P"</occupation>
+            </person>         
          </listPerson>
   </standOff>
 </TEI>
