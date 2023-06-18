@@ -1585,10 +1585,10 @@
                   <surname>Young</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1874-10-27">27. Oktober 1874</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1962-07-11">11. Juli 1962</date>
                </death>
                <occupation>Diplomat; Rechtsanwalt; Unternehmer; Geschäftsmann</occupation>
             </person>    
@@ -1600,12 +1600,12 @@
                   <surname>Zabarella</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1533-09-05">5. September 1533</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1589-10-15">15. Oktober 1589</date>
                </death>
-               <occupation> Philosoph</occupation>
+               <occupation>Philosoph</occupation>
             </person>    
             <person xml:id="P02119">
                <idno type="gnd">119296411</idno>
@@ -1615,10 +1615,10 @@
                   <surname>Zanchi</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1516-02-02">2. Februar 1516</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1590-11-19">19. November 1590</date>
                </death>
                <occupation>Reformierter Theologe und Dogmatiker</occupation>
             </person>    
@@ -1630,12 +1630,12 @@
                   <surname>Zarathustra</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="-0628">628 v. Chr.</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="-0551">551 v. Chr.</date>
                </death>
-               <occupation>Religionsstifter</occupation>
+               <occupation>Religionsstifter; Philosoph</occupation>
             </person>    
             <person xml:id="P02121">
                <idno type="gnd">116966467</idno>
@@ -1645,10 +1645,10 @@
                   <surname>Zarncke</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1899">1899</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1989">1989</date>
                </death>
                <occupation>Psychologin; Theologin; Autorin</occupation>
             </person>    
@@ -1660,10 +1660,10 @@
                   <surname>Zehrer</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1899-06-22">22. Juni 1899</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1966-08-23">23. August 1966</date>
                </death>
                <occupation>Chefredakteur der "Welt"; Journalist; Übersetzer; Publizist</occupation>
             </person>    
@@ -1675,10 +1675,10 @@
                   <surname>Zeller</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1814-01-22">22. Januar 1814</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1908-03-19">19. März 1908</date>
                </death>
                <occupation>Philosoph; Evangelischer Theologe; Historiker; Hochschullehrer</occupation>
             </person>    
@@ -1693,7 +1693,7 @@
                   <date when="0001-01-01">k. A.</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="0371-04-12">12. April 371</date>
                </death>
                <occupation>Bischof von Verona; Heiliger</occupation>
             </person>    
@@ -1705,10 +1705,10 @@
                   <surname>Zervos</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1889-01-01">1. Januar 1889</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1970-09-12">12. September 1970</date>
                </death>
                <occupation>Kunstkritiker; Kunstsammler</occupation>
             </person>    
@@ -1720,27 +1720,27 @@
                   <surname>Zilboorg</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1890-12-13">13. Dezember 1890</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1959-09-17">17. September 1959</date>
                </death>
                <occupation>Übersetzer; Psychoanalytiker</occupation>
             </person>    
             <person xml:id="P02127">
-               <idno type="gnd">1012561151</idno>
-               <idno type="DB">https://www.deutsche-biographie.de/pnd1012561151.html</idno>
+               <idno type="gnd">11880846X</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd11880846X.html</idno>
                <persName type="reg">
                   <forename>Heinrich</forename>
                   <surname>Zimmern</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1862-07-14">14. Juli 1862</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1931-02-17">17. Februar 1931</date>
                </death>
-               <occupation>Evangelischer Theologe; Pfarrer</occupation>
+               <occupation>Assyriologe; Semitist; Klassischer Philologe</occupation>
             </person>    
             <person xml:id="P02128">
                <idno type="gnd">11863707X</idno>
@@ -1750,10 +1750,10 @@
                   <surname>Zinzendorf</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1700-05-26">26. Mai 1700</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1760-05-09">9. Mai 1760</date>
                </death>
                <occupation>Pietist; Stifter der Herrnhuter Brüdergemeine</occupation>
             </person>    
@@ -1765,10 +1765,10 @@
                   <surname>Zola</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1840-04-02">2. April 1840</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1902-09-29">29. September 1902</date>
                </death>
                <occupation>Schriftsteller; Journalist; Fotograf; Kunstkritiker; Librettist</occupation>
             </person>    
@@ -1780,10 +1780,10 @@
                   <surname>Zöllner</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1860-01-30">30. Januar 1860</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1937-07-16">16. Juli 1937</date>
                </death>
                <occupation>Evangelischer Theologe; Pfarrer</occupation>
             </person>    
@@ -1795,10 +1795,10 @@
                   <surname>Zscharnack</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1877-08-22">22. August 1877</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1955-08-19">19. August 1955</date>
                </death>
                <occupation>Evangelischer Theologe</occupation>
             </person>    
@@ -1815,7 +1815,7 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Buchautorin; Künstlerin</occupation>
             </person>    
             <person xml:id="P02133">
                <idno type="gnd">118637304</idno>
@@ -1825,10 +1825,10 @@
                   <surname>Zuckmayer</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1896-12-27">27. Dezember 1896</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1977-01-18">18. Januar 1977</date>
                </death>
                <occupation>Schriftsteller; Dramatiker; Drehbuchautor</occupation>
             </person>    
@@ -1840,10 +1840,10 @@
                   <surname>Zur Nieden</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1879">1879</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1972">1972</date>
                </death>
                <occupation>Theologe; Pfarrer; Superintendent</occupation>
             </person>    
@@ -1855,10 +1855,10 @@
                   <surname>Zweig</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1882-12-04">4. Dezember 1882</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1971-01-18">18. Januar 1971</date>
                </death>
                <occupation>Schriftstellerin; Journalistin; Lehrerin; Übersetzerin</occupation>
             </person>    
@@ -1870,10 +1870,10 @@
                   <surname>Zweig</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1881-11-28">28. November 1881</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1942-02-23">23. Februar 1942</date>
                </death>
                <occupation>Schriftsteller; Journalist; Musiker; Übersetzer; Pazifist; Sammler</occupation>
             </person>    
@@ -1886,10 +1886,10 @@
                </persName>
                <persName type="alternative">Huldrych Zwingli</persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1484-01-01">1. Januar 1484</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1531-08-11">11. Oktober 1531</date>
                </death>
                <occupation>Reformator</occupation>
             </person>    
