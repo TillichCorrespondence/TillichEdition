@@ -1502,6 +1502,8 @@
             
             
             
+           
+            
             <person xml:id="P00641">
                <idno type="gnd">1162904755</idno>
                <idno type="DB">https://www.deutsche-biographie.de/pnd1162904755.html</idno>
@@ -1573,6 +1575,1542 @@
                   <p>Paul Tillich, deutsch-amerikanischer evangelischer Theologe und Philosoph, lehrte von 1919 bis 1933 an verschiedenen Universitäten. Wegen seiner führenden Rolle beim „Bund religiöser Sozialisten" wurde er 1933 suspendiert und emigrierte in die USA, wo er 1940 die amerikanische Staatsbürgerschaft annahm. Nachdem er zunächst am Union Theological Seminary in New York unterrichtet hatte, wechselte er 1955 an die Harvard University und war seit 1962 Professor an der Universität Chicago</p>
                </note>
             </person>
+            
+            
+            
+            
+            
+            
+            
+            <person xml:id="P02016">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Elisabeth</forename>
+                  <surname>W.</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>   
+            <person xml:id="P02017">
+               <idno type="gnd">117086169</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd117086169.html</idno>
+               <persName type="reg">
+                  <forename>Wilhelm Heinrich</forename>
+                  <surname>Wackenroder</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Apotheker; Pharmazeut; Chemiker; Professor</occupation>
+            </person>   
+            <person xml:id="P02018">
+               <idno type="gnd">1112494162</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd1112494162.html</idno>
+               <persName type="reg">
+                  <forename>George</forename>
+                  <surname>Wald</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Hochschullehrer; Biochemiker; Physiologe</occupation>
+            </person>   
+            <person xml:id="P02019">
+               <idno type="gnd">10094390X</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd10094390X.html</idno>
+               <persName type="reg">
+                  <forename>k. A.</forename>
+                  <surname>Walter von St. Viktor</surname>
+               </persName>
+               <persName type="alternative">Gautier de Saint-Victor</persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Theologe; Prior</occupation>
+            </person>   
+            <person xml:id="P02020">
+               <idno type="gnd">117145378</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd117145378.html</idno>
+               <persName type="reg">
+                  <forename>Ernst</forename>
+                  <surname>Warschauer</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Jurist</occupation>
+            </person>   
+            <person xml:id="P02021">
+               <idno type="gnd">118629743</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118629743.html</idno>
+               <persName type="reg">
+                  <forename>Max</forename>
+                  <surname>Weber</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Soziologe; Nationalökonom; Jurist</occupation>
+            </person>   
+            <person xml:id="P02022">
+               <idno type="gnd">117178136</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd117178136.html</idno>
+               <persName type="reg">
+                  <forename>Rudolf</forename>
+                  <surname>Weckerling</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Evangelischer Theologe; Pfarrer</occupation>
+            </person>   
+            <person xml:id="P02023">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Hanna</forename>
+                  <surname>Wedell</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>   
+            <person xml:id="P02024">
+               <idno type="gnd">1169900925</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Carl Richard</forename>
+                  <surname>Wegener</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Freund, Jugendpastor, später Oberstudiendirektor</occupation>
+            </person>   
+            <person xml:id="P02025">
+               <idno type="gnd">120541963</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd120541963.html</idno>
+               <persName type="reg">
+                  <forename>Stephan</forename>
+                  <surname>Wehowsky</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Autor; Publizist; Redakteur</occupation>
+            </person>   
+            <person xml:id="P02026">
+               <idno type="gnd">118630105</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd1186300105.html</idno>
+               <persName type="reg">
+                  <forename>Valentin</forename>
+                  <surname>Weigel</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Pfarrer; Kirchenkritiker; Philosoph</occupation>
+            </person>   
+            <person xml:id="P02027">
+               <idno type="gnd">142038636</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd142038636.html</idno>
+               <persName type="reg">
+                  <forename>Hans</forename>
+                  <surname>Weil</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Erfinder; Künstler</occupation>
+            </person>   
+            <person xml:id="P02028">
+               <idno type="gnd">1012802205</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd1012802205.html</idno>
+               <persName type="reg">
+                  <forename>Paul</forename>
+                  <surname>Weil</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Arzt</occupation>
+            </person>   
+            <person xml:id="P02029">
+               <idno type="gnd">117251275</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd117251275.html</idno>
+               <persName type="reg">
+                  <forename>Herman</forename>
+                  <surname>Weil</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Psychologe</occupation>
+            </person>   
+            <person xml:id="P02030">
+               <idno type="gnd">117263052</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd117263052.html</idno>
+               <persName type="reg">
+                  <forename>Heinrich</forename>
+                  <surname>Weinel</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Evangelischer Theologe; Hochschullehrer; Publizist; Neutestamentler</occupation>
+            </person>   
+            <person xml:id="P02031">
+               <idno type="gnd">118766430</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118766430.html</idno>
+               <persName type="reg">
+                  <forename>Johannes</forename>
+                  <surname>Weiß</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Buchdrucker</occupation>
+            </person>   
+            <person xml:id="P02032">
+               <idno type="gnd">12193439X</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd12193439X.html</idno>
+               <persName type="reg">
+                  <forename>Konrad Adolf</forename>
+                  <surname>Weiss</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Evangelischer Theologe; Neutestamentler</occupation>
+            </person>   
+            <person xml:id="P02033">
+               <idno type="gnd">118766481</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118766481.html</idno>
+               <persName type="reg">
+                  <forename>Hermann Christian</forename>
+                  <surname>Weiße</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Philosoph; evangelischer Theologe</occupation>
+            </person>   
+            <person xml:id="P02034">
+               <idno type="gnd">11876649X</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd11876649X.html</idno>
+               <persName type="reg">
+                  <forename>Joseph</forename>
+                  <surname>Weißenberg</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Gründer der "Johannischen Kirche"</occupation>
+            </person>   
+            <person xml:id="P02035">
+               <idno type="gnd">118630652</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118630652.html</idno>
+               <persName type="reg">
+                  <forename>Wilhelm</forename>
+                  <surname>Weitling</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Journalist; Schriftsteller; Sozialist</occupation>
+            </person>   
+            <person xml:id="P02036">
+               <idno type="gnd">118630849</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118630849.html</idno>
+               <persName type="reg">
+                  <forename>Julius</forename>
+                  <surname>Wellhausen</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Lutherischer Theologe; Alttestamentler; Orientalist</occupation>
+            </person>   
+            <person xml:id="P02037">
+               <idno type="gnd">118631217</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118631217.html</idno>
+               <persName type="reg">
+                  <forename>Heinz-Dietrich</forename>
+                  <surname>Wendland</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Evangelischer Theologe</occupation>
+            </person>   
+            <person xml:id="P02038">
+               <idno type="gnd">117285447</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd117285447.html</idno>
+               <persName type="reg">
+                  <forename>Karl Georg</forename>
+                  <surname>Wendriner</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Wissenschaftler; Dramaturg</occupation>
+            </person>   
+            <person xml:id="P02039">
+               <idno type="gnd">117285625</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd117285625.html</idno>
+               <persName type="reg">
+                  <forename>Hans Hinrich</forename>
+                  <surname>Wendt</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Evangelischer Theologe; Professor</occupation>
+            </person>   
+            <person xml:id="P02040">
+               <idno type="gnd">127519742</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd127519742.html</idno>
+               <persName type="reg">
+                  <forename>Carl</forename>
+                  <surname>Werckshagen</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Pfarrer; Schriftsteller</occupation>
+            </person>   
+            <person xml:id="P02041">
+               <idno type="gnd">119264323</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd119264323.html</idno>
+               <persName type="reg">
+                  <forename>Hermann</forename>
+                  <surname>Werdermann</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Evangelischer Theologe</occupation>
+            </person>   
+            <person xml:id="P02042">
+               <idno type="gnd">118631373</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118631373.html</idno>
+               <persName type="reg">
+                  <forename>Franz</forename>
+                  <surname>Werfel</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Schriftsteller; Dichter</occupation>
+            </person>   
+            <person xml:id="P02043">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Louise</forename>
+                  <surname>Werner</surname>
+               </persName>
+               <persName type="maidenname">Schulze</persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Mutter von Hannah Tillich</occupation>
+            </person>   
+            <person xml:id="P02044">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Jean Otto Nikolaus</forename>
+                  <surname>Werner</surname>
+               </persName>
+               <persName type="alternative">Johannes</persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Pfarrer; Vater von Hannah Tillich</occupation>
+            </person>   
+            <person xml:id="P02045">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Marie Luise</forename>
+                  <surname>Werner</surname>
+               </persName>
+               <persName type="alternative">M.L.chen</persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Psychoanalytikerin; Schwester von Hannah Tillich</occupation>
+            </person>   
+            <person xml:id="P02046">
+               <idno type="gnd">118806750</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118806750.html</idno>
+               <persName type="reg">
+                  <forename>Paul</forename>
+                  <surname>Wernle</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Reformierter Theologe; Kirchenhistoriker; Professor in Basel</occupation>
+            </person>   
+            <person xml:id="P02047">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Christoph H.</forename>
+                  <surname>Werth</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>   
+            <person xml:id="P02048">
+               <idno type="gnd">118806769</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118806769.html</idno>
+               <persName type="reg">
+                  <forename>Max</forename>
+                  <surname>Wertheimer</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Psychologe; Philosoph</occupation>
+            </person>   
+            <person xml:id="P02049">
+               <idno type="gnd">118631713</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118631713.html</idno>
+               <persName type="reg">
+                  <forename>John</forename>
+                  <surname>Wesley</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Methodistischer Theologe</occupation>
+            </person>   
+            <person xml:id="P02050">
+               <idno type="gnd">118631977</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118631977.html</idno>
+               <persName type="reg">
+                  <forename>Wilhelm de</forename>
+                  <surname>Wette</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Evangelischer Theologe; Alttestamentler</occupation>
+            </person>   
+            <person xml:id="P02051">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Eva</forename>
+                  <surname>Wever</surname>
+               </persName>
+               <persName type="alternative">Eva Detert</persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Schwägerin Tillichs</occupation>
+            </person>   
+            <person xml:id="P02052">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Wilhelm</forename>
+                  <surname>Wever</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Vater von Greti; Domänenpächter</occupation>
+            </person>   
+            <person xml:id="P02053">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Mathilde</forename>
+                  <surname>Wever</surname>
+               </persName>
+               <persName type="maidenname">Hamann</persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Mutter von Greti</occupation>
+            </person>   
+            <person xml:id="P02054">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Wolf</forename>
+                  <surname>Wever</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>   
+            <person xml:id="P02055">
+               <idno type="gnd">118632043</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118632043.html</idno>
+               <persName type="reg">
+                  <forename>Johannes</forename>
+                  <surname>Weyer</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Arzt; Gegner der Hexenverfolgung</occupation>
+            </person>   
+            <person xml:id="P02056">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Julian M.</forename>
+                  <surname>White</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Rabbi; Los Angeles Bureau of Jewish Education </occupation>
+            </person>   
+            <person xml:id="P02057">
+               <idno type="gnd">118632175</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118632175.html</idno>
+               <persName type="reg">
+                  <forename>Alfred North</forename>
+                  <surname>Whitehead</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Mathematiker; Philosoph</occupation>
+            </person>   
+            <person xml:id="P02058">
+               <idno type="gnd">1121532837</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd1121532837.html</idno>
+               <persName type="reg">
+                  <forename>Wilhelm</forename>
+                  <surname>Wibbeling</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Pfarrer; Propst</occupation>
+            </person>   
+            <person xml:id="P02059">
+               <idno type="gnd">138528675</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd138528675.html</idno>
+               <persName type="reg">
+                  <forename>Maray</forename>
+                  <surname>Wichert</surname>
+               </persName>
+               <persName type="maidenname">Margaret Helene Wetzlar-Coit</persName>
+               <persName type="alternative">Margret Wickham</persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>   
+            <person xml:id="P02060">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Johann Hinrich</forename>
+                  <surname>Widern</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Verfechter des Frauenwahlrechts</occupation>
+            </person>   
+            <person xml:id="P02061">
+               <idno type="gnd">117346500</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd117346500.html</idno>
+               <persName type="reg">
+                  <forename>Fred</forename>
+                  <surname>Wieck</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Associate Editor; The University of Chicago Press</occupation>
+            </person>   
+            <person xml:id="P02062">
+               <idno type="gnd">118632477</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118632477.html</idno>
+               <persName type="reg">
+                  <forename>Christoph Martin</forename>
+                  <surname>Wieland</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Dichter; Prinzenerzieher</occupation>
+            </person>   
+            <person xml:id="P02063">
+               <idno type="gnd">11930046X</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Henry Nelson</forename>
+                  <surname>Wieman</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Theologe</occupation>
+            </person>   
+            <person xml:id="P02064">
+               <idno type="gnd">119109220</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd119109220.html</idno>
+               <persName type="reg">
+                  <forename>Max</forename>
+                  <surname>Wiener</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Rabbiner</occupation>
+            </person>   
+            <person xml:id="P02065">
+               <idno type="gnd">118632604</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118632604.html</idno>
+               <persName type="reg">
+                  <forename>Leopold von</forename>
+                  <surname>Wiese</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Jurist; Nationalökonom; Soziologe</occupation>
+            </person>   
+            <person xml:id="P02066">
+               <idno type="gnd">118632655</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118632655.html</idno>
+               <persName type="reg">
+                  <forename>Simon</forename>
+                  <surname>Wiesenthal</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Publizist; Architekt; Leiter des Jüdischen Dokumentationszentrums in Wien</occupation>
+            </person>   
+            <person xml:id="P02067">
+               <idno type="gnd">118807242</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118807242.html</idno>
+               <persName type="reg">
+                  <forename>Mary</forename>
+                  <surname>Wigman</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Tänzerin; Tanzpädagogin</occupation>
+            </person>   
+            <person xml:id="P02068">
+               <idno type="gnd">11877171X</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd11877171X.html</idno>
+               <persName type="reg">
+                  <forename>Ulrich von</forename>
+                  <surname>Wilamowitz-Moellendorf</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Klassischer Philologe</occupation>
+            </person>   
+            <person xml:id="P02069">
+               <idno type="gnd">1266752137</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd1266752137.html</idno>
+               <persName type="reg">
+                  <forename>John</forename>
+                  <surname>Wild</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Priester</occupation>
+            </person>   
+            <person xml:id="P02070">
+               <idno type="gnd">118632779</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118632779.html</idno>
+               <persName type="reg">
+                  <forename>Oscar</forename>
+                  <surname>Wilde</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Schriftsteller; Dramatiker; Librettist; Lyriker</occupation>
+            </person>   
+            <person xml:id="P02071">
+               <idno type="gnd">118632817</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118632817.html</idno>
+               <persName type="reg">
+                  <forename>Thornton</forename>
+                  <surname>Wilder</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Schriftsteller; Librettist</occupation>
+            </person>   
+            <person xml:id="P02072">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Richard</forename>
+                  <surname>Wilhelm</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>   
+            <person xml:id="P02073">
+               <idno type="gnd">118632884</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118632884.html</idno>
+               <persName type="reg">
+                  <forename>k. A.</forename>
+                  <surname>Wilhelm I., Kaiser</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>König von Preußen; deutscher Kaiser</occupation>
+            </person>   
+            <person xml:id="P02074">
+               <idno type="gnd">118632892</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118632892.html</idno>
+               <persName type="reg">
+                  <forename>k. A.</forename>
+                  <surname>Wilhelm II., Kaiser</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>König von Preußen; Kaiser des Deutschen Reichs</occupation>
+            </person>   
+            <person xml:id="P02075">
+               <idno type="gnd">118632981</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118632981.html</idno>
+               <persName type="reg">
+                  <forename>k. A.</forename>
+                  <surname>Wilhelm von Auvergne</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Bischof; Theologe</occupation>
+            </person>   
+            <person xml:id="P02076">
+               <idno type="gnd">100944442</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd100944442.html</idno>
+               <persName type="reg">
+                  <forename>k. A.</forename>
+                  <surname>Wilhelm von Champeaux</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Philosoph; Theologe</occupation>
+            </person>   
+            <person xml:id="P02077">
+               <idno type="gnd">11871936X</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd11871936X.html</idno>
+               <persName type="reg">
+                  <forename>k. A.</forename>
+                  <surname>Wilhelm von Conches</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Philosoph</occupation>
+            </person>   
+            <person xml:id="P02078">
+               <idno type="gnd">118633015</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118633015.html</idno>
+               <persName type="reg">
+                  <forename>k. A.</forename>
+                  <surname>Wilhelm von Ockham</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Katholischer Theologe; Philosoph; Publizist</occupation>
+            </person>   
+            <person xml:id="P02079">
+               <idno type="gnd">118633023</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118633023.html</idno>
+               <persName type="reg">
+                  <forename>k. A.</forename>
+                  <surname>Wilhelm von St. Thierry</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Abt; Katholischer Theologe; Ordenspriester</occupation>
+            </person>   
+            <person xml:id="P02080">
+               <idno type="gnd">100944655</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd100944655.html</idno>
+               <persName type="reg">
+                  <forename>k. A.</forename>
+                  <surname>Wilhelm von Ware</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Franziskaner Mönch</occupation>
+            </person>   
+            <person xml:id="P02081">
+               <idno type="gnd">130854948</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd130854948.html</idno>
+               <persName type="reg">
+                  <forename>Robert</forename>
+                  <surname>Will</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Theologe; Philosoph</occupation>
+            </person>   
+            <person xml:id="P02082">
+               <idno type="gnd">118633333</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118633333.html</idno>
+               <persName type="reg">
+                  <forename>Tennesee</forename>
+                  <surname>Williams</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Schriftsteller</occupation>
+            </person>   
+            <person xml:id="P02083">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Paul</forename>
+                  <surname>Wilpert</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>   
+            <person xml:id="P02084">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Frida</forename>
+                  <surname>Winckelmann</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>   
+            <person xml:id="P02085">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Hugo</forename>
+                  <surname>Winckler</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>   
+            <person xml:id="P02086">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Wilhelm</forename>
+                  <surname>Windelband</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>   
+            <person xml:id="P02087">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>k. A.</forename>
+                  <surname>Wingolf Verbindung</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Institution; evangelische Burschenschaft</occupation>
+            </person>   
+            <person xml:id="P02088">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Frida</forename>
+                  <surname>Winkelmann</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>   
+            <person xml:id="P02089">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Toni</forename>
+                  <surname>Winkler</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>   
+            <person xml:id="P02090">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Gerhard</forename>
+                  <surname>Winkler</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>   
+            <person xml:id="P02091">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Rudolf</forename>
+                  <surname>Wintermann</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>   
+            <person xml:id="P02092">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Georg</forename>
+                  <surname>Wissowa</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>   
+            <person xml:id="P02093">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>k. A.</forename>
+                  <surname>Witelo</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>   
+            <person xml:id="P02094">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Friedrich Wilhelm</forename>
+                  <surname>Witt</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>   
+            <person xml:id="P02095">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Hermann</forename>
+                  <surname>Witte</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>   
+            <person xml:id="P02096">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Joseph</forename>
+                  <surname>Wittig</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>   
+            <person xml:id="P02097">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Georg</forename>
+                  <surname>Wobbermin</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>   
+            <person xml:id="P02098">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Arnold</forename>
+                  <surname>Wolfers</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>   
+            <person xml:id="P02099">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Kurt</forename>
+                  <surname>Wolff</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>   
+            <person xml:id="P02100">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Christian</forename>
+                  <surname>Wolff</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>   
+            <person xml:id="P02101">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Philipp</forename>
+                  <surname>Wolff-Windegg</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>   
+            <person xml:id="P02102">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Max</forename>
+                  <surname>Wölfing</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>   
+            <person xml:id="P02103">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Johann Christoph</forename>
+                  <surname>Wöllner</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>   
+            <person xml:id="P02104">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>George Herbert</forename>
+                  <surname>Wood</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>   
+            <person xml:id="P02105">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Wilhelm</forename>
+                  <surname>Worringer</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>   
+            <person xml:id="P02106">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>William</forename>
+                  <surname>Wrede</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>   
+            <person xml:id="P02107">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Karl Heinrich von</forename>
+                  <surname>Wttoichn</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>   
+            <person xml:id="P02108">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Melvin L.</forename>
+                  <surname>Wulf</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>   
+            <person xml:id="P02109">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Max</forename>
+                  <surname>Wundt</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>   
+            <person xml:id="P02110">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Wilhelm</forename>
+                  <surname>Wundt</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>   
+            <person xml:id="P02111">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Georg</forename>
+                  <surname>Wünsch</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>   
+            <person xml:id="P02112">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Adolf Karl Friedrich Gustav</forename>
+                  <surname>Wüstemann</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>   
+            <person xml:id="P02113">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>John</forename>
+                  <surname>Wyclif</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>   
+            <person xml:id="P02114">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>k. A.</forename>
+                  <surname>Xenophanes</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>   
+            <person xml:id="P02115">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>k. A.</forename>
+                  <surname>Xenophon</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>   
+            <person xml:id="P02116">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>k. A.</forename>
+                  <surname>Xerxes</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>   
+           
+            
+            
+            
+            
+      
             
             
             
