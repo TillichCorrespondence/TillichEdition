@@ -1598,19 +1598,19 @@
                <occupation>k. A.</occupation>
             </person>   
             <person xml:id="P02017">
-               <idno type="gnd">117086169</idno>
-               <idno type="DB">https://www.deutsche-biographie.de/pnd117086169.html</idno>
+               <idno type="gnd">118628097</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118628097.html</idno>
                <persName type="reg">
                   <forename>Wilhelm Heinrich</forename>
                   <surname>Wackenroder</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1773-07-13">13. Juli 1773</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1798-02-13">13. Februar 1798</date>
                </death>
-               <occupation>Apotheker; Pharmazeut; Chemiker; Professor</occupation>
+               <occupation>Dichter; Jurist</occupation>
             </person>   
             <person xml:id="P02018">
                <idno type="gnd">1112494162</idno>
@@ -1620,10 +1620,10 @@
                   <surname>Wald</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1906-11-18">18. November 1906</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1997-04-12">12. April 1997</date>
                </death>
                <occupation>Hochschullehrer; Biochemiker; Physiologe</occupation>
             </person>   
@@ -1639,7 +1639,7 @@
                   <date when="0001-01-01">k. A.</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1180">1180</date>
                </death>
                <occupation>Theologe; Prior</occupation>
             </person>   
@@ -1666,10 +1666,10 @@
                   <surname>Weber</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1864-04-21">21. April 1864</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1920-06-14">14. Juni 1920</date>
                </death>
                <occupation>Soziologe; Nationalökonom; Jurist</occupation>
             </person>   
@@ -1681,10 +1681,10 @@
                   <surname>Weckerling</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1911-05-03">3. Mai 1911</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="2014-01-31">31. Januar 2014</date>
                </death>
                <occupation>Evangelischer Theologe; Pfarrer</occupation>
             </person>   
@@ -1711,10 +1711,10 @@
                   <surname>Wegener</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1883">1883</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1967">1967</date>
                </death>
                <occupation>Freund, Jugendpastor, später Oberstudiendirektor</occupation>
             </person>   
@@ -1741,10 +1741,10 @@
                   <surname>Weigel</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1533-08-07">7. August 1533</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1588-06-10">10. Juni 1588</date>
                </death>
                <occupation>Pfarrer; Kirchenkritiker; Philosoph</occupation>
             </person>   
@@ -1756,10 +1756,10 @@
                   <surname>Weil</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1902-06-11">11. Juni 1902</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1998-11-13">13. November 1998</date>
                </death>
                <occupation>Erfinder; Künstler</occupation>
             </person>   
@@ -1771,10 +1771,10 @@
                   <surname>Weil</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1894-09-10">10. September 1894</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1963-07-08">8. Juli 1963</date>
                </death>
                <occupation>Arzt</occupation>
             </person>   
@@ -1782,7 +1782,7 @@
                <idno type="gnd">117251275</idno>
                <idno type="DB">https://www.deutsche-biographie.de/pnd117251275.html</idno>
                <persName type="reg">
-                  <forename>Herman</forename>
+                  <forename>Hermann</forename>
                   <surname>Weil</surname>
                </persName>
                <birth>
@@ -1801,27 +1801,27 @@
                   <surname>Weinel</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1874-04-28">28. April 1874</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1936-09-29">29. September 1936</date>
                </death>
                <occupation>Evangelischer Theologe; Hochschullehrer; Publizist; Neutestamentler</occupation>
             </person>   
             <person xml:id="P02031">
-               <idno type="gnd">118766430</idno>
-               <idno type="DB">https://www.deutsche-biographie.de/pnd118766430.html</idno>
+               <idno type="gnd">118891642</idno>
+               <idno type="DB">k. A.</idno>
                <persName type="reg">
                   <forename>Johannes</forename>
                   <surname>Weiß</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1863-12-31">13. Dezember 1863</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1914-08-24">24. August 1914</date>
                </death>
-               <occupation>Buchdrucker</occupation>
+               <occupation>Evangelischer Theologe</occupation>
             </person>   
             <person xml:id="P02032">
                <idno type="gnd">12193439X</idno>
@@ -1831,10 +1831,10 @@
                   <surname>Weiss</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1907">1907</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1979">1979</date>
                </death>
                <occupation>Evangelischer Theologe; Neutestamentler</occupation>
             </person>   
@@ -1846,10 +1846,10 @@
                   <surname>Weiße</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1801-08-10">10. August 1801</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1866-09-19">19. September 1866</date>
                </death>
                <occupation>Philosoph; evangelischer Theologe</occupation>
             </person>   
@@ -1861,10 +1861,10 @@
                   <surname>Weißenberg</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1855-08-24">24. August 1855</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1941-03-06">6. März 1941</date>
                </death>
                <occupation>Gründer der "Johannischen Kirche"</occupation>
             </person>   
@@ -1876,10 +1876,10 @@
                   <surname>Weitling</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1808-10-05">5. Oktober 1808</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1871-01-25">25. Januar 1871</date>
                </death>
                <occupation>Journalist; Schriftsteller; Sozialist</occupation>
             </person>   
@@ -1891,10 +1891,10 @@
                   <surname>Wellhausen</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1844-05-17">17. Mai 1844</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1918-01-07">7. Januar 1918</date>
                </death>
                <occupation>Lutherischer Theologe; Alttestamentler; Orientalist</occupation>
             </person>   
@@ -1906,10 +1906,10 @@
                   <surname>Wendland</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1900-06-22">22. Juni 1900</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1992-08-07">7. August 1992</date>
                </death>
                <occupation>Evangelischer Theologe</occupation>
             </person>   
@@ -1921,10 +1921,10 @@
                   <surname>Wendriner</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1885">1885</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1943">1943</date>
                </death>
                <occupation>Wissenschaftler; Dramaturg</occupation>
             </person>   
@@ -1936,10 +1936,10 @@
                   <surname>Wendt</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1853-06-18">18. Juni 1853</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1928-01-19">19. Januar 1928</date>
                </death>
                <occupation>Evangelischer Theologe; Professor</occupation>
             </person>   
@@ -1951,10 +1951,10 @@
                   <surname>Werckshagen</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1863-08-23">23. August 1863</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1908-08-02">2. August 1908</date>
                </death>
                <occupation>Pfarrer; Schriftsteller</occupation>
             </person>   
@@ -1966,10 +1966,10 @@
                   <surname>Werdermann</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1888-06-12">12. Juni 1888</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1954-08-09">9. August 1954</date>
                </death>
                <occupation>Evangelischer Theologe</occupation>
             </person>   
@@ -1981,10 +1981,10 @@
                   <surname>Werfel</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1890-09-10">10. September 1890</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1945-08-26">26. August 1945</date>
                </death>
                <occupation>Schriftsteller; Dichter</occupation>
             </person>   
@@ -2013,10 +2013,10 @@
                </persName>
                <persName type="alternative">Johannes</persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1865">1865</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1943">1943</date>
                </death>
                <occupation>Pfarrer; Vater von Hannah Tillich</occupation>
             </person>   
@@ -2029,10 +2029,10 @@
                </persName>
                <persName type="alternative">M.L.chen</persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1894">1894</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1978">1978</date>
                </death>
                <occupation>Psychoanalytikerin; Schwester von Hannah Tillich</occupation>
             </person>   
@@ -2044,10 +2044,10 @@
                   <surname>Wernle</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1872-05-01">1. Mai 1872</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1939-04-12">12. April 1939</date>
                </death>
                <occupation>Reformierter Theologe; Kirchenhistoriker; Professor in Basel</occupation>
             </person>   
@@ -2074,10 +2074,10 @@
                   <surname>Wertheimer</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1880-04-15">15. April 1880</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1943-10-12">12. Oktober 1943</date>
                </death>
                <occupation>Psychologe; Philosoph</occupation>
             </person>   
@@ -2089,10 +2089,10 @@
                   <surname>Wesley</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1703-06-17">17. Juni 1703</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1791-03-02">2. März 1791</date>
                </death>
                <occupation>Methodistischer Theologe</occupation>
             </person>   
@@ -2104,10 +2104,10 @@
                   <surname>Wette</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1780-01-12">12. Januar 1780</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1849-06-16">16. Juni 1849</date>
                </death>
                <occupation>Evangelischer Theologe; Alttestamentler</occupation>
             </person>   
@@ -2120,7 +2120,7 @@
                </persName>
                <persName type="alternative">Eva Detert</persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1890">1890</date>
                </birth>
                <death>
                   <date when="0001-01-01">k. A.</date>
@@ -2135,10 +2135,10 @@
                   <surname>Wever</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1855">1855</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1929">1929</date>
                </death>
                <occupation>Vater von Greti; Domänenpächter</occupation>
             </person>   
@@ -2151,10 +2151,10 @@
                </persName>
                <persName type="maidenname">Hamann</persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1862">1862</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1950">1950</date>
                </death>
                <occupation>Mutter von Greti</occupation>
             </person>   
@@ -2181,10 +2181,10 @@
                   <surname>Weyer</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1516-02-29">29. Februar 1516</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1588-02-24">24. Februar 1588</date>
                </death>
                <occupation>Arzt; Gegner der Hexenverfolgung</occupation>
             </person>   
@@ -2211,10 +2211,10 @@
                   <surname>Whitehead</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1861-02-15">15. Februar 1861</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1947-12-30">30. Dezember 1947</date>
                </death>
                <occupation>Mathematiker; Philosoph</occupation>
             </person>   
@@ -2226,10 +2226,10 @@
                   <surname>Wibbeling</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1891">1891</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1966">1966</date>
                </death>
                <occupation>Pfarrer; Propst</occupation>
             </person>   
@@ -2243,27 +2243,27 @@
                <persName type="maidenname">Margaret Helene Wetzlar-Coit</persName>
                <persName type="alternative">Margret Wickham</persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1890">1890</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1966">1966</date>
                </death>
                <occupation>k. A.</occupation>
             </person>   
             <person xml:id="P02060">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">117335487</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd117335487.html</idno>
                <persName type="reg">
                   <forename>Johann Hinrich</forename>
-                  <surname>Widern</surname>
+                  <surname>Wichern</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1808-04-21">21. April 1808</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1881-04-07">7. April 1881</date>
                </death>
-               <occupation>Verfechter des Frauenwahlrechts</occupation>
+               <occupation>Evangelischer Theologe; Direktor des Rauhen Hauses</occupation>
             </person>   
             <person xml:id="P02061">
                <idno type="gnd">117346500</idno>
@@ -2288,10 +2288,10 @@
                   <surname>Wieland</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1733-09-05">5. September 1733</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1813-01-20">20. Januar 1813</date>
                </death>
                <occupation>Dichter; Prinzenerzieher</occupation>
             </person>   
@@ -2303,10 +2303,10 @@
                   <surname>Wieman</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1884-08-19">19. August 1884</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1975-06-19">19. Juni 1975</date>
                </death>
                <occupation>Theologe</occupation>
             </person>   
@@ -2318,10 +2318,10 @@
                   <surname>Wiener</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1882-04-22">22. April 1882</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1950-06-30">30. Juni 1950</date>
                </death>
                <occupation>Rabbiner</occupation>
             </person>   
@@ -2333,10 +2333,10 @@
                   <surname>Wiese</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1876-12-02">2. Dezember 1876</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1969-01-11">11. Januar 1969</date>
                </death>
                <occupation>Jurist; Nationalökonom; Soziologe</occupation>
             </person>   
@@ -2348,10 +2348,10 @@
                   <surname>Wiesenthal</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1908-12-31">31. Dezember 1908</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="2005-09-20">20. September 2005</date>
                </death>
                <occupation>Publizist; Architekt; Leiter des Jüdischen Dokumentationszentrums in Wien</occupation>
             </person>   
@@ -2363,10 +2363,10 @@
                   <surname>Wigman</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1886-11-13">13. November 1886</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1973-09-18">18. September 1973</date>
                </death>
                <occupation>Tänzerin; Tanzpädagogin</occupation>
             </person>   
@@ -2378,10 +2378,10 @@
                   <surname>Wilamowitz-Moellendorf</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1848-12-22">22. Dezember 1848</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1931-09-25">25. September 1931</date>
                </death>
                <occupation>Klassischer Philologe</occupation>
             </person>   
@@ -2393,10 +2393,10 @@
                   <surname>Wild</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1904">1904</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1992">1992</date>
                </death>
                <occupation>Priester</occupation>
             </person>   
@@ -2408,10 +2408,10 @@
                   <surname>Wilde</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1854-10-16">16. Oktober 1854</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1900-11-30">30. November 1900</date>
                </death>
                <occupation>Schriftsteller; Dramatiker; Librettist; Lyriker</occupation>
             </person>   
@@ -2423,27 +2423,27 @@
                   <surname>Wilder</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1897-04-17">17. April 1897</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1975-12-07">7. Dezember 1975</date>
                </death>
                <occupation>Schriftsteller; Librettist</occupation>
             </person>   
             <person xml:id="P02072">
-               <idno type="gnd">k. A.</idno>
+               <idno type="gnd">118771876</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
                   <forename>Richard</forename>
                   <surname>Wilhelm</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1873-05-10">10. Mai 1873</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1930-03-02">2. März 1930</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Evangelischer Theologe; Missionar; Sinologe</occupation>
             </person>   
             <person xml:id="P02073">
                <idno type="gnd">118632884</idno>
@@ -2453,10 +2453,10 @@
                   <surname>Wilhelm I., Kaiser</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1797-03-22">22. März 1797</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1888-03-09">9. März 1888</date>
                </death>
                <occupation>König von Preußen; deutscher Kaiser</occupation>
             </person>   
@@ -2468,10 +2468,10 @@
                   <surname>Wilhelm II., Kaiser</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1859-01-27">27. Januar 1859</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1941-06-04">4. Juni 1941</date>
                </death>
                <occupation>König von Preußen; Kaiser des Deutschen Reichs</occupation>
             </person>   
@@ -2483,10 +2483,10 @@
                   <surname>Wilhelm von Auvergne</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1180">1180</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1249-03-30">30. März 1249</date>
                </death>
                <occupation>Bischof; Theologe</occupation>
             </person>   
@@ -2498,10 +2498,10 @@
                   <surname>Wilhelm von Champeaux</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1070">1070</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1121">1121</date>
                </death>
                <occupation>Philosoph; Theologe</occupation>
             </person>   
@@ -2513,10 +2513,10 @@
                   <surname>Wilhelm von Conches</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1080">1080</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1154">1154</date>
                </death>
                <occupation>Philosoph</occupation>
             </person>   
@@ -2528,10 +2528,10 @@
                   <surname>Wilhelm von Ockham</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1288">1288</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1347-04-09">9. April 1347</date>
                </death>
                <occupation>Katholischer Theologe; Philosoph; Publizist</occupation>
             </person>   
@@ -2543,10 +2543,10 @@
                   <surname>Wilhelm von St. Thierry</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1075">1075</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1148-09-08">8. September 1148</date>
                </death>
                <occupation>Abt; Katholischer Theologe; Ordenspriester</occupation>
             </person>   
@@ -2558,10 +2558,10 @@
                   <surname>Wilhelm von Ware</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1260">1260</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1305">1305</date>
                </death>
                <occupation>Franziskaner Mönch</occupation>
             </person>   
@@ -2573,10 +2573,10 @@
                   <surname>Will</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1869">1869</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1959">1959</date>
                </death>
                <occupation>Theologe; Philosoph</occupation>
             </person>   
@@ -2588,72 +2588,72 @@
                   <surname>Williams</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1911-03-26">26. März 1911</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1983-02-25">25. Februar 1983</date>
                </death>
                <occupation>Schriftsteller</occupation>
             </person>   
             <person xml:id="P02083">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">11739629X</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd11739629X.html</idno>
                <persName type="reg">
                   <forename>Paul</forename>
                   <surname>Wilpert</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1906-04-26">26. April 1906</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1967-01-01">1. Januar 1967</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Philosoph; Historiker</occupation>
             </person>   
             <person xml:id="P02084">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">129031887</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd129031887.html</idno>
                <persName type="reg">
                   <forename>Frida</forename>
                   <surname>Winckelmann</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1873-07-03">3. Juli 1873</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1943-11-04">4. November 1943</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Lehrerin; Politikerin; Gründerin der Freien Hochschulgemeinde für Proletarier</occupation>
             </person>   
             <person xml:id="P02085">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">117399825</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd117399825.html</idno>
                <persName type="reg">
                   <forename>Hugo</forename>
                   <surname>Winckler</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1863-07-04">4. Juli 1863</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1913-04-19">19. April 1913</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Orientalist; Assyriologe; Altorientalist; Hethitologe</occupation>
             </person>   
             <person xml:id="P02086">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">118633635</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118633635.html</idno>
                <persName type="reg">
                   <forename>Wilhelm</forename>
                   <surname>Windelband</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1848-05-11">11. Mai 1848</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1915-10-22">22. Oktober 1915</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Philosoph; Professor in Zürich, Freiburg im Breisgau, Straßburg und Heidelberg</occupation>
             </person>   
             <person xml:id="P02087">
                <idno type="gnd">k. A.</idno>
@@ -2692,223 +2692,224 @@
                   <forename>Toni</forename>
                   <surname>Winkler</surname>
                </persName>
+               <persName type="alternative">Tonichen</persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
                </birth>
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Tante, Pflegemutter der Tillich-Kinder</occupation>
             </person>   
             <person xml:id="P02090">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">118816543</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118816543.html</idno>
                <persName type="reg">
                   <forename>Gerhard</forename>
                   <surname>Winkler</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1906-09-12">12. September 1906</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1977-09-25">25. September 1977</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Komponist</occupation>
             </person>   
             <person xml:id="P02091">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">1119119871</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd1119119871.html</idno>
                <persName type="reg">
                   <forename>Rudolf</forename>
                   <surname>Wintermann</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1886-01-10">10. Januar 1886</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1970-05-27">27. Mai 1970</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Theologe; Pfarrer</occupation>
             </person>   
             <person xml:id="P02092">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">117413755</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd117413755.html</idno>
                <persName type="reg">
                   <forename>Georg</forename>
                   <surname>Wissowa</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1859-06-17">17. Juni 1859</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1931-05-11">11. Mai 1931</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Klassischer Philologe</occupation>
             </person>   
             <person xml:id="P02093">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">118975765</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118975765.html</idno>
                <persName type="reg">
                   <forename>k. A.</forename>
                   <surname>Witelo</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1230">1230</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1275">1275</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Optiker; Mönch</occupation>
             </person>   
             <person xml:id="P02094">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">104206829</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd104206829.html</idno>
                <persName type="reg">
-                  <forename>Friedrich Wilhelm</forename>
+                  <forename>Christian Friedrich Wilhelm</forename>
                   <surname>Witt</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1660">1660</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1716-04-13">13. April 1716</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Musiker; Komponist</occupation>
             </person>   
             <person xml:id="P02095">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">121772799</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd121772799.html</idno>
                <persName type="reg">
                   <forename>Hermann</forename>
                   <surname>Witte</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1666-12-07">7. Dezember 1666</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1728-03-24">24. März 1728</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Evangelischer Theologe; Pfarrer</occupation>
             </person>   
             <person xml:id="P02096">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">118634348</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118634348.html</idno>
                <persName type="reg">
                   <forename>Joseph</forename>
                   <surname>Wittig</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1879-01-22">22. Januar 1879</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1949-08-22">22. August 1949</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Katholischer Theologe; Publizist</occupation>
             </person>   
             <person xml:id="P02097">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">118769707</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118769707.html</idno>
                <persName type="reg">
                   <forename>Georg</forename>
                   <surname>Wobbermin</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1869-10-27">27. Oktober 1869</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1943-10-15">15. Oktober 1943</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Evangelischer Theologe</occupation>
             </person>   
             <person xml:id="P02098">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">119262819</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd119262819.html</idno>
                <persName type="reg">
                   <forename>Arnold</forename>
                   <surname>Wolfers</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1892-06-14">14. Juni 1892</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1968-07-16">16. Juli 1968</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Politologe</occupation>
             </person>   
             <person xml:id="P02099">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">118634828</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118634828.html</idno>
                <persName type="reg">
                   <forename>Kurt</forename>
                   <surname>Wolff</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1887-03-03">3. März 1887</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1963-10-21">21. Oktober 1963</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Verleger</occupation>
             </person>   
             <person xml:id="P02100">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">118634771</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118634771.html</idno>
                <persName type="reg">
                   <forename>Christian</forename>
                   <surname>Wolff</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1679-01-24">24. Januar 1679</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1754-04-09">9. April 1754</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Philosoph</occupation>
             </person>   
             <person xml:id="P02101">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">128620617</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd128620617.html</idno>
                <persName type="reg">
                   <forename>Philipp</forename>
                   <surname>Wolff-Windegg</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1919-08-06">6. August 1919</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1991-12-20">20. Dezember 1991</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Autor; Journalist; Übersetzer; Redakteur; Theaterkritiker</occupation>
             </person>   
             <person xml:id="P02102">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">117614017</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd117614017.html</idno>
                <persName type="reg">
                   <forename>Max</forename>
                   <surname>Wölfing</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1847-09-08">8. September 1847</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1928-12-01">1. Dezember 1928</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Evangelischer Theologe</occupation>
             </person>   
             <person xml:id="P02103">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">117453773</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd117453773.html</idno>
                <persName type="reg">
                   <forename>Johann Christoph</forename>
                   <surname>Wöllner</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1732-05-19">19. Mai 1732</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1800-09-10">10. September 1800</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Pastor; Staatsmann</occupation>
             </person>   
             <person xml:id="P02104">
                <idno type="gnd">k. A.</idno>
@@ -2918,42 +2919,42 @@
                   <surname>Wood</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1879-09-02">2. September 1879</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1963-03-09">9. März 1963</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Quäker und Theologe</occupation>
             </person>   
             <person xml:id="P02105">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">118807900</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118807900.html</idno>
                <persName type="reg">
                   <forename>Wilhelm</forename>
                   <surname>Worringer</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1881-01-13">13. Januar 1881</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1965-03-29">29. März 1965</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Kunsthistoriker</occupation>
             </person>   
             <person xml:id="P02106">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">118807951</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118807951.html</idno>
                <persName type="reg">
                   <forename>William</forename>
                   <surname>Wrede</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1859-05-10">10. Mai 1859</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1906-11-23">23. November 1906</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Evangelischer Theologe; Professor in Breslau</occupation>
             </person>   
             <person xml:id="P02107">
                <idno type="gnd">k. A.</idno>
@@ -2978,143 +2979,133 @@
                   <surname>Wulf</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1927-11-01">1. November 1927</date>
                </birth>
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Rechtsanwalt; American Civil Liberties Union</occupation>
             </person>   
             <person xml:id="P02109">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">11863562X</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd11863562X.html</idno>
                <persName type="reg">
                   <forename>Max</forename>
                   <surname>Wundt</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1879-01-29">29. Januar 1879</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1963-10-31">31. Oktober 1963</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Philosoph; Professor in Leipzig</occupation>
             </person>   
             <person xml:id="P02110">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">11863562X</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd11863562X.html</idno>
                <persName type="reg">
                   <forename>Wilhelm</forename>
                   <surname>Wundt</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1832-08-06">6. August 1832</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1920-08-31">31. August 1920</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Philosoph; Professor in Leipzig</occupation>
             </person>   
             <person xml:id="P02111">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">118635441</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118635441.html</idno>
                <persName type="reg">
                   <forename>Georg</forename>
                   <surname>Wünsch</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1887-04-29">29. April 1887</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1964-11-22">22. November 1964</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Sozialethiker; evangelischer Theologe</occupation>
             </person>   
             <person xml:id="P02112">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">1070672939</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd1070672939.html</idno>
                <persName type="reg">
                   <forename>Adolf Karl Friedrich Gustav</forename>
                   <surname>Wüstemann</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1901-12-30">30. Dezember 1901</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1966-01-22">22. Januar 1966</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Bischof; Geistlicher</occupation>
             </person>   
             <person xml:id="P02113">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">118632299</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118632299.html</idno>
                <persName type="reg">
                   <forename>John</forename>
                   <surname>Wyclif</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1330">1330</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1384-12-31">31. Dezember 1384</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Philosoph; Theologe; Pfarrer</occupation>
             </person>   
             <person xml:id="P02114">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">118635794</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118635794.html</idno>
                <persName type="reg">
                   <forename>k. A.</forename>
                   <surname>Xenophanes</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="-0570">570 v. Chr.</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="-0478">478 v. Chr.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Philosoph; Schriftsteller</occupation>
             </person>   
             <person xml:id="P02115">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">118635808</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118635808.html</idno>
                <persName type="reg">
                   <forename>k. A.</forename>
                   <surname>Xenophon</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="-0430">430 v. Chr.</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="-0355">355 v. Chr.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Historiker; Sokratiker</occupation>
             </person>   
             <person xml:id="P02116">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">118808109</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118808109.html</idno>
                <persName type="reg">
                   <forename>k. A.</forename>
                   <surname>Xerxes</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="-0518">518 v. Chr.</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="-0465">465 v. Chr.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Iranischer König</occupation>
             </person>   
-           
-            
-            
-            
-            
-      
-            
-            
-            
-            
             <person xml:id="P02117">
                <idno type="gnd">118808176</idno>
                <idno type="DB">https://www.deutsche-biographie.de/pnd118808176.html</idno>
