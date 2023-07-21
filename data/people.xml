@@ -1550,8 +1550,8 @@
             
             
             <person xml:id="P01924">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">128547227</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd128547227.html</idno>
                <persName type="reg">
                   <forename>Ernst</forename>
                   <surname>Tillich</surname>
@@ -1562,11 +1562,11 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Theologe; Neffe von P.T.</occupation>
             </person>   
             <person xml:id="P01925">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">119096102</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd119096102.html</idno>
                <persName type="reg">
                   <forename>Hannah</forename>
                   <surname>Tillich</surname>
@@ -1578,11 +1578,11 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>geb. Werner, vormals verheiratet mit Albert Gottschow</occupation>
             </person>  
             <person xml:id="P01926">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">1168631602</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd1168631602.html</idno>
                <persName type="reg">
                   <forename>Johannes Oskar</forename>
                   <surname>Tillich</surname>
@@ -1593,7 +1593,7 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Pfarrer, Superintendent, Geh. Konsistorialrat; Johannes Oskar T. war der Vater von Paul Tillich. Seine erste Pfarrstelle war die lutherische Gemeinde Starzeddel (heute Starosiedle) bei Guben, wo Paul 1886 zur Welt kam. 1891 wurde er Superintendent für den Kirchenkreis Schönfließ (Neumark), 1900 wurde er nach Berlin berufen, wo er Geheimer Konsistorialrat wurde. 1885 hatte er Wilhelmina Mathilde Dürselen geheiratet, die Mutter Pauls, die jedoch 1903 starb.</occupation>
             </person>  
             <person xml:id="P01927">
                <idno type="gnd">k. A.</idno>
@@ -1609,11 +1609,11 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Tante von Paul Tillich</occupation>
             </person>  
             <person xml:id="P01928">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">1168631645</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd1168631645.html</idno>
                <persName type="reg">
                   <forename>Oskar</forename>
                   <surname>Tillich</surname>
@@ -1624,13 +1624,13 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Silberfabrikant; Großvater von Paul Tillich</occupation>
             </person>  
             <person xml:id="P01929">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">1168631653</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd1168631653.html</idno>
                <persName type="reg">
-                  <forename>René</forename>
+                  <forename>René Johannes Stefan</forename>
                   <surname>Tillich</surname>
                </persName>
                <birth>
@@ -1639,7 +1639,7 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Psychologe; Sohn von Paul Tillich</occupation>
             </person>  
             <person xml:id="P01930">
                <idno type="gnd">118622692</idno>
@@ -1674,7 +1674,7 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Mutter von Paul Tillich</occupation>
             </person>  
             <person xml:id="P01932">
                <idno type="gnd">k. A.</idno>
@@ -1690,7 +1690,7 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Großmutter von Paul Tillich</occupation>
             </person>     
             <person xml:id="P01933">
                <idno type="gnd">k. A.</idno>
@@ -1707,7 +1707,7 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Erste Frau Tillichs 28.9.1914-22.11.1921</occupation>
             </person>  
             <person xml:id="P01934">
                <idno type="gnd">k. A.</idno>
@@ -1801,11 +1801,11 @@
                <occupation>k. A.</occupation>
             </person>  
             <person xml:id="P01940">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">118758276</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118758276.html</idno>
                <persName type="reg">
                   <forename>k. A.</forename>
-                  <surname>Timaios</surname>
+                  <surname>Timaios Locrus</surname>
                </persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
@@ -1813,10 +1813,10 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Philosoph; Schriftsteller</occupation>
             </person>  
             <person xml:id="P01941">
-               <idno type="gnd">k. A.</idno>
+               <idno type="gnd">121957721</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
                   <forename>k. A.</forename>
@@ -1828,11 +1828,11 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Antiker griechischer Misanthrop</occupation>
             </person>  
             <person xml:id="P01942">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">124938167</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd124938167.html</idno>
                <persName type="reg">
                   <forename>Matthew</forename>
                   <surname>Tindal</surname>
@@ -1843,11 +1843,11 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Jurist; Religionsphilosoph</occupation>
             </person>  
             <person xml:id="P01943">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">117401501</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd117401501.html</idno>
                <persName type="reg">
                   <forename>Johann August Heinrich</forename>
                   <surname>Tittmann</surname>
@@ -1858,7 +1858,7 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Evangelischer Theologe</occupation>
             </person>  
             <person xml:id="P01944">
                <idno type="gnd">k. A.</idno>
@@ -2113,7 +2113,7 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Reverend</occupation>
             </person>  
             <person xml:id="P01961">
                <idno type="gnd">k. A.</idno>
@@ -2248,7 +2248,7 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Deutscher Beamter, Germanist und Erziehungswissenschaftler</occupation>
             </person>  
             <person xml:id="P01970">
                <idno type="gnd">k. A.</idno>
@@ -2369,7 +2369,7 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Kunsthistoriker</occupation>
             </person>  
             <person xml:id="P01978">
                <idno type="gnd">k. A.</idno>
@@ -2385,7 +2385,7 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Karl Hermann U. war der Enkel des Philologen und Religionswissenschaftlers Hermann Carl Useners. Studium der Kunstgeschichte in Marburg, wo er 1929 promoviert wurde. Danach Tätigkeit in Frankfurt am Main und seit 1935 in München, wo er 1940, ein Jahr nach seiner Habilitation, Dozent an der dortigen Universität wurde. 1953 ging er zurück an die Universität Marburg, wo er u.a. Direktor des kunstgeschichtlichen Seminars wurde. In erster Ehe war er mit Ilse Pfennigwerth verheiratet, die in Dresden und Frankfurt bei Tillich studiert hatte.</occupation>
             </person>  
             <person xml:id="P01979">
                <idno type="gnd">k. A.</idno>
@@ -2460,7 +2460,7 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Theologe; Tochter des Designers und Architekten Henry van de Velde (1863-1957). Geboren in Weimar, Studium an der Designhochschule La Cambre in Brüssel. V. war zweimal verheiratet und starb 1955 nach schwerer Krankheit in der Schweiz. </occupation>
             </person>  
             <person xml:id="P01984">
                <idno type="gnd">k. A.</idno>
@@ -2475,7 +2475,7 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Niederländischer Psychiater; seit 1930 Direktor der Schule für Philosophie in Amersfoort (International School voor Wijsbegeerte)</occupation>
             </person>  
             <person xml:id="P01985">
                <idno type="gnd">k. A.</idno>
@@ -2490,7 +2490,7 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Niederländischer Bankier; Er wurde in Groningen geboren, war Mitbegründer der Niederländischen Gesellschaft für Psychoanalyse und lehrte seit 1929 an der Universität Amsterdam. Seine Frau war die österreichstämmige Maria Theresia van der Hoop (geb. von Boschan, 1902-1984).</occupation>
             </person>  
             <person xml:id="P01986">
                <idno type="gnd">k. A.</idno>
@@ -2505,7 +2505,7 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Pfarrer und Studienkollege Tillichs</occupation>
             </person>  
             <person xml:id="P01987">
                <idno type="gnd">k. A.</idno>
@@ -2640,7 +2640,7 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Studentin bei Tillich in Frankfurt</occupation>
             </person>  
             <person xml:id="P01996">
                <idno type="gnd">k. A.</idno>
@@ -2671,7 +2671,7 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Mann: Paul Viergatz?</occupation>
             </person>  
             <person xml:id="P01998">
                <idno type="gnd">k. A.</idno>
@@ -2701,7 +2701,7 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>In Österreich geborener, in Deutschland, den USA und Großbritannien arbeitender jüdischer Schriftsteller, Dramaturg, Essayist, Übersetzer und Film- und Theaterregisseur</occupation>
             </person>  
             <person xml:id="P02000">
                <idno type="gnd">k. A.</idno>
@@ -2731,7 +2731,7 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Reformierter Theologe</occupation>
             </person>  
             <person xml:id="P02002">
                <idno type="gnd">k. A.</idno>
@@ -2746,7 +2746,7 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Niederländischer reformierter Theologe. Er war der erste Generalsekretär des Ökumenischen Rates der Kirchen</occupation>
             </person>  
             <person xml:id="P02003">
                <idno type="gnd">k. A.</idno>
@@ -2821,7 +2821,7 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Dipl. Ing. Barbara und Wolfgang Vogt, Architekten BDA, Kiel, mitgeschickter Text über den "Kirchenraum"</occupation>
             </person>  
             <person xml:id="P02008">
                <idno type="gnd">k. A.</idno>
@@ -2897,7 +2897,7 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Kunsthistoriker</occupation>
             </person>   
             <person xml:id="P02013">
                <idno type="gnd">k. A.</idno>
@@ -2912,7 +2912,7 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Evangelisches Verlagswerk Stuttgart</occupation>
             </person>  
             <person xml:id="P02014">
                <idno type="gnd">k. A.</idno>
@@ -2943,7 +2943,7 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Philosoph</occupation>
             </person>  
             
             
