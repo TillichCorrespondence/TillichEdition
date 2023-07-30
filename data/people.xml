@@ -1557,10 +1557,10 @@
                   <surname>Tillich</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1910-06-27">27. Juni 1910</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1985-03-16">16. März 1985</date>
                </death>
                <occupation>Theologe; Neffe von P.T.</occupation>
             </person>   
@@ -1573,10 +1573,10 @@
                </persName>
                <persName type="maidenname">Werner</persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1896-05-17">17. Mai 1896</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1988-10-27">27. Oktober 1988</date>
                </death>
                <occupation>geb. Werner, vormals verheiratet mit Albert Gottschow</occupation>
             </person>  
@@ -1588,10 +1588,10 @@
                   <surname>Tillich</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1886-08-20">20. August 1886</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1965-10-22">22. Oktober 1965</date>
                </death>
                <occupation>Pfarrer, Superintendent, Geh. Konsistorialrat; Johannes Oskar T. war der Vater von Paul Tillich. Seine erste Pfarrstelle war die lutherische Gemeinde Starzeddel (heute Starosiedle) bei Guben, wo Paul 1886 zur Welt kam. 1891 wurde er Superintendent für den Kirchenkreis Schönfließ (Neumark), 1900 wurde er nach Berlin berufen, wo er Geheimer Konsistorialrat wurde. 1885 hatte er Wilhelmina Mathilde Dürselen geheiratet, die Mutter Pauls, die jedoch 1903 starb.</occupation>
             </person>  
@@ -1619,10 +1619,10 @@
                   <surname>Tillich</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1828">1828</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1914">1914</date>
                </death>
                <occupation>Silberfabrikant; Großvater von Paul Tillich</occupation>
             </person>  
@@ -1634,7 +1634,7 @@
                   <surname>Tillich</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1935">1935</date>
                </birth>
                <death>
                   <date when="0001-01-01">k. A.</date>
@@ -1702,10 +1702,10 @@
                <persName type="maidenname">Wever</persName>
                <persName type="nick">Greti</persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1888">1888</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1968">1968</date>
                </death>
                <occupation>Erste Frau Tillichs 28.9.1914-22.11.1921</occupation>
             </person>  
@@ -2508,8 +2508,8 @@
                <occupation>Pfarrer und Studienkollege Tillichs</occupation>
             </person>  
             <person xml:id="P01987">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">118531557</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118531557.html</idno>
                <persName type="reg">
                   <forename>Jan</forename>
                   <surname>Van Eyck</surname>
@@ -2520,11 +2520,11 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Maler</occupation>
             </person>  
             <person xml:id="P01988">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">118540416</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118540416.html</idno>
                <persName type="reg">
                   <forename>Vincent</forename>
                   <surname>Van Gogh</surname>
@@ -2535,13 +2535,13 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Maler</occupation>
             </person>  
             <person xml:id="P01989">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">118626167</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118626167.html</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
+                  <forename>Karl August</forename>
                   <surname>Varnhagen von Ense</surname>
                </persName>
                <birth>
@@ -2550,13 +2550,13 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Diplomat; Schriftsteller; Übersetzer; Autographensammler</occupation>
             </person>  
             <person xml:id="P01990">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">https://www.deutsche-biographie.de/pnd118626183.html</idno>
+               <idno type="DB">118626183</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
+                  <forename>Marcus Terentius</forename>
                   <surname>Varro</surname>
                </persName>
                <birth>
@@ -2565,11 +2565,11 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Schriftsteller; Gelehrter</occupation>
             </person>   
             <person xml:id="P01991">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">117370487</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd117370487.html</idno>
                <persName type="reg">
                   <forename>Karl Heinrich</forename>
                   <surname>Venturini</surname>
@@ -2580,11 +2580,11 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Lutherischer Theologe; Historiker</occupation>
             </person>  
             <person xml:id="P01992">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">118804723</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118804723.html</idno>
                <persName type="reg">
                   <forename>k. A.</forename>
                   <surname>Vergil</surname>
@@ -2595,11 +2595,11 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Irischer Priester; Abt; Bischof von Salzburg; Heiliger</occupation>
             </person>  
             <person xml:id="P01993">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">118768204</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118768204.html</idno>
                <persName type="reg">
                   <forename>Andreas</forename>
                   <surname>Vesalius</surname>
@@ -2610,11 +2610,11 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Anatom; Arzt; Leibarzt Kaiser Karls V. und König Philipps II.</occupation>
             </person>  
             <person xml:id="P01994">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">118626833</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118626833.html</idno>
                <persName type="reg">
                   <forename>Giambattista</forename>
                   <surname>Vico</surname>
@@ -2625,7 +2625,7 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Historiker; Philosoph; Rechtsgelehrter</occupation>
             </person>  
             <person xml:id="P01995">
                <idno type="gnd">k. A.</idno>
@@ -2650,10 +2650,10 @@
                   <surname>Viénot</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1897">1897</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1944-07-20">20. Juli 1944</date>
                </death>
                <occupation>k. A.</occupation>
             </person>  
@@ -2674,8 +2674,8 @@
                <occupation>Mann: Paul Viergatz?</occupation>
             </person>  
             <person xml:id="P01998">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">118804472</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118804472.html</idno>
                <persName type="reg">
                   <forename>Alfred</forename>
                   <surname>Vierkandt</surname>
@@ -2686,11 +2686,11 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Soziologe; Ethnologe; Sozialpsychologe</occupation>
             </person>     
             <person xml:id="P01999">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">118768395</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118768395.html</idno>
                <persName type="reg">
                   <forename>Berthold</forename>
                   <surname>Viertel</surname>
@@ -2704,8 +2704,8 @@
                <occupation>In Österreich geborener, in Deutschland, den USA und Großbritannien arbeitender jüdischer Schriftsteller, Dramaturg, Essayist, Übersetzer und Film- und Theaterregisseur</occupation>
             </person>  
             <person xml:id="P02000">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">11862721X</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd11862721X</idno>
                <persName type="reg">
                   <forename>Friedrich Theodor</forename>
                   <surname>Vischer</surname>
@@ -2716,11 +2716,11 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Ästhetiker; Philosoph; Dichter; Essayist; Literaturwissenschaftler</occupation>
             </person>  
             <person xml:id="P02001">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">118627236</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118627236.html</idno>
                <persName type="reg">
                   <forename>Adolf Willem</forename>
                   <surname>Visser ‘t Hooft</surname>
@@ -2731,29 +2731,14 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>Reformierter Theologe</occupation>
+               <occupation>Niederländischer reformierter Theologe. Er war der erste Generalsekretär des Ökumenischen Rates der Kirchen</occupation>
             </person>  
             <person xml:id="P02002">
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
-                  <forename>Willem Adolf</forename>
-                  <surname>Visser ’t Hooft</surname>
-               </persName>
-               <birth>
-                  <date when="0001-01-01">k. A.</date>
-               </birth>
-               <death>
-                  <date when="0001-01-01">k. A.</date>
-               </death>
-               <occupation>Niederländischer reformierter Theologe. Er war der erste Generalsekretär des Ökumenischen Rates der Kirchen</occupation>
-            </person>  
-            <person xml:id="P02003">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
-               <persName type="reg">
-                  <forename>Elisabeth Gräfin von</forename>
-                  <surname>Vitzthum</surname>
+                  <forename>k. A.</forename>
+                  <surname>k. A.</surname>
                </persName>
                <birth>
                   <date when="0001-01-01">k. A.</date>
@@ -2763,9 +2748,24 @@
                </death>
                <occupation>k. A.</occupation>
             </person>  
+            <person xml:id="P02003">
+               <idno type="gnd">117437913</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd117437913.html</idno>
+               <persName type="reg">
+                  <forename>Elisabeth Gräfin von</forename>
+                  <surname>Vitzthum Eckstädt</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Gräfin</occupation>
+            </person>  
             <person xml:id="P02004">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">118627295</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118627295.html</idno>
                <persName type="reg">
                   <forename>Ludovicus</forename>
                   <surname>Vives</surname>
@@ -2776,11 +2776,11 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Humanist</occupation>
             </person>  
             <person xml:id="P02005">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">11890261X</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd11890261X.html</idno>
                <persName type="reg">
                   <forename>Gisbert</forename>
                   <surname>Voetius</surname>
@@ -2791,7 +2791,7 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Hochschullehrer; Theologe; Pfarrer; Orientalist</occupation>
             </person>  
             <person xml:id="P02006">
                <idno type="gnd">k. A.</idno>
@@ -2842,20 +2842,20 @@
                <idno type="gnd">k. A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
-                  <forename>F.</forename>
+                  <forename>Friedrich</forename>
                   <surname>Volckmar</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1799">1799</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1876">1876</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Buchhändler</occupation>
             </person>  
             <person xml:id="P02010">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">118770217</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118770217.html</idno>
                <persName type="reg">
                   <forename>Antje</forename>
                   <surname>Vollmer</surname>
@@ -2866,11 +2866,11 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Pädagogin; Theologin; Politikerin; Publizistin</occupation>
             </person>  
             <person xml:id="P02011">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">118627813</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118627813.html</idno>
                <persName type="reg">
                   <forename>k. A.</forename>
                   <surname>Voltaire</surname>
@@ -2882,11 +2882,11 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Philosoph</occupation>
             </person>  
             <person xml:id="P02012">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">117387010</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd117387010.html</idno>
                <persName type="reg">
                   <forename>Eckart von</forename>
                   <surname>Sydow</surname>
@@ -2897,11 +2897,11 @@
                <death>
                   <date when="0001-01-01">k. A.</date>
                </death>
-               <occupation>Kunsthistoriker</occupation>
+               <occupation>Ethnologe</occupation>
             </person>   
             <person xml:id="P02013">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">1012369536</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd1012369536.html</idno>
                <persName type="reg">
                   <forename>Friedrich</forename>
                   <surname>Vorwerk</surname>
@@ -2930,7 +2930,7 @@
                <occupation>k. A.</occupation>
             </person>  
             <person xml:id="P02015">
-               <idno type="gnd">k. A.</idno>
+               <idno type="gnd">120957221</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
                   <forename>Boris P.</forename>
