@@ -1543,10 +1543,561 @@
                <note type="bio">Studierte Literatur, Philosophie und Theologie</note>
             </person>
         
-
+        
+        
+        
+        
+        
+        
+            <person xml:id="P01888">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Gertrud von</forename>
+                  <surname>Sydow</surname>
+               </persName>
+               <persName type="maidenname">Wever</persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>
+            <person xml:id="P01889">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Eckart von</forename>
+                  <surname>Sydow</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Kunsthistoriker</occupation>
+            </person>
+            <person xml:id="P01890">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>k. A.</forename>
+                  <surname>Takeuchi</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>
+            <person xml:id="P01891">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>k. A.</forename>
+                  <surname>Tatian</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>
+            <person xml:id="P01892">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Jacob</forename>
+                  <surname>Taubes</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Religionssoziologe, Philosoph und Judaist</occupation>
+            </person>
+            <person xml:id="P01893">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Pierre</forename>
+                  <surname>Teilhard de Chardin</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>
+            <person xml:id="P01894">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Bernardus</forename>
+                  <surname>Telesius</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>
+            <person xml:id="P01895">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Wilhelm Abraham</forename>
+                  <surname>Teller</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>
+            <person xml:id="P01896">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>William</forename>
+                  <surname>Temple</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>
+            <person xml:id="P01897">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Williams</forename>
+                  <surname>Tennesee</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>
+            <person xml:id="P01898">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Cecile</forename>
+                  <surname>Terrien</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Tochter eines Arbeitskollegen Tillichs am Union College</occupation>
+            </person>
+            <person xml:id="P01899">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Gerhard</forename>
+                  <surname>Tersteegen</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>
+            <person xml:id="P01900">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>k. A.</forename>
+                  <surname>Tertullian</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>
+            <person xml:id="P01901">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Johann Nicolaus</forename>
+                  <surname>Tetens</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>
+            <person xml:id="P01902">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>k. A.</forename>
+                  <surname>Thales von Milet</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>
+            <person xml:id="P01903">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Bruno</forename>
+                  <surname>Theek</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+               </person>
+            <person xml:id="P01904">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>George</forename>
+                  <surname>Thélin</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>
+            <person xml:id="P01905">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Karl</forename>
+                  <surname>Themel</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>
+            <person xml:id="P01906">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>k. A.</forename>
+                  <surname>Themistokles</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>
+            <person xml:id="P01907">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>k. A.</forename>
+                  <surname>Theodor von Mopsuestia</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>
+            <person xml:id="P01908">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>k. A.</forename>
+                  <surname>Theodorus Atheos</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>
+            <person xml:id="P01909">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>k. A.</forename>
+                  <surname>Theodosius der Große</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>
+            <person xml:id="P01910">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Helmut</forename>
+                  <surname>Thielicke</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Deutscher evangelischer Theologe</occupation>
+            </person>
+            <person xml:id="P01911">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>k. A.</forename>
+                  <surname>Thierry von Chartres</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>
+            <person xml:id="P01912">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Wilhelm</forename>
+                  <surname>Thomas</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>
+            <person xml:id="P01913">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>k. A.</forename>
+                  <surname>Thomas Bradwardine</surname>
+               </persName>
+               <persName type="alternative">Bradwardinus</persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>
+            <person xml:id="P01914">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>k. A.</forename>
+                  <surname>Thomas von Aquin</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>
+            <person xml:id="P01915">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>k. A.</forename>
+                  <surname>Thomas von Kempen</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>
+            <person xml:id="P01916">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Christian</forename>
+                  <surname>Thomasius</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>
+            <person xml:id="P01917">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Dorothy</forename>
+                  <surname>Thompson</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Amerkianische Schriftstellerin und Journalistin</occupation>
+            </person>
+            <person xml:id="P01918">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Lynn</forename>
+                  <surname>Thorndyke</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>
+            <person xml:id="P01919">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>k. A.</forename>
+                  <surname>Thrita</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>
+            <person xml:id="P01920">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Eduard</forename>
+                  <surname>Thurneysen</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>
+            <person xml:id="P01921">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Joachim</forename>
+                  <surname>Tiburtius</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>
+            <person xml:id="P01922">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Johann Heinrich</forename>
+                  <surname>Tieftrunk</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>
+            <person xml:id="P01923">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Cornelius Petrus</forename>
+                  <surname>Tiele</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>k. A.</occupation>
+            </person>
+            
+               
             
             
+  
             
+     
             
             
             <person xml:id="P01924">
