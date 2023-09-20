@@ -1,12 +1,12 @@
 
 <?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L00391">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L0394">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Brief von Hermann Steinhausen an Paul Tillich <lb/>
-               vom 1. Oktober 1914</title>
-            <author ref="P01854">Hermann Steinhausen</author>
+            <title>Brief von Hermann Schafft an Paul Tillich
+               <lb/>vom 5. Oktober 1914</title>
+            <author ref="P01697">Hermann Schafft</author>
             <respStmt>
                <resp>Editor</resp>
                <name>Paul Schömann</name>
@@ -36,17 +36,17 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <msDesc type="Manuskript">
+            <msDesc type="manuscript">
                <msIdentifier>
                   <country>USA</country>
                   <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
                   <institution>Harvard University</institution>
                   <repository>Harvard Divinity School Library</repository>
                   <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974.</collection>
-                  <idno>bMS 649/Box 218(9)</idno>
+                  <idno>bMS 649/Box 182(4)</idno>
                </msIdentifier>
                <physDesc>
-                  <p>Brief, maschinenschriftlich</p>
+                  <p>Brief, eigenhändig</p>
                </physDesc>
             </msDesc>
          </sourceDesc>
@@ -63,13 +63,12 @@
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="P01854">Hermann Steinhausen</persName>
-               <placeName ref="where">Berlin</placeName>
-               <date when="1914-10-01">1. Oktober 1914</date>
+               <persName ref="P01697">Hermann Schafft</persName>
+               <placeName ref="where">Bonn</placeName>
+               <date when="1914-10-05">5.10.1914</date>
             </correspAction>
             <correspAction type="received">
                <persName ref="P01930">Paul Tillich</persName>
-               <placeName>Berlin</placeName>
             </correspAction>
          </correspDesc>
          <langUsage>
@@ -77,7 +76,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="approved">
-         <change who="PS" when="2023-05-20">Intitale Auszeichnung des Transkripts</change>
+         <change who="PS" when="2023-05-19">Intitale Auszeichnung des Transkripts</change>
          <change who="GM" when="2023-09-20">Endabnahme</change>
       </revisionDesc>
    </teiHeader>
@@ -85,23 +84,33 @@
       <body>
          <div type="writingSession">
             <pb n="1"/>
-            <opener>Königliches Konsistorium der Provinz Brandenburg, Abteilung Berlin.<lb/>
-             k.II No 2979  
-               <dateline><address><placeName ref="Berlin">Berlin S.W. 68</placeName> <street>Lindenstr. 14</street></address>, den <date when="1914-10-01">1. Oktober 1914</date>.</dateline>
+            <opener>
+               <dateline>
+                  <placeName ref="Bonn">Bonn</placeName>
+                  <date when="1914-10-05">5. X. 14.</date></dateline>
+               <salute>Lieber Philister <persName ref="P01930">Tillich</persName>!</salute>
             </opener>
-            <p>Auf Ihren Antrag vom <date when="1914-09-23">23. September 1914</date> entlassen wir Euere Hochehrwürden aus Ihrer
-               Hilfsprediger-Tätigkeit in <placeName ref="Berlin">Berlin-Lankwitz</placeName> mit dem Ablaufe des <date when="1914-09-30">30. September 1914</date>.
-               Ihre Besoldung haben wir mit dem gleichen Zeitpunkte in Abgang gestellt.</p>
+            <p>Anbei schicke ich Dir eine Art Meldung mit der Frage, ob Du etwas tun kannst. Es
+               liegt mir nicht – wie Du wohl glaubst – an einer bequemen Stellung mit Burschen u.
+               Pferd, obschon ich reiten kann, sondern daran, daß die Not der Leute <hi rend="u"
+                  >geistig</hi> u. geistlich gestillt wird. So ist's schlimm! Täglich 3-4 Tote. <hi
+                  rend="u">Kein</hi><pb n="2"/> Pastor in Sicht. Es ist ja garnicht möglich. Ich <hi
+                  rend="u">kann</hi> in meiner Stellung, in der ich vor jedem Unterarzt stramm
+               stehen muß nichts tun und halte es auch für falsch dann zu predigen: der
+               Standesachtung wegen. Vielleicht kannst Du etwas tun. Am besten wäre eine
+               telegraphische Berufung via <hi rend="u">Gouvernement
+                  <placeName>Brüssel</placeName></hi>.<pb n="3"/> Comphil. <persName ref="P02414"
+                  >Königs</persName> soll wieder da sein – deutscher Pfarrer, dem könnte ich helfen.
+               Ich wäre Dir für Unterstützung sehr dankbar.</p>
+            <p>An <unclear>Koinbitz</unclear> geht via Professor <persName ref="P02352">Weber</persName> dasselbe Schreiben ab.</p>
             <closer>
-               <signed><persName ref="P01854">Steinhausen</persName></signed>
+               <salute>Herzl. Gruß</salute>
+               <signed>D. <persName ref="P01697">Schafft</persName></signed>
             </closer>
-            <salute>
-               An<lb/>
-               Herrn Pastor Lic. Dr. <persName ref="P01930">Tillich</persName><lb/>
-               Hochehrwürden<lb/>
-               in<lb/>
-               <placeName ref="Berlin">Berlin-Lankwitz</placeName>
-            </salute>
+            <postscript>
+               <p>dzt. auf Verwundetentransport <placeName ref="Deutschland">Deutschland</placeName><pb n="4"/> morgen zurück nach
+                     <placeName ref="Brüssel">Brüssel</placeName>!</p>
+            </postscript>
          </div>
       </body>
    </text>

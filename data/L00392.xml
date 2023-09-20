@@ -1,6 +1,6 @@
 
 <?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L00392">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,7 +44,7 @@
                   <idno>008 H</idno>
                </msIdentifier>
                <physDesc>
-                  <p>maschinenschriftlich</p>
+                  <p>Brief, als maschinenschriftliche Abschrift überliefert</p>
                   </physDesc>
                <additional>
                   <listBibl>
@@ -83,7 +83,7 @@
            <correspAction type="sent">
               <persName ref="P01930">Paul Tillich</persName>
               <placeName ref="ohne Ort">ohne Ort</placeName>
-              <date notBefore="1914-10-29" notAfter="1914-11-30">10./11. 1914</date>
+              <date notBefore="1914-10-29" notAfter="1914-11-30">10./11.1914</date>
            </correspAction>
            <correspAction type="received">
               <persName ref="P02052">Wilhelm Wever</persName>
