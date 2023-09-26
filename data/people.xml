@@ -5960,17 +5960,17 @@
                <occupation>Studentenverbindung, vgl. 1907. Tillich, P. an Fritz, A (Hätte ich...)s</occupation>
             </person>
             <person xml:id="P02180">
-               <idno type="gnd">117512990</idno>
+               <idno type="gnd">k.A.</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
-                  <forename>Bernhard</forename>
+                  <forename></forename>
                   <surname>Heine</surname>
                </persName>
                <birth>
-                  <date when="1864">1864</date>
+                  <date></date>
                </birth>
                <death>
-                  <date when="1928">1928</date>
+                  <date></date>
                </death>
                <occupation>Studentenverbindung, vgl. 1907. Tillich, P. an Fritz, A (Hätte ich...)</occupation>
             </person>
@@ -7149,17 +7149,17 @@
                <occupation>Hilfsprediger bei Johannes Tillich um 1905</occupation>
             </person>
             <person xml:id="P02259">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">117512990</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd117512990.html</idno>
                <persName type="reg">
-                  <forename>k. A.</forename>
+                  <forename>Bernhard</forename>
                   <surname>Heine</surname>
                </persName>
                <birth>
-                  <date>k. A.</date>
+                  <date when="1864">1864</date>
                </birth>
                <death>
-                  <date>k. A.</date>
+                  <date when="1928">1928</date>
                </death>
                <occupation>Ohrenarzt, erwähnt in: 1905.05.19 Winkler T. etc. an Tillich, P.</occupation>
             </person>
