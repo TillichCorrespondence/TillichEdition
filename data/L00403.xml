@@ -87,7 +87,7 @@
          <div type="writingSession">
             <pb n="1"/>
             <opener>
-               <dateline>Bieuxy, d. <date when="1914-11-17">17 Nov.</date></dateline>
+               <dateline><placeName ref="Bieuxy">Bieuxy</placeName>, d. <date when="1914-11-17">17 Nov.</date></dateline>
                <salute>L. <persName ref="P01764">E.</persName>!</salute>
             </opener>
             <p>Gestern erhielt ich <persName ref="P01926">Papas</persName> Brief mit den
