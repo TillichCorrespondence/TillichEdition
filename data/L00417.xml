@@ -45,8 +45,43 @@
                         <idno>Hs 1377:698</idno>
                     </msIdentifier>
                     <physDesc>
-                        <p>Brief, als maschinenschriftliche Abschrift überliefert.</p>
-                    </physDesc>   
+                        <p>Brief, eigenhändig.</p>
+                    </physDesc>  
+                    <additional>
+                        <listBibl>
+                            <biblStruct type="monograph" n="firstPrint">
+                                <monogr>
+                                    <author>Paul Tillich</author>
+                                    <title>Ein Lebensbild in Dokumenten. Briefe, Tagebuch-Auszüge, Berichte</title>
+                                    <edition>1. Auflage</edition>
+                                    <imprint>
+                                        <publisher>Renate Albrecht und Margot Hahl</publisher>
+                                        <pubPlace ref="Stuttgart">Stuttgart</pubPlace>
+                                            <date when="1980">1980</date>
+                                                <biblScope>86f.</biblScope>
+                                    </imprint>
+                                </monogr>
+                                <series>
+                                    <title>Gesammelte Werke. Ergänzungs- und Nachlaßbände</title>
+                                    <biblScope>Band 5></biblScope>
+                                </series>
+                            </biblStruct>
+                            <biblStruct type="journal" n="reprint">
+                                <monogr>
+                                    <author>Hrsg. Friedrich Wilhelm Graf und Alf Christophersen</author>
+                                    <title>Die Korrespondenz zwischen Fritz Medicus und Paul Tillich</title>
+                                    <imprint>
+                                        <date when="1886-08-20">2004</date>
+                                        <biblScope>128f.</biblScope>
+                                    </imprint>
+                                </monogr>
+                                <series>
+                                    <title>Zeitschrift für neuere Theologiegeschichte </title>
+                                    <biblScope>11</biblScope>
+                                </series>
+                            </biblStruct>
+                        </listBibl>
+                    </additional>
                 </msDesc>       
             </sourceDesc>
         </fileDesc>
@@ -76,8 +111,6 @@
         <revisionDesc status="approved">
             <change who="EL" when="2022-04-21">Intitale Auszeichnung des Transkripts</change>
             <change who="GM" when="2023-09-29">Endabnahme</change>
-            
-            
         </revisionDesc>
     </teiHeader>
     <text type="letter">
@@ -85,12 +118,11 @@
             <div type="writingSession1">
                 <pb n="1"/>
                 <opener><dateline><placeName ref="Bieuxy">Bieuxy</placeName>/<placeName ref="Aisne"
-                            >Aisne</placeName>, d.<date when="1915-01-04">4.
-                                Jan. 1915</date>.</dateline>
+                            >Aisne</placeName>, d.<date when="1915-01-04">4. Jan. 1915</date>.</dateline>
                     <salute>Hochverehrter lieber <persName ref="P01291">Herr Professor</persName>!</salute></opener>
-                <p>Als prot. Felddivisionspfarrer bin ich seit <date when="1915-10-11">11 Oct.</date><add resp="unknown1" place="superlinear">Okt.<expan>ober</expan></add> hier an der <placeName ref="Aisne">Aisne</placeName><add resp="unknown1" place="superlinear"><placeName ref="Aisne">Aisne</placeName></add>. Es geht <add resp="unknown1" place="superlinear">geht</add> in all diesen Gegenden weder  <unclear reason="illegible" cert="medium">vorwärts</unclear><add> weder <unclear reason="illegible" cert="high">vorwärts</unclear></add> noch rückwärts! Hoffentlich bald <unclear reason="covered" cert="medium">endgültig</unclear><add resp="unknown1" place="right">?</add> vorwärts! Ich habe viel zu tun. <unclear reason="covered" cert="medium">Die</unclear> Arbeit ist also wieder voll; <unclear cert="high" reason="covered">besonders</unclear> Weihnachten und Sylvester hatten wir herrliche <add resp="unknown1" place="superlinear">herrliche</add> Gottesdienste. Hier gibt es sehr viele und grosse Kalksteinhöhlen. In diesen <sic>Feiern</sic> wir, wenn irgend möglich, um gegen feindliches Feuer sicher zu sein. Sie können sich gar nicht denken, was für eine Begierde nach Religion in den Leuten wachgeworden ist und wie <add resp="unknown1" place="superlinear">wie</add> wirksam sich doch die substantielle Religiosität der Jugendzeit erweist, jetzt wo ein Anlaß da ist, sie aktuell<pb n="2"/>werden zu lassen. Man hat nur die echt evangelische Aufgabe, auszudrücken, was alle erleben. Man predigt nicht andern, wie so oft im Frieden. Was würde <persName ref="Johann Gottlieb Fichte">Fichte</persName> zu unserer Zeit sagen! <sic>Unverdienter Weise</sic> habe ich auch das eiserne Kreuz bekommen. 
+                <p>Als prot. Felddivisionspfarrer bin ich seit <date when="1915-10-11">11 Okt.</date> hier an der <placeName ref="Aisne">Aisne</placeName>. Es geht in all diesen Gegenden weder  <unclear reason="illegible" cert="high">vorwärts</unclear> noch rückwärts! Hoffentlich bald endgültig vorwärts! Ich habe viel zu tun. Die Arbeit ist also wieder voll; besonders Weihnachten und Sylvester hatten wir herrliche Gottesdienste. Hier gibt es sehr viele und grosse Kalksteinhöhlen. In diesen <sic>Feiern</sic> wir, wenn irgend möglich, um gegen feindliches Feuer sicher zu sein. Sie können sich gar nicht denken, was für eine Begierde nach Religion in den Leuten wachgeworden ist und wie wirksam sich doch die substantielle Religiosität der Jugendzeit erweist, jetzt wo ein Anlaß da ist, sie aktuell<pb n="2"/>werden zu lassen. Man hat nur die echt evangelische Aufgabe, auszudrücken, was alle erleben. Man predigt nicht andern, wie so oft im Frieden. Was würde <persName ref="P00589">Fichte</persName> zu unserer Zeit sagen! <sic>Unverdienter Weise</sic> habe ich auch das eiserne Kreuz <note type="ea">Tillich erhielt das Eiserne Kreuz 2. Klasse im Dezember 1914. Das Eiserne Kreuz 1. Klasse folgte am 9. Juni 1918 (vgl. <bibl type="monograph">Wilhelm und Marion Pauk, Paul Tillich. Sein Leben und Denken, Bd. I: Leben, Stuttgart/Frankfurt am Main (Evangelisches Verlagswerk/ Otto Lembeck) 1978, S.54 u. 66</bibl>).</note>bekommen. 
                 </p>
-                <closer><salute>Es grüsst Sie herzlich Ihr dankbar ergebener</salute> <signed><persName ref="Paul Tillich">P.<expan>aul</expan><add resp="unknown1" place="superlinear">[aul]</add> Tillich</persName>.</signed></closer>
+                <closer><salute>Es grüsst Sie herzlich Ihr dankbar ergebener</salute> <signed><persName ref="P01930">P. Tillich</persName>.</signed></closer>
             </div>
         </body>
     </text>    
