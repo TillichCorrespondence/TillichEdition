@@ -45,7 +45,7 @@
                   <idno>bMS 649/218(17)</idno>
                </msIdentifier>
                <physDesc>
-                  <p>handschriftlich</p>
+                  <p>Brief, eigenhändig</p>
                   </physDesc>              
             </msDesc>                     
          </sourceDesc>
@@ -96,7 +96,7 @@
               <cell>2ter</cell>
               <cell>März</cell>
               <cell>
-                 <placeName ref="Chavigny">Chavigny</placeName>
+                 <placeName ref="Chavigny02880">Chavigny</placeName><!-- Zur Auffindbarkeit der kleinen Orte in Frankreich sind die Postleitzahlen angegeben-->
               </cell>
               <cell>III. Battl. Res-Reg. 72.</cell>
            </row>
@@ -114,7 +114,7 @@
               <cell>"</cell>
               <cell>"</cell>
               <cell>
-                 <placeName ref="Marnuit-Ferme">Marnuit-Ferme</placeName>
+                 <placeName ref="Marnuit"><unclear>Marnuit-Ferme</unclear></placeName>
               </cell>
               <cell>II. Battl. Res-Reg. 66.</cell>
            </row>
@@ -123,7 +123,7 @@
               <cell>"</cell>
               <cell>"</cell>
               <cell>
-                 <placeName ref="Epagny">Epagny</placeName>
+                 <placeName ref="Épagny02290">Epagny</placeName>
               </cell>
               <cell>I. " "</cell>
            </row>
@@ -132,7 +132,7 @@
               <cell>18.</cell>
               <cell>"</cell>
               <cell>
-                 <placeName ref="Villers la Fosse">Villers la Fosse</placeName>
+                 <placeName ref="Villers la Fosse02200">Villers la Fosse</placeName>
               </cell>
               <cell>Komp. Res-Reg. 72</cell>
            </row>
@@ -141,7 +141,7 @@
               <cell>19.</cell>
               <cell>"</cell>
               <cell>
-                 <placeName ref="Champs">Champs</placeName>
+                 <placeName ref="Champs02670">Champs</placeName>
               </cell>
               <cell>Große Bagage</cell>
            </row>
@@ -150,7 +150,7 @@
               <cell>"</cell>
               <cell>"</cell>
               <cell>
-                 <placeName ref="Crécy au Mont">Crécy au Mont</placeName>
+                 <placeName ref="Crécy-au-Mont02380">Crécy au Mont</placeName>
               </cell>
               <cell>Schwere Reiter, Kolonnen etc.</cell>
            </row>
@@ -159,7 +159,7 @@
               <cell>20.</cell>
               <cell>"</cell>
               <cell>
-                 <placeName ref="Tankourt">Tankourt</placeName>
+                 <placeName ref="Tancourt02200">Tankourt</placeName>
               </cell>
               <cell>Komp. Res-Jäger 4.</cell>
            </row>
@@ -168,7 +168,7 @@
               <cell>"</cell>
               <cell>"</cell>
               <cell>
-                 <placeName ref="Chavigny">Chavigny</placeName>
+                 <placeName ref="Chavigny02880">Chavigny</placeName>
               </cell>
               <cell>2 Kompagnien Res-Reg. 72.</cell>
            </row>
@@ -177,7 +177,7 @@
               <cell>21.</cell>
               <cell>"</cell>
               <cell>
-                 <placeName ref="Mont-Ecouvé-Ferme">Mont-Ecouvé-Ferme</placeName>
+                 <placeName ref="Montécouvé02880">Mont-Ecouvé-Ferme</placeName>
               </cell>
               <cell>III. Batt. Res-Reg. 36</cell>
            </row>
@@ -186,7 +186,7 @@
               <cell>"</cell>
               <cell>"</cell>
               <cell>
-                 <placeName ref="Mar. –Ferme">Mar. –Ferme</placeName>
+                 <placeName ref="Marnuit"><unclear>Mar. –Ferme</unclear></placeName>
               </cell>
               <cell>II " " "</cell>
            </row>
@@ -195,7 +195,7 @@
               <cell>"</cell>
               <cell>"</cell>
               <cell>
-                 <placeName ref="Epagny">Epagny</placeName>
+                 <placeName ref="Épagny02290">Epagny</placeName>
               </cell>
               <cell>I " " "</cell>
            </row>
@@ -204,7 +204,7 @@
               <cell>22.</cell>
               <cell>"</cell>
               <cell>
-                 <placeName ref="Pasly-Höhle">Pasly-Höhle</placeName>
+                 <placeName ref="Pasly02200">Pasly-Höhle</placeName>
               </cell>
               <cell>F-A-T I. Abt.</cell>
            </row>
@@ -213,7 +213,7 @@
               <cell>24.</cell>
               <cell>"</cell>
               <cell>
-                 <placeName ref="Chavigny">Chavigny</placeName>
+                 <placeName ref="Chavigny02880">Chavigny</placeName>
               </cell>
               <cell>2 Komp. Res-Reg. 72.</cell>
            </row>
@@ -222,7 +222,7 @@
               <cell>"</cell>
               <cell>"</cell>
               <cell>
-                 <placeName ref="Villers la Fosse">Villers la Fosse</placeName>
+                 <placeName ref="Villers la Fosse02200">Villers la Fosse</placeName>
               </cell>
               <cell>Komp. Res-Reg. 72.</cell>
            </row>
@@ -231,7 +231,7 @@
               <cell>28.</cell>
               <cell>"</cell>
               <cell>
-                     <placeName ref="Villers la Fosse">"</placeName>
+                 <placeName ref="Villers la Fosse02200">"</placeName>
                   </cell>
               <cell>" " " "</cell>
            </row>
@@ -240,7 +240,7 @@
               <cell>"</cell>
               <cell>"</cell>
               <cell>
-                 <placeName ref="Chavigny">Chavigny</placeName>
+                 <placeName ref="Chavigny02880">Chavigny</placeName>
               </cell>
               <cell>2 Komp. " " " 2</cell>
            </row>
@@ -250,7 +250,7 @@
               <cell>31.</cell>
               <cell>März</cell>
               <cell>
-                 <placeName ref="Villers la Fosse">Villers la Fosse</placeName>
+                 <placeName ref="Villers la Fosse02200">Villers la Fosse</placeName>
               </cell>
               <cell>Komp. Res-Reg. 72</cell>
            </row>
@@ -260,7 +260,7 @@
               <cell>"</cell>
               <cell>
                  <unclear>
-                    <placeName>Vauveris(?)</placeName>
+                    <placeName ref="Vauxrezis02200">Vauveris</placeName>
                  </unclear>
               </cell>
               <cell>Komp. Res-Jäg. 4, Pioniere etc.</cell>
@@ -270,7 +270,7 @@
               <cell>1.</cell>
               <cell>April</cell>
               <cell>
-                 <placeName ref="Leuilly">Leuilly</placeName>
+                 <placeName ref="Leuilly-sous-Coucy02380"><unclear>Leuilly</unclear></placeName>
               </cell>
               <cell>Munitions-Kolonnen.</cell>
            </row>
@@ -279,7 +279,7 @@
               <cell>"</cell>
               <cell>"</cell>
               <cell>
-                 <placeName ref="Chavigny">Chavigny</placeName>
+                 <placeName ref="Chavigny02880">Chavigny</placeName>
               </cell>
               <cell>II. Battr. F-A-T.</cell>
            </row>
@@ -289,7 +289,7 @@
               <cell>April</cell>
               <cell>
                  <unclear>
-                    <placeName>Laqurux (?)</placeName>
+                    <placeName ref="Laffaux"><unclear>Laqurux</unclear></placeName>
                  </unclear>
               </cell>
               <cell>Sanitätskompagnie, Infanterie.</cell>
@@ -308,7 +308,7 @@
               <cell>"</cell>
               <cell>"</cell>
               <cell>
-                 <placeName ref="Chavigny">Chavigny</placeName>
+                 <placeName ref="Chavigny02880">Chavigny</placeName>
               </cell>
               <cell>2. Komp. Res-Reg. 72</cell>
            </row>
@@ -317,7 +317,7 @@
               <cell>"</cell>
               <cell>"</cell>
               <cell>
-                 <placeName ref="Tartiers">Tartiers</placeName>
+                 <placeName ref="Tartiers02290">Tartiers</placeName>
               </cell>
               <cell>II. Abt. F-A-T.</cell>
            </row>
@@ -326,7 +326,7 @@
               <cell>4.</cell>
               <cell>"</cell>
               <cell>
-                 <placeName ref="Mont-Ekouvé">Mont-Ekouvé</placeName>
+                 <placeName ref="Montécouvé02880">Mont-Ekouvé</placeName>
               </cell>
               <cell>III Battl. Res-Reg. 66.</cell>
            </row>
@@ -335,7 +335,7 @@
               <cell>"</cell>
               <cell>"</cell>
               <cell>
-                 <placeName ref="Marnuit-Ferme">Mav. –Ferme</placeName>
+                 <placeName ref="Marnuit"><unclear>Mav.–Ferme</unclear></placeName>
               </cell>
               <cell>II " " "</cell>
            </row>
@@ -344,7 +344,7 @@
               <cell>"</cell>
               <cell>"</cell>
               <cell>
-                 <placeName ref="Epagny">Epagny</placeName>
+                 <placeName ref="Épagny02290">Epagny</placeName>
               </cell>
               <cell>I " " "</cell>
            </row>
@@ -353,7 +353,7 @@
               <cell>"</cell>
               <cell>"</cell>
               <cell>
-                 <placeName ref="Pont-Saint-Mard">Pont-St. Mard</placeName>
+                 <placeName ref="Pont-Saint-Mard02380">Pont-St. Mard</placeName>
               </cell>
               <cell>Generalkommando.</cell>
            </row>
@@ -362,7 +362,7 @@
               <cell>"</cell>
               <cell>"</cell>
               <cell>
-                 <placeName ref="Pasly">Pasly-Höhle</placeName>
+                 <placeName ref="Pasly02200">Pasly-Höhle</placeName>
               </cell>
               <cell>I. Abt. F-A-T.</cell>
            </row>
@@ -371,7 +371,7 @@
               <cell>5.</cell>
               <cell>"</cell>
               <cell>
-                 <placeName ref="Crécy-au-Mont">Crécy-au-Mont</placeName>
+                 <placeName ref="Crécy-au-Mont02380">Crécy-au-Mont</placeName>
               </cell>
               <cell>Kolonnen, Lazareth etc.</cell>
            </row>
@@ -379,9 +379,7 @@
               <cell>32.</cell>
               <cell>"</cell>
               <cell>"</cell>
-              <cell>
-                 <placeName ref="Champs">Champs</placeName>
-              </cell>
+              <cell><placeName ref="Champs02670">Champs</placeName></cell>
               <cell>Große Bagage</cell>
            </row>
         </table>
