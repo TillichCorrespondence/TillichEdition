@@ -85,7 +85,7 @@
                 <pb n="1"/>
                 <opener>
                     <dateline><placeName ref="Bieuxy">Bieuxy</placeName> d. <date when="1915-05-04">4. Mai. 1915</date>.</dateline>
-                    <salute>Lieber <persName ref="Johannes Tillich">Papa</persName>!</salute>
+                    <salute>Lieber <persName ref="P01926">Papa</persName>!</salute>
                 </opener>
                 <p>Beiliegend schicke ich meinen 
                     <bibl type="letter" xml:id="L00433">kurzen Bericht an den Feldpropst</bibl>. Du kannst daraus ersehen, was wir so zu weilen schuften 
@@ -94,10 +94,10 @@
                     in <placeName ref="Galizien">Galizien</placeName><note type="ea"><persName ref="P01930">Tillich</persName> nimmt Bezug auf den den Erfolg der Mittelmächte bei <placeName ref="Gorlice">Gorlice</placeName> und <placeName ref="Tarnow">Tarnów</placeName> Anfang Mai an der Ostfront.</note>; 
                     hoffentlich ist es das, was wir hier alle denken, der Anfang vom Ende; näheres ist bis jetzt noch nicht 
                     bekannt. – Es sind hier herrliche Tage; die Natur unvergleichlich schön; aber das Beste fehlt – – – 
-                    Von unserer Reise<!--Verweis nötig?--> wird Dir 
+                    Von unserer Reise<note type="ea"><persName ref="P01930">Tillich</persName> war vom 7. bis 28. April war Heimaturlaub und nutze die Zeit für eine Reise nach Frankfurt (vgl. <bibl xml:id="L00426">Brief vom 06. April 1915</bibl>.) mit seiner Frau <persName ref="P01933">Greti</persName>.</note> wird Dir 
                     ja <persName ref="P01926">Greti</persName> erzählen. Jeder Tag war etwas 
                     Besonderes und das Ganze ein Traum, so schön, daß es kaum Wirklichkeit sein kann. Am Rhein dachte 
-                    ich immer wieder an unsere damalige Reise<!--Biographische Erklärung/Anmerkung?-->; 
+                    ich immer wieder an unsere damalige Reise; 
                     von <placeName ref="Rüdesheim am Rhein">Rüdesheim</placeName> sah ich herüber 
                     nach <placeName ref="Bingerbrück">Bingerbrück</placeName>, wo wir damals 
                     Ohligsberger tranken. – – – <pb n="2"/>  
