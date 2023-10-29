@@ -12357,26 +12357,20 @@
                </death>
                <occupation>Erwähnt in: 1907.04.05 Balke, H. an Tillich, P.</occupation>
             </person>  
-            
-            
-            
-            
-            
-            
             <person xml:id="P02551">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">118567853</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118567853.html</idno>
                <persName type="reg">
                   <forename>Johannes</forename>
                   <surname>Kuhlo</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1856-10-08">8. Oktober 1856</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1941-05-16">16. Mai 1941</date>
                </death>
-               <occupation>Pfarrer in Bielefeld; erwähnt in: 1907.08.19 Bertheau, L. an Tillich, P.</occupation>
+               <occupation>Organisator der evangelischen Posaunenchöre; Pfarrer in Bielefeld; erwähnt in: 1907.08.19 Bertheau, L. an Tillich, P.</occupation>
             </person>
             <person xml:id="P02552">
                <idno type="gnd">k. A.</idno>
@@ -12454,19 +12448,19 @@
                <occupation>Pfarrer; erwähnt in: 1932.07.06. Tillich, P an Verlag Mohr Siebeck</occupation>
             </person>  
             <person xml:id="P02557">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">118586416</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118586416.html</idno>
                <persName type="reg">
                   <forename>k. A.</forename>
                   <surname>Napoleon III.</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1808-04-20">20. April 1808</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1873-01-09">9. Januar 1873</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Kaiser der Franzosen</occupation>
             </person>  
             <person xml:id="P02558">
                <idno type="gnd">k. A.</idno>
@@ -12484,17 +12478,17 @@
                <occupation>"Mein Famulus"; erwähnt in PT an Hannah Tillich von 1928.02.10; Meint wohl Tillichs Leipziger Assistenten - bisher nicht aufgeschlüsselt</occupation>
             </person>  
             <person xml:id="P02559">
-               <idno type="gnd">k. A.</idno>
+               <idno type="gnd">1107803306</idno>
                <idno type="DB">k. A.</idno>
                <persName type="reg">
                   <forename>Hedda</forename>
                   <surname>Peters</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1880">1880</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1960">1960</date>
                </death>
                <occupation>Verm. ist die Leipziger Kunstsammlerin und Förderin Schmidt-Rottluffs gemeint</occupation>
             </person>  
@@ -12529,17 +12523,17 @@
                <occupation>Bisher nicht ermittelt; erwähnt in PT an Hannah Tillich von 1928.02.11, Tillich traf ihn in Wien; womöglich identisch mit P02415</occupation>
             </person>
             <person xml:id="P02562">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">116155264</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd116155264.html</idno>
                <persName type="reg">
                   <forename>Karl</forename>
                   <surname>Beth</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1872-12-01">1. Dezember 1872</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1959-09-09">9. September 1959</date>
                </death>
                <occupation>Theologe und Philosoph</occupation>
             </person>  
@@ -12589,19 +12583,19 @@
                <occupation>Alternativ: Uli; (Jugend-?)Freund von Hannah Tillich, der in ihrer Autobiographie mehrfach erwähnt wird. Dürfte um 1930/31 in Venedig Selbstmord begangen haben (vgl. Hannah Tillich, Ich allein bin, 64)</occupation>
             </person>  
             <person xml:id="P02566">
-               <idno type="gnd">k. A.</idno>
-               <idno type="DB">k. A.</idno>
+               <idno type="gnd">118563076</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118563076.html</idno>
                <persName type="reg">
                   <forename>Heinrich von</forename>
                   <surname>Kleist</surname>
                </persName>
                <birth>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1777-10-18">18. Oktober 1777</date>
                </birth>
                <death>
-                  <date when="0001-01-01">k. A.</date>
+                  <date when="1811-11-21">21. November 1811</date>
                </death>
-               <occupation>k. A.</occupation>
+               <occupation>Dichter</occupation>
             </person>  
             <person xml:id="P02567">
                <idno type="gnd">k. A.</idno>
@@ -12663,13 +12657,232 @@
                </death>
                <occupation>Freundin von einem Herrn "Kallen"</occupation>
             </person>
-            
-            
-            
-               
-               
-            
-      
+            <person xml:id="P02571">
+               <idno type="gnd">118509896</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118509896.html</idno>
+               <persName type="reg">
+                  <forename>Sarah</forename>
+                  <surname>Bernhardt</surname>
+               </persName>
+               <birth>
+                  <date when="1844-10-22">22. Oktober 1844</date>
+               </birth>
+               <death>
+                  <date when="1923-03-26">26. März 1923</date>
+               </death>
+               <occupation>Franz. Schauspielerin</occupation>
+            </person>
+            <person xml:id="P02572">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Hilde</forename>
+                  <surname>k. A.</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Erwähnt als die (zukünftige) Frau von Christian Herrmann in PT an Hannah Tillich von 1928.08.16</occupation>
+            </person>
+            <person xml:id="P02573">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Peter</forename>
+                  <surname>k. A.</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Erwähnt in PT an Maria Klein vom 1.1.1924 (L00808). Nicht ermittelt. Womöglich handelt es sich um Eduard Heimann (P00846)</occupation>
+            </person>
+            <person xml:id="P02574">
+               <idno type="gnd">141296372</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd141296372.html</idno>
+               <persName type="reg">
+                  <forename>Wilhelm</forename>
+                  <surname>Ruprecht</surname>
+               </persName>
+               <birth>
+                  <date when="1858-06-06">6. Juni 1858</date>
+               </birth>
+               <death>
+                  <date when="1943-08-07">7. August 1943</date>
+               </death>
+               <occupation>Verleger</occupation>
+            </person>
+            <person xml:id="P02575">
+               <idno type="gnd">116063815</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd116063815.html</idno>
+               <persName type="reg">
+                  <forename>August</forename>
+                  <surname>Dell</surname>
+               </persName>
+               <birth>
+                  <date when="1890">1890</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>August Dell war 1914 in Gießen zum Lic. theol. promoviert worden und erwarb hier die venia legendi für Systematische Theologie. 1922-1945 nahm er in Gießen einen Lehrauftrag für die "Geschichte der Protestantischen Theologie" wahr. 1925-1953 lehrte er zugleich am Evangelisch Theologischen Landesseminar in Herborn, wo er auch als Pfarrer wirkte. 1932 wurde er in Gießen zum nichtbeamteten außerordentlichen Professor ernannt, 1940 zum außerplanmäßigen Professor.</occupation>
+            </person>
+            <person xml:id="P02576">
+               <idno type="gnd">118582720</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118582720.html</idno>
+               <persName type="reg">
+                  <forename>Georg</forename>
+                  <surname>Misch</surname>
+               </persName>
+               <birth>
+                  <date when="1878-04-05">5. April 1878</date>
+               </birth>
+               <death>
+                  <date when="1965-06-10">10. Juni 1965</date>
+               </death>
+               <occupation>Philosoph; Professor der Philosophie in Göttingen</occupation>
+            </person>
+            <person xml:id="P02577">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>Erna</forename>
+                  <surname>Many</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Unsicher. Erwähnt in: 1915.07.03. Tillich, M an Tillich, P</occupation>
+            </person>
+            <person xml:id="P02578">
+               <idno type="gnd">119211084</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd119211084.html</idno>
+               <persName type="reg">
+                  <forename>Werner David</forename>
+                  <surname>Falk</surname>
+               </persName>
+               <persName type="alternative">Amitai Etzioni</persName>
+               <birth>
+                  <date when="1929-01-04">4. Januar 1929</date>
+               </birth>
+               <death>
+                  <date when="2023-05-31">31. Mai 2023</date>
+               </death>
+               <occupation>US-Emigrierter Wert-Theorethiker/Philosoph, erwähnt in: "1932.12.02. Siebeck, O an Tillich, P"</occupation>
+            </person>
+            <person xml:id="P02579">
+               <idno type="gnd">118522256</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118522256.html</idno>
+               <persName type="reg">
+                  <forename>Jean-Baptiste Camille</forename>
+                  <surname>Corot</surname>
+               </persName>
+               <birth>
+                  <date when="1796-07-16">16. Juli 1796</date>
+               </birth>
+               <death>
+                  <date when="1875-02-22">22. Februar 1875</date>
+               </death>
+               <occupation>Künstler; Maler; Radierer; Zeichner</occupation>
+            </person>
+            <person xml:id="P02580">
+               <idno type="gnd">118519964</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118519964.html</idno>
+               <persName type="reg">
+                  <forename>Paul</forename>
+                  <surname>Cezanne</surname>
+               </persName>
+               <birth>
+                  <date when="1839-01-19">19. Januar 1839</date>
+               </birth>
+               <death>
+                  <date when="1906-10-22">22. Oktober 1906</date>
+               </death>
+               <occupation>Maler</occupation>
+            </person>
+            <person xml:id="P02581">
+               <idno type="gnd">118579207</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118579207.html</idno>
+               <persName type="reg">
+                  <forename>Guy de</forename>
+                  <surname>Maupassant</surname>
+               </persName>
+               <birth>
+                  <date when="1850-08-05">5. August 1850</date>
+               </birth>
+               <death>
+                  <date when="1893-07-06">6. Juli 1893</date>
+               </death>
+               <occupation>Schriftsteller</occupation>
+            </person>
+            <person xml:id="P02582">
+               <idno type="gnd">118506099</idno>
+               <idno type="DB">https://www.deutsche-biographie.de/pnd118506099.html</idno>
+               <persName type="reg">
+                  <forename>Josephine</forename>
+                  <surname>Baker</surname>
+               </persName>
+               <birth>
+                  <date when="1906-06-03">3. Juni 1906</date>
+               </birth>
+               <death>
+                  <date when="1975-04-12">12. April 1975</date>
+               </death>
+               <occupation>Tänzerin und Schauspielerin</occupation>
+            </person>
+            <person xml:id="P02583">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>k. A.</forename>
+                  <surname>Stukemann</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Hält Betstunden, die Toni Winckler gerne besucht; erwähnt in: 1905.06.17. Winkler, T. an Tillich, P</occupation>
+            </person>
+            <person xml:id="P02584">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>k. A.</forename>
+                  <surname>Ohlg</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Hält Betstunden, die Toni Winckler gerne besucht; erwähnt in: 1905.06.17. Winkler, T. an Tillich, P</occupation>
+            </person>
+            <person xml:id="P02585">
+               <idno type="gnd">k. A.</idno>
+               <idno type="DB">k. A.</idno>
+               <persName type="reg">
+                  <forename>k. A.</forename>
+                  <surname>Kehrler</surname>
+               </persName>
+               <birth>
+                  <date when="0001-01-01">k. A.</date>
+               </birth>
+               <death>
+                  <date when="0001-01-01">k. A.</date>
+               </death>
+               <occupation>Hält Betstunden, die Toni Winckler gerne besucht; erwähnt in: 1905.06.17. Winkler, T. an Tillich, P</occupation>
+            </person>
          </listPerson>
   </standOff>
 </TEI>
