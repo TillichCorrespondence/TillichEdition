@@ -1,0 +1,135 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L00909">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Paul Tillich an Hannah Tillich <lb/>vom 24. September 1926</title>
+            <author ref="P01930">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Hannah. Papers, 1896-1976.</collection>
+                  <idno>bMS 721/2(23)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Brief, eigenhändig</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P01930">Paul Tillich</persName>
+               <placeName ref="Paris">Paris</placeName>
+               <date when="1926-09-24">24.09.1926</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P01925">Hannah Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2023-10-31">Intitale Auszeichnung des Transkripts</change>
+         <change who="PS" when="2023-10-31">Endabnahme</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener><dateline>
+                  <date when="1926-09-24">D. 24.</date>
+                  <placeName ref="Paris">Garten des <hi rend="aq">Palais-Royal</hi></placeName>,
+                  Springbrunnen. Sanfte September-Mittagssonne</dateline>
+               <salute>Süße <persName ref="P01925">Hannah</persName>!</salute>
+            </opener>
+            <p>Nun ist die Sache entschieden: Bis zum 3<hi rend="sup">ten</hi> Oktober darf ich
+               bleiben. Dann einen Tag <placeName ref="Düsseldorf">Düsseldorf</placeName> (4<hi
+                  rend="sup">ten</hi>) dann <placeName ref="Dresden">Dresden</placeName> (5<hi
+                  rend="sup">ten</hi>). Gestern hast Du den Bericht über die Einkäufe bekommen.
+               Heute Fortsetzung: Ein rotes Kleid aus <hi rend="aq">Crêpe de Chine</hi>, mit langen
+               Ärmeln, handgenäht, Begeisterung von <persName ref="P02012">Eckart</persName> und
+                  <persName ref="P01831"><persName ref="P01832">Spiegelbergs</persName></persName>.
+               Diese kamen gestern Abend an. Sie fanden, daß ich durch meinen großen Hut völlig
+               verändert bin, sehr viel jünger geworden. Die Anzugsuche hat noch keinen Erfolg
+               gehabt. Ich hoffe aber, es wird noch werden. Die französischen Sachen haben alle
+               etwas Zierliches. Aber englische<pb n="2"/> sind nicht zu erschwingen. Strümpfe sind
+               entweder sehr teuer oder sehr schlecht. <persName ref="P02442">Malla</persName> rät
+               davon ab. Etwas in Sorge bin ich nur über Deinen Wintermantel. Aber im Notfall
+               schenkst Du ihn weiter.</p>
+            <p>Als Dein Brief<note type="ea">Nicht überliefert.</note> wegen Deiner Geldnöte kam,
+               habe ich sofort an <persName ref="P01926">Vaterchen</persName> geschrieben und ihn
+               bis 1. Nov. (<placeName ref="Chemnitz">Chemnitz</placeName>!) um 200M gebeten.
+               Hoffentlich hast Du sie schon. An die Kasse zu schreiben lohnt sich jetzt nicht mehr.
+               Es macht sehr viel Mühe und höchstens 2 Tage Unterschied. Dagegen bin ich bereit,
+                  an<pb n="3"/>
+               <persName ref="P01631">Rode</persName> zu schreiben. Bitte gib sofort Antwort, ob das
+               nötig ist. Glücklicherweise habe ich <persName ref="P02518">Nora</persName> nicht
+               angepumpt. Das hätte die Wirkung Deines Briefes wegen <persName ref="P02569"
+                  >Kallen</persName> sehr gestört. – Seit 2 Tagen kein Brief von Dir! Was ist? Bist
+               Du müde oder zu sehr im Betrieb?</p>
+            <p>Ich bin sehr bewegt durch Deinen Brief über die Realität. Ich halte es nicht für
+               wichtig, die wilden Ausbrüche von Liebe und Haß, die starken Nöte und Kampf für
+               realer zu halten, als das, was sich in höherer Ebene, geformt abspielt. Wir sind
+               exklusiv, weil wir in Realitätsschichten leben, die den meisten<pb n="4"/>
+               unzugänglich sind. – Zweitens gibt es von jeder Seinsschicht aus einen direkten
+               Zugang zum Unbedingt-Seienden. Das, was uns unbedingt angeht, an dem wir unbedingt
+               verantwortlich sind, ist das Reale. – – – Realitätsarm wird die Form nur, wenn sie um
+               ihrer selbst willen gesucht wird, aber nicht, wenn sie als die Verwirklichung der
+               Realität verstanden ist. Die französische Kunst steht fortwährend auf dieser Grenze.
+               Sie bleibt ihr aber immer nah und entfernt sich nur so weit nach beiden Seiten, wie
+               wir. (Kerngedanken zu dem in mir wachsenden Kolleg über die "Form")</p>
+            <closer>
+               <salute>In Liebe und Sehnsucht.</salute>
+               <signed>Dein <persName ref="P01930">Paul</persName>.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>
