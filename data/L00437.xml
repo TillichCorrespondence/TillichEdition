@@ -3,9 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Brief von Paul Tillich an Johannes Tillich
-                    <lb/>vom 30. Mai 1915
-                </title>
+                <title>Brief von Paul Tillich an Johannes Tillich <lb/>vom 30. Mai 1915 </title>
                 <author ref="P01930">Paul Tillich</author>
                 <respStmt>
                     <resp>Editor</resp>
@@ -14,7 +12,8 @@
             </titleStmt>
             <editionStmt>
                 <edition>
-                    <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+                    <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                        1887-1933</title>
                 </edition>
             </editionStmt>
             <publicationStmt>
@@ -30,8 +29,9 @@
                     </address>
                 </publisher>
                 <availability>
-                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
-                </availability>        
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+                        Commons Attribution 4.0 International (CC BY 4.0)</licence>
+                </availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc type="manuscript">
@@ -45,18 +45,20 @@
                     </msIdentifier>
                     <physDesc>
                         <p>Brief, eigenhändig</p>
-                    </physDesc><additional>
+                    </physDesc>
+                    <additional>
                         <listBibl>
                             <biblStruct type="monograph" n="firstPrint">
                                 <monogr>
                                     <author>Paul Tillich</author>
-                                    <title>Ein Lebensbild in Dokumenten. Briefe, Tagebuch-Auszüge, Berichte</title>
+                                    <title>Ein Lebensbild in Dokumenten. Briefe, Tagebuch-Auszüge,
+                                        Berichte</title>
                                     <edition>1. Auflage</edition>
                                     <imprint>
                                         <publisher>Renate Albrecht und Margot Hahl</publisher>
                                         <pubPlace ref="Stuttgart">Stuttgart</pubPlace>
-                                            <date when="1980">1980</date>
-                                                <biblScope>125</biblScope>
+                                        <date when="1980">1980</date>
+                                        <biblScope>125</biblScope>
                                     </imprint>
                                 </monogr>
                                 <series>
@@ -74,9 +76,10 @@
                 <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
             </projectDesc>
             <editorialDecl>
-                <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+                <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+                    https://www.deutschestextarchiv.de/doku/basisformat/</p>
             </editorialDecl>
-        </encodingDesc> 
+        </encodingDesc>
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
@@ -94,7 +97,8 @@
         </profileDesc>
         <revisionDesc status="approved">
             <change who="FS" when="2022-04-27">Initiale Auszeichnung des Transkripts</change>
-            <change who="FS" when="2022-05-18">Anpassungen auf Basis der Projektbesprechung vom 9.5.2022</change>
+            <change who="FS" when="2022-05-18">Anpassungen auf Basis der Projektbesprechung vom
+                9.5.2022</change>
             <change who="GM" when="2023-10-17">Endabnahme</change>
         </revisionDesc>
     </teiHeader>
@@ -105,28 +109,44 @@
                 <opener>
                     <salute>Lieber <persName ref="P01926">Papa</persName>!</salute>
                 </opener>
-                <p><date when="1915-06-03">In 4 Tagen</date> ist Dein Geburtstag und so will ich Dir heut schon 
-                    schreiben, daß ich in meinen Gedanken bei Dir sein werde und mit meiner Liebe zu Dir eilen 
-                    wollen und Dir sagen wie ich mich über alles freue, was ich von Dir gelesen habe während der 
-                    langen Zeit und wie froh es mich immer machte und noch macht, wenn ich von Dir hörte, daß es 
-                    Dir gut geht. Und selbst, als Du unter die Geheimen Räte gingst<note type="ea"><persName ref="P01926">Johannes Tillich</persName> wurde am <date when="1915-04-01">1. April 1915</date> zum geheimen Konsistorialrat ernannt.</note>, 
-                    freute ich mich mit Dir und wünschte, daß Dein geheimer Rat der Kirche und uns vor allen 
-                    noch lange und kräftig erhalten bleiben möge. –<note type="ea">Der folgende Teil bis Absatzende ist in <bibl>Tillich, Paul, Ein Lebensbild in Dokumenten. Briefe, Tagebuch-Auszüge, Berichte, hg. v. Renate Albrecht / Margot Hahl, Ergänzungs- und Nachlassbände zu den gesammelten Werken von Paul Tillich, Bd. V, Stuttgart 1980, S. 125</bibl> unter falschem Datum (<date when="1915-06-01">1.6. 1915</date>)abgedruckt.</note>
-                    Es wäre <persName ref="P01933">Greti</persName> und mir eine große Freude gewesen, 
-                    wenn wir Dich am Ende unserer Reise<note type="ea"><persName ref="P01930">Tillich</persName> war vom 7. bis 28. April auf Heimaturlaub und reiste mit seiner Frau <persName ref="P01933">Greti</persName> nach Frankfurt (vgl. <bibl xml:id="L00426">Brief vom 06. April 1915</bibl>.) und Umgebung.</note> noch 2 Tage hätten sehen können; 
-                    aber ich verstehe ja, daß es Dir sehr schwierig war, zu kommen. Aber danken möchte ich Dir insbesondere 
-                    dafür, daß Du <persName ref="P01933">Greti</persName> Dein <pb n="2"/>Vertrauen 
-                    geschenkt hast, das was sie am nötigsten braucht, da ihr es sonst niemand uneingeschränkt gibt von 
-                    meinen Freunden und den andern; Du weißt ja selbst, daß hier Schwierigkeiten liegen, die noch lange nicht überwunden sind; 
-                    und darum ist es das Größte, was Du mir schenken kannst und geschenkt hast, daß Du ein völliges Ja für mein 
-                    unendlich geliebtes <persName ref="P01933">Gretilein</persName> gefunden hast. Daß 
-                    sie es auch für Dich hat, brauche ich nicht zu sagen; sie wird es in ihrer Offenheit Dir selbst gesagt haben. Und 
-                    ich bitte Dich dabei <add place="superlinear">zu</add> bleiben, auch wenn sich noch größere Schwierigkeiten 
-                    finden sollten. – – – Vielen, vielen Dank dafür – – – – – </p>
-                <closer><salute>Und nun leb wohl und nimm als Geburtstagsgeschenk aus dem Felde die drei Briefe von 
-                    <bibl xml:id="L00436">neulich</bibl>, heut und <bibl xml:id="L00438">morgen!</bibl><lb/>
-                    Herzlichen Segenswunsch!<lb/>
-                    In Liebe und Dankbarkeit Dein Sohn </salute><signed><persName ref="P01930">Paul</persName></signed>!</closer>
+                <p><date when="1915-06-03">In 4 Tagen</date> ist Dein Geburtstag und so will ich Dir
+                    heut schon schreiben, daß ich in meinen Gedanken bei Dir sein werde und mit
+                    meiner Liebe zu Dir eilen wollen und Dir sagen wie ich mich über alles freue,
+                    was ich von Dir gelesen habe während der langen Zeit und wie froh es mich immer
+                    machte und noch macht, wenn ich von Dir hörte, daß es Dir gut geht. Und selbst,
+                    als Du unter die Geheimen Räte gingst<note type="ea"><persName ref="P01926"
+                            >Johannes Tillich</persName> wurde am <date when="1915-04-01">1. April
+                            1915</date> zum geheimen Konsistorialrat ernannt.</note>, freute ich
+                    mich mit Dir und wünschte, daß Dein geheimer Rat der Kirche und uns vor allen
+                    noch lange und kräftig erhalten bleiben möge. –<note type="ea">Der folgende Teil
+                        bis Absatzende ist in <bibl>Tillich, Paul, Ein Lebensbild in Dokumenten.
+                            Briefe, Tagebuch-Auszüge, Berichte, hg. v. Renate Albrecht / Margot
+                            Hahl, Ergänzungs- und Nachlassbände zu den gesammelten Werken von Paul
+                            Tillich, Bd. V, Stuttgart 1980, S. 125</bibl> unter falschem Datum
+                            (<date when="1915-06-01">1.6. 1915</date>)abgedruckt.</note> Es wäre
+                        <persName ref="P01933">Greti</persName> und mir eine große Freude gewesen,
+                    wenn wir Dich am Ende unserer Reise<note type="ea"><persName ref="P01930"
+                            >Tillich</persName> war vom 7. bis 28. April auf Heimaturlaub und reiste
+                        mit seiner Frau <persName ref="P01933">Greti</persName> nach Frankfurt (vgl.
+                            <bibl xml:id="L00426">Brief vom 06. April 1915</bibl>.) und
+                        Umgebung.</note> noch 2 Tage hätten sehen können; aber ich verstehe ja, daß
+                    es Dir sehr schwierig war, zu kommen. Aber danken möchte ich Dir insbesondere
+                    dafür, daß Du <persName ref="P01933">Greti</persName> Dein <pb n="2"/>Vertrauen
+                    geschenkt hast, das was sie am nötigsten braucht, da ihr es sonst niemand
+                    uneingeschränkt gibt von meinen Freunden und den andern; Du weißt ja selbst, daß
+                    hier Schwierigkeiten liegen, die noch lange nicht überwunden sind; und darum ist
+                    es das Größte, was Du mir schenken kannst und geschenkt hast, daß Du ein
+                    völliges Ja für mein unendlich geliebtes <persName ref="P01933"
+                        >Gretilein</persName> gefunden hast. Daß sie es auch für Dich hat, brauche
+                    ich nicht zu sagen; sie wird es in ihrer Offenheit Dir selbst gesagt haben. Und
+                    ich bitte Dich dabei <add place="superlinear">zu</add> bleiben, auch wenn sich
+                    noch größere Schwierigkeiten finden sollten. – – – Vielen, vielen Dank dafür – –
+                    – – – </p>
+                <closer><salute>Und nun leb wohl und nimm als Geburtstagsgeschenk aus dem Felde die
+                        drei Briefe von <bibl xml:id="L00436">neulich</bibl>, heut und <bibl
+                            xml:id="L00438">morgen!</bibl><lb/> Herzlichen Segenswunsch!<lb/> In
+                        Liebe und Dankbarkeit Dein Sohn </salute><signed><persName ref="P01930"
+                            >Paul</persName></signed>!</closer>
             </div>
         </body>
     </text>
