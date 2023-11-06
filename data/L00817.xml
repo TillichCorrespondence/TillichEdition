@@ -1,0 +1,126 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L00817">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von <persName ref="P01930">Paul Tillich</persName> an die <persName ref="P02305">Theologische Fakultät der Universität Berlin</persName>
+               <lb/>vom <date when="1924-04-02">2. April 1924</date>
+            </title>
+            <author ref="P01930">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Sebastian Kueffner</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="Brief">
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement ref="Berlin">Berlin</settlement>
+                  <institution>Stiftung Preußischer Kulturbesitz</institution>
+                  <repository>Geheimes Staatsarchiv Preußischer Kulturbesitz</repository>
+                  <collection>I. HA Rep. 76 Va</collection>
+                  <idno>Sekt. 2 Tit IV Nr. 44 Bd. 8 Bl. 248</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>maschinenschriftlich</p>
+               </physDesc>
+               <additional>
+                  <listBibl>
+                     <biblStruct type="journal">
+                        <monogr>
+                           <author>Sturm Erdmann</author>
+                           <title>An der engen Pforte der historischen Methode vorbei… Paul Tillichs Habilitation in Halle (1916) und seine Umhabilitierungen nach Berlin (1919) und Marburg (1924)</title>
+                           <imprint>
+                              <pubPlace ref="Berlin">Berlin</pubPlace>
+                              <date when="2015-08-15">15. August 2015</date>
+                              <biblScope>S. 273–332, hier: 330f.</biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title>International Yearbook for Tillich Research. Ethics and Eschatology</title>
+                           <biblScope>10</biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01930">Paul Tillich</persName>
+              <placeName ref="Berlin">Berlin-Friedenau</placeName>
+              <date when="1924-04-02">02.04.1924</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P02305">Theologische Fakultät der Universität 
+                 Berlin</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="SK" when="2023-01-04">Intitale Auszeichnung des Transkripts</change>
+        <change who="SK" when="2023-04-04">Referenznummer für Instiution(Theologische Fakultät der Universität 
+           Berlin) eingetragen</change>
+        <change who="SK" when="2023-04-19">Intitale Auszeichnung des Transkripts</change>
+        <change who="FS" when="2023-10-25">Endabnahme</change>
+
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+           <dateline><placeName ref="Berlin">Berlin-Friedenau</placeName>, den <date
+                     when="1924-04-02">2.4.1924</date></dateline><address>
+                  <street>Taunusstr. 1</street>
+               </address>
+           <salute>An die <persName ref="P02305">Theol. Fakultät der Universität <placeName ref="Berlin">Berlin</placeName></persName></salute>
+            </opener>
+        <p>Der Theologischen Fakultät der Universität <hi rend="g"><placeName ref="Berlin">Berlin</placeName></hi> teile ich hierdurch mit, daß ich mich auf Wunsch der Theologischen Fakultät in <placeName ref="Marburg a. d. Lahn"><hi rend="g">Marburg</hi>/Lahn</placeName> und des Ministeriums für Wissenschaft, Kunst und Volksbildung nach <placeName ref="Marburg a. d. L.">Marburg</placeName> umhabilitiert habe. Ich habe die Umhabilitation unter der vom Ministerium bewilligten Voraussetzung gemacht, dass ich zum nichtbeamteten Extraordinarius ernannt werde, die Umzugskosten bezahlt erhalte und mein Lehrauftrag auf den Mindestsatz von 90 % der Gehaltsklasse 10 erhöht wird. Unter den Gründen für meine Umhabilitierung spielte außer dem Genannten vor allem der Gesichtspunkt eine entscheidende Rolle, daß es mir auf diese Weise möglich ist, sofort an die grossen systematischen Kollegs heranzukommen. So schwer mir der Abschied aus der <persName ref="P02305"><placeName ref="Berlin">Berliner Fakultät</placeName></persName> wird, so wenig glaube ich mich den Gründen für die Übersiedlung entziehen zu können, zumal auch die Herren der <persName ref="P02305"><placeName ref="Berlin">Berliner Fakultät</placeName></persName>, die mir mit ihrem Rat geholfen haben, sich dafür erklärten. Ich möchte nicht versäumen, der <persName ref="P02305"><placeName ref="Berlin">Berliner Fakultät</placeName></persName> meinen herzlichen Dank auszusprechen für die Freiheit und Selbständigkeit, mit der ich in den <date from="1919" to="1924">fünf Jahren</date>, der ich ihr angehörte, habe arbeiten können. Es waren die wertvollsten und fruchtbarsten Jahre meines bisherigen Lebens. Und ich hoffe, daß die geistige und persönliche Beziehung mit der <persName ref="P02305"><placeName ref="Berlin">Berliner Universität und Fakultät</placeName></persName> niemals aufhören wird.
+        </p>
+        <closer>
+           <signed><persName ref = "P01930">Dr. Paul Tillich</persName></signed>
+        </closer>
+        
+      
+     </div>
+    </body>
+  </text>
+</TEI>
