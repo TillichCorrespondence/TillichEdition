@@ -1,0 +1,105 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von <persName ref="P01930">Paul Tillich</persName> an <persName ref="P01925">Hannah Tillich</persName>
+                    <lb/>vom <date when="1933-08-04"><unclear cert="high">4.</unclear> August 1933</date><!--Brief ist mit keinem Datum versehen; jedenfalls ein Freitag; Kontext lässt 4.8.33 vermuten; mit rotem Kugelschreiber von fremder Hand: Rügen 1933; diese Unklarheit muss in der Edition irgendwie vermerkt werden! (Wie?) - FERNER, Anm. FS: Laut F. W. Graf, Paul Tillich im Exil, 25, kam Erdmuthe in der dritten Oktoberwoche zurück zu den Tillichs, nachdem sie beinahe ein halbes Jahr bei Margot Faust verbracht hatte (vgl. ebd., 17). Diese Erinnerung Margot Hahls/Fausts lässt sich durch die vorliegende Korrespondenz nicht verifizieren. Zumindest kam Erdmuthe Anfang August 1933 zusammen mit Paul nach Rügen. (Eventuell wurde sie ja danach nochmal der Obhut Margot Fausts anvertraut, dann bis zur genannten dritten Oktoberwoche.)-->
+                </title>
+                <author ref="P01930">Paul Tillich</author>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Friedrich Schumann</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+                    <address>
+                        <street>Schenkenstraße 8-10</street>
+                        <postCode>1010</postCode>
+                        <placeName ref="Wien">
+                            <settlement>Wien</settlement>
+                            <country>Österreich</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+                </availability>        
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="Brief">
+                    <msIdentifier>
+                        <country>USA</country>
+                        <settlement>Cambridge, MA</settlement>
+                        <institution>Harvard University</institution>
+                        <repository>Harvard Divinity School Library</repository>
+                        <collection>Tillich, Hannah. Papers, 1896-1976</collection>
+                        <idno>bMS 721/3(3)</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>handschriftlich</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+            </editorialDecl>
+        </encodingDesc> 
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="P01930">Paul Tillich</persName>
+                    <date when="1933-08-04"><unclear cert="high">4.</unclear> August 1933</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="P01925">Hannah Tillich</persName>
+                    <placeName ref="Sassnitz">Sassnitz</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="deu">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="FS" when="2023-06-06">Intitale Auszeichnung des Transkripts</change>
+            
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <div type="writingSession">
+                <pb n="1"/>
+                <opener>
+                    <salute>Liebste <persName ref="P01925">Hannah</persName>!</salute>
+                </opener>
+                <p>Also: <persName ref="P00570">Erdmuthe</persName> kommt <date when="1933-08-05">morgen</date>, Sonnabend früh um 7 hier an. Ich dachte erst, es wäre besser, sie einen Tag ausruhen zu lassen; aber sowohl <persName ref="P00757">Margot</persName>, mit der ich telephoniert habe, als auch <persName ref="P01764">Elisabeth</persName> haben beschlossen, daß es wichtiger ist, gleich weiter zu fahren und ihr auf dem Schiff eine Schlafkabine zu nehmen. <persName ref="P01764">Elisabeth</persName> wußte von ihrer Fahrt, daß das möglich ist. Das ist besser als das Hin- und Her in <placeName ref="Berlin">Berlin</placeName>. Also morgen, Sonnabend Abend 7 Uhr 45 am Bollwerk<!--Meint verm. das Baaber Bollwerk in Sellin/Baaber Hafen auf Rügen; als placeName angeben?-->. Ich bin ganz voll von Unge<pb facs="2"/>duld nach ihr.<lb/>
+                    Vor <persName ref="P01307"><persName ref="P01925">Euch</persName></persName><!-- nicht ganz sicher, wer alles gemeint ist; neben Hannah sicherlich Carl Mennicke--> dagegen habe ich nach Euren Briefen<!--liegen uns nicht vor--> etwas Angst. Ich habe das Gefühl, daß <bibl>meine Briefe</bibl><!--Zwei Briefe: PT an Hannah Tillich vom 1. oder 2. August (1) und (2)--> es in keiner Weise vermocht haben deutlich zu machen, wie die Dinge liegen, auch mein <bibl>zweiter</bibl><!--PT an Hannah Tillich vom 1. oder 2. August (2)--> nicht.<lb/>
+                    1) Von einer Überredung durch <persName ref="P01499"><persName ref="P01500"><persName ref="P01211"><persName ref="P01212">die Küssel-Leute</persName></persName></persName></persName> ist schon deswegen keine Rede, weil sie dagegen waren, daß ich zu <persName ref="P02426">G.</persName> ging und dagegen, daß ich den Urlaub einreiche. Nur darum drehte sich die Unterhaltung mit ihnen. Denn daß ich ohne Entscheidung nicht wegfahre, das war mir so selbstverständlich, daß wir darüber gar nicht gesprochen haben. Ich habe in bewußtem Gegensatz zu ihnen gehandelt.<lb/>
+                    2) Der Begriff "Revol..." scheint Dir wirk<lb facs="3"/>lich etwas dunkel zu sein. Keiner, der unter ihn fällt, ist je in der Welt weggegangen, ehe er mußte. Gestern Abend war unser Kreis bei mir, darunter einige, auf die der Begriff 100%ig zutrifft. Sie waren alle ausnahmslos genau für meine Verfahren; und jeder brachte einen neuen Grund dazu. Vor allem auch um deswillen, was anders werden soll. Die draußen werden überhaupt nicht gewürdigt. Vom Standpunkt der Revol dürfte ich nicht raus und wenn ich hier verhungerte.<lb/>
+                    3) Für meinen Geist brauchst Du nicht zu fürchten. Er hat sich noch nicht halten lassen und wird sich nie halten lassen, wenn er angegriffen ist. Politisches Handeln aber ist draußen überhaupt unmöglich. Dies ist die <pb facs="4"/> einzige Bedingung, die in <persName ref="P02321">Emils</persName> Sache gestellt wird. Dort kann ich nur Professor sein.<lb/>
+                    Lies meinen <bibl>zweiten Brief</bibl><!--PT an Hannah Tillich vom 1. oder 2. August 1933 (2)--> genau; er enthält alles, was Du vernünftiger Weise fordern kannst. Und es gab in ganz <placeName ref="Berlin">Berlin</placeName> niemanden einschließlich die wildesten Leute, die auch nur einen Augenblick anderer Meinung waren.<lb/> 
+                    Alles andere mündlich! Auf Wiedersehen!<lb/>
+                    Anbei mein Brief an <persName ref="P02321">Lederer</persName> ins Unreine und eine Anfrage von <persName ref="P01499">Lilly</persName> an <persName ref="P01307">Carolus</persName>.
+                </p>
+                <closer>
+<salute>Ich liebe Dich!</salute>
+                    <signed>Dein Paul</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+

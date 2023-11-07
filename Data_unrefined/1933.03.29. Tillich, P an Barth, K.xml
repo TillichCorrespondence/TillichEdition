@@ -1,0 +1,121 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Paul Tillich an Karl Barth
+               <lb/>vom 29. März 1933
+            </title>
+            <author ref="P01930">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Sebastian Kueffner</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="Kopie">
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement ref="Berlin">Berlin</settlement>     
+                  <repository>Evangelische Zentralarchiv</repository> 
+                  <idno>EZA 686/7935 </idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Brief, Maschinenschriftlich, als maschinenschriftliche Abschrift überliefert</p>
+                  </physDesc>
+               <additional>
+                  <listBibl>
+                     <biblStruct type="journal" n="reprint">
+                        <monogr>
+                           <author>Renate Albrecht /</author>
+                           <author>Margot Hahl</author>
+                           <title>Paul Tillich an Karl Barth: Verhältnis zur SPD</title>
+                           <imprint>
+                              <pubPlace ref="Stuttgart">Stuttgart</pubPlace>
+                              <date when="1987-01-01">1987</date>
+                              <biblScope>191</biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title>Paul Tillich Gesammelte Werke</title>
+                           <biblScope>Band 5</biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc> 
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01930">Paul Tillich</persName>
+              <placeName ref="ohne Ort">ohne Ort</placeName>
+              <date when="1933-03-29">29. März 1933</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P00137">Karl Barth</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="SK" when="2023-05-23">Intitale Auszeichnung des Transkripts</change>
+        
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+           <dateline>d. <date when="1933-03-29">29.3.33</date></dateline>
+           <salute>Lieber <persName ref="P00137">Herr Barth</persName>!</salute>
+        </opener>
+        <p>Eben erhalte ich von <persName ref="P01724">K.L.S.<ptr/> <note place="foot" resp="SK">[Karl Ludwig Schmidt]<!-- Additions aus Paul Tillich Gesammelete Werke(GW) --></note></persName> aus <placeName ref="Jena">Jena</placeName> ein Zitat von Ihnen:
+           <bibl>„Über die Ideologie <persName ref="P01930">Tillichs</persName> bin ich einfach starr“<!-- Unklare Bezugs-Quelle zum Zitat --></bibl>. Offenbar beziet sich dieser Satz auf das Gespräch, das ich mit <persName ref="P01724">S.</persName> am <date when="1933-03-26">Sonnabend</date> abend hatte über die Stellung der Beamten zur <ptr/>S.P.D.<note place="foot" resp="SK">SPD(aus GW)</note> Wie Sie an <persName ref="P01724">S.</persName> schreiben, sind Sie entschlossen, einer Forderung auf Austritt aus der <ptr/>S.P.D.<note place="foot" resp="SK">SPD(aus GW)</note> nicht nachzugehen, d.h. im Zweifelsfall ihre Stellung als preussischer Beamter aufzugeben<ptr/><note resp="SK">.(aus GW)</note></p>
+           <p>Dieser Auffassung steht nicht etwa eine Privatideologie von mir gegenüber, sondern die Auffassung der Partei selbst sowohl in den zentralen wie in den lokalen Instanzen. Die Partei wünscht nicht, dass<!-- daß(GW) --> ihre Beamten ihre Beamtenqualität der Zugehörigkeit zur Partei opfern. Soviel ich sehe, liegen zwei Gründe dafür vor, einmal der, dass<!-- daß(GW) --> die Partei den tatsächlichen Einfluss<!-- Einfluß(GW) --> der Beamten in ihren Stellungen für wesentlich wichtiger hält als das formale Bekenntnis zur Partei. In bestimmten mir bekannten Fällen hat sich das auch schon sehr konkret gezeigt. Andererseits habe ich den Eindruck, dass<!-- daß(GW) --> die Partei nach dem endgültigen Verbot ihrer Presse sich in ihrer manifesten Form in Liquidation befindet. Da sie diese Form nicht mehr als das angemessene Mittel, den Sozialismus zu vertreten, ansieht. Dies alles, ich betone das ausdrücklich, ist nicht <ptr/><hi rend="u">meine Ideologie,</hi><note place="foot" resp="SK"><hi rend="i">meine Ideologie</hi>(kursiv in GW)</note> sondern Auffassung und Verhaltungsweise der Partei selbst.</p>
+        <p>Unter diesen Umständen besteht bei meinen <placeName ref="Frankfurt/Main">Frankfurter</placeName> Freunden (auch <placeName ref="Hamburg">Hamburger</placeName>, <placeName ref="Berlin">Berliner</placeName> usw.) vor allem auch bei solchen, die von Anfang an der <ptr/>S.P.D.<note place="foot" resp="SK">SPD(aus GW)</note> angehört haben, die Auffassung, dass<!-- daß(GW) --> die Zugehörigkeit zur Partei nicht zum <ptr/>punctum Confessionis<note place="foot" resp="SK"><hi rend="i">punctum Confessionis</hi>(kursiv in GW)</note> gemacht werden dürfe. Auch hier handelt es sich nicht um eine Ideologie von mir, sondern um die unmittelbare taktische Reaktion der Politiker unter uns. Die Lage wird in dem Augenblick anders, wo uns ein Revers vorgelegt wird, der eine inhaltliche Bindung verlangt. In diesem Augenblick würde selbstverständlich genau so wie in <placeName ref="Italien">Italien</placeName> die Bekenntnispflicht eintreten.</p>
+        <p>Ich hoffe, dass<!-- daß(GW) --> Ihnen nach dieser Darlegung des Sachverhaltes meine Stellungnahme nicht so unverständlich und ideologisch erscheint, wie auf Grund des Berichtes von <persName ref="P01724">S.</persName> Andererseits verstehe ich Ihre Auffassung. Der Gedanke einer Zusammenkunft der <ptr/>S.P.D.<sic>p</sic>rofessoren<note place="foot" resp="SK">SPD-Professoren(GW)</note> ist in unserem Wunsch begründet, die beiderseitigen Auffassungen kennen zu lernen und wenn irgend möglich zu einer gemeinsamen Entscheidung zu kommen. Ich würde es sehr bedauern, wenn Sie an einer solchen Besprechung nicht teilnehmen könnten.</p>
+        <p><date when="1933-04-02">Ende der Woche</date> will ich nach <placeName ref="Berlin">Berlin</placeName> fahren und hoffe, bei der Gelegenheit mich auch <ptr/>materialiter<note place="foot" resp="SK"><hi rend="i">materialiter</hi>(kursiv in GW)</note> orientieren zu können. Vielleicht ist dann eine Besprechung mit Ihnen, wenn auch im kleinsten Kreise, noch möglich.       
+        </p>
+        <closer>
+           <salute>Mit herzlichem Gruss</salute>
+           <signed> gez. Ihr<persName ref="P01930">P. Tillich</persName></signed>
+        </closer> 
+     </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,97 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von <persName ref="P01930">Paul Tillich</persName> an <persName ref="P01925">Hannah Tillich</persName>
+                    <lb/>vom <date when="1933-07-31">31. Juli 1933</date><!--Anm. Die 1 bei 31 ist auf dem Poststempel nur erahnbar.-->
+                </title>
+                <author ref="P01930">Paul Tillich</author>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Friedrich Schumann</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+                    <address>
+                        <street>Schenkenstraße 8-10</street>
+                        <postCode>1010</postCode>
+                        <placeName ref="Wien">
+                            <settlement>Wien</settlement>
+                            <country>Österreich</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+                </availability>        
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="Postkarte">
+                    <msIdentifier>
+                        <country>USA</country>
+                        <settlement>Cambridge, MA</settlement>
+                        <institution>Harvard University</institution>
+                        <repository>Harvard Divinity School Library</repository>
+                        <collection>Tillich, Hannah. Papers, 1896-1976</collection>
+                        <idno>bMS 721/3(3)</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>handschriftlich</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+            </editorialDecl>
+        </encodingDesc> 
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="P01930">Paul Tillich</persName>
+                    <placeName ref="Berlin">Berlin</placeName><!--Poststempel-->
+                    <date when="1933-07-31">3<unclear cert="high" reason="illegible">1</unclear>. Juli 1933</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="P01925">Hannah Tillich</persName>
+                    <address><placeName ref="Sassnitz (Rügen)">Sassnitz (Rügen), Haus Normann</placeName></address>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="deu">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="FS" when="2023-05-24">Intitale Auszeichnung des Transkripts</change>
+            
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <div type="writingSession">
+                <pb n="1"/>
+                <opener>
+                    <salute>Liebste <persName ref="P01925">Hannah</persName>.</salute>
+                </opener>
+                <p>Gestern Abend mit <persName ref="P00641"><persName ref="P00643">Fritzens</persName></persName> und <persName ref="P01764"><persName ref="P01765">Seebergers</persName></persName> bei <persName ref="P00641">Frede</persName>. Es war menschlich und sachlich besonders schön. <persName ref="P00641">Frede</persName> unbedingt für Columbia + Union (dieses eine freie Theologische Fakultät, die fast am angesehensten ist). Dazu die berühmte Columbia. Ebenso entschied eindeutig <persName ref="P00445">Deißmann</persName> von dem ich eben komme. Er riet dringend, das andere bei Gericht zu erwähnen. Mein Ziel: Korrekte Beurlaubung auf ein Jahr, Verzicht auf Bezüge, Erhaltung von Beamten-Recht <pb facs="2"/> Heute früh Unterhaltung mit <persName ref="P02321">Emils</persName> Assistent <persName ref="P01825">Speier</persName>. Liste doch recht günstig. Übrigens ist "John Bull" England. Bald mehr! Dank für <bibl>4 Briefe</bibl><!--liegen uns nicht vor-->! Ankunft also frühestens <date when="1933-08-05">Sonnabend</date>!</p>
+                <closer>
+                    <signed>Dein Paul</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+

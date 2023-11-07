@@ -1,0 +1,213 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Ada Adler an Paul Tillich <lb/>vom 15. April 1933</title>
+            <author ref="P00010">Ada Adler</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974.</collection>
+                  <idno>bMS 649/116(16)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+               <additional>
+                  <!-- Wenn Brief bereits publiziert hier die richtige Struktur aussuchen -->
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel der Monographie<!--></title>
+                           <edition><!-->Auflage<!--></edition>
+                           <imprint>
+                              <publisher><!-->Herausgeber<!--></publisher>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Reihe<!--></title>
+                           <biblScope><!-->Reihennummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                     <biblStruct type="journal" n="reprint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel des Aufsatzes<!--></title>
+                           <imprint>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Zeitschrift<!--></title>
+                           <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <biblStruct type="monograph">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien überliefert sind und im Original nicht mehr vorhanden!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel der Monographie<!--></title>
+                  <edition><!-->Auflage<!--></edition>
+                  <imprint>
+                     <publisher><!-->Herausgeber<!--></publisher>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Reihe<!--></title>
+                  <biblScope><!-->Reihennummer<!--></biblScope>
+               </series>
+            </biblStruct>
+            <biblStruct type="journal">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften überliefert sind und im Original nicht mehr vorhanden<!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel des Aufsatzes<!--></title>
+                  <imprint>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Zeitschrift<!--></title>
+                  <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P00010">Ada Adler</persName>
+               <placeName ref="Frankfurt am Main">Frankfurt am Main</placeName>
+               <date when="1933-04-15">15. April 1933</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P01930">Paul Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2023-07-10">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener><dateline>
+                  <placeName ref="Frankfurt am Main">Ffm.</placeName> d. <date when="1933-04-15">15.
+                     April 1933</date></dateline>
+               <address>
+                  <street>Melibocustr. 32</street>
+               </address>
+               <salute>Sehr verehrter Herr <persName ref="P01930">Prof. Tillich</persName>,</salute>
+            </opener>
+            <p>in den letzten Wochen habe ich oft Ihrer gedacht, immer in der leisen Hoffnung, dass
+               auch das neue Regime einsieht, dass man in Deutschland nicht viele solcher Kräfte wie
+               die Ihrer an den Hochschulen aufzuweisen hat – aber solche Erwägungen sind ja im
+               Lande der Dichter + Denker abwegig geworden. – Das Wort vom geteilten Leid ist
+               falsch, wie so viele solcher Weisheiten, ich finde, das Wissen um das schwere
+               Schicksal aller der Menschen, die man liebt oder schätzt, vergrössert nur das eigene
+               Gefühl des Leides + der Trauer.</p>
+            <p>Manchmal meine ich, dass ich mein ganzes bisheriges Leben in einer schönen Illusion
+               verbracht habe + dass es dieses Deutschland, das ich so liebte + das ich als meine
+               Heimat empfand, garnicht gibt, wenn ich dann aber an Menschen wie Sie, sehr verehrter
+               Professor, denke, dann weiss ich wieder, dass dieses deutsche Menschentum, das so
+               reich an wirklicher Kultur ist, doch besteht, + dass ich mir kein<pb n="2"/> Fantom
+               zum Vorbild genommen hatte, + das gibt einen kleinen Trost in der verzweifelten
+               Stimmung. Dass ich über das plötzliche Ende meiner gerade erst etwas intensiver
+               begonnenen philosophischen Arbeit auch sehr deprimiert bin, können Sie sich denken.
+               Von ganz allein mit Erfolg, d. h. dass ich vorwärts komme, zu arbeiten, war ich
+               erstens noch nicht weit genug + fehlt es mir naturgemäss jetzt auch an innerer Ruhe.
+               Aber das ist ja nur einer der vielen Gründe – wenn auch in meinem ganz persönlichen
+               Dasein ein sehr wesentlicher, da mir die Arbeit wirklich mehr war als blosse Laune –
+               die einen so beelenden + das Dasein nicht mehr als eines der höchsten Güter
+               erscheinen lassen.</p>
+            <p>Trotz allem aber hoffe ich doch, obgleich Sie hier so jäh aus Ihrer Tätigkeit
+               gerissen wurden, dass Ihnen, sehr geehrter Herr Professor, das Leben noch viele
+               Möglichkeiten bieten wird. Mit diesem aufrichtigen Wunsch grüsse ich Sie + Ihre
+                  <persName ref="P01930">Frau Gemahlin</persName>!</p>
+            <closer>
+               <salute>Ihre ergebene</salute>
+               <!-- Unterschrift ist irgendein schwer zu entziffernder Spitzname? PS. -->
+            </closer>
+
+            <postscript>
+               <p/>
+            </postscript>
+
+         </div>
+
+      </body>
+   </text>
+</TEI>

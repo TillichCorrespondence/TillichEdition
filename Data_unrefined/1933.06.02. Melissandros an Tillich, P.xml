@@ -1,0 +1,234 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Melissandros an Paul Tillich <lb/>vom 2. Juni 1933</title>
+            <author ref="P02483">Melissandros</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974.</collection>
+                  <idno>bMS 649/165(46)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Maschinenschriftlich</p>
+               </physDesc>
+               <additional>
+                  <!-- Wenn Brief bereits publiziert hier die richtige Struktur aussuchen -->
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel der Monographie<!--></title>
+                           <edition><!-->Auflage<!--></edition>
+                           <imprint>
+                              <publisher><!-->Herausgeber<!--></publisher>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Reihe<!--></title>
+                           <biblScope><!-->Reihennummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                     <biblStruct type="journal" n="reprint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel des Aufsatzes<!--></title>
+                           <imprint>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Zeitschrift<!--></title>
+                           <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <biblStruct type="monograph">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien überliefert sind und im Original nicht mehr vorhanden!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel der Monographie<!--></title>
+                  <edition><!-->Auflage<!--></edition>
+                  <imprint>
+                     <publisher><!-->Herausgeber<!--></publisher>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Reihe<!--></title>
+                  <biblScope><!-->Reihennummer<!--></biblScope>
+               </series>
+            </biblStruct>
+            <biblStruct type="journal">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften überliefert sind und im Original nicht mehr vorhanden<!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel des Aufsatzes<!--></title>
+                  <imprint>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Zeitschrift<!--></title>
+                  <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P02483">Melissandros</persName>
+
+               <date when="1933-06-02">2. Juni 1933</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P01930">Paul Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2023-07-27">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener><dateline>
+                  <date when="1933-06-02">2. Juni 33</date> in meiner weltfernen
+                  Büchergrotte</dateline>
+               <salute>Lieber <persName ref="P01930">Herr Tillich</persName>,</salute>
+            </opener>
+            <p>Komisch-tiefsinnig-natürlich dass ich heut von Ihnen höre: wohlvorbereitet durch ein
+               Zeitungsreferat über einen Vortrag hierselbst betreffend- na irgend etwas
+               Schreckliches, wo völkisch-politisch philosophisch polemisch gefaselt wurde. Mein
+               Sohn fragte mich, wieso denn die Philosophie versagt habe; worauf ich mich vermass zu
+               antworten, Es ist nur recht und tillich zu bekennen, dass damit Herr T gemeint ist. –
+               Hörend dass Sie und Gehmahlin bei Ihren Freunden O. weilten, rief ich dort an – aber
+               2 Posttage zu spät, um Sie womöglich noch einmal zu sehn. Nehmen Sie den Willen für
+               die Tat. – Hoffentlich erholen Sie sich dort oben, und bekommen Lust zu neuer Arbeit.
+               Ich zwinge mich zu arbeiten, aber es "fluscht nicht" wie der Berliner sagt. Dafür
+               bilde ich mich still und altmodisch, vergleiche Jaspers mit den Indizien in fremden
+               Ländern, zumal Albion, und lese in dreitausend Jahren goethisch herum. – Der berühmte
+               Altphilologe-liest wieder, was sagen Sie dazu. Man sagte mir schmunzelnd, man habe
+               ihn etwas bearbeitet in Bezug auf die Form seines Gesuches; und dann nach Berlin
+               geschrieben, er könne auch anders... Glauben Sie das?- Ausserdem habe ich ein
+               Verspaar gereimt in sklavischer Ausnutzung eines englischen Wortes, das leider Prosa
+               war. Daran können Sie ermessen, wie ich zur Zeit verfasst bin.</p>
+            <p><lb/><del rend="s">E</del> Geburt ist Risiko und Agonie <lb/>Das wissen
+               Schöpfer,-Rezensenten nie.</p>
+            <p>Ich schreib es mir zur Warnung, da ich ja eine riesige Literaturhistorie- zunächst
+               denke, und dann kondensiere, bis der Stein der Weisen in meiner Hand Wasser
+               ausschwitzt, auf 112 Seiten!<pb n="2"/> Vom Academic Assistance Council haben Sie
+               wohl gehört, <sic>ichnzweifle</sic> sogar nicht dass Sie in den Listen sind; es waren
+               zunächst 164 Namen. Auch unser Somm. steht darauf. Morgen sehe ich unsern
+               historischen Freund wieder, nach langer Zeit. – Ich starre zuzeiten mesmerisiert wie
+               ein Kaninchen auf das Reptil der äusseren Not, die so unheimlich wachsend sich
+               nähert, ja jetzt schon feste Umrisse hat. Nun soll ich auch noch
+                  <sic>Ehhstandsbeihilfen</sic> beisteuern, dh hunderte neue Steuern unter diesem
+               Namen aufbringen. – Schweigen wir davon, so interessant es ist.–</p>
+            <p>Dieser Brief ist erratisch, und kann höchstens für sich anführen, dass er Ihnen nicht
+               zu viel zumutet dort oben. Pflegen Sie Ihre Nerven nur ordentlich, dh leugnen Sie
+               zunächst deren Existenz, ausser dem liegen Sie viel flach. Heut nachmittag sind
+                  wir<note place="foot">ich hab mich ja <hi rend="u">beurlaubt</hi></note> zu
+               dringender Faksitz eingeladen, Professor für Kriegswissenschaften. Wenn wir Laien
+               dadurch die Kunst der <hi rend="u">Eumachie</hi> lernen könnten, wäre es schön. Aber
+               ich habe das Gefühl, solches Fach gehört in die Kriegsakademie – die die Feinde uns
+               ja verboten haben. Uebrigens sehe ich dass da ein Wortspiel steckt; finden Sie es?-
+               Mein Vater war lange Lehrer an der Kgl Kriegsakademie, und hat das sehr geschätzt –
+               Ich las ein Heft der neuen Zs Volk im Werden<note place="foot">μἀν κάνν αὖχ σάγεν
+                  "φῆρτ ἰν οὐόλκεν." ἴστ δἀς νἰχτ σχεῠν?</note>- es ist sicher nicht alles verkehrt
+               was da gesagt wird, aber die Formen schrecken mich ,und ausserdem ist Manches
+               wirklich noch schlimmer in Wirklichkeit, als es da erscheint. – <persName
+                  ref="P00948">Aldous Huxley</persName> sagt "Jeder Gesichtspunkt ist falsch". Wer
+               hat also recht?- Es ist jetzt Kairos dass ich stoppe. Geniessen Sie das anerhythmon
+               gelasma der Wellen, und lassen sich davon anstecken. Der Dichter sagt: Ich beschreite
+               die Erde, trinke die Luft, fühle die Sonne; habe Geduld meine Seele, es ist nur für
+               eine Zeit.." Zu neuen Ufern lockt ein neuer Tag..</p>
+            <p>Leben Sie wohl, Sie autos, und Ihr angetrautes Weib <persName ref="P01925"
+                  >Hannah</persName>. Sehn wir uns auf einer Nordseeinsel, so lächeln wir, und
+               diskutieren sodann die Läufte der Zeit, die so hidrotisch wie karminativ sind.</p>
+            <closer>
+               <salute>Chaire kai oneso!</salute>
+               <signed>Melissandros</signed>
+            </closer>
+
+            <postscript>
+               <p/>
+            </postscript>
+
+         </div>
+
+      </body>
+   </text>
+</TEI>

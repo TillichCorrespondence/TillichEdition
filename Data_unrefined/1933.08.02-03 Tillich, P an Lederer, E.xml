@@ -1,0 +1,100 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von <persName ref="P01930">Paul Tillich</persName> an <persName ref="P02321">Emil Lederer</persName>
+                    <lb/>vom <date when="1933-08-02"><date when="1933-08-03">2. oder 3. August 1933</date></date><!--Brief ohne Datum. Kontext: am 1. oder 2.8.1933 erwähnt Tillich im Brief an Hannah, dass er und 'Hans' einen entsprechenden Brief an Emil Lederer verfassen wollen. Am (verm.) 4.8.1933 schickt Tillich einen Brief an Hannah mit der Bemerkung, dass "der Brief an Emil anbeiliegt". Der vorliegende Brief wurde demnach verm. ca. am 2. oder 3.8. 1933 verfasst. Es handelt sich zudem nicht um das Endprodukt, sondern um einen Briefentwurf. Vermutlich sollte Hannah Tillich den Entwurf in die Maschine eintippen und von Sassnitz aus abschicken. Tillich selbst befand sich in Berlin.-->
+                </title>
+                <author ref="P01930">Paul Tillich</author>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Friedrich Schumann</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+                    <address>
+                        <street>Schenkenstraße 8-10</street>
+                        <postCode>1010</postCode>
+                        <placeName ref="Wien">
+                            <settlement>Wien</settlement>
+                            <country>Österreich</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+                </availability>        
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="Brief">
+                    <msIdentifier>
+                        <country>USA</country>
+                        <settlement>Cambridge, MA</settlement>
+                        <institution>Harvard University</institution>
+                        <repository>Harvard Divinity School Library</repository>
+                        <collection>Tillich, Hannah. Papers, 1896-1976</collection>
+                        <idno>bMS 721/3(3)</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>handschriftlich</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+            </editorialDecl>
+        </encodingDesc> 
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="P01930">Paul Tillich</persName>
+                    <date when="1933-08-02"><date when="1933-08-03">2. oder 3. August 1933</date></date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="P02321">Emil Lederer</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="deu">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="FS" when="2023-05-31">Intitale Auszeichnung des Transkripts</change>
+            
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <div type="writingSession">
+                <pb n="1"/>
+                <opener>
+                    <salute>Lieber Herr <persName ref="P02321">Lederer</persName>!</salute>
+                </opener>
+                <p>Sie wissen, mit welcher Spannung ich Ihre Sache verfolgt habe, wie ich in <placeName ref="Sassnitz">Saßnitz</placeName> auf Nachrichten gewartet habe und mit welchen <del rend="s">Spannung</del> <add place="superlinear">Erwartungen</add> ich hierher gefahren bin. Als ich dann Ihr Exposé las, war ich hingerissen von der Größe der Idee und der Energie und Großzügigkeit seiner Durchführung. Ich stimme dem Entwurf, soweit eine Beurteilung von hier möglich ist, in allem Wesentlichen zu und wäre gern Mitarbeiter.<lb/>
+Ein Punkt aber macht es mir unmöglich, Ihnen in diesem Augenblick eine bindende Zusage zu geben: der Termin. Und hier möchte ich ganz offen reden: Der Termin ist gestellt ohne Rücksicht auf diejenigen, auf die doch schließlich <pb facs="2"/> der Plan aufgebaut ist; wir sollen kommen, weil uns an der alten Stelle unsere Wirksamkeit genommen ist. Aber wie sollen wir kommen, ehe wir wissen, ob sie <del rend="s">uns</del> und wem sie endgültig genommen ist. <add place="superlinear">Wie ist eine Fertigstellung des Planes in personeller Hinsicht möglich, ehe dieser wichtige Punkt geklärt ist.</add> Die Entscheidung fällt wie ich mit Sicherheit festgestellt <add place="superlinear">habe</add>, bis <date when="1933-09-30">30. Sept.</date> Sobald sie gefallen ist, könnte eine telegraphische Zusage erfolgen; schon in 14 Tagen könnte man drüben sein; wahrscheinlich fällt sie noch etwas früher, so daß man rechtzeitig da sein könnte. [Ξ]<!--Griechisches Xi – Bedeutung hier? Evtl. als nachträglicher Zeilenumbruch zu interpretieren.--> Gibt es denn keinen Weg, Menschen auf die man doch Wert legt, die Mitarbeit zu ermöglichen, obwohl sie sich erst 4-8 Wochen später entscheiden können – wo es sich doch <del rend="s">um eine Entscheid</del> nicht nur um eine Lebensent<pb facs="3"/>scheidung handelt, sondern auch um eine solche, die von großen sachlichen Rückwirkungen und Konsequenzen ist! <hi rend="uu">Alle ausnahmslos</hi>, mit denen ich hier sprach, sind meiner Auffassung. Ist es nicht möglich, daß diejenigen <add place="superlinear">immer</add> beginnen, die ihre Entscheidung schon wissen, und für die wenigen anderen, die darauf warten, eine Formulierung gefunden wird, die die Situation kennzeichnet; oder daß das Ganze um 4 Wochen verschoben wird. Ich bitte Sie, Herrn <persName ref="P02428">Dr. J.</persName> verständlich zu machen, wie unsere Lage ist und wie unmöglich es für uns gegenüber den hiesigen Dingen ist, die Entscheidung vorwegzunehmen. Ich hoffe Sie verstehen meine Lage und fassen meine dringende Bitte nicht als Absage auf.<pb facs="4"/>
+                </p>
+                <closer>
+                    <salute>Grüßen Sie die Londoner Freunde, deren Fehlen ich natürlich aufs Tiefste bedaure und sein Sie selbst gegrüßt 
+von Ihrem P.T.</salute>
+                </closer>
+<postscript><p>[Im Übrigen beantrage ich in diesen Tagen auf Anraten meiner Behörde meinen Urlaub für das Union-Seminary, von dem ich eine Aufforderung zu Vorträgen erhalten habe]</p>
+</postscript>
+            </div>
+        </body>
+    </text>
+</TEI>
+

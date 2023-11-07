@@ -1,0 +1,172 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von <persName ref="P01930">Paul Tillich</persName> an <persName ref="P01925">Hannah Tillich</persName>
+               <lb/>vom <date when="1933-07-30">30. Juli 1933</date>
+            </title>
+            <author ref="P01930">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Niklas von Hülsen</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="Brief">
+               <msIdentifier>
+                  
+                  <!-- Nachlass Hannah Tillich, bMS 721/3(3) -->
+                  
+                  <country><!-->Land des Archivs<!--></country>
+                  <settlement ref="where"><!-->Stadt des Archivs<!--></settlement>
+                  <institution><!-->Name der übergeordneten Insitution<!--></institution>
+                  <repository><!-->spezifischer Name des Archivs<!--></repository>
+                  <collection><!-->spezifischer Name der Sammlung<!--></collection>
+                  <idno><!-->Identifikationsnummer des Dokuments in dem Archiv<!--></idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>handschriftlich</p>
+                  </physDesc>
+               <additional> <!-- Wenn Brief bereits publiziert hier die richtige Struktur aussuchen -->
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint"><!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!--> </author>
+                           <title><!-->Titel der Monographie<!--></title>
+                           <edition><!-->Auflage<!--></edition>
+                           <imprint>
+                              <publisher><!-->Herausgeber<!--></publisher>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Reihe<!--></title>
+                           <biblScope><!-->Reihennummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                     <biblStruct type="journal" n="reprint"><!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!--> </author>
+                           <title><!-->Titel des Aufsatzes<!--></title>
+                           <imprint>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Zeitschrift<!--></title>
+                           <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <biblStruct type="monograph"><!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien überliefert sind und im Original nicht mehr vorhanden!-->
+               <monogr>
+                  <author><!-->Autor<!--> </author>
+                  <title><!-->Titel der Monographie<!--></title>
+                  <edition><!-->Auflage<!--></edition>
+                  <imprint>
+                     <publisher><!-->Herausgeber<!--></publisher>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Reihe<!--></title>
+                  <biblScope><!-->Reihennummer<!--></biblScope>
+               </series>
+            </biblStruct>
+            <biblStruct type="journal"><!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften überliefert sind und im Original nicht mehr vorhanden<!-->
+               <monogr>
+                  <author><!-->Autor<!--> </author>
+                  <title><!-->Titel des Aufsatzes<!--></title>
+                  <imprint>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Zeitschrift<!--></title>
+                  <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01930">Paul Tillich</persName>
+              <placeName ref="where"><!-->Ort<!--></placeName>
+              <date when="1933-07-30">30. Juli 1933</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01925">Hannah Tillich</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="NH" when="2023-09-07">Intitale Auszeichnung des Transkripts</change>
+        <change who="Initialien des Editors" when="1886-08-20"><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+        
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+           <salute>Liebste Hannah!</salute>
+        </opener>
+        <p>Inzwischen deine <bibl>beiden Telegramme</bibl> erhalten! Das erste war verstümmelt. <persName>Dr. Sp.</persName> ist gestern hier angekommen und ich konferiere mit ihm Montag früh. Er spricht über die technischen Einzelheiten mit mir. Sonnabend habe ich erst stundenlang telephoniert, dann den Koffer nach <placeName>Tempelhof</placeName> gebracht (dank <persName>M.L’s</persName> Schlüssel); dann war ich zum Mittagessen <pb/> bei <persName>Grim.‘s</persName>; er hat noch einiges Gesparte. Von 1. Nov. ab <hi rend="u">nichts</hi> mehr. Er ist der allerdringendste Fall. Ich habe gedacht, daß er mit <persName>Carolus</persName> zusammen vielleicht ein Volksschulheim irgendwo aufmachen soll. <persName>Carolus</persName> soll sich das mal durch den Kopf gehen lassen. – <persName>Hans</persName> geht es nicht gut; er hat sehr Schweres erlebt. Er ist da, wo er ist, durch die Tapferkeit und unermüdliche Energie seiner <persName>Frau</persName>. Immerhin ist er restlos ausgeschaltet, darf sich nicht rühren, kann nicht weg und ist mit den Nerven ganz am Ende. – <persName>Grim</persName> kommt zu uns, wenn wir ihn ganz einladen, was ich tat. – Zwischendurch <pb/> eine halbe Stunde mit <persName>Evamaria Klotz</persName>, die sehr fein und gewieft ist und in vollster Empörung. –
+           Dann im Küssel; dort allerhand Jungens vom Kunstdienst. Vor dem Abendbrot allgemeines Baden (so daß ich keinen Tag ausgesetzt habe) Am Abend mit den 4 Besprechung des Emilschen Prospektes. Starke Kritik an der Besetzung, die in der Tat infolge des Fehlens der Frankfurter recht fragwürdig ist. Darum ist das zweite Telegramm sehr wichtig. Diese Kombination kann sehr gut sein. Trotzdem wie zu erwarten, im <pb/> Küssel stärkste Tendenz für Hierbleiben. Heut früh Rudern mit <persName>Dox</persName>, dem Entlassung ohne Pension droht und der höchst deprimiert ist. Unter Umständen muß man auch für ihn was tun. Dann wieder Baden und Abfahrt zu <persName>Seeberg</persName>, von dem ich jetzt komme, um zu <persName>Frede</persName> zu fahren (dazwischen im Kaffe Vaterland den Brief schreibend.) <persName>Seeberg</persName> über alles sehr pessimistisch, hält den Ruf nach draußen für eine Fügung, um dem kommenden Unheil zu entgehen (Weitere Weltwirtschaftskrise wegen Scheiterns der Verständigungen). Meint, daß ich hier auf einer bindenden Zusage bestehen müßte. – Morgen Nachmittag <persName>Schneider</persName> <pb/> vom Kunstdienst, der sehr viel weiß, auch daß man sich über mich sehr den Kopf zerbricht. – <persName>Eckart</persName> zu einer Ausgrabung gereist, reist Montag an. – Man hat hier das Gefühl, daß die stärkste Negativität bei großen Massen eingesetzt hat. – Auf Bahnhof Grunewald traf ich auf 5 Min. <persName>Sohn-Rethel</persName>, mit einem Mitglied des Blätterkreises, der mir sagte, er hätte gehört, daß <placeName>Leiden, Holland</placeName>, mich als Professor haben wolle. Ich weiß nichts davon. – Das Exposé ist sehr schwungvoll und <pb/> gut. Die Sache sieht auch sicher aus. Wenn nur bessere Leute dabei wären! - - Über <persName ref="P00570">Erdmuthe</persName> noch nichts gehört; vielleicht muß ich Mittwoch doch noch bleiben.
+           
+        </p>
+        <closer>
+           <salute>Leb wohl, liebste, süße Hannah! Grüß die andern!</salute>
+           <signed>Dein Paulus</signed>
+        </closer>
+     </div>
+    </body>
+  </text>
+</TEI>

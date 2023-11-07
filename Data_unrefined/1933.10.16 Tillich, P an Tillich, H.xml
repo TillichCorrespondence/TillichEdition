@@ -1,0 +1,95 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von <persName ref="P01930">Paul Tillich</persName> an <persName ref="P01925">Hannah Tillich</persName>
+                    <lb/>vom <date when="1933-10-16">16. Oktober 1933</date>
+                </title>
+                <author ref="P01930">Paul Tillich</author>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Friedrich Schumann</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+                    <address>
+                        <street>Schenkenstraße 8-10</street>
+                        <postCode>1010</postCode>
+                        <placeName ref="Wien">
+                            <settlement>Wien</settlement>
+                            <country>Österreich</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+                </availability>        
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="Postkarte">
+                    <msIdentifier>
+                        <country>USA</country>
+                        <settlement>Cambridge, MA</settlement>
+                        <institution>Harvard University</institution>
+                        <repository>Harvard Divinity School Library</repository>
+                        <collection>Tillich, Hannah. Papers, 1896-1976</collection>
+                        <idno>bMS 721/3(3)</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>handschriftlich</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+            </editorialDecl>
+        </encodingDesc> 
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="P01930">Paul Tillich</persName>
+                    <placeName ref="Frankfurt/Main">Frankfurt a. M.</placeName><!--Poststempel-->
+                    <date when="1933-10-16">16. Oktober 1933</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="P01925">Hannah Tillich</persName>
+                    <address><placeName ref="Berlin">bei <persName ref="P01764"><persName ref="P01765">Seeberger</persName></persName>, Berlin-Tempelhof, Friedrich-Franzstr. 10</placeName></address>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="deu">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="FS" when="2023-05-31">Intitale Auszeichnung des Transkripts</change>
+            
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <div type="writingSession">
+                <pb n="1"/>
+                <opener>
+                    <salute>Liebste <persName ref="P01925">Hannah</persName>!</salute>
+                </opener>
+                <p><note place="left"><hi rend="u">Montag Nachm</hi></note><!--Schräg zum Text über den linken Kartenrand-->Hier geschehen ständig schwere Abschiede; einer der schwersten, bewegendsten <persName ref="P01697">Hermann Schafft</persName>, den ich zum ersten Mal fassungslos weinen sah – auf dem Bahnhof in <placeName ref="Stuttgart">Stuttgart</placeName>. In <placeName ref="Zürich">Zürich</placeName> lief der alte <persName ref="P01291">Medikus</persName> lange mit dem Zug mit. Alle wollen mich bald zurückhaben. In <placeName ref="Bern">Bern</placeName> war ich bei <persName ref="P02429"><persName ref="P00231">Blums</persName></persName>; jetzt gleich in <placeName ref="Frankfurt a. M.">Frankfurt</placeName>, wo <persName ref="P00757">Margot</persName> gleichzeitig eintrifft. Und über allem die großen Dinge, <pb facs="2"/> deren Einschlag ich noch an Ort und Stelle miterlebte. Ich bin gespannt auf die Post in <placeName ref="Frankfurt a. M.">Frankfurt</placeName>. Ich suche Dich ständig in Gedanken und weiß nicht wo Du bist!</p>
+                <closer>P.</closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+

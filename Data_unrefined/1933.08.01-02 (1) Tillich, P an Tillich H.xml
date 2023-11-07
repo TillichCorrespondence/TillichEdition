@@ -1,0 +1,107 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von <persName ref="P01930">Paul Tillich</persName> an <persName ref="P01925">Hannah Tillich</persName>
+                    <lb/>vom <date when="1933-08-01"><date when="1933-08-02">1. oder 2. August 1933</date></date><!--Brief ist mit keinem Datum versehen. Die ungefähre Angabe hier ergibt sich aus dem Kontext: Unmittelbarer Bezug auf Telegramm Tillichs an Hannah vom 1.8.1933-->
+                </title>
+                <author ref="P01930">Paul Tillich</author>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Friedrich Schumann</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+                    <address>
+                        <street>Schenkenstraße 8-10</street>
+                        <postCode>1010</postCode>
+                        <placeName ref="Wien">
+                            <settlement>Wien</settlement>
+                            <country>Österreich</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+                </availability>        
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="Brief">
+                    <msIdentifier>
+                        <country>USA</country>
+                        <settlement>Cambridge, MA</settlement>
+                        <institution>Harvard University</institution>
+                        <repository>Harvard Divinity School Library</repository>
+                        <collection>Tillich, Hannah. Papers, 1896-1976</collection>
+                        <idno>bMS 721/3(3)</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>handschriftlich</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+            </editorialDecl>
+        </encodingDesc> 
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="P01930">Paul Tillich</persName>
+                    <placeName ref="Berlin">Berlin</placeName><!--Die Ortsangaben ergeben sich aus Kontext - aufnehmen?-->
+                    <date when="1933-08-01"><date when="1933-08-02">1. oder 2. August 1933</date></date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="P01925">Hannah Tillich</persName>
+                    <placeName ref="Sassnitz">Saßnitz</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="deu">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="FS" when="2023-05-31">Intitale Auszeichnung des Transkripts</change>
+            
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <div type="writingSession">
+                <pb n="1"/>
+                <opener>
+                    <salute>Liebste <persName ref="P01925">Hannah</persName>!</salute>
+                </opener>
+                <p>Nun also der genaue Bericht zu meinem <bibl>Telegramm</bibl><!--Telegramm Tillichs an Hannah vom 1.8.1933-->. Ich beginne mit den entscheidenden Punkten:<lb/>
+1) Die Entscheidungen auf Grund des Beamtengesetzes werden durch eine Kommission in Form eines Disziplinarhofes gefällt. Die Mitglieder der Kommission dürfen Beurlaubte nicht empfangen. Die Universitäten werden der Reihe nach durchgearbeitet und man wird bis <date when="1933-09-30">30. Sept.</date> fertig. Über den Ausgang kann <hi rend="u">niemand</hi> etwas sagen, da es sich um förmliche Verhöre u.s.w. handelt, die zu einer Entscheidung der Kommission führen. <persName ref="P02426">Gerullis</persName> gehört dieser Kommission <hi rend="u">nicht</hi> an; darum konnte er mich empfangen. Er muß aber in allen zweifelhaften Fällen sein Votum abgeben; dann entscheidet der <persName ref="P01664">Minister</persName> endgültig. Eine Beschleunigung für einen einzelnen ist unter diesen Umständen <hi rend="u">völlig ausgeschlossen</hi>. Dieses soll ich allen Kollegen mitteilen.<lb/>
+2) Fällt die Entscheidung positiv aus, so wird der Betroffene rehabilitiert und als das was er vorher war, <hi rend="u">an einen anderen Ort versetzt</hi>. In diesem Falle <pb facs="2"/> beginnen die Vorlesungen <hi rend="u">im Winter</hi> und eine Beurlaubung irgend welcher Art kommt <hi rend="u">nicht</hi> in Frage.<lb/>
+3) Fällt die Entscheidung negativ aus, so tritt Pensionierung ein und zwar nach den Pensionierungs-Berechnungen bei der Anstellung. Für mich würden ca 25 Jahre herauskommen. In diesem Falle bleibt man unter Beamtenrecht und braucht für einen längeren Aufenthalt im Ausland Urlaub.<lb/>
+4) Ich soll den Urlaub für den Ruf an die Columbia-Universität und das Union-Seminar einreichen; es geht dann an das Auswärtige Amt und wird, falls keine außenpolitischen Bedenken vorliegen, genehmigt. Natürlich kann ich das erst machen, wenn die formelle Aufforderung vorliegt. Negative Wirkungen auf mein Verfahren hat dieser Antrag <hi rend="u">nicht</hi>.<lb/>
+5) Ich soll für das Verfahren zur Verfügung stehen <pb facs="3"/> und Deutschland auf keinen Fall vorher verlassen<lb/>
+--------<lb/>
+Dies der Inhalt der Unterhaltung, die sehr ruhig und nett verlief, besonders als ich von meinem <placeName ref="Sassnitz">Saßnitzer</placeName> "Exil" erzählte. Für mich ist die Sache damit bis auf Weiteres vollkommen klar: Da ich entschlossen bin, meine Entscheidung von der Entscheidung des Ministeriums abhängig zu machen, so kann ich nicht weg, ehe diese Entscheidung gefallen ist. Zumal ich Gelegenheit bekommen werde, meine Position klar und eindeutig gegenüber den Angriffen hinzustellen. Es ist selbstverständlich, daß man von dieser Gelegenheit Gebrauch macht und nicht vorher wegläuft. Andrerseits will ich den Ruf nach <placeName ref="New York City">N.Y.</placeName> annehmen, wenn ich pensioniert werde. Ich werde also der Columbia-Universität unter Vorbehalt der Beurlaubung zusagen und sie bitten, <hi rend="u">den Termin so zu legen, daß über meinen Antrag auf Beurlaubung entschieden werden kann</hi>. <pb facs="4"/> Ich zweifle nicht daran, daß sie es tut, zumal es sich dann nur noch um 14 Tage bis 4 Wochen handelt: Tut sie es nicht, so ist ihr eben nicht ernsthaft an mir gelegen. Jedenfalls kann ich eine Lebensentscheidung nicht von einer Termindifferenz von 14 Tagen abhängig machen. - Die Sache <persName ref="P02321">Emils</persName> ist damit <hi rend="u">vorläufig</hi> erledigt; denn es scheint, als ob man auf alle Fälle den Termin einhalten will, was auch <persName ref="P01825">Speier</persName> für töricht hält. Vielleicht entschließt man sich doch noch zu verschieben; sonst ist nachträgliche Ergänzung beabsichtigt. Mir ist das Andere, wenigstens von Weitem, sehr viel sympathischer. – Holland muß ich <hi rend="u">ganz</hi> absagen.<lb/>
+Liebe süße Hannah! Ich danke Dir, daß Du mir Freiheit läßt, wenn es Dir auch schwer wird. Zu Deinem Trost: Ich halte die Chancen hier <hi rend="u">nicht</hi> für gut; er erschrak sichtlich, als ich auf seine Frage antwortete "daß es sich um §4 handelt. <hi rend="u">Aber ich will nicht weglaufen.</hi>" – Dein Gedicht ist immer in mir.
+
+                </p>
+                <closer>
+                    <signed>Dein Paul.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+

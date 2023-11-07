@@ -1,0 +1,224 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Dolf Sternberger an Paul Tillich <lb/>vom 2. Oktober 1933</title>
+            <author ref="P01859">Dolf Sternberger</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement ref="Marbach">Marbach</settlement>
+                  <institution>Deutsches Literatur Archiv Marbach</institution>
+                  <!-- Die restlichen Angaben sind in der Edition von Graf/Christophersen nicht angegeben -->
+               </msIdentifier>
+               <physDesc>
+                  <p>Maschinenschriftlich, Durchschlag</p>
+               </physDesc>
+               <additional>
+                  <!-- Wenn Brief bereits publiziert hier die richtige Struktur aussuchen -->
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel der Monographie<!--></title>
+                           <edition><!-->Auflage<!--></edition>
+                           <imprint>
+                              <publisher><!-->Herausgeber<!--></publisher>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Reihe<!--></title>
+                           <biblScope><!-->Reihennummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                     <biblStruct type="journal" n="reprint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften stammen<!-->
+                        <monogr>
+                           <author>Friedrich Wilhelm Graf </author>
+                           <author>Alf Christophersen</author>
+                           <title>"Scherben ihrer Bilder, verlorne Klänge ihrer Stimmen...". Die
+                              Korrespondenz zwischen Paul Tillich und Dolf Sternberger</title>
+                           <imprint>
+                              <pubPlace ref="Berlin">Berlin</pubPlace>
+                              <date when="2009">2009</date>
+                              <biblScope>75-111, hier: 90-92</biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title>Zeitschrift für neuere Theologiegeschichte</title>
+                           <biblScope>Vol. 16 (1)</biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <biblStruct type="monograph">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien überliefert sind und im Original nicht mehr vorhanden!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel der Monographie<!--></title>
+                  <edition><!-->Auflage<!--></edition>
+                  <imprint>
+                     <publisher><!-->Herausgeber<!--></publisher>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Reihe<!--></title>
+                  <biblScope><!-->Reihennummer<!--></biblScope>
+               </series>
+            </biblStruct>
+            <biblStruct type="journal">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften überliefert sind und im Original nicht mehr vorhanden<!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel des Aufsatzes<!--></title>
+                  <imprint>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Zeitschrift<!--></title>
+                  <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P01859">Dolf Sternberger</persName>
+               <placeName ref="Heidelberg">Heidelberg</placeName>
+               <date when="1933-10-02">2. Oktober 1933</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P01930">Paul Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2023-09-06">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener><dateline>
+                  <placeName ref="Heidelberg">Heidelberg</placeName>, <date when="1933-10-02"
+                     >2.10.33</date></dateline>
+               <salute>Lieber <persName ref="P01930">Herr Professor Tillich</persName>!</salute>
+            </opener>
+            <p>Es ist nicht Vergeßlichkeit oder Mangel an Treue, daß ich solange nichts habe von mir
+               hören lassen, – vielmehr dies ständige In-Atem-gehalten-sein durch die politischen
+               Ereignisse und das Schicksal des Landes, das alles andre immer wieder verdrängt. Bei
+               mir ists eigentlich jetzt erst so weit, daß mir zum Bewußtsein kommt, wie diese
+               Umwälzung auch einen Schnitt durch das eigne Leben gelegt hat, einen schmerzhaften
+                  <sic>Schnit</sic> Alle Freunde sind fort, und diese Gemeinsamkeit, die auch mich
+               trug und hielt, zu Ende.</p>
+            <p>Nun will ich Ihnen endlich kurz erzählen, wie es mit mir steht. Ich sitze noch immer
+               in <placeName>Heidelberg</placeName> und bin jetzt daran, eine erste prinzipielle
+               Schrift über die deutsche Sozialversicherung, Kritik und Entwurf der Neugestaltung,
+               fertigzustellen, die wohl noch dieses Jahr erscheinen wird. Die Details dieser Sache,
+               die mich außerordentlich bewegt, kann ich Ihnen aber nicht gut in einem Brief sagen,
+               weil dazu eine recht ausführliche Erörterung der politischen Umstände gehörte, vor
+               allem der ,berufsständischen Idee‘ – es bedürfte dazu eines intensiven Gesprächs. Das
+               Stipendium, das mir von der Notgemeinschaft zu diesem Zwecke gewährt wurde, läuft
+               noch etwa dreiviertel Jahr. – Die Heideggerarbeit, die noch einmal ziemlich gründlich
+               umgestaltet worden ist, wird bei Hirzel erscheinen, – man beginnt in
+                  <sic>diesem</sic> Tagen mit dem Druck. Die Fakultät schrieb mir, daß die
+               Korrekturfahnen vom dem gegenwärtigen Ordinarius, <persName ref="P02510">Herrn
+                  Krieck</persName>, anstatt von Ihnen geprüft werden würden. Ich möchte aber Ihnen
+               auch jeweils die Fahnen zuschicken, wenn es Ihnen recht ist. Frankfurt macht übrigens
+               – ich war vorige Woche dort, auch auf der Universität – einen sehr verödeten
+               Eindruck. <persName ref="P02511">Fräulein Siemsen</persName> ist die einzig
+               Ueberlebende. <persName ref="P02512">Dr. Gehlen</persName> ist schon wieder
+               abgereist, – die Kollegs sollen recht leer sein, und die Arbeitsgemeinschaften aus
+               fachschaftlicher Initiative sind auch bisher noch gar nicht in Gang gekommen. – Daß
+                  <persName ref="P00841">Heidegger</persName> nach
+                  <placeName>Berli<add>n</add></placeName> berufen ist, werden Sie sicher erfahren
+               haben; man nimmt an, daß es sich nicht um einen gewöhnlichen Lehrstuhl, sondern eher
+               um irgendeine neuartige Institution handeln wird, vielleicht so etwas wie
+               Führerschule. Seine Entwicklung hat mich absolut nicht verwundert, – es ist alles
+               durchaus konsequent.</p>
+            <p>Für meine eigne Zukunft denke ich nach wie vor an journalistische Aufgaben; ich stehe
+               auch schon mit einer großen Zeitung in Verhandlung. Indessen steht das alles nun
+               unter einem so anderen Stern, daß eigentlich andere Lösungen erheblich sinnvoller
+               wären. Vielleicht entwickelt sich etwas aus der sozialpolitischen Arbeit. An eine
+               Hochschulkarriere ist nun nicht mehr zu denken, meiner Ehe wegen.</p>
+            <p>Ich wäre sehr froh, auch von Ihnen ein wenig zu hören. Werden Sie lange dort oben
+               bleiben? Werden wir uns wohl einmal wiedersehn?</p>
+            <closer>
+               <salute>Mit den herzlichsten Grüßen für Ihre Frau Gemahlin und Sie selbst, auch von
+                  meiner Frau</salute>
+               <signed>Ihr stets ergebener <persName ref="P01859">Dolf Sternberg</persName></signed>
+            </closer>
+
+            <postscript>
+               <p/>
+            </postscript>
+
+         </div>
+
+      </body>
+   </text>
+</TEI>

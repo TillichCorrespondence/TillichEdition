@@ -1,0 +1,123 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Paul Tillich an Oskar Siebeck 
+               <lb/>vom 26. April 1933
+            </title>
+            <author ref="P01930">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Sebastian Kueffner</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="Kopie">
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement ref="Berlin">Berlin</settlement>
+                  <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz</repository>
+                  <collection>Handschriftenabteilung, Archiv des Verlages J. C. B. Mohr (Paul Siebeck)</collection>
+                  <idno>Nachl. 488, A 0469,5; Blatt 143-205</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Brief; Maschinenschriftlich</p>
+                  </physDesc>
+               
+            </msDesc>
+            <biblStruct type="journal">
+               <monogr>
+                  <author>Alf Christophersen / Friedrich Wilhelm Graf</author>
+                  <title>„Beweise einer unsichtbaren Beziehung“ Die Korrespondenz zwischen Paul Tillich und dem Tübinger Verlag J. C. B. Mohr (Paul Siebeck)</title>
+                  <imprint>
+                     <pubPlace ref="Boston">Boston</pubPlace>
+                     <date when="2011-09-27">2011</date>
+                     <biblScope>S. 355</biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title>International Yearbook for Tillich Research</title>
+                  <biblScope>Band 6 Heft 1</biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01930">Paul Tillich</persName>
+              <placeName ref="Frankfurt a.M.">Frankfurt am Main</placeName>
+              <date when="1933-04-26">26. April 1933</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01782">Oskar Siebeck</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="SK" when="2023-08-01">Intitale Auszeichnung des Transkripts</change>
+        
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        
+        <opener>
+           <dateline><placeName ref="Frankfurt a.M.">Frankfurt a.M.</placeName>, den <date when="1933-04-26">26. 4. 33</date><address><street>Vogelstr. 11 </street></address></dateline>
+           
+           <salute>Sehr geehrter <persName ref="P01782">Herr Siebeck</persName>!</salute>
+        </opener>
+        <p>Die Ereignisse der letzten Wochen scheinen mir zur Folge zu haben, dass ich die
+               Veröffentlichung des
+           <bibl><!-- Tillich, Paul: "Karl Marx und der Deutsche Idealismus" (Sehr wahrscheinlich diese Publkation gemeint) Tillich, Paul: Der deutsche Idealismus und das proletarische Schicksal, in GWE (Religion, Kultur, Gesellschaft. Unveröffentlichte Texte aus der deutschen Zeit (1908–1933) 11 Bd., 2. Teil, Berlin/New York 1999, 453–461 -->Idealismus-Vortrages</bibl>
+               auf unbestimmte Zeit verschiebe, es sei denn, dass Sie, wenn auch unter einem anderen
+               Titel, daran festhalten. Dagegen nehme ich an, dass sich in bezug auf die
+           <bibl><ptr/><!--Tillich, Paul: Metaphysik (Könnte möglicherweise jener Entwurf vom Zeitraum 1929-1932 sein -> Tillich, Paul: Metaphysik (Einleitung und Gliederung) in: Tillich, Paul  Gesammelte Werke. Ergänzungs- und Nachlassbände, Band 11 Teil 2, DE GRUYTER EVANGELISCHES VERLAGSWERK GMBH, 1999, S. 332) -->Metaphysik</bibl> nichts geändert
+               hat, vielleicht könnte sogar die mir durch meine Beurlaubung gewonnene Zeit der Arbeit zugute kommen.<note type="ea" resp="SK">Die Metaphysik war ein geplantes Buchprojekt. Fritz Medicus fragte Paul Tillich zur Verfassung eines Lehrbuchs zur Metaphysik, welches geplant war 1936 fertig zu sein.(aus Graf, Beweise einer unsichtbaren Beziehung S.256, S.348 FN. 123)</note>Doch bitte ich Sie um
+               ein paar Worte, damit ich Direktiven für meine kommende Arbeit treffen kann. </p>
+        <closer>
+           <salute>Mit bestem Grusse<lb/>Ihr sehr ergebener</salute>
+           <signed><ptr/><persName ref="P01930">P. Tillich</persName>.<note type="ea">[handschr.:]</note></signed>
+        </closer>  
+      
+     </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,109 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von <persName ref="P01930">Paul Tillich</persName> an <persName ref="P01925">Hannah Tillich</persName>
+                    <lb/>vom <date when="1933-08-01"><date when="1933-08-02">1. oder 2. August 1933</date></date><!--Brief ist mit keinem Datum versehen. Die ungefähre Angabe hier ergibt sich aus dem Kontext: Unmittelbarer Bezug auf Telegramm Tillichs an Hannah vom 1.8.1933 sowie den dazugehörigen "Erläuterungsbrief" (1. oder 2. August 1933)-->
+                </title>
+                <author ref="P01930">Paul Tillich</author>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Friedrich Schumann</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+                    <address>
+                        <street>Schenkenstraße 8-10</street>
+                        <postCode>1010</postCode>
+                        <placeName ref="Wien">
+                            <settlement>Wien</settlement>
+                            <country>Österreich</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+                </availability>        
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="Brief">
+                    <msIdentifier>
+                        <country>USA</country>
+                        <settlement>Cambridge, MA</settlement>
+                        <institution>Harvard University</institution>
+                        <repository>Harvard Divinity School Library</repository>
+                        <collection>Tillich, Hannah. Papers, 1896-1976</collection>
+                        <idno>bMS 721/3(3)</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>handschriftlich</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+            </editorialDecl>
+        </encodingDesc> 
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="P01930">Paul Tillich</persName>
+                    <placeName ref="Berlin">Berlin</placeName><!--Die Ortsangaben ergeben sich aus Kontext - aufnehmen?-->
+                    <date when="1933-08-01"><date when="1933-08-02">1. oder 2. August 1933</date></date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="P01925">Hannah Tillich</persName>
+                    <placeName ref="Sassnitz">Saßnitz</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="deu">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="FS" when="2023-05-31">Intitale Auszeichnung des Transkripts</change>
+            
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <div type="writingSession">
+                <pb n="1"/>
+                <opener>
+                    <salute>Liebste <persName ref="P01925">Hannah</persName>!</salute>
+                </opener>
+                <p>Nun hast Du <bibl>Brief</bibl><!--PT an Hannah vom 1. oder 2. August 1933 (1)--> und <bibl>Telegramm</bibl><!--Telegramm PT an Hannah Tillich vom 1.8.1933-->; hoffentlich ist alles ganz klar geworden. Beeinflußt bin ich von niemand, da es sich zunächst gar nicht um Entscheidungen, sondern um Feststellungen handelt. Von einer Entscheidung kann höchstens insofern die Rede sein, als ich, wenn ich hinausgehe, den Rückweg nicht abschneiden will, aber das ist ja nur die Fortsetzung meiner Grundhaltung. Entscheidungen kann es nur in drei Fällen geben:<lb/>
+1) Wenn wider Erwarten trotz Pensionierung der Urlaub abgelehnt wird. Dann ist klar: Abfahrt!<lb/>
+2) Wenn die Rehabilitierung mit unmöglichen Forderungen verknüpft ist oder schon die Verhandlungen unmögliche Formen annehmen. Dann ist ebenfalls klar: Abfahrt.<lb/>
+3) Wenn die Termine doch in einer solchen Weise zusammenstoßen, daß Columbia rechtlich gefährdet ist. Dann könnte es noch einmal einen wirklichen Konflikt geben. Und dann müßten wir ganz von uns aus entscheiden. Und ich glaube fast: Auch dann: Abfahrt.<lb/>
+Ich hoffe, Du siehst damit, daß meine innere Stimmung mehr als <pb facs="2"/> je in die Weite geht. Aber ich muß mein gutes Gewissen retten.<lb/>
+Gestern mit <persName ref="P02413"><persName ref="P00718">Grim's</persName></persName><!--verm. Adolf und Mascha Grimme gemeint--> bei Frau <persName ref="P02427">Meier-Kuhlenkamp</persName>, der sich selbst beurlaubt habenden Chefin der staatlichen Augustaschule. Auch sie könnte mit dabei sein, wenn <persName ref="P01307">Carolus</persName> und <persName ref="P00718">Grim</persName> ein <hi rend="u">Land</hi>schulheim (ich hatte mich verschrieben) gründen würden. <persName ref="P00718">Grim</persName> denkt sehr über den Plan nach, hält ihn fast für die einzige Möglichkeit für sich; draußen, aber für die drinnen.<!--macht diese Lesart Sinn?--> <persName ref="P01307">Carolus</persName> soll sofort, wenn er hier ist, bei <persName ref="P00718">Grim</persName> anrufen, da er die Sache mit ihm und jener (die schon 4 Wochen draußen gereist ist)<!--bisher nicht ermittelt--> besprechen kann. – In der Sache <persName ref="P02321">Emils</persName> sind zunächst nur <hi rend="u">drei</hi> Abteilungen vorgesehen: Ökonomie, Recht, Soziologie und als Band Philosophie. Die Sache soll aber erweitert werden; und ich halte eine pädagogische Erweiterung für <hi rend="u">durchaus möglich</hi>. – Dieses alles für <persName ref="P01307">Carolus</persName>.<lb/>
+Heut Nachmittag bei Hans<!--unsicher. Könnte Hans Simons (P01796) sein-->. Es geht ihm ein wenig besser; immerhin hat er damals auch eine Rippe gebrochen, was erst jetzt <pb facs="3"/> vom Arzt festgestellt ist(!!) Hans<!--unsicher. Könnte Hans Simons (P01796) sein--> ist völlig überzeugt von der Richtigkeit meines Verhaltens: Nicht von seinen Verfahren weglaufen! Ebenso alle mit denen ich sonst telephoniert habe. Wir (Hans<!--unsicher. Könnte Hans Simons (P01796) sein--> und ich) haben beschlossen, daß ich einen <bibl>Brief</bibl><!--PT an Emil Lederer vom 2. oder 3. August 1933--> an <persName ref="P02321">Emil</persName> schreibe mit der dringenden Bitte, sich die Chancen nicht durch Terminstellung zu verderben. Der Brief soll so sein, daß ihn auch <persName ref="P02428">Johnson</persName> versteht; dann haben wir Freiheit, bis über uns entschieden ist. Denn das gilt ja nicht nur für mich. Hoffentlich hat es Erfolg.<lb/>
+<persName ref="P02045">M.L.'chen</persName> herzlichen Dank für ihren <bibl>Brief</bibl><!--nicht erhalten-->. Anbei eine <bibl>Karte</bibl><!--nicht erhalten--> an sie; sonst nur Drucksachen. Zum Englisch reicht die Kraft leider nicht mehr. <persName ref="P01889">Eckart</persName> wollte heut oder morgen fahren. Jedenfalls wartet er nicht bis Sonnabend. – Über <persName ref="P00570">Erdmuthes</persName> Ankunftszeit noch keine Nachricht. Ich freue mich so auf sie und auf die Reise mit ihr. <pb facs="4"/><lb/>
+Wir müssen also noch den Ort wechseln. Es ist vielerlei dabei zu bedenken. Wir entscheiden uns alle zusammen, wenn ich da bin.<lb/>
+Heut Nachmittag Einkauf mit <persName ref="P01211">Cläre</persName>. Deine energischen Briefe haben ihr viel Spaß gemacht. Sie wird die Sache schon gut machen. – Später kam Eure <bibl>komische Karte</bibl><!--nicht erhalten-->. Die Namen finde ich ausgezeichnet; doch verstehe ich die gelehrte Anspielung nicht ganz.<lb/>
+<bibl>Deine Fragen</bibl><!--nicht erhalten-->, die eben gekommen sind, sind ja durch meinen <bibl>Brief</bibl><!--PT an Hannah Tillich vom 1. oder 2. August 1933 (1)--> beantwortet. Über Columbia weiß ich noch nichts Genaues. Da muß ich erst Brief mit offizieller Anfrage und Bedingungen abwarten. In <persName ref="P02321">Emils</persName> Sache werden Reise und Umzug <hi rend="u">nicht</hi> bezahlt. Ob in der anderen Sache ist unklar. Bald mehr!
+                </p>
+                <closer>
+<salute><unclear>Grüß</unclear> herzlich!</salute>
+                    <signed>Dein Paul.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+
