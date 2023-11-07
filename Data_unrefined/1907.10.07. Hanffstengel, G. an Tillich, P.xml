@@ -1,0 +1,237 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Gottfried von Hanffstengel an Paul Tillich <lb/>vom 7. Oktober 1907 </title>
+            <author ref="P00788">Gottfried von Hanffstengel</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974.</collection>
+                  <idno>bMS 649/147</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+               <additional>
+                  <!-- Wenn Brief bereits publiziert hier die richtige Struktur aussuchen -->
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel der Monographie<!--></title>
+                           <edition><!-->Auflage<!--></edition>
+                           <imprint>
+                              <publisher><!-->Herausgeber<!--></publisher>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Reihe<!--></title>
+                           <biblScope><!-->Reihennummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                     <biblStruct type="journal" n="reprint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel des Aufsatzes<!--></title>
+                           <imprint>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Zeitschrift<!--></title>
+                           <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <biblStruct type="monograph">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien überliefert sind und im Original nicht mehr vorhanden!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel der Monographie<!--></title>
+                  <edition><!-->Auflage<!--></edition>
+                  <imprint>
+                     <publisher><!-->Herausgeber<!--></publisher>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Reihe<!--></title>
+                  <biblScope><!-->Reihennummer<!--></biblScope>
+               </series>
+            </biblStruct>
+            <biblStruct type="journal">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften überliefert sind und im Original nicht mehr vorhanden<!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel des Aufsatzes<!--></title>
+                  <imprint>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Zeitschrift<!--></title>
+                  <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P00788">Gottfried von Hanffstengel</persName>
+               <placeName ref="Bremervörde">Bremervörde</placeName>
+               <date when="1907-10-07">7. Oktober 1907</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P01930">Paul Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="1907-10-07">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <dateline><placeName ref="Bremervörde">Bremervörde</placeName>, <date
+                     when="1907-10-07">7. X. 07.</date></dateline>
+               <salute>Lieber <persName ref="P01930">Paul</persName>!</salute>
+            </opener>
+            <p>Deine 3 Typs stehen vor mir, u in ihnen verkörpert alle die Liebe, die Du mir
+               erwiesen hast trotz all meines <hi rend="u">So</hi>seins. Und doch – manchmal bekomme
+               ich Zweifelanfälle, ob unsre Freundschaft auch nicht einseitig sei. Mein Herz liegt
+               offen vor Dir wie ein aufgeschlagenes Buch, aber manchmal will mir scheinen, als ob
+               nur die Pathologie dieses Buches Dir Interesse abgewinne und nicht auch das übrige,
+               daß es Dir ein interessanter Fall Deiner Wingolfspsychologie wäre. Aber dann müßte es
+               schon einer sein, der großes Interesse u mehr erwecke, denn einem solchen Fall zu
+               Liebe eine Throtapauke zu machen, u dann zu sehen, wie auch dies Mittel den
+               gewünschten definitiven Erfolg nicht hat, daß die Schwankungen uns kleiner
+                  geworden<pb n="2"/> sind, anstatt gänzlich aufzuhören, dazu gehört doch wohl mehr
+               als ein interessanter Fall. Und daß die Bemühungen um mich nicht aufhören, zeigt mir,
+               wie unrecht u undankbar es ist, daß ich solchen Zweifeln Raum gebe. Und die 3 Typs,
+               ein neues Zeichen, und ich danke Dir herzlich dafür. Zu meinem Geburtstage kamen
+               viele Briefe, z.B. von <persName ref="P00641">Fritz</persName>, <persName
+                  ref="P02158">Stosch</persName>, <persName ref="P00128">Balke</persName>, Lbb usw.,
+               u viele Karten. <persName ref="P00203">Lorenz</persName> kündigte als
+               Geburtstagsgeschenk seinen Besuch an, ich habe ihn daraufhin eingeladen, mich diese
+               Woche zu besuchen, aber bis jetzt hat er noch nichts von sich merken lassen,
+               vielleicht ist ihm das Wetter zu schlecht.</p>
+            <p>Leider habe ich den Rundbrief noch nicht, aber ich kann mir denken, worauf sich die
+               Prolese bezieht, auf das Denken, nicht wahr? Ja, ich habe etwas gelernt in <placeName
+                  ref="Halle a. d. S.">Halle</placeName> u von seinen Größen.</p>
+            <p>Von meinem Lbfx hatte ich einen rührenden Brief, allerdings nachdem ich ihm einen
+               gehörigen Tritt verabreicht hatte; hoffentlich geht<pb n="3"/> diese Rührung auch in
+               Tat über und erstreckt sich nicht auf spätere Zeit. Zu leicht steckt ja bei ihm die
+               Bewegung. Einen schlechten Gefallen hast Du mir getan, als Du ihn moralisch zwangest,
+               oder vielmehr ihn darin bestärktest, auf dem Hause wohnen zu bleiben, gerade vor dem
+               Convent hatte ich ihn soweit, daß er entschlossen war, vom Haus zu ziehen. Ich wäre
+               seinetwegen 10 mal ruhiger gewesen. Nun ist die Gefahr für ihn ungleich größer.
+               Hoffentlich zieht er nur nach oben, wie er mir das versprach, aus seinem bisherigen
+               Loch heraus.</p>
+            <p>Ein Jahr älter als ich bin, hast Du mich doch gemacht, ich wurde erst, oder schon 22
+               Jahre alt.</p>
+            <p>Gestern habe ich mich mal an <bibl type="book">Hamlet</bibl> erbaut, ich mußte bei
+               jedem Wort beinahe an Dich denken, manches konnte ich fast auswendig, nur von Deinem
+               Zitieren. Dieser scharfe Sarkasmus, der bittere Spott ist doch was durchschneidendes,
+               verletzendes u doch wohltuendes. Und dagegen das gleisnerische Honig um den Bart<pb
+                  n="4"/> schmieren des Königs u seines Anfangs, wie <sic>eckelt</sic> es jeden an.
+               Überhaupt ist <persName ref="P01777">Shakespeare</persName> in seinen Dramen noch
+               nicht erreicht, ich hoffe es Weihnachten in meinen Besitz zu bekommen – so lesbar die
+               Dramen von <persName ref="P00833">Hebbel</persName>, besonders nach der formellen
+               Seite, auch sind.</p>
+            <p>Natürlich gab die letzte Zeit besonders viel im Garten zu tun.</p>
+            <p><date>10.X.07.</date> Gestern Morgen hatte ich eine ganze Anzahl von Stachelbeeren u
+               Johannesbeeren an- u umzupflanzen. Am Nachmittag kam <persName ref="P00203"
+                  >Lorenz</persName> ganz von <placeName ref="Hamburg">Hamburg</placeName> per Rad,
+               natürlich ganz erschöpft, aber doch sehr fidel. Er bleibt bis Sonnabend u will dann
+               per Rad zurück. Gestern hatten wir tadelloses Wetter, heute ist es sehr nebelig, aber
+               es wird noch gut. Heute ist hier großer Jahrmarkt, der für meine kleinen Geschwister
+               große Freude mit sich bringt, ich gehe dem Trubel nicht aus dem Wege. Augenblicklich
+               gibt <persName ref="P00203">Lorenz</persName> meinem kleinen Bruder <persName
+                  ref="P02175">Salem</persName> lateinische Stunde.</p>
+            <!-- Dieser Brief ist kein Fragment im eigentlichen Sinne. Er wird in dieser Form abgeschickt, aber erst mit dem nächsten Brief Hanffstengels an Tillich: 1907.10.20. Hanffstengel, G. an Tillich, P. -->
+            <closer>
+               <salute><!-->Abschlussformel<!--></salute>
+               <signed><!-->Unterschrift<!--></signed>
+            </closer>
+
+            <postscript>
+               <p><!-->wenn vorhanden<!--></p>
+            </postscript>
+
+         </div>
+      </body>
+   </text>
+</TEI>

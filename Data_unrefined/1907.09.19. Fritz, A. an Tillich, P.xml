@@ -1,0 +1,241 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Alfred Fritz an Paul Tillich <lb/>vom 19. September 1907 </title>
+            <author ref="P00641">Alfred Fritz</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974.</collection>
+                  <idno>bMS 649/143(11)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+               <additional>
+                  <!-- Wenn Brief bereits publiziert hier die richtige Struktur aussuchen -->
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel der Monographie<!--></title>
+                           <edition><!-->Auflage<!--></edition>
+                           <imprint>
+                              <publisher><!-->Herausgeber<!--></publisher>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Reihe<!--></title>
+                           <biblScope><!-->Reihennummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                     <biblStruct type="journal" n="reprint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel des Aufsatzes<!--></title>
+                           <imprint>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Zeitschrift<!--></title>
+                           <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <biblStruct type="monograph">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien überliefert sind und im Original nicht mehr vorhanden!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel der Monographie<!--></title>
+                  <edition><!-->Auflage<!--></edition>
+                  <imprint>
+                     <publisher><!-->Herausgeber<!--></publisher>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Reihe<!--></title>
+                  <biblScope><!-->Reihennummer<!--></biblScope>
+               </series>
+            </biblStruct>
+            <biblStruct type="journal">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften überliefert sind und im Original nicht mehr vorhanden<!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel des Aufsatzes<!--></title>
+                  <imprint>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Zeitschrift<!--></title>
+                  <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P00641">Alfred Fritz</persName>
+               <placeName ref="Stuttgart">Stuttgart</placeName>
+               <date when="1907-09-19">19. September 1907</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P01930">Paul Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2022-09-30">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <dateline><placeName ref="Stuttgart">Stuttgart</placeName>. <date when="1907-09-19"
+                     >19. IX. 07.</date></dateline>
+               <salute>Liebes <persName ref="P01930">Paulchen</persName>!</salute>
+            </opener>
+            <p>Es ist höchste Zeit, daß ich Dir für <bibl type="letter">Deinen lb. Brief</bibl>
+               danke. Viel Zeit habe ich zwar nicht, da ich am nächsten Sonntag als Musterprediger
+               mich betätigen will, über einen ziemlich öden Text.</p>
+            <p>Ich freue mich, daß Dirs gut geht. Nun wirst Du Deinen Hunger auf Realitäten <del
+                  rend="s">ge</del> etwas gestillt haben in ernster Arbeit. Was Deine Erfahrungen
+               über <persName ref="P01227">Schmuhlsches</persName> u. <persName ref="P00845"
+                  >Heimsches</persName> Denkideal sind, möchte ich gerne sehen. Ich muß sagen, daß
+               ich sehr zu <persName ref="P01227">Schmuhl</persName> neige, immer im Rennen durch
+               die Jahrhunderte u. Systeme bleibt er eine geheime Sehnsucht! Das möchte ich genauer
+               kennen lernen u. es kostet schon ziemliche Überwindung, wenigstens nicht in der
+               Realenzyklopädie nachzusehen. Also die Liebe<pb n="2"/> zum Denken aus Liebe wäre
+               schon da, aber leider ist mein Denken zur Zeit zwar nicht aus Not, aber mit Not. Wenn
+               ich daran denken will, im Sommer Examen zu machen, muß ich mich zum theologischen
+               Rennautomobil ausbilden, was kein Vergnügen ist, nicht nur wegen der damit
+               verbundenen Sturzgefahr. Vorerst läuft mein Motor gut. Die letzte Woche durchrannte
+               ich die orthodoxe Dogmatik u. platze bald vor <hi rend="aq">Statibus, genera
+                  specialia et universalia, communicationes</hi> etc. Doch machte es mir Spaß, es
+               ist ein schöner regelmäßiger Bau mit wundervoller Einteilung bis <unclear cert="low"
+                  >ca.</unclear> Wie ein Studiosus einst den <persName ref="P02208"
+                  >Hutterus</persName> lernte, muß er ein merkwürdig geordnetes Gedankenwerk im Kopf
+               gehabt haben. Daraus erkläre ich mir die geringe Neigung zu Seitensprüngen in der
+               orthodoxen Periode. Es lebt sich in diesem orthod. System so behaglich wie in den
+               streng regelmäßigen Gärtenanlangen der gleichen Zeit. Einige Kuriosa habe ich doch
+               noch angestaunt <hi rend="aq">resurrectio consistit in reproductione<pb n="3"/>
+                  eiusdem quod per mortem cecidit, ex atomis illius corporis, hinc inde disjectus
+                  atque dissipatis.</hi></p>
+            <p>Was für geduldige Schäfchen müssen die Studenten der damaligen Zeit gewesen sein.</p>
+            <p>Etwas andere Kost ist <persName ref="P02209">Beyschlags</persName> NT Theologie. Er
+               hat absolut keine Hinneigung zur Orthodoxie. Nicht nur starke Polemik gegen
+               Strafstellvertretung, sondern Verdrängung des <add><hi rend="sup">ref.</hi></add>
+               Rechtfertigungsgedankens aus <del rend="s">der zu</del> dem Zentrum der paulinischen
+               Theologie u. Einsetzung des Heiligungsgedanken. <del rend="s">Sondern</del> Befreiung
+               von der Sünde anstatt der reformat. Befreiung von der Schuld. <persName ref="P00035"
+                  >Hales</persName> ist fein. Aber manchmal sieht man doch zu sehr das gemütliche
+               Gesicht des seligen <unclear>B.</unclear> hinter Pauli Mantelzipfeln
+               hervorgucken.</p>
+            <p>Meine Predigt ist mir diesmal schwer gefallen. Ich habe das Unglück einen Text
+               behandeln zu müssen, der sich nicht ohne Moralpauken behandeln läßt (<bibl
+                  type="bible" resp="Matt 21, 28">Mt. 21, 28 ff.</bibl>) u. das hasse ich, besonders
+               wenn man als jugendliches Bürschchen zum ersten Mal die Kanzel besteigt.</p>
+            <pb n="4"/>
+            <p>Daß Du noch soviel Dankbarkeit u. Liebe geerntet hast, freut mich recht für Dich. In
+                  <placeName>Halle</placeName>, das wird wohl immer zu den <hi rend="aq">temporibus
+                  aureis</hi> unseres Lebens gehören, wenns auch für mich einen recht traurigen
+               Abschluß gefunden hat.</p>
+            <p>Deinen Körper schone! Deinen Geist lasse schön <del rend="s">f</del> brav am
+               Gängelband gehen! Ach Kerl es ist doch schade; daß man nicht hie u da mit einander
+               reden kann. Gerade jetzt wo alles Erleben auf Bücher beschränkt ist, empfindet man es
+               recht, denn da sind die Leute selten, denen man mitteilen kann u. das ist nun mal
+               nötig. – War nicht Dein <persName ref="P01295">Leibfux</persName> in
+                  <placeName>Misdroy</placeName> bei Dir. Was macht er denn? Es ist schade, daß Ihr
+               schon auseinander seid. - Der Rundbrief ist jetzt wohl bei Dir gewesen. Wegen der
+               Neuordnung fürchte ich nur das Porto, wenn es so oft sie hin u. her geht. Auch
+               verliert man viel Zeit. – Gestern war Philistertag. Ich saß sehr nett mit <unclear><persName
+                  ref="P02210">Wergenthaler</persName></unclear> u. <persName ref="P02199">Häfele</persName>
+               zusammen. Sonst hätte ich mich fremd dort gefühlt. Es ist traurig.</p>
+            <p>Natürlich möchte ich beide Typs, das als X u. das als Mensch.</p>
+            <closer>
+               <salute>Sei herzlich gegrüßt von Deinem</salute>
+               <signed>tr. <persName ref="P00641">Alfred</persName>.</signed>
+            </closer>
+
+            <postscript>
+               <p><!-->wenn vorhanden<!--></p>
+            </postscript>
+
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,197 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Postkarte von Hermann Witte an Paul Tillich <lb/>vom 22. Juli 1907 [PS] </title>
+            <author ref="P02095">Hermann Witte</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974.</collection>
+                  <idno>bMS 649/209(2)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+               <additional>
+                  <!-- Wenn Brief bereits publiziert hier die richtige Struktur aussuchen -->
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel der Monographie<!--></title>
+                           <edition><!-->Auflage<!--></edition>
+                           <imprint>
+                              <publisher><!-->Herausgeber<!--></publisher>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Reihe<!--></title>
+                           <biblScope><!-->Reihennummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                     <biblStruct type="journal" n="reprint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel des Aufsatzes<!--></title>
+                           <imprint>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Zeitschrift<!--></title>
+                           <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <biblStruct type="monograph">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien überliefert sind und im Original nicht mehr vorhanden!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel der Monographie<!--></title>
+                  <edition><!-->Auflage<!--></edition>
+                  <imprint>
+                     <publisher><!-->Herausgeber<!--></publisher>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Reihe<!--></title>
+                  <biblScope><!-->Reihennummer<!--></biblScope>
+               </series>
+            </biblStruct>
+            <biblStruct type="journal">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften überliefert sind und im Original nicht mehr vorhanden<!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel des Aufsatzes<!--></title>
+                  <imprint>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Zeitschrift<!--></title>
+                  <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P02095">Hermann Witte</persName>
+               <placeName ref="Heidelberg">Heidelberg</placeName>
+               <date when="1907-07-22">22. Juli 1907</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P01930">Paul Tillich</persName>
+               <placeName>Straßburg</placeName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2022-09-22">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+
+            <p>Tiefgeährt durch Eure Depesche (1,10 Mark) wäre ich sehr gerne gekommen, wenn nicht
+               1. am Mittwoch Abschiedsfeier für <unclear>Marcks</unclear> –</p>
+            <p>2. am Donnerstag feierl. Einladung –</p>
+            <p>3. Sonnabend <unclear>Marcks</unclear> Seminar –</p>
+            <p>4. Eure Depesche statt um 11 um 3 hier gewesen –</p>
+            <p>5. Ich nicht zu Hause u. erst um 10h. A. zurück gekommen –</p>
+            <p>6. Das Geld, alle –</p>
+            <p>7. Eine lange, lange Reise nach <placeName>Hamburg</placeName> u.
+                  <placeName>Kiel</placeName> in Aussicht gewesen –</p>
+            <p>(1-7). <hi rend="u">wäre</hi>.</p>
+            <p>Wann aber macht Ihr in <placeName ref="Tübingen">Tübs</placeName> Schluß? An welchem
+               Tage kommen Eure Bruchstücke hier um 9<hi rend="sup">54</hi> an? Wer schließt sich
+               Ihnen an? (<unclear>¿¿¿</unclear>?!!)</p>
+            <closer>
+               <salute>Mit wehmütig verarmtem Gruße</salute>
+               <signed>Euer <persName ref="P02095">Hermann Witte</persName>
+                  <figure>
+                     <figDesc>Hallenser Wingolfszirkel</figDesc>
+                  </figure>! (x)</signed>
+            </closer>
+
+            <postscript>
+               <p><!-->wenn vorhanden<!--></p>
+            </postscript>
+
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,243 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Lorenz Bertheau an Paul Tillich <lb/>vom 5. November 1907 </title>
+            <author ref="P00203">Lorenz Bertheau</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement ref="Marburg">Marburg</settlement>
+                  <institution>Philipps-Universität Marburg</institution>
+                  <repository>Deutsches Paul-Tillich-Archiv</repository>
+                  <idno>008B</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+               <additional>
+                  <!-- Wenn Brief bereits publiziert hier die richtige Struktur aussuchen -->
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel der Monographie<!--></title>
+                           <edition><!-->Auflage<!--></edition>
+                           <imprint>
+                              <publisher><!-->Herausgeber<!--></publisher>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Reihe<!--></title>
+                           <biblScope><!-->Reihennummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                     <biblStruct type="journal" n="reprint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel des Aufsatzes<!--></title>
+                           <imprint>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Zeitschrift<!--></title>
+                           <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <biblStruct type="monograph">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien überliefert sind und im Original nicht mehr vorhanden!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel der Monographie<!--></title>
+                  <edition><!-->Auflage<!--></edition>
+                  <imprint>
+                     <publisher><!-->Herausgeber<!--></publisher>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Reihe<!--></title>
+                  <biblScope><!-->Reihennummer<!--></biblScope>
+               </series>
+            </biblStruct>
+            <biblStruct type="journal">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften überliefert sind und im Original nicht mehr vorhanden<!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel des Aufsatzes<!--></title>
+                  <imprint>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Zeitschrift<!--></title>
+                  <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P00203">Lorenz Bertheau</persName>
+               <placeName ref="Tübingen">Tübingen</placeName>
+               <date when="1907-11-05">5. November 1907</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P01930">Paul Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2022-11-21">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <dateline><placeName ref="Tübingen">Tübingen</placeName>, d. <date when="1907-11-05"
+                     >5.11.07.</date>
+                  <address>
+                     <street>Neckarhalde 22.</street>
+                  </address></dateline>
+               <salute>Lieber <persName ref="P01930">Paul</persName>!</salute>
+            </opener>
+            <p>Endlich! Inzwischen haben wir den Rundbrief bekommen und weitergegeben. Also vielen
+               herzl. Dank für die Typs und Deinen l. Brf. Bei dem Chargiertentyp bin ich freilich
+               im unklaren, ob ich es schon bezahlt habe, ob Du es etwa in unverzeihlicher
+               Verschwendung allen dediciert hast, ob Du es vielleicht nur mir aus bes. Zuneigung
+               dedicierst, oder ob ich es noch bezahlen soll u. wieviel u. an wen ich dann schicken
+               soll??? Über diese Hauptprobleme bin ich, wie über so manches völlig im Unklaren u.
+               bitte um frndl. Auflösung in der nächsten Nummer. O, <placeName>Tübingen</placeName>!
+               Diese Gegend! Diese Herbstpracht in Wald u. Feldern! Diese Berge und Thäler! Alles so
+               wie früher! - ich da mitten drin so stumm. Doch ich will nicht wieder nach auswärts
+               klagen, sonst bekomme ich von <persName ref="P00641">Alfred</persName> mit einemal
+               die ent<pb n="2"/>spechende Antwort darauf! Sonderbarerweise kann er sich garnicht
+               mehr vorstellen, was für Briefe er damals nach <placeName>Halle</placeName>
+               geschrieben hat. Es wäre je auch schlimm, wenn der Mensch sich nicht allmählich
+                  <unclear>reclimatisierte</unclear>. Und das wird einem Schwaben in
+                  <placeName>Schwaben</placeName> eben leicht und einem Ausländer schwer. Seit heute
+               ist die <unclear>גלה</unclear> eigentl aufgeflogen, denn <unclear>Fritz u.
+                  Pfisterer</unclear> essen nun mit dem Activen <persName ref="P01745"
+                  >Schubert</persName> auf dem Haus. <persName ref="P01708">Schetelig</persName>,
+               mit dem ich nun noch allein im Vereinsaus die Hallenser Tradition festhalte, muß nach
+               Tisch immer 1 Stde schlafen laut ärztl Verodnung. So will ich denn mit Dir noch etw.
+               klöhnen ehe mich d <bibl type="book">Biblia Hebraica</bibl> v <persName ref="P02247"
+                  >Kittel</persName> verschlingt, (denn umgekehrt würde d Bild nicht passen).
+                  <persName ref="P01713">Schlatter</persName> ist ein feiner Kerl u. seine Dogmatik
+               ist einfach blendend. Er setzt freil. viel Philosophie voraus. Und so gingest Du
+               besser hinein, als ich. Aber man lernt auch viel<pb n="3"/> Philosophie u. bekommt
+               ordentl. Lust, sich dahinein z vertiefen. Im Seminar ist er menschlicher. Die
+               Archäologie des 4. Evangeliums ist interessant aber eigentl. ganz leicht. <persName
+                  ref="P01713">Schls</persName> wüste Lebhaftigkeit ist bewunderungswert, sie nimmt
+               einen aber einfach mit. Sein Gegenbild ist eigentl. <persName ref="P02248"
+                  >Grill</persName> mit seiner sterblichen Langenweile, doch braucht er garnicht
+               solche Folie. <persName ref="P00806">Häring</persName> genügt schon dazu. Er ist
+               nicht langweilig nur überaus vorsichtig, umständl., gründl. u. liebenswürdig. Seine
+               große Genauigkeit i. d. Exegese wird aber nicht langweilig, weil er nicht nur
+               spricht, sondern auch etw. sagt. Man bekommt allerdings eine andere Art Auslegung des
+               Röm. als b <persName ref="P01227">Schmuhl</persName> aber sie ist auch geistvoll.
+                  <persName ref="P02249">Wurster</persName> verschont uns noch mit seiner Weisheit.
+               Ebenso wartet mein homiletisches Proseminar scheints noch immer auf weitere
+               Teilnehmer; denn der <unclear>"Stifts-Kuie"</unclear> hat mir noch immer nicht die
+               feierliche Anzeige des Herrn Repetenten Kiefer gebracht. So bin ich noch nicht ganz
+               im Semester Tretrad drin. Aber es geht schon so seinen unaufhaltsamen Lauf und man
+               wird jeden Tag 2 Tage älter, um das was man dann in<pb n="4"/> den Tagen seiner
+               Activität versäumt hat, schleunigst nachzuholen. I der Verbindung bin ich eigentl.
+               erst 2x gewesen. D. Antrittskneipe war noch im Felsenkeller, dann noch auf einer
+               Inofficiellen in der Stadt. Das Haus ist ja nun fertig wie es scheint. Ich war erst
+               einmal dort. Sonnabend ist d Einweihung, d wir mitmachen müssen. D.h. wir müssen das
+               Bier der ll.BB. u. den Wein für d Damen bezahlen. Das wird wohl die Hauptausgabe
+               dieses ganzen Semesters für mich werden. Eigentl. sollte man für das Geld in den
+               Tagen eine Schweizerreise machen. D Familienabende waren typisch. Ich war bisher b
+               Fritz <!-- Welcher Fritz? Alfred oder der neben Pfisterer erwähnte? --> in
+                  <unclear>Flora</unclear>. Vorgestern konnten d Leute nicht einmal <bibl
+                  type="book">"Das Fest auf Haderslevhuus"</bibl> von <persName ref="P02250"
+                  >Storm</persName> z. Ende hören. D letzten 15 Seiten las ich denn <persName
+                  ref="P00641">Alfred</persName> auf seiner Bude vor. - Doch, was tue ich schon
+               wieder?! Ich darf ja nicht lästern! Selbstverständlich sind auch sehr nette Leute in
+               der Verbindung. Überhaupt hat es allen Anschein das sie ganz "hallensisch" wird im
+               Laufe einiger Tage. Ach, Kerl! es ist ein Jammer! Grüß den <persName ref="P01050"
+                  >Albert</persName> v. <persName ref="P02216">Gröber</persName>. Ersterer vergilt
+               Böses mit Bösem. Tu das nicht! gelt? Also schreib mal! </p>
+            <closer>
+               <signed>Dein tr. <persName ref="P00203">Lorenz</persName>.</signed>
+            </closer>
+
+            <postscript>
+               <p><!-->wenn vorhanden<!--></p>
+            </postscript>
+
+         </div>
+      </body>
+   </text>
+</TEI>

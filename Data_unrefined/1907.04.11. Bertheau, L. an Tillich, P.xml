@@ -1,0 +1,195 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Postkarte von Lorenz Bertheau an Paul Tillich <lb/>vom 11. April 1907 </title>
+            <author ref="P00203">Lorenz Bertheau</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement ref="Marburg">Marburg</settlement>
+                  <institution>Philipps-Universität Marburg</institution>
+                  <repository>Deutsches Paul-Tillich-Archiv</repository>
+                  <idno>008 B</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+               <additional>
+                  <!-- Wenn Brief bereits publiziert hier die richtige Struktur aussuchen -->
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel der Monographie<!--></title>
+                           <edition><!-->Auflage<!--></edition>
+                           <imprint>
+                              <publisher><!-->Herausgeber<!--></publisher>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Reihe<!--></title>
+                           <biblScope><!-->Reihennummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                     <biblStruct type="journal" n="reprint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel des Aufsatzes<!--></title>
+                           <imprint>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Zeitschrift<!--></title>
+                           <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <biblStruct type="monograph">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien überliefert sind und im Original nicht mehr vorhanden!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel der Monographie<!--></title>
+                  <edition><!-->Auflage<!--></edition>
+                  <imprint>
+                     <publisher><!-->Herausgeber<!--></publisher>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Reihe<!--></title>
+                  <biblScope><!-->Reihennummer<!--></biblScope>
+               </series>
+            </biblStruct>
+            <biblStruct type="journal">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften überliefert sind und im Original nicht mehr vorhanden<!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel des Aufsatzes<!--></title>
+                  <imprint>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Zeitschrift<!--></title>
+                  <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P00203">Lorenz Bertheau</persName>
+               <placeName ref="Halle">Halle</placeName>
+               <date when="1907-04-11">11. April 1907</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P01930">Paul Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2022-11-04">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="postcard">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <dateline><placeName ref="Halle">Halle a/S.</placeName>
+                  <date when="1907-04-11">11.4.07.</date></dateline>
+               <address>
+                  <street>Göbenstr. 21.</street>
+               </address>
+               <salute>Mein lieber <persName ref="P01930">Paul</persName>!</salute>
+            </opener>
+            <p>vielen Dank für Deine Karte, deren Prolese ich nicht in ihrer ganzen Tiefe capiere.
+               Aber wir werden ja sehen, wie es nächstes Sem. wird. Ich hoffe, daß es Dir wieder
+               ganz gut geht! Du hast uns einen argen Schrecken eingejagt. Nun habe ich die
+               Paukstunden auf Mo-Mi 9-10 und die Turnstunden auf Mo 6-7 Mi 6-8 u. Do 6-7 gelegt. Ob
+               es fest ist, kann erst Di 16. 4. entschieden werden. <persName ref="P02239">Hessel</persName> will von weniger zahlen
+               nichts wissen: wir seien die einzigen, die nicht 6 Tage paukten. Dabei wird auch
+               <persName>Robert</persName><!-- Mir völlig unklar, wer hier gemeint sein könnte. --> nichts machen können, doch kann ich es ja versuchen. Von 9-10 liegt <bibl type="book">Kautzsch's
+                  Genesis</bibl>, auch können wir es schwer zum Winter ändern. <persName ref="P02239">Hessel</persName> sagte, daß sich alle um
+               die Zeit von 2-3 rissen. - Doch nun leb wohl.</p>
+            <closer>
+               <salute>Auf Wiedersehen.</salute>
+               <signed>Herzl. Dein <persName ref="P00203">Lorenz</persName>.</signed>
+            </closer>
+
+            <postscript>
+               <p><!-->wenn vorhanden<!--></p>
+            </postscript>
+
+         </div>
+      </body>
+   </text>
+</TEI>

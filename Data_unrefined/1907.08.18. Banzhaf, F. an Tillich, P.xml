@@ -1,0 +1,234 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Friedrich Banzhaf an Paul Tillich <lb/>vom 18. August 1907 </title>
+            <author ref="P00131">Friedrich Banzhaf</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974.</collection>
+                  <idno>bMS 649/122(49)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+               <additional>
+                  <!-- Wenn Brief bereits publiziert hier die richtige Struktur aussuchen -->
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel der Monographie<!--></title>
+                           <edition><!-->Auflage<!--></edition>
+                           <imprint>
+                              <publisher><!-->Herausgeber<!--></publisher>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Reihe<!--></title>
+                           <biblScope><!-->Reihennummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                     <biblStruct type="journal" n="reprint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel des Aufsatzes<!--></title>
+                           <imprint>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Zeitschrift<!--></title>
+                           <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <biblStruct type="monograph">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien überliefert sind und im Original nicht mehr vorhanden!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel der Monographie<!--></title>
+                  <edition><!-->Auflage<!--></edition>
+                  <imprint>
+                     <publisher><!-->Herausgeber<!--></publisher>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Reihe<!--></title>
+                  <biblScope><!-->Reihennummer<!--></biblScope>
+               </series>
+            </biblStruct>
+            <biblStruct type="journal">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften überliefert sind und im Original nicht mehr vorhanden<!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel des Aufsatzes<!--></title>
+                  <imprint>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Zeitschrift<!--></title>
+                  <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P00131">Friedrich Banzhaf</persName>
+               <placeName ref="Korntal">Korntal</placeName>
+               <date when="1907-08-18">18. August 1907</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P01930">Paul Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2022-09-13">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <dateline><placeName ref="Korntal">Korntal b/Stuttg.</placeName> d. <date
+                     when="1907-08-18">18. Aug. 1907.</date></dateline>
+               <salute>Lieber <persName ref="01930">Tillich</persName>!</salute>
+            </opener>
+            <p>Wenn mir mein Philistertestament richtig Bescheid sagt, so hast Du am 20. d. M.
+               Geburtstag. Da möchte ich nun auch unter denjenigen nicht fehlen, die Dich zu diesem
+               Tage beglückwünschen. Ich wünsche Dir für Dein neues Lebensjahr reichen Gottessegen.
+               Vor allem hoffe ich, daß Du Dich gesundheitlich so erholst, daß Du ohne Gefahr
+                  <placeName>Berlin</placeName> mit seiner rauchigen u. stickigen Luft wieder
+               aufsuchen kannst, um dort dann aus Büchern groß und klein Deinen Weisheitsdurst zu
+               stillen; denn der muß ja nach der großen Statutenrevision groß riesengroß sein. Wenn
+               ich nur auch etwas von Deinem großen Wissensdurst besäße. Ich glaube fast wenn ich
+               nach <placeName>Berlin</placeName> käme, ich würde meinen Durst mit dem guten
+               Berliner Weißbier stillen und einer von Deinen Berliner Weißbierphilistern werden,
+                  anstatt<pb n="2"/> in den <unclear cert="high">kirchlichen</unclear> Verhandlungen
+               Deiner "Berliner Weißbierphilister" meinen engen "schwäbischen Horizont" zu
+               weiten.</p>
+            <p>So gehe ich eben im nächsten Semester nach <placeName>Tübingen</placeName>, um dort
+               nach Kräften die Aufgabe auszuführen, die dort meiner harrt. Wie bang mir ist und wie
+               schwer ich an die Sache hinblicke habe ich Dir ja schon in <placeName>Ha</placeName>
+               gesagt, als Du mir zusprachst nach <placeName>T.</placeName> zu gehen. Ich sehe etwas
+               froher in die Zukunft, seit ich vorigen Montag in <placeName>Tüb.</placeName> war und
+               mit <unclear cert="medium"><persName ref="P02194">Spatz</persName></unclear>
+               besonders aber mit <unclear cert="medium">Beck</unclear> Rücksprache nahm. Aber das
+               ist ja nicht mehr als in der Ordnung, daß mir meine Schwäche u. das Gefühl meiner
+               großen Verantwortung ins Bewußtsein kommt, wenn ich auf die stattliche Zahl meiner
+               Füxe sehe und wenn ich mir sage, ihnen sollst du etwas bieten, ihnen sollst du etwas
+               sein. Du sollst daran arbeiten daß sie zu innerlich und äußerlich selbständigen
+               Menschen werden, daß sie mit sich ins reine kommen, Rückgrat bekommen, daß sie nicht
+               vom Wind als<pb n="3"/> ein schwankend Rohr hin und hergetrieben werden. Daß sie
+               Menschen werden, die auf die Frage: Wozu sind wir da? die richtige befriedigende
+               Antwort finden, die sie dauernd befriedigt.</p>
+            <p>Wenn ich mir dieses überlege bin ich froh, daß ich <hi rend="u">ohne mein Zutun</hi>
+               Tübinger Fuxm. geworden bin. Aber ich will meiner Aufgebe getrost und mit gutem Mut
+               ins Auge sehen. Denn ich sage mir zum christlichen Charakter kann niemand den andern
+                  <hi rend="u">machen</hi>, vor allem darf sich ein Fuxmajor nicht als Schulmeister
+               gegenüber den Füxen aufspielen, die z.T. viel älter sind und vor allem darf er sich
+               nicht hoch über sie erhaben denken, sondern muß sie fühlen lassen, daß er einer ist,
+               der mit ihnen fühlt, der mit ihnen kämpft, mit ihnen hinanstrebt zu der Wahrheit, die
+               eine ist. Nicht daß wir es schon ergriffen hätten; ich möchte Dich allen Ernstes
+               fragen, ob das einer von sich sagen könnte, er habe es ergriffen, er müßte ja höher
+               als <persName ref="P01469">Paulus</persName><pb n="4"/> sein. In dieser Beziehung
+               verspreche ich mir für mich selber auch den höchsten Gewinn, wenn es mir gelingen
+               sollte, den Füxen ordentlich nahe zu kommen und mit ihnen auf diese Weise zu
+               arbieten. Für "freundliche" Ratschläge in dieser Beziehung bin ich sehr empfänglich,
+               denn ich weiß daß Du ein "freundliches" Herz auch gegen den neuen <hi rend="u">Tüb.
+                  XX</hi> hast. - An meinem <choice>
+                  <abbr>Conch.</abbr>
+                  <expan>argierten</expan>
+               </choice>
+               <persName ref="P02197">Gaiser</persName> hoffe ich einen Freund zu gewinnen, mit dem
+               ich durch Dick und Dünn gehen kann. Das ist mir eine große Beruhigung. Ich habe ihn
+               schon besucht. </p>
+            <closer>
+               <salute>Im übrigen wünsche ich Dir nochmals alles Gute für Dein neues Lebensjahr und
+                  verbleibe Dein </salute>
+               <signed>getr. <persName ref="P00131">Friedr. Banzhaf</persName></signed>
+            </closer>
+
+            <postscript>
+               <p><!-->wenn vorhanden<!--></p>
+            </postscript>
+
+         </div>
+      </body>
+   </text>
+</TEI>

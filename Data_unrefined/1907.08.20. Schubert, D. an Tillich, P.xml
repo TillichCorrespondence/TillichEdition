@@ -1,0 +1,233 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Daniel Schubert an Paul Tillich <lb/>vom 20. August 1907</title>
+            <author ref="P01745">Daniel Schubert</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974.</collection>
+                  <idno>bMS 649/183</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+               <additional>
+                  <!-- Wenn Brief bereits publiziert hier die richtige Struktur aussuchen -->
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel der Monographie<!--></title>
+                           <edition><!-->Auflage<!--></edition>
+                           <imprint>
+                              <publisher><!-->Herausgeber<!--></publisher>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Reihe<!--></title>
+                           <biblScope><!-->Reihennummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                     <biblStruct type="journal" n="reprint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel des Aufsatzes<!--></title>
+                           <imprint>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Zeitschrift<!--></title>
+                           <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <biblStruct type="monograph">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien überliefert sind und im Original nicht mehr vorhanden!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel der Monographie<!--></title>
+                  <edition><!-->Auflage<!--></edition>
+                  <imprint>
+                     <publisher><!-->Herausgeber<!--></publisher>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Reihe<!--></title>
+                  <biblScope><!-->Reihennummer<!--></biblScope>
+               </series>
+            </biblStruct>
+            <biblStruct type="journal">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften überliefert sind und im Original nicht mehr vorhanden<!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel des Aufsatzes<!--></title>
+                  <imprint>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Zeitschrift<!--></title>
+                  <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P01745">Daniel Schubert</persName>
+               <placeName ref="where">Stuttgart</placeName>
+               <date when="1907-08-20">20. August 1907</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P01930">Paul Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2023-03-31">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <dateline>
+                  <placeName ref="Stuttgart">Stuttgart</placeName>, den <date when="1907-08-20">20.
+                     August 1907</date></dateline>
+               <salute>Liebes <persName ref="P01930">Paulchen</persName>!</salute>
+            </opener>
+            <p>Ein Brief ist am wenigsten geschätzt, wenn er kommt als noch einer in der großen
+               Herde der Geburtstagsbriefe. Aber ich kanns nicht verheben, Dir gerade diesmal auch
+               ein wenig zu zeigen, daß ich mit dabei bin, Dir zu gratulieren für das was war, Dir
+               Freude zu wünschen für die Stunde, die ist, u. Gottes Geleit fürs neue Jahr.</p>
+            <p>Viel Antrieb war hier auf dem Bopser in den letzten Tagen, sonst wäre ich wohl noch
+               rechtzeitig gekommen. Wir stehen gerade in der Zeit, wo es mehr Obst gibt als sonst
+               je im Jahr, vor allem Birnen Äpfel u. Pflaumen das muß alles geerntet und auf irgend
+               eine Weise verwertet sein.<pb n="2"/> So kommts, daß ich mit Kirchen u.
+               Dogmengeschichte immer noch im 2ten Jahrhundert – bei den Apologeten – stecke.</p>
+            <p>Außerdem ist ja hier gegenwärtig der Centralbetrieb der <hi rend="sup">roten</hi>
+               Internationale. Am Sonntag war großes "<hi rend="aq">Meeting</hi>" auf dem Wasen bei
+               Kannstatt. 6 Rednerpulte, wo nacheinander die ausländischen Herrschaften in allen
+               Zungen redeten. Und alle verwunderten sich u. sprachen unter einander: Siehe wir
+               hören ein jeglicher seine Sprache, darinnen wir geboren sind, Deutsche u. Polen, u.
+               Niederländer u. die wir wohnen im russischen Reiche u. in Frankreich u. Hispanien,
+               Italien u. England Österreich u. Amerika, Australien u. an<pb n="3"/> den Enden
+               Afrika's bei Kapstadt u. Ausländer von Tokio, <hi rend="u">Juden u.
+                  Judengenossen</hi>, Krethi u. Plethi: wir hören sie mit unsern Zungen ihre großen
+               Taten reden... Und sprach einer zum andern: Was will das werden; die andern aber
+               hattens ihren Spott u. sprachen: Sie sind voll süssen Weins.</p>
+            <p>Und wenn mir die Apostelgeschichte nicht zu gut wäre da könnte ich an <bibl
+                  type="bible" resp="Apg 2,14">V.14</bibl> fortfahren: da trat auf <persName
+                  ref="P01231">Rosa</persName>, die Bittere, u. sprach etc. Sie werden sich wohl
+               etwas entsetzt haben die ausländischen Herren; denn die Schwaben blieben ihrer Art
+               treu: nur keine Aufregung.</p>
+            <p>Und so sehr <persName ref="P02302">Jaurès</persName> durch die Luft fuchtelte, so
+               laut ein Pole wütete gegen Militarismus u. Kapitalismus, alles half nichts Nur die
+               organsierte Gesellschaft erhob die Hüte zu einer kläglichen Leere, das übrige Volk,
+               wohl <formula notation="TeX">\frac{1}{3}</formula>, war nur begierig etwas<pb n="4"/>
+               neues zu hören u. verstieg sich höchstens zu dem Eindruck: Was will dieser Lotterbube
+               sagen, es siehet, als wolle er neue Götter verkündigen. Interessant waren mir die
+               Gesichtstypen: <persName ref="P02205">Singer</persName> à la Kommerzialrat, eklig,
+                  <persName ref="P02204">Bebel</persName> sympathisch, <persName ref="P02302"
+                  >Jaurès</persName> wie ein unmäßig gestikulierender Pastor. <persName ref="P01231"
+                  >Rosa Luxemburg</persName>, eine widerliche kleine Judenfigur; ich glaube wenn sie
+               alt genug ist, kann sie als Typus dienen für die edle Mirijam (du kennst doch
+               Hypathia). Gegenwärtig beraten die Männlein jetzt, wobei die etwa 5 anwesenden
+               Weibchen ebensoviel reden, als alle paar hundert Männer zusammen. <del rend="s">Das
+                  kann</del> Wie soll das werden im Frauenparlament?!</p>
+            <p>Doch ich habe mich zu lange damit aufgehalten. Gestern habe ich <persName
+                  ref="P02142">Heller</persName> 10 Minuten am Bahnhof gesehen. Meine Mutter ist
+               noch immer krank. Es war sehr schlimm, Herzerweitung u. Schwäche – doch geht's
+               langsam besser. Mit <persName ref="P00641">Alfred</persName> komme ich manchmal
+               zusammen. Von <persName ref="P=01050">Albert</persName> habe ich noch keine
+               Nachricht. Unser Abschied war sehr plötzlich; ich wurde wegen meiner Mutter plötzlich
+               heimgerufen. Wir haben uns, als er wegfuhr dann noch 1 Stunde lang auf d. Stuttgarter
+               Bahnhof gesehen. Wenn du Vater <persName ref="P01593">Rhein</persName> siehst, so sag
+               ihm ich warte immer noch auf Brief u. Typ. </p>
+            <closer>
+               <salute>Herzlich grüßt Dich Dein getr. Clds. <persName ref="P01745">Daniel
+                     Schubert</persName>.</salute>
+            </closer>
+         </div>
+         <div>
+            <p>Inzwischen herzlichen Glückwunsch u Gruß Bald mehr</p>
+            <closer><signed><persName ref="P00641">Alfred</persName></signed></closer>
+         </div>
+
+      </body>
+   </text>
+</TEI>

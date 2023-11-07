@@ -1,0 +1,237 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Hans Balke an Paul Tillich <lb/>vom 23. Oktober 1907 </title>
+            <author ref="P00128">Hans Balke</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974.</collection>
+                  <idno>bMS 649/122(40)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+               <additional>
+                  <!-- Wenn Brief bereits publiziert hier die richtige Struktur aussuchen -->
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel der Monographie<!--></title>
+                           <edition><!-->Auflage<!--></edition>
+                           <imprint>
+                              <publisher><!-->Herausgeber<!--></publisher>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Reihe<!--></title>
+                           <biblScope><!-->Reihennummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                     <biblStruct type="journal" n="reprint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel des Aufsatzes<!--></title>
+                           <imprint>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Zeitschrift<!--></title>
+                           <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <biblStruct type="monograph">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien überliefert sind und im Original nicht mehr vorhanden!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel der Monographie<!--></title>
+                  <edition><!-->Auflage<!--></edition>
+                  <imprint>
+                     <publisher><!-->Herausgeber<!--></publisher>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Reihe<!--></title>
+                  <biblScope><!-->Reihennummer<!--></biblScope>
+               </series>
+            </biblStruct>
+            <biblStruct type="journal">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften überliefert sind und im Original nicht mehr vorhanden<!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel des Aufsatzes<!--></title>
+                  <imprint>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Zeitschrift<!--></title>
+                  <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P00128">Hans Balke</persName>
+               <placeName ref="Halle">Halle</placeName>
+               <date when="1907-10-23">23. Oktober 1907</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P01930">Paul Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2022-09-30">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <dateline><placeName ref="Halle">Halle</placeName>, den <date when="1907-10-23">23.
+                     Okt. 07.</date></dateline>
+               <salute>Lieber <persName ref="P01930">Paul</persName>,</salute>
+            </opener>
+            <p>Verzeih zunächst den Bogen, ich liess mein Briefpapier zuhause. Hab Dank für Deine
+               Aktivmeldung u. Deinen Brief an den Konvent. Die ersten Tage sind nun glücklich
+               vorüber u. der erste Berg erstiegen. Meine Pauken waren beide nicht gut, mir fehlt
+               Logik u. auch die Wärme des Worts. Hoffentlich wird's noch. Bisher sind 7 Krasse
+               aktiv, 3 folgen hoffentlich noch für <placeName>Halle</placeName> wieder eine ganz
+               erfreuliche Zahl, zum Teil sehr nette Leute, <unclear><persName ref="P02211">Herr
+                     Auel</persName></unclear> med aus <placeName>Hersfeld</placeName>, - Du hörtest
+               gewiss von <persName ref="P01697">Herrmann</persName> schon von ihm – wird
+               Kneipengast u. kommt nach <unclear>ZA</unclear>, sonst einige biedere Westfalen,
+               vermutliche Gaulianer scheinen mir bisher nicht drunter zu sein. <persName
+                  ref="P02212">Kremer</persName> arbeitet tadellos, wir verstehen uns sehr gut, ich
+               bin ziemlich guter Hoffnung. – Die erste Unruhe bringt die Erlanger Sache, morgen ist
+               der erste Konvent, vor dem mir etwas graut. Einer der 7, <persName ref="P01205"
+                  >Lotz</persName>, ist seit Montag bei uns u. will gern aktiv werden. Fragen wir
+               Erlangen vorher an, so wird es ziemlich sicher "nein" sagen, dann wäre die Lage sehr
+               zugespitzt. Erl. will vielleicht nachträglich Exklusion erklären, obwohl das formell
+               nicht möglich ist oder sonst Krach schlagen. Leipzig ist schlapp und will einen
+               Philisterbescheid abwarten, der aber wahrscheinlich noch Monate ausbleibt. Ich will
+               trotz <unclear>Sepps</unclear><pb n="2"/>
+               <persName ref="P01205">"Herrn" Lotz</persName> ohne Weiteres aufnehmen u. Erlangen in
+               liebenswürdiger Form davon Mitteilung machen. Hoffentlich verbrenne ich mir nicht die
+               Finger, aber ich meine, nur das moralische Recht kann hier entscheiden. Müssen wir
+               uns, wenn die Sache vor den Bund kommt, seinem Bescheide fügen? Seit der Wartburg hat
+               es sich m. E. das Recht genommen, hier Entscheidungen zu treffen. Ich sende Dir eine
+               Aufklärung von <persName ref="P01206">Prof.
+               Lotz</persName><!-- Vermutlich ist hier Lotz_e_  gemeint --> mit, da sie Dich
+               interessieren wird. Bei Bedarf kannst Du sie dann in <placeName>Berlin</placeName>
+               gebrauchen. Schicke bitte <hi rend="u">umgehend</hi> Protokollbuch u. Bundesbriefe
+               eingeschrieben hierher. Noch eine Bemerkung wegen der Philistrierung: es scheint mir
+               praktisch unausführbar zu sein, den dauernden Besitz des Hall. Bandes von einem
+               Gesuch nach der Philisitrierung abhängig zu machen. Das wird in x Fällen einfach
+               vergessen, die Verbindung kann nicht jeden <add><hi rend="sub">nach</hi></add>
+               <del rend="s">bei</del> seinem Examen daran erinnern u. einen Philister deswegen zu
+               streichen ist unmöglich. Deshalb glaube ich, müssen wir die Forderung eines
+               besonderen Philistrationsgesuches fallen lassen. Die nötige Kontrolle<pb n="3"/>
+               erhalten wir dadurch, dass wir bei Banderteilung immer für 1 Semester inaktivieren,
+               bis mit dem 6. oder 7. Semester das Band dauernd erworben ist. Was meinst Du zu
+               dieser Änderung; ich warte mit ihr, bis ich Deine Meinung gehört habe. Hoffentlich
+               stellst Du <persName ref="P01050">Alb. Kilger</persName> nicht zum x auf; wenn man
+               den Nachteil (Geld!! Gesundheit!! Studium) mit dem so unsicheren Erfolg vergleicht,
+               scheint mir der Versuch besser nicht gemacht zu werden. Hoffentlich hältst Du Arbeit
+               u. Verbindungsleben aus! Früh zu Bett!!! Ich hätte grosse Lust schon vor Weihnachten
+               mal herüberzukommen, doch geht's nicht. Kommst Du zur Weihnachtskneipe??
+                     <unclear><persName ref="P02213">Stelz</persName></unclear> kommt wieder mit dem
+               Antrag der Banderteilung an <persName ref="P02214">Wittekindt</persName> fällt aber
+               sicher ab. <persName ref="P02198">Buss</persName> wird aktiv, um gegen Erl. eventuell
+               mitvorgehen zu können. Mit Fritsch<!-- Kann hier Alfred Fritz gemeint sein? --> habe
+               ich mich persönlich gutgestellt. Er bleibt inaktiv. Deine
+               Frau<!-- Damit wird der Mitbewohner Tillichs gemeint sein. Wer ist das? --> lässt
+               grüssen. Sende gelegentlich Frau <persName ref="P02215">Wendelmuth</persName> einen
+               Gruss, sie war traurig, bei einer Sendung keinen erhalten zu haben. </p>
+            <closer>
+               <salute>Herzl. Grüsse an Deine lb. Angehörigen u. an <persName ref="P01050"
+                     >Albert</persName>; wo steckt der Rundbrief</salute>
+               <signed>In rasender Eile u. Liebe Dein dankbarer <persName ref="P00128"
+                     >Hans</persName>. X.</signed>
+            </closer>
+
+            <postscript>
+               <p><!-->wenn vorhanden<!--></p>
+            </postscript>
+
+         </div>
+      </body>
+   </text>
+</TEI>

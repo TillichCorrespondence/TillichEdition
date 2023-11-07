@@ -1,0 +1,177 @@
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von <persName ref="P01930">Paul Tillich</persName> an <persName
+                  ref="P00641">Alfred Fritz</persName>
+               <lb/>22.09.1907</title>
+            <author><persName ref="P01930">Paul Tillich</persName></author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Andreas Burri</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement ref="Marburg">Marburg</settlement>
+                  <institution>Philipps-Universität Marburg</institution>
+                  <repository>Deutsches Paul-Tillich-Archiv</repository>
+                  <collection>Briefe an die Familie <!-- unsicher -->
+                  </collection>
+                  <idno>008 [C] Box 143(11) <!-- Marburg Ordner 1907 P1010202.JPG bis P1010204.JPG --></idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Brief, eigenhändig</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P01930">Paul Tillich</persName>
+               <placeName ref="Berlin">Berlin</placeName>
+               <date when="1907-09-22"> </date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P00641">Alfred Fritz </persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="AB" when="2023-01-24">Intitale Auszeichnung des Transkripts</change>
+         <change who="AB" when="2023-02-07">Überprüfung und Ergänzung der Auszeichnungen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <salute>Mein lieber <persName ref="P00641">Alfred</persName>!</salute>
+            </opener>
+            <p>Da in meinem „Vergiß mein nicht“ Du unter dem 24ten September verzeichnet stehst, wir
+               aber morgen nach <placeName ref="Międzyzdroje">Misdroy</placeName> fahren – staune
+               nur – will ich schon heute meinen Geburtstagsglückwunsch Dir aussprechen. Welchen
+               Inhalt <unclear reason="damage" cert="high" resp="AB">die</unclear>se Form bei einem
+               Examensarbeiter haben muß, ist ja klar im allgemeinen, aber im speziellen liegt die
+               Sache schwieriger, da – wenigstens nach Deiner Behauptung – von der Art des
+               Durchkommens Dein Sein oder Nicht-Sein in Europa abhängt. Da wünscht denn mein
+                  <foreign xml:lang="grc">ἄνθρωπος πνευματικός</foreign> (<persName ref="P02273"
+                  >valentinianische</persName> Gnosis), daß Du vermittelst einer 1-2 zu den Negern
+               befördert wirst, und mein <foreign xml:lang="grc">ἄνθρωπος ψυχικός</foreign>, daß
+               Dich eine 3<hi rend="sup">b</hi> in „das Pfarrhaus im <placeName ref="Schwarzwald">Schwarzwald</placeName>“ als „<foreign
+                  xml:lang="grc">ἄρχων τοῦ τόπου μεσότητος</foreign>“ für alle <placeName
+                  ref="Berlin">Berliner</placeName> und sοnstige Milchgesichter in weißen Kouleuren
+               bringt. Da ich augenblicklich heimlicher Anhänger von <persName ref="P02273"
+                  >Valentinus</persName> bin, so muß ich mich
+               wohl für das erste entscheiden. Also in diesem Sinne viel Segen! – Was die Reise nach
+                  <placeName ref="Międzyzdroje">Misdroy</placeName> betrifft, so<pb n="2"/> will ich
+               Dich gleich beruhigen; es ist die Verlegung unseres ganzen Haushalts mit
+               Mädchen<!--identifizierbar?--> u. allem auf 14 Tage an die Ostsee, die mein <persName
+                  ref="P01926">Vater</persName> noch braucht und die uns so noch am billigsten kommt
+               kommt<!--sic (2x "kommt")-->. Ich werde mich natürlich mehr mit <unclear
+                  reason="illegible" cert="high" resp="AB">kl.</unclear>
+               <persName ref="P01201">Loofs</persName> und <persName ref="P02274"
+                  >Steuernagel</persName> wappnen, als mit Spaten, wie im Sommer. – Herzlichen Dank
+               für Deinen Brief; es geht mir mit der Arbeit genau so wie Dir. Bis jetzt habe ich
+                  <persName ref="P00049">Amos</persName> übersetzt (<unclear reason="damage"
+                  >¿¿¿</unclear>0!! Vokabeln aufgeschlagen, alphabetisch geordnet, und im Begriff
+               sie auswendig zu lernen); es ist doch etwas feines und Deine Freude am Hebräischen
+               immer weniger <foreign xml:lang="lat">horribile dictu</foreign>. Dazu kommt, daß ich
+               mit wachsender Begeisterung <persName ref="P02036">Wellhausens</persName> Prolegomena
+               gelesen und gestern vollendet habe; ich habe selten einen Roman mit
+               soviel,<!--sic (Komma)--> Spannung und Interesse gelesen, ordentlich zitternd vor
+               jedem Gegen<add place="superlinear">beweis</add> und jubelnd bei jeder Absägung durch
+                  <persName ref="P02036">Wellhausen</persName>. Du wirst über diese fuxenhafte erste
+               Liebe lächeln, aber ich bin im A-T ja weniger als ein Fux und <persName ref="P02036"
+                  >Wellhausen</persName> der Geist, der mir die Finsternis etwas zu durchstrahlen
+               scheint. Wie gern würde ich mit Dir da<pb n="3"/>über <unclear reason="illegible"
+                  cert="high" resp="AB">tönen</unclear> und Dein „wissenschaftlich gereiftes (!) (?)
+               Urteil“ vernehmen! Dann kommt <unclear reason="illegible" cert="high" resp="AB"
+                     ><persName ref="P00937">Hosea</persName></unclear> dran und vielleicht die
+               übrigen „Kleinen.“ – Kirchengeschichte bin ich jetzt, wie Du ja gesehen hast, mitten
+               in der Gnosis. Das meiste ist Unfug; aber für <persName ref="P02273"
+                  >Valentinus</persName> begeistere ich mich jetzt noch ebenso, wie in meinem ersten
+               Semester, als ich zum ersten Mal davon las! – Neues Testament arbeite ich Einleitung
+                  <unclear reason="damage" cert="high" resp="AB">und</unclear> bin mit <bibl
+                  type="bible" resp="Thess">Thessalonicher-</bibl> und <bibl type="bible" resp="Gal"
+                  >Galater</bibl> fertig, was deshalb etwas besagen will, weil ich <persName
+                  ref="P02221">Jülicher</persName>, <persName ref="P02275">B. Weiß</persName> und
+                  <persName ref="P02184">Zahn</persName> gemeinsam durcharbeite, was natürlich viel
+               Zeit in Anspruch nimmt. – Überhaupt ist das Problem, das richtige Verhältnis zwischen
+               Gründlichkeit und Behältlichkeit herauszubekommen. Ersteres ist natürlich ungleich
+               sympatischer<!--(sic!)-->, aber fürs Examen unpraktisch. Dir gehts ja ebenso! –
+               Mittwoch bis Freitag war mein Lbfx hier, der von <placeName ref="Hinterpommern"
+                     >Hinterpom<unclear reason="damage" cert="high" resp="AB"
+                  >mern</unclear></placeName> zurückkam; wir waren noch sehr nett 2 Tage zusammen;
+               vielleicht fahre ich noch auf ein paar Tage zu <persName ref="P02194"
+                  >Spatz</persName> – Der Rundbrief hat einen verheißungsvollen Anfang genommen.
+               Hoffentlich bist Du mit den Statuten einverstanden. Jedenfalls kann die Ordnung
+               bleiben. Die Predigt hatte ich meiner<pb n="4"/> Schwester
+               <!--unklar: Schwester Johanna: P00644; Elisabeth P01764?--> gegeben und vergessen,
+               mitzuschicken! – das „<foreign xml:lang="lat">donum superadditum
+               </foreign><!--sic (Anführungszeichen nicht geschlossen)--> ist also das
+               „Menschentyp“; ich bin neugierig, ob dies gefällt; es ist glänzend getroffen, aber
+               etwas blaß. – Ich hoffte, Hermann<!--unklar: Hermann: P01697--> würde noch nach
+                  <placeName ref="Międzyzdroje">Misdroy</placeName> mitkommen; er hatte seine Lust
+               ausgesprochen und es würde ihm sehr gut tun. – Dienstag macht <persName ref="P00310"
+                  >Fr. Büchsel</persName> sein II<hi rend="sup">tes</hi> Examen! – Soll ich noch
+               aktiv werden? Augenblicklich schwankt die
+               Wage<!--Waage mit einem „a“ zu schreiben, war zu dieser Zeit nicht falsch. (Anm. Paul Schömann)-->
+                  se<unclear reason="damage" cert="high" resp="AB">hr</unclear> nach „ja“. Besonders
+               mein <persName ref="P01926">Vater</persName> wünschts. – Albert
+               <!--unklar: Kilger: P01050--> muß es noch; ich habe die <hi rend="u">heimliche</hi>!!
+               (nichts sagen!) Hoffnung, ihn zum x zu machen; nach 3 Wochen wird ein neuer gewählt!
+               Es wäre für ihn und <placeName ref="Berlin">Berlin</placeName> famos! Nicht wahr? –
+               Schreibe an meine <placeName ref="Berlin">Berliner</placeName> Adresse! Es wird alles
+               sofort nachgeschickt! – Und zwar bald!!! </p>
+            <closer>
+               <salute>Herzlichen Geburtstagsgruß sendet Dein</salute>
+               <signed>treuer <persName ref="P01930">Paul</persName>. </signed>
+            </closer>
+
+
+         </div>
+      </body>
+   </text>
+</TEI>

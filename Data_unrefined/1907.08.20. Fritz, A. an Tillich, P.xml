@@ -1,0 +1,234 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Alfred Fritz an Paul Tillich <lb/>vom 20. August 1907 </title>
+            <author ref="P00641">Alfred Fritz</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974.</collection>
+                  <idno>bMS 649/143(11)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+               <additional>
+                  <!-- Wenn Brief bereits publiziert hier die richtige Struktur aussuchen -->
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel der Monographie<!--></title>
+                           <edition><!-->Auflage<!--></edition>
+                           <imprint>
+                              <publisher><!-->Herausgeber<!--></publisher>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Reihe<!--></title>
+                           <biblScope><!-->Reihennummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                     <biblStruct type="journal" n="reprint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel des Aufsatzes<!--></title>
+                           <imprint>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Zeitschrift<!--></title>
+                           <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <biblStruct type="monograph">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien überliefert sind und im Original nicht mehr vorhanden!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel der Monographie<!--></title>
+                  <edition><!-->Auflage<!--></edition>
+                  <imprint>
+                     <publisher><!-->Herausgeber<!--></publisher>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Reihe<!--></title>
+                  <biblScope><!-->Reihennummer<!--></biblScope>
+               </series>
+            </biblStruct>
+            <biblStruct type="journal">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften überliefert sind und im Original nicht mehr vorhanden<!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel des Aufsatzes<!--></title>
+                  <imprint>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Zeitschrift<!--></title>
+                  <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P00641">Alfred Fritz</persName>
+               <placeName ref="Stuttgart">Stuttgart</placeName>
+               <date when="1907-08-20">20. August 1907</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P01930">Paul Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2022-09-23">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <dateline><placeName ref="Stuttgart">Stuttgart</placeName>
+                  <date when="1907-08-20">20. VIII. 07.</date></dateline>
+               <salute>Mein liebes <persName ref="P01930">Paulchen</persName>!</salute>
+            </opener>
+            <p>Eigentlich hatte ich mich hoch verschworen, Dir nicht mehr zu schreiben, bis ich
+               erfahren habe, ob Du noch lebst oder ob Dich die Wallfische gefressen haben
+               <!-- Das bezieht sich auf irgendeinen Scherz weil Tillich sich zurzeit an der OStsee aufhält -->,
+               aber nun ist heute Dein Geburtstag, da muß ich wohl oder übel mich einstellen. Meine
+               herzlichen Glückwünsche sende ich Dir. Ja was soll ich Dir wünschen, Du hasts ja so
+               gut, daß man Dir nichts zu wünschen weiß, als daß dies ferner so geht. Aber nun fällt
+               mir ein: "Ruhe" will ich wünschen, Ruhe in jeder Beziehung, äußerlich mehr Einsamkeit
+               u. daraus folgt ja auch innerliche Ruhe. Ich bin froh an dem stillen Sem. das hinter
+               mir liegt u. Du gehst ja wohl einem solchen entgegen. Daß <persName ref="P01050"
+                  >Albert</persName> nach <placeName ref="Berlin">Be</placeName> kommt<pb n="2"/>
+               ist richtig fein für Dich. Vielleicht kommen sonst noch ein paar nette Leute; so daß
+               Du genügend Verkehr hast. Im übrigen sorge jetzt etwas mehr für Deine Gesundheit. Du
+               muß dran denken, daß vor Dir noch ein hoffentlich langes Leben liegt, in dem Du auch
+               was leisten sollst. Dazu ist zuerst Gesundheit nötig. Doch ich will nicht "moralisch"
+               werden, sondern befehle Dir, obwohl Du jetzt wohl mündig bist, jeden Tag Deines neuen
+               Lebensjahrs zeitig ins Bett zu gehen. – Sonst wünsche ich Dir recht viel Freude an
+               der Theologie, auch wenns nun mehr nach dem Spruch "was werden wir sagen, was werden
+               wir schreiben" geht. Es ist mir bisher noch nie langweilig geworden, selbst hebräisch
+                  <hi rend="aq">horribile dictu</hi> ist mir lieb geworden. Doch ist eben schade,
+               daß man nicht recht verweilen u. sich vertiefen kann in den Stoff, sondern weiter
+               eilen muß. Aber, Kerl,<pb n="3"/> sie ist fein die heilige Theologie. Besonders da
+               sie heute nicht "Mode" ist, ist sie mir lieb. Doch ein Plätzchen, wo man von den
+               Massen verschont bleibt. Bei uns ist die Theologieflucht jetzt auch groß. Außer den
+               Stiftlern, die alle gern Philologen werden möchten, sind es nur 9 Stadtstudierende.
+               Es ist ja einesteils erschreckend; aber auch gut. Das Material ist nun sicher ein
+               besseres. Ich weiß nicht, ob Du immer noch Theologie neben der lieben Philosophie als
+               Stiefkind behandelst, ich hoffe es nicht. Man hat es jedenfalls in der Th. mehr mit
+               Realitäten zu tun als in der Philosophie.</p>
+            <p>Ich bin zur Zt sehr stolz Euch Berlinern gegenüber. In
+                  <placeName>Stuttgart</placeName> tagt der internationale Sozialistenkongreß. In
+               das feine Schwabenländle, so etwas sollte in Preußen passieren. Interessant ist es
+               jedenfalls. Bei der Eröffnung des Kongresses sprachen<pb n="4"/>
+               <persName ref="P02204">Bebel</persName>, <persName ref="P01231">Rosa die
+                  rote</persName>, <persName ref="P02205">Singer</persName>, <persName ref="P02206"
+                  >Van der Velde</persName>. Als Eingangslied wurde das geschmackvolle Lied: "Eine
+               feste Burg ist unser Bund" nach der Mel. des Lutherliedes gesungen. Es war sehr
+               erhebend. Leider fielen mir immer die Worte der Lutherlieder ein u. die paßten nicht
+               hieher oder sie paßten hieher:</p>
+            <p>"U. wenn die Welt voll Teufel wär".</p>
+            <p><persName ref="P02204">Bebel</persName> ist eine sympathische Gestalt, <persName
+                  ref="P02205">Singer</persName> ein widerlicher Geselle, <persName ref="P01231"
+                  >Rosa</persName> häßlich, aber gescheit. Neue Gedanken werden keine gebracht, aber
+               ich bewundere die Ausdauer u. Arbeitskraft der Führer. <persName ref="P02207">Klara
+                  Zetkin</persName> übersetzt fortwährend in Französisch u. Englisch, fließend u.
+               klar.</p>
+            <p>Sonst treibe ich nicht viel. Anfang letzter Woche kam ich hieher u. führte auch hier
+               ein Junggesellenleben; Gestern kam nun meine Mutter wieder vom Schwarzwald. Aber die
+               Wohnung ist recht öde. <persName ref="P01745">Daniel</persName> seh ich hie u. da.
+               Seiner Mutter, die schwer krank war, geht’s jetzt besser. </p>
+            <closer>
+               <salute>Also nochmal viele Glückwünsche. <persName ref="P00644">Frl.
+                     Schwester</persName> bitte ich zu grüßen.</salute>
+               <signed>Dein <persName ref="P00641">Alfred</persName>.</signed>
+            </closer>
+
+            <postscript>
+               <p><!-->wenn vorhanden<!--></p>
+            </postscript>
+
+         </div>
+      </body>
+   </text>
+</TEI>

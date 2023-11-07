@@ -1,0 +1,130 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Friedrich Büchsel an Paul Tillich <lb/>vom 15.05.1907 </title>
+            <author ref="Friedrich Büchsel">Friedrich Büchsel</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers 1894-1974.</collection>
+                  <idno>bMS 649/127</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="Friedrich Büchsel">Friedrich Büchsel</persName>
+               <placeName ref="Halle">Halle</placeName>
+               <date when="1907-05-15">15.05.1907</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="Paul Tillich">Paul Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2022-05-09">Intitale Auszeichnung des Transkripts</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <salute>Lieber <persName ref="Paul Tillich">Tillich</persName>,</salute>
+            </opener>
+            <p>Besten Dank für Deinen Brief.</p>
+            <p>Leider war es mir nicht möglich weder auf der Hinfahrt noch auf der Rückfahrt in
+                  <placeName ref="Berlin">Berlin</placeName> Dich zu sehen, wie Du ganz richtig
+               vermutest; das erste Mal war ich kaum in <placeName ref="Berlin">Berlin</placeName>
+               und das zweite Mal mußte ich jemand anders sprechen.</p>
+            <p>Daß du nicht wohl gewesen bist habe ich zu meinem Bedauern schon gehört. Hoffentlich
+               kehrst Du ganz wiederhergestellt hierher zurück u. bist für das Semester durch nichts
+                  behindert.<pb n="2"/> Nun zur Sache. Ich bin natürlich sehr gerührt durch das
+               Vertrauen das Du mir schenkst u. bin sehr gern bereit soweit es meine Kräfte
+               gestatten u. Du mich brauchst Dir bei zu stehen. Ich denke Du wirst mich nicht nötig
+               haben. Du hast ja an <persName ref="Hans Balke">Balke</persName> einen vorzüglichen
+               Conchargierten, u. schwere Fälle werden abgesehen von der Wartbung ja nicht kommen.
+               Diese ist auch halb so schlimm.</p>
+            <p>Wegen des Erbauungskränzchens möchte ich Dich bitten mich zu dispensieren. Nicht als
+               ob ich es nicht sehr gerne thäte; im Gegenteil, es wäre mir an sich eine Freude den
+               lieben Brüdern zu sagen, was ich für sie auf dem<pb n="3"/> Herzen habe. Aber bedenk:
+               der <unclear cert="high">Drache</unclear> muß Ende dieses Monats fertig sein. Daran
+               hängt meine Zukunft bis zum 1. Oktober u. weiter. Da möchte ich <del rend="s"
+                  >mir</del> nichts auf mich nehmen, was meine ohnehin schwachen Kräfte ihm
+               entzögen. Wenn Du meinst ein andrer Philister stünde der Verbindung nicht so nahe, so
+               magst Du ja recht haben. Aber dafür weiß er ihr auch besseres zu bieten als ich. Die
+               Gedanken die Euch nahe liegen sagt Ihr Euch doch selber oder Du sagst sie ihnen. U.
+               meine Gedanken sind doch eben die die Euch nahe liegen <space dim="horizontal"/> Die
+               sachliche Begründung wie die persönliche meiner Bitte wirst Du hoffentlich
+                  würdigen.<pb n="4"/> Im übrigen auf frohes Wiedersehen.</p>
+
+
+            <closer>
+               <salute>Mit herzlichem Gruß</salute>
+               <signed>Dein getreuer <persName ref="Friedrich Büchsel">Friedrich
+                  Büchsel</persName></signed>
+            </closer>
+
+            <postscript>
+               <p>Halle d. 15.V.07.</p>
+            </postscript>
+
+         </div>
+      </body>
+   </text>
+</TEI>

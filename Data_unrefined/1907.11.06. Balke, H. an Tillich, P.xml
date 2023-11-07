@@ -1,0 +1,144 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Hans Balke an Paul Tillich <lb/>vom 6. November 1907 </title>
+            <author ref="P00128">Hans Balke</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974.</collection>
+                  <idno>bMS 649/122(40)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P00128">Hans Balke</persName>
+               <placeName ref="Halle">Halle</placeName>
+               <date when="1907-11-06">6. November 1907</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P01930">Paul Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2022-08-17">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <dateline><placeName ref="Halle">Halle</placeName>, den <date when="1907-11-06">6.
+                     Nov. 07.</date></dateline>
+               <salute>Lieber <persName ref="P01930">Paul</persName>,</salute>
+            </opener>
+            <p>Herzlichen Dank für <bibl type="letter">Deine beiden Briefe</bibl>. Nur nicht zu
+               pessimistisch!</p>
+            <p>Wir haben vor, von uns aus nicht an den Bund zu gehen; wir lassen uns angreifen u.
+               verteidigen uns dann. Dann ist Dein vorgeschlagener Schiedsgerichtsantrag mit der
+               Frage: sachliches Urteil oder nicht? von Halle oder Berlin aus noch immer möglich.
+               Tübingen wird schon Schwierigkeiten genug haben, in welcher Form es die Sache vor den
+               Bund bringen soll? Die Motivierung für unsern event. Ausschluss aus dem Bunde dürfte
+               schwer fallen! Wir vergingen uns dann gegen den "Bundesgedanken". Würde das genügen?
+               Wir wollen den ersten Weg, den Du rätst auf keinen Fall gehen u.<pb n="2"/> wegen
+               dieser Sache nicht aus dem Bunde ausscheiden, dann eher <persName ref="P01205"
+                  >Lotz</persName> fallen lassen u. uns fügen. Dass wir Versteck spielen, bestreite
+               ich. Wir fällen kein "sachl. Urteil" über die inneren Erl. Angelegenheiten des
+               vorigen Semesters, sondern nur über Erlangens Ansinnen, ohne weiteres seine Partei zu
+               ergreifen. Verstehst Du den Unterschied? Aber wenn Du selbst andrer Meinung bist,
+               wird ja der Bund erstrecht nicht für uns sein u. dann würde dieser mein erster
+               Ausritt mit einem bedauerlichen Sturze endigen! Warum hat man mich zum x gemacht? Ich
+               habe ja immer gesagt, dass ich es nicht könnte.</p>
+            <p>Gestern ist <persName ref="P02156">H. Geheimrat Goebel</persName> gestorben; wir
+               haben 8 Tage Volltrauer; ich habe keine Ahnung, was ich am Grabe zu sagen habe?
+               Überhaupt ist mir die formelle Seite einiger<pb n="3"/>massen schleierhaft. Den Sohn
+               gedenke ich morgen mal zu besuchen. Er hinterlässt noch mehrere kleinere Kinder.
+               Übrigens schreibt mir soeben
+               <persName>Winkler</persName><!-- Wer ist hier gemeint? -->, der Bund könne uns auf
+               keinen Fall was tun wegen <persName ref="P01205">Lotz</persName>. Wenn wir es aber
+               wünschen, tritt er sofort zurück. Heute hat sich der B. Fux aktiv gemeldet. Ich
+               zeugte noch einen Lbfx, <persName ref="P02157">Hancke</persName>, einen netten
+               Rheinländer, aus meiner Nähe u. wimmelte schon 2 andre ab. Ich nehme also bestimmt
+               keinen mehr. <persName ref="P00877">Amos</persName> zeugte einen gesunden
+               naturwüchsigen Westfalen; <persName ref="P02158">Stosch</persName>
+               <persName ref="P01697">Herrmann</persName><!--Ich ging davon aus, dass Hermann Schafft gemeint ist. So auch unten. PS. -->
+               <persName ref="P00203">Bertheau</persName>; sonst ist noch nichts bekannt. Danke
+               bitte <persName ref="P02095">H. Witte</persName> recht herzlich für seinen langen
+               Brief u. seine treue Mitarbeit, für letztere auch Deinem lieben <persName
+                  ref="P01928">Vater</persName>. <persName ref="P01697">Herrmann</persName> war
+               nachträglich mit<pb n="4"/> unserem Vorgehen einverstanden. Lorenz stöhnt etwas über
+               Tübingen. Wir sind nun 68 Aktive, mich befällt ein kleines Grauen über die Last, die
+               mir aufgebürdet ist.</p>
+            <closer>
+               <salute>In Treuen Dein dankbarer</salute>
+               <signed><hi rend="u"><persName ref="P00128">Hans</persName></hi>.</signed>
+            </closer>
+
+            <postscript>
+               <p><!-->wenn vorhanden<!--></p>
+            </postscript>
+
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,157 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Johanna Tillich an Paul Tillich <lb/>vom 06.1907 </title>
+            <author ref="Johanna Tillich">Johanna Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers 1894-1974.</collection>
+                  <idno>bMS 649/193</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="Johanna Tillich">Johanna Tillich</persName>
+               <placeName ref="Hersfeld">Hersfeld</placeName>
+               <date when="1907-06">06.1907</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="Paul Tillich">Paul Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2022-05-09">Intitale Auszeichnung des Transkripts</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="JohannaTillich">
+            <pb n="1"/>
+            <opener>
+               <dateline><placeName ref="Hersfeld">Hersfeld</placeName>, im <date when="1907-06"
+                     >Juni 07.</date></dateline>
+               <salute>Mein lieber <persName ref="Paul Tillich">Junge</persName>,</salute>
+            </opener>
+            <p> herzlichen Dank für Deine leider allzu kurze Karte. Durch Deinen <persName
+                  ref="Heinrich Meinhof">Leibfux</persName> haben wir ja zum Glück mehr von Dir
+               erfahren, auch Deine Rezeptionspauke las ich. Ich bedaure Dich herzlich um aller
+               deiner Reden willen. Doch - wenn es Dich nicht allzu sehr anstrengt und Du sonst
+               einigermaßen vernünftig mit Deiner Gesundheit umgehst (was ich nicht glaube) - dann
+               werden sie Dir gewiß mehr Sicherheit geben. Also tu mir doch nur den einzigen
+               Gefallen und gehe früh ins Bett! Es ist einfach Deine Pflicht, es zu tun!!!!! Ja?</p>
+            <p>Mir geht es immer besser, und ich weiß noch nicht, wie ich mich einmal von hier
+               losreißen soll und Abschied nehmen, so heimatlich ist mir alles hier. <note
+                  place="left">Nimm Dich beim Rudern auf der Saale in acht!!!!!</note><pb n="2"/>
+               Ich habe gestern heimgeschrieben und gefragt, ob ich bis zum 12. Juli bleiben könne,
+               dann will ich bei Dir in <placeName ref="Halle">Halle</placeName> eine Nacht bleiben
+               u. am nächsten Tag durch nach <placeName ref="Misdroy"><hi rend="aq"
+                  >Misdroy</hi></placeName>. Dann hast Du auch Dein Stiftungsfest hinter Dir u. hast
+               Zeit für mich! - Seit gestern ist es hier so heiß, das freut mich allerdings nur für
+               Dich, Am Donnerstag feierten wir Herrn Sup.'s Geburtstag und heute <persName
+                  ref="Alfred Fritz">Alfred's</persName>. Ich freue mich daß, Herr S. jetzt auch
+               hier ist, er ist zu reizend. <persName ref="Hermann Schafft"><hi rend="aq"
+                     >Hermann</hi></persName> hat sein <hi rend="aq">Tentamen</hi> (auch Katechese
+               u. schriftl. Prüfung) gut bestanden und geht nicht nach <placeName ref="Basel"
+                  >Basel</placeName>, entweder dient er oder kommt als Vicar in eine
+               Universitätsstadt (zum Herbst.) (<placeName ref="Marburg">Marburg</placeName>?) <note
+                  place="left">Viele Grüße! Einen frohen Sonntag! Deine J.</note><pb n="3"/>
+            </p>
+         </div>
+         <div type="AlfredFritz">
+            <p> Deine <persName ref="Johanna Tillich">Schwester</persName> behauptet gerade von mir
+               zu erzählen - wahrscheinlich ists nicht wahr - Kommen kann ich ja nun - vom 1 Juli ab
+                  <hi rend="u">angestellt</hi> – <unclear cert="medium">leider</unclear> unmöglich!!
+            </p>
+         </div>
+         <div type="JohannaTillich">
+            <p><persName ref="Hermann Schafft">Hermann</persName> meinte, ich klagte über ihn; darum
+               schreibt er, was ich schrieb, wäre nicht wahr! Von 1. Juli an ist er Vicar bei seinem
+               Vater. Er geht eben um sich vom Militärarzt untersuchen zu lassen. - Heute erhielt
+               ich v. <persName ref="Tante Emma">Tante Emma</persName> einen lieben Brief. Wenn es
+               Dir irgend möglich ist, dann schreibe Du ihr einmal; sie ist so traurig.</p>
+            <p> Denke Dir, <persName ref="Emily">Emiliy</persName> kommt nun sehr wahrscheinlich im
+               Winter zu uns nach <placeName ref="Berlin">Berlin</placeName>, um mit mir zusammen
+               den Missionskursus durchzunehmen. <note place="left">Bitte schreibe wenigstens <hi
+                     rend="uu">eine</hi>
+                  <hi rend="uu">Karte</hi></note><pb n="4"/>
+               <persName ref="Albert Kilger"><hi rend="aq">Alb. Kilger</hi></persName>
+               <hi rend="u">wohnt</hi> doch <hi rend="u">bestimmt</hi> wo anders!!!!!!!! Kommt er
+               überhaupt nach <placeName ref="Berlin">Berlin</placeName>? – Denke, im "Reich" u. im
+               "Reichsboten" stand die Notiz, daß <persName ref="Johannes Tillich"><hi rend="aq"
+                     >Papa</hi></persName> zum Konsistorialrat in <placeName ref="Berlin-Schöneberg"
+                  >Schöneberg</placeName> bestimmt sei. Als Herr Sup. mir plötzlich die Zeitung
+               brachte, war ich natürlich recht erschrocken. Ich glaube, es ist nicht wahr. Wir
+               lesen jetzt abends (Herr Sup.) <hi rend="aq">Hanne Nüte</hi> vor. Das wäre riesig
+               nett, wenn ich nicht zu früh ins Bett müßte! Ich wünsche für Dich, daß Du
+               hierherkämst u. Dich erholtest. Nun erst werde ich Dich einmal in <placeName
+                  ref="Misdory"><hi rend="aq">Misdroy</hi></placeName> u. in <placeName ref="Berlin"
+                  >Berlin</placeName> pflegen, ich hab's ja jetzt gelernt, freust Du Dich auf die
+               See? <persName ref="Tante
+            Emma">Tante Emma</persName> hat mich leider zu <unclear cert="medium"
+                  >Herbe</unclear> eingeladen - Ich gehe aber kaum.</p>
+            <note place="left">Nun Schluß, mein Junge, ich weiß nichts mehr zu schreiben. </note>
+
+
+         </div>
+
+
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,314 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Hermann Schafft an Paul Tillich <lb/>vom 11. November 1907</title>
+            <author ref="P01697">Hermann Schafft</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement ref="Marburg">Marburg</settlement>
+                  <institution>Philipps-Universität Marburg</institution>
+                  <repository>Deutsches Paul-Tillich-Archiv</repository>
+                  <idno>008G</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+               <additional>
+                  <!-- Wenn Brief bereits publiziert hier die richtige Struktur aussuchen -->
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel der Monographie<!--></title>
+                           <edition><!-->Auflage<!--></edition>
+                           <imprint>
+                              <publisher><!-->Herausgeber<!--></publisher>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Reihe<!--></title>
+                           <biblScope><!-->Reihennummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                     <biblStruct type="journal" n="reprint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel des Aufsatzes<!--></title>
+                           <imprint>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Zeitschrift<!--></title>
+                           <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <biblStruct type="monograph">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien überliefert sind und im Original nicht mehr vorhanden!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel der Monographie<!--></title>
+                  <edition><!-->Auflage<!--></edition>
+                  <imprint>
+                     <publisher><!-->Herausgeber<!--></publisher>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Reihe<!--></title>
+                  <biblScope><!-->Reihennummer<!--></biblScope>
+               </series>
+            </biblStruct>
+            <biblStruct type="journal">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften überliefert sind und im Original nicht mehr vorhanden<!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel des Aufsatzes<!--></title>
+                  <imprint>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Zeitschrift<!--></title>
+                  <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P01697">Hermann Schafft</persName>
+               <placeName ref="where">Hersfeld</placeName>
+               <date when="1907-11-11">11. November 1907</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P01930">Paul Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2023-02-24">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <dateline>
+                  <placeName ref="Hersfeld">Hersfeld</placeName>. <date when="1907-11-11"
+                     >11.XI.07.</date> Nur für Dich.</dateline>
+               <salute>Lieber Paul,</salute>
+            </opener>
+            <p>q. b. f. f. s.- Schönen Dank für die beiden Briefe. Von mir ist keiner verloren
+               gegangen. Was soll ich schreiben? Was willst Du wissen. Meine Kräfte reichen gerade
+               zur Ausfüllung dessen was ich soll d.h. halb.- Mehr nicht. Und nun noch schreiben.
+               Den Ehrgeiz mit dem dicksten Pack Briefe zu heben - entdecke ich nicht in mir - ich
+               könnte Dir wenn ich wollte Briefe schreiben, die Du sofort verbrennen müßtest, wie
+               das bei Backfischen vorkommt - aber das ist schließlich auch nichts wert. - Zur
+               Antwort auf Deinen letzten Brief bemerke ich</p>
+            <p>1) <hi rend="u">ich</hi> trete <persName ref="P00641">Alfred</persName> nicht, daß er
+               mir die erledigten Hefte schickt. Wenn Du es tun willst gut - Ich freue mich, wenn
+               ich sie kriegen werde.<pb n="2"/> 2) ich habe die
+                  <abbr>Hall.<expan>enser</expan></abbr>
+               <hi rend="u">nicht</hi> zu der Dummheit bestimmt. Laß Dir - wenn Dus nicht glaubst,
+               besser Bescheid sagen. Ich habe <abbr>zun.<expan>ächst</expan></abbr>
+               <hi rend="u">abgeraten</hi> und gesetzliche Schritte vor der Aufnahme gewünscht. <hi
+                  rend="u">Nach</hi> dem Faktum nörgle ich nicht. Ich las das "Vertraulich" von
+                  <persName ref="P01205">Lotz</persName>, wenn der Bund Knigge lieber hat als den
+                  <unclear>ecs</unclear> dann treten nicht nur <persName ref="P02163"
+                  >Nell</persName> u. <persName ref="P02268">Jäger</persName> aus, - von denen mir
+               aus <placeName>Tübingen</placeName> dunkle Worte schallten.- (<foreign xml:lang="lat"
+                  >Silentium</foreign>?) 3) Du bist toll, wenn Du die ganzen kleinen <persName
+                  ref="P01201">Loofs</persName> wissen willst.- <formula notation="TeX"
+                  >\frac{1}{2}</formula> ist genug; natürlich richtig ausgewählt. Hilf Dir durch
+                  <persName ref="P02370">K. <hi rend="u">Müller</hi></persName>. - (Ia<del rend="s"
+                  >)</del> für d. 1 Teil <unclear>Schubert</unclear> event.) <persName ref="P01762"
+                  >Seeberg</persName> ist nat. entsetzlich. Scholastik weiß er was. Nimm doch
+                  <persName ref="P01201">Loofs</persName> kleinen Dogmengeschichtstrextrakt zum
+               pauken.</p>
+            <p>4) Wie kommst Du darauf <persName ref="P02221">Jülicher</persName> zu glauben?
+               Besticht Dich die Logik oder die Überzeugung von der Richtigkeit seines Findens. Er
+               greift alles an - das zieht. Wenn wirklich etwas da zu holen ist - auch für
+               banausische Landpfarrer so schreib; dann kneife ich.</p>
+            <p>5) Ist das NT von <persName ref="P02275">Weiß</persName> mit Anmerkungen den Einkauf
+               wert? - (objektiv!).</p>
+            <p>6) Schwatz kein albernes Zeug vom Nicht<pb n="3"/>fertig werden u. ähnlichem Unsinn.
+               Sei dem lieben Gott täglich dankbar für alle Deine Gaben - Gutes Gedächtnis u.s.w. u.
+               denk im übrigen nicht ans Examen. -</p>
+            <p>Mir hat Kirchengeschichte am meisten Freude gemacht, das ist das einzige, was ich 3x
+               die Woche 1 Stunde lese: <persName ref="P00824">Hauk</persName>.-</p>
+            <p>Mein Leben: <figure>
+                  <figDesc>Skizze einer kurvenreichen Linie</figDesc>
+               </figure> Solche Kurven?- Ja; zunächst aber will ich - nur mal aufzählen, denn zu
+               schmückenden Beiwörtern keine Zeit. <hi rend="u">Heute</hi>: 8-1. h. <del rend="s"
+                  >Revision</del> Hospitieren in der hiesigen Stadtschule durchschnittlich <hi
+                  rend="u">3</hi> Stunden täglich (8-11) - anstrengend. 22 Klassen - <hi rend="uu"
+                  >bis</hi> Weihnachten zu tun. Alle Fächer, nicht nur Religion,
+               psychologische-pathische Studien bei Lehrern u. Schülern. Leider keine Zeit genaue
+               Skizzen nachträglich zu entwerfen. Z.T. Teil von unsagbarer <hi rend="u">Komik</hi>
+               z.T. von herzbrechender Tragik. - Heute z.B: <hi rend="u">Religion</hi>: 2 Artikel.
+               Zunächst richtiggehend. 2 Naturenlehre ala <persName ref="P02371"><hi rend="u"
+                     >Quistorp</hi></persName>!! Alter 11-10 Jahre!- Dann Belege der Gottheit Jesu:
+               1) göttliche Eigenschaften 2) göttliche Werke 3) Kommen 4) Verehrung. Belegstellen zu
+               1) Allwissenheit: Herr, Du weißt <hi rend="u">alle</hi> Dinge! Belegstellen zu 2.)
+               Werk der Schöpfung: Beleg: <hi rend="u">Laßet</hi> uns Menschen machen, einem Bild,
+               das uns gleich sei - das hat Gott der Vater: er sagt <hi rend="u">uns</hi>, denkt
+               also an die 2te (u. 3te?) Per- son <hi rend="sup">der Gottheit</hi> - "Gott den Sohn"
+               mit!! - Mein Herz zerriß - u.s.w. messianische Weissagungen im schlimmsten Stil. -
+               Beinah wörtlich hat <bibl type="bible" resp="Jes 53">Jes. 53</bibl> das Leiden
+               vorausgesagt - - - - O <persName ref="P02036">Wellhausen</persName>, hilf.<pb n="4"/>
+               Der Kampf in den die Kinder später kommen können! Aber wie helfen? Wo ist die neue
+               Schriftlehre? Die Orthodoxie ist <hi rend="u">kräftig</hi> gewiß -, denn <persName
+                  ref="P02372">Hollaz</persName> wird in den Volksschulen gelehrt.- Womit stützt
+               sich unsre modernpositive beim Volk? ... Andere - erzählen lieber Märchen als
+               biblische u. das Herz ist in der Religion <hi rend="uu">so</hi> kalt daß man <hi
+                  rend="u">schaudert</hi>. – Andere – wollen erbaulich sein (- sehr überzogen von
+               "ihrer" Methode): <foreign xml:lang="lat">dictum</foreign>: "Wir wissen, daß <hi
+                  rend="uu">fromme</hi> Kinder <hi rend="u">aufpassen</hi>, stille, sitzen! – Nun
+               (erhobener Stimme, lungenvollen) will ich einmal sehen, wer in der nächsten
+               Viertelstunde wieder diejenigen sind, die nicht fromm sind." – (15 zappeln
+               entsetzlich – 10 davon haben einen Floh!) -- .... u.s.w. Daneben: Alkoholzüchtungen
+               verblödete Kinder: Theodicee u. so weiter, vermischt mit dem Zorn über pädagogisches
+               Ungeschick – z.T. freilich auch <hi rend="u">erstaunliche</hi> Leistungen. Rechnen 3
+               x so fix wie ich!! 17 x 46 pp im Nu. 1345 durch 63 pp. alles <hi rend="uu"
+                  >schnell</hi> im Kopf. –</p>
+            <p>Ein ander Bild 11 – 1 Karten u. Schreibereien für den Jünglingsverein <hi rend="u"
+                  >bis <formula notation="TeX">\frac{3}{4}</formula> 3 <hi rend="sup">am Band</hi>
+                  nach Tisch.</hi> Dann Krankenbesuch: 19 Jahre, Knochentuberk. 6 Löcher in Armen u.
+               Beinen (<bibl type="bible" resp="Rom">Römerbrief</bibl> Durchnahme). – Dann
+               Schularbeiten der beiden kleinen Pensionäre (die gleich mein Briefschreiben hier
+               stören). 6-7 Stunde<pb n="5"/> dem größten – der entsetzlich schwach ist. Nach Tisch
+                  <hi rend="sup">Abend</hi> heute <persName ref="P02250">Stormsche</persName>
+               Lektüre mit <persName ref="P02373">Baumeister Gelderblom</persName>. (mir längst
+               bekannt – also Gefühl des "Übergebens"). – <hi rend="u">Morgen</hi>! 8-11 Schule. 11-
+                  <formula notation="TeX">\frac{1}{2}</formula> 1 Konfirmandenstunde: 2 <hi
+                  rend="uu">ganz</hi> idiot. Sonst alle minderbegabt (Auswahl) – Sorge u Freude
+               zugleich. <unclear>Alle</unclear>. Schule u. für Abends Gebetsstunde im
+               Jünglingsverein. – <hi rend="u">Mittwoch</hi> Schule. - 11. – 11-1 für mich.
+                  <unclear>Alle</unclear>. wie gewöhnlich. <unclear>Ab.</unclear> Bibelstunde in der
+               Stadtkirche (dazu <unclear>Mm.</unclear> vorbereiten). <hi rend="u">Donnerstag</hi>
+               Schule. Abends Bibelstunde im Jünglingsverein. <hi rend="u">Freitag</hi> Schule.
+               Abends Kindergottesdienstvorbereitung. Mittag 11-1 Konfirmandenstunde. 9-10 Abends:
+               Posaunenstunde im Jünglingsverein. Sonnabend: Schule. <unclear>Mm</unclear>.
+               Spazierengehen. – Krankenbesuche nicht eingerechnet zwischendurch an den Tagen. Jeden
+               Tag die Jungen gleichmäßig. Sonntag, entweder 2 Predigten u Jünglingsverein oder
+               Jungfrauenverein Bibelstunde – die Gemeinden wo ich predige – z. T. "Arbeiter" –
+               entsetzlich verrohtes Volk darunter, verfeindet untereinander, schwer zu versorgen. –
+               Das alles ist eben<pb n="6"/> ein <hi rend="u">Conglomerat von Beschäftigung</hi>,
+               das einen <hi rend="uu">ganz</hi> hinnimmt. Dr. u. Lic. liegen <hi rend="uu"
+                  >weit</hi>
+               <hi rend="uu">aus</hi> meinem Gedankenkreis. Das Schwere ist, daß die theoretische
+               Bewältigung u. Verarbeitung nicht <del rend="s">da</del> möglich ist. Es stürmt <hi
+                  rend="uu">so viel </hi> auf einen ein. Gemeinschaftsbewegung u. Gottlosigkeit sind
+               die Pole. – Man fühlt die ganze Wucht der Schwierigkeiten unserer heutigen Lage.
+               Manchmal hohnlacht man innerlich über Kirche u. ihre Versuche - Manchmal graut einem
+               vor dem Gift was in Presse u. Volk steckt u. was in feinen Nuancen aus den meisten
+               Menschen heraussieht. <unclear>Harder</unclear> u. Consorten singen in lieblichen
+               Tönen mit in diesem Zerstörungswerk – aber wirklich große Bewegungen gegen allen
+               solchen Dreck merkt man nicht. Einheit "im Geiste" wo ist sie hin? Wenn man am
+               Sonnab. Abend mit ein paar Fabrikarbeitern in der Gebetsstunde kniet (cf dagegen<pb
+                  n="7"/> Bibelkränzchen im Hallenser Wingolf) dann hat man schließlich die einzige
+               frohe Zeit. D. h. es ist natürlich übertreiben: das "<hi rend="u">einzig</hi>" gilt
+               logisch nicht zeitlich. Das ist das womit man sich wirft – oder wozu man getrieben
+               wird - zumal wenn zu allem dem was man sieht noch eigene moralische Kraftlosigkeit
+               kommt, wenn man selbst immer wieder im religiösen Leben lau und matt ist, wenn man
+               wirklich Amtsträger u. nicht Geistbegabter ist. - - Es <hi rend="u">stürmt</hi>, so
+               einfach, u. durchsichtig für einen kühlen Geist vielleicht alle die Fragen sind, die
+               mir das wage immerzu aufstehen – <hi rend="u">doch in mir</hi> und ich bin zu Zeiten
+               sehr unruhig. – <hi rend="u">Wohin</hi> – solls? - Daneben der Gedanke an die eigene
+               Halbbildung und die Frage: Was hat Arbeit im Weinberg – wo die Not so entsetzlich
+               groß u. die Zeit so kurz ist – mit dem Oxen zu tun? – Gewißheit – ganze Freude giebts
+               da doch nicht. Anderseits zeihts mich mit allen Fasern zu den Büchern hin…<pb n="8"/>
+               Es läßt sich nicht schreiben. Ich wollte, ich hätte kältere Natur. – Es nimmt mich
+               alles zu sehr mit. Wie es im Winter wird noch, weiß ich nicht. Das beste wäre für
+               uns, man könnte sich mal sehen, mal aussprechen. – Fröhlicher Kampf u. fröhliches
+               Arbeiten will erkämpft sein. - Auch die Ruhe zum Briefe Schreiben – Ich weiß nicht,
+               ob ich sie finde – versuchen will ich das nächste Mal – einzelnes vernünftig zu sagen
+               – <hi rend="uu">Wo ist</hi>
+               <persName ref="P00310">Friedrich</persName>? - Was tut <persName ref="P01050"
+                  >Albert</persName>? -- Leb wohl, mein Lieber <persName ref="P01930"
+                  >Paul</persName> – ärgere Dich nicht zu sehr über mich </p>
+            <closer>
+               <salute>In herzlicher Liebe</salute>
+               <signed>Dein <persName ref="P01697">H.</persName></signed>
+            </closer>
+
+            <postscript>
+               <p/>
+            </postscript>
+
+         </div>
+
+      </body>
+   </text>
+</TEI>

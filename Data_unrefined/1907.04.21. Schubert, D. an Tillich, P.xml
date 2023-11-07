@@ -1,0 +1,243 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Daniel Schubert an Paul Tillich <lb/>vom 21. April 1907 </title>
+            <author ref="P01745">Daniel Schubert</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974.</collection>
+                  <idno>bMS 649/183</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+               <additional>
+                  <!-- Wenn Brief bereits publiziert hier die richtige Struktur aussuchen -->
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel der Monographie<!--></title>
+                           <edition><!-->Auflage<!--></edition>
+                           <imprint>
+                              <publisher><!-->Herausgeber<!--></publisher>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Reihe<!--></title>
+                           <biblScope><!-->Reihennummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                     <biblStruct type="journal" n="reprint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel des Aufsatzes<!--></title>
+                           <imprint>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Zeitschrift<!--></title>
+                           <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <biblStruct type="monograph">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien überliefert sind und im Original nicht mehr vorhanden!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel der Monographie<!--></title>
+                  <edition><!-->Auflage<!--></edition>
+                  <imprint>
+                     <publisher><!-->Herausgeber<!--></publisher>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Reihe<!--></title>
+                  <biblScope><!-->Reihennummer<!--></biblScope>
+               </series>
+            </biblStruct>
+            <biblStruct type="journal">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften überliefert sind und im Original nicht mehr vorhanden<!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel des Aufsatzes<!--></title>
+                  <imprint>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Zeitschrift<!--></title>
+                  <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P01745">Daniel Schubert</persName>
+               <placeName ref="Stuttgart">Stuttgart</placeName>
+               <date when="1907-04-21">21. April 1907</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P01930">Paul Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2022-09-22 ">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <dateline><placeName ref="Stuttgart">Stuttgart</placeName>, den <date
+                     when="1907-04-21">21. April. 1907.</date></dateline>
+               <salute>Liebes <persName ref="P01930">Paulchen</persName>!</salute>
+            </opener>
+            <p><unclear>Chs</unclear><!-- Im weiteren Verlauf des Briefes wird es naheliegend werden, dass diese Abkürzung, die nicht sicher transkribiert ist, etwa für einen Conchargierten Schuberts stehen kann. PS -->
+               u. ich haben mehr als einmal an Euch und bes. an Dich gedacht am Freitag. Wie jetzt
+               alte u. neue l.l. B.B. in der Göben etc Straße herumstehen sich vorstellen, Buden
+               suchen; wie die alten die neuen über die Person der neuen Chargierten bes. des x
+               informieren, - soweit das noch nötig ist - etc pp.</p>
+            <p>Und bei alledem wären wir nun gern dabei gewesen. Die nackte Wirklichkeit ist aber
+               anders: Gestern hat mich <unclear>Chs</unclear> verlassen. <persName ref="P00641"
+                  >Fritz</persName>, der mich fast täglich besuchte, ist mit ihm nach
+                  <placeName>Tübingen</placeName> gereist. Und so liege ich allein im Bett; die
+               andern sind eben zur Kirche gegangen.</p>
+            <p>Nun kommen aber heute Morgen 2 Karten von der<pb n="2"/> Hallenser Antrittskneipe. Da
+               habe ich mich beinahe unmäßig gefreut, wie ich alle die lieben Namen wieder las u.
+               auf der andern Seite Haus u. Kneipsaal! <hi rend="aq">O tempora o mores</hi>.</p>
+            <p>So lange ich noch auf war in diesen Ferien habe ich Römerbrief etwas gelesen. Und als
+               ich zu <bibl type="bible">Kap. 3 V 8</bibl> kam, da dachte ich, das müßte ich <del
+                  rend="s">Dich</del> Dir schreiben, daß ich da in meines Herzens Bösartigkeit an
+               Dich gedacht habe; ich habe auch gleich folgende Moralpredigt daraus
+               gemacht:<!-- Diese griechischen Sachen müssen kontrolliert werden. Ich habe das Gefühl, dass die Zeichen nicht eiheitlich sind. Auch die Tabelle in Oxygen hilft da nicht viel weiter. PS -->
+               βλασφημούμεθα durch den Bund ὅτι ποιήσωμεν τὰ κακὰ ἵνα ἔλθῃ τὰ ἀγαθά; was doch der
+               Hallenser Wingolf nicht will sond. nur das <persName ref="P01930"
+               >Paulchen</persName>, von welchem der Apostel schreibt ὧν
+               <!-- Das ist zwar das richtige Zitat, allerdings steht im Brief von Daniel Schreiber am Anfang eher „ou“ statt „ōn“  -->
+               τὸ κρίμα ἔνδικόν ἐστιν. Da sieht man's: man braucht den Satz dieser jesuitischen
+               Moral gar nicht schlau widerlegen; man braucht<pb n="3"/> bloß sehen, daß zur Zeit
+               über den Hallenser W. ein κρίμα ergeht, u. dann zu vernehmen, daß dies κρίμα ἔνδικόν
+               ist, weil man doppelte Moral pflegte. Ich hoffe daß Du die Bundespolitik also
+               deixelst, daß nicht die Philister auf der Wartburg unisono rufen: ὧν τὸ κρίμα ἔνδικόν
+               ἐστιν.-</p>
+            <p>Das wollte ich Dir schreiben; <del rend="s">damit</del> darum habe ich aus der großen
+               Namenliste auf der Postkarte gerade den Deinen ausgewählt. – Es ist nicht
+               ausgeschlossen, daß ich Euch um vollständige Inaktivierung bitte. Ich werde genötigt
+               sein, jeden Abend um 18 Uhr in die Falle zu kriechen u. auch sonst sehr vorsichtig zu
+               leben. Es ist doch ein wahres Glück, daß ich die Krankheit nicht schon vor einem
+               Semester kriegte. Man hat wirklich zu danken.<pb n="4"/></p>
+            <p>Mein <unclear>Chs</unclear> hat mir viel vorgelesen; wir haben ihn sehr gerne hier
+               gehabt. Die geplanten vielen Ausflüge konnte ich natürlich nicht mit ihm machen.
+               Dafür ist er oft in's Schwimmbad gegangen, hat schwimmen gelernt u. <persName
+                  ref="P00641">Fritz</persName> hat ihm das Wichtigste von
+                  <placeName>Stuttgart</placeName> gezeigt. Wann ich nach
+                  <placeName>Tübingen</placeName> darf weiß ich noch nicht. Ich darf jetzt täglich
+               ein bisschen aufstehen, fühle mich dabei aber ziemlich schwach.</p>
+            <p>Mein Bild für die Kneipe schicke ich mit. Gib es bitte dem Bilderdax, damit ich nicht
+               verdonnert werde.</p>
+            <p>Nun grüße mir die ganze Gesellschaft. <add><hi rend="sup">Die Examenskandidaten
+                     viel.</hi></add>Ich kann ja nicht alle Namen nennen. Deine Conchargierten,
+                  <persName ref="P02172">Schuster</persName>
+               <persName ref="P02199">Häfele</persName>
+               <persName ref="P00203">Lorenz</persName>
+               <persName ref="P02159">Voget</persName>
+               <unclear><persName>Cramer</persName></unclear>
+               <persName>Jonas</persName>
+               <persName>Claus</persName><!-- Die Namen Cramer, Jonas und Claus sind nicht nur der Transkription nach ungesichert. Mir sind diese Namen auch sonst nie untergekommen. PS -->
+               <persName ref="P01740">Schreiber</persName>
+               <persName ref="P02194">Spatz</persName> einfach die alten Burschen alle.</p>
+
+            <closer>
+               <salute>Herzl. grüßt Dich mit einer stillen Wehmuts-Neides-Mitleids etc
+                  Thräne</salute>
+               <signed>Dein <persName ref="P01745">Daniel</persName>.</signed>
+               <figure>
+                  <figDesc>Zirkel des Hallenser Wingolf</figDesc>
+               </figure>
+            </closer>
+
+            <postscript>
+               <p>Kommt ein <persName ref="P01295">Meinhof</persName> nach Tübingen??</p>
+            </postscript>
+
+         </div>
+      </body>
+   </text>
+</TEI>

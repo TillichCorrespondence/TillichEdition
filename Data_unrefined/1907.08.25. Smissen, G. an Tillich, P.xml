@@ -1,0 +1,249 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Gilbert van Smissen an Paul Tillich <lb/>vom 25. August 1907</title>
+            <author ref="P01986"/>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974.</collection>
+                  <idno>bMS 649/186(49)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+               <additional>
+                  <!-- Wenn Brief bereits publiziert hier die richtige Struktur aussuchen -->
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel der Monographie<!--></title>
+                           <edition><!-->Auflage<!--></edition>
+                           <imprint>
+                              <publisher><!-->Herausgeber<!--></publisher>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Reihe<!--></title>
+                           <biblScope><!-->Reihennummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                     <biblStruct type="journal" n="reprint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel des Aufsatzes<!--></title>
+                           <imprint>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Zeitschrift<!--></title>
+                           <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <biblStruct type="monograph">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien überliefert sind und im Original nicht mehr vorhanden!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel der Monographie<!--></title>
+                  <edition><!-->Auflage<!--></edition>
+                  <imprint>
+                     <publisher><!-->Herausgeber<!--></publisher>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Reihe<!--></title>
+                  <biblScope><!-->Reihennummer<!--></biblScope>
+               </series>
+            </biblStruct>
+            <biblStruct type="journal">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften überliefert sind und im Original nicht mehr vorhanden<!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel des Aufsatzes<!--></title>
+                  <imprint>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Zeitschrift<!--></title>
+                  <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P01986">Gilbert van der Smissen</persName>
+               <placeName ref="where">Manebach</placeName>
+               <date when="1907-08-25">25. August 1907</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P01930">Paul Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2023-04-07">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <dateline>
+                  <placeName ref="Manebach">Manebach</placeName>. Kletts Hotel d. <date
+                     when="1907-08-25">25.VIII.07.</date></dateline>
+               <salute>Liebes <persName ref="P01930">Paulchen</persName>!</salute>
+            </opener>
+            <p>Für Deinen Brief vielen Dank. Ungefähr hast Du gemerkt, wie's gedacht war. Die
+               Genesis der Sache war furchtbar einfach, indem der gute <unclear>Terbner</unclear> i.
+                  <placeName>Leipzig</placeName> allen Studikern in <placeName>Halle</placeName> u.
+               a. auch Dir u. mir seinen Katalog zuschickte, indem mir das Bild vom Teufel auffiel;
+               darauf suchte ich weiter u. fand alle Bilder sehr passend für eine <hi rend="aq">Vita
+                  Pauli</hi>, was nicht weiter viel Mühe machte, nur warf ich dabei einen Topf mit
+               Tischleim um, was aber keinen großen Schaden anrichtete. Eine Reise des großen Werkes
+               hat aber meinen Segen nicht. Übrigens habe ich Dich bei jedem Bild u. Vers furchtbar
+               ausgelacht, wovon die Verse nur ein schwacher Abglanz sind. - Daß Du dich endlich mit
+               dem Alkohol einlassen willst, finde ich höchst richtig u. heilsam. Hier in der
+               Tannenwüste bin ich natürlich mit nichts<pb n="2"/> ausgerüstet. Wenn Dir am baldigem
+               Haben liegt, so nimmst Du das Berliner Adreßbuch, suchst Dir ein Guttemplerlagerhaus
+               od. ein Blaukreuzheim, gehst hin u. kaufst Dir für 10 Pf. <bibl type="book"
+                  resp="Gustav von Bunge, Die Alkoholfrage. Ein Vortrag. F.C.W. Vogel, Leipzig 1887"
+                  >"Die <hi rend="u">Alkoholfrage</hi></bibl>" von <persName ref="P02307"
+                  >Bunge</persName>, dann wissen die Leute schon Bescheid. Darin steht sehr viel
+               drin, schön kurz zusammengefaßt und enthält noch eine Literaturangabe über
+               speziellere Fragen. Aber das erste wird Dir genügen. Wenn Du Zeit hast, will ich dir
+               was schicken, wenn ich in 4-5 Wochen nach Hause komme. Also hier in
+                  <placeName>Manebach</placeName> sitze ich seit dem Anfang der Ferien u. erziehe
+               Kinder. D.h. ich bin hier mit meinem Sohn, einem Manne von 43 Jahren, die Sache hat
+               sehr <del rend="s">seine</del> ihre zwei Seiten. Denn der Mann ist epileptisch und
+               meine Aufgabe besteht darin, auf ihn zu passen, daß ihm kein Anfall noch Gefahr
+               zustoße. Das hat am Tage selten Not nur ist er auch etwas gelähmt und daher
+               unbehülflich. In der Nacht lasse Ich ihn schreien, so viel er will. Übrigens<pb n="3"
+               /> ist er sonst ein ganz manierlicher Herr, nicht "unästhetisch", wie wahrscheinlich
+                  <persName ref="P00203">Lorenz Bertheaus</persName> Kinder, aufgewachsen in einer
+               schlemmerhaften Professorenfamilie, ehemals auch selbst einigermaßen gebildet, doch
+               wird er mit der Zeit immer stumpfer. Peinlich ists, wenn er einem sein Leid klagt und
+               helfen kann man dem armen Mann auch nicht, weil er einfach vergißt, was man ihm sagt,
+               und die innere Unzufriedenheit sich tief in ihn eingefressen hat. Im allgemeinen, ist
+               er aber gegen mich furchtbar liebenswürdig und nett, man geht auch ganz gern mit ihm
+               durch die Gegend. aber κατα πνεύμα ist man hier ganz allein. Dabei genießt man
+                  <placeName>Thyringen</placeName> schlemmerhaft. In 6 Wochen sieht man schon
+               allerlei; und während man sonst auf Touren so durch die Gegend braust, gewöhnt man
+               sich hier an die Schönheit u. sieht vieles, was man sonst nicht sieht, oder als
+               typisch übersieht. Also wunderschön<pb n="4"/> ists hier, mitten im schönsten Teil
+               von Thyringen am Fuße des Kickelhahn. Überall Wald u. schöne Täler, Aussichten usw.
+               Nur hätte ich gern einen l. Br. oder 2 hier, aber nur <hi rend="aq">à la carte</hi>
+               zum Aussuchen. Dann wärs noch schöner. Ich bleibe also noch 3 Wochen hier, arbeite
+               auch ein wenig d.h. ich ärgere u. freue mich abwechselnd am Hebräerbrief, lese
+                  <persName ref="P02308">Damaschkes</persName>
+               <bibl type="book">Bodenreform</bibl>
+               <!-- es ist unklar welches Buch hier gemeint ist denn die Bodenreform von Damaschke erschien erst 1916. -->,
+               W. <persName ref="P02252">Raabe</persName>, <persName ref="P00833">Hebbel</persName>.
+               u. <persName ref="P02086">Windelbands</persName> Geschichten. Alle die in
+                  <placeName>Halle</placeName> x werden wollen, müßten die ja gelesen haben, hast Du
+               mal gesagt. Auf der Rückreise werde ich Deinen Neid erregen: via
+                  <placeName>Hersfeld</placeName>, <placeName><unclear>Kassel</unclear></placeName>
+                  (<persName ref="P02219">Ritter</persName>) <placeName>Neviges</placeName>,
+                  <placeName>Wittlage</placeName>, <placeName>Ubbedissen</placeName>
+               <placeName>Minden</placeName> (<unclear>Dorf</unclear>) <placeName>Bremen</placeName>
+                  (<unclear>Branisch</unclear>, <unclear>Gruber</unclear>)
+                  <placeName>Bremervörde</placeName> (<persName ref="P00788">v.H.</persName>)
+                     <unclear><hi rend="u">Etsch</hi></unclear>!!</p>
+            <p>Eigentlich wollte ich noch auf Deine Schrift schimpfen, aber ich muss selbst sagen:
+                  <hi rend="aq">pater peccavi</hi>! Mein Typ kriegst Du, wenn ich welche habe, das
+               dauert noch etwas. Soll Dich aber nicht hindern, mir Deine 2. Auflage zu schicken. </p>
+            <closer>
+               <salute>Mit herzlichem Gruß!</salute>
+               <signed>Dein treuer <persName ref="P01986">Gysbert</persName></signed>
+            </closer>
+
+            <postscript>
+               <p><persName ref="P02182">Wilm</persName> züchtet irgendwo in
+                     <placeName>Mäcklenburg</placeName> die dicksten Kartoffeln, wenn Du an ihn
+                  schreiben willst, schreibe über <placeName>Stellingen</placeName>, <address>
+                     <street><unclear>Schmiedestr</unclear> 1.</street>
+                  </address>
+               </p>
+            </postscript>
+
+         </div>
+
+      </body>
+   </text>
+</TEI>

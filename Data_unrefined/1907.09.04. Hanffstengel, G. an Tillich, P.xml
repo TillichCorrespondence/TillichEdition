@@ -1,0 +1,275 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Gottfried von Hanffstengel an Paul Tillich <lb/>vom 4. September
+               1907</title>
+            <author ref="P00788">Gottfried von Hanffstengel</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974.</collection>
+                  <idno>bMS 649/147</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+               <additional>
+                  <!-- Wenn Brief bereits publiziert hier die richtige Struktur aussuchen -->
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel der Monographie<!--></title>
+                           <edition><!-->Auflage<!--></edition>
+                           <imprint>
+                              <publisher><!-->Herausgeber<!--></publisher>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Reihe<!--></title>
+                           <biblScope><!-->Reihennummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                     <biblStruct type="journal" n="reprint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel des Aufsatzes<!--></title>
+                           <imprint>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Zeitschrift<!--></title>
+                           <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <biblStruct type="monograph">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien überliefert sind und im Original nicht mehr vorhanden!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel der Monographie<!--></title>
+                  <edition><!-->Auflage<!--></edition>
+                  <imprint>
+                     <publisher><!-->Herausgeber<!--></publisher>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Reihe<!--></title>
+                  <biblScope><!-->Reihennummer<!--></biblScope>
+               </series>
+            </biblStruct>
+            <biblStruct type="journal">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften überliefert sind und im Original nicht mehr vorhanden<!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel des Aufsatzes<!--></title>
+                  <imprint>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Zeitschrift<!--></title>
+                  <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P00788">Gottfried von Hanffstengel</persName>
+               <placeName ref="where">Bremervörde</placeName>
+               <date when="1907-09-04">4. September 1907</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P01930">Paul Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2023-04-09">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <dateline>
+                  <placeName ref="Bremervörde">Bremervörde</placeName>, <date when="1907-09-04"
+                     >4.IX.07.</date></dateline>
+               <salute>Lieber <persName ref="P01930">Paul</persName>!</salute>
+            </opener>
+            <p>Für Deinen Brief herzlichen Dank, ein Chargiertentyp von Dir habe ich natürlich
+               bestellt, das meinst Du doch; oder meinst Du von allen 3, das will ich natürlich auch
+               haben, aber darnach wurden wir damals nicht gefragt.</p>
+            <p>In den letzten Tage war ich wieder einmal in <placeName>Worpswede</placeName>, diesem
+               schönen Dorf, dem schönsten, das ich kenne. Mit meinem Vetter, auch Theol., habe ich
+               schon ausgemacht, daß wir dort als <unclear>Backurranten</unclear> zur Wahl predigen
+               wollen. Am letzten Sonntag war <hi rend="sup">dort</hi> Missionsfest, <del rend="s"
+                  >das</del> ich weiß <del rend="s">noch</del> nicht, ob Du diese Einrichtung
+               kennst. Mein Vater war 8 Jahre dort Pastor, u die Leute hatten ihn gebeten, dort am
+               Missionsfest zu reden, weil er ganz besonders beliebt gewesen ist. Wenn man nicht mit
+               dem Rad hinfährt, ist es ein furchtbarer Umweg dahin, aber<pb n="2"/> trotzdem taten
+               Vater und Mutter es. Ich fuhr mit dem Rad u kam fast 3 Stunden eher an. – Auf einem
+               großen Bauernhofe war eine Kanzel aufgeschlagen u bekränzt, rings herum standen viele
+               Reihen von Bänken. Am Sonntag Nachmittag sah man die Leute schon früh hinpilgern,
+               auch sehr viele aus den umliegenden Dörfern. Um 3 begann das Fest, mit einem Gesang,
+               der von schlecht spielenden Posaunenbläsern begleitet wurde. Wohl 800 Menschen hatten
+               sich zusammen gefunden, die Bänke reichten lange nicht. Zuerst sprach nun mein Vater,
+               u alles war still, nur über uns rauschten die hohen Eichen. Nachher sprach noch ein
+               Pastor aus der Gegend, allerdings für mein Gefühl schlimm, er schimpfte auf die
+               Automobile usw., die Wissenschaft. Nachher begrüßen dann Vater all die alten
+               Worpsweder, soweit er sie nicht am Vormittag u Abend vorher gesehen oder besucht
+               hatte.</p>
+            <p>Ich fuhr noch am selben Abend mit m. Vetter u einigen jungen Damen halb bis nach<pb
+                  n="3"/> Haus, die Nacht überraschte uns mitten im Wald, wir hatten einen
+               großartigen Sonnenuntergang. Schließlich wurde die Sache unheimlich, der Weg war sehr
+               schmal, u an einer Seite floß ein tiefschwarzer Moorgraben. Erst gegen 9 kamen wir an
+               unserem <del rend="s">Destin</del> Ziel an. Trotzdem ich dort fremd war, wurde ich
+               sehr freundlich aufgenommen. Am nächsten Nachmittag fuhren mein Vetter u ich <del
+                  rend="s">war</del> hierher, er bleibt für einige Tage, vielleicht radeln wir
+               zusammen noch zu Verwandten. – Wieder hat <placeName>Worpswede</placeName> einen
+               heimischen Eindruck gemacht, die Gegend wie die Leute. Man hat an Gegend alles was
+               man wünschen kann bei nicht allzu großen Ansprüchen, wenn man Sinn hat für das
+               Kleine, Einfache, nicht nur für das Gewaltige, Berückende, Erschütternde. Haide,
+               Moor, Wald, Wiese, Felder, Wasser, selbst <del rend="s">P</del> Berge <hi rend="aq"
+                  >en miniature</hi> sind vorhanden. Und dabei das Dorf selbst so hübsch gelegen.
+               Aber die Hauptsache sind doch die Leute, und das<pb n="4"/> ist der Höhepunkt. Sie
+               sind einfach u schlicht, offen u ehrlich, freundlich gegen jeden, der es ehrlich mit
+               ihnen meint, aber verschlossen gegen Fremde. Man muß sich ihr Herz erst gewinnen,
+               aber dann halten sie auch fest wie Leder. Abgesehen von einigen <del rend="s">R</del>
+               reichen Bauern <del rend="s">hab</del> herrscht ein netter Wohlstand trotz des armen
+               Bodens, der Torf bringt ziemlich viel ein. Kurz, ich bin ganz verliebt in
+                  <placeName>Worpswede</placeName>, u das geht nicht nur mir so. Daher auch die 60 –
+               70 Maler u Malerinnen dort die sich aber wenig unangenehm bemerkbar machen. Die
+               Kunstausstellung war auch sehr nett, doch war ich etwas enttäuscht, ich hatte sie mir
+               großartiger vorgestellt nachdem ich voriges Mal dagewesen war, wo vielmehr los
+               war.</p>
+            <p>5. Sept. Noch einmal "lese" ich Deinen Brief. Deine Theorie ist wunderschön, aber
+               läßt sie sich durchführen? Mit wievielen bleibt man in diesem höheren Reich der
+               Gemeinschaft, das Raum u Zeit nicht kennt, <hi rend="aq">exempli causa</hi> bei mir:
+               Mit ca. 150 Leuten war ich in 3 Semestern in <placeName>Halle</placeName>
+                  zusammen,<pb n="5"/> aber mit wie wenigen korrespondiere ich, ich will sie mal
+               aufzählen: Du, m. Lbb., <persName ref="P01205">Lotz</persName>, <persName
+                  ref="P02158">Stosch</persName>, <persName ref="P00877">Amos</persName>, <persName
+                  ref="P00203">Bertheau</persName>, <persName ref="P01697">Schafft</persName>,
+                  <persName ref="P00128">Balke</persName>, <persName ref="P02182">Wilm</persName>
+               usw., also 9 eine geringe Zahl bis jetzt, mit einigen wird es sich ja noch anbahnen,
+               aber spärlich ist es z.T. mit den Genannten auch. Sind nicht die vielen anderen auf
+               dem besten Wege, einem ganz zu entschwinden, oder doch so, daß nur das Typ notdürftig
+               an sie erinnert? Und geht einer Mehr an Korrespondenz nicht über die Kräfte? Ich sehe
+               darin eine Gefahr, daß man allen möglichen Leuten dasselbe schreibt, ohne individuell
+               den einzelnen als solchen zu nehmen, nicht als Glied der Kategorie, in diesem Fall
+               jeden eben als "Hallenser". Daß das nicht bewußt <del rend="s">ist, das</del>
+               beabsichtigt ist, daß der Kreis eigentlich nur diese Kategorie enthält, ist
+               selbstverständlich, aber vielleicht kein sehr schlechtes Zeichen vor mir für diese
+               Kategorie, indem daß ich mich so selbst dazu rechnen kann. In der Dogmatik bin ich
+               gerade bei dem Problem der Einigkeit. Wie war noch <persName ref="P01227"
+                  >Schmuhls</persName> Deutung? Ich kam darauf bei den Eigenschaften Gottes, daß
+                  <persName ref="P01227">Schmuhls</persName> Gottes Anfang- u Endlosigkeit,
+               überhaupt Zeitlo<pb n="6"/>sigkeit betont, weiß ich noch, aber die Zeitbezogenheit,
+               die doch nicht fehlen darf, weil sonst unser ganzes Dasein u Gottes Wirken darauf
+               Schein ist, scheint mir bei ihm zu kurz zu kommen, er macht sie ja wohl mit seinem
+               bekannten <figure>
+                  <figDesc>Pfeil aufwärts/Pfeil abwärts</figDesc>
+               </figure> von oben nach unten u umgekehrt in jedem Augenblick ab. Ich kann mir nichts
+               darunter vorstellen. Eine sehr interessante Debatte hatte ich eben mit meinem Vetter
+               über das Zungenreden in Thessal. Er stellt es auf eine Stufe mit <bibl type="bible"
+                  resp="1 Kor 12-14">1Kor. 12-14</bibl> u. sieht u sieht christliches drin, das sehr
+               ausgeartet ist. Ich dagegen kann solches Wesen, ein Ausstoßen tierischer Laute u sich
+               Winden auf dem Boden usw. nicht für eine Wirkung des Geistes halten, in keiner
+               Beziehung. Es will mir nicht einleuchten, daß die <del rend="s">Beziehungen</del>
+               <hi rend="sup">höchsten Stufen der Wirksamkeit</hi> des Geistes, das von Herz
+               gewollte Mittel zur Verwirklichung seines Reiches, unsere Natur auch nur zeitweise
+               gänzlich beiseite schieben sollte, sondern gerade die höchste Anschauung u Wirkung
+               des Geistes sollte Hand in Hand gehen mit der des Menschen u seiner geistigen Kräfte.
+               Allerdings sehe ich mich dann auch zu einem nicht zustimmenden Urteil über das Urteil
+               des <persName ref="P01469">Paulus</persName> gedrängt, problematisch ist mir die
+               Stellung <persName ref="P00981">Jesu</persName>. Doch das Papier reicht nicht weiter.
+               Der Rundbrief hat <persName ref="P00128">Balke</persName> erst angetroffen, da er auf
+               Reisen war; daher die Verspätung.</p>
+            <closer>
+               <signed>Dein <persName ref="P00788">G. von Hanffstengel</persName></signed>
+            </closer>
+
+            <postscript>
+               <p/>
+            </postscript>
+
+         </div>
+
+      </body>
+   </text>
+</TEI>

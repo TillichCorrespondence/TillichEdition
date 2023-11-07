@@ -1,0 +1,213 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Amos Hensmann an Paul Tillich <lb/>vom 8. November 1907 </title>
+            <author ref="P00877">Amos Hensmann</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974.</collection>
+                  <idno>bMS 649/152</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+               <additional>
+                  <!-- Wenn Brief bereits publiziert hier die richtige Struktur aussuchen -->
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel der Monographie<!--></title>
+                           <edition><!-->Auflage<!--></edition>
+                           <imprint>
+                              <publisher><!-->Herausgeber<!--></publisher>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Reihe<!--></title>
+                           <biblScope><!-->Reihennummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                     <biblStruct type="journal" n="reprint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel des Aufsatzes<!--></title>
+                           <imprint>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Zeitschrift<!--></title>
+                           <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <biblStruct type="monograph">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien überliefert sind und im Original nicht mehr vorhanden!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel der Monographie<!--></title>
+                  <edition><!-->Auflage<!--></edition>
+                  <imprint>
+                     <publisher><!-->Herausgeber<!--></publisher>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Reihe<!--></title>
+                  <biblScope><!-->Reihennummer<!--></biblScope>
+               </series>
+            </biblStruct>
+            <biblStruct type="journal">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften überliefert sind und im Original nicht mehr vorhanden<!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel des Aufsatzes<!--></title>
+                  <imprint>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Zeitschrift<!--></title>
+                  <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P00877">Amos Hensmann</persName>
+               <placeName ref="Halle">Halle</placeName>
+               <date when="1907-11-08">8. November 1907</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P01930">Paul Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2022-11-21">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <dateline><placeName ref="Halle">Halle a. S.</placeName>, d. <date when="1907-11-08"
+                     >8. Nov. 07.</date></dateline>
+               <salute>Liebes <persName ref="P01930">Paulchen</persName>!</salute>
+            </opener>
+            <p>Schon längst hätte ich Dir für Deine Typs, noch mehr für die diesbezüglichen Pointen
+               meinen Dank erstatten sollen! Ich tue es hiermit, wenn auch erst spät, so doch nicht
+               weniger herzlich. Von Deinem <persName ref="P01295">Lbfx.</persName> habe ich <hi
+                  rend="u">ein</hi> großes Chargiertentyp bekommen, wenn ich nicht irre, hatte ich 2
+               bestellt, von beiden Aufnahmen eine. Mir liegt allerdings nichts an dem 2ten, zumal
+               sie so unverschämt teuer ausgefallen sind,<pb n="2"/> aber wenn Du noch eins übrig
+               behalten hast, so nehme ich es selbstverständlich.</p>
+            <p>Die schwierige Erlanger Angelegenheit wird hoffentlich durch den Vermittlungsantrag
+               von Tübingen geregelt werden. Allerdings glaube ich kaum, daß Erlangen sich damit
+               wird zufrieden geben. Wir haben einstimmig beschlossen, auf den Vorschlag Tübingens
+               einzugehen, denn es wird uns doch nie gelingen, dem Bunde klar zu machen, daß wir
+               kein sachliches Urteil gefällt haben. Man kann es auch allzu leicht <del rend="ow"
+                  >als ein</del> so drehen, daß es ein sachliches Urteil ist.</p>
+            <pb n="3"/>
+            <p>Durch die Annahme von Tübingens Vorschlag stehen wir jedenfalls etwas günstiger da,
+               wenn Erlangen nicht bereit ist, darauf einzugehen. Den Inhalt des Tübinger Briefes
+               hat der X Dir gewiß mitgeteilt.</p>
+            <p>Das Verbindungsleben ist bis jetzt sehr nett. Wir haben 13 Kraßfüxe, sind im ganzen
+               (glaube ich) 6<del rend="ow">5</del>7 Aktive. Fast meine ganze Zeit bringe ich jetzt
+               in der Seminarbibliothek zu, denn ich habe im systematischen Seminar eine wüst
+               interessante Arbeit, näm- lich über "Herrmanns Auffassung von der Aufgabe der
+               Dogmatik" und ferner im homiletischen Seminar bei Lic. Lang eine<pb n="4"/> Predigt
+               über <bibl type="bibl">2 Cor. 5, 17-21</bibl> am 31. Jan. zu halten. Im übrigen bin
+               ich Historiograph und habe <hi rend="u">5</hi> Leibfüxe zu erziehen (darunter der
+               pneumatische, Müller, und 2 Krasse: <unclear>Hebrote</unclear> ein Westfale und
+                  <unclear>Happel</unclear> ein Pommer) Heute hat auch Nickelby einen Lbfx bekommen,
+               auch <unclear>Arend</unclear> hat schon 2. Heute wurde der Konsistorialrat <persName
+                  ref="P02156">D. Goebel</persName> beerdigt. Da <unclear>Arend</unclear> erkältet
+               war, habe ich mal wieder die Rolle <del rend="ow">eines</del> des "Fahnenstemmers"
+               gespielt. Grüß, bitte, die Bekannten von mir und sei herzlich gegrüßt von </p>
+            <closer>
+               <signed>Deinem <persName ref="P00877">Amos</persName></signed>
+            </closer>
+
+            <postscript>
+               <p><!-->wenn vorhanden<!--></p>
+            </postscript>
+
+         </div>
+      </body>
+   </text>
+</TEI>

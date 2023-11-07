@@ -1,0 +1,126 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Postkarte von Alfred Fritz an Paul Tillich <lb/>vom 27.04.1907 </title>
+            <author ref="Alfred Fritz">Alfred Fritz</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974.</collection>
+                  <idno>bMS 649/143(11)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="Alfred Fritz">Alfred Fritz</persName>
+               <placeName ref="Tübingen">Tübingen</placeName>
+               <date when="1907-04-27">27.04.1907</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="Paul Tillich">Paul Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2022-05-03">Intitale Auszeichnung des Transkripts</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="postcard">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <p>
+               <figure>
+                  <figDesc>Ein Wegweiser nach Halle. Darüber fliegt eine menschliche Gestalt in die
+                     angegebene Richtung</figDesc>
+               </figure>
+               <hi rend="red">
+                  <lb/>Wenn ich ein Vöglein wär <lb/>u. auch zwei Flügel hätt <lb/> Flög ich zu Euch
+                  <lb/>Fühlt in Zwar-Aber Schoß <lb/>mich doch allein famos <lb/>u. aller Sorgen los
+                  – <lb/><add place="intralinear">– Leider gehts nicht.</add><lb/>Hört, was das
+                     <persName ref="Paul Tillich">Paulchen</persName> spricht <lb/><unclear
+                     cert="high">Wackelnden</unclear> Haupts. <lb/>Hört was der <persName
+                     ref="Lorenz Bertheau">Lorenz</persName> spricht <lb/>u. keiner glaubt‘s.
+                  <lb/>Hört auf des xx würdigen Ton <lb/>doch wenn der Schreiber blind <lb/>flög ich
+                  davon. <lb/><hi rend="et">Aber es kann nicht sein <lb/>So sitz ich ganz allein
+                     <lb/>denke Zwar-Aber Dein <lb/>u. bitterlich wein.</hi>
+               </hi></p>
+            <milestone unit="section"/>
+            <figure>
+               <figDesc>Ein weinendes Gesicht. Rote Tränen rollen über die Wange.</figDesc>
+            </figure>
+
+            <closer>
+               <salute><hi rend="red">Meiner lieben Familie sende ich die besten Wünsche u. Grüße <choice>
+                        <abbr>z.</abbr>
+                        <expan>zum</expan>
+                        <abbr>n.</abbr>
+                        <expan>neuen</expan>
+                     </choice>
+                     <abbr>Sem.</abbr><expan>Semester</expan></hi></salute>
+               <signed><hi rend="red">Euer <persName ref="Alfred Fritz">A. Fritz</persName>
+                     <figure>
+                        <figDesc>Berliner Wingolfszirkel</figDesc>
+                     </figure>! <figure>
+                        <figDesc>Hallenser Wingolfszirkel</figDesc>
+                     </figure>! (x) ZAFP</hi></signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

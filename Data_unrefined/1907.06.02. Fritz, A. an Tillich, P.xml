@@ -1,0 +1,238 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Alfred Fritz an Paul Tillich <lb/>vom 2. Juni 1907 </title>
+            <author ref="P00641">Alfred Fritz</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974.</collection>
+                  <idno>bMS 649/143(11)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+               <additional>
+                  <!-- Wenn Brief bereits publiziert hier die richtige Struktur aussuchen -->
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel der Monographie<!--></title>
+                           <edition><!-->Auflage<!--></edition>
+                           <imprint>
+                              <publisher><!-->Herausgeber<!--></publisher>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Reihe<!--></title>
+                           <biblScope><!-->Reihennummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                     <biblStruct type="journal" n="reprint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel des Aufsatzes<!--></title>
+                           <imprint>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Zeitschrift<!--></title>
+                           <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <biblStruct type="monograph">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien überliefert sind und im Original nicht mehr vorhanden!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel der Monographie<!--></title>
+                  <edition><!-->Auflage<!--></edition>
+                  <imprint>
+                     <publisher><!-->Herausgeber<!--></publisher>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Reihe<!--></title>
+                  <biblScope><!-->Reihennummer<!--></biblScope>
+               </series>
+            </biblStruct>
+            <biblStruct type="journal">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften überliefert sind und im Original nicht mehr vorhanden<!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel des Aufsatzes<!--></title>
+                  <imprint>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Zeitschrift<!--></title>
+                  <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P00641">Alfred Fritz</persName>
+               <placeName ref="Tübingen">Tübingen</placeName>
+               <date when="1907-06-02">2. Juni 1907</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P01930">Paul Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2022-09-22">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <dateline><placeName ref="Tübingen">Tübingen</placeName>
+                  <date when="1907-06-02">2.VI. 07.</date></dateline>
+               <salute>Liebes <persName ref="P01930">Paulchen</persName>!</salute>
+            </opener>
+            <p>Nun bist Du wieder zurück von Deinem Kriegspfad u. im alten Geleise. Da will ich Dir
+               von meinem Patmos ein paar Worte senden, zum Zeichen, daß ich noch ein wenig mit Dir
+               lebe. Hoffentlich denkst Du auch manchmal in Deiner Höhe des mönchischen Inaktiven zu
+                  <placeName ref="Tübingen">Tübs</placeName>.</p>
+            <p>Ich habe mich sehr gefreut über alles, was ich von der Wartburg von Dir hörte. Ich
+               darf Dir das ja ruhig schreiben, <del rend="s">weil</del> ohne <unclear>CW.</unclear>
+               zu befürchten. <persName ref="P02159">Voget</persName> erzählte sehr erbaut u. die
+               Andern bei allem Mißverstehen doch mit einer gewissen Achtung. Viel positives
+               erreicht ist ja wohl nicht. Wo eben der Geist fehlt können wir ihn nicht
+               hinblasen.</p>
+            <pb n="2"/>
+            <p>Nun kommt es mehr darauf an, daß <placeName>Halle</placeName>
+               <placeName>Halle</placeName> bleibt. Hast Du Hoffnung für die Jugend? <persName
+                  ref="P00128">Hänschen</persName> wird sie ja wohl ordentlich ziehen. U. dann
+               sollte immer stärker betont werden, daß ein Hallenser in anderen Verbindungen aktiv
+               wird; dann erhalten wir allmählich das Übergewicht, denn die Marburger <unclear
+                  cert="low">etc.</unclear> werden nicht mehr aktiv. <placeName ref="Berlin"
+                  >Be.</placeName> können wir bald in unsere Herde bekommen u. gerade <placeName
+                  ref="Berlin">Be</placeName> ist ein günstiges Feld für einen modernen Wingolf.
+               Dort fallen die Zöpfe am leichtesten ab u. <placeName>Halles</placeName> Bestrebungen
+               sind ja hochmodern (cf. Alkohol). – Die Reden <persName ref="P00203"
+                  >Bertheaus</persName> u. <persName ref="P00853">Heinzelmanns</persName> sind ja
+               scheints hochbegabt gewesen. Wäre es nicht möglich, daß jetzt die Historiographie v.
+                  <unclear cert="low">WS.</unclear> die noch nicht er<pb n="3"/>schienen ist,
+               ausgesandt würde mit einem Anhang "unsere Stellung bis zur Beendigung der
+               Streitigkeiten auf der Wartburg" u. unsere Stellung auf der Wartburg." Dabei dann
+               besonders eine <del rend="s">kurze</del> Kürzung aus den Reden <persName ref="P00203"
+                     ><hi rend="aq">Berth.</hi></persName> u. <persName ref="P00853"><hi rend="aq"
+                     >Manzels</hi></persName>, wo das alles noch einmal gesagt wird, was wir positiv
+                  <hi rend="u">praktisch</hi> wollen (also nicht in Form der Kritik).</p>
+            <p>Die Reden sind eben nur von den Chargierten gehört u. wie ich mich überzeugte (bei
+                     <unclear><hi rend="aq"
+               ><persName>Eisenmann</persName></hi></unclear>),<!-- Da dieser Name nicht ganz sicher transkribiert ist habe ich ihn vorerst auch nur zum Personenregister hinzugefügt. PS -->
+               ist der Eindruck schon verflogen, vor allem wissen die Verbindungen als solche nichts
+               davon. <del rend="s">Dabei</del> Jetzt könnte man bei Philistern u. Aktiven auf
+               Interesse einer solchen Darlegung gegenüber rechnen. <persName ref="P00203"><hi
+                     rend="aq">Bertheau</hi></persName> u. <persName ref="P00853"><hi rend="aq"
+                     >Manzel</hi></persName> wären sicher gerne bereit, so etwas zu verfassen. -
+               Doch das nur zur Anregung. Der eigentliche Kampf<pb n="4"/> beginnt jetzt erst,
+               nachdem wir frei sind von theoretischen Erörterungen, doch nun auch etwas von uns
+               hier. Viel ist nicht zu berichten. Wir leben sehr bieder dahin. Morgends Kolleg. Vor
+               Tisch ein kühles Bad mit viel Unsinn. Dann christlicher Vereinswimmel, dann Kaffe
+               <!-- Es kann gut sein dass hier nicht das Heißgetränk gemeint ist sondern der verschiedentlich in Briefen erwähnte Caffon oder Kaffong, der eine Art Zusammenkunft zu sein scheint -->
+               mit viel Geist u. Prolese. Dann Dogmengeschichte u. Hebräisch. Alle 14 Tage Kneipe.
+               Abendessen mit irgend einem zu verderbenden Füxlein. Schlaf eines ruhigen Gewissens.
+               Mit einem Wort Philiströsität.</p>
+            <p>Aber Pfingsten lebte ich sehr stille zu Hause. Meine Mutter ist sehr elend u.
+               besonders ihre Augen beinahe blind. So hat man sein ordentlich Teilchen Last durch
+               den schönen Frühling zu schleppen. Doch geht es ja, weil einem die Flügel geschenkt
+               sind. - <persName>Hermann</persName>
+               <!-- Unklar welcher. Ob Schafft oder Witte. PS --> schickte mir Deine Throtapauke,
+               sehr begabt, aber etwas zu sehr Predigt. Gieb acht, daß nicht die Römerpredigt in
+                  <placeName>Halle</placeName> einreißt, die Gefahr war schon letztes Semester da. </p>
+            <closer>
+               <salute>Grüße xx u. das AHCmitglied
+                  <persName>Lorenz</persName>.<!-- Kann hier Lorenz Bertheau gemeint sein? Dann wäre es komisch, wenn Alfred ihn bis hierhin nur beim Nachnamen genannt hat. --></salute>
+               <signed>Dein <persName ref="P00641">Alfred</persName> in Treue.</signed>
+            </closer>
+
+            <postscript>
+               <p><!-->wenn vorhanden<!--></p>
+            </postscript>
+
+         </div>
+      </body>
+   </text>
+</TEI>

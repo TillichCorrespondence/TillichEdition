@@ -1,0 +1,262 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Alfred Fritz an Paul Tillich <lb/>vom 14. Juli 1907 </title>
+            <author ref="P00641">Alfred Fritz</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement ref="Marburg">Marburg</settlement>
+                  <institution>Philipps-Universität Marburg</institution>
+                  <repository>Deutsches Paul-Tillich-Archiv</repository>
+                  <idno>008 C</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+               <additional>
+                  <!-- Wenn Brief bereits publiziert hier die richtige Struktur aussuchen -->
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel der Monographie<!--></title>
+                           <edition><!-->Auflage<!--></edition>
+                           <imprint>
+                              <publisher><!-->Herausgeber<!--></publisher>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Reihe<!--></title>
+                           <biblScope><!-->Reihennummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                     <biblStruct type="journal" n="reprint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel des Aufsatzes<!--></title>
+                           <imprint>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Zeitschrift<!--></title>
+                           <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <biblStruct type="monograph">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien überliefert sind und im Original nicht mehr vorhanden!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel der Monographie<!--></title>
+                  <edition><!-->Auflage<!--></edition>
+                  <imprint>
+                     <publisher><!-->Herausgeber<!--></publisher>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Reihe<!--></title>
+                  <biblScope><!-->Reihennummer<!--></biblScope>
+               </series>
+            </biblStruct>
+            <biblStruct type="journal">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften überliefert sind und im Original nicht mehr vorhanden<!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel des Aufsatzes<!--></title>
+                  <imprint>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Zeitschrift<!--></title>
+                  <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P00641">Alfred Fritz</persName>
+               <placeName ref="Tübingen">Tübingen</placeName>
+               <date when="1907-07-14">14. Juli 1907</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P01930">Paul Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2022-12-04">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <dateline><placeName ref="Tübingen">Tübingen</placeName>. <date when="1907-07-14"
+                     >214.07.VII.</date></dateline>
+               <salute>Mein liebes <persName ref="P01930">Paulchen</persName>!</salute>
+            </opener>
+            <p>Also ich komme. Es verreißt mich halt doch, das <unclear>Nähere</unclear>: wann
+                  <unclear>¿¿¿ ¿¿¿</unclear> ist noch nicht entschieden. Es war zwar ein harter
+               Entschluß, aber die Sehnsucht Euch liebe Leutchen mal wieder zu sehen, ist zu groß.
+               Die einzige Bedingung ist, daß Du nicht wieder über "stirb u. werde" paukst, sondern
+               Dir gefälligst einen neuen Gedanken u. ein neues Wort auf Typs zu schreiben
+               aussuchst. - Die Charge nach <placeName>Straßburg</placeName> nehme ich mit Wonne an,
+               u. freue mich riesig mit Euch mal wieder meinen lieben Wichs zu tragen.</p>
+            <p>Eben kam nun <bibl type="letter">Dein Brief</bibl> u. ich möchte gleich darauf
+               antworten. Was Du von "Leere" schreibst, kann ich wunderschön mitfühlen. Du erinnerst
+               Dich mit welcher Müdigkeit ich zuweilen<pb n="2"/> auf Deine Bude kam. Es ist ja
+               nicht in erster Linie körperliche Müdigkeit, sondern der <sic>Bankrot</sic> den jeder
+               Kaufmann macht, wenn er mehr ausgiebt als er einnimmt. Es ist das bei dem nervös
+               gesteigerten Verbindungsleben in <placeName>Halle</placeName> das Los der
+                     <unclear><del rend="s">Lü</del></unclear> Leitenden, das man eben tragen muß,
+               als Pflicht in erster Linie, im Bewußtsein viel dabei zu lernen u. seine Kräfte zu
+               stählen in 2ter Linie. Du hast ja noch <persName ref="P00128">Hänschen</persName>, da
+               kannst Du hie u. da einnehmen. Aber wie gesagt: ich verstehe Dich vollkommen. Ein
+               Mittel haben wir ja, das nie versagt, das ist die Nase ins NT. zu stecken u. die paar
+               stillen Minuten, in denen man den Tag überdenkt u. sich sammelt. Gerade aus dem Magen
+               eines Hallenser-Chargiertenlebens heraus habe ich das besonders schätzen gelernt.</p>
+            <p>Nebenher gilt es aber auch ruhig die Beschränktheit seiner Kräfte einzusehen u. nicht
+               "über die Kraft" arbeiten wollen. Man kann sich nicht oft genug sagen, daß man
+               absolut nicht unent<pb n="3"/>behrlich ist.- Ich hoffe Du kommst nächstes Sem. auch
+               so schön zur Ruhe, wie ich jetzt. Es ist nötig, daß wir nach den inhaltsreichen
+               Studentensemestern uns mal besinnen u. den Ertrag einheimsen u. ordnen. Da hast Du ja
+               nächstes Sem. in der schwesterlichen Pflege schöne Gelegenheit dazu. U. <persName
+                  ref="P01050">Albert</persName> wird wohl auch kommen. Aber er will ins <hi
+                  rend="aq">Convict</hi>. Ich bin strikt dagegen. Er soll ganz in Deiner Nähe
+               wohnen, sonst habt Ihr erst nichts von einander. Außerdem will <persName ref="P02251"
+                  >Dinglinger</persName>, dieser Schauermensch auch in das Convict, dann ist er
+               wieder so gebunden, wie in <placeName>Halle</placeName> mit <persName ref="P02172"
+                  >Daniel</persName>. Man sieht, wie er jetzt aufatmet in Freiheit u. Ruhe. Er ist
+               wirklich sehr nett, arbeitet ordentlich u ist nicht mehr so energielos. Also sorge
+               dafür. Im Übrigen schreibe aber nichts, daß ich Dir das berichtet habe. Du hast doch
+               mal gesagt, er könne bei Dir essen. Dann braucht er doch den saudummen Convicte
+               nicht.</p>
+            <p>Deinen Pessimismus in Bez. auf den Bund<pb n="4"/> teile ich in gewisser Beziehung,
+               nämlich wenn man Ideal u. Realität vergleicht; nicht aber wenn man Wingolf u. übrige
+               Studentschaft vergleicht. Es sind bei uns überall noch gute starke Kräfte, wie auch
+               oft schlummernd u. ein rechter Wille, wenn auch oft unbewußt. Darum wäre es ein
+               Fehler, wenn wir uns vom Bunde abtrennten u. eine Wingolfsekte würden. Unsere Aufgabe
+               liegt im Bund (cf. Parallele Volkskirche u. Sekte). Es kann ja sein, daß wir ganz
+               ohne Bund weiterbestehen würden. (Die Gefahr der Versumpfung wäre größer, wenn wir
+               keinen Gegner mehr haben). Aber der Bund hat uns nötig u. wir haben jetzt nach
+               Aufhebung des Aktivitätszwangs mehr Aussicht als bisher, auf Einfluß in den
+               Verbindungen, weil <placeName>Marburg</placeName> u Co nicht mehr aktiv wird. Aber
+               ich sehe auch hier manches nette Füxlein, das mal in <placeName>Halle</placeName>
+               eine tüchtige Kraft werden wird. Darum dürfen wir uns solchen Zuzug nicht
+               abschneiden.</p>
+            <pb n="5"/>
+            <p>Wir müssen eben in <placeName>Halle</placeName> immer die Kraft haben solche Leute an
+               ihren Posten zu stellen u. unser Ideal hat besiegende Kraft für jeden, der dessen
+               wert ist. Also solange sich noch wenige zum <unclear>εις</unclear> bekennen, werden
+               wir siegen. - Dem Bund gegenüber gilt es: weniger Kritik mehr Position. Wir wollen v.
+               ihrem Zustand gar nicht reden, sondern nur unser Ideal rücksichtslos in die Gegend
+               stemmen. Das Mittel ist weniger, oder fast gar nicht der Bundesbrief, sondern unsere
+               geschulten Inaktiven im Bund. Wir haben jetzt schon eine stille, aber sichere Macht,
+               wir werden sie haben solange wir uns in Demut u Liebe in die Reihen der für den
+                  <unclear>εις</unclear> Kämpfenden stellen. Also werde kein Sektierer. Es ist wohl
+               einfacher sich von der bösen Welt u. dem bösen Bund ins Kloster zum hl. <persName
+                  ref="P01013">Kähler</persName> zu verkriechen, aber evangelisch ist es nicht. Sie
+               sollen uns haben, solange sie uns tragen wollen.</p>
+            <p>Ich freue mich, von Eurem geistig reg<pb n="6"/>samen Leben zu hören. Wir haben es
+               hier still. Menschen, von denen man geistig nehmen könnte, sind nur sehr wenig da.
+                  <persName ref="P02095"
+               >Hermann</persName><!-- Bin mir nicht sicher mit der Angabe Hermann Witte. Könnte auch ein anderer gemeint sein, lässt sich aus dem Text aber so gut wie gar nicht erschließen wer. PS -->
+               fehlt mir oft. Dir wohl auch? <hi rend="aq"><persName ref="P01050"
+                  >Albert</persName></hi> ist eigentlich der Einzige u. mit ihm verkehre ich viel.
+               Sonst sind es eben Bücher. <persName ref="P02252">Raabe</persName> lese ich mit viel
+               Freude, er ähnelt in Vielem <persName ref="P00460">Dickens</persName>. Sonst studiere
+               ich Dogmengeschichte u. besonders AT. Um <persName ref="P01013">Kählers</persName>
+               <bibl type="book">Ethik</bibl> beneide ich Euch, die muß mächtig sein. In den letzten
+               Tagen habe ich mich mit <persName ref="P00845">Heims</persName>
+               <bibl type="book">"Weltbild"</bibl> beschäftigt, könnte aber nicht sagen, daß ichs
+               kapiert hätte.</p>
+            <p>Ich freue mich mächtig, Dich bald zu sehen. Um Deine Gesundheit sorge ich mich
+               manchmal. Gelt Du bedenkst, daß Du Deine Kraft noch zu Manchem brauchen wirst. Wir
+               fangen erst an, zu leben. Grüße deinen lb. <unclear>Scherling</unclear>. Daß Du an
+               ihm viel Freude erlebst, sah ich voraus. Grüße Deine Frau Gemahlin. </p>
+            <closer>
+               <signed>Dein <persName ref="P00641">Alfred</persName>.</signed>
+            </closer>
+
+            <postscript>
+               <p><persName ref="P00203">Lorenz</persName> u xx danke ich für die Briefe. Ich will
+                  bald mal antworten. Grüße <persName ref="P01708">Scheteligs</persName></p>
+            </postscript>
+
+         </div>
+      </body>
+   </text>
+</TEI>

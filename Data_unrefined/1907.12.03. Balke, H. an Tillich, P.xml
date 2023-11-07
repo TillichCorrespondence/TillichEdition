@@ -1,0 +1,232 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Hans Balke an Paul Tillich <lb/>vom 3. Dezember 1907 </title>
+            <author ref="P00128">Hans Balke</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974.</collection>
+                  <idno>bMS 649/122(40)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+               <additional>
+                  <!-- Wenn Brief bereits publiziert hier die richtige Struktur aussuchen -->
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel der Monographie<!--></title>
+                           <edition><!-->Auflage<!--></edition>
+                           <imprint>
+                              <publisher><!-->Herausgeber<!--></publisher>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Reihe<!--></title>
+                           <biblScope><!-->Reihennummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                     <biblStruct type="journal" n="reprint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel des Aufsatzes<!--></title>
+                           <imprint>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Zeitschrift<!--></title>
+                           <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <biblStruct type="monograph">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien überliefert sind und im Original nicht mehr vorhanden!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel der Monographie<!--></title>
+                  <edition><!-->Auflage<!--></edition>
+                  <imprint>
+                     <publisher><!-->Herausgeber<!--></publisher>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Reihe<!--></title>
+                  <biblScope><!-->Reihennummer<!--></biblScope>
+               </series>
+            </biblStruct>
+            <biblStruct type="journal">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften überliefert sind und im Original nicht mehr vorhanden<!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel des Aufsatzes<!--></title>
+                  <imprint>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Zeitschrift<!--></title>
+                  <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P00128">Hans Balke</persName>
+               <placeName ref="Halle a. d. S.">Halle</placeName>
+               <date when="1907-12-03">3. Dezember 1907</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P01930">Paul Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2022-08-26">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <dateline><placeName ref="Halle a. d. S.">Halle</placeName>, den <date
+                     when="1907-12-03">3. Dez. 07.</date></dateline>
+               <salute>Lieber <persName ref="P01930">Paul</persName>,</salute>
+            </opener>
+            <p>In rasender Eile einen kurzen Gruss.</p>
+            <p>Zunächst ein paar äussere Sachen. Könntest Du nicht vielleicht von <placeName
+                  ref="Berlin">Berlin</placeName> aus eine Bundesprolese gegen Marburgs thörichten
+               Bundesantrag u. für Leipzig's begabten Antrag loslassen. Zu letzterem habe ich
+                  <persName ref="P02176">Heienbrok</persName> veranlasst, damit der Antrag nicht aus
+                  <placeName ref="Halle">Halle</placeName> käme. Hoffentlich wird er angenommen.
+               Wenn auch die Konferenz in <placeName ref="Liverpool">Liverpool</placeName> mehr mit
+               der D.C.S.V. zusammenhängt, so ist es doch eine grossartige, weltgeschichtlich
+               bedeutsame Sache. Vor 4 Jahren war ein Wingolf auf eigne Kosten da, galt aber als
+               offic. Vertreter des Bundes. Diesmal hat sich bisher kein Freiwilliger gefunden. Ich
+               glaube, auch für die innere Entwicklung des Bundes wäre es gut, solche
+               Berührungspunkte mit christlichen Unternehmungen u. einen Stachel zur Mitarbeit zu
+                  kriegen.<pb n="2"/> Wie fein, dass <persName ref="P00877">Amos</persName> bei Dir
+               war, er muss mir bald noch genauer berichten. Teile mir bitte möglichst bald mit,
+               wann Du zu kommen gedenkst u. wann <persName ref="P01050">Albert K.</persName> die
+                  Weihnachts<del rend="s">knei</del>pauke mitmachen kann, ob Dienstag oder Mittwoch.
+               Montag ist wirklich zu früh, da bis Freitag noch gelesen wird. Ich habe leider so
+               viel zu tun, dass mir etwas vor Deinem Besuche bangt. Meine erste Predigt u. die
+               Rezeptionskneipauke müssen noch bis Quartalsschluss fertig werden. Ich komme in
+               meiner Predigt garnicht über ganz absraktes, schreckliches Zeug hinweg u. das ärgert
+               u. entmutigt mich sehr.</p>
+            <p>Mit <persName ref="P01295">Deinem lieben Leibfux</persName> hatte ich am 1. Advent
+               zum 1. Mal in diesem Semester eine längere Auseinandersetzung über seine religiösen
+               Zweifel u. Fragen u. war tief betrübt u. geknickt, ihm garnicht helfen zu können. Der
+               Trost, dass ihm bei seinem furchtbaren Ernst u. seiner Energie der entscheidende
+                  Sprung<pb n="3"/> doch gelingen werde, verfängt in seiner Lage garnicht. Ich
+               glaube, dass der Umschwung bei ihm auf einmal plötzlich kommen wird. Er kam zu mir u.
+               sagte, es sei ihm ganz unfasslich, wie ein Mensch in den zentralsten Fragen des
+               Lebens zu einem ganz negativen Resultat gelangen u. doch noch ruhig u. äusserlich
+               vergnügt weiterleben könne. Ihm gehe es so. Er habe von keiner Predigt etwas, weil
+               dort das, was ihm fehlte, immer vorausgesetzt sei. Auch das Lesen des N.T. sei
+               erfahrungsgemäss wertlos für ihn, auch mit <persName ref="P01713"
+                  >Schlatters</persName> Kommentaren könne er nichts anfangen. Ich sagte ihm, dass
+               wir Menschen nicht mit Gewalt treiben dürften, sondern auf Gottes Stunde warten
+               müssten; aber dass das eine schwere Last ist, ist ja klar. Er wandte ein, er wisse ja
+               auch garnicht, wie lange ihm noch Frist gesetzt sei; doch sagte ich ihm, dieser
+               Gedanke dürfe ihn nicht schrecken; seine negative Stellung sei auch schon Glaube. Er
+               tut mir furchtbar leid,<pb n="4"/> u. es ist eine drückende Last, nicht helfen zu
+               können. Aber es geht ja wirklich nicht. Schreibst Du ihm wohl öfter über seine
+               persönlichen Fragen? es ist zwar wenig zu machen; aber vielleicht hilft`s ihm
+               etwas.</p>
+            <p>Was macht Deine Arbeit? Bist Du befriedigt?</p>
+            <p>Jetzt schleunigst Schluss, ich gehe in <persName ref="P00950">Ibsens</persName>
+               <bibl type="book">Rosmersholm</bibl>; morgen hält <persName ref="P02177"
+                  >Nöck</persName> einen Unterhaltungsabend über christl. Gewerkschaften. Wann
+               willst Du Deinen halten? Herzl. Grüsse an Deine lb. Angehörigen u. die "Hallenser",
+               besonders an <persName ref="P02095">Witte</persName>, dem ich herzlich für seine
+               famose Karte danke. </p>
+            <closer>
+               <salute>In treuen u. Eile</salute>
+               <signed>Dein <persName ref="P00218"><hi rend="u">Hans</hi></persName>.</signed>
+            </closer>
+
+            <postscript>
+               <p><persName ref="P01986">Gilbert</persName> lässt grüssen.</p>
+            </postscript>
+
+         </div>
+      </body>
+   </text>
+</TEI>

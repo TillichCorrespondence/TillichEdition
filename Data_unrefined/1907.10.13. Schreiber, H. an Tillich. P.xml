@@ -1,0 +1,300 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Hans Scheiber an Paul Tillich <lb/>vom 13. Oktober 1907</title>
+            <author ref="P01740">Hans Schreiber</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974.</collection>
+                  <idno>bMS 649/183</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+               <additional>
+                  <!-- Wenn Brief bereits publiziert hier die richtige Struktur aussuchen -->
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel der Monographie<!--></title>
+                           <edition><!-->Auflage<!--></edition>
+                           <imprint>
+                              <publisher><!-->Herausgeber<!--></publisher>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Reihe<!--></title>
+                           <biblScope><!-->Reihennummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                     <biblStruct type="journal" n="reprint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel des Aufsatzes<!--></title>
+                           <imprint>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Zeitschrift<!--></title>
+                           <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <biblStruct type="monograph">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien überliefert sind und im Original nicht mehr vorhanden!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel der Monographie<!--></title>
+                  <edition><!-->Auflage<!--></edition>
+                  <imprint>
+                     <publisher><!-->Herausgeber<!--></publisher>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Reihe<!--></title>
+                  <biblScope><!-->Reihennummer<!--></biblScope>
+               </series>
+            </biblStruct>
+            <biblStruct type="journal">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften überliefert sind und im Original nicht mehr vorhanden<!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel des Aufsatzes<!--></title>
+                  <imprint>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Zeitschrift<!--></title>
+                  <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P01740">Hans Schreiber</persName>
+               <placeName ref="where">Bremen</placeName>
+               <date when="1907-10-13">13. Oktober 1907</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P01930">Paul Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2023-04-18">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <dateline>
+                  <placeName ref="Bremen">Bremen</placeName>, den <date when="1907-10-13">13. Okt.
+                     07.</date></dateline>
+               <salute>Lieber <persName ref="P01930">Paul</persName>,</salute>
+            </opener>
+            <p><hi rend="aq">Pater peccavi</hi> ... ist mein erstes Wort. Leider ist gestern erst
+               das Protokollbuch an Dich abgegangen! Denke Dir, ich habe es überhaupt nicht in den
+               letzten <del rend="s">Wochen</del>
+               <hi rend="sup">Tagen</hi> fertiggestellt! Ich habe die letzte Zeit im wahrsten Sinne
+               des Wortes nur noch vegetiert, nicht gelebt. Man konnte am Fehlen jeglicher
+               Willensregung deutlich sehen, mit welchem Recht <persName ref="P00589"
+                  >Fichte</persName> dem Willen eine so bedeutsame Rolle im menschlilichen Ich
+               zuerkennt. Ohne Wille ist das Ich tot. Aber da ich gestern Abend nach <placeName><hi
+                     rend="aq">Bremen</hi></placeName> wollte, und vorher das Protokollbuch doch
+               noch mir "aus dem Herzen, mir aus dem Sinne" mußte, geriet nun zwar nicht der Wille,
+               wohl aber die Maschine, die man Körper und Geist nennt, energisch in<pb n="2"/>
+               Bewegung, der Not gehorchend, nicht dem eigenen Triebe. Ich war also keineswegs in
+               diesem Falle im Sinne <persName ref="P01710">Schillers</persName> ein Künstler der
+               die Notwendigkeit mit Freiheit, umgestaltet, sondern eben eine Maschine... Der Bien'
+               muß. Und diese Maschine schrieb und schrieb; Donnerstag bis 2 Uhr Nachts, dann
+               Freitag, Sonnabend früh war ich fertig. Ich bin ja nun sehr geknickt, daß ich Dir das
+               Protokollbuch nicht so sauber abliefern kann, wie <persName ref="P00203"
+                  >Lorenz</persName>, aber... Übrigens möchte ich zu den Protokollen noch Folgendes
+               bemerken. Bei den Kl. Chargen ist, glaube ich, doch noch ein Irrtum untergelaufen.
+               Ist nicht <persName ref="P02336">Giese</persName> Lesezimmerdachs und nicht <persName
+                  ref="P02337">Böke</persName>? Außerdem wußte ich die Namen der Kassenrevisions<hi
+                  rend="sup">kommission</hi> nicht, und hat nicht <persName ref="P01295"
+                  >Meinhof</persName> eine Charge? Dann, <del rend="s">ist</del> hat <persName
+                  ref="P02172">Schuster</persName> nicht den Antrag gestellt, ihm das Band zu geben,
+               oder hat er es unterlassen, weil sein Fortgehen noch nicht sicher war? In meinen<pb
+                  n="3"/> Protokollen finde ich nichts darüber. (<persName ref="P02338"
+               >O</persName>. und <persName ref="P01708">W. Schetelig</persName> sind doch nicht ums
+               Band eingekommen?)</p>
+            <p>Endlich habe ich die Statistik noch nicht eingetragen weil ich nicht recht wußte, ob
+               ich den Stand zu Anfang oder Ende des Semesters nehmen sollte. Ich würde es fürs
+               beste halten den zu Ende des Semesters aber mit Angabe <del rend="s">bei</del>
+               <hi rend="sub">von</hi> Veränderungen der Semesterrechte etc. in Klammern (z. B. bei
+                  <persName ref="P02339">Mensching</persName>) und dann am Rande Verweis auf den
+               betreffenden Konvent. Alles dies werde ich noch in <placeName><hi rend="aq"
+                     >Halle</hi></placeName> verbessern und nachtragen. Für die Statistik mußt Du
+               übrigens <hi rend="u">3 volle Sei- ten frei lassen</hi>, wenn Du Deine Sprüche am
+               Schluß schreiben willst. Du weißt doch, daß Du nach Deinen eigenen Statuten jeden
+               einzelnen A. C. B. C. P. C. unterschreiben, da wird Dein Namenszug ja famos
+               ausgeschrieben werden Tillich (Leider nicht gelungen), vielleicht wird diese
+               unfreiwillige Schreibübung (ich denke ca. 120 mal Tillich.) auch noch weitere<pb
+                  n="4"/> segensreiche Folgen für Deine Schrift überhaupt haben; in Deinen Briefen
+               sind manche <del rend="s">Briefe</del> Worte recht schwer entzifferbar.</p>
+            <p>Also seit gestern Abend bin ich hier und bleibe hier bis ich nächsten Freitag gen
+                     <placeName><hi rend="aq">Halle</hi></placeName> dampfe. Kerl, nach
+                     <placeName><hi rend="aq">Halle</hi></placeName>! Beneidenswerter Gedanke. Wie
+               ich die letzten Worte im Protokollbuch schrieb, wurde mir etwas wehmütig zu Mute,
+               denn ich dachte, mancher kommt nach <placeName><hi rend="aq">Halle</hi></placeName>
+               nicht zurück. Zu diesen Unglücklichen gehörst leider auch Du.</p>
+            <p>Ob Du nicht vielleicht doch zur Antrittskneipe kommst und zugleich das Anfangskolleg,
+               des berühmtesten, in Europa gelesenen Kollegs hörst?</p>
+            <p>Nach <placeName><hi rend="aq">Berlin</hi></placeName> komme ich natürlich im Februar
+               mit 1000 Freuden! Jetzt schon besten Dank für die freundliche Einladung und die 10 M.
+               Also dies ist <hi rend="aq">epistola</hi> I. Ich bitte genau zu zählen! Von <persName
+                  ref="P00310">Büchsel</persName> hatte<pb n="5"/> ich kurz vor seinem Examen eine
+               Karte. Er schrieb unter anderm, daß wir auf dem Tiefinnerlichen bei <persName
+                  ref="P02219">Ritter</persName> nächstes mal <persName ref="P00845"
+                  >Heims</persName> Kuhzunft erörtern wollten. Famose Aussichten! Das ist ja
+               schlemmerhaft, daß Du ihn in <placeName><hi rend="aq">Stettin</hi></placeName>
+               heimgesucht hast. Daß du noch einmal in <placeName><hi rend="aq"
+                  >Misdroy</hi></placeName> warst, finde ich genial.</p>
+            <p>Heute Morgen war ich hier in einer großen Haupt- und Staatsaktion, die für die
+               Kirchenpolitik nicht ohne Bedeutung sein dürfte. Der Nachfolger <persName
+                  ref="P01016">Kalthoffs</persName>
+               <persName ref="P02340"><hi rend="aq">Pastor Felden</hi></persName> wurde eingeführt.
+               Du hast gewiß schon von diesem, neuen komplicierten "Fall" gehört. <persName
+                  ref="P02340"><hi rend="aq">Felden</hi></persName> hat ein angenehmes, fließendes
+               Organ, auch der Inhalt seiner Rede war nicht so übel. Aber, wie ich durch <persName
+                  ref="P02341"><hi rend="aq">Pastor Büttner</hi></persName> hörte, ist er ein Mann,
+               der sich schnell totpredigt. Schon in dieser einen Predigt wiederholte er sich etwas.
+               Neben dem bedeutenden <persName ref="P01016"><hi rend="aq">Kalthoff</hi></persName>
+               ist er jedenfalls nur ein<pb n="6"/> kleines Licht. Der ganze "Gottesdienst" hatte
+               für mich etwas eigenartiges. Die Kirche war recht voll. Der interessante "Fall" <del
+                  rend="s">ha</del> war natürlich durch alle Zeitungen gegangen und hatte eine Menge
+               Neugieriger herbeigeführt, eine Menge, die nicht den Eindruck einer Gottesdienst
+               feiernden Gemeinde machte. Die Einführung fand in der alten ehrwürdigen <hi rend="aq"
+                  >Martini</hi>-Kirche statt. Der Gottesdienst begann mit dem Wort: "Die Liebe
+               Gottes und der Geist sei mit uns allen" eine geschickte Auswahl! Nur was war es für
+               ein Geist, der dort wehte. Ich glaubte immer, die alten Kirchenmauern könnten ihn
+               nicht ertragen und könnten jeden Augenblick über dieser frivolen Menge
+               zusammenbrechen. Aber sie blieben ruhig und fest stehen, und ich dachte, sie haben
+               schon mal einem niederreißenden, brausenden Strome standgehalten, als es mit
+                  <persName ref="P01228">Luther</persName> hieß: die Kirche ist nichts, der Pabst<pb
+                  n="7"/> ist nichts. Und ich fragte mich, ist die Berandung von heute, die durch
+               den Gegensatz zwischen alt und neu hervorgerufen wird, stärker als damals?</p>
+            <p>Und was war das Neue? Religion ist der <del rend="s">l</del> Gegenwart leben, <del
+                  rend="s">d</del> an die Zukunft glauben. Die größte Sache ist, nicht seiner
+               eigenen Individualität zu folgen, sondern irgendeinem äußeren Zwange. Keine Autorität
+               mehr. Alle Wahrheit bleibt für uns nur relativ. Das Streben nach Wahrheit (<persName
+                  ref="P01169">Lessing</persName>) ist das höchste. Immer sich wieder dem Neuen
+               bedingungslos in die Arme werfen.</p>
+            <p>War das religiös? Was nach alter Anschauung von religiösen Momenten in dem ganzen
+               "Gottesdienst" vorkam, das war das ganz unvermutet nach der "Predigt" gesprochene
+               Vater Unser, und der Segen nach dem letzten Lied, der einem auch ganz<pb n="8"/>
+               überraschend kam. Bei beiden hat man den peinlichen Eindruck, ein alter Zapf, der
+               wirklich nicht mehr hierhergehört, eine Form, die man um der Behörde und des Friedens
+               willen beibehalten hat.</p>
+            <p>Ich habe jetzt ein Buch von <persName ref="P01016">Kalthoff</persName>. Das muß aber
+               doch ein hervorragender Mann gewesen sein! Wirklich begabt!</p>
+            <p>Nach der Kirche sah ich auch <persName ref="P02342"><hi rend="aq"
+                  >Groeber</hi></persName> und Bronisch und <persName ref="P01870">Pabst <hi
+                     rend="aq">Stoevesandt</hi></persName>. Laß’ den <persName ref="P02342"><hi
+                     rend="aq">Groeber</hi></persName> am nächsten Samstag aber nicht zu viel auf
+               dem Konvent reden!</p>
+            <p><persName ref="P02343"><hi rend="aq">Bronisch</hi></persName> soll nächstens auch mal
+               zu uns kommen und von der Versammlung der Freunde der christl. Welt erzählen, der er
+               in Marburg beigewohnt hat. <persName ref="P02341"><hi rend="aq">Pastor
+                  Büttner</hi></persName> erzählte schon von den interessanten Verhandlungen. Hast
+               Du auch schon von der Schwenkung <persName ref="P01958"><hi rend="aq"
+                  >Troeltschs</hi></persName> gehört zur Metaphysik hin, veranlasst durch <persName
+                  ref="P02344"><hi rend="aq">Portigs</hi></persName> Buch!! – Falls Du mir ein
+               Lebenszeichen geben willst, meine Adresse: bei Missionsinspektor <hi rend="aq"
+                  >Schreiber, <placeName>Bremen</placeName>, <address>
+                     <street>Ellhornstr. 12</street>
+                  </address></hi>. </p>
+            <closer>
+               <signed>Herzlichst Dein <persName ref="P01740"><hi rend="aq"
+                  >Hans</hi></persName>.</signed>
+            </closer>
+
+            <postscript>
+               <p/>
+            </postscript>
+
+         </div>
+
+      </body>
+   </text>
+</TEI>
