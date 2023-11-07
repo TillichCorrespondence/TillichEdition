@@ -1,0 +1,112 @@
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von <persName ref="P01930">Paul Tillich</persName> an <persName ref="P01925">Hannah Tillich</persName>
+                    <lb/>vom <date when="1926-03-15">15.03.1926</date>
+                </title>
+                <author ref="P01930">Paul Tillich</author>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Emil Lusser</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+                    <address>
+                        <street>Schenkenstraße 8-10</street>
+                        <postCode>1010</postCode>
+                        <placeName ref="Wien">
+                            <settlement>Wien</settlement>
+                            <country>Österreich</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+                </availability>        
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="Postkarte">
+                    <msIdentifier>
+                        <country>USA</country>
+                        <settlement>Cambridge, MA</settlement>
+                        <institution>Harvard University</institution>
+                        <repository>Harvard Divinity School Library</repository>
+                        <collection>Tillich, Hannah. Papers, 1896-1976</collection>
+                        <idno>bMS 721/2(22)</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>handschriftlich</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+            </editorialDecl>
+        </encodingDesc> 
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="P01930">Paul Tillich</persName>
+                    <placeName ref="Bremen">Bremen</placeName><!--Poststempel-->
+                    <date when="1926-03-15">15.03.1926</date><!--Poststempel-->
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="P01925">Hannah Tillich</persName>
+                    <address><placeName ref="Dresden">Dresden. <unclear>A.</unclear>
+                        <lb/>Elisenstr. 11</placeName></address>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="deu">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="EL" when="2023-07-17">Intitale Auszeichnung des Transkripts</change>
+            
+        </revisionDesc>
+    </teiHeader>
+    <text type="postcard">
+        <body>
+            <div type="hand1">
+                <pb n="1"/>
+                <opener>
+                    <salute>Liebste <persName ref="P01925">Hannah</persName>!</salute>
+                </opener>
+                <p>Die Fahrt war lang und müde. Der Abend bei <persName ref="P01870">St.<abbr>oevesandt</abbr></persName> sehr schön. Viele wertvolle Unterhaltungen. Die Nacht traumreich wie jetzt immer. Gleich will mich <persName ref="P01870">St.<abbr>oevesandt</abbr></persName> untersuchen. Er meint Du solltest auf alle Fälle nähren.<note type="ea">Bezieht sich auf das Stillen von <persName ref="P00570">Erdmuthe</persName>.</note>Die Müdigkeit käme vom Körperumbau, auch ohne Nähren und wäre gut. Ich bin jetzt sehr vergnügt!
+                </p>
+                <closer>In Liebe
+                    <signed>
+                        <lb/>Dein <persName ref="P01930">Paul</persName>.</signed>
+                </closer>
+            </div>
+            <div type="hand2">
+                <p></p>
+                    <closer>
+                    Herzl.<abbr>ichen</abbr> Gruss
+                    <signed>
+                        <persName ref="P01870">Karl Stoevesandt</persName>
+                    </signed>
+                </closer>
+            </div>
+                <pb n="2"/>
+                <div type="hand1">
+                    <p></p>
+                    <postscript><p>Ergebnis der Untersuchung: Alles tadellos in Ordnung!</p></postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,98 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von <persName ref="P01930">Paul Tillich</persName> an <persName ref="P01925">Hannah Tillich</persName>
+                    <lb/>vom <date when="1927-10-08">8. Oktober 1927</date>
+                </title>
+                <author ref="P01930">Paul Tillich</author>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Friedrich Schumann</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+                    <address>
+                        <street>Schenkenstraße 8-10</street>
+                        <postCode>1010</postCode>
+                        <placeName ref="Wien">
+                            <settlement>Wien</settlement>
+                            <country>Österreich</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+                </availability>        
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="Postkarte">
+                    <msIdentifier>
+                        <country>USA</country>
+                        <settlement>Cambridge, MA</settlement>
+                        <institution>Harvard University</institution>
+                        <repository>Harvard Divinity School Library</repository>
+                        <collection>Tillich, Hannah. Papers, 1896-1976</collection>
+                        <idno>bMS 721/2(24)</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>handschriftlich</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+            </editorialDecl>
+        </encodingDesc> 
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="P01930">Paul Tillich</persName>
+                    <placeName ref="Dresden">Dresden</placeName><!--Poststempel-->
+                    <date when="1927-10-08">8. Oktober 1927</date><!--Poststempel-->
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="P01925">Hannah Tillich</persName>
+                    <placeName ref="Rothenburg a. d. Fulda">Rothenburg a. d. Fulda</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="deu">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="FS" when="2023-07-10">Intitale Auszeichnung des Transkripts</change>
+            
+        </revisionDesc>
+    </teiHeader>
+    <text type="postcard">
+        <body>
+            <div type="writingSession">
+                <pb n="1"/>
+                <opener>
+                    <salute>Liebe <persName ref="P01925">Hannah</persName>!</salute>
+                </opener>
+                <p><hi rend="u">Vielen</hi> Dank für Deine <bibl>Karten</bibl><!--Nicht vorliegend-->! Inzwischen wirst Du <bibl>Karte</bibl><!--1927.10.05 Tillich, P an Tillich H--> und <bibl>Brief</bibl><!--nicht vorliegend--> von mir haben. <persName ref="P00570">Erdmuthe</persName> wird immer mehr, wie wir es wünschen. Heut hat sie lange die Schwäne im Park beobachtet. Augenblicklich ißt sie auf meinem Stuhl ihr Vesperbrot. Ich lasse jetzt Fahren und Gehen immer abwechseln, damit sie sich nicht überanstrengt. Das Wetter ist heut besser, aber ich bin auch sonst mit ihr draußen gewesen. Es ist keine Kleinigkeit, mit ihr zu gehen; denn sie will immer anders als man denkt. Von Husten habe ich nichts bei ihr gehört. Sehr wenig gut geht es dagegen <persName ref="P00688">Heinrich</persName>. Er leidet körperlich und seelisch, nicht so sehr <pb facs="2"/> aus speziellen Gründen, als aus allgemeiner Depression. Schreibe ihm mal nett! Dränge ihn, sich wenigstens von einem Arzt <hi rend="u">untersuchen</hi> zu lassen. – Ich gehe früh ins Bett und stehe früh auf und fühle mich sehr wohl dabei!</p>
+                <closer>
+<salute>In Liebe</salute>
+                    <signed>Dein Paul.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+

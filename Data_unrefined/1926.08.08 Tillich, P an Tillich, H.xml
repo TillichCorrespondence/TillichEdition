@@ -1,0 +1,113 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von <persName ref="P01930">Paul Tillich</persName> an <persName ref="P01925">Hannah Tillich</persName>
+                    <lb/>vom <date when="1926-08-08">08. August 1926</date>
+                </title>
+                <author ref="P01930">Paul Tillich</author>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Friedrich Schumann</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+                    <address>
+                        <street>Schenkenstraße 8-10</street>
+                        <postCode>1010</postCode>
+                        <placeName ref="Wien">
+                            <settlement>Wien</settlement>
+                            <country>Österreich</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+                </availability>        
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="Brief">
+                    <msIdentifier>
+                        <country>USA</country>
+                        <settlement>Cambridge, MA</settlement>
+                        <institution>Harvard University</institution>
+                        <repository>Harvard Divinity School Library</repository>
+                        <collection>Tillich, Hannah. Papers, 1896-1976</collection>
+                        <idno>bMS 721/2(23)</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>handschriftlich</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+            </editorialDecl>
+        </encodingDesc> 
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="P01930">Paul Tillich</persName>
+                    <date when="1926-08-08">08. August 1926</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="P01925">Hannah Tillich</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="deu">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="FS" when="2023-04-24">Intitale Auszeichnung des Transkripts</change>
+            
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <div type="writingSession">
+                <pb n="1"/>
+                <opener>
+                    <salute>Liebste <persName ref="P01925">Hannah</persName>!</salute>
+                </opener>
+                <p>Nun sind wir hier in <placeName ref="St.Malo"><hi rend="aq">St. Malo</hi></placeName>. Es ist nicht Atlantischer Ozean, sondern Kanalküste. Aber so schön, daß wir auf alle Fälle es sehen wollten, ehe wir in den nächsten Tagen weiter fahren. Die Adresse, an die ich dich bitte, gleich zu schreiben, heißt: <address><placeName ref="St.Malo"><hi rend="aq">St. Malo, Bretagne, Frankreich, Hotel  de la Digue</hi></placeName></address>.<lb/>
+Der Abschied von <placeName ref="Paris">Paris</placeName> war sehr leicht. Außer <persName ref="P02361">Christian</persName> hatten wir es alle über. Ich war am letzten Tag Vormittags bei <persName ref="P02362"><hi rend="aq">Madame Fondaminski</hi></persName>, etwas älter als Frau <persName ref="P02363"><hi rend="aq">Stepun</hi></persName>, sehr fein und geistig. <persName ref="P02364">Ihr Mann</persName> Schriftsteller, der aber verreist war. Sie unterrichtet die Russen in modernen Tänzen <pb facs="2"/>
+Ich habe mich für <date when="1926-09">September</date> angemeldet. Ich werde durch sie an die russisch-Pariser Gesellschaft herankommen, was sehr wichtig ist. Denn das Straßen-Dasein in <placeName ref="Paris">Paris</placeName> ist sehr bald unerträglich. Einen Abend war ich mit <persName ref="P02361">Christian</persName> in einem Witz und Melodien strömenden Boulevard-Theater, wo das Tempo alles, das Nackte nichts war (es kam auch kaum wer). Das war ein sehr starker Eindruck. Nachher noch ein nächtlicher Boulevardbummel mit Unterhaltungen mit Geld-hungrigen aber sehr süßen Kokottchen. Es war gar nicht so leicht, den <persName ref="P02361">Christian</persName> unversehrt nach Haus zu bringen. Am nächsten Morgen eine lange müde Fahrt durch den Garten Frankreich.<pb facs="3"/>
+Vorher betrübter Abschied von <persName ref="P02045">M. L.</persName> – – Wir wohnen hier in einem der besten Hotels. <persName ref="P02361">Christian</persName> und <persName ref="P01889">Eckart</persName> in einer Dachkammer zusammen für ca 5M den Tag mit voller Pension, Essen direkt am Meer mit viel eleganten Engländerinnen. Ich mußte das teurere Zimmer nehmen, schlafe dafür allein und ganz ruhig. Ca 7M alles.  Fabelhafte Verpflegung.<lb/>
+Der Ort ist ein altes Felsen-Nest, ringsherum hohe Befestigungsmauer, innen alte Straßen. Erinnert etwas an <placeName ref="Syrakus">Syrakus</placeName>. Ringsherum Wasser, Häfen,  Buchten. Im Meer weithin große und kleine Klippen mit Befestigungen, ein fabelhaftes Bild. Ich sitze hier auf einer<pb facs="4"/>
+solchen Klippe, die vom Land her weit hereingeht. Schwierige Kletterei oben ein Kastell. Es ist kühles Sonnenwetter mit Ostwind, also wenig Wellen, aber prachtvolle Farben.<lb/>
+Durcheinander Eingeborene und Fremde. Von Badeleben noch nicht viel zu merken.<lb/>
+– – – – – – – – – – – –<lb/>
+Inzwischen habe ich das erste Bad genommen. Es war wunderbar schön und warm. Dann viele Gänge Diner und jetzt sitze ich vor dem Hotel am Strand bei Wind und hellster Sonne. In etwa 3 Tagen wollen wir dann an den Atlantischen Ozean in ein kleines Bad. Das Badeleben ist in Deutschland viel netter. Hier fällt alles auseinander. – Ich habe gleich nach Ankunft meine<pb facs="5"/>
+weiße Hose und Schuhe angezogen. Wie gut daß Du für alles gesorgt hast. Zur Seidenhosen ist es noch zu kühl. Vielleicht heut Nachmittag!<lb/>
+Ohne Dich ist das Reisen nicht schön!! Ich möchte Dir alles zeigen, mit Dir über alles reden! Ich entbehre Dich jeden Augenblick! Und ich entbehre <persName ref="P00570">Erdmuthe</persName>. Nächsten Sommer muß sie mit. Unbedingt!!<lb/>
+Hast Du meine Pariser Karten bekommen? Schreibe sofort hierher. Es wird alles nachgeschickt!<lb/>
+Wir 3 vertragen uns sehr gut. <persName ref="P02361"><persName ref="P01889">Die beiden</persName></persName> sind ziemlich still. Ich amüsiere sie und "trieze" sie. Wir haben schon viel über <persName ref="P02361">Christian</persName> gesprochen. Er ist ein schwerer Fall, gerade weil er so weich ist, daß er alles<pb facs="6"/>
+immer zugibt. Er steht zwischen Zerfall und Verhärtung und so ist das zweite um dem ersten zu entgehen – –<lb/>
+Ich schreibe kein Tagebuch, da diese Reise keine Erheblichkeit im Einzelnen hat. Darum bitte ich Dich, die Karten und Briefe aufzubewahren.<lb/>
+– – – – – – – – – – – –<lb/>
+Inzwischen ist das Wetter herrlich warm geworden. Wir erwarten den Sonnenuntergang. Der Strand ist ganz voll von Menschen, die vor der Kälte geflüchtet waren. – Ich habe Sonnenbrand im Gesicht.
+                </p>
+                <closer>
+                    <salute>Leb wohl liebste <persName ref="P01925">Hannah</persName>! Ich küsse Dich tausendmal!!!!</salute>
+                    <signed>Dein Paul</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+

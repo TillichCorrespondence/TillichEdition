@@ -1,0 +1,118 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Verlag Mohr Siebeck an Paul Tillich
+               <lb/>vom 21. Januar 1927
+            </title>
+            <author ref="P02445">Verlag Mohr Siebeck</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Sebastian Kueffner</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="Kopie">
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement ref="Berlin">Berlin</settlement>
+                  <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz</repository>
+                  <collection>Handschriftenabteilung, Archiv des Verlages J. C. B. Mohr (Paul Siebeck)</collection>
+                  <idno>Nachl. 488, A 0469,5; Blatt 143-205</idno>   
+               </msIdentifier>
+               <physDesc>
+                  <p>Brief; maschinenschriftlich; Durchschlag</p>
+                  </physDesc>   
+            </msDesc>
+            <biblStruct type="journal">
+               <monogr>
+                  <author>Alf Christophersen / Friedrich Wilhelm Graf</author>
+                  <title>„Beweise einer unsichtbaren Beziehung“ Die Korrespondenz zwischen Paul Tillich und dem Tübinger Verlag J. C. B. Mohr (Paul Siebeck)</title>
+                  <imprint>
+                     <pubPlace ref="Boston">Boston</pubPlace>
+                     <date when="2011-09-27">2011</date>
+                     <biblScope>S. 301</biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title>International Yearbook for Tillich Research</title>
+                  <biblScope>Band 6 Heft 1</biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P02445">Verlag Mohr Siebeck</persName>
+              <placeName ref="Tübingen">Tübingen</placeName>
+              <date when="1927-01-21">21. Januar 1927</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01930">Paul Tillich</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="SK" when="2023-08-29">Intitale Auszeichnung des Transkripts</change>
+        
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        
+        <opener>
+           <dateline><date when="1927-01-21">21. Januar 1927</date></dateline>
+        </opener>
+        
+        <p>Sehr verehrter <persName ref="P01930">Herr Professor</persName>, Ihr Beitrag <bibl><!-- Paul Tillich: »Die Überwindung des Persönlichkeitsideals« in: Logos 16, 1927, 68–85-->„Die Ueberwindung des Persönlichkeitsideals“</bibl> für das nächste Logos-Heft ist inzwischen abgesetzt und Ihnen zur <bibl type="letter"><!-- (Finde den Beitrag nicht in Graf Edition) Relevante-Foßnote: Vgl. Paul Tillich an den Verlag Mohr Siebeck, Dresden, 23. Januar 1927 (ebd.)
+Bestellung per Vordruck von 40 Separatabzügen, 25 davon unentgeltlich.) -->Korrektur</bibl> zugeschickt worden. Ich erlaube mir, Ihnen auf Veranlassung von <persName ref="P01099">Herrn Professor Kroner</persName> schon jetzt das Honorar für einen Druckbogen (M.100.-) zu überweisen.</p>
+        <p>Da sich beim Umbruch möglicherweise noch eine kleine Umfangverschiebung ergeben kann, werde ich mir erlauben, den Ihnen noch zustehenden unbedeutenden Restbetrag bei Erscheinen des Heftes zu überweisen.
+        </p>
+        
+        <closer>
+           <salute>In vorzüglicher Hochachtung verbleibe ich Ihr ergebenster</salute>
+           <signed><ptr/>J. C. B. Mohr (<persName ref="P01783">Paul Siebeck</persName>).<note type="ea">[handschr.:]</note></signed>
+        </closer>
+      
+     </div>
+       
+    </body>
+  </text>
+</TEI>

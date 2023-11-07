@@ -1,0 +1,108 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von <persName ref="P01930">Paul Tillich</persName> an <persName ref="P01925">Hannah Tillich</persName>
+                    <lb/>vom <date when="1926-09-07">07. September 1926</date>
+                </title>
+                <author ref="P01930">Paul Tillich</author>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Friedrich Schumann</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+                    <address>
+                        <street>Schenkenstraße 8-10</street>
+                        <postCode>1010</postCode>
+                        <placeName ref="Wien">
+                            <settlement>Wien</settlement>
+                            <country>Österreich</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+                </availability>        
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="Brief">
+                    <msIdentifier>
+                        <country>USA</country>
+                        <settlement>Cambridge, MA</settlement>
+                        <institution>Harvard University</institution>
+                        <repository>Harvard Divinity School Library</repository>
+                        <collection>Tillich, Hannah. Papers, 1896-1976</collection>
+                        <idno>bMS 721/2(23)</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>handschriftlich</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+            </editorialDecl>
+        </encodingDesc> 
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="P01930">Paul Tillich</persName>
+                    <placeName ref="Trouville">Trouville</placeName>
+                    <date when="1926-09-07">07. September 1926</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="P01925">Hannah Tillich</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="deu">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="FS" when="2023-04-24">Intitale Auszeichnung des Transkripts</change>
+            
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <div type="writingSession">
+                <pb n="1"/>
+                <opener>
+                    <salute>Liebste <persName ref="P01925">Hannah</persName>!</salute>
+                </opener><!--Anm. der gesamte erste Absatz changiert zwischen Sütterlin und Antiqua-->
+                <p>Heut kam wieder Post von Dir, der <bibl>Brief</bibl><!--Brief nicht bisher ermittelt-->, worin Du von Deinem Gast schreibst und für den ich Dir sehr danke. Doch würde ich mich trotz allem freuen, mal einiges Gedankliche von Dir zu hören – als Antwort und als Frage. – –<lb/>
+Nun erst allerhand Sachliches: Der Brief von <persName ref="P02365">Schwarz</persName>. Unten rechts im Regal hinter meinem Stuhl liegen die Zeitschriften, darunter auch die "<bibl>Zeitwende</bibl>"<!--Ist "Zwischen den Zeiten" gemeint?-->. (sonst in jeder Dresdner Buchhandlung). Darauf steht die Adresse des Herausgebers. An diesen sende bitte die Schrift von <persName ref="P02365">Schwarz</persName> und schreibe dazu, daß ich auf Reisen wäre, sie aber durch Dich bäte, diese nach meiner Meinung gute Sache zu berücksichtigen. Zwei Sätze, weiter nichts.
+An <persName ref="P02367">Lydia</persName> und nach Breslau habe ich <bibl>abgeschrieben</bibl><!--nicht ermittelt-->. Den <bibl>Jung</bibl><!--nicht ermittelt, dürfte sich vielleicht um ein Buch CG Jungs (P01006) handeln--> lese ich lieber in <placeName ref="Dresden">Dresden</placeName>; hier komm ich nicht dazu.<pb facs="2"/>
+Der Bauch ist zwar nicht in Ordnung, stört mich aber nicht mehr sehr. An dem Tag, wo <persName ref="1831"><persName ref="1832">Spiegelbergs</persName></persName> kamen, war gerade ein Rückfall und darum war ich etwas "magen-verstimmt" – wie <persName ref="P02366">Elis</persName> schreibt. Ich bin natürlich sehr vorsichtig – Aber es ist so schwer, richtige Diät zu halten.<lb/>
+Dein Gedanke, daß ich in <placeName ref="Paris">Paris</placeName> einkaufen soll, ist natürlich einzig richtig. Es ist halb, höchstens 2/3 so teuer. Bitte schreibe mir doch im nächsten Brief, um was es sich für Dich und mich handelt und unterstreiche das Wichtigste! Sieh zugleich, ob Du 100-200M bekommen kannst. Da ich Ende <date when="1926-10">Oktober</date> 500M verdiene, wäre es ja töricht, wenn wir diese Gelegenheit nicht benutzten.<lb/>
+                    Den <persName ref="P01885">Stepun</persName><!--eigtl. Buch Stepuns gemeint, Titel nicht ermittelt--> habe ich <persName ref="P02361">Christian</persName><!--Identifizierung unsicher--> gegeben; er muß ihn noch haben. Bitte ihn doch darum!<lb/>
+Wie steht es mit Deiner Geldlage? Schreibe doch mal darüber! Hast Du auch wirklich genug und kann ich bleiben?<pb facs="3"/>
+Am <date when="1926-09-05">Sonntag</date> war sozusagen letzter Tag in <placeName ref="Deauville">Deauville</placeName>. Wir waren am Vormittag zum Baden und erlebten noch sehr viel schönes und elegantes Volk. Die Auffahrt der Autos zum Bad fast unübersehbar (Privatautos). Am Nachmittag zum Tee im Kurhaus wurde Oper und Ballet aus <placeName ref="Paris">Paris</placeName> gegeben. Seit <date when="1926-09-06">Montag</date> ist Schluß der Saison. Zum Trost – und mehr als das – setzte der erste richtige Westwind ein, und es kam ein herrliches Meer. Heut Nachmittag war ich mit <persName ref="1831"><persName ref="1832">Spiegelbergs</persName></persName> in <hi rend="aq">Honfleur</hi>, dem Lieblingsort <persName ref="P00148">Baudelaires</persName>, einem alten Fischernest und Hafen an der Seine-Mündung. Morgen wollen wir über <placeName ref="Le Havre">Havre</placeName>-<placeName ref="Rouen">Rouen</placeName> nach <placeName ref="Paris">Paris</placeName> – wenn uns nicht das Meer aufhält.<lb/>
+Am <date when="1926-09-04">Sonnabend</date> Abend hatten <persName ref="P01889">Eckart</persName> und ich ein echt Trouviller Erlebnis: Wir gingen um 10-11 am Strand von der Promenade. Schon stürzten sich zwei Cocöttchen auf uns, zwangen uns mit Grazie auf die Stühle, die dort zu Hunderten stehen und luxten uns in kurzer Zeit mit ebensoviel Grazie<pb facs="4"/>
+3M ab. – – – –  ein Überfall in der Wüste vor den Augen der Civilisation. Die Reise als Ganzes war wohl meine ernsteste, die ich je gemacht habe. Die stillste, in der größten, fremden Natur, allein mit <persName ref="P01889">Eckart</persName>, und damit in all dem allein, was die Frau gibt. Ich sagte heut zu <persName ref="P01831">Spiegelberg</persName>, daß ich glaub, es ist noch nie so viel in mein Unbewußtes gefallen. Aber was, weiß ich nicht. Ich habe keinen Augenblick einfach gejubelt, wie in <placeName ref="Kampen">Kampen</placeName> oder Italien. Es war immer seelische Last dabei, auch in der Natur. Dabei habe ich mich sicher am besten erholt. <persName ref="1831"><persName ref="1832">Spiegelbergs</persName></persName> waren begeistert von meinem Aussehen. Hoffentlich nimmt <placeName ref="Paris">Paris</placeName> nicht zu viel weg. Aber es ist etwas Schweres, Festes in mir, als wie ich wegfuhr.<lb/>
+Hab keine Sorge! In <placeName ref="Paris">Paris</placeName> ist alles anders. Und äußerlich gefährlich ist nichts. Dazu sind sie viel zu höflich und wir viel zu harmlos.
+                </p>
+                <closer>
+                    <salute>In ständiger Freude über Dich und <persName ref="P00570">Erdmuthe</persName><unclear>!</unclear></salute>
+                    <signed>Dein Paul.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+

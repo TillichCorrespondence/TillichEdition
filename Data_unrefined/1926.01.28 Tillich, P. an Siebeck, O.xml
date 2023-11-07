@@ -1,0 +1,122 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Paul Tillich an Oskar Siebeck
+               <lb/>vom <date when="1926-01-28">28. Januar 1926</date>
+            </title>
+            <author ref="P01930">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Niklas von Hülsen</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="Brief">
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement ref="Berlin">Berlin</settlement>
+                  <institution>Staatsbibliothek zu Berlin Preußischer Kulturbesitz</institution>
+                  <repository><!-- ??? --></repository>
+                  <collection>Mohr Siebeck, VA</collection>
+                  <idno>A Nr. 425 1926</idno>
+                  <!--Anm. FS: Ich bin mir nicht sicher, ob die Archivangabe so korrekt ist-->
+               </msIdentifier>
+               <physDesc>
+                  <p>handschriftlich</p>
+               </physDesc>
+               <additional>
+                  <listBibl>
+                     <biblStruct type="journal" n="firstPrint">
+                        <monogr>
+                           <author>Alf Christophersen/Friedrich Wilhelm Graf</author>
+                           <title>"Beweise einer unsichtbaren Beziehung". Die Korrespondenz zwischen Paul Tillich und dem Tübinger Verlag J. C. B. Mohr (Paul Siebeck)</title>
+                           <imprint>
+                              <pubPlace ref="Berlin">Berlin/</pubPlace><pubPlace ref="Boston, Massachusetts">Boston, MA</pubPlace>
+                              <date when="2011">2011</date>
+                              <biblScope>237-407, hier: 276f.</biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title>International Yearbook for Tillich Research</title>
+                           <biblScope>Bd. 6, H. 1</biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01930">Paul Tillich</persName>
+              <address><placeName ref="Dresden">Dresden Elisenstrasse 11</placeName></address>
+              <date when="1926-01-28">28. Januar 1926</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01782">Oskar Siebeck</persName>
+              <placeName ref="Tübingen">Verlag Mohr Tübingen</placeName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="NH" when="2022-11-21">Intitale Auszeichnung des Transkripts</change>
+        <change who="NH" when="2023-01-28"><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+        <change who="FS" when="2023-04-17">Ergänzende Auszeichnungen</change>
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>Sehr geehrter Herr <persName ref="P01782">Siebeck</persName>!
+        </opener>
+        <p>Sie hatten vor einem Jahr die Freundlichkeit, mich <bibl>aufzufordern</bibl><!-- Brief von Oskar Siebeck an Paul Tillich vom 19. Juli 1924-->, meinen Vortrag über <bibl>Religion und Kultur</bibl><!--Tillich, Kirche und Kultur (Sammlung gemeinverständlicher Vorträge und Schriften aus dem Gebiet der Theologie und Religionsgeschichte, Nr. 111), Tübingen 1924--> in ihrer Vortragssammlung zu veröffentlichen. Ich komme nun mit einer Anfrage zu Ihnen. Ich beabsichtige meine im Sommersemester 1925 in <placeName ref="Marburg">Marburg</placeName> mit grossem Erfolg gehaltene Vorlesung über Prolegomena zur Dogmatik zu veröffentlichen und im Anschluss daran die Dogmatik selbst, die im Werden ist. Zunächst würde es sich um die Prolegomena handeln, denen wir natürlich einen anderen, mehr aus der Sache geborenen Namen geben müssten. Es würde sich um ein Buch handeln, dass ich auf etwa 200 Druckseiten schätze. Ich möchte nun zunächst einmal grundsätzlich bei Ihnen anfragen, ob Sie bereit wären, die Prolegomena und weiterhin die Dogmatik zu übernehmen, und wenn ja unter welchen Bedingungen. Die Prolegomena liegen fast druckfertig vor, es würde eine verhältnismässig geringe Zeit in Anspruch nehmen, sie ganz druckfertig zu machen.
+        </p>
+        <closer>
+           <salute>Für eine baldige Antwort wäre ich Ihnen dankbar.
+              Hochachtungsvoll ergebenst
+           </salute>
+           <signed>Professor Dr. D. Paul Tillich P. Tillich<!-- "P. Tillich" handschriftlich -->
+           </signed>
+        </closer>
+     </div>
+    </body>
+  </text>
+</TEI>

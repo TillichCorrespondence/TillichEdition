@@ -1,0 +1,105 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von <persName ref="P01930">Paul Tillich</persName> an <persName ref="P01925">Hannah Tillich</persName>
+                    <lb/>vom <date when="1926-08-19">19. August 1926</date>
+                </title>
+                <author ref="P01930">Paul Tillich</author>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Friedrich Schumann</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+                    <address>
+                        <street>Schenkenstraße 8-10</street>
+                        <postCode>1010</postCode>
+                        <placeName ref="Wien">
+                            <settlement>Wien</settlement>
+                            <country>Österreich</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+                </availability>        
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="Brief">
+                    <msIdentifier>
+                        <country>USA</country>
+                        <settlement>Cambridge, MA</settlement>
+                        <institution>Harvard University</institution>
+                        <repository>Harvard Divinity School Library</repository>
+                        <collection>Tillich, Hannah. Papers, 1896-1976</collection>
+                        <idno>bMS 721/2(23)</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>handschriftlich</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+            </editorialDecl>
+        </encodingDesc> 
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="P01930">Paul Tillich</persName>
+		    <placeName ref="Le Conquet">Le Conquet</placeName><!--Abfassungsort steht nicht im Brief, ist aber klar durch Kontext. Trotzdem aufnehmen?-->
+                    <date when="1926-08-19">19. August 1926</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="P01925">Hannah Tillich</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="deu">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="FS" when="2023-04-24">Intitale Auszeichnung des Transkripts</change>
+            
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <div type="writingSession">
+                <pb n="1"/>
+                <opener>
+                    <salute>Liebste <persName ref="P01925">Hannah</persName>!</salute>
+                </opener>
+                <p><date when="1926-08-20">Morgen</date> ist also der Tag, wo wirklich wird, was ich schon fast 2 Jahre vorausgenommen habe: der 40<hi rend="sup">te</hi> Geburtstag. Es rührt mich infolge dieser langen Vorwegnahme nicht sehr. Nur daß Du nicht hier bist und irgend etwas Liebes von Deiner Hand mich überrascht, ist mir ein wirklicher Schmerz. Ich werde morgen viel an Dich denken und <persName ref="P01889">Eckart</persName> und ich werden eine besonders gute Flasche Wein trinken: das ist alles.<lb/>
+Aber die unerhörte Schönheit <placeName ref="Le Conquet">dieses Ortes</placeName> ersetzt alles (nur nicht Dich selbst) – – –<lb/>
+Wir wohnen in einem alten Gutshaus mit sehr großem Park nach englischem Stil mit viel Rasenflächen und wenigen, langen Wegen. <persName ref="P01889">Eckart</persName> und ich haben jeder ein Dachzimmer mit Blick aufs Meer. Wir lassen uns<pb facs="2"/>
+um 7(!!!) wecken und bekommen um <formula notation="TeX">\frac{3}{4}</formula> 8 den Kaffee auf mein Zimmer. Dann gehts an den Badestrand in der schönsten und wellenreichsten der vielen Buchten mit weißem Sandstrand (welches hier eine Seltenheit ist). Wir baden jeden Tag und es bekommt mir glänzend. Am Strand sind wir sonst die einzigen. Die Provinzfranzösinnen baden selten und ungern und dann in Familien an dem weniger schönen Kieselstrand. Um 12 Uhr ist "<hi rend="aq">grand déjeuner</hi>" (Mittagessen): Es gibt als Vorspeise zur Wahl eine kleine Krabbenart in der Schale, Seemuscheln, Radieschen, Wurstschnitten, dann als zweites einen warmen Fischgang, dann ein Gemüse, dann Fleisch mit Kartoffeln, dann grüner Salat, dann<pb facs="3"/>
+eine Speise oder Käse und Obst. (Ich habe übrigens in Frankreich Tomaten essen gelernt). Das sieht sehr viel aus, ist es aber nicht. Denn alles einzelne ist wenig. Dazu selbstverständlich <hi rend="aq">vin ordinaire</hi>, ein herrlicher weißer Bordeaux. (50FF die Flasche!!) Nach Tisch sitzen wir im Park und spielen zu Kaffee Schach. Dann gehts an irgend eine schöne Stelle, wo wir arbeiten und schreiben. Um <formula notation="TeX">\frac{1}{2}</formula> 8 Diner, fast genau wie oben. Nachher einen Mondscheinbummel im Park oder am Hafen. Um 10–<formula notation="TeX">\frac{1}{2}</formula> 11 ins Bett mit sofortigem Schlaf.<lb/>
+Die Gegend ist unbeschreiblich schön, Fels-Küsten, Buchten, zwei alte Festungswerke auf hervorspringenden Klippen, ein Hafen für Fischer, am Abend ringsherum Leucht<pb facs="4"/>
+türme und Lagerfeuer, der stärkste der Leuchtturm der Insel <hi rend="aq">Ouessant</hi>, an dem wir damals gerade vorbeifuhren, als ich seekrank wurde. Wir sehen ihn freilich von der anderen Seite. So vereinigt sich hier alles, was die anderen Orte Schönes hatten und wir sind nun beglückt.
+<!--Hier: Bleistiftkartenskizze von Le Conquet und Umgebung-->
+                </p>
+                <closer>
+<salute>Viele 1000 Grüße!!</salute>
+                    <signed>Dein Paul</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+

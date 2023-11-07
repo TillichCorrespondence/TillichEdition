@@ -1,0 +1,100 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von <persName ref="P01930">Paul Tillich</persName> an <persName ref="P01925">Hannah Tillich</persName>
+                    <lb/>vom <date when="1926-08-02">02. August 1926</date>
+                </title>
+                <author ref="P01930">Paul Tillich</author>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Friedrich Schumann</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+                    <address>
+                        <street>Schenkenstraße 8-10</street>
+                        <postCode>1010</postCode>
+                        <placeName ref="Wien">
+                            <settlement>Wien</settlement>
+                            <country>Österreich</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+                </availability>        
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="Postkarte">
+                    <msIdentifier>
+                        <country>USA</country>
+                        <settlement>Cambridge, MA</settlement>
+                        <institution>Harvard University</institution>
+                        <repository>Harvard Divinity School Library</repository>
+                        <collection>Tillich, Hannah. Papers, 1896-1976</collection>
+                        <idno>bMS 721/2(22)</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>handschriftlich</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+            </editorialDecl>
+        </encodingDesc> 
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="P01930">Paul Tillich</persName>
+                    <placeName ref="Paris">Paris, Hotel Duguay-Trouin</placeName><!--Anm. FS: Die Adresszeile lautet nur: P. Tillich, Hotel Duguay-Trouin; ich konnte dieses Hotel in Paris nicht finden-->
+                    <date when="1926-08-02">02. August 1931</date><!--Poststempel-->
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="P01925">Hannah Tillich</persName>
+                    <address><placeName ref="Dresden">Dresden, Elisenstr. 11</placeName></address>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="deu">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="FS" when="2023-04-24">Intitale Auszeichnung des Transkripts</change>
+            
+        </revisionDesc>
+    </teiHeader>
+    <text type="postcard">
+        <body>
+            <div type="writingSession">
+                <pb n="1"/>
+                <opener>
+                    <salute>Liebes <persName ref="P01925">Hannahchen</persName>!</salute>
+                </opener>
+                <p>Noch habe ich nicht die richtige Einfühlung in <placeName ref="Paris">Paris</placeName>! Es hat gegen <date when="1911">1911</date> sehr an Mythos für mich verloren. Es gibt unzählige schöne Frauen, aber keine gewinnt Bedeutung. In aller Grazie liegt doch ein Hauch von Langweile über den Kaffees. <placeName ref="Montmartre (Paris)">Montmartre</placeName> kam gegen <placeName ref="St. Pauli (Hamburg)">St. Pauli in Hamburg</placeName> nicht an. Sehr viel Spießertum. Von den petites cocottes von 1911 keine Spur mehr. Was da ist, ohne Grazie wie in <placeName ref="Berlin">Berlin</placeName>. Heut Versuch von Einkäufen, bis jetzt ohne Erfolg. Preise schon recht hoch. – Morgen ans Meer! Ich bin glücklich darüber! <pb facs="2"/>
+Was macht <persName ref="P00570">Erdmuthe</persName>? Ich merke hier, wie sehr sie in mir sitzt. Mit den <persName ref="P02045"><persName ref="P01889"><persName ref="P02361">drei anderen</persName></persName></persName> ist es nett aber bedeutungslos. Im <date when="1926-09">Sept.</date> werde ich mich ganz auf die Russen u. a. werfen.
+                </p>
+                <closer>
+                    <salute>In viel Liebe!</salute>
+                    <signed>Dein Paul</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+

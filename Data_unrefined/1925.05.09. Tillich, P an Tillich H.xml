@@ -1,0 +1,97 @@
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von <persName ref="P01930">Paul Tillich</persName> an <persName ref="P01925">Hannah Tillich</persName>
+                    <lb/>vom <date when="1925-05-09">09.05.1925</date>
+                </title>
+                <author ref="P01930">Paul Tillich</author>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Emil Lusser</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+                    <address>
+                        <street>Schenkenstraße 8-10</street>
+                        <postCode>1010</postCode>
+                        <placeName ref="Wien">
+                            <settlement>Wien</settlement>
+                            <country>Österreich</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+                </availability>        
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="Postkarte">
+                    <msIdentifier>
+                        <country>USA</country>
+                        <settlement>Cambridge, MA</settlement>
+                        <institution>Harvard University</institution>
+                        <repository>Harvard Divinity School Library</repository>
+                        <collection>Tillich, Hannah. Papers, 1896-1976</collection>
+                        <idno>bMS 721/2(21)</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>handschriftlich</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+            </editorialDecl>
+        </encodingDesc> 
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="P01930">Paul Tillich</persName>
+                    <placeName ref="Dresden">Dresden</placeName><!--Poststempel-->
+                    <date when="1925-05-09">09.05.1925</date><!--Poststempel-->
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="P01925">Hannah Tillich</persName>
+                    <address><placeName ref="Marburg">Marburg (Lahn)
+                        <lb/>Rotenberg 11a</placeName></address>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="deu">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="EL" when="2023-07-11">Intitale Auszeichnung des Transkripts</change>
+            
+        </revisionDesc>
+    </teiHeader>
+    <text type="postcard">
+        <body>
+            <div type="writingSession">
+                <pb n="1"/>
+                <opener>
+                    <salute>Liebste <persName ref="P01925">Hannah</persName>!</salute>
+                </opener>
+                <p>Also nun bist Du Frau richtige Professor in <placeName ref="Dresden">Dresden</placeName>, hast nach Steuerabzug 620 M Gehalt, und zwar vom <date when="1925-05-01">1. Mai</date> an, hast einen <hi rend="aq">Mann</hi>, der nach Absicht des Ministeriums sofort als persönlicher Ordinarius ernannt und später zum etatsmäßigen aufrücken soll. Alles ging glatt; wir sprachen über konfessionelle Schule, positiv und liberal, katholisch und protestantisch. Und dann kamen die Berufungsverhandlungen, ich unterschrieb und nun ist es so weit! Mir ist wie nach bestandenem Examen: Man freut sich und ist doch zu <sic>kaput</sic>; um sich richtig zu freuen. – Am Abend war ich bei <persName ref="P01969">Ulich</persName>, spät Nachmittag mit ihm auf der <sic>Brülschen</sic> Terasse, jetzt gehe ich zu <persName ref="P01099">Kroner</persName>. <date when="1925-05-10">Morgen</date> Mittag nach <pb n="2"/><placeName ref="Jena">Jena</placeName> wegen <persName ref="P01724">K.<abbr>arl</abbr> L.<abbr>udwig</abbr> Schmidt</persName> und <persName ref="P01785">Siegfried</persName>. <date when="1925-05-11">Montag</date> nach <placeName ref="Frankfurt">Frankfurt</placeName>. <date when="1925-05-11">Montag</date> Abend, wenn irgend möglich zurück, 12<hi rend="sup"><hi rend="u">48</hi></hi> in <placeName ref="Marburg">Marburg</placeName>. Sei zu Haus! <placeName ref="Dresden">Dresden</placeName> ist schön; ich freue mich bis jetzt am meisten für Dich!! Ich schreibe noch an <persName ref="P01926">Vaterchen</persName><note>An dieser Stelle fehlt wegen des Zeilenumbruchs ein Komma.</note> <persName ref="???">Christian</persName>, und <persName ref="???">Kallen</persName>! Alles andere von Mund zu Mund!
+                </p>
+                <closer>
+                    <signed>Dein <persName ref="P01930">Paul</persName>.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

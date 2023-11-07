@@ -1,0 +1,99 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von <persName ref="P01930">Paul Tillich</persName> an <persName ref="P01925">Hannah Tillich</persName>
+                    <lb/>vom <date from="1926-09-10" to="1926-09-13">September 1926</date><!--Poststempel unlesbar, bei dem im Kartentext genannten "Brief" handelt es sich verm. um PT an HT, 10.-13.Sept.1926, aus dieser Zeitspanne wird also auch vorliegende Karte stammen. Tillich war bei seiner Frankreichreise 1926 zweimal in Paris: Gleich zu Beginn (ca. erste Augustwoche) und dann für längere Zeit im September. Diese Karte dürfte ziemlich sicher aus der Zeit des zweiten Aufenthalts in Paris stammen. Darauf deutet neben dem Inhalt auch die Nummerierung „33“ der Karte hin, die vermutlich von Hannah Tillich stammt, um die einzelnen Briefe und Karten ihres Mannes aus dem Jahr 1926 in der richtigen Reihenfolge zu behalten.-->
+                </title>
+                <author ref="P01930">Paul Tillich</author>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Friedrich Schumann</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+                    <address>
+                        <street>Schenkenstraße 8-10</street>
+                        <postCode>1010</postCode>
+                        <placeName ref="Wien">
+                            <settlement>Wien</settlement>
+                            <country>Österreich</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+                </availability>        
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="Postkarte">
+                    <msIdentifier>
+                        <country>USA</country>
+                        <settlement>Cambridge, MA</settlement>
+                        <institution>Harvard University</institution>
+                        <repository>Harvard Divinity School Library</repository>
+                        <collection>Tillich, Hannah. Papers, 1896-1976</collection>
+                        <idno>bMS 721/2(22)</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>handschriftlich</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+            </editorialDecl>
+        </encodingDesc> 
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="P01930">Paul Tillich</persName>
+                    <placeName ref="Paris">Paris</placeName>
+                    <date from="1926-09-10" to="1926-09-13">vermutlich zwischen 10. und 13. September 1926</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="P01925">Hannah Tillich</persName>
+                    <address><placeName ref="Dresden">Dresden, Elisenstr. 11</placeName></address>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="deu">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="FS" when="2023-09-07">Intitale Auszeichnung des Transkripts</change>
+            
+        </revisionDesc>
+    </teiHeader>
+    <text type="postcard">
+        <body>
+            <div type="writingSession">
+                <pb n="1"/>
+                <opener>
+<dateline>D.26<unclear><hi rend="sup">ten</hi></unclear></dateline>
+                    <salute>Liebste <persName ref="P01925">Hannah</persName>.</salute>
+                </opener>
+                <p>Ich arbeite an einem <bibl>Brief</bibl><!--verm. 1926.09.10-13. Tillich, P an Hannah, T--> an Dich. Da er aber nicht schnell genug fertig ist, schicke ich<pb facs="2"/> diese Karte voraus: Ich wohne nicht in dem alten Hotel, sondern in einem etwas besseren. Dicht dabei: <hi rend="aq"><hi rend="u">Paris VI<hi rend="sup">e</hi>, Rue Jean Bart</hi>, <hi rend="u">Hotel Jean Bart</hi></hi>. Bitte teile es doch <persName ref="P02518"><unclear>Nora</unclear></persName> und <persName ref="P02519">Frau Kaden</persName> (bei <persName ref="P02520">Bondi</persName>, <address><placeName ref="Dresden">Commeniusstr.</placeName></address>) mit. – Gestern Abend im Café du Dome natürlich: <persName ref="P02441">Hamburger</persName>. Heut mit ihm und <persName ref="P02442">Malla</persName> im Café de la Paix. <persName ref="P01831"><persName ref="P01832">Spiegelbergs</persName></persName> heut ab nach <placeName ref="Le Conquet">Le Conquet</placeName>. – – –</p>
+                <closer>
+                    <salute>Bald mehr.</salute>
+                    <signed>Dein Paul.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+

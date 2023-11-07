@@ -1,0 +1,109 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Gottfried Salomon an Paul Tillich
+               <lb/>vom <date when="1925-11-16">16. November 1925</date><!-- Anm. FS.: Habe das Datum vorerst so belassen, da es dem Datum auf dem Brief entspricht. 
+                  Allerdings glaube ich, dass Salomon einen Fehler gemacht hat und der Brief eigentlich vom 16. Dezember stammt (einen Monat später). 
+                  Inhaltlich bezieht er sich nämlich auf Tillichs Karte vom 14. Dezember 1925 - da diese mit einem Poststempel versehen ist, kann ihr Datum als relativ gesichert gelten.-->
+            </title>
+            <author ref="P01679">Gottfried Salomon</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Niklas von Hülsen</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="Brief">
+               <msIdentifier>
+                  <country>Niederlande</country>
+                  <settlement>Amsterdam</settlement>
+                  <institution>Koninklijke Nederlandse Akademie van Wetenschappen</institution>
+                  <repository>Internationaal Instituut voor Sociale Geschiedenis</repository>
+                  <collection>Gottfried Salomon-Delatour Papers, ARCH[01231]</collection>
+                  <idno>Inv.nr.[1172]</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>maschinenschriftlich</p>
+                  </physDesc>
+
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01679">Gottfried Salomon</persName>
+              <date when="1925-11-16">16. November 1925</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01930">Paul Tillich</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="NH" when="2022-11-01">Intitale Auszeichnung des Transkripts</change>
+        <change who="NH" when="2023-01-28"><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+        <change who="FS" when="2023-04-17">Ergänzende Auszeichnungen</change>
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+           <dateline><date when="1925-11-16">16.11.25</date></dateline>
+           <salute>Lieber <persName ref="P01930">Tillich</persName>!</salute>
+        </opener>
+        <!--Anm. FS: Salomon verwendet in diesem Brief, dem alten Stil entsprechend, durchweg das großgeschriebene J anstatt des großen I. 
+           Bei der Transkription wurde das getilgt, ich habe es hier daher auch nicht übernommen.-->
+        <p>Ich gratuliere herzlichst. Aber das war nicht recht, so ohne Sang und Klang abzuziehen. Ich hoffe, dass Sie dort sehr zufrieden sind, denn ich höre viel Gutes von der ausgebauten allgemeinen Abteilung der technischen Hochschule<!--Anm. FS: Gemeint ist die TH Dresden-->, wo auch ein Assistent von <persName ref="P01426">Professor Oppenheimer,</persName> der blinde <persName ref="P02316">Dr.Schultz</persName>als Assistent ist. Soll ich Ihren Satz, dass Sie mich wiedersehen werden dahin deuten, dass Sie wissen von Verhandlungen über die Nachfolge <persName ref="P02317">Jahn</persName>, Lehrstuhl für Soziologie. Ich weiss nur soviel, dass sowohl <persName ref="P02317">Jahn</persName> wie <persName ref="P01950">Tönnies</persName> und <persName ref="P01426">Oppenheimer</persName> angefragt worden sind, und dass ich auf der Liste stehen soll. Ich würde mich sehr freuen, evtl. in Ihre Nähe zu rücken, und wäre Ihnen dankbar, wenn Sie gelegentlich einmal hören wollten, was los ist. – Ich höre auch davon, dass der hervorragende <persName ref="P02318">Spamer</persName>evtl. für Volkskunde dorthin berufen werden soll. Nur will leider die Hochschule dauernd aus Lehrstühlen Lehraufträge machen.</p>
+        <p>Was machen Ihre Arbeiten und das <bibl>Kairos Jahrbuch</bibl>? Und die Mitarbeit Jahrbuch III (Hauptthema : die Stellung der Intelligenz)? Haben Sie den <bibl>Vico</bibl><!--Giambattista Vico, Die neue Wissenschaft über die gemeinschaftliche Natur der Völker (1725, 1744), hg. von Gottfried Salomon, übersetzt von Erich Auerbach, München 1924--> erhalten und mein <bibl>Jahrbuch</bibl><!--Jahrbuch für Soziologie, hg. G. Salomon, Karlsruhe 1925-1927--> und meine Abhandlungen (I.: <bibl>Die Maifeierbewegung</bibl><!--bisher nicht erfasst-->) gesehen ? Ich habe provisorisch eine <bibl>soziologische Abteilung bei dem alten Archiv für Philosophie</bibl><!--Archiv für Philosophie und Soziologie, zweite Abteilung: Archiv für systematische Philosophie und Soziologie, hg. von Ludwig Stein, Mitherausgeber für die Abteilung Soziologie Gottfried Salomon, 29.Band, Berlin 1926.-->  übernommen und <pb n="2"/> im ersten Heft <bibl><persName ref="P00287">Breysig</persName>, gesellschaftswissenschaftliche Deutung von <persName ref="P1020">Kant</persName></bibl><!--Breysig, Zur Kritik der Vernunft an sich, in: Ebd., 141ff. bzw. 267ff.--> gebracht. Wenn ich dann die internationalen Kollegen und die Dissertationen für den Nachwuchs organisiert habe, so kommen jetzt <bibl>drei Bändchen Textbücher der Soziologie und Sozialphilosophie</bibl><!--nicht sicher erfasst, meint vermutlich folgende drei Bände: "Individuum und Gesellschaft" Salomon, Gottfried: Individuum und Gesellschaft : mit einer Einleitung. - Karlsruhe : Braun, 1926; "Begriff der Gesellschaft in der deutschen Sozialphilosophie" Salomon, Gottfried: Begriff der Gesellschaft in der deutschen Sozialphilosophie : mit einer Einleitung. - Karlsruhe : Braun, 1926; "Begriff der Gesellschaft in der allgemeinen Soziologie" Salomon, Gottfried: Begriff der Gesellschaft in der allgemeinen Soziologie : mit einer Einleitung. - Karlsruhe : Braun, 1926 --> bei Braun heraus, damit das Fach überhaupt studierbar ist. Ausserdem erscheint endlich eine <bibl>deutsche Ausgabe der "Doctrine de Saint-Simon"</bibl><!-- Die Lehre Saint-Simons, hg. von Salomon, Gottfried,Neuwied, Rh.  (Luchterhand) 1962 (Anm. FS: Es wäre zu prüfen, ob diese Ausgabe - die einzige, die ich finden konnte, mit einer von 1925/26 identisch ist)--> und eine Neuausgabe von <persName ref="P02319">Gumplowicz's</persName>  <bibl>Geschichte der Staatstheorien</bibl><!--Gumplowicz, Geschichte der Staatstheorien. Mit einem Vorwort von Gottfried Salomon, Innsbruck: Wagner 1926 (Neuauflage; hg. von Franz Oppenheimer und Gottfried Salomon)--> mit meinem sehr ausführlichen Vorwort. Schreiben Sie mir, was Sie interessiert, ich werde es Ihnen zugehen lassen. Jedenfalls will ich alles tun, damit das blosse Geschwätz der Methodologen aufhört. Meine eigene Sache, die Geschichte der Soziologie in zwei Bänden ist garnicht fertigzustellen, ohne dass ich im Sommer Urlaub nehme.</p> <p>Uebrigens ist nicht <persName ref="P02320">Professor Mehlis</persName> in <placeName ref="Dresden">Dresden</placeName> ?
+           
+        </p>
+        <closer>
+           <salute>Mit herzlichsten Grüssen von Haus zu Haus bin ich</salute>
+           <signed>Ihr</signed>
+        </closer>
+       
+      
+     </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,126 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Paul Tillich an Oskar Siebeck
+               <lb/>vom <date when="1926-06-23">23. Juni 1926</date>
+            </title>
+            <author ref="P01930"></author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Niklas von Hülsen</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="Brief">
+               <msIdentifier>
+                  <!-- In: Mohr Siebeck, VA, A Nr. 425 1926  -->
+                  <country>Deutschland</country>
+                  <settlement ref="Berlin">Berlin</settlement>
+                  <institution>Staatsbibliothek zu Berlin Preußischer Kulturbesitz</institution>
+                  <repository><!-- ??? --></repository>
+                  <collection>Mohr Siebeck, VA</collection>
+                  <idno>A Nr. 425 1926</idno>
+                  <!--Anm. FS: Ich bin mir nicht sicher, ob die Archivangabe so korrekt ist-->
+               </msIdentifier>
+               <physDesc>
+                  <p>handschriftlich</p>
+                  </physDesc>
+               <additional> 
+                  <listBibl>
+                     <biblStruct type="journal" n="firstPrint">
+                        <monogr>
+                           <author>Alf Christophersen/Friedrich Wilhelm Graf</author>
+                           <title>"Beweise einer unsichtbaren Beziehung". Die Korrespondenz zwischen Paul Tillich und dem Tübinger Verlag J. C. B. Mohr (Paul Siebeck)</title>
+                           <imprint>
+                              <pubPlace ref="Berlin">Berlin/</pubPlace><pubPlace ref="Boston, Massachusetts">Boston, MA</pubPlace>
+                              <date when="2011">2011</date>
+                              <biblScope>237-407, hier: 289f.</biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title>International Yearbook for Tillich Research</title>
+                           <biblScope>Bd. 6, H. 1</biblScope>
+                        </series>
+                     </biblStruct>  
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01930">Paul Tillich</persName>
+              <address><placeName ref="Dresden">Dresden, Elisenstr. 11</placeName></address>
+              <date when="1926-06-23">23. Juni 1926</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01782">Oskar Siebeck</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="NH" when="2023-01-11">Intitale Auszeichnung des Transkripts</change>
+        <change who="NH" when="2023-01-28"><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+        <change who="FS" when="2023-05-01">Ergänzende Auszeichnungen</change>
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+           <dateline><placeName ref="Dresden">Dresden, Elisenstr. 11</placeName>, d. <date when="1926-06-23">23. 6. 26</date></dateline>
+           <salute>Sehr geehrter Herr <persName ref="P01782">Siebeck</persName>!</salute>
+        </opener>
+        <p>In diesen Tagen habe ich wie selten die Wahrheit des alten griechischen Wortes erfahren: <foreign xml:lang="grc">ὁ πρότερος λέγων ισχύει</foreign><!--Anm. das erste Wort ist ein o mit Spiritus asper. Wie anzeigen?-->, wer das erste Wort hat, ist der Stärkere. Es wird mir sehr schwer, Ihnen nach Ihrem letzten <bibl>Brief</bibl><!--Siebeck an Tillich vom 8. Juni 1926-->, in dem Sie mein Vertrauen zu Ihnen mit Ihrem Vertrauen zu mir beantworteten, zu schreiben, daß die ältere Bindung, die ich nun einmal eingegangen war, sich als die stärkere erwiesen hat. <persName ref="P01571">Reichl</persName> ist allen meinen Wünschen entgegengekommen, und hat wider mein Erwarten – ich schrieb Ihnen meinen Zweifel – mir die Vorbedingungen ruhiger Arbeit gewährleistet. Unter diesen Umständen war ich sachlich und moralisch gezwungen, ihm die Dogmatik zu geben.</p>
+        <p>Darüber hinaus liegen die Dinge nun aber so, daß er mich gewissermaßen ganz übernehmen und dafür – wie schon beim <bibl>Kairos-Buch</bibl><!--Tillich (Hg.), Kairos. Zur Geisteslage und Geisteswendung, Darmstadt 1926--> mit großem Erfolg – sehr gut ausstatten und sehr weitgehende Propaganda machen will. Die Vorteile dieser Sache für beide Teile liegen ja auf der Hand. Unter diesem Gesichtspunkt hat er mich teils durch sachliche Gründe teils durch eine moralische Verpflichtung, die ich in früheren Besprechungen mit ihm eingegangen wäre, dazu veranlasst, ihm auch die "Vorträge"<!--Gemeint dürfte eine geplante Aufsatzsammlung sein, die erst 1930 beim Furcheverlag als "Religiöse Verwirklichung" erschienen ist--> zu überlassen. Mir ist das sehr schwer geworden, aber ich konnte im Augenblick nichts dagegen machen, wenn nicht die ganze Kairos-Angelegenheit zerbrechen sollte. Die Dinge liegen nun so, dass die "Vorträge" wenn überhaupt, jedenfalls nicht so bald kommen werden, da ich durch die veränderte Finanzlage nun im Stande bin, meine ganze Kraft auf die Dogmatik zu werfen, so daß es auch für Sie im Augenblick kein Verlust ist. Im Übrigen behalte ich mir natürlich für die Zukunft meine Freiheit vor und hoffe, daß wir doch noch zu einer gemeinsamen Arbeit kommen werden, die auch für Sie günstiger ist. Denn – ich möchte das wiederholen – ich habe unbedingtes Vertrauen zu Ihnen und es würde mir nicht einfallen, soweit ich die Wahl habe, zu jemand anders zu gehen.</p>
+        <p>Mich haben diese Verhandlungen sehr bedrückt...  mir viel Zeit und innere Kraft gekostet, und ich bin froh daß sie nun abgeschlossen sind, wenn auch mehr mein Gewissen als mein Herz dabei befriedigt ist. – Die <bibl>"Dämonen"</bibl><!--Tillich, Das Dämonische. Ein Beitrag zur Sinndeutung der Geschichte (Sammlung gemeinverständlicher Vorträge aus dem Gebiet der Theologie und Religionsgeschichte, Nr. 119), Tübingen 1926--> werden ständig mehr gefördert, und ich hoffe, dass ich Ihnen damit eine nicht unwichtige Sache liefern kann.
+           
+        </p>
+        <closer>
+           <salute>Mit bestem, wenn auch etwas betrübtem Gruß</salute>
+           <signed>Ihr sehr ergebener Tillich.
+           </signed>
+        </closer>
+
+     </div>
+    </body>
+  </text>
+</TEI>

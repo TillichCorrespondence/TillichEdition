@@ -1,0 +1,104 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von <persName ref="P01930">Paul Tillich</persName> an <persName ref="P01679">Gottfried Salomon</persName>
+               <lb/>vom <date when="1924-08-02">02. August 1924</date>
+            </title>
+            <author ref="P01930">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Niklas von Hülsen</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="Brief">
+               <msIdentifier>
+                  <country>Niederlande</country>
+                  <settlement>Amsterdam</settlement>
+                  <institution>Koninklijke Nederlandse Akademie van Wetenschappen</institution>
+                  <repository>Internationaal Instituut voor Sociale Geschiedenis</repository>
+                  <collection>Gottfried Salomon-Delatour Papers, ARCH[01231]</collection>
+                  <idno>Inv.nr.[1172]</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>maschinenschriftlich</p>
+                  </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01930">Paul Tillich</persName>
+              <address><placeName ref="Marburg/Lahn">Marburg/Lahn Sybelstr. 6</placeName></address>
+              <date when="1924-08-02">2. August 1924</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01679">Gottfried Salomon</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="NH" when="2022-10-18">Intitale Auszeichnung des Transkripts</change>
+        <change who="NH" when="2023-01-28"><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+        <change who="FS" when="2023-04-11">Ergänzende Auszeichnungen</change>
+        <change who="FS" when="2023-04-17">Weitere Überarbeitungen</change>
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+           <dateline><placeName ref="Marburg/Lahn">Marburg/Lahn</placeName>, den <date when="1924-08-02">2.8.24</date><placeName ref="Marburg/Lahn">Sybelstr. 6</placeName></dateline>
+           <salute>Lieber <persName ref="P01679">Salomon</persName>!</salute>
+        </opener>
+        <p>Mein Freund, <persName ref="P02098">Dr. Wolfers</persName>, von dem ich Ihnen erzählte, der in diesen Tagen hier war, hat den Wunsch, Sie in <placeName ref="Frankfurt/Main">Frankfurt</placeName> aufzusuchen Er lässt nun durch mich fragen, wann Sie während der Ferien in <placeName ref="Frankfurt/Main">Frankfurt</placeName> sind. Für ihn kommt vor allem in Frage die letzte Woche des August und der September. Soweit ich übersehe, würde er für Ihre <bibl>Zeitschrift<!-- Jahrbuch für Soziologie, hg. G. Salomon, Karlsruhe 1925-1927--></bibl> von entscheidender Bedeutung sein können. Er selbst ist Schweizer, hat starke Beziehungen nach England wo er in den nächsten Wochen hin fährt und geht Ende Oktober auf mehrere Monate nach Amerika. Da ich selbst infolge meiner Italienreise gegenwärtig schwierig zu erreichen bin, wäre ich Ihnen dankbar, wenn Sie direkt an ihn schrieben, und wenn Sie ihm mitteilten, wann Sie für ihn zu sprechen wären, und wo Sie in den Zwischenzeiten sind. Seine Adresse ist bis zum <date when="1924-08-10">10. August</date>:
+           <address><placeName ref="Berlin">Berlin N.W. Mittelstr. 5 Christliches Hospiz</placeName></address>.</p>
+        <p>Ich denke gern an den Nachmittag bei Ihnen zurück und hoffe, dass der Winter Gelegenheit zu häufigeren Zusammenkünften geben wird.</p>
+        <closer>
+           <salute>Herzliche Grüsse an Sie und Ihre <persName ref="P02309">Frau</persName>
+           </salute>
+           <signed>Ihr P. Tillich.<!-- "P. Tillich." handschriftlich --></signed>
+        </closer>
+      
+     </div>
+    </body>
+  </text>
+</TEI>

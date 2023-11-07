@@ -1,0 +1,97 @@
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von <persName ref="P01930">Paul Tillich</persName> an <persName ref="P01925">Hannah Tillich</persName>
+                    <lb/>vom <date when="1926-02-05">05.02.1926</date>
+                </title>
+                <author ref="P01930">Paul Tillich</author>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Emil Lusser</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+                    <address>
+                        <street>Schenkenstraße 8-10</street>
+                        <postCode>1010</postCode>
+                        <placeName ref="Wien">
+                            <settlement>Wien</settlement>
+                            <country>Österreich</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+                </availability>        
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="Postkarte">
+                    <msIdentifier>
+                        <country>USA</country>
+                        <settlement>Cambridge, MA</settlement>
+                        <institution>Harvard University</institution>
+                        <repository>Harvard Divinity School Library</repository>
+                        <collection>Tillich, Hannah. Papers, 1896-1976</collection>
+                        <idno>bMS 721/2(22)</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>handschriftlich</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+            </editorialDecl>
+        </encodingDesc> 
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="P01930">Paul Tillich</persName>
+                    <placeName ref="Augburg">Augsburg</placeName><!--Motiv der Postkarte: Königsplatz in Augsburg-->
+                    <date when="1926-02-05">05.02.1926</date><!--Poststempel-->
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="P01925">Hannah Tillich</persName>
+                    <address><placeName ref="Dresden">Dresden. <unclear>A.</unclear>
+                        <lb/>Elisenstr. 11 11</placeName></address>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="deu">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="EL" when="2023-07-12">Intitale Auszeichnung des Transkripts</change>
+            
+        </revisionDesc>
+    </teiHeader>
+    <text type="postcard">
+        <body>
+            <div type="writingSession">
+                <pb n="1"/>
+                <opener>
+                    <salute>Liebstes süßes <persName ref="P01925">Hannahchen</persName>!</salute>
+                </opener>
+                <p>Hier sitze ich im Wartesaal zwischen 7 und 8 und trinke Kaffee. Das Schlafkoupée teilte ich mit einem jüdischen Ehepaar, das nach <placeName ref="Jerusalem">Jerusalem</placeName> fuhr. Die Gattin im obersten Stock dachte, es wäre die <placeName ref="Biskaya"><hi rend="u">Biskaya</hi></placeName> und tat mein <unclear>Wein</unclear> leider auf meine Decke, Mantel, Hose etc. Es war eine „merkwürdige“ Nacht. <note>Der folgende Text befindet sich auf der Ansichtskartenfront (Abbildung: Augsburg, Königsplatz).</note><pb n="2"/>Es war die gleiche Karte wie auf dem Schiff<note>Der nachfolgende Text wurde vom rechtsunteren Rand der Karte hochwärts geschrieben.</note> nach <placeName ref="Sylt">Sylt</placeName>. Sie scheint so was zu lieben!<note>Der nachfolgende Text wurde vom rechtsoberen Rand der Karte linkswärts geschrieben.</note> Zwischen <placeName ref="Dresden">Dresden</placeName> und <placeName ref="Halle">Halle</placeName> war ich sehr traurig. Ich denke immerzu an Dich! Die Nacht war doch bös!<note>Der nachfolgende Text wurde vom linksoberen Rand der Karte abwärts geschrieben.</note> Grüße die beiden!<note>Der nachfolgende Text wurde rechtsunten innerhalb des Motivs der Ansichtskartenfront der Karte quer geschrieben.</note>
+                </p>
+                <closer>
+                    <signed>In Liebe Dein <persName ref="P01930">Paul</persName>.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,119 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von <persName ref="P01930">Paul Tillich</persName> an <persName ref="P01782">Oskar Siebeck</persName>
+               <lb/>vom <date when="1924-08-02">02. August 1924</date>
+            </title>
+            <author ref="Paul Tillich">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Niklas von Hülsen</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="Brief">
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement ref="Berlin">Berlin</settlement>
+                  <institution>Staatsbibliothek zu Berlin Preußischer Kulturbesitz</institution>
+                  <repository><!-- ??? --></repository>
+                  <collection>Mohr Siebeck, VA</collection>
+                  <idno> A Nr. 415 1924</idno>
+                  <!--Anm. FS: Ich bin mir nicht sicher, ob die Archivangabe so korrekt ist-->
+               </msIdentifier>
+               <physDesc>
+                  <p>maschinenschriftlich</p>
+                  </physDesc>
+               <additional>
+                  <listBibl>
+                     <biblStruct type="journal" n="firstPrint">
+                        <monogr>
+                           <author>Alf Christophersen/Friedrich Wilhelm Graf</author>
+                           <title>"Beweise einer unsichtbaren Beziehung". Die Korrespondenz zwischen Paul Tillich und dem Tübinger Verlag J. C. B. Mohr (Paul Siebeck)</title>
+                           <imprint>
+                              <pubPlace ref="Berlin">Berlin/</pubPlace><pubPlace ref="Boston, Massachusetts">Boston, MA</pubPlace>
+                              <date when="2011">2011</date>
+                              <biblScope>237-407, hier: 265f.</biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title>International Yearbook for Tillich Research</title>
+                           <biblScope>Bd. 6, H. 1</biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01930">Paul Tillich</persName>
+              <address><placeName ref="Marburg">Marburg/Lahn, Sybelstr. 6</placeName></address>
+              <date when="1924-08-02">2. August 1924</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01782">Oskar Siebeck</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="NH" when="2022-11-16">Intitale Auszeichnung des Transkripts</change>
+        <change who="NH" when="2023-01-28"><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+        <change who="FS" when="2023-03-13">Ergänzenden Auszeichnungen</change>
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+           <dateline><placeName ref="Marburg">Marburg/Lahn</placeName>, den  <date when="1924-08-02">2. 8. 24</date><placeName>Sybelstr. 6</placeName></dateline>
+           <salute>Sehr geehrter Herr <persName ref="P01782">Siebeck</persName>!</salute>
+        </opener>
+        <p>Herzlichen Dank für Ihren <bibl>Brief<!-- 1924.07.19 Siebeck, O an Tillich, P--></bibl> vom <date when="1924-07-19">19. 8.</date><!--Anm. Fehler von Tillich, meint den 19.07.--> Ich bin damit einverstanden, meinen <bibl>Tübinger Vortrag<!-- Tillich, Kirche und Kultur, Vortrag am 18.07.1924 vor dem Tübinger Jugendring, veröffentlicht als: Tillich, Kirche und Kultur (Sammlung gemeinverständlicher Vorträge und Schriften aus dem Gebiet Theologie und Religionsgeschichte, Nr. 111), Tübingen, Mohr 1924, 1-22--></bibl> Ihnen für die Sammlung gemeinverständlicher Vorträge zu überlassen. Der Vortrag ist ziemlich kurz, und wird, soweit ich schätze, den Umfang eines Bogens kaum überschreiten. Leider kann ich Ihnen das Manuskript erst im November zur Verfügung stellen, da ich übermorgen auf drei Monate ins Ausland verreise. Falls Sie mir etwas zu schreiben hätten, bitte ich, meine hiesige Adresse zu benutzen. Gleichzeitig bitte ich Sie, mir für Ende Oktober eine unterschriebene Abmachung zuzusenden.
+        </p>
+        <closer>
+           <salute>Mit vorzüglicher Hochachtung</salute>
+           <signed>P. Tillich<!-- "P. Tillich" handschriftlich --></signed>
+        </closer>
+     </div>
+    </body>
+  </text>
+</TEI>

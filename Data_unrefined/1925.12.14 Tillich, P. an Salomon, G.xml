@@ -1,0 +1,105 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Paul Tillich an Gottfried Salomon
+               <lb/>vom <date when="1925-12-14">14. Dezember 1925</date>
+            </title>
+            <author ref="P01930">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Niklas von Hülsen</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="Postkarte">
+               <msIdentifier>
+                  <country>Niederlande</country>
+                  <settlement>Amsterdam</settlement>
+                  <institution>Koninklijke Nederlandse Akademie van Wetenschappen</institution>
+                  <repository>Internationaal Instituut voor Sociale Geschiedenis</repository>
+                  <collection>Gottfried Salomon-Delatour Papers, ARCH[01231]</collection>
+                  <idno>Inv.nr.[1172]</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>handschriftlich</p>
+                  </physDesc>
+
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01930">Paul Tillich</persName>
+              <date when="1925-12-14">14. Dezember 1925</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01679">Gottfried Salomon</persName>
+              <address><placeName ref="Frankfurt/Main">Frankfurt a. M. Sophieenstr. 42</placeName></address>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="NH" when="2022-11-03">Intitale Auszeichnung des Transkripts</change>
+        <change who="NH" when="2023-01-28"><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+        <change who="FS" when="2023-04-11">Ergänzende Auszeichnungen</change>
+        <change who="FS" when="2023-04-17">Weitere Überarbeitungen</change>
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+
+           <salute>Lieber <persName ref="P01679">Salomon</persName>!</salute>
+        </opener>
+        <p>
+           Herzlichen Dank für Ihre Einladung! Aber seit dem Sommer bin ich a. o.  Professor der Religionswissenschaft an der kulturwissenschaftlichen Abteilung der Technischen Hochschule in <placeName ref="Dresden">Dresden</placeName> - trotz eines Rufes nach <placeName ref="Dresden">Gießen</placeName>.<lb/> 
+           Meine Wohnung ist <address><placeName ref="Dresden"><hi rend="u">Dresden-Elisenstr. 11.</hi></placeName></address> Wir hoffen, daß wir Sie bald einmal hier <pb n="2"/> werden begrüßen können.
+        </p>
+        <closer>
+           <salute>Herzliche Grüße!</salute>
+           <signed>Ihr P. Tillich</signed>
+        </closer>
+     </div>
+    </body>
+  </text>
+</TEI>

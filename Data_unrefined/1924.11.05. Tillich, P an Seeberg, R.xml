@@ -1,0 +1,114 @@
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Paul Tillich an Reinhold Seeberg 
+               <lb/>vom 05. November 1924
+            </title>
+            <author ref="P01930">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Sebastian Kueffner</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="publication">
+               <msIdentifier>
+                  <country>Deutschland</country>                 
+                  <repository>Privatbesitz Erdmann Sturm</repository>      
+                  <idno>05.11.1924, an Seeberg Reinhold, von Tillich Paul </idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Brief, Maschinenschriftlich</p>
+               </physDesc>
+               
+          
+            </msDesc>
+            <biblStruct type="journal">
+               <monogr>
+                  <author>Sturm Erdmann</author>
+                  <title>Vielleicht kommen wir nun doch zu einer gemeinsamen Arbeit in Berlin. Paul Tillichs Briefe an Reinhold und Erich Seeberg (1924-1935)</title>
+                  <imprint>
+                     <pubPlace ref="Berlin">Berlin</pubPlace>
+                     <date when="2012">2012</date>
+                     <biblScope>S. 211–253</biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title>Theology and Natural Science (=International Yearbook for Tillich Research, Vol. 7)</title>
+                  <biblScope>7</biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01930">Paul Tillich</persName>
+              <placeName ref="Berlin-Friedenau">Berlin-Friedenau</placeName>
+              <date when="1924-11-05">05. November 1924</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01763">Reinhold Seeberg</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="Initialien des Editors" when="2023-02-08">Intitale Auszeichnung des Transkripts</change>       
+        <change who="Initialien des Editors" when="2023-04-19">Titel und Namenskorrekturen</change>  
+        <change who="GM" when="2023-09-06">Korrektur Titel und Datum</change>
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+           <dateline><placeName ref="Berlin-Friedenau">Berlin-Friedenau,</placeName>, den <date when="1924-11-05">5.11.1924</date></dateline>
+           <salute>Hochverehrter <persName ref="P01763">Herr Geheimrat</persName>!</salute>
+        </opener>
+        <p>Unsere Unterhaltung im Sprechzimmer hat mich sehr bewegt. Die Möglichkeit, unter Umständen in <placeName ref="Berlin">Berlin</placeName> ein ausserétatsmässiges Extraordinariat für Religionsphilosophie und Kulturethik zu erhalten, belastet die Wage der Entscheidung durchaus zu Gunsten von <placeName ref="Berlin">Berlin</placeName>. Und das gilt nicht nur von meinem Standpunkt aus, sondern es ergibt sich nach meiner Meinung auch aus der Sachlage an den beiden Universitäten. In <placeName ref="Marburg">Marburg</placeName> sind gerade die genannten Dinge durch <persName ref="P00841">Heidegger</persName>,<persName ref="P01376">Natorp</persName>, <persName ref="P00844">Heiler</persName>, <persName ref="P01438">Otto</persName> so völlig ausreichend belegt, dass ich mir eigentlich überflüssig vorkommen würde, während hier in keiner der beiden Fakultäten diese <persName ref="P01958">Troeltsch</persName>’schen Fächer vertreten sind. Vielleicht käme dieser Gesichtspunkt <persName ref="P01603">Herrn Ministerialrat Richter</persName> gegenüber in Betracht. Im übrigen bin ich nicht ganz sicher, ob <persName ref="P01603">Herrn Ministerialrat Richter</persName> wirklich daran gelegen ist, dass ich übersiedle; und nicht viel mehr daran, dass ich mich klipp und klar entscheide. Die innere und äussere Schwierigkeit meiner Entscheidung nebst verschiedenen Missverständnissen haben die Verhandlungen unnötig lange herausgezögert. Es liegt mir infolgedessen ausserordentlich viel an dem Resultat Ihrer Erwägungen und eines evtl. Gespräches mit <persName ref="P01603">Herrn Ministerialrat Richter</persName> über meine Sache. Falls Sie mich noch vor <date from="1924-11-03" to="1924-11-07">Freitag</date> zu sprechen wünschten, würde ich natürlich jederzeit zur Verfügung stehen und bin auch telefonisch erreichbar unter <placeName ref="Rheingau">Rheingau</placeName> 8347.
+        </p>
+        <closer>
+           <salute>Indem ich Ihnen meinen herzlichen Dank für Ihr Interesse an der Angelegenheit und für Ihre Bereitwilligkeit, mir zu helfen ausspreche,
+              bin ich
+              Ihr dankbar ergebener</salute>
+           <signed><ptr/><persName ref="P01930">P. Tillich</persName></signed>
+        </closer>              
+     </div>
+    </body>
+  </text>
+</TEI>

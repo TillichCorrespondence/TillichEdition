@@ -1,0 +1,180 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von <persName ref="???">Wilhelm Ruprecht</persName> an <persName ref="P01930">Paul Tillich</persName>
+               <lb/>vom <date when="1927-10-21">21. Oktober 1927</date>
+            </title>
+            <author ref="???">Wilhelm Ruprecht</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Niklas von Hülsen</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="Durchschlag">
+               <msIdentifier>
+                  
+                  <!-- Berlin; Verlagsarchiv Vandenhoeck & Ruprecht; Autorenkorrespondenz; G 1923.138
+Erstveröffentlichung in: Friedrich Wilhelm Graf, Ein unbekannter Systementwurf, S. 149f. -->
+                  
+                  <country><!-->Land des Archivs<!--></country>
+                  <settlement ref="where"><!-->Stadt des Archivs<!--></settlement>
+                  <institution><!-->Name der übergeordneten Insitution<!--></institution>
+                  <repository><!-->spezifischer Name des Archivs<!--></repository>
+                  <collection><!-->spezifischer Name der Sammlung<!--></collection>
+                  <idno><!-->Identifikationsnummer des Dokuments in dem Archiv<!--></idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>maschinenschriftlich</p>
+                  </physDesc>
+               <additional> <!-- Wenn Brief bereits publiziert hier die richtige Struktur aussuchen -->
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint"><!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!--> </author>
+                           <title><!-->Titel der Monographie<!--></title>
+                           <edition><!-->Auflage<!--></edition>
+                           <imprint>
+                              <publisher><!-->Herausgeber<!--></publisher>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Reihe<!--></title>
+                           <biblScope><!-->Reihennummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                     <biblStruct type="journal" n="reprint"><!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!--> </author>
+                           <title><!-->Titel des Aufsatzes<!--></title>
+                           <imprint>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Zeitschrift<!--></title>
+                           <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <biblStruct type="monograph"><!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien überliefert sind und im Original nicht mehr vorhanden!-->
+               <monogr>
+                  <author><!-->Autor<!--> </author>
+                  <title><!-->Titel der Monographie<!--></title>
+                  <edition><!-->Auflage<!--></edition>
+                  <imprint>
+                     <publisher><!-->Herausgeber<!--></publisher>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Reihe<!--></title>
+                  <biblScope><!-->Reihennummer<!--></biblScope>
+               </series>
+            </biblStruct>
+            <biblStruct type="journal"><!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften überliefert sind und im Original nicht mehr vorhanden<!-->
+               <monogr>
+                  <author><!-->Autor<!--> </author>
+                  <title><!-->Titel des Aufsatzes<!--></title>
+                  <imprint>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Zeitschrift<!--></title>
+                  <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="???">Wilhelm Ruprecht</persName>
+              <placeName ref="where"><!-->Ort<!--></placeName>
+              <date when="1927-10-21">21. Oktober 1927</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01930">Paul Tillich</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="NH" when="2023-08-09">Intitale Auszeichnung des Transkripts</change>
+        <change who="Initialien des Editors" when="1886-08-20"><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+        
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+           <salute>Hochgeehrter Herr Professor!</salute>
+        </opener>
+        <p>Schönen Dank für Ihren <bibl>Brief</bibl> vom <date when="1927-10-17">17. Oktober</date>. Wenn wir auch das andere, größere <bibl>Werk</bibl> sehr viel lieber gehabt hätten, so nehmen wir doch Ihren Vorschlag gern auf in der sicheren Erwartung eines: Fortsetzung folgt! <lb/>
+           Wir würden also bereit sein, unter dem Titel „Gläubiger Realismus“ die <bibl>drei Vorträge</bibl> gesammelt herauszugeben. Können Sie ohne viel Mühe, etwaige Stellen, die in Einleitungen zu Vorträgen vorzukommen pflegen, ändern, sodaß die Schrift nicht gar zu sehr den Vortrags-Charakter trägt, so wäre das wünschenswert, schon mit Rücksicht darauf, daß bei der Masse theologischer Veranstaltungen heute schon weit mehr Vorträge erscheinen, als das dafür in Betracht kommende Publikum aufzunehmen gewillt ist. <lb/>
+           Unter diesen Umständen werden Sie auch nicht erwarten, daß wir von vornherein ein Honorar zahlen, sondern sich damit einverstanden erklären, daß wir Ihnen nachträglich für die abgesetzten Stücke 10% des Ladenpreises vergüten. <lb/>
+           Die Auflage würden wir auf 800 – 1000 Stück zu bemessen vorschlagen und Ihnen bei Erscheinen zwölf Freiexemplare liefern. <lb/>
+           Sollten in zwei aufeinander folgenden Jahren zusammen nicht mehr als zwölf Stück verkauft werden, so würde die Verpflichtung zur Abrechnung aufhören, eine Bestimmung, die nötig ist, um nicht „ewige“ Verpflichtungen zu schließen. <lb/>
+           Für den unwahrscheinlichen Fall, daß eine Uebersetzung in fremde Sprachen erscheinen sollte, würden die Verhandlungen von uns zu führen sein und die für Uebersetzungen etwa zu erzielende Entschädigung zu gleichen Teilen zwischen Verfasser und Verleger zu teilen sein. <lb/>
+           Für etwaige neue Auflagen würden dieselben Bedingungen gelten. <lb/>
+           Wir setzen voraus, daß einer erneuten Herausgabe der Vorträge nicht etwa irgend welche verlegerischen Rechte entgegenstehen. <lb/>
+           Haben Sie die Freundlichkeit, uns mitzuteilen, ob Sie mit diesen Vorschlägen einverstanden sind. <lb/>
+           Das Erscheinen der Schrift wird besser noch bis Anfang 1928 hinausgeschoben. Auch wenn wir jetzt den Druck noch so sehr beeilen, würde die Schrift in einer Zeit erscheinen, in welcher die Buchhandlungen sich im wesentlichen nur um die schöne Literatur kümmern, und das wäre schade.
+        </p>
+        <closer>
+           <salute>Mit besten Empfehlungen</salute>
+           <signed><!-->Unterschrift<!--></signed>
+        </closer>
+     </div>
+    </body>
+  </text>
+</TEI>

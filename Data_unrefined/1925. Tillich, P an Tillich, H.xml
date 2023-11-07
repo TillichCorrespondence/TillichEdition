@@ -1,0 +1,106 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von <persName ref="P01930">Paul Tillich</persName> an <persName ref="P01925">Hannah Tillich</persName>
+                    <lb/>vom <date when="1925">1925</date>
+                </title>
+                <author ref="P01930">Paul Tillich</author>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Emil Lusser</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+                    <address>
+                        <street>Schenkenstraße 8-10</street>
+                        <postCode>1010</postCode>
+                        <placeName ref="Wien">
+                            <settlement>Wien</settlement>
+                            <country>Österreich</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+                </availability>        
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="Postkarte">
+                    <msIdentifier>
+                        <country>USA</country>
+                        <settlement>Cambridge, MA</settlement>
+                        <institution>Harvard University</institution>
+                        <repository>Harvard Divinity School Library</repository>
+                        <collection>Tillich, Hannah. Papers, 1896-1976</collection>
+                        <idno>bMS 721/2(21)</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>handschriftlich</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+            </editorialDecl>
+        </encodingDesc> 
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="P01930">Paul Tillich</persName>
+                    <placeName ref="Berlin">Berlin</placeName><!-- Das geht aus dem Brief hervor -->
+                    <date when="1925">1925</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="P01925">Hannah Tillich</persName>
+                    <address><placeName ref="Dresden">Dresden, Elisenstr. 11</placeName></address>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="deu">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="EL" when="2023-07-10">Intitale Auszeichnung des Transkripts</change>
+            
+        </revisionDesc>
+    </teiHeader>
+    <text type="postcard">
+        <body>
+            <div type="writingSession">
+                <pb n="1"/>
+                <opener>
+                    <dateline><date when="o.D.">Montag Nachmittag</date>
+                    <add resp="unclear">[1925?]</add></dateline>
+                    <salute>Liebes <persName ref="P01925">Hannahchen</persName>!</salute>
+                </opener>
+                <p>Heut erhielt ich Deinen Brief und antworte gleich. Zunächst auf Dein Beiblatt! Du hast Recht damit, daß der Ankauf ein richtiger Leichtsinn war. Ich sah den Seidenglanz, die herumwühlenden Menschen und den unglaublichen Preis, da war es schon geschehen! Aber ist es mir nicht immer so gegangen, wenn wir durch Straßen und Läden gingen, und ich Dir etwas Schönes schenken wollte, und Du es nur mühsam mit Aufwand aller Energie verhindert hast! Ich glaube doch, daß es bei Dir, die andere Seite der Sache war – und vielleicht noch ist! Aber Du tust Unrecht daran. Es ist zwischen uns nichts als ein gutes menschliches Vertrauensverhältnis, das wir uns beide hüten, auch nur im Geringsten zu überschreiten, und über das ich mich freue, weil es die Überwindung eines jahrelangen Mißtrauens ist. Auch Du solltest Dich freuen, da es die Position gegenüber den Eltern<note><persName ref="P01931">Tillichs Mutter</persName>, <persName ref="P01926">Tillichs Vater</persName>, <persName ref="P02043">Hannahs Mutter</persName>, <persName ref="P02044">Hannahs Vater</persName>.</note> und Geschwistern<note><persName ref="P02045">Hannahs Schwester</persName>, <persName ref="P01764">Tillichs Schwester Elisabeth</persName>, <persName ref="P00644">Tillichs Schwester Johanna</persName>.</note> sehr verstärkt. – – – –
+                    <lb/>Seit heut früh ist <persName ref="P01764">Lisel</persName><!-- Ich bin mir nicht 100% sicher, ob es Tillichs Schwester ist, aber vom Kontext macht es Sinn --> in der Pflege, die sie Tag und Nacht in Anspruch nimmt. Sie hat gleich am ersten Tag mit der <persName ref="P01931">Mutter</persName> gesprochen, die natürlich alles ahnte, aber sehr ruhig und vernünftig war. Eben komme ich von der Unterhaltung mit dem <persName ref="P01926">Vater</persName>, der erst furchtbar jammerte; dann alles guthieß. Jetzt sind die beiden allein. Ich habe aber vorher der <persName ref="P01931">Mutter</persName> gesagt, daß es zum Bruch mit uns allen kommen würde, wenn er sich dazwischen mengte. Abends nehme ich die <persName ref="P01931">Mutter</persName> in einen Vortrag von <persName ref="P01617">Rittelmeyer</persName> (Christengemeinschaft) mit. Am Sonnabend Abend war der Vortrag von <del rend="s">Rostock</del> <persName ref="P00042">Althaus</persName>, <placeName ref="Rostock">Rostock</placeName>, meinem Gießener Hauptkonkurrenten. Er war recht schwach, und ich hatte die Aufgabe, die Diskussion zu eröffnen, wobei ich zum ersten Mal mit <persName ref="P00320">Bultmann</persName> ganz einig war. Er selbst tobte dann los und sagte, daß er während des Vortrages ein Grauen gehabt hätte – vor dem überfüllten Saal. Nachher saßen <pb n="2"/>wir noch alle bei <unclear><persName ref="P00844">Heiler</persName></unclear>. <persName ref="P00042">Althaus</persName> bat mich, doch nicht ganz mit ihm auseinanderzugehen; rührend, nicht wahr! Von <placeName ref="Gießen">Gießen</placeName> wußte er weniger als ich. – Auf den Kampf mit <persName ref="P01617">Rittelmeyer</persName> bin ich gespannt. Er spricht auch morgen Nachmittag noch über Priestertum, um Theologen zu gewinnen. – – –
+                    <lb/>Ich schlafe in der Kammer neben <persName ref="P01910">Helmut</persName><!-- nicht sicher, ob es Thiellicke ist, wir bräuchten das Tagungsprogramm...  -->, von heute ab wegen der großen Wärme im Zimmer von <persName ref="P01764">Lisel</persName>, die auf ihrer Pflege auch Nachts bleiben muß. Arbeiten tue ich auf meinem Zimmer bei <unclear>Leehends</unclear>. Der Ofen wird Tag und Nacht in Betrieb gehalten. So habe ich meine Ruhe und Arbeitsstimmung. Natürlich ist das Hin- und Herlaufen sehr lästig, zumal nach dem Abendbrot. – Ich habe das große Bild herausgeschmissen und durch 2 <persName ref="P01988">van Goghs</persName> ersetzt; außerdem <unclear><persName ref="???">Ulli</persName></unclear> aufgehängt, der sich hier sehr gut macht und die beiden Decken verwendet. So ist’s ganz gemütlich.
+                    <lb/>Post ist <add place="superlinear">viel aber</add>keine <sic>wochentliche</sic> gekommen. Die Zeitung kommt noch immer nicht! <hi rend="u">Bitte</hi> veranlasse doch ihre Umbestellung, eventuell durch Postkarte an das Postzeitungsamt <placeName ref="Friedenau">Friedenau, Handjerystraße</placeName>! –
+                    <lb/>Ich habe mich zum Sonnabend Abend in <placeName ref="Köln">Köln</placeName> angemeldet. Hoffentlich bist Du noch vorher hier! Aber selbstverständlich geht jetzt die sachliche Notwendigkeit all meinen Wünschen und Sehnsüchten vor. Aber wenn es <hi rend="u">irgend</hi> geht, kommst Du, ja?
+                    <lb/>Und nun das Letzte und für Dich sicher etwas Betrübliche: <persName ref="P00688">Goesch</persName> hat sich für Dienstag Abend oder später (er will telegraphieren) für hier angemeldet. Ich werde ihn sofort zu Dir nach Berlin schicken. Denn daß Ihr hier noch zusammentrefft, ist ja unwahrscheinlich. Ich freue mich sehr auf ihn. Vielleicht telegraphieren <del rend="ow"></del>wir, wann er bei Dir eintrifft,
+                </p>
+                <closer>
+                    <salute>Leb’ wohl, liebes süßes <persName ref="P01925">Hannahchen</persName>!</salute>
+                    <signed>Dein <persName ref="P01930">Paul</persName>.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+

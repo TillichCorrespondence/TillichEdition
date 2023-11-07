@@ -1,0 +1,119 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Paul Tillich an Oskar Siebeck
+               <lb/>vom <date when="1926-03-05">05.03.1926</date>
+            </title>
+            <author ref="P01930">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Niklas von Hülsen</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="Brief">
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement ref="Berlin">Berlin</settlement>
+                  <institution>Staatsbibliothek zu Berlin Preußischer Kulturbesitz</institution>
+                  <repository><!-- ??? --></repository>
+                  <collection>Mohr Siebeck, VA</collection>
+                  <idno>A Nr. 425 1926</idno>
+                  <!--Anm. FS: Ich bin mir nicht sicher, ob die Archivangabe so korrekt ist-->
+               </msIdentifier>
+               <physDesc>
+                  <p>handschriftlich</p>
+               </physDesc>
+               <additional>
+                  <listBibl>
+                     <biblStruct type="journal" n="firstPrint">
+                        <monogr>
+                           <author>Alf Christophersen/Friedrich Wilhelm Graf</author>
+                           <title>"Beweise einer unsichtbaren Beziehung". Die Korrespondenz zwischen Paul Tillich und dem Tübinger Verlag J. C. B. Mohr (Paul Siebeck)</title>
+                           <imprint>
+                              <pubPlace ref="Berlin">Berlin/</pubPlace><pubPlace ref="Boston, Massachusetts">Boston, MA</pubPlace>
+                              <date when="2011">2011</date>
+                              <biblScope>237-407, hier: 279</biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title>International Yearbook for Tillich Research</title>
+                           <biblScope>Bd. 6, H. 1</biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01930">Paul Tillich</persName>
+              <address><placeName ref="Dresden">Dresden, Elisenstr. 11</placeName></address>
+              <date when="1926-03-05">5. März 1926</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01782">Oskar Siebeck</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="NH" when="2022-11-29">Intitale Auszeichnung des Transkripts</change>
+        <change who="NH" when="2023-01-28"><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+        <change who="FS" when="2023-04-17">Ergänzende Auszeichnungen</change>
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+           <salute>Sehr geehrter Herr <persName ref="P01782">Siebeck</persName>!</salute>
+        </opener>
+        <p>Über die Dogmatik will ich später schreiben, jetzt nur die Antwort auf Ihre <bibl>Anfrage</bibl><!-- Brief von Oskar Siebeck an Paul Tillich vom 26.02.1926--> betr. den <bibl>Hamburger Vortrag</bibl><!--Das Dämonische in der Geschichte-->. Ich bin gern bereit, ihn Ihnen zu überlassen, müßte allerdings noch etwas daran arbeiten. Ich denke, daß Sie ihn spätestens Ende März haben können. Soviel ich mich erinnere, betrug das Honorar damals 100 M. Ich weiß nicht, inwieweit es Ihnen möglich ist, gegenwärtig darüber hinauszugehen und bitte um Ihre Mitteilung. Eventuell um den Entwurf eines Vertrages. Ich kann noch nicht genau übersehen, wie lang der Vortrag wird. Doch schätze ich, etwas länger als der <bibl>Tübinger</bibl><!--Tillich, Kirche und Kultur (Sammlung gemeinverständlicher Vorträge und Schriften aus dem Gebiet der Theologie und Religionsgeschichte, Nr. 111), Tübingen 1924-->. Welches wäre die Höchstlänge?
+        </p>
+        <closer>
+           <salute>Mit ergebenstem Gruß</salute>
+           <signed>Prof. D. P. Tillich.</signed>
+        </closer>
+     </div>
+    </body>
+  </text>
+</TEI>
