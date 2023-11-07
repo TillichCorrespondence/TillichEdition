@@ -1,0 +1,107 @@
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L00081">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Postkarte von Toni Winkler an Paul Tillich <lb/>vom 31. Juli 1905 </title>
+            <author ref="P02089">Toni Winkler</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974.</collection>
+                  <idno>bMS 649/205(16)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Postkarte, eigenhändig</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P02089">Toni Winkler</persName>
+               <placeName ref="Stendal">Stendal</placeName>
+               <date when="1905-07-31">31.07.1905</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P01930">Paul Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2022-04-05">Intitale Auszeichnung des Transkripts</change>
+         <change who="EL" when="2023-10-30">Endabnahme</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="postcard">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <dateline>Zwischen <placeName ref="Bielefeld">[Bielefeld]<note type="ea">Der Text in eckigen Klammern ist auf die Postkarte gedruckt.</note></placeName> u. <placeName ref="Berlin">Berlin</placeName> d. <date when="1905-07-31">31/7.
+                     05.</date></dateline>
+               <salute>L. <persName ref="P01930">P.</persName></salute>
+            </opener>
+            <p>Auf der Heimreise begriffen, senden wir Dir viele innige Grüße. <persName
+               ref="P01764">Elis.</persName> hat in den 3 Wochen 4 K <pb n="2"/>
+               zugenommen, ich 2. <persName ref="P01926">Papa</persName> u. <persName
+                  ref="P00644">Johanna</persName> kommen Morgen Abend in <placeName
+                  ref="Berlin">Berlin</placeName> an. Vielen Dank f. den l. Brief, Gott Lob gehts
+               Dir wieder gut. Wir freuen uns <hi rend="uu">sehr</hi> des baldigen Wiedersehens mit
+               Dir. Gott behüte Dich. </p>
+            <closer>
+               <salute>In treuer Liebe D.</salute>
+               <signed>Tante <persName ref="P02089">Toni</persName></signed>
+            </closer>
+            <postscript>
+               <p>(Im D.Zug!)</p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,127 @@
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L00089">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Toni Winkler an Paul Tillich <lb/>vom 20. Oktober 1905 </title>
+            <author ref="P02089">Toni Winkler</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974.</collection>
+                  <idno>bMS 649/205(15)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Brief, eigenhändig</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P02089">Toni Winkler</persName>
+               <placeName ref="Berlin">Berlin</placeName>
+               <date when="1905-10-20">20.10.1905</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P01930">Paul Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2022-10-31">Intitale Auszeichnung des Transkripts</change>
+         <change who="EL" when="2023-10-30"
+            >Endabnahme</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <dateline><placeName ref="Berlin">Berlin</placeName> d. <date when="1905-10-20">20.
+                     Oct 05.</date></dateline>
+               <salute>Unser lieber <persName ref="P01930">Paul</persName>.</salute>
+            </opener>
+            <p>Wir sind dir <hi rend="u">sehr</hi> dankbar, daß Du gleich nach deiner Ankunft eine
+               Karte u. uns heut einen so lieben Brief gesandt. Es ist uns eine so große Beruhigung,
+               zumal Du weißt, wie leicht sich <persName ref="P01926">Papa</persName> beunruhigt,
+               und das möchten wir am allermeisten doch gerade fest vermeiden, wo er so sehr in
+               Anspruch genommen ist durch die Provinzial<pb n="2"/> Synode. Es ist jetzt 1/4 12 Uhr
+               Abends, <persName ref="P01926">Papa</persName> ist im Herrenhaus u. bin ich neugierig
+               wann er heim kommt. Bei uns gehts weiter bunt zu. Also zuerst nach deiner Abreise
+               waren <unclear>Köttcher</unclear> zum Kaffee u. Abendbrod bei uns, <persName
+                  ref="P01926">Papa</persName> holte mit <persName ref="P00644">Johanna</persName>
+               <persName ref="P02231">Tante Emma</persName> von der Bahn, u blieb bei
+                  <unclear>Ramdorf</unclear> zum Abendbrod. Das war Dienstag. – Am Mittwoch war
+                  <persName ref="P02231">Tante Emma</persName> zum Kaffee u. Abendbrod bei uns,
+                  <persName ref="P00644">Johanna</persName> holte sie 1/2 4 Uhr ab. Da war auch noch
+                  <persName ref="P01928">Großpapa Tillich</persName><pb n="3"/> Bei uns zum Kaffee.
+                  <persName ref="P01764">Elisabeth</persName> stand Mittags schon zur Feier des
+               Festes auf. Am Donnerstag war <persName ref="P02229">Tante Eugenie</persName>
+               <persName ref="P01923">Großmama</persName> u. Frl. <unclear>Gerichen</unclear> bei
+               uns zum Besuch. Am Abend war eine herrliche Bibelstunde, die mich aber wieder sehr
+               anstrengte. Heut war Vormittag <persName ref="P01927">Tante Gretchen</persName> hier,
+               die mir viele Grüße an Dich auftrug. – Am Nachm. war <persName ref="P02232">Maria
+                  Solberger</persName> bei <persName ref="P01764">Elisabeth</persName> zum Kränzchen
+                  <persName ref="P02234">Edith</persName>, <persName ref="P02235">Gerda</persName>,
+                  <persName ref="P02233">Lottchen Schilling</persName> u. <persName ref="P02229"
+                  >Tante Eugenie</persName> noch hier, morgen geht <persName ref="P01926"
+                  >Papa</persName> zu 12<pb n="4"/> Uhr Mittags ins Herrenhaus, u. dann wird die
+               nächste Woche wohl sehr ruhig verlaufen, da <persName ref="P01926">Papa</persName>
+               dann beinahe wohl alle Tage fort ist. <persName ref="P01764">Elisabeth</persName>
+               geht seit gestern zur Schule u. gehts ihr wieder gut. Daß Deine Bude so hübsch ist,
+               freut mich sehr, aber du mußt dich mit den guten Meubels nun wohl auch recht in Acht nehmen, sonst haben deine Mieter Schaden. Und ich weiß, Du willst das nicht u. denkst
+               manchmal auch in dieser Beziehung an Deine </p>
+            <closer>
+               <signed>treue <persName ref="P02089">Tante Toni</persName></signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>
