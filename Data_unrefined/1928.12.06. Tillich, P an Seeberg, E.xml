@@ -1,0 +1,118 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von <persName ref="P01930">Paul Tillich</persName> an <persName ref="P01762">Erich Seeberg</persName> 
+               <lb/>vom <date when="1928-12-06">6. Dezember 1928</date>
+            </title>
+            <author ref="P01930">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Friedrich Schumann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="Brief">
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement>Koblenz</settlement>
+                  <institution>Bundesarchiv Koblenz</institution>
+                  <collection>Nachlass Reinhold und Erich Seeberg</collection>
+                  <idno>N 1248</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>handschriftlich</p>
+                  </physDesc>
+               <additional> 
+                  <listBibl>
+                     <biblStruct type="journal" n="firstPrint">
+                        <monogr>
+                           <author>Erdmann Sturm</author>
+                           <title>"Vielleicht kommen wir nun doch zu einer gemeinsamen Arbeit in Berlin". Paul Tillichs Briefe an Reinhold und Erich Seeberg (1924–1935)</title>
+                           <imprint>
+                              <pubPlace ref="Berlin">Berlin/</pubPlace><pubPlace ref="Boston, Massachusetts">Boston, MA</pubPlace>
+                              <date when="2012">2012</date>
+                              <biblScope>211–253, hier: 235f.</biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title>International Yearbook for Tillich Research</title>
+                           <biblScope>Bd. 7, H. 1</biblScope>
+                        </series>
+                     </biblStruct>  
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01930">Paul Tillich</persName>
+              <placeName ref="Dresden">Dresden</placeName>
+              <date when="1928-12-06">6. Dezember 1928</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01762">Erich Seeberg</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="FS" when="2023-08-16">Intitale Auszeichnung des Transkripts</change>
+        
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+<dateline><placeName ref="Dresden">Dresden</placeName>, d. <date when="1928-12-06">6.12. 28</date> Elisenstr. 11</dateline>
+           <salute>Lieber Herr <persName ref="P01762">Seeberg</persName>!</salute>
+        </opener>
+        <p>Haben Sie sehr herzlichen Dank für Ihren <bibl>Brief</bibl><!--liegt nicht vor-->, der mir außerordentlich wertvoll ist. Die Mitteilungen des <persName ref="P00169">Ministers</persName> an <persName ref="P01969">Dr. Ulich</persName> konnte ich nicht anders verstehen, als dass er selbst innerlich entschieden ist und zwar auf Grund einer so principiellen Ablehnung des E.<expan>vangelischen</expan> O.<expan>ber</expan> K.<expan>irchenrats</expan>, dass nur noch ein Übergang in die Philosophische Fakultät übrig bleibt, wenn ich <placeName ref="Dresden">Dresden</placeName> überhaupt verlassen will. Dass mein "Daimonion" unbedingt für die Theologie steht, wissen Sie ja. Ich würde mit demselben Bruch wie <persName ref="P01958">Tröltsch</persName> zur Philosophie übergehen. Aber ich würde es tun, wenn es keinen andern Weg gäbe, in eine mir angemessenere Situation zu kommen. – – – Nun scheinen die Dinge hier doch anders zu liegen. Gleichzeitig mit Ihrem Brief erhielt ich <bibl>einen</bibl><!--liegt nicht vor--> von meinem <persName ref="P01926">Vater</persName>, der im Kirchensenat<!--Erklärende Anmerkung von Erdmann Sturm: "Die Leitung der Ev. Kirche der Altpreußischen Union, die bis 1918 beim preußischen Monarchen gelegen hatte, war gemäß der Verfassung von 1922 auf den Kirchensenat übergegangen. Dieser setzte sich aus Trägern des synodalen, konsistorialen und geistlichen Amtes zusammen. Tilichs Vater war als Geheimer Konsistorialrat Mitglied des Kirchensenats."--> mit <persName ref="P02492">Sellin</persName> gesprochen hat. Dabei hat sich <persName ref="P02492">Sellin</persName> sehr freundlich geäußert und zum Ausdruck gebracht, dass weder er noch der E.<expan>vangelische</expan> O.<expan>ber</expan> K.<expan>irchenrat</expan> gegen mich an sich Stellung nehmen, sondern nur für diese Stelle, dass sie es im Gegenteil bedauern würden, wenn ich den Weg von <persName ref="P01958">Tröltsch</persName> ginge. Vielleicht wäre es nicht unwichtig, wenn <persName ref="P01603">Richter</persName> diese grundsätzliche Haltung der Herren erführe. – Dann noch eins: <persName ref="P01969">Ulich</persName> meinte (und auch mein <persName ref="P01926">Vater</persName>), dass der Widerstand der Kirche sich sehr stark auf die Prüfung bezöge, die wohl grundsätzlich den Ordinarien zusteht. Von dieser Sorge könnte man den E.<expan>vangelischen</expan> O.<expan>ber</expan> K.<expan>irchenrat</expan> ja durch eine vorläufige Abmachung befreien. Aber ich übersehe die Dinge nicht.
+</p>
+        <closer>Spätestens nach Weihnachten werde ich in <placeName ref="Berlin">Berlin</placeName> sein und bei Ihnen anrufen. Ich wünsche Ihnen schöne Weihnachtstage!
+           <salute>Mit herzlichem Gruß und Dank<lb/>
+Ihr</salute>
+           <signed>P. Tillich</signed>
+        </closer>  
+     </div>
+    </body>
+  </text>
+</TEI>

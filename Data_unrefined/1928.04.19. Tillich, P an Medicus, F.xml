@@ -1,0 +1,106 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Paul Tillich an Fritz Medicus(und Clara)
+               <lb/>vom 19. April 1928
+            </title>
+            <author ref="P01930">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Sebastian Kueffner</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="Kopie">
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library
+                  </repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974</collection>
+                  <idno>bMS 649/165(35)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Postkarte; Maschinenschriftlich(Original: Handschriftlich), als maschinenschriftliche Abschrift überliefert             
+                  </p>
+                  </physDesc>      
+            </msDesc>
+        
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01930">Paul Tillich</persName>
+              <placeName ref="Italien">Ventimiglia-Génova</placeName>
+              <date when="1928-04-19">19.04.1928[PS]</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01291">Fritz Medicus</persName>
+              <persName ref="P02358">Clara Medicus</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="SK" when="2023-04-10">Intitale Auszeichnung des Transkripts</change>
+        <change who="SK" when="2023-04-14">Änderrung des Original-Archiv: Hochschularchiv der ETH Zürich zum Archiv der Kopie</change>
+        <change who="SK" when="2023-04-14">texttype nun als postcard declariert</change>
+        <change who="SK" when="2023-04-19">Ausbesserung des Titels, Ausbesserung der Namensordnung, hinzufügen von Clara Medicus zu corr.action</change>
+        
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="postcard">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+           <salute><persName ref="P01291">Lieber Freund</persName>!</salute>
+        </opener>
+        <p>Herzliche Grüße sende ich Ihnen auch im Namen meiner <persName ref="P01925">Frau</persName> von diesem besseren Lande! Ich bin sehr froh, daß wir – zum ersten Male – so lange und intensiv zusammen sein konnten. Inzwischen habe ich sehr viel gearbeitet. Diese Landschaft zwingt zur Gestaltung.<date when="1928-04-22">Ende der Woche</date> leider Abschied in die Kälte!
+        </p>
+        <closer>
+           <salute>Ihr</salute>
+           <signed><persName ref="P01930">P. Tillich</persName></signed>
+        </closer>
+      
+     </div>
+    </body>
+  </text>
+</TEI>

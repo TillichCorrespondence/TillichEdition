@@ -1,0 +1,99 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von <persName ref="P01930">Paul Tillich</persName> an <persName ref="P01925">Hannah Tillich</persName>
+                    <lb/>vom <date when="1929-05-09">09. Mai 1929</date>
+                </title>
+                <author ref="P01930">Paul Tillich</author>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Friedrich Schumann</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+                    <address>
+                        <street>Schenkenstraße 8-10</street>
+                        <postCode>1010</postCode>
+                        <placeName ref="Wien">
+                            <settlement>Wien</settlement>
+                            <country>Österreich</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+                </availability>        
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="Brief">
+                    <msIdentifier>
+                        <country>USA</country>
+                        <settlement>Cambridge, MA</settlement>
+                        <institution>Harvard University</institution>
+                        <repository>Harvard Divinity School Library</repository>
+                        <collection>Tillich, Hannah. Papers, 1896-1976</collection>
+                        <idno>bMS 721/3(1)</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>handschriftlich</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+            </editorialDecl>
+        </encodingDesc> 
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="P01930">Paul Tillich</persName>
+                    <placeName ref="Frankfurt/Main">Frankfurt a. M.</placeName><!-- Ort ist aus Briefkontext erschließbar - soll er aufgenommen werden?-->
+                    <date when="1929-05-09">09. Mai 1929</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="P01925">Hannah Tillich</persName>
+                    <placeName ref="Marburg/Lahn">Marburg</placeName><!-- Ort ist aus Briefkontext erschließbar - soll er aufgenommen werden?-->
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="deu">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="FS" when="2023-05-17">Intitale Auszeichnung des Transkripts</change>
+            
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <div type="writingSession">
+                <pb n="1"/>
+                <opener>
+                    <salute>Liebste <persName ref="P01925">Hannah</persName>!</salute>
+                </opener>
+                <p>Die Tage sind voll von früh bis spät. <date when="1929-05-07">Dienstag</date> Abend nach dem logischen Kolloquium, also um ½ 11 fuhr ich mit <persName ref="P01611">Riezler</persName> in seinem Auto ins Kaffee, wo <persName ref="P01976">Ilse</persName> und – <persName ref="P00684">Käthe</persName> auf uns warteten. <persName ref="P00684">Käthe</persName> war hier, um ein Auto zu kaufen und in ihm nach <placeName ref="Dresden">Dresden</placeName> zurückzufahren. Wir waren noch eine Stunde zusammen. Dann kam ihr Auto-Mann und ich fuhr nach Haus. Am <date when="1929-05-08">Mittwoch</date> Vormittag wie immer von ½ 10 an im Seminar. Vielerlei Sachen, darunter eine lange Besprechung mit <persName ref="P01611">Riezler</persName> über die Nachfolge. <persName ref="P00169">Becker</persName> war <date when="1929-05-06">Montag</date> inkognito hier gewesen und hat <persName ref="P00841">Heidegger</persName> für möglich erklärt. Ich habe <persName ref="P01611">Riezler</persName> meine Bedenken gesagt. Er denkt als Philosoph ebenso wie ich, als Kurator muß er natürlich für ihn sein – denn wir wären dann mit einem Schlage die erste philosophische Fakultät in Deutschland. Nach Tisch traf ich mich mit dem <persName ref="P02396">Bruder von Riezler</persName>, dem Stettiner Museums-Direktor im Kaffee: <hi rend="u">Sehr</hi> nett! Ich interessierte ihn für <persName ref="P00688">Heinrichs</persName><!--Identifizierung mit Heinrich Goesch ist unsicher--> Arbeiten. Von ½ 5-6 Besprechungen mit einem <persName ref="P02397">amerikanischen Professor</persName><!--bisher nicht ermittelt (es wäre möglich und sprachlich naheliegend, dass es sich bei "einem amerikanischen Professor, unserm besten Privatdozenten" um ein und dieselbe Person handelt. Dagegen spricht: Ein Privatdozent würde verm. von Tillich nicht als "Professor" bezeichnet werden, zudem hatte die Uni Frankfurt laut Vorlesungsverzeichnis 1929 keinen amerikanischen Privatdozenten angestellt-->, unserm <persName ref="P00931">besten Privatdozenten</persName><!--meint verm. Max Horkheimer--> über <persName ref="P01020">Kant</persName>- und <persName ref="P01739">Schopenhauer</persName>-Gesellschaft. Um 6 mein erstes Seminar, 40-50 Leute, lebhafte Debatte. Nachher zu <persName ref="P01578">Reinhardts</persName> zum Abendbrot. Dort Prof. <pb facs="2"/> <persName ref="P02398">Schulz</persName> und <persName ref="P02399">Frau</persName>, die unter uns wohnen. Er klug und politisch, Frauen-Liebhaber und Gemsen-Jäger, sie eine sehr temperamentvolle Malerin aus Oberbayern. Ich glaube, wir werden uns gut mit ihnen vertragen. Später kamen noch <persName ref="P01611"><persName ref="P02400">Riezlers</persName></persName> und <persName ref="P00664"><persName ref="P02401">Gelbs</persName></persName>. Ich hatte lange Gespräche mit <persName ref="P02400">Frau Riezler</persName>, die Tochter von <persName ref="P01177">Liebermann</persName>. Heut (Himmelfahrt) von 9-5 Autofahrt in den <placeName ref="Odenwald">Odenwald</placeName> mit <persName ref="P01423"><persName ref="P01424">Oppenheims</persName></persName>. Dazu ein Privatdozent und 2 andere Damen. Die eine die <persName ref="P02404">Frau</persName> (vor 8 Tagen geschieden) von <persName ref="P02402">Weyl</persName> und damit die Schwägerin von <persName ref="P02403">Anita Gonzala</persName> (vor ½ Jahr geschieden), die du von <persName ref="P02098"><persName ref="P02405">Wolfers</persName></persName> her kennst, mit der <persName ref="P01704">Scheler</persName> in Italien war. Wir sprachen lange über <persName ref="P02405">Doris Wolfers</persName>, die sie ähnlich empfindet wie du. Das Land war herrlich. Schönste Blüte. – Ich war auf der ganzen Fahrt sehr unruhig, weil seit <date when="1929-05-06">Montag</date> ohne Nachricht. Bei der Rückkehr deine <bibl>Karte</bibl><!--liegt uns nicht vor--> aus <placeName ref="Marburg/Lahn">Marburg</placeName>. Tausend Dank! <persName ref="P00684">Käthe</persName> sagte mir, daß Ihr erst <date when="1929-05-07">Dienstag</date> gefahren seid. Wie war alles? – Das Parkett würde 220-250M kosten. Selbstverständlich abgelehnt. – Geh' doch auf alle Fälle zu <persName ref="P01785">Siegfried</persName>, <persName ref="P02406">Hermelink</persName> und <persName ref="P02407">Hölscher</persName>. Sonst wie du willst! Bitte schreib doch noch mal Eure <hi rend="u">Telephon-Nummer</hi>! – Die hiesige Rechnung habe ich auf die Bank nach <placeName ref="Dresden">Dresden</placeName> geschickt. Hoffentlich war noch Geld da! <hi rend="u">Schreib wieder!</hi> Grüße alle!
+                </p>
+                <closer>
+                    <salute>Sei gegrüßt von</salute>
+                    <signed>Paul</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+

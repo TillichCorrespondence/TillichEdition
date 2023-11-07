@@ -1,0 +1,122 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von <persName ref="P01930">Paul Tillich</persName> an <persName ref="P01762">Erich Seeberg</persName> 
+               <lb/>vom <date when="1928-11-01">1. November 1928</date>
+            </title>
+            <author ref="P01930">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Friedrich Schumann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="letter">
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement>Koblenz</settlement>
+                  <institution>Bundesarchiv Koblenz</institution>
+                  <collection>Nachlass Reinhold und Erich Seeberg</collection>
+                  <idno>N 1248</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>handschriftlich</p>
+                  </physDesc>
+               <additional> 
+                  <listBibl>
+                     <biblStruct type="journal" n="firstPrint">
+                        <monogr>
+                           <author>Erdmann Sturm</author>
+                           <title>"Vielleicht kommen wir nun doch zu einer gemeinsamen Arbeit in Berlin". Paul Tillichs Briefe an Reinhold und Erich Seeberg (1924–1935)</title>
+                           <imprint>
+                              <pubPlace ref="Berlin">Berlin/</pubPlace><pubPlace ref="Boston, Massachusetts">Boston, MA</pubPlace>
+                              <date when="2012">2012</date>
+                              <biblScope>211–253, hier: 231–234</biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title>International Yearbook for Tillich Research</title>
+                           <biblScope>Bd. 7, H. 1</biblScope>
+                        </series>
+                     </biblStruct>  
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01930">Paul Tillich</persName>
+              <placeName ref="Dresden">Dresden</placeName>
+              <date when="1928-11-01">1. November 1928</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01762">Erich Seeberg</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="FS" when="2023-07-19">Intitale Auszeichnung des Transkripts</change>
+        
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+<dateline><placeName ref="Dresden">Dresden</placeName>, d. <date when="1928-11-01">1. Nov. 1928</date></dateline>
+           <salute>Lieber Herr <persName ref="P01762">Seeberg</persName>!</salute>
+        </opener>
+        <p>Von einem <bibl>Hamburger Vortrag</bib><!--bisher nicht ermittelt--> zurückgekehrt finde ich Ihren <bibl>Brief</bibl><!--nicht erfasst--> vor. Haben Sie herzlichen Dank für das Vertrauen, das aus ihm spricht! <hi rend="u">Hätte ich auch nur die geringste Ahnung von einer Verstimmung gehabt, ich hätte selbstverständlich geschrieben.</hi> Mir fiel nur auf, dass Sie mir am Bahnhof etwas abwesend die Hand gaben. Aber ich führte das nach meiner eigenen Psychologie darauf zurück, dass Sie noch mit einem auf dem Wege angefangenen und nicht erledigten Problem (Ich glaube über den Aufbau der 'Praktischen Theologie') beschäftigt waren. Vielleicht wurden wir auch beide gegen Schluß dieses recht inhaltsvollen Tages etwas müde. Jedenfalls habe ich nur eine leuchtende Erinnerung an den ganzen Tag und die Gespräche mit Ihnen. Es tut mir Leid, dass das für Sie nicht ganz so war und ich würde es sehr bedauern, wenn ich unbewußt und ungewollt die Ursache davon war. Übrigens bedaure ich es unter diesen Umständen noch mehr, dass ich Sie in der <date when="1928-10">zweiten Oktoberwoche</date> vergeblich angerufen habe. Ihr <persName ref="P02473">Sohn</persName> antwortete, dass Sie verreist wären. Ich nehme an, nach <placeName ref="Frankfurt a. M.">Frankfurt</placeName><!--Anm. von Erdmann Sturm: Gemeint ist der 2. deutsche Theologentag in Frankfurt am Main (9.-12. Oktober 1928). Über seine Teilnahme berichtet E. Seeberg in seinen Briefen an Rudolf Hermann vom 2. u. 13.10.1928, in: A. Wiebel [Anm. 20], 98f. Vgl. auch E. Pfennigsdorf (Hrsg.), Der Erlösungsgedanke. Bericht über den 2. deutschen Theologentag in Frankfurt a. M. (Deutsche Theologie, 2. Bd.), Göttingen 1929-->. (Was haben Sie für Eindrücke? Ich bin absichtlich nicht gekommen, da ich in der jetzigen Lage nicht in Erscheinung treten wollte.)<lb/>
+Was die Kirchlichkeit meiner Theologie betrifft, so verstehe ich Ihre Bedenken. Sie sind aber wesentlich darin begründet, dass ich mich zwar lebensmäßig von der Kirche her, aber arbeitsmäßig zu der Kirche hin entwickelt habe. Diese zweite Entwicklung ist unserer Lage gemäß sehr lang und mühsam. Aber ich halte <del>ihn</del> sie für fruchtbarer als den selbstverständlichen Einsatz in der kirchlichen Situation. Daran liegt es, dass noch wenige Dokumente veröffentlicht sind, aus denen die Erreichung des Zieles klar sichtbar ist. Das größte, meine Dogmatik, liegt seit Jahren in meinen Kollegheften und zahlreichen Vorarbeiten zum Druck.<!--Anm. von Erdmann Sturm: Das Manuskript der „Dogmatik“ liegt in 18 Kollegheften vor (im Paul Tillich Archiv der Andover-Harvard Theological Library in Cambridge, Mass.). Tillich hat die Dogmatik-Vorlesung in Dresden vom Wintersemester 1925/26 bis zum Wintersemester 1926/27 und gleichzeitig an der Theol. Fakultät in Leipzig gehalten, nachdem er im Sommersemester 1925 die Vorlesung in Marburg nur begonnen hat. Am 28.1.1926 schrieb Tillich an Oskar Siebeck (Verlag Mohr, Tübingen): „Ich beabsichtige meine im Sommersemester 1925 in Marburg mit grossem Erfolg gehaltene Vorlesung über Prolegomena zur Dogmatik zu veröffentlichen und im Anschluss daran die Dogmatik selbst, die im Werden ist. Zunächst würde es sich um die Prolegomena handeln, denen wir natürlich einen anderen, mehr aus der Sache geborenen Namen geben müssten.“ („Beweise einer unsichtbaren Beziehung.“ Die Korrespondenz zwischen Paul Tillich und dem Tübinger Verlag J. C. B. Mohr (Siebeck), hrsg. von A. Christophersen und F. W. Graf, in: International Yearbook of Tillich Research, Vol. 6, 2011, 237-407 [276]). Am 17.6.1926 kam aber ein Vertrag mit dem Reichl-Verlag Darmstadt zustande. Dort sollte seine Dogmatik unter dem Titel „Die Wissenschaft vom religiösen Symbol (Dogmatik)“ erscheinen. Der 1. Band sollte die „Grundlegung“, der 2. Band den „Aufbau“ enthalten. Tillich hat dann nach Differenzen mit dem Reichl-Verlag von einer Publikation Abstand genommen. Tillichs Vorlesungsmanuskript wurde zunächst von W. Schüßler veröffentlicht unter dem Titel Dogmatik. Marburger Vorlesung von 1925 (Düsseldorf 1986), sodann neu hrsg. von W. Schüßler und E. Sturm (P. Tillich, Dogmatik-Vorlesung (Dresden 1925-1927), (EW XIV), Berlin/New York 2005).--> Aber vielleicht kann ich Sie statt dessen auf die letzte Tagung von Berneuchen in der ersten Oktoberwoche hinweisen. Ich hatte dort das <del>Sakra</del> Referat über <bibl>"Natur und Sakrament"</bibl><!--Tillich, Natur und Sakrament, in: Ders., Religiöse Verwirklichung, Berlin 1930, 142-167.293-295, sowie in: GW VII, 105-123--> und habe dabei in Kampf mit dem Symbolismus der Berneuchener eine realistische Auffassung des Sakramentalen durchgesetzt. Das hatte sofort Konsequenzen für die Gestaltung der Berneuchener Liturgieen, die ja infolge der nicht geringen Zahl von Pfarrern, die sie benutzen, eine nicht unwesentliche kirchliche Bedeutung haben. Und ich habe selbst in der 5tägigen 14stündigen gemeinsamen Arbeit an der Bereinigung der Formulare energisch mitgearbeitet. <hi rend="u">Ich bin jedesmal überaus dankbar, wenn mir eigentlich kirchliche Aufgaben gestellt werden</hi>, und wäre es eine grundsätzliche Klärung des Verhältnisses von Kirche und Innerer Mission, das Thema der ersten Tage von Berneuchen.<lb/>
+Es ist mir nicht ganz leicht, hier Anwalt in eigner Sache zu sein. Darum würde ich Sie bitten, falls Sie es für angemessen halten, eventuell mit diesem oder jenem Teilnehmer von Berneuchen in Verbindung zu treten. So <persName ref="P01758">Schweitzer</persName> und <persName ref="P01741">Schreiner</persName> in <placeName ref="Berlin-Spandau">Spandau</placeName>, <persName ref="P01839">Stählin</persName> – <placeName ref="Münster">Münster</placeName>, <persName ref="P02474">Cordier</persName> – <placeName ref="Gießen">Gießen</placeName>, <persName ref="P01618">Ritter</persName> – <placeName ref="Marburg a. d. L.">Marburg</placeName>.
+</p>
+        <closer>
+           <salute>Meine herzlichen Grüße an Sie und Ihre <persName ref="P02471">Frau</persName>.<lb/>
+Mit Dank für vergangene und eventuelle kommende Bemühungen in meiner Sache!<lb/>
+Ihr
+</salute>
+           <signed>P. Tillich</signed>
+        </closer>  
+     </div>
+    </body>
+  </text>
+</TEI>

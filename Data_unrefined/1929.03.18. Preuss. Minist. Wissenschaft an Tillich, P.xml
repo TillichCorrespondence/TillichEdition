@@ -1,0 +1,99 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Preußisches Ministerium für Wissenschaft, Kunst und Volksbildung an Paul Tillich
+               <lb/>vom 18. März 1929
+            </title>
+            <author ref="P02462">Preußisches Ministerium für Wissenschaft, Kunst und Volksbildung</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Gerrit Mauritz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambrige, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974.</collection>
+                  <idno>bMS 649/175(49)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Brief, maschinenschriftlich</p>
+                  </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P02462">Preußisches Ministerium für Wissenschaft, Kunst und Volksbildung</persName>
+              <placeName ref="Berlin">Berlin</placeName>
+              <date when="1929-03-18">18.03.1929</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01930">Paul Tillich</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="GM" when="2023-07-25">Intitale Auszeichnung des Transkripts</change>
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+           <persName ref="P02462">Preußisches Ministerium für Wissenschaft, Kunst und Volksbildung</persName><lb/>
+           Ministerialrat Prof.Dr. <persName ref="P02476">Windelband</persName><lb/>
+              <dateline><placeName ref="Berlin">Berlin</placeName> W 8 den <date when="1927-03-18">18.März 1929.</date> <address><street>Unter den Linden 4</street></address><lb/>-Postfach-</dateline><lb/>
+           <address><persName ref="P01930">Herrn<lb/>Professor Dr.Tillich</persName><lb/>
+        <placeName ref="Dresden">Dresden</placeName><lb/>
+        <street>Elisenstr. 11.</street></address></opener>
+        <salute>Sehr geehrter <persName ref="P01930">Herr Professor</persName>,</salute>
+        <p>Ich habe mich sehr gefreut, die Annahme des Rufs von Ihnen zu bekommen. Ihr Pensionsdienstalter wird gemeinsam durch das Finanzministerium und uns festgesetzt. Ich muss Sie bitten, mir seinerzeit die Unterlagen dafür an Hand zu geben. Eile hat die Sache ja garnicht. Die Bemerkung, dass Ihnen die Bestimmungen des Honorarwesens und der Kolleggeldgarantie bekannt sind, bedeutet nichts anderes, als dass Sie wissen, dass die Ihnen bewilligte Garantie die gesetzlich jedem Professor zugesicherte übersteigt. Ihre Bestallung wird alsbald erfolgen und so glaube ich bestimmt, dass irgendwelche Stockung in Ihren Gehaltsbezügen nicht eintreten wird.</p>
+        <closer>Mit vorzüglicher Hochachtung<lb/>
+           Ihr ergebener<lb/>
+           <signed><persName ref="P02476">Windelband</persName></signed></closer>
+     </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,139 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Preußisches Ministerium für Wissenschaft, Kunst und Volksbildung an Paul Tillich
+               <lb/>vom 28. März 1929
+            </title>
+            <author ref="P02462">Preußisches Ministerium für Wissenschaft, Kunst und Volksbildung</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Gerrit Mauritz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambrige, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974.</collection>
+                  <idno>bMS 649/175(49)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Brief, maschinenschriftlich</p>
+                  </physDesc>
+               <additional>
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint">
+                        <monogr>
+                           <author>Paul Tillich</author>
+                           <title>Ein Lebensbild in Dokumenten</title>
+                           <imprint>
+                              <publisher>Renate Albrecht / Margot Hahl</publisher>
+                              <pubPlace ref="where">Stuttgart</pubPlace>
+                              <date when="1980-01-01">1980</date>
+                              <biblScope>182-183</biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title>Gesamelte Werke. Ergänzungs- und Nachlaßbände</title>
+                           <biblScope>Band 5</biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P02462">Preußisches Ministerium für Wissenschaft, Kunst und Volksbildung</persName>
+              <placeName ref="Berlin">Berlin</placeName>
+              <date when="1929-03-28">28.03.1929</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01930">Paul Tillich</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="GM" when="2023-07-25">Intitale Auszeichnung des Transkripts</change>
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener><persName ref="P00169">Der Preußische Minister für Wissenschaft, Kunst und Volksbildung</persName><lb/>
+              <dateline><placeName ref="Berlin">Berlin</placeName> W 8, den <date when="1927-03-28">28.März 1929.</date> <address><street>Unter den Linden 4</street></address></dateline><lb/>
+           An<lb/>
+           Herrn Professor<lb/>
+        <persName ref="P01930">D.Dr. Paul Tillich</persName><lb/>
+        in <placeName ref="Dresden">Dresden</placeName></opener>
+        <p>Namens des <placeName ref="P02462">Preußischen Staatsministeriums</placeName> habe ich Sie zum ordentlichen Professor in der Philosophischen Fakultät der Universität zu <placeName ref="Frankfurt a.M.">Frankfurt a. M.</placeName> ernannt.</p>
+        <p>Indem ich Ihnen die darüber ausgefertigte Bestallung übersende, verleihe ich Ihnen in dieser Fakultät die durch das Ausscheiden des Professors <persName ref="P00401">Cornelius</persName> freigewordene planmäßige Professur mit der Verpflichtung, die Philosophie und die Soziologie einschließlich Sozialpädagogik in Vorlesungen und Übungen zu vertreten. Zugleich ernenne ich Sie zum Direktor des Seminars für Philosophie, sowie zum Direktor des Pädagogischen Seminars der Universität Frankfurt a. M.</p>
+        <p>Sie wollen Ihr neues Amt zum Beginn des Sommersemesters 1929 übernehmen und das Verzeichnis der von Ihnen hierfür anzukündigenden Vorlesungen an den Dekan der Fakultät einsenden.</p>
+        <p>Unter Festsetzung Ihres Besoldungsdienstalters als planmäßiger Ordinarius auf den <date when="1929-04-01">1. April 1929</date> bewillige ich Ihnen von diesem Zeitpunkt ab zugleich unter Vorwegnahme der sämtlichen Alterszulagen ein Grundgehalt von jährlich 13 600 RM, in Worten: „Dreizehntausendsechshundert Reichsmark", neben dem gesetzlichen Wohnungsgeldzuschuß und den etwaigen Kinderbeihilfen.</p>
+        <p>Diese Bezüge wird Ihnen die Universitätskasse in <placeName ref="Frankfurt a.M.">Frankfurt a. M.</placeName> in monatlichen Teilbeträgen im voraus zahlen.</p>
+        <p>Für das Ihnen zufließende Unterrichtsgeld haben die Ihnen bekannten allgemeinen Bestimmungen Gültigkeit. Es wird Ihnen aber Gewähr dafür geleistet, daß Ihnen eine Einnahme an Vorlesungshonoraren von jährlich 7500 RM, in Worten: „Siebentausendfünfhundert Reichsmark" verbleibt. Diese Zusicherung fällt fort mit dem Ablauf desjenigen Studiensemesters, in dem Sie von den amtlichen Verpflichtungen entbunden werden.</p>
+        <p>Einen rechtlichen Anspruch auf Gewährung von Umzugskosten haben Sie nicht. Es wird Ihnen jedoch die Erstattung der Umzugskosten im Rahmen der für die preußischen Beamten geltenden Bestimmungen zugesichert. Erforderlichenfalls wird Ihnen ein Zuschuß bis zur Höhe der tatsächlich entstandenen Umzugsauslagen, soweit diese sich nicht auf Neuanschaffungen und Erneuerungsarbeiten in Ihrer Wohnung erstrecken, gezahlt werden.</p>
+        <p>Ich bemerke, daß Ihnen die vorstehend genannten, sowie alle sonstigen mit Ihrer Universitätsstellung zusammenhängenden Bezüge nur gegen die Universität <placeName ref="Frankfurt a.M.">Frankfurt a. M.</placeName> zustehen. Auch Ansprüche Hinterbliebener können nur gegen diese Universität geltend gemacht werden.</p>
+        <p>Über die hier nicht berührten Punkte 4, 5 und 6 der mit Ihnen getroffenen Vereinbarung ergeht besondere Verfügung. Die beteiligten akademischen Behörden der Universität <placeName ref="Frankfurt a.M.">Frankfurt a. M.</placeName> habe ich von Ihrer Ernennung in Kenntnis gesetzt.</p>
+        <closer>Im Auftrage<lb/>
+           <signed><persName ref="P01603">Richter</persName></signed></closer>
+     </div>
+     <div type="certificate">
+        <p>Der ordentliche Professor <persName ref="P01930">D.Dr. Paul Tillich</persName> in <placeName ref="Dresden">Dresden</placeName> wird zum ordentlichen Professor in der Philosophischen Fakultät der Universität <placeName ref="Frankfurt a.M.">Frankfurt a/M.</placeName> ernannt. Er ist verpflichtet, sein Lehramt in Vorlesungen und Übungen angemessen wahrzunehmen und in jedem Semester mindestens eine private, alle zwei Jahre eine öffentliche Vorlesung zu halten.</p>
+        <p><placeName ref="Berlin">Berlin</placeName>, den <date when="1929-03-28">28. März 1929</date></p>
+        <figure type="seal"><p>Drucksiegel des Preußisches Ministerium für Wissenschaft, Kunst und Volksbildung</p></figure>
+        <p>Namens des Preußischen Staatsministeriums<lb/>
+           Der Minister für Wissenschaft,<lb/>
+           Kunst und Volksbildung<lb/>
+           In Vertretung</p>
+        <signed><persName ref="P02484">Lammers</persName></signed>
+       <closer><hi rend="g">Bestallung</hi><lb/>
+          für den ordentlichen Professor<lb/>
+          <persName ref="P01930">D.Dr. Paul <hi rend="g">Tillich</hi> in Dresden</persName><lb/>
+          als ordentlicher Professor in der Philosophischen Fakultät der Universität in <placeName>Frankfurt a/M.</placeName></closer>
+        <fw><hi rend="u">U I 20596.1</hi></fw>
+     </div>
+    </body>
+  </text>
+</TEI>

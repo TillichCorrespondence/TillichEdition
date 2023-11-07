@@ -1,0 +1,148 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Paul Tillich an Verlag Mohr Siebeck
+               <lb/>vom 16. Novemeber 1926
+            </title>
+            <author ref="P01930">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Sebastian Kueffner</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="Kopie">
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement ref="Berlin">Berlin</settlement>
+                  <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz</repository>
+                  <collection>Handschriftenabteilung, Archiv des Verlages J. C. B. Mohr (Paul Siebeck)</collection>
+                  <idno>Nachl. 488, A 0469,5; Blatt 143-205</idno>   
+               </msIdentifier>
+               <physDesc>
+                  <p>Brief; Maschinenschriftlich mit handschriftlichen Zusätzen</p>
+                  </physDesc>   
+            </msDesc>
+            <biblStruct type="journal">
+               <monogr>
+                  <author>Alf Christophersen / Friedrich Wilhelm Graf</author>
+                  <title>„Beweise einer unsichtbaren Beziehung“ Die Korrespondenz zwischen Paul Tillich und dem Tübinger Verlag J. C. B. Mohr (Paul Siebeck)</title>
+                  <imprint>
+                     <pubPlace ref="Boston">Boston</pubPlace>
+                     <date when="2011-09-27">2011</date>
+                     <biblScope>S. 295f.</biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title>International Yearbook for Tillich Research</title>
+                  <biblScope>Band 6 Heft 1</biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01930">Paul Tillich</persName>
+              <placeName ref="Dresden">Dresden</placeName>
+              <date when="1926-11-16">16. November 1926</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P02445">Verlag Mohr Siebeck</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="SK" when="2023-06-20">Intitale Auszeichnung des Transkripts</change>
+        
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        
+        <opener>
+           <dateline><ptr/> erl.<date when="1926-11-18">18. / XI. 26 </date><note type="ea" resp="unknown">[Bearbeitungsvermerk:]</note>
+              <placeName ref="Dresden">Dresden</placeName>, d. <date when="1926-11-16">16. 11. 26</date><address><street>Elisenstr. 11</street></address></dateline>
+        </opener>
+        
+        <p>Hierdurch bitte ich Sie, die 25 Exemplare von <bibl><!-- Tillich, Paul: Das Dämonische. Ein Beitrag zur Sinndeutung der Geschichte(Sammlung gemeinverständlicher Vorträge und Schriften aus dem Gebiet der Theologie und Religionsgeschichte. 119), Tübingen 1926 -->„Das Dämonische“</bibl> mit der Bemerkung: ‚Überreicht vom Verfasser‘ an folgende Adressen zu versenden:
+           1. Geheimrat <persName ref="P01762">Professor D. Dr. Seeberg</persName> <placeName ref="Berlin-Halensee">Berlin-Halensee</placeName><lb/>
+           Joachim-Friedrichstr. 52<lb/>
+           2. Geheimrat " " <persName ref="P00445">Deissmann</persName> <placeName ref="Berlin-Wilmersdorf">Berlin-Wilmersdorf</placeName><lb/>
+           Prinzregentenstr. 6<lb/>
+           3. " <persName ref="P00320">Dr. Bultmann</persName> <placeName ref="Marburg-Lahn">Marburg-Lahn Friedrichstr. 1</placeName><lb/>
+           4. " " <persName ref="P01438">Otto</persName> " " <placeName ref="Marburg">Sybelstr. 8</placeName><lb/>
+           5. " " <persName ref="P02283">Büchsel</persName> <placeName ref="Rostock">Rostock Universität Patriotischer Weg 116a</placeName><lb/>
+           6. " " <persName ref="P00042">Althaus</persName> <placeName ref="Erlangen">Erlangen Universität Hindenburgstr. 4 ½</placeName><lb/>
+           7. <persName ref="P01033">Geheimrat D. Dr. Kattenbusch</persName> <placeName ref="Halle">Halle a.S. Universität</placeName><lb/>
+           Fasanenstr. 7<lb/>
+           8. " " <persName ref="P00904">Hirsch</persName> <placeName ref="Göttingen">Göttingen Bauratgerberstr. 19</placeName><lb/>
+           9. " "<persName ref="P01724">K. L. Schmidt</persName> <placeName ref="Jena">Jena Karl-Alexanderplatz 5</placeName><lb/>
+           10. " " <persName ref="P01856">Horst-Stephan</persName> <placeName ref="Leipzig">Leipzig S3 Universität Mathildenstr. 10</placeName><lb/>
+           11. " <persName ref="P01291">Dr. Medikus</persName> <placeName ref="Schweiz">Rüschlikon bei Zürich Glarnischstr. 5</placeName><lb/>
+           Schweiz<lb/>
+           12. " " <persName ref="P00846">Heimann</persName> <placeName ref="Bergedorf bei Hamburg">Bergedorf bei Hamburg Brauerstr. 95</placeName><lb/>
+           13. " " <persName ref="P01858">Stepun</persName> <placeName ref="Dresden">Dresden Paradiesstr. 6b</placeName><lb/>
+           14. " " <persName ref="P01099">Kroner</persName> " <placeName ref="Berlin">Bautzenerstr. 94</placeName><lb/>
+           15. " " <persName ref="P02448">Janentzky</persName> " <placeName ref="Dresden">Technische Hochschule Blasewitz</placeName><lb/>
+           Residenzstr. 12b<lb/>
+           16. " " <persName ref="P01209">Löwe</persName> <placeName ref="Kiel">Universität Niemannsweg 26</placeName><lb/>
+           17. <persName ref="P02098">Dr. Wolfers</persName> <placeName ref="Berlin-Wannsee">Berlin-Wannsee Bismarkstr. 21</placeName><lb/>
+           18. " <persName ref="P02447">Stövesand</persName> <placeName ref="Bremen">Bremen Kohlhöckerstr. 56</placeName><lb/>
+           19. " <persName ref="P00856">Heller</persName> <placeName ref="Berlin-Zehlendorf-West">Berlin-Zehlendorf-West Adalbertstr. 41</placeName><lb/>
+           20. " <persName ref="P02361">Herrmann</persName> <placeName ref="Berlin-Wilmersdorf">Berlin-Wilmersdorf Pommerschestr. 14a</placeName><lb/>
+           21. <persName ref="P02452">Geheimrat Thurmann</persName> " " <placeName ref="Berlin">Landhausstr. 44</placeName><lb/>
+           22. " <persName ref="P01926">Tillich</persName> " <placeName ref="Berlin">SW68 Neuenburgerstr. 3</placeName><lb/>
+           23. <persName ref="P01912">Pfarrer Thomas</persName> <placeName ref="Marburg-Lahn">Marburg-Lahn Bahnhofstr. 1</placeName><lb/>
+           24. " <persName ref="P01154">Lic. Leese</persName> <placeName ref="Hamburg">Hamburg Koppel 11</placeName><lb/>
+           25. " " <persName ref="P01697">Schafft</persName> <placeName ref="Kassel">Cassel Sternstr. 3.</placeName><pb facs="2"/><lb/>
+        Ausserdem bitte ich Sie, noch 5 Exemplare direkt an <persName ref="P01930">mich</persName> zu senden.
+           
+        </p>
+        <closer>
+           <salute>Ergebenst <lb/>
+              <persName ref="P01930">Prof. Dr. P. Tillich</persName></salute>
+           <signed><ptr/><persName ref="P01930">Tillich</persName>.<note type="ea">[handschr.:]</note></signed>
+        </closer>   
+      
+     </div>
+    </body>
+  </text>
+</TEI>

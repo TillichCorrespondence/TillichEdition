@@ -1,0 +1,118 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Paul Tillich an Verlag Mohr Siebeck
+               <lb/>vom 20. August 1929
+            </title>
+            <author ref="P01930">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Sebastian Kueffner</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="Kopie">
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement ref="Berlin">Berlin</settlement>
+                  <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz</repository>
+                  <collection>Handschriftenabteilung, Archiv des Verlages J. C. B. Mohr (Paul Siebeck)</collection>
+                  <idno>Nachl. 488, A 0469,5; Blatt 143-205</idno>   
+               </msIdentifier>
+               <physDesc>
+                  <p>Brief, Maschinenschriftlich</p>
+                  </physDesc>   
+            </msDesc>
+            <biblStruct type="journal">
+               <monogr>
+                  <author>Alf Christophersen / Friedrich Wilhelm Graf</author>
+                  <title>„Beweise einer unsichtbaren Beziehung“ Die Korrespondenz zwischen Paul Tillich und dem Tübinger Verlag J. C. B. Mohr (Paul Siebeck)</title>
+                  <imprint>
+                     <pubPlace ref="Boston">Boston</pubPlace>
+                     <date when="2011-09-27">2011</date>
+                     <biblScope>S. 386</biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title>International Yearbook for Tillich Research</title>
+                  <biblScope>Band 6 Heft 1</biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01930">Paul Tillich</persName>
+              <placeName ref="Schleswig-Holstein">Kampen a. Sylt</placeName>
+              <date when="1929-08-20">20. August 1929</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P02445">Verlag Mohr Siebeck</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="SK" when="2023-06-13">Intitale Auszeichnung des Transkripts</change>
+        
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        
+        <opener>
+           <dateline><placeName ref="Schleswig-Holstein">Kampen a. Sylt, Haus Schultz-Sembten</placeName>, den <date when="1929-08-20">20. 8. 29</date></dateline>  
+           <salute>
+              <lb/>An den <lb/>Verlag Mohr <lb/><hi rend="u">Tübingen</hi>
+           </salute>
+        </opener>
+        
+        <p>Anbei sende ich Ihnen das <bibl><!-- Gunkel Hermann und Leopold Zscharnack: »Die Religion in Geschichte und Gegenwart 2 Auflage« 1927-1932, -->R.G.G. Manuscript </bibl><bibl><!-- In R.G.G. 2, Bd. 4: Paul Tillich: »Offenbarung: V. A. Religionspsychologisch, in: a.a.O., Sp. 664–669;« 1930 -->Offenbarung religionsphilosophisch</bibl>. <bibl><!-- In RGG 2, Bd. 4: Paul Tillich: »Philosophie: I. Begriff und Wesen und III. Philosophie und Religion grundsätzlich, in: a.a.O., Sp. 1198– 1204; 1227–1233;« 1930 -->Die Manuscripte zur Philosophie I. u. III</bibl> folgen im Laufe des <date when="1929-09">September</date>. Leider war es mir nicht möglich, das von Ihnen gewünschte Papier zu verwenden, da ich keines erhalten habe. Falls Sie es für die anderen Manuscripte wünschen, bitte ich um Zusendung an <placeName ref="Kampen a. Sylt">obige Adresse</placeName>.</p>
+        <p>Für die lange Verzögerung bitte ich um Entschuldigung. Sie war durch meinen Ruf nach <placeName ref="Frankfurt/Main">Frankfurt</placeName> und durch die damit zusammenhängende Überlastung begründet.
+        </p>
+        <closer>
+           <salute>Ihr sehr ergebener <lb/> <persName ref="P01930">Professor D. Dr. Paul Tillich</persName> </salute>
+           <signed><ptr/><persName ref="P01930">Tillich</persName>.<note type="ea" resp="unknown">[handschr.:]</note></signed>
+        </closer>      
+      
+     </div>
+    </body>
+  </text>
+</TEI>

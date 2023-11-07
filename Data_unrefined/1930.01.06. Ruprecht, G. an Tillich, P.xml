@@ -1,0 +1,214 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Günther Ruprecht an Paul Tillich <lb/>vom 6. Januar 1930</title>
+            <author ref="P01661">Günther Ruprecht</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <!-- Unklar weil in der Graf Edition nicht angegeben -->
+               </msIdentifier>
+               <physDesc>
+                  <p>Maschinenschriftlich</p>
+               </physDesc>
+               <additional>
+                  <!-- Wenn Brief bereits publiziert hier die richtige Struktur aussuchen -->
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel der Monographie<!--></title>
+                           <edition><!-->Auflage<!--></edition>
+                           <imprint>
+                              <publisher><!-->Herausgeber<!--></publisher>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Reihe<!--></title>
+                           <biblScope><!-->Reihennummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                     <biblStruct type="journal" n="reprint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften stammen<!-->
+                        <monogr>
+                           <author>Friedrich Wilhelm Graf </author>
+                           <title>Ein unbekannter Systementwurf Paul Tillichs. Zur
+                              Entstehungsgeschichte von Tillichs Das System der Wissenschaften nach
+                              Gegenständen und Methoden</title>
+                           <imprint>
+                              <pubPlace ref="where">Berlin/Boston</pubPlace>
+                              <date when="2020">2020</date>
+                              <biblScope>151-152</biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title>Zeitschrift für neuere Theologiegeschichte</title>
+                           <biblScope>27 (1)</biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <biblStruct type="monograph">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien überliefert sind und im Original nicht mehr vorhanden!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel der Monographie<!--></title>
+                  <edition><!-->Auflage<!--></edition>
+                  <imprint>
+                     <publisher><!-->Herausgeber<!--></publisher>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Reihe<!--></title>
+                  <biblScope><!-->Reihennummer<!--></biblScope>
+               </series>
+            </biblStruct>
+            <biblStruct type="journal">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften überliefert sind und im Original nicht mehr vorhanden<!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel des Aufsatzes<!--></title>
+                  <imprint>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Zeitschrift<!--></title>
+                  <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P01661">Günther Ruprecht</persName>
+
+               <date when="1930-01-06">Günther Ruprecht</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P01930">Paul Tillich</persName>
+               <placeName ref="Frankfurt am Main">Frankfurt am Main</placeName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2023-09-07">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener><dateline>
+                  <date when="1930-01-06">6. Januar 1930</date></dateline>
+               <salute>Hochgeehrter <persName ref="P01930">Herr Professor</persName>!</salute>
+            </opener>
+            <p><persName ref="P02522">Herr Lic. Eisenhuth</persName> übersendet uns die Handschrift
+               seiner Promotionsarbeit zum Dr. phil. "Studien zum Begriff des Irrationalen" oder
+               auch "Der Begriff des Irrationalen bei <persName ref="P01438">R. Otto</persName> als
+               philosophisches Problem" und bietet zugleich eine Arbeit an, die er als
+               Habilitationsschrift einzureichen gedenkt: "Versuch einer ontologischen Grundlegung
+               der Religion".</p>
+            <p>Er möchte, daß wir beide Arbeiten in unsern Verlag nähmen, und bittet um Beratung, in
+               welcher Weise sie am besten erscheinen könnten.</p>
+            <p>Vom Standpunkt des jungen Gelehrten aus gesehen, ist es sehr begreiflich, daß er
+               schon kurz nach Veröffentlichung seiner ersten Arbeit nun zwei weitere herausbringen
+               will. Sie können sich aber wohl denken, daß wir als Verleger dieser verhältnismäßig
+               schnellen Produktion gegenüber Vorsicht zu üben genötigt sind, namentlich in einer
+               Zeit, die der Veröffentlichung von wissenschaftlichen Monographien in materieller
+               Hinsicht überaus ungünstig ist. An der Erstlingsarbeit über die Glaubensgewißheit
+               bei <persName ref="P00845">Heim</persName> haben wir vom finanziellen Standpunkt aus
+               betrachtet unserer Erwartung gemäß nicht eben sehr ermutigende Erfahrungen
+               gemacht.</p>
+            <p>Nun schreibt der Herr Verfasser, daß Sie die erste, als Doktor-Dissertation
+               eingereichte Arbeit als Referent genau kennten, und da wir annehmen dürfen, daß Sie
+               Interesse für den Herrn Verfasser und seine Arbeit haben, sind wir so frei, Sie um
+               eine ganz offenherzige Begutachtung zu bitten. Sollten Sie, wie wir wohl annehmen
+               dürfen, auch bereits einigermaßen über die zweite Arbeit orientiert sein, so
+               würden uns auch einige Worte darüber sehr willkommen sein. Namentlich wäre es uns
+               erwünscht, auch Ihre Ansicht darüber zu hören, ob, falls wir uns überhaupt zum
+               Verlag entschließen, eine Vereinigung beider Arbeiten in einem Buche Ihnen tunlich
+               erscheint und sich empfehlen würde. Der Interessentenkreis würde ja wohl ungefähr
+               derselbe sein. Für den Verfasser wäre, falls die Arbeiten in einem Buche erschienen,
+               in sofern vielleicht eine Erleichterung zu erzielen, als die Notgemeinschaft, die
+               sonst grundsätzlich Dissertationen nicht unterstützt, wahrscheinlich eine
+               Unterstützung der ganzen Schrift nicht verweigern würde.</p>
+            <p>Anknüpfend an eine Unterredung, die Sie mit Herrn <persName ref="P02523">Gustav
+                  Ruprecht</persName> auf dem Frankfurter Theologentag hatten, gestatten wir uns
+               gleichzeitig die Anfrage, ob Sie vielleicht selber jetzt einen literarischen Plan
+               haben, zu dessen Verwirklichung wir beitragen könnten.</p>
+            <closer>
+               <salute>Mit besten Empfehlungen</salute>
+            </closer>
+
+            <postscript>
+               <p>Anbei ein Freiumschlag.</p>
+            </postscript>
+
+         </div>
+
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,117 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von <persName ref="P01930">Paul Tillich</persName> an <persName ref="P01762">Erich Seeberg</persName> 
+               <lb/>vom <date when="1929-07-29">29. Juli 1929</date>
+            </title>
+            <author ref="P01930">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Friedrich Schumann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="letter">
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement>Koblenz</settlement>
+                  <institution>Bundesarchiv Koblenz</institution>
+                  <collection>Nachlass Reinhold und Erich Seeberg</collection>
+                  <idno>N 1248</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>maschinenschriftlich</p>
+                  </physDesc>
+               <additional> 
+                  <listBibl>
+                     <biblStruct type="journal" n="firstPrint">
+                        <monogr>
+                           <author>Erdmann Sturm</author>
+                           <title>"Vielleicht kommen wir nun doch zu einer gemeinsamen Arbeit in Berlin". Paul Tillichs Briefe an Reinhold und Erich Seeberg (1924–1935)</title>
+                           <imprint>
+                              <pubPlace ref="Berlin">Berlin/</pubPlace><pubPlace ref="Boston, Massachusetts">Boston, MA</pubPlace>
+                              <date when="2012">2012</date>
+                              <biblScope>211–253, hier: 237f.</biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title>International Yearbook for Tillich Research</title>
+                           <biblScope>Bd. 7, H. 1</biblScope>
+                        </series>
+                     </biblStruct>  
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01930">Paul Tillich</persName>
+              <placeName ref="Frankfurt a. M.">Frankfurt a. M.</placeName>
+              <date when="1929-07-29">29. Juli 1929</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01762">Erich Seeberg</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="FS" when="2023-09-04">Intitale Auszeichnung des Transkripts</change>
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+<dateline>Feldbergstr. 7, den <date when="1929-07-29">29. 7. 29</date></dateline>
+           <salute>Lieber Herr <persName ref="P01762">Seeberg</persName>!</salute>
+        </opener>
+        <p>Herzlichen Dank für Ihre <bibl>Anfrage</bibl><!--liegt nicht vor. Anm. Erdmann Sturms dazu: "Gemeint ist der Auftrag, ein Lehrbuch der Ethik für eine von E. Seeberg herausgegebene  Reihe zu schreiben.-->. Mich lockt Ihr Auftrag nach wie vor sehr. Ich würde Sie nur bitten, den Termin um ein Jahr herauszuschieben. Mit den Bedingungen bin ich einverstanden.<lb/>
+Ihr <bibl>Buch</bibl><!--verm. (nach E. Sturm): Erich Seeberg, Luthers Theologie. Motive und Ideen I. Die Gottesanschauung, Göttingen 1929--> lege ich eben in meinen Koffer, um es in <placeName ref="Kampen (Sylt)">Kampen auf Sylt</placeName> durchzustudieren. Ich freue mich darauf und gebe Ihnen Nachricht, sobald ich es gelesen habe. Im übrigen bewaffne ich mich mit <bibl>Heideggers Kantbuch</bibl><!--Martin Heidegger, Kant und das Problem der Metaphysik, Bonn 1929--> und einigem Material für mein <bibl>geschichtsphilosophisches Kolleg</bibl><!--Tillichs Vorlesung zur "Geschichtsphilosophie" WS 1929/30 ist publiziert in: EW XV, 1-118, die Nachschrift ebd., 119-289--> im nächsten Winter. Sollte der Druck Ihrer <bibl>Vorträge</bibl><!--Anm. E. Sturm: Erich Seeberg, Wirkllichkeit und Geist im Deutschland von heute, Leipzig 1919--> bis zum <date when="1929-11">November</date> nicht möglich sein, so wäre ich Ihnen für einen Schreibmaschinendurchschlag dankbar.<lb/>
+Ich komme Ende <date when="1929-10">Oktober</date> nach <placeName ref="Berlin">Berlin</placeName> zu einem Vortrag über <bibl>Philosophie der Macht</bibl><!--Manuskripte der Vorträge über "Philosophie der Macht" sind publiziert in: EW XI, 226-232 und 233-247--> in der sozialen Frauenakademie, werde mehrere Tage bleiben und Sie selbstverständlich aufsuchen, vielleicht mit <persName ref="P01925">meiner Frau</persName>. Wo fahren Sie im Sommer hin? Hoffentlich befolgen Sie meine Ratschläge, die ich Ihnen in <placeName ref="Bad Reichenhall">Reichenhall</placeName> vor einem Jahr gab, und ruhen sich gründlich an einem Ort aus.
+</p>
+        <closer>
+           <salute>Herzlichen Gruß Ihnen Beiden und auf Wiedersehen im <date when="1929-10">Oktober</date> Ihr</salute>
+           <signed>P. Tillich</signed>
+        </closer>  
+     </div>
+    </body>
+  </text>
+</TEI>

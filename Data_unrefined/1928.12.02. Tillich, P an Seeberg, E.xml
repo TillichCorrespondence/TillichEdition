@@ -1,0 +1,118 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von <persName ref="P01930">Paul Tillich</persName> an <persName ref="P01762">Erich Seeberg</persName> 
+               <lb/>vom <date when="1928-12-02">2. Dezember 1928</date>
+            </title>
+            <author ref="P01930">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Friedrich Schumann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="letter">
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement>Koblenz</settlement>
+                  <institution>Bundesarchiv Koblenz</institution>
+                  <collection>Nachlass Reinhold und Erich Seeberg</collection>
+                  <idno>N 1248</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>handschriftlich</p>
+                  </physDesc>
+               <additional> 
+                  <listBibl>
+                     <biblStruct type="journal" n="firstPrint">
+                        <monogr>
+                           <author>Erdmann Sturm</author>
+                           <title>"Vielleicht kommen wir nun doch zu einer gemeinsamen Arbeit in Berlin". Paul Tillichs Briefe an Reinhold und Erich Seeberg (1924–1935)</title>
+                           <imprint>
+                              <pubPlace ref="Berlin">Berlin/</pubPlace><pubPlace ref="Boston, Massachusetts">Boston, MA</pubPlace>
+                              <date when="2012">2012</date>
+                              <biblScope>211–253, hier: 234f.</biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title>International Yearbook for Tillich Research</title>
+                           <biblScope>Bd. 7, H. 1</biblScope>
+                        </series>
+                     </biblStruct>  
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01930">Paul Tillich</persName>
+              <placeName ref="Dresden">Dresden</placeName>
+              <date when="1928-12-02">2. Dezember 1928</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01762">Erich Seeberg</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="FS" when="2023-07-26">Intitale Auszeichnung des Transkripts</change>
+        
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+<dateline><address><placeName ref="Dresden">Dresden, Elisenstr. 11.</placeName></address> d. <date when="1928-12-02">2. Dez.1928</date></dateline>
+           <salute>Lieber Herr <persName ref="P01762">Seeberg</persName>!</salute>
+        </opener>
+        <p>Gestern teilte mir unser <persName ref="P01969">Hochschulreferent</persName> mit dem ich nahe befreundet bin, mit, dass Minister <persName ref="P00169">Becker</persName> ihm gesprächsweise gesagt hätte, seine Absicht, mich in die <placeName ref="Berlin">Berliner</placeName> Theologische Fakultät zu bringen, wäre an dem Entschluss des E.<expan>vangelischen</expan> O.<expan>ber</expan> K.<expan>irchenrats</expan><!--Erklärende Anmkerung von Erdmann Sturm: "Der Evangelische Oberkirchenrat (EOK), die leitende Behörde der Evangelischen Kirche der Altpreußischen Union, musste bei der Anstellung von Professoren der Theologie gutachtlich über das Bekenntnis und die Lehre des zu Berufenden gehört werden."-->, mich nicht zu bestätigen, gescheitert.<!--Vgl. den Briefwechsel zwischen Becker und Ulich, der abgedruckt ist in Sturm, "Vielleicht kommen wir nun doch zu einer gemeinsamen Arbeit in Berlin", Beilage 2 und 3 (S. 248-251).--> Damit ist die tiefe Spannung, in der ich seit <date when="1928-05-27">Pfingsten</date> mich befinde, gelöst. Das ist eine Erlösung, wenn auch eine negative. Denn ich entnehme daraus, dass eine Theologische Fakultät, zum mindesten in Alt-Preußen für mich nicht in Frage kommt. Daraus scheint mir die Notwendigkeit für mich zu folgen, die Stellung, die ich in meinen <bibl>Briefen</bibl><!--Vgl. Tillich an Seeberg, 1928.06.21 bzw. 1928.11.01; Briefe an Deißmann sind nicht erfasst--> an Sie und <persName ref="P00445">Deißmann</persName> gekennzeichnet habe, zwar nicht innerlich, wohl aber der Arbeitsrichtung nach zu verlassen und mich einseitig der Philosophie zuzuwenden. Bemerkungen, die <persName ref="P00169">Becker</persName> gleichzeitig über Absichten machte, die er mit mir vorhätte, deuten in die gleiche Richtung. Natürlich bedeutet das, wenn ich richtig gesehen habe, eine schwere Krise für mich. Ich wäre Ihnen darum dankbar, wenn sie mir, vielleicht auf Grund einer Unterhaltung mit <persName ref="P01603">Richter</persName>*<note place="foot">* Obgleich die Unterhaltung zwischen <persName ref="P00169">Becker</persName> und <persName ref="P01969">Ulich</persName> nicht vertraulich war, ist es vielleicht besser, Sie erwähnen sie nicht, sondern fragen von sich aus oder von mir aus.</note>, mitteilten, ob ich die Lage richtig beurteile.<lb/>
+Besonders Leid tut es mir, dass auf diese Weise die erhoffte Zusammenarbeit mit Ihnen nicht Wirklichkeit werden kann. Jedenfalls danke ich Ihnen sehr herzlich für Ihre Bemühungen um mich, zumal sie nicht ohne Gefährdung Ihrer eignen Position geschehen sind. Da ich Ende der Woche auf eine etwa 8tägige Vortragsreise gehe, so wäre ich Ihnen sehr dankbar, wenn ich Ihre Antwort noch vorher erhielte.</p>
+        <closer>
+           <salute>Mit Dank und Gruß<lb/>
+Ihr</salute>
+           <signed>P. Tillich</signed>
+        </closer> 
+     </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,105 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von <persName ref="P01930">Paul Tillich</persName> an <persName ref="P01563">August Rathmann</persName>
+                    <lb/>vom <date when="1929-02-27">27. Februar 1929</date>
+                </title>
+                <author ref="P01930">Paul Tillich</author>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Friedrich Schumann</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+                    <address>
+                        <street>Schenkenstraße 8-10</street>
+                        <postCode>1010</postCode>
+                        <placeName ref="Wien">
+                            <settlement>Wien</settlement>
+                            <country>Österreich</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+                </availability>        
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="Brief">
+                    <msIdentifier>
+                        <repository>Aus dem Privatbesitz August Rathmanns</repository><!--so?-->
+                    </msIdentifier>
+                </msDesc>
+            <biblStruct type="monograph">
+               <monogr>
+                  <author>Rathmann, August</author>
+                  <title>Ein Arbeiterleben. Erinnerungen an Weimar und danach</title>
+                  <edition>Erste Auflage</edition>
+                  <imprint>
+                     <publisher>Peter Hammer Verlag</publisher>
+                     <pubPlace ref="Wuppertal">Wuppertal</pubPlace>
+                     <date when="1983">1983</date>
+                     <biblScope>256f.</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+            </editorialDecl>
+        </encodingDesc> 
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="P01930">Paul Tillich</persName>
+<placeName ref="Dresden">Dresden</placeName>
+                    <date when="1927-02-27">27. Februar 1929</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="P01563">August Rathmann</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="deu">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="FS" when="2023-09-04">Intitale Auszeichnung des Transkripts</change>
+            
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <div type="writingSession">
+                <pb n="1"/>
+                <opener>
+                    <salute>Lieber <persName ref="P01563">Rathmann</persName>!</salute>
+                </opener>
+                <p>Ehe ich Ihnen mein Anliegen vortrage, die Versicherung, dass nichts von alle dem, was ich Ihnen mitteile und um was ich Sie bitte, für Sie Bedeutung haben soll, ehe Sie den Doktor hinter sich haben, aber dann, wie ich
+unbedingt erwarte, um so mehr.<lb/>
+Seit drei Wochen finden ununterbrochen Verhandlungen in <placeName ref="Berlin">Berlin</placeName> und <placeName ref="Leipzig">Leipzig</placeName> statt. Es handelt sich um die <bibl>Zeitschrift</bibl><!--gemeint ist die Gründung der Neuen Blätter für den Sozialismus-->. Der Anstoss kam gleichzeitig von zwei Seiten, einmal von <persName ref="P00856">Heller</persName>, dem <persName ref="P02502">Severing</persName> zwölftausend Mark zur Verfügung stellt, der andere von <persName ref="P01059">Fritz Klatt</persName> und <persName ref="P02504">Dr. Pflug</persName>, (Leiter der <placeName ref="Kassel">Kasseler</placeName> Volkshochschule) denen sich ein junger Verleger, <persName ref="P02503">Protte</persName> in <placeName ref="Leipzig">Leipzig</placeName>, mit dreissigtausend Mark zur Verfügung gestellt hat. Sowohl <persName ref="P00856">Heller</persName>, wie <persName ref="P02503">Protte</persName> und seine Leute verlangten unbedingt meine Mitarbeit. Unter diesen Umständen kam es für mich darauf an, beide Pläne zu vereinigen. Das war nicht leicht, da auf beiden Seiten grosse Hemmnisse zu überwinden waren. Wichtig dafür wurde es, dass sich als dritte tragende Kraft noch <persName ref="P01700">Schairer</persName> zur Verfügung stellte, natürlich nur im Hintergrunde, aber doch mit der Energie und Stosskraft, die er hat. Ihm liegt ganz besonders an Ihrer Mitarbeit. Die Struktur ist nun nach meinem letzten Vorschlag, den <persName ref="P00856">Heller</persName> und <persName ref="P01059">Klatt</persName> annahmen, so, dass <persName ref="P00856">Heller</persName> und ich als Herausgeber zeichnen und als verantwortliche Mitarbeiter drei andere, von denen der eine, nämlich <persName ref="P01059">Klatt</persName> fest steht, die beiden anderen von mir befragt werden. Der eine von ihnen sollen Sie sein. Sämtliche Verhandelnden legen den allergrössten Wert darauf, dass Sie es sind. Und es besteht bei der grossen Kompliziertheit der ganzen Situation die Gefahr, dass wieder einmal und dann wohl endgültig alles scheitert, wenn Sie sich uns versagen. Der Aufgabenkreis wäre so verteilt, dass <persName ref="P00856">Heller</persName> verantwortlich wäre für die staatstheoretischen Dinge, ich für die philosophisch-kulturellen. <persName ref="P01059">Klatt</persName> für die pädagogischen, <persName ref="P01209">Löwe</persName> (wie ich hoffe, ich schreibe gleichzeitig an ihn) für die wirtschaftlichen und Sie für aktuell-politische und zugleich studentische Probleme. Wahrscheinlich würde ich noch, ohne dass sein Name genannt wird, die Verantwortung für die kultur-politischen Dinge mit <persName ref="P01307">Mennicke</persName> teilen. Gedacht sind monatlich zwei bis höchstens drei Bogen, wenn möglich gruppiert um ein bestimmtes Thema. Die ersten sechs Nummern sollen weitgehend vorbereitet sein, ehe die erste herauskommt. Als Termin ist möglichst der erste Oktober gedacht. <persName ref="P02502">Severing</persName> hat sich in einer Unterhaltung mit <persName ref="P01700">Schairer</persName> sehr begeistert zu der Sache gestellt, und will mich sobald wie möglich empfangen. Es scheint mir, dass die Situation noch nie so günstig gewesen ist und dass wir, wenn überhaupt, jetzt zugreifen müssen. Die Grundlage der Zeitschrift ist selbstverständlich sozialistisch, aber ohne ausgesprochen parteimässige Bindung. <persName ref="P00856">Heller</persName> hat sich auch <persName ref="P02502">Severing</persName> gegenüber völlig freie Hand vorbehalten. Ich bitte Sie nun, mir möglichst umgehend zu antworten. Ich betone noch einmal, dass wir Sie bis zu ihrer Doktorierung völlig in Ruhe lassen wollen. Selbstverständlich sind alle Einzelheiten noch im Fluss und können von Ihnen weithin mitbestimmt werden.</p>
+                <closer>
+<salute>In der Hoffnung auf eine schnelle zusagende Antwort bin ich<lb/>
+Ihr</salute>
+                    <signed>P. Tillich</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+

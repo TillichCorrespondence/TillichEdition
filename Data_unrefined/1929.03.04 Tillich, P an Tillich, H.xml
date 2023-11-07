@@ -1,0 +1,98 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von <persName ref="P01930">Paul Tillich</persName> an <persName ref="P01925">Hannah Tillich</persName>
+                    <lb/>vom <date when="1929-03-04">4. März 1929</date>
+                </title>
+                <author ref="P01930">Paul Tillich</author>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Friedrich Schumann</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+                    <address>
+                        <street>Schenkenstraße 8-10</street>
+                        <postCode>1010</postCode>
+                        <placeName ref="Wien">
+                            <settlement>Wien</settlement>
+                            <country>Österreich</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+                </availability>        
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="Postkarte">
+                    <msIdentifier>
+                        <country>USA</country>
+                        <settlement>Cambridge, MA</settlement>
+                        <institution>Harvard University</institution>
+                        <repository>Harvard Divinity School Library</repository>
+                        <collection>Tillich, Hannah. Papers, 1896-1976</collection>
+                        <idno>bMS 721/2(26)</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>handschriftlich</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+            </editorialDecl>
+        </encodingDesc> 
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="P01930">Paul Tillich</persName>
+                    <placeName ref="Frankfurt a. M.">Frankfurt a. M.</placeName><!--Poststempel-->
+                    <date when="1929-03-04">4. März 1929</date><!--Poststempel-->
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="P01925">Hannah Tillich</persName>
+                    <address><placeName ref="Dresden">Dresden, Elisenstr. 11</placeName></address>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="deu">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="FS" when="2023-09-06">Intitale Auszeichnung des Transkripts</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="postcard">
+        <body>
+            <div type="writingSession">
+                <pb n="1"/>
+                <opener>
+                    <salute>Liebste!!</salute>
+                </opener>
+                <p>Nach mühsamer Fahrt, trotz F-D-Zug 1 <formula notation="TeX">\frac{1}{2}</formula> St. Verspätung, in <placeName ref="Frankfurt a. M.">Frankfurt</placeName> an, von <persName ref="P00664">Gelb</persName> abgeholt, kurze Unterhaltung, um 1 ins Bett, glänzend geschlafen. Um <formula notation="TeX">\frac{1}{2}</formula> 10 bei <persName ref="P01611">Riezler</persName>. Sehr feine Besprechungen. Dann mit <persName ref="P00664">Gelb</persName> im Seminar, dann beim <persName ref="P02508">Dekan</persName>. Überall freundlichste Aufnahme. Mittagessen bei <persName ref="P01611">Riezler</persName>: Fabelhafte Wohnung und Bilder. Spaziergang mit <persName ref="P01976">Ilse</persName>. Tee bei <persName ref="P01578">Reinhard</persName> (berühmter Gräcist) Dort <persName ref="P00736">Gundolf</persName> und <persName ref="P02509">Frau</persName>. Feine Unterhaltung mit ihm. Bitte, ihn in <placeName ref="Heidelberg">Heidelberg</placeName> zu besuchen. Dann Abendbrot bei <persName ref="P00664">Gelb</persName>. Lange intensive Dis<pb facs="2"/>kussion mit ihm, <persName ref="P00697">Goldstein</persName>, <persName ref="P01611">Riezler</persName>, <persName ref="P01533">Prinzhorn</persName>, <persName ref="P01578">Reinhardt</persName> etc. Glänzender Kreis. Heute Wohnungssachen etc... Wahrscheinlich Ankunft in <placeName ref="Dresden">Dresden</placeName> <date when="1929-03-05">Dienstag</date> Abend um 11. / <placeName ref="Frankfurt a. M.">Frankfurt</placeName> nicht sehr groß-städtisch!
+</p>
+                <closer>
+                    <salute>In Liebe</salute>
+                    <signed>Dein Paul.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+

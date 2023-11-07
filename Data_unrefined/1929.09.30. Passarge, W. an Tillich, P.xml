@@ -1,0 +1,104 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Walter Passarge an Paul Tillich
+               <lb/>vom 30. September 1929
+            </title>
+            <author ref="P01461">Walter Passarge</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Sebastian Kueffner</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement ref="Marburg">Marburg</settlement>
+                  <institution>Philipps-Universität Marburg</institution>
+                  <repository>Deutsches Paul-Tillich-Archiv</repository>
+                  <idno>Rolle 023, Nr. 3</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Brief; Handschriftlich; Kopie</p>
+                  </physDesc>       
+            </msDesc>     
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01461">Walter Passarge</persName>
+              <placeName ref="Kiel">Kiel</placeName>
+              <address><street>Forstweg 67</street></address>
+              <date when="1929-09-30">30. September 1929</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01930">Paul Tillich</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="SK" when="2023-05-30">Intitale Auszeichnung des Transkripts</change>
+        <change who="SK" when="2023-06-22">Hinzufügen von bibl-Kommentaren, Paragraphen gesetzt, Datums-Änderrungen</change>
+        
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+           <dateline><placeName ref="Kiel">Kiel</placeName> den <date when="1929-09-30">30.9.29</date>.</dateline>
+           <salute>Sehr geehrter <persName ref="P01930">Herr Professor</persName>!</salute>
+        </opener>
+        <p>Darf ich Sie freundlich um eine wissenschaftliche Auskunft bitten. Für eine Forschungsreihe, die im Verlag Junker u Dünnhaupt, <placeName ref="Berlin">Berlin</placeName>, erscheinen wird, bearbeite ich den Band <bibl><!-- Passagre Walter »Die Philosophie der Kunstgeschichte« 1930 -->„Die Philosophie der Kunstgeschichte“</bibl> – ein Referat über die wichtigsten Arbeiten auf diesem Gebiet in den letzten 20-30 Jahren. (u.a. <persName ref="P02433">Riegl</persName>, <persName ref="P02436">Wölfflin</persName>, <persName ref="P02434">Frankl</persName>, <persName ref="P02437">Coellen</persName>, <persName ref="P02105">Worringer</persName>, <persName ref="P02435">Dvořak</persName>, <persName ref="P02431">Frey</persName>, <persName ref="P02438">Brinckmann</persName>, <persName ref="P02439">Pinder</persName> u.s.w.). In diesem Zusammenhang möchte ich nun auch Bezug nehmen auf Ihre <bibl><!-- Paul Tillich: »Main Works/Hauptwerke, Band 2: Writings in the Philosophy of Culture/Kulturphilosophische Schriften« hg. von M. Palmer (1990) -->Kulturphilosophie</bibl>, die sie vor einigen Jahren in einem Vortrage in <placeName ref="Erfurt">Erfurt</placeName> über „Das Heilige und das Profane in Kultur und Religion“ entwickelten. Sie stellten damals für die bildende Kunst die Entwicklungsreihe – wenn ich mich recht entsinne –: Heteronomie, Theonomie und Autonomie der Form auf, die mich damals schon lebhaft beschäftigte. Da ich nun nicht weiß, ob und wo Sie diese Theorie weiter ausgeführt haben, darf ich Sie vielleicht um <pb facs="2"/> einen Hinweis bitten.  Auf alle Fälle würde ich gern Ihren Vortrag und <bibl>"><!-- Paul Tillich: »Gesammelte Werke, Band 10: Die religiöse Deutung der Gegenwart« hg. DeGruyter 1968 -->Ihr Buch über die religiöse Lage der Gegenwart</bibl> erwähnen, das mir sehr viel Anregungen gegeben hat.</p> 	
+        <p>In der Vossischen Zeitung las ich Ihre Berufung nach <placeName ref="Frankfurt/Main">Frankfurt a/M</placeName>., für die ich Ihnen noch nachträglich von Herzen gratuliere. <placeName ref="Frankfurt/Main">Frankfurt</placeName> ist mir immer sehr sympathisch gewesen.</p> 	
+        <p>Mir geht es hier relativ gut, meine Arbeit als Direktoriatassistent ist sehr selbständig. Die Arbeit der ersten <date from="1927" to="1929">1 ½ Jahre</date> war die vollständige Neuordnung des <placeName ref="Kiel"><!-- Thaulow-Museum -->Museums</placeName>, die, wie ich glaube, einigermaßen gelungen ist. Dann kamen die Vorarbeiten für 2 große Ausstellungen „Nordische Volkskunst“ und „Nordische Baukunst der Gegenwart“, für die ich im <date when="1928-12">Dezember</date> <placeName ref="Schweden">Schweden</placeName>, <placeName ref="Norwegen">Norwegen</placeName> und <placeName ref="Dänemark">Dänemark</placeName> bereiste. Außerdem halte ich Vorlesungen an der <placeName ref="Kiel">kieler</placeName>. Kunstgewerbeschule. Seit <date when="1929-02">Februar</date> bin ich <persName ref="P02440">verheiratet</persName> und wohne sehr hübsch nahe der Förde.</p> 
+        <p>Zufrieden werde ich aber erst sein, wenn ich eine leitende und ganz selbständige Stellung habe.
+        </p>
+        <closer>
+           <salute>In der Hoffnung, daß ich Sie mit meiner Bitte nicht allzu sehr in Ihrer Arbeit störe, bin ich Ihr ganz ergebener</salute>
+           <signed><persName ref="P01461">Walter Passarge</persName></signed>
+        </closer>
+      
+     </div>
+    </body>
+  </text>
+</TEI>

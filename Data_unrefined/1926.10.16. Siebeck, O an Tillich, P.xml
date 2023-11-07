@@ -1,0 +1,117 @@
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Oskar Siebeck an Paul Tillich 
+               <lb/>vom 16. Oktober 1926
+            </title>
+            <author ref="P01782">Oskar Siebeck</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Sebastian Kueffner</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="Kopie">
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement>Berlin</settlement>
+                  <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz</repository>
+                  <collection>Handschriftenabteilung, Archiv des Verlages J. C. B. Mohr (Paul Siebeck)</collection>
+                  <idno>Nachl. 488, A 0469,5; Blatt 143-205</idno>
+               </msIdentifier>
+              
+               <physDesc>
+                  <p>Brief; Maschinenschriftlich; Durchschlag </p>
+                  </physDesc>
+            </msDesc>
+           
+            <biblStruct type="journal">
+               <monogr>
+                  <author>Alf Christophersen / Friedrich Wilhelm Graf</author>
+                  <title>„Beweise einer unsichtbaren Beziehung“ Die Korrespondenz zwischen Paul Tillich und dem Tübinger Verlag J. C. B. Mohr (Paul Siebeck)</title>
+                  <imprint>
+                     <pubPlace ref="Boston">Boston</pubPlace>
+                     <date when="2011-09-27">2011</date>
+                     <biblScope>S. 293</biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title>International Yearbook for Tillich Research</title>
+                  <biblScope>Band 6 Heft 1</biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01782">Oskar Siebeck</persName>
+              <placeName ref="Tübingen">Tübingen</placeName>
+              <date when="1926-10-16">16. Oktober 1926</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01930">Paul Tillich</persName>
+              <placeName ref="Dresden">Dresden</placeName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="SK" when="2023-08-23">Intitale Auszeichnung des Transkripts</change>
+        
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+           <dateline><date when="1926-10-16">16. Oktober 1926</date>
+           </dateline>                 
+        </opener>
+        <p>Sehr verehrter <persName ref="P01930">Herr Professor</persName>, wie Sie aus dem beiliegenden Prospektchen ersehen, musste ich Ihren Vortrag über <bibl><!-- Tillich, Paul: Das Dämonische. Ein Beitrag zur Sinndeutung der Geschichte(Sammlung gemeinverständlicher Vorträge und Schriften aus dem Gebiet der Theologie und Religionsgeschichte. 119), Tübingen 1926 -->„Das Dämonische“</bibl> auch in meinen für das kommende <date>Wintersemester</date> gedruckten Vertriebsmitteln als in Vorbereitung ankündigen. Die Verbreitung dieser Kataloge verteilt sich noch über eine Reihe von Wochen. Sie werden erfahrungsgemäss ziemlich viel beachtet. Es ist also zu erwarten, dass in nächster Zeit wieder zahlreiche Bestellungen auf dieses noch immer ausstehende Heft der <bibl><!-- Sammlung gemeinverständlicher Vorträge und Schriften aus dem Gebiet der Theologie und Religionsgeschichte, ersch. (1) 1896- -->„Sammlung gemeinverständlicher Vorträge“</bibl> eingehen.</p> 
+        <p>Inzwischen ist zudem ein neues Heft der Sammlung <del rend="s">ist</del> in Satz gegeben worden, das in dem Prospekt noch nicht angezeigt ist. Und ein zweites erwarte ich jeden Tag im druckfertigen Manuskript. Damit wird das Fehlen Ihres Hefts immer misslicher, und ich möchte einstweilen die Hoffnung nicht aufgeben, dass es Ihnen möglich ist, Ihren Vortrag vollends druckfertig zu machen, ehe das <date when="1926-10-18">Semester</date><!-- Kann das sein dass nicht den beginn des Semesters, sondern die Vorlesungen meint? https://www.yumpu.com/de/document/read/56712788/verzeichnis-der-vorlesungen-und-ubungen-fur-das-winter-semester-1926-27/2 --> wieder beginnt. Es wird Ihnen ja selbst auch lieb sein, diese alte Schuld endlich los zu werden.
+        </p>   
+        <closer>
+           <salute>Ich sehe Ihrem freundlichem Bescheid oder am liebsten der Einsendung des druckfertigen Manuskriptes jederzeit gerne entgegen und verbleibe mit freundlichen Empfehlungen Ihr ganz ergebener</salute>
+           <signed> <ptr/><persName ref="P01782">Dr. O. Siebeck</persName>.<note type="ea">[handschr.]</note></signed>
+        </closer>
+      
+     </div>
+    </body>
+  </text>
+</TEI>

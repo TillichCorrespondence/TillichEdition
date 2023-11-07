@@ -1,0 +1,100 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von <persName ref="P01930">Paul Tillich</persName> an <persName ref="P01925">Hannah Tillich</persName>
+                    <lb/>vom <date when="1929-05-05">5. Mai 1929</date><!--eigtl. ist der Brief undatiert, das Datum ergibt sich aus dem Kontext-->
+                </title>
+                <author ref="P01930">Paul Tillich</author>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Friedrich Schumann</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+                    <address>
+                        <street>Schenkenstraße 8-10</street>
+                        <postCode>1010</postCode>
+                        <placeName ref="Wien">
+                            <settlement>Wien</settlement>
+                            <country>Österreich</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+                </availability>        
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="Brief">
+                    <msIdentifier>
+                        <country>USA</country>
+                        <settlement>Cambridge, MA</settlement>
+                        <institution>Harvard University</institution>
+                        <repository>Harvard Divinity School Library</repository>
+                        <collection>Tillich, Hannah. Papers, 1896-1976</collection>
+                        <idno>bMS 721/2(26)</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>handschriftlich</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+            </editorialDecl>
+        </encodingDesc> 
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="P01930">Paul Tillich</persName>
+                    <placeName ref="Frankfurt a. M.">Frankfurt a. M.</placeName><!--Poststempel-->
+                    <date when="1929-05-05">5. Mai 1929</date><!--eigtl. ist der Brief undatiert, das Datum ergibt sich aus dem Kontext-->
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="P01925">Hannah Tillich</persName>
+                    <placeName ref="Marburg a. d. L.">Marburg an der Lahn</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="deu">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="FS" when="2023-09-06">Intitale Auszeichnung des Transkripts</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <div type="writingSession">
+                <pb n="1"/>
+                <opener>
+<dateline>Sonntag</dateline>
+                    <salute>Liebste <persName ref="P01925">Hannah</persName>!</salute>
+                </opener>
+                <p>Jetzt etwa <date when="1929-04-27">vor 8 Tagen</date> bist Du abgefahren und hast mich allein gelassen. Jetzt sitze ich in einem Hotel am Bahnhof und warte auf <persName ref="P01571">Reichl</persName>, der heut früh angerufen hat. [Inzwischen ist er gekommen. Wir haben uns lange und nett unterhalten. Er entschuldigte sich mit allgemeiner Verärgerung.] Jetzt bin ich zurück; es ist ein stiller sehr warmer Sonntagnachmittag. Heut früh war ich in den Anlagen und in der Galerie, auch am Wasser, wo sehr viel gerudert und gesegelt wird. Ich bin eigentlich sehr beglückt von <placeName ref="Frankfurt a. M.">Frankfurt</placeName><pb facs="2"/> Es ist auf kleinerem Raum lebendiger als <placeName ref="Dresden">Dresden</placeName>. Die inneren Anlagen sind jetzt wundervoll. – Gestern war viel los! Erst war ich auf der Universität. Dann wurde ich von Frau <persName ref="P01424">Oppenheim</persName> im Auto abgeholt, und sie zeigte mir die Stadt, vor allem die Neubauten von <persName ref="P02515">May</persName>. Ich bin froh, daß wir dort nicht wohnen. Ganz kleinbürgerlich; immer Reihenhäuser und ohne Auto kaum zu erreichen. Dann Mittagessen. Ich hatte mit <persName ref="P01423">dem Mann</persName>, der Großindustrieller und Wissenschaftstheoretiker ist eine stundenlange Unterhaltung. Dann in die Stadt, Bürste kaufen und die Buchhandlungen besichtigen (Nicht viel los). Am Abend bei<pb facs="3"/> <persName ref="P01611">Riezler</persName>: Glänzendes Diner mit fabelhaften Weinen. Ich hatte <persName ref="P02400">Frau Riezler geb. Liebermann</persName> zu Tisch. Sie ist witzig, gesellschaftlich überlegen. Wir sprachen von <persName ref="P00827">Hauptmann</persName>, <persName ref="P01177">ihrem Vater</persName>, <placeName ref="Berlin">Berlin</placeName> etc. Sie war auch im <bibl>Kolleg</bibl><!--vgl. auch PT an Hannah Tillich vom 3.5.1929: Tillich, Vorlesung zur Griechischen Philosophie. Erdmann Sturm berichtet in seiner Historischen Einleitung zu EW XVIII, S. XX, dass Tillich dazu auf das Vorlesungsmanuskript seiner Berliner Vorlesung zur Griechischen Philosophie (WS 1920/21 bzw. SS 1923; in: EW II) zurückgriff, jedoch eine neue Einleitung voranstellte (in: EW XVIII,  668-683).--> gewesen. Außerdem war da die <persName ref="P02514">ehemalige Frau Prinzhorn, jetzt Frau <unclear>Wolhard</unclear></persName>, die sehr schön aussah und Dich sehr herzlich grüßen läßt. Nachher gingen wir mit <persName ref="P00664"><persName ref="P02401">Gelbs</persName></persName> und <persName ref="P01578"><persName ref="P01579">Reinhardts</persName></persName> noch ins Kaffee. <persName ref="P01579">Frau Reinhard</persName> freut sich sehr auf Dich und sagte, man wäre sehr gespannt. Sie war auch im Kolleg und hat ihrem Mann, an dessen Urteil mir am meisten liegt, alles sehr be<pb facs="4"/>geistert erzählt. Dieses war der erste und bisher einzige Gesellschaftstag. Die Wohnung ist so weit, daß die Tapeten herankönnen, und dann soll das Parkett abgezogen werden. Das müssen wir bezahlen. Es ist aber unbedingt nötig. Telephon ist beantragt. Den Wohnungsschein erhält <hi rend="u">nicht</hi> das Kuratorium, sondern das Wohnungsamt dafür daß es uns den Wohnberechtigungsschein für hier erteilt. – In der Pension alles unverändert. Vorgestern riefen <persName ref="P02494"><persName ref="P02495">Sulzbachs</persName></persName> (<hi rend="aq">Crissier</hi>!) an. Wir haben uns aber noch nicht verabredet. Die Kollegs scheinen stark gewirkt zu haben. Jedenfalls waren am 2 Tage mehr da als am ersten. Ich freue mich, daß Ihr morgen näher kommt. Schreib' gleich!
+</p>
+                <closer>
+                    <salute>Ich liebe Dich!</salute>
+                    <signed>Dein Paul.</signed>
+                </closer>
+<postscript><p>Grüße alle Marburger!!</p></postscript><!--Am Seitenende der ersten Briefseite notiert-->
+            </div>
+        </body>
+    </text>
+</TEI>
+
