@@ -1,0 +1,129 @@
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Oskar Siebeck an Paul Tillich 
+               <lb/>vom 2. Dezember 1932
+            </title>
+            <author ref="P01782">Oskar Siebeck</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Sebastian Kueffner</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="Kopie">
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement>Berlin</settlement>
+                  <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz</repository>
+                  <collection>Handschriftenabteilung, Archiv des Verlages J. C. B. Mohr (Paul Siebeck)</collection>
+                  <idno>Nachl. 488, A 0469,5; Blatt 143-205</idno>
+               </msIdentifier>
+              
+               <physDesc>
+                  <p>Brief; Maschinenschriftlich; Durchschlag</p>
+                  </physDesc>
+            </msDesc>
+           
+            <biblStruct type="journal">
+               <monogr>
+                  <author>Alf Christophersen / Friedrich Wilhelm Graf</author>
+                  <title>„Beweise einer unsichtbaren Beziehung“ Die Korrespondenz zwischen Paul Tillich und dem Tübinger Verlag J. C. B. Mohr (Paul Siebeck)</title>
+                  <imprint>
+                     <pubPlace ref="Boston">Boston</pubPlace>
+                     <date when="2011-09-27">2011</date>
+                     <biblScope>S. 348–350</biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title>International Yearbook for Tillich Research</title>
+                  <biblScope>Band 6 Heft 1</biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01782">Oskar Siebeck</persName>
+              <placeName ref="ohne Ort">ohne Ort</placeName>             
+              <date when="1932-12-02">2. Dezember 1932</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01930">Paul Tillich</persName>
+              <placeName ref="Frankfurt a.M."><hi rend="u">Frankfurt (Main)-Niederrad</hi></placeName>
+              <address><street>Vogelstrasse 11</street></address>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="SK" when="2023-10-25">Intitale Auszeichnung des Transkripts</change> 
+        
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+           <dateline><date when="1932-12-02">2. Dezember 1932.</date>
+           </dateline>     
+        </opener>
+        
+        <p>Sehr verehrter <persName ref="P01930">Herr Professor</persName>, wie immer, wenn ich von einer längeren Autorenreise heimkomme, fand ich auch diesesmal bei meiner Rückkehr allerhand dringliche Arbeit hier vor. Ich komme daher leider erst heute dazu, unsere mündlichen Abreden vom <date when="1932-11-22">22. November</date> brieflich zu rekapitulieren.</p>
+        <p>Der wichtigste Gegenstand unserer Besprechung war der Band <bibl>„Metaphysik“</bibl>, den Sie in einem Umfang von höchstens 25 Druckbogen für den „Grundriss der philosophischen Wissenschaften“ nunmehr endgültig übernehmen. Das druckfertige Manuskript glaubten Sie mir für den <date ref="1936-01-01">1. Januar 1936</date> bestimmt in Aussicht stellen zu können. Der formelle Abschluss eines <!-- Nicht in der Grafedition angeführt -->Verlagsvertrages soll Ihrem Wunsche zufolge in einigem Abstand von diesem Ablieferungstermin solange zurückgestellt werden, bis Sie sich entschliessen können, welcher der 3 Modalitäten, die ich Ihnen in meinem <bibl type="letter">Briefe</bibl> vom <date when="1932-11-07">7. November</date> für die Verlagsbedingungen in einer für den Verlag in jeder Hinsicht bindenden Form angeboten habe, glauben den Vorzug geben zu sollen. Nachdem Sie meine sämtlichen 3 Vorschläge an sich als durchaus annehmbar bezeichnet haben, bedurfte dieses Angebot im Augenblick nur insofern einer Ergänzung, als wir übereinkamen, Sie sollten auf je 1000 Exemplare der rechtzeitig vor Ablieferung des Manuskriptes zu vereinbarenden Auflage 10 Freiexemplare bekommen.</p>
+        <p>Wenn Sie mir freundlichst bestätigen, dass die vorstehende Punktation den Inhalt unserer <placeName ref="Frankfurt a.M.">Frankfurter</placeName> Abreden auch nach Ihrer Erinnerung richtig wiedergibt, bedarf es einstweilen keiner Zusammenfassung dieser schon jetzt für beide Teile bindenden Vereinbarungen in Vertragsform.</p>
+        <p>Das Manuskript Ihres <bibl><!-- meint er die Hegelrede? --><placeName ref="Tübingen">Tübinger</placeName> Vortrages</bibl>, den Sie in veränderter Form demnächst in <placeName ref="Dresden">Dresden</placeName> halten werden, möchte ich Sie bitten, doch möglichst <sic>bus</sic> <date when="1933-02-01">1. Februar 1933</date> druckfertig zu machen. Der Gedenktag, an den ich neulich dachte, ist der <date from="1883-03-14" to="1933-03-14">50. Todestag</date> von <persName ref="P01275">Karl Marx</persName>, und fällt auf den <date when="1933-03-14">14. März 1933</date>. Damit in den in der Tagespresse zu erwartenden Gedenkartikeln möglichst schon auf Ihren Vortrag Bezug genommen werden kann, müsste das fertige Heft möglichst am <date when="1933-02-15">15. Februar</date> verschickt werden können.</p>
+        <p>Trotzdem Ihre <!-- Liste von Schriften angeben? -->sämtlichen bisher in meinem Verlag erschienenen kleineren Schriften als Hefte der <bibl>„Sammlung gemeinverständlicher Vorträge“</bibl> hinausgegangen sind, gab ich Ihnen doch zu erwägen, ob dieses Heft nicht besser in der Reihe <bibl><!-- Philosophie und Geschichte : Sammlung v. Vorträgen u. Schriften a.d. Gebiet d. Philosophie u. Geschichte, Tübingen: Mohr, 1922-1969 -->„Philosophie und Geschichte“</bibl> erscheinen würde, in der, wie Sie aus dem <!-- nicht dabei -->beiliegenden Gesamtverzeichnis ersehen, als 24. Heft schon eine ähnliche Arbeit von <persName ref="P02422">Professor von Aster</persName> in <placeName ref="Giessen">Giessen</placeName> erschienen ist. Für <bibl><!-- Recht und Staat in Geschichte und Gegenwart : eine Sammlung von Vorträgen und Schriften aus dem Gebiet der gesamten Staatswissenschaften, ersch (1) 1913 - (512) 1983 -->„Recht und Staat“</bibl> steht schon eine kleine Arbeit über <persName ref="P01275">Karl Marx</persName> von einem jungen <placeName ref="Berlin">Berliner</placeName> Nationalökonomen, <persName ref="P02578">Herrn Dr. Werner Falk</persName>, Dozent an der Hochschule für Politik, in Aussicht, die ich im Manuskript aber noch nicht gesehen habe. Wenn Sie den im <date when="1932-11">Novemberheft</date> des <bibl><!-- Archiv für Sozialwissenschaft und Sozialpolitik, ersch. (1) 1914 bis (9)1919 -->„Archivs für Sozialwissenschaft“</bibl> erschienenen Aufsatz desselben Verfassers über <ptr/><bibl><!-- Werner Falk, Hegels Freiheitsidee in der Marx’schen Dialektik, in: Archiv für Sozialwissenschaft und Sozialpolitik 68, 1932/33, 165–193 -->„<persName ref="P00839">Hegels</persName> Freiheitsidee in der <persName ref="P01275">Marx’schen Dialektik</persName>“</bibl> schon gelesen haben sollten, wäre ich Ihnen nebenbei für eine vertrauliche Aeusserung über diese Arbeit sehr zu Dank verpflichtet.<note type="ea">Unter dem geplanten
+           Titel sollte der Vortrag bei Mohr Siebeck nie erscheinen. Ein ähnliches Manuskript
+           aus dem Jahre 1932 wurde veröffentlicht unter dem Thema:"Der deutsche Idealismus
+           und das proletarische Schicksal" in: Sturm, Erdmann GWE Bd. 11, Berlin/New-York
+           1999.</note></p>
+        <p>Inzwischen darf ich Ihnen über Ihren <bibl><!-- Tillich, Paul: "Karl Marx und der Deutsche Idealismus" --><persName ref="P01275">Marx</persName>-Vortrag</bibl> schon einmal einen Verlagsvertrag in doppelter Ausfertigung vorlegen, in dem der Titel der Reihe, für die Sie sich entscheiden, noch einzusetzen wäre.</p>
+        <p>Von der Neuanfertigung broschierter Exemplare des <!--unklar welcher gemeint ist 1 oder 2?--><bibl><!--Paul Tillich: Kairos. (Hg): 1ter Band: Zur Geisteslage und Geisteswendung, Darmstadt Otto Reichl Verlag 1926 --><!-- Paul Tillich: Kairos. (Hg): 2ter Band: 
+Protestantismus als Kritik und Gestaltung, Darmstadt Otto Reichl Verlag 1929 -->Kairosbandes</bibl> habe ich alsbald nach meiner Rückkehr ein Belegexemplar für Sie angewiesen.
+        </p>   
+        <closer>
+           <salute>Mit freundlichen Empfehlungen bin ich stets Ihr ganz ergebener</salute>
+           <signed> <ptr/><persName ref="P01782">Dr. O. Siebeck.</persName><note type="ea">[handschr.]</note></signed>
+        </closer>
+      
+     </div>
+    </body>
+  </text>
+</TEI>

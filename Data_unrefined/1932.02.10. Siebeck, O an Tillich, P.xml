@@ -1,0 +1,120 @@
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Oskar Siebeck an Paul Tillich 
+               <lb/>vom 10. Februar 1932
+            </title>
+            <author ref="P01782">Oskar Siebeck</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Sebastian Kueffner</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="Kopie">
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement>Berlin</settlement>
+                  <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz</repository>
+                  <collection>Handschriftenabteilung, Archiv des Verlages J. C. B. Mohr (Paul Siebeck)</collection>
+                  <idno>Nachl. 488, A 0469,5; Blatt 143-205</idno>
+               </msIdentifier>
+              
+               <physDesc>
+                  <p>Brief; maschinenschriftlich; Durchschlag</p>
+                  </physDesc>
+            </msDesc>
+           
+            <biblStruct type="journal">
+               <monogr>
+                  <author>Alf Christophersen / Friedrich Wilhelm Graf</author>
+                  <title>„Beweise einer unsichtbaren Beziehung“ Die Korrespondenz zwischen Paul Tillich und dem Tübinger Verlag J. C. B. Mohr (Paul Siebeck)</title>
+                  <imprint>
+                     <pubPlace ref="Boston">Boston</pubPlace>
+                     <date when="2011-09-27">2011</date>
+                     <biblScope>S. 314</biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title>International Yearbook for Tillich Research</title>
+                  <biblScope>Band 6 Heft 1</biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01782">Oskar Siebeck</persName>
+              <placeName ref="Tübingen">Tübingen</placeName>
+              <date when="1932-02-10">10. Februar 1932</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01930">Paul Tillich</persName>
+              <placeName ref="Frankfurt/Main">Frankfurt (Main-)Niederrad</placeName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="SK" when="2023-09-14">Intitale Auszeichnung des Transkripts</change>
+
+        
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+           <dateline><date when="1932-02-10">10. Februar 1932.</date>
+           </dateline>
+        </opener>
+        
+        <p>Sehr verehrter <persName ref="P01930">Herr Professor</persName>, für Ihre <bibl type="postcard"><!-- 1932.02.09. Tillich, P an Siebeck, O -->freundliche Karte</bibl> vom <date when="1932-02-09">gestrigen Tage</date> sage ich Ihnen meinen verbindlichsten Dank. Wegen der Drucklegung des Manuskriptes Ihrer <ptr/><bibl><!--Tillich, Der junge Hegel und das Schicksal Deutschlands, in: Tillich, Hegel und Goethe. Zwei Gedenkreden (Sammlung gemeinverständlicher Vorträge und Schriften aus dem Gebiet der Theologie und Religionsgeschichte 158), Tübingen 1932-->Reichsgründungsrede</bibl> möchte ich Sie in keiner Weise drängen. Denn ich kann es nur begrüssen, wenn diese durch eine weitere Ueberarbeitung jeglichen ephemeren Charakters entkleidet wird.</p>
+        <p>Immerhin wird es sich empfehlen, <bibl><!-- Das Grüne Heft? -->das Heft</bibl> möglichst zu Beginn des <date when="1932-04">Sommersemesters</date> zu verschicken. <bibl><!--Tillich, Der junge Hegel und das Schicksal Deutschlands, in: Tillich, Hegel und Goethe. Zwei Gedenkreden (Sammlung gemeinverständlicher Vorträge und Schriften aus dem Gebiet der Theologie und Religionsgeschichte 158), Tübingen 1932-->Das Manuskript</bibl> sollte daher, wenn Sie es irgend einrichten können, gleich <date when="1932-03">nach den Osterfeiertagen</date> in Satz gegeben werden können.</p>
+        <p>Nachdem Sie sich mit <bibl type="letter"><!-- 1932.02.03. Siebeck, O an Tillich, P -->meinem Vertragsentwurf</bibl> freundlichst einverstanden erklärt haben, erlaube ich mir, Ihnen in der Anlage zwei Reinschriften des Verlagsvertrages zu übersenden, und bitte Sie, eine der beiden Ausfertigungen durch Ihre Unterschrift vollzogen spätestens mit dem druckfertigen Manuskript an mich gelangen zu lassen.
+        </p>   
+        <closer>
+           <salute>In vorzüglicher Hochachtung empfehle ich mich Ihnen als Ihr ganz ergebener</salute>
+           <signed> <ptr/><persName ref="P01782">Dr. O. Siebeck</persName>.<note type="ea">[handschr.:]</note></signed>
+        </closer>
+      
+     </div>
+    </body>
+  </text>
+</TEI>

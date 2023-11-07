@@ -1,0 +1,182 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Paul Tillich an Verlag Mohr Siebeck
+               <lb/>vom 25. April 1932
+            </title>
+            <author ref="P01930">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Sebastian Kueffner</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="Kopie">
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement ref="Berlin">Berlin</settlement>
+                  <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz</repository>
+                  <collection>Handschriftenabteilung, Archiv des Verlages J. C. B. Mohr (Paul Siebeck)</collection>
+                  <idno>Nachl. 488, A 0469,5; Blatt 143-205</idno><!--Grafversion Idno: Mohr Siebeck, VA, A Nr. 469 1932 -->      
+               </msIdentifier>
+               <physDesc>
+                  <p>Postkarte; An den Verlag Mohr Tübingen; maschinenschriftlich; als maschinenschriftliche Abschrift überliefert</p>
+                  </physDesc>   
+            </msDesc>
+            <biblStruct type="journal">
+               <monogr>
+                  <author>Alf Christophersen / Friedrich Wilhelm Graf</author>
+                  <title>„Beweise einer unsichtbaren Beziehung“ Die Korrespondenz zwischen Paul Tillich und dem Tübinger Verlag J. C. B. Mohr (Paul Siebeck)</title>
+                  <imprint>
+                     <pubPlace ref="Boston">Boston</pubPlace>
+                     <date when="2011-09-27">2011</date>
+                     <biblScope>S. 326</biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title>International Yearbook for Tillich Research</title>
+                  <biblScope>Band 6 Heft 1</biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01930">Paul Tillich</persName>
+              <placeName ref="Frankfurt am Main">Frankfurt am Main</placeName>
+              <date when="1932-04-25">25. April 1932[PS]</date><!-- Posteingangsstempel -->
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P02445">Verlag Mohr Siebeck</persName> 
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="SK" when="2023-07-18">Intitale Auszeichnung des Transkripts</change>
+        
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        
+        <p><bibl type="letter"><!-- Liste von 1932.04.21. Verlag Mohr Siebeck an Tillich, P--><hi rend="u">Liste</hi><lb/>
+           für die Versendung von Rezensionsexemplaren<lb/></bibl>
+           <hi rend="u">SgV 158:</hi><lb/>
+           <bibl><!-- Paul Tillich: »Hegel und Goethe : zwei Gedenkreden« (Sammlung gemeinverständlicher Vorträge und Schriften aus dem Gebiet der Theologie und Religionsgeschichte 158), Tübingen 1932 --> <hi rend="u">Tillich, „Hegel und Goethe“.</hi></bibl></p>
+        <p>
+           <bibl><!-- 
+Deutsche Literaturzeitung für Kritik der internationalen Wissenschaft, ersch. (1) 1880 - (114) 1993 -->Deutsche Literaturzeitung</bibl><lb/>
+           <bibl><!-- Logos, ersch. (1) 1910 - (7) 2001-->Logos</bibl><lb/>
+           <bibl><!-- Blätter für deutsche Philosophie : Zeitschrift d. Deutschen, ersch. (1)1927/28 - (18)1944 -->Blätter für deutsche Philosophie</bibl><lb/>
+           <bibl><!-- 
+Eckart : Blätter für evangelische Geisteskultur, ersch. (1) 1924/25 - (29) 1960  -->Geisteskultur</bibl><lb/>
+           <bibl><!-- Philosophisches Jahrbuch, ersch. (1) 1888 - -->Philosophisches Jahrbuch</bibl><lb/>
+           <bibl><!-- 
+Philosophie und Leben, ersch. (1) 1925 - (9) 1933 -->Philosophie und Leben</bibl><lb/>
+           <bibl><!-- Die Tatwelt: Zeitschrift für Erneuerung des Geistes, ersch. (1) 1925 - (18) 1942/43 -->Die Tatwelt</bibl><lb/>
+           <bibl><!-- 
+Theologische Rundschau, ersch. (1)1897/98- -->Theologische Rundschau</bibl><lb/>
+           <bibl><!-- Theologische Literaturzeitung : Monatsschrift für das gesamte Gebiet der Theologie und Religionswissenschaft, ersch. (1)1876- -->Theologische Literaturzeitung</bibl><lb/>
+           <bibl><!-- 
+Die christliche Welt : protestantische Halbmonatsschrift, ersch. (2) 1888/1889 - (55) 1941 -->Christliche Welt</bibl><lb/>
+           <bibl><!-- Zwischen den Zeiten : eine Zweimonatsschrift, ersch. 
+(1) 1923 - (11) 1933 -->Zwischen den Zeiten</bibl><lb/>
+           <bibl><!-- 
+Zeitwende : Kultur, Kirche, Zeitgeschehen, ersch. 
+(1) 1925 - (81) 2010 -->Zeitwende</bibl><lb/>
+           <bibl><!-- Weis nicht genau welche Monatshefte das sind-->Sozialistische Monatshefte</bibl><lb/>
+           <bibl><!-- Schweizerische Monatshefte für Politik und Kultur / Genossenschaft zur Herausgabe der Schweizerischen Monatshefte, ersch. (1) 1921/22 - (10) 1930/31 -->Schweizerische Monatshefte für Politik u. Kultur</bibl><lb/>
+           <bibl><!-- Der Ring : konservative Wochenschrift, ersch. (1) 1928 - (7) 1934 -->Der Ring</bibl><lb/>
+           <bibl><!-- 
+Hochland : Monatsschrift für alle Gebiete d. Wissens, d. Literatur u. Kunst, ersch. (1) 1903/04 - (63) 1971 -->Hochland</bibl><lb/>
+           <bibl><!-- 
+Deutsche Rundschau, ersch. 
+(1) 1874 - (90) 1964 --></bibl>Deutsche Rundschau<lb/>
+           <bibl><!-- Neue Rundschau, ersch. (15) 1904 - (61) 1950 -->Neue Rundschau</bibl><lb/>
+           <bibl><!-- Stimmen der Zeit, ersch. 1865 -->Stimmen der Zeit</bibl><lb/>
+           <bibl><!-- 
+Deutsche Vierteljahrsschrift für Literaturwissenschaft und Geistesgeschichte, ersch. 
+(1) 1923-  -->Deutsche Vierteljahresschrift f. Geistesgesch. und LitWiss.</bibl><lb/>
+           <bibl><!-- 
+Die Eiche : Vierteljahrsschrift für Freundschaftsarbeit der Kirchen, ersch. 1919 - 1925 -->Eiche</bibl><lb/>
+           <bibl><!-- 
+Die Furche : evangelische Monatsschrift für das geistige Leben der Gegenwart, ersch. (1) 1910/11 - (27) 1941-->Furche</bibl><lb/>
+           <bibl><!-- 
+Der religiöse Sozialist : Sonntagsblatt des arbeitenden Volkes, ersch. (13) 1931  - (15) 1933 -->Der religiöse Sozialist</bibl><lb/>
+           <bibl><!-- Neue Blätter für den Sozialismus : Zeitschrift für geistige und politische Gestaltung, ersch. (1) 1930 - (4) 1933  --></bibl>Neue Blätter f. d. Sozialismus<lb/>
+           <bibl><!-- Frankfurter Zeitung, ersch. 1866 - 1943  -->Frankfurter Zeitung</bibl><lb/>
+           <bibl><!-- 
+Kölnische Zeitung, ersch. 1802/03 - 1945 --></bibl>Kölnische Zeitung<lb/>
+           <bibl><!-- Kölnische Volkszeitung, ersch. (28) 1887 - (82) 1941 -->Kölnische Volkszeitung</bibl><lb/>
+           <bibl><!-- 
+Deutsche allgemeine Zeitung, ersch. (61) 1922 - (84) 1945 -->DAZ</bibl><lb/>
+           <bibl><!-- Vossische Zeitung, ersch. 1911 - 1934  -->Vossische Zeitung</bibl><lb/>
+           <bibl><!-- 
+Vorwärts : Berliner Volksblatt, ersch. 
+(8) 1891 - (68) 1958  -->Vorwärts</bibl><lb/>
+           <bibl><!-- Münchner Neueste Nachrichten, ersch. 1848 - 1945. -->Münchner Neueste Nachrichten</bibl><lb/>
+           <bibl><!-- Mannheim: Neue Bad. Landeszeitung, ersch. 1924 -->Neue Bad. Landeszeitung</bibl><lb/>
+           <bibl><!-- Volkswacht für Schlesien : Organ für die werktätige Bevölkerung, ersch. (31) 1920 - (44) 1933 -->Volkswacht f. Schlesien</bibl><lb/>
+           <bibl><!-- Neue Leipziger Zeitung, ersch. 
+1921 - 1940  --></bibl>Neue Leipziger Zeitung<lb/>
+           <bibl><!-- 
+Basler Nachrichten, ersch. 
+(12) 1856 - (133) 1977 -->Basler Nachrichten</bibl><lb/>
+           <bibl><!-- Neue Zürcher Zeitung, ersch. 1780  -->Neue Zürcher Zeitung</bibl><lb/>
+        </p>
+        
+       <p><note resp="unknown">[handschr. Vermerk:]</note><add resp="P01930">
+           erl. <date when="1932-04-28">28. 4. 32.</date><lb/>
+          
+          ich vermisse noch <bibl><hi rend="i">Theologische Blätter</hi></bibl> und <bibl><hi rend="i">Zeitschrift für Religion und Sozialismus</hi></bibl>.<lb/>
+          <persName ref="P01724">Prof. D. K. L. Schmidt</persName>, <placeName ref="Bonn/Rhein">Bonn (Rhein) </placeName><lb/>
+          <persName ref="P02111">Prof. D. G. Wünsch</persName>, <placeName ref="Marburg/Lahn">Marburg (Lahn) Frankfurterstr. 16.</placeName>         
+       </add>
+        </p>   
+        <closer>
+           <signed><ptr/><persName ref="P01930">Tillich</persName>.<note type="ea">[handschr.:]</note></signed>
+        </closer>
+       
+      
+     </div>
+    </body>
+  </text>
+</TEI>

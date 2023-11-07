@@ -1,0 +1,148 @@
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Oskar Siebeck an Paul Tillich 
+               <lb/>vom 3. Februar 1932
+            </title>
+            <author ref="P01782">Oskar Siebeck</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Sebastian Kueffner</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="Kopie">
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement>Berlin</settlement>
+                  <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz</repository>
+                  <collection>Handschriftenabteilung, Archiv des Verlages J. C. B. Mohr (Paul Siebeck)</collection>
+                  <idno>Nachl. 488, A 0469,5; Blatt 143-205</idno>
+               </msIdentifier>
+              
+               <physDesc>
+                  <p>Brief; Maschinenschriftlich; Durchschlag</p>
+                  </physDesc>
+            </msDesc>
+           
+            <biblStruct type="journal">
+               <monogr>
+                  <author>Alf Christophersen / Friedrich Wilhelm Graf</author>
+                  <title>„Beweise einer unsichtbaren Beziehung“ Die Korrespondenz zwischen Paul Tillich und dem Tübinger Verlag J. C. B. Mohr (Paul Siebeck)</title>
+                  <imprint>
+                     <pubPlace ref="Boston">Boston</pubPlace>
+                     <date when="2011-09-27">2011</date>
+                     <biblScope>S. 310–313</biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title>International Yearbook for Tillich Research</title>
+                  <biblScope>Band 6 Heft 1</biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01782">Oskar Siebeck</persName>
+              <placeName ref="Tübingen">Tübingen</placeName>
+              <date when="1932-02-03">3. Februar 1932</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01930">Paul Tillich</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="SK" when="2023-09-12">Intitale Auszeichnung des Transkripts</change>
+        
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession" n="1">
+        <pb n="1"/>
+        <opener>
+           <dateline><date when="1932-02-03">3. Februar 1932</date>.
+           </dateline>      
+        </opener>
+        
+        <p>Sehr verehrter <persName ref="P01930">Herr Professor</persName>, für <bibl type="letter"><!-- 1932.23.01. Tillich, P an Siebeck, O -->Ihre freundlichen Zeilen vom <date when="1932-01-23">23. Januar</date></bibl> sage ich Ihnen meinen verbindlichsten Dank. Inzwischen ist ihre <bibl><!--Tillich, Der junge Hegel und das Schicksal Deutschlands, in: Tillich, Hegel und Goethe. Zwei Gedenkreden (Sammlung gemeinverständlicher Vorträge und Schriften aus dem Gebiet der Theologie und Religionsgeschichte 158), Tübingen 1932-->Reichsgründungsrede</bibl> von einer <placeName ref="Frankfurt">Frankfurter</placeName> Buchhandlung bei mir bestellt worden. Darnach darf ich annehmen, dass die Einsendung des druckfertigen Manuskriptes nicht mehr lange auf sich warten lässt. Die Versendung des fertigen Heftes sollte möglichst noch vor den Universitätsferien erfolgen. Damit die Drucklegung möglichst alsbald nach Eingang des <bibl><!--Tillich, Der junge Hegel und das Schicksal Deutschlands, in: Tillich, Hegel und Goethe. Zwei Gedenkreden (Sammlung gemeinverständlicher Vorträge und Schriften aus dem Gebiet der Theologie und Religionsgeschichte 158), Tübingen 1932-->Manuskriptes</bibl> in Angriff genommen werden kann, erlaube ich mir, Ihnen in der Anlage schon einmal einen <ptr/><bibl type="letter"><!-- Verlagsvertragsentwurf zwischen Mohr Siebeck und Paul Tillich vom 3. Februar 1932 -->Vertragsentwurf</bibl> vorzulegen.<note type="ea">Unterhalb des Briefes angeführt</note></p> 
+        <p>Wenn Sie mit meinen Vorschlägen für die Verlagsbedingungen einverstanden sind, kann ich die Reinschriften gleich nach dem hier zurückbehaltenen Duplikat ausfertigen lassen. Es wäre mir eine grosse Freude, wenn ich Ihre <bibl><!--Tillich, Der junge Hegel und das Schicksal Deutschlands, in: Tillich, Hegel und Goethe. Zwei Gedenkreden (Sammlung gemeinverständlicher Vorträge und Schriften aus dem Gebiet der Theologie und Religionsgeschichte 158), Tübingen 1932-->Rede</bibl> im Verfolg meiner heutigen Vor-Vorschläge recht bald dem Publikum vorlegen könnte. Denn gerade bei Schriften dieses Umfanges kommt viel darauf an, dass die erste Nachfrage möglichst rasch befriedigt werden kann.
+        </p>   
+        <closer>
+           <salute>Ihren weiteren Nachrichten sehe ich jederzeit gerne entgegen und verbleibe in vorzüglicher Hochachtung Ihr ergebener</salute>
+           <signed> <ptr/><persName ref="P01782">Dr. O. Siebeck</persName>.<note type="ea">[handschr.]</note></signed>
+        </closer>
+      
+     </div>
+        <div type="writingSession" n="2">
+           <pb n="1"/>
+           <note type="ea" resp="SK">Verlagsvertragsentwurf zwischen Mohr Siebeck und Paul Tillich vom 3. Februar 1932</note>
+           <p>
+              <ptr/><hi rend="i">Entwurf.</hi><lb/>
+              VERLAGS-VERTRAG<lb/>
+              FÜR DIE SCHRIFTENREIHEN DES VERLAGS VON<lb/>
+              J. C. B. MOHR (<persName ref="P01783">PAUL SIEBECK</persName>)<lb/>
+              IN <placeName ref="Tübingen">TÜBINGEN</placeName><lb/>
+              Zwischen</p>
+           <p><persName ref="P01930">Herrn Professor Dr. Paul Tillich</persName> in <placeName ref="Frankfurt/Main">Frankfurt a. M</placeName>.
+              und der Firma J. C. B. MOHR (<persName ref="P01783">PAUL SIEBECK</persName>) als Verlagseigentümern der Reihe:</p>
+           <p><bibl><!-- 
+Sammlung gemeinverständlicher Vorträge und Schriften aus dem Gebiet der Theologie und Religionsgeschichte, ersch. (1)1896- -->Sammlung gemeinverständlicher Vorträge</bibl></p>
+           <p>ist heute nachstehender Verlags-Vertrag für sie und ihre Rechtsnachfolger abgeschlossen worden:</p>
+           <p>§ 1. Herr
+              überträgt auf die Verlagsbuchhandlung J. C. B. Mohr (<persName ref="P01783">Paul Siebeck</persName>) bzw. ihre Rechtsnachfolger das ausschließliche Verlagsrecht seine Reichsgründungsrede: <bibl><!--Tillich, Der junge Hegel und das Schicksal Deutschlands, in: Tillich, Hegel und Goethe. Zwei Gedenkreden (Sammlung gemeinverständlicher Vorträge und Schriften aus dem Gebiet der Theologie und Religionsgeschichte 158), Tübingen 1932-->Der junge <persName ref="P00839">Hegel</persName> und das Schicksal <placeName ref="Deutschland">Deutschlands</placeName></bibl> für die erste und alle folgenden Auflagen, sowie für alle Ausgaben.</p>
+           <p>§ 2. <bibl><!--Tillich, Der junge Hegel und das Schicksal Deutschlands, in: Tillich, Hegel und Goethe. Zwei Gedenkreden (Sammlung gemeinverständlicher Vorträge und Schriften aus dem Gebiet der Theologie und Religionsgeschichte 158), Tübingen 1932-->Die Schrift</bibl> soll in der obengenannten Schriftenreihe erscheinen. Die Verlagsbuchhandlung übernimmt daher Verlag und Herstellung der Schrift unter der Voraussetzung, daß ihr Umfang der (3) Druckbogen von je 16 Seiten in Format und Satzeinrichtung der Reihe nicht überschreitet.</p>
+           <p>§ 3. Die Höhe einer Auflage setzt die Verlagsbuchhandlung bis zu zweitausend (2000) Exemplaren nach eigenem Ermessen fest. Der Verfasser erhält von jeder Auflage seiner Schrift 30 Freiexemplare.</p>
+           <p>§ 4. Die Verlagsbuchhandlung ist berechtigt, die in § 3 genannten Freiexemplare sowie 70 Rezensionsexemplare samt dem erforderlichen Zuschuß für Druckdefekte usw. außerhalb der vereinbarten Auflage drucken zu lassen.</p>
+           <p>§ 5. Der Verfasser erhält für jede Auflage seiner Schrift bis zu dem in § 2 vorgesehenen Höchstumfang von 3 Druckbogen ein jeweils nach Druckvollzug zahlbares Honorar von achtzig (80) Reichsmark für den Druckbogen von 16 Seiten in der Satzeinrichtung der Reihe, mindestens aber ein Pauschalhonorar von 150 Reichsmark.</p>
+           <p>§ 6. Das Recht der Übersetzung in fremde Sprachen kann die Verlagsbuchhandlung nur im Einvernehmen mit dem Verfasser vergeben. Der aus dem Verkauf dieses Rechtes vereinnahmte Betrag, dessen Festsetzung ebenfalls nur im Einverständnis mit dem Verfasser erfolgen kann, fällt je zur Hälfte diesem und der Verlagsbuchhandlung zu.</p>
+           <p>§ 7. Die zwischen dem Verband der <placeName ref="Deutschland">Deutschen</placeName> Hochschulen und dem Börsenverein der <placeName ref="Deutschland">Deutschen</placeName> Buchhändler bzw. dem <placeName ref="Deutschland">Deutschen</placeName> Verlegerverein vereinbarten, diesem Vertrag als Anlage angefügten „Vertragsnormen und Auslegungsgrundsätze für Verlagsverträge über wissenschaftliche Werke“ gelten als Bestandteil dieses Vertrages, soweit sie nicht durch die obigen Bestimmungen abgeändert oder erläutert worden sind.</p>
+           <p>§ 8. Die Entscheidung etwaiger Meinungsverschiedenheiten oder Streitigkeiten aus diesem Vertrage soll endgültig durch das Verbandsschiedsgericht wissenschaftlicher Autoren und Verleger erfolgen.</p>
+              <p>Hiermit allenthalben einverstanden unterzeichnen diesen in zwei gleichlautenden Exemplaren ausgefertigten Verlags-Vertrag</p>
+              <p>, den<lb/>
+                 <placeName ref="Tübingen">Tübingen</placeName>, den
+           </p>
+           
+           
+     </div>
+    </body>
+  </text>
+</TEI>

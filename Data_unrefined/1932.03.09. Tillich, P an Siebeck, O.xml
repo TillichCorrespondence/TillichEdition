@@ -1,0 +1,119 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von <persName ref="P01930">Paul Tillich</persName> an <persName ref="P01782">Oskar Siebeck</persName> 
+               <lb/>vom <date when="1932-03-09">9. März 1932</date>
+            </title>
+            <author ref="P01930">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Friedrich Schumann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="postcard">
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement>Berlin</settlement>
+                  <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz</repository>
+                  <collection>Handschriftenabteilung, Archiv des Verlages J. C. B. Mohr (Paul Siebeck)</collection>
+                  <idno>Nachl. 488, A 0469,5; Blatt 143-205</idno><!--Das ist die Angabe, die wir aus Berlin erhalten haben; ggf. separat die (alte) Signatur von Graf angeben? (Mohr Siebeck, VA, A Nr. 469 1932)-->
+               </msIdentifier>
+               <physDesc>
+                  <p>maschinenschriftlich</p>
+                  </physDesc>
+               <additional> 
+                  <listBibl>
+                     <biblStruct type="journal" n="firstPrint">
+                        <monogr>
+                           <author>Alf Christophersen/Friedrich Wilhelm Graf</author>
+                           <title>"Beweise einer unsichtbaren Beziehung". Die Korrespondenz zwischen Paul Tillich und dem Tübinger Verlag J. C. B. Mohr (Paul Siebeck)</title>
+                           <imprint>
+                              <pubPlace ref="Berlin">Berlin/</pubPlace><pubPlace ref="Boston, Massachusetts">Boston, MA</pubPlace>
+                              <date when="2011">2011</date>
+                              <biblScope>237-407, hier: 315</biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title>International Yearbook for Tillich Research</title>
+                           <biblScope>Bd. 6, H. 1</biblScope>
+                        </series>
+                     </biblStruct>  
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01930">Paul Tillich</persName>
+              <placeName ref="Frankfurt a. M.">Frankfurt a. M.</placeName>
+              <date when="1932-03-09">9. März 1932</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01782">Oskar Siebeck</persName>
+              <placeName ref="Tübingen">Tübingen</placeName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="FS" when="2023-06-19">Intitale Auszeichnung des Transkripts</change>
+        
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+
+        <opener><add resp="unknown1"><date when="1932-03-10">10. März 1932</date> vorl. beantw. <date when="1932-03-19">19. III 32</date> beantw</add><!--handschr. Vermerke-->
+<dateline><placeName ref="Frankfurt a. M.">Frankfurt</placeName>, <date when="1932-03-09">9. III. 32</date></dateline>
+           <salute>Sehr geehrter Herr <persName ref="P01782">Siebeck</persName>!</salute>
+        </opener>
+        <p>Gleichzeitig geht das <bibl>Mskrpt. meiner Universitätsrede</bibl><!--Tillich, Der junge Hegel und das Schicksal Deutschlands, in: Tillich, Hegel und Goethe. Zwei Gedenkreden (Sammlung gemeinverständlicher Vorträge und Schriften aus dem Gebiet der Theologie und Religionsgeschichte 158), Tübingen 1932--> an Sie ab. Ich glaube, dass der Vortrag in dieser Form nicht unwichtig ist, da er abgesehen von seiner aktuellen Beziehung ein gewisses Bild des so unbekannten jungen <persName ref="P00839">Hegel</persName> vermittelt. Da ich nach dem <date when="1932-03-20">20. III.</date> eine kleine Erholungsreise machen muss, wäre ich Ihnen sehr dankbar, wenn Sie mir das vereinbarte Honorar jetzt gleich überweisen könnten auf meine Bank, <address><placeName ref="Frankfurt a. M.">Gebr. Sulzbach, Frankfurt Main, Mainzer Ldstr. 4</placeName></address></p>
+        <closer>
+           <salute>Mit bestem Dank<lb/>Ihr sehr ergebener</salute>
+           <signed>P. Tillich</signed>
+        </closer>  
+      
+     </div>
+    </body>
+  </text>
+</TEI>

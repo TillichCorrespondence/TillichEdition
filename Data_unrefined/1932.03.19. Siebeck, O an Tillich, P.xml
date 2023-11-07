@@ -1,0 +1,120 @@
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Oskar Siebeck an Paul Tillich 
+               <lb/>vom 19. März 1932
+            </title>
+            <author ref="P01782">Oskar Siebeck</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Sebastian Kueffner</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="Kopie">
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement>Berlin</settlement>
+                  <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz</repository>
+                  <collection>Handschriftenabteilung, Archiv des Verlages J. C. B. Mohr (Paul Siebeck)</collection>
+                  <idno>Nachl. 488, A 0469,5; Blatt 143-205</idno>
+               </msIdentifier>
+              
+               <physDesc>
+                  <p>Brief; Maschinenschriftlich-Durchschlag</p>
+                  </physDesc>
+            </msDesc>
+           
+            <biblStruct type="journal">
+               <monogr>
+                  <author>Alf Christophersen / Friedrich Wilhelm Graf</author>
+                  <title>„Beweise einer unsichtbaren Beziehung“ Die Korrespondenz zwischen Paul Tillich und dem Tübinger Verlag J. C. B. Mohr (Paul Siebeck)</title>
+                  <imprint>
+                     <pubPlace ref="Boston">Boston</pubPlace>
+                     <date when="2011-09-27">2011</date>
+                     <biblScope>S. 316f.</biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title>International Yearbook for Tillich Research</title>
+                  <biblScope>Band 6 Heft 1</biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01782">Oskar Siebeck</persName>
+              <placeName ref="Berlin">Berlin</placeName>
+              <date when="1932-03-19">19. März 1932</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01930">Paul Tillich</persName>
+              <placeName ref="Frankfurt/Main">Frankfurt a.M./Niederrad</placeName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="SK" when="2023-09-14">Intitale Auszeichnung des Transkripts</change>
+  
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+           <dateline><date when="1932-03-19">19. März 1932</date>.
+           </dateline>
+           
+           <salute>Sehr geehrter <persName ref="P01930">Herr Professor</persName>,</salute>
+        </opener>
+        <p>Sehr verehrter <persName ref="P01930">Herr Professor</persName>, bei der Rückkehr von einer Reise zu einigen Sitzungen buchhändlerischer Organisationen werden mir u. a. Ihre freundlichen Zeilen vom <date when="1932-03-09">9. ds. Mts.</date> vorgelegt. Ich bin sehr gerne bereit, Ihnen das Honorar für Ihre Reichsgründungsrede <bibl><!--Tillich, Der junge Hegel und das Schicksal Deutschlands, in: Tillich, Hegel und Goethe. Zwei Gedenkreden (Sammlung gemeinverständlicher Vorträge und Schriften aus dem Gebiet der Theologie und Religionsgeschichte 158), Tübingen 1932-->„Der junge <persName ref="P00839">Hegel</persName> und das Schicksal <placeName ref="Deutschlands">Deutschlands</placeName>“</bibl> schon im voraus auszubezahlen. Da sich der genaue Druckumfang eines Manuskriptes schwer im voraus berechnen lässt, lasse ich Ihnen zunächst den im Vertrag vereinbarten Pauschalbetrag von M. 150.- durch Ueberweisung auf Ihr Bankkonto zugehen. Sollte sich nach der Fertigstellung <bibl><!--Tillich, Der junge Hegel und das Schicksal Deutschlands, in: Tillich, Hegel und Goethe. Zwei Gedenkreden (Sammlung gemeinverständlicher Vorträge und Schriften aus dem Gebiet der Theologie und Religionsgeschichte 158), Tübingen 1932-->Ihrer Schrift</bibl> ergeben, dass das Honorar nach dem endgültigen Druckumfang den Betrag von M. 150.- überschreitet, so lasse ich Ihnen alsdann den noch fälligen Betrag nachträglich ausbezahlen.</p> 
+        <p> In der Anlage erlaube ich mir Ihnen 2 Reinschriften unseres <bibl type="letter"><!-- 1932.02.03. Siebeck, O an Tillich, P -->>Verlagsvertrages</bibl> mit der Bitte vorzulegen, mir eine derselben mit Ihrer Unterschrift wieder zugehen zu lassen.</p> 
+        <p> Bei dieser Gelegenheit darf ich Sie gleich bitten, mir auf dem beiliegenden Manuskriptblatt eine kurze <bibl><!-- Tillich, Paul: Selbstanzeige Tillichs von „Hegel und Goethe“, in: Neuigkeiten, J. C. B. Mohr (Paul Siebeck), H. Laupp’sche Buchhandlung 1932, Nr. 2, 14. Mai, 25 -->Selbstanzeige</bibl><!-- Ist nicht ganz klar ob von Tillich den Text in der Anzeige formuliert oder bloß authorisieren hat lassen --> Ihrer Rede zugehen zu lassen, die ich für mein <bibl><!-- Neuigkeiten / J. C. B. Mohr (Paul Siebeck) ; H. Laupp'sche Buchhandlung, ersch. 1913 - 1939 --> „Grünes Heft“</bibl> und eventuell für die Buchkarte verwenden kann. Wenn Sie für die kurze Charakterisierung des Inhalts Ihrer Schrift das beiliegende Manuskriptblatt benutzen, wird die Anzeige im Druck ziemlich genau den verfügbaren Raum von einer halben Druckseite einnehmen.</p> 
+        <p><bibl><!--Tillich, Der junge Hegel und das Schicksal Deutschlands, in: Tillich, Hegel und Goethe. Zwei Gedenkreden (Sammlung gemeinverständlicher Vorträge und Schriften aus dem Gebiet der Theologie und Religionsgeschichte 158), Tübingen 1932-->Das Manuskript</bibl> Ihres Vortrages lasse ich zu Anfang der <date from="1932-03-21" to="1932-03-27">kommenden Woche</date> in Satz geben. Sehr dankbar wäre ich Ihnen, wenn Sie mich von einer eventuellen Aenderung Ihrer Anschrift durch die von Ihnen geplante Reise möglichst bald verständigen würden, damit die Korrektursendungen Sie ohne Verzögerung erreichen können.</p>   
+        <closer>
+           <salute>Mit den besten Wünschen für Ihre Erholung empfehle ich mich Ihnen in vorzüglicher Hochachtung als Ihr ganz ergebener.</salute>
+           <signed> <ptr/><persName ref="P01782">Dr. O. Siebeck</persName>.<note type="ea">[handschr.]</note></signed>
+        </closer>
+      
+     </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,119 @@
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Oskar Siebeck an Paul Tillich 
+               <lb/>vom 19. Jänner 1932
+            </title>
+            <author ref="P01782">Oskar Siebeck</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Sebastian Kueffner</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="Kopie">
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement>Berlin</settlement>
+                  <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz</repository>
+                  <collection>Handschriftenabteilung, Archiv des Verlages J. C. B. Mohr (Paul Siebeck)</collection>
+                  <idno>Nachl. 488, A 0469,5; Blatt 143-205</idno>
+               </msIdentifier>
+              
+               <physDesc>
+                  <p>Brief; Maschinenschriftlich; Durchschlag</p>
+                  </physDesc>
+            </msDesc>
+           
+            <biblStruct type="journal">
+               <monogr>
+                  <author>Alf Christophersen / Friedrich Wilhelm Graf</author>
+                  <title>„Beweise einer unsichtbaren Beziehung“ Die Korrespondenz zwischen Paul Tillich und dem Tübinger Verlag J. C. B. Mohr (Paul Siebeck)</title>
+                  <imprint>
+                     <pubPlace ref="Boston">Boston</pubPlace>
+                     <date when="2011-09-27">2011</date>
+                     <biblScope>S. 309</biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title>International Yearbook for Tillich Research</title>
+                  <biblScope>Band 6 Heft 1</biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01782">Oskar Siebeck</persName>
+              <placeName ref="Tübingen">Tübingen</placeName>
+              <date when="1932-11-18">18. November 1932</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01930">Paul Tillich</persName>
+              <placeName ref="Frankfurt/Main"><hi rend="u">Frankfurt a.M./Niederrad</hi></placeName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="SK" when="2023-09-12">Intitale Auszeichnung des Transkripts</change>
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+           <dateline><date when="1932-01-19">19. Januar 1932.</date>
+           </dateline>       
+        </opener>
+        
+        <p>Sehr verehrter <persName ref="P01930">Herr Professor</persName>, in der <bibl><!-- Frankfurter Zeitung, ersch. 1866 - 1943  -->„Frankfurter Zeitung“</bibl> lese ich den Bericht über Ihre Reichsgründungsfeier und möchte Sie gleich fragen, ob Sie mir deren <bibl><!--Tillich, Der junge Hegel und das Schicksal Deutschlands, in: Tillich, Hegel und Goethe. Zwei Gedenkreden (Sammlung gemeinverständlicher Vorträge und Schriften aus dem Gebiet der Theologie und Religionsgeschichte 158), Tübingen 1932-->Manuskript</bibl> nicht zur Veröffentlichung in einer meiner Schriftenreihen übergeben wollen. Dem Thema nach würde diese Rede wohl am besten in die Reihe <bibl><!-- Philosophie und Geschichte. Sammlung v. Vorträgen u. Schriften a.d. Gebiet d. Philosophie u. Geschichte, Tübingen: Mohr, 1922-1969 -->„Philosophie und Geschichte“</bibl> passen. Aber vielleicht gefällt es Ihnen besser, wenn sie im selben Rahmen erscheint wie Ihre Hefte 111 und 119 der <bibl><!-- 
+Sammlung gemeinverständlicher Vorträge und Schriften aus dem Gebiet der Theologie und Religionsgeschichte, ersch. (1)1896-  -->„Sammlung gemeinverständlicher Vorträge“</bibl>.</p> 
+        <p>Ein Exemplar des neuesten Gesamtverzeichnisses meiner Schriftenreihen füge ich zu Ihrer Orientierung hier bei.</p> 
+        <p>Meine Vorschläge für die Verlagsbedingungen müsste ich mir noch solange vorbehalten, bis Sie mir Ihr <bibl><!--Tillich, Der junge Hegel und das Schicksal Deutschlands, in: Tillich, Hegel und Goethe. Zwei Gedenkreden (Sammlung gemeinverständlicher Vorträge und Schriften aus dem Gebiet der Theologie und Religionsgeschichte 158), Tübingen 1932-->Manuskript</bibl> freundlichst zur Berechnung einschicken können. Denn ich bin gerade dabei, die Honorarbedingungen zu kalkulieren, die ich bei den seit <date when="1932-01-01">1. Januar</date> gesenkten Preisen in neue Verträge über Beiträge zu meinen 3 Schriftenreihen werde einsetzen müssen.
+        </p>   
+        <closer>
+           <salute>Ihrer freundlichen Rückäusserung sehe ich gern entgegen und verbleibe in vorzüglicher Hochachtung Ihr ergebener</salute>
+           <signed> <ptr/><persName ref="P01782">Dr. O. Siebeck</persName>.<note type="ea">[handschr.]</note></signed>
+        </closer>
+      
+     </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,98 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von <persName ref="P01930">Paul Tillich</persName> an <persName ref="P01925">Hannah Tillich</persName>
+                    <lb/>vom <date when="1930-10-04">4. Oktober 1930</date>
+                </title>
+                <author ref="P01930">Paul Tillich</author>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Friedrich Schumann</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+                    <address>
+                        <street>Schenkenstraße 8-10</street>
+                        <postCode>1010</postCode>
+                        <placeName ref="Wien">
+                            <settlement>Wien</settlement>
+                            <country>Österreich</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+                </availability>        
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="Postkarte">
+                    <msIdentifier>
+                        <country>USA</country>
+                        <settlement>Cambridge, MA</settlement>
+                        <institution>Harvard University</institution>
+                        <repository>Harvard Divinity School Library</repository>
+                        <collection>Tillich, Hannah. Papers, 1896-1976</collection>
+                        <idno>bMS 721/2(27)</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>handschriftlich</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+            </editorialDecl>
+        </encodingDesc> 
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="P01930">Paul Tillich</persName>
+                    <placeName ref="Bad Schönfließ">Bad Schönfließ</placeName><!--Poststempel-->
+                    <date when="1930-10-04">4. Oktober 1930</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="P01925">Hannah Tillich</persName>
+                    <placeName ref="Freienwalde">Freienwalde</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="deu">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="FS" when="2023-06-12">Intitale Auszeichnung des Transkripts</change>
+            
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <div type="writingSession">
+                <pb n="1"/>
+                <opener>
+<add resp="unknown1"><date when="1930-10-05">5.10</date></add><!--Mit Füllfeder über dem Kartentext, wohl nicht in Tillichs Handschrift - die Karte kann ja nicht nach dem Poststempel verfasst worden sein-->
+                    <salute>Liebste <persName ref="P01925">Hannah</persName>!</salute>
+                </opener>
+                <p>Also wir kommen <date when="1930-10-05">Sonntag Nachmittag</date>. Sei von 3-6 zu Hause oder hinterlasse wo Du bist! Ich freue mich aufs Wiedersehen!</p>
+                <closer>
+                    <signed>Dein Paul</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+

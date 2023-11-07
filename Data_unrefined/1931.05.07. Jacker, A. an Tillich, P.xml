@@ -1,0 +1,221 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von John Arthur Jacker an Paul Tillich <lb/>vom 7. Mai 1931</title>
+            <author ref="P00963">John Arthur Jacker</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974.</collection>
+                  <idno>bMS 649/155(2)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+               <additional>
+                  <!-- Wenn Brief bereits publiziert hier die richtige Struktur aussuchen -->
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel der Monographie<!--></title>
+                           <edition><!-->Auflage<!--></edition>
+                           <imprint>
+                              <publisher><!-->Herausgeber<!--></publisher>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Reihe<!--></title>
+                           <biblScope><!-->Reihennummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                     <biblStruct type="journal" n="reprint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel des Aufsatzes<!--></title>
+                           <imprint>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Zeitschrift<!--></title>
+                           <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <biblStruct type="monograph">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien überliefert sind und im Original nicht mehr vorhanden!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel der Monographie<!--></title>
+                  <edition><!-->Auflage<!--></edition>
+                  <imprint>
+                     <publisher><!-->Herausgeber<!--></publisher>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Reihe<!--></title>
+                  <biblScope><!-->Reihennummer<!--></biblScope>
+               </series>
+            </biblStruct>
+            <biblStruct type="journal">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften überliefert sind und im Original nicht mehr vorhanden<!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel des Aufsatzes<!--></title>
+                  <imprint>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Zeitschrift<!--></title>
+                  <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P00963">John Arthur Jacker</persName>
+               <placeName ref="Berlin">Berlin</placeName>
+               <date when="1931-05-07">7. Mai 1931</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P01930">Paul Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2023-08-09">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener><dateline>
+                  <placeName ref="Berlin">Berlin-Charlottenburg</placeName>, den <date
+                     when="1931-05-07">7/5 1931.</date></dateline>
+               <salute>Lieber Freund <persName ref="P01930">Tillich</persName>!</salute>
+            </opener>
+            <p>Endlich schreibe ich auch diesen Brief, den ich bis jetzt nicht schreiben konnte –
+               nicht bloß, weil es an Zeit fehlte, sondern weil gerade die Briefe, die ich aus
+               innerer Verbundenheit mit den Empfängern selbst <sic>zu</sic>, schreiben muß, mir so
+               schwer aus der Feder kommen. Wenn ich auch die Zeit nicht hatte, so deshalb, weil ich
+               Ablenkung in meiner Berufsarbeit suchte, die mich gerade auch stark rief, über
+               physische Schwäche hinweg, und weil die vielen Freunde und Mitleidenden uns nie
+               allein ließen. Das war oft Trost für mich, Ablenkung, aber auch Abhaltung von den
+               Freunden, die nicht hier sind.</p>
+            <p>Ich kann nicht viel erzählen über die letzte Zeit und das so unerwartet schnelle
+               Ende, ohne nur zu leiden. Es war eine Zerrüttung von der inneren Sekretion her, eine
+               Aushöhlung, der schließlich das Herz, schneller als die Ärzte nur ahnten, nicht
+               standhielt. Hier hat ein übergütiger Mensch seinen inneren Zusammenbruch hinter jenem
+               sonnigen Lächeln verborgen, das alle bezauberte und ihr Ende nicht ahnen ließ. Was
+               soll ich von meinem Zustande sagen? Die Grundpfeiler meines Baues wie von einem<pb
+                  n="2"/> Beben erschüttert, eine Hauptmauer eingestürzt!</p>
+            <p>Aber Verantwortung und Pflicht drücken ins Leben zurück, das einem doch wieder
+               irgendwie wichtig wird, weil es in <hi rend="u">dieser</hi> Form ja doch nur <hi
+                  rend="u">einmal</hi> gelebt wird! Das Kind ist da, sichtbar mit viel gutem Erbgut
+               von Annie beladen, eine Sorge wegen seines zarten Alters und doch unser aller Glück.
+               Wenn sie eine Annie werde! Sie ist gut betreut von der Großmama und der Liese, die
+               freilich im Mai wegheiraten wollte, es aber zurückgestellt hat, um zunächst noch die
+               Mutter zu ersetzen. Das Kind suchte anfänglich, aber gewöhnte sich bald. Die Mutter
+               und Liese tragen das Leid mit übermenschlicher Kraft, die bei der Mutter vom
+               Gottesglauben kommt und aus einer inneren Quelle, bei der Liese hauptsächlich aus
+               letzterer.</p>
+            <p>Ich trauere mit Ihnen um die wervollen, lieben Menschen, die von uns gegangen sind.
+               Wenn sie alle Kraft gegeben haben, die in ihnen war, könnte man sich mit ihrem frühen
+               Scheiden versöhnen; wo aber Zweifel daran kommen, ist bitteres Leid...</p>
+            <p>Freunde haben die Rede des Pastors Seidel am Sarge Annie's drucken lassen, ich lege
+               sie bei. Auch ein Nachruf und eine Skizze von Annie in der beiliegenden Zeitschrift
+               interessieren Sie vielleicht. Ich füge auch noch die letzte Aufnahme von Annie und
+               Kind bei, so sehen Sie auch, wie Maria, die Sie aus der Taufe hoben,<pb n="3"/> die
+               aber immer noch nur Pupperle heißt, sich entwickelt hat.</p>
+            <p>Es ist nun Zeit, daß ich schließe.</p>
+            <p>Wir dachten viel an Sie. Ihre liebe Gattin und das Kind, und wir Zurückgelassenen tun
+               es auch. Nehmen Sie von uns allen herzlichsten Gruß und geben Sie uns Lebenszeichen. </p>
+            <closer>
+               <salute>In treuer Freundschaft</salute>
+               <signed>Ihr <persName ref="P00963">Jacker</persName></signed>
+            </closer>
+
+            <postscript>
+               <p/>
+            </postscript>
+
+         </div>
+
+      </body>
+   </text>
+</TEI>

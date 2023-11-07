@@ -1,0 +1,117 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Postkarte von Paul Tillich an Oskar Siebeck 
+               <lb/>vom 08.bis 09. Mai 1932
+            </title>
+            <author ref="P01930">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Sebastian Kueffner</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="Kopie">
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement ref="Berlin">Berlin</settlement>
+                  <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz</repository>
+                  <collection>Handschriftenabteilung, Archiv des Verlages J. C. B. Mohr (Paul Siebeck)</collection>
+                  <idno>Nachl. 488, A 0469,5; Blatt 143-205</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Postkarte (Stempel durch Lochung beschädigt), nach <address><placeName ref="Berlin">Mohrenstr. 27
+                     Hospitz am Gendarmenmarkt
+                     Berlin W. 8</placeName></address>; Maschinenschriftlich</p>
+                  </physDesc>
+               
+            </msDesc>
+            <biblStruct type="journal">
+               <monogr>
+                  <author>Alf Christophersen / Friedrich Wilhelm Graf</author>
+                  <title>„Beweise einer unsichtbaren Beziehung“ Die Korrespondenz zwischen Paul Tillich und dem Tübinger Verlag J. C. B. Mohr (Paul Siebeck)</title>
+                  <imprint>
+                     <pubPlace ref="Boston">Boston</pubPlace>
+                     <date when="2011-09-27">2011</date>
+                     <biblScope>S. 332</biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title>International Yearbook for Tillich Research</title>
+                  <biblScope>Band 6 Heft 1</biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01930">Paul Tillich</persName>
+              <placeName ref="Frankfurt a. M.-Niederrad">Frankfurt a. M.-Niederrad</placeName>
+              <date from="1932-05-08" to="1932-05-09">08. bis 09. Mai 1932</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01782">Oskar Siebeck</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="SK" when="2023-07-19">Intitale Auszeichnung des Transkripts</change>
+        
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="postcard">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        
+        <opener>  
+           <salute>Sehr geehrter <persName ref="P01782">Herr Siebeck</persName>!</salute>
+        </opener>
+        <p>Herzlichen Dank für Ihren <bibl type="letter"><!-- 1932.05.07. Siebeck, O an Tillich, P -->Brief</bibl>. Leider steht es mit mir am <date when="1932-05-11">Mittwoch</date> folgendermassen: Von 1/2 5–5 Uhr habe ich Prüfung, von 5–6 Uhr eine Antrittsvorlesung, von 6–8 Uhr Seminar. Ich werde aber punkt vier in meinem Zimmer im Philosophischen Seminar der Universität sein (Eingang Universität <placeName ref="Frankfurt/Main">Mertonstr.</placeName>)  Falls Sie mich dort aufsuchen können, hätten wir noch eine halbe Stunde Zeit. (Tel: 65892)
+        </p>
+        <closer>
+           <salute>Ihr sehr ergebener</salute>
+           <signed><ptr/><persName ref="P01930">P. Tillich</persName><note type="ea">[handschr.:]</note></signed>
+        </closer>  
+      
+     </div>
+    </body>
+  </text>
+</TEI>

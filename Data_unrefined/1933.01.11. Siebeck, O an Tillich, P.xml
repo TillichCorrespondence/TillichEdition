@@ -1,0 +1,131 @@
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Oskar Siebeck an Paul Tillich 
+               <lb/>vom 11. Januar 1933
+            </title>
+            <author ref="P01782">Oskar Siebeck</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Sebastian Kueffner</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="Kopie">
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement>Berlin</settlement>
+                  <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz</repository>
+                  <collection>Handschriftenabteilung, Archiv des Verlages J. C. B. Mohr (Paul Siebeck)</collection>
+                  <idno>Nachl. 488, A 0469,5; Blatt 143-205</idno>
+               </msIdentifier>
+              
+               <physDesc>
+                  <p>Brief; Maschinenschriftlich; Durchschlag</p>
+                  </physDesc>
+            </msDesc>
+           
+            <biblStruct type="journal">
+               <monogr>
+                  <author>Alf Christophersen / Friedrich Wilhelm Graf</author>
+                  <title>„Beweise einer unsichtbaren Beziehung“ Die Korrespondenz zwischen Paul Tillich und dem Tübinger Verlag J. C. B. Mohr (Paul Siebeck)</title>
+                  <imprint>
+                     <pubPlace ref="Boston">Boston</pubPlace>
+                     <date when="2011-09-27">2011</date>
+                     <biblScope>S. 351f.</biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title>International Yearbook for Tillich Research</title>
+                  <biblScope>Band 6 Heft 1</biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01782">Oskar Siebeck</persName>
+              <placeName ref="ohne Ort">ohne Ort</placeName>
+              <date when="1933-01-11">11. Januar 1933</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01930">Paul Tillich</persName>
+              <placeName ref="Frankfurt a.M.">Frankfurt (Main-)Niederrad</placeName>
+              <address><street>Vogelstrasse 11</street></address>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="SK" when="2023-11-25">Intitale Auszeichnung des Transkripts</change>
+        
+        
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+           <dateline><date when="1933-01-11">11. Januar 1933</date>
+           </dateline>
+           
+        </opener>
+        <p>Sehr verehrter <persName ref="P01930">Herr Professor</persName>, da das Angebot für meine Schriftenreihen in der letzten Zeit so gross geworden ist, dass die Auswahl unter dem Angebotenen immer schwieriger wird, wäre ich Ihnen sehr dankbar, wenn Sie mir jetzt sagen könnten, bis wann ich etwa auf das <ptr/><bibl>Manuskript Ihres <!-- Tillich, Paul: "Karl Marx und der Deutsche Idealismus" -->Marxvortrages</bibl> rechnen darf.<note type="ea">Unter dem geplanten
+           Titel sollte der Vortrag bei Mohr Siebeck nie erscheinen. Ein ähnliches Manuskript
+           aus dem Jahre 1932 wurde veröffentlicht unter dem Thema:"Der deutsche Idealismus
+           und das proletarische Schicksal" in: Sturm, Erdmann GWE Bd. 11, Berlin/New-York
+           1999.(Siehe: Graf, Beweise einer unsichtbaren Beziehung S. 257. FN. 72)</note></p>
+        <p>Da zurzeit für <bibl><!-- Philosophie und Geschichte : Sammlung v. Vorträgen u. Schriften a.d. Gebiet d. Philosophie u. Geschichte, Tübingen: Mohr, 1922-1969 -->„Philosophie und Geschichte“</bibl> noch am wenigsten neue Hefte in Aussicht stehen, wäre es mir am liebsten, wenn Ihr Vortrag in dieser Reihe erscheinen könnte. Sollten Sie der <bibl><!-- Sammlung gemeinverständlicher Vorträge und Schriften aus dem Gebiet der Theologie und Religionsgeschichte, ersch. (1)1896- -->„Sammlung gemeinverständlicher Vorträge“</bibl> den Vorrang geben, so wäre ich für möglichst umgehende Verständigung sehr dankbar, damit ich hier gewissermassen einen Platz für Sie freihalten kann.</p>
+        <p>Das Buch von <persName ref="P00015">Herrn Dr. Wiesengrund-Adorno</persName> wird morgen verschickt. Er hat mich gebeten, Sie davon zu verständigen, dass an die folgenden theologischen Zeitschriften je ein Rezensionsexemplar verschickt worden ist:</p>
+        <p>
+           <bibl><!-- Zeitschrift für Theologie und Kirche, ersch. 
+(1) 1891- -->Zeitschrift für Theologie und Kirche</bibl><lb/><lb/>
+           <bibl><!-- Die christliche Welt : protestantische Halbmonatsschrift 
+(2) 1888(1889) - (55) 1941-->Christliche Welt</bibl><lb/><lb/>
+           <bibl><!-- Theologische Blätter, ersch. (1) 1922 - (21) 1942 -->Theologische Blätter</bibl><lb/>
+        </p>   
+        <closer>
+           <salute>Mit freundlichen Grüssen und besten Wünschen zum neuen Jahre bin ich stets Ihr ganz ergebener</salute>
+           <signed> <ptr/><persName ref="P01782">Dr. O. Siebeck.</persName><note type="ea">[handschr.]</note></signed>
+        </closer>
+      
+     </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,176 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von <persName ref="P01930">Paul Tillich</persName> an <persName ref="P01741">Helmuth Schreiner</persName>
+               <lb/>vom <date when="1931-06-18">18. Juni 1931</date>
+            </title>
+            <author ref="P01930">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Niklas von Hülsen</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="Brief">
+               <msIdentifier>
+                  
+                  <!-- In: Marburg 008 G; ULB Münster, Nachlass Helmuth Schreiner, Kapsel 24: Briefwechsel 1924-1928 +1929-1931, 24,086 -->
+                  
+                  <country><!-->Land des Archivs<!--></country>
+                  <settlement ref="where"><!-->Stadt des Archivs<!--></settlement>
+                  <institution><!-->Name der übergeordneten Insitution<!--></institution>
+                  <repository><!-->spezifischer Name des Archivs<!--></repository>
+                  <collection><!-->spezifischer Name der Sammlung<!--></collection>
+                  <idno><!-->Identifikationsnummer des Dokuments in dem Archiv<!--></idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>maschinenschriftlich</p>
+                  </physDesc>
+               <additional> <!-- Wenn Brief bereits publiziert hier die richtige Struktur aussuchen -->
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint"><!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!--> </author>
+                           <title><!-->Titel der Monographie<!--></title>
+                           <edition><!-->Auflage<!--></edition>
+                           <imprint>
+                              <publisher><!-->Herausgeber<!--></publisher>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Reihe<!--></title>
+                           <biblScope><!-->Reihennummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                     <biblStruct type="journal" n="reprint"><!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!--> </author>
+                           <title><!-->Titel des Aufsatzes<!--></title>
+                           <imprint>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Zeitschrift<!--></title>
+                           <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <biblStruct type="monograph"><!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien überliefert sind und im Original nicht mehr vorhanden!-->
+               <monogr>
+                  <author><!-->Autor<!--> </author>
+                  <title><!-->Titel der Monographie<!--></title>
+                  <edition><!-->Auflage<!--></edition>
+                  <imprint>
+                     <publisher><!-->Herausgeber<!--></publisher>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Reihe<!--></title>
+                  <biblScope><!-->Reihennummer<!--></biblScope>
+               </series>
+            </biblStruct>
+            <biblStruct type="journal"><!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften überliefert sind und im Original nicht mehr vorhanden<!-->
+               <monogr>
+                  <author><!-->Autor<!--> </author>
+                  <title><!-->Titel des Aufsatzes<!--></title>
+                  <imprint>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Zeitschrift<!--></title>
+                  <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01930">Paul Tillich</persName>
+              <placeName ref="Frankfurt">Frankfurt</placeName>
+              <date when="1931-06-18">18. Juni 1931</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01741">Helmuth Schreiner</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="NH" when="2023-10-11">Intitale Auszeichnung des Transkripts</change>
+        <change who="Initialien des Editors" when="1886-08-20"><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+        
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+           <dateline><placeName ref="Frankfurt">Frankfurt /Main</placeName>, den <date when="1931-06-18">18.6.31</date></dateline>
+           <salute>Lieber Schreiner!</salute>
+        </opener>
+        <p>Hab herzlichen Dank für Deinen <bibl>Brief</bibl>. Es war mir sehr wertvoll, durch Dich zu hören, dass die Berichterstattung so verkehrt war. Ich musste nur annehmen, dass sie einigermassen zutrifft, da ich mehrere Zeitungen, unter anderen die sehr zurückhaltende „Frankfurter“ über die Sache gelesen hatte. Ich bin auch der Meinung, dass es nicht nur auf das ankommt, was wir sagen, sondern auch darauf wie wir es sagen und wie es vermutlich in der nichtkirchlichen Welt wirkt. Ich war einfach betrübt, dass Du so gewirkt hast, weil ich mich Dir ebenso verbunden weiss wie Du mir. 
+           <lb/>Was Berneuchen betrifft, so wäre es völlig sinnlos, wenn Du irgend einen derartigen Schritt machen würdest. Denn die Mehrheit der Berneuchener sind sicher völlig mit Dir einer Meinung. Die Bezugnahme auf Berneuchen bedeutet ja nur den Hinweis auf eine Arbeitsgemeinschaft, in der wir zusammen stehen und die das Recht zu einer Kritik an unseren gegenseitigen Verhalten begründet. Genau wie Du es in <placeName ref="Dresden">Dressden</placeName> gemacht hast und wie es <persName>Stählin</persName> jetzt mit mir in der nächsten Nummer des Neuwerk machen wird. 
+           <lb/>Das ich nicht direkt an Dich geschrieben hatte, war darin begründet, dass ich Dich nicht gut genug kannte, um zu wissen wie Du es aufnehmen würdest und es darum <persName>Schweizer</persName> überlassen habe. Selbstverständlich werde ich das nächstemal direkt an Dich schreiben.
+        </p>
+        <closer>
+           <salute>Grüsse auch <persName>Schweizer</persName> herzlich und danke ihm für seinen Brief. 
+              <lb/>Und dann auf Wiedersehen im Oktober
+              <lb/>Dein
+           </salute>
+           <signed>P. Tillich<!-- handschriftlich --></signed>
+        </closer>      
+     </div>
+    </body>
+  </text>
+</TEI>

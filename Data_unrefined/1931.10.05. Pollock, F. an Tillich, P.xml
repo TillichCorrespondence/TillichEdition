@@ -1,0 +1,109 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Postkarte von Friedrich Pollock an Paul und Hannah Tillich
+               <lb/>vom 5. November 1931
+            </title>
+            <author ref="P01522">Friedrich Pollock</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Sebastian Kueffner</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Hannah. Papers, 1896-1976</collection>
+                  <idno>bMS 649/175(24)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Brief, an Vogelstr. 11, Handschriftlich</p>
+                  </physDesc>
+
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01522">Friedrich Pollock</persName>
+              <placeName ref="Lissabon">Lissabon</placeName>
+              <date when="1931-11-05">05.11.1931<figure><figDesc>[PS:06.11.1931]</figDesc></figure></date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01930">Paul Tillich</persName>
+              <persName ref="P01925">Hannah Tillich</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="SK" when="2023-04-19">Intitale Auszeichnung des Transkripts</change>
+        <change who="SK" when="2023-05-01">Bild-Notitz zum Post-Script hinzugefügt</change>
+        <change who="SK" when="2023-05-17">Post Script gelöscht, Postkartenbild durch figure und figDesc gelöst</change>
+      
+        
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="postcard">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <figure><figDesc>[Bild von Platz der Restauratoren in Lissabon mit Aufschrift]: LISBOA. Praça dos Restauradores
+           e Avenida da Liberdade</figDesc></figure>
+        <pb n="2"/>
+        <opener>
+           <dateline><placeName ref="Lissabon">Lissabon,</placeName>,<date when="1931-11-05">5/XI.31.</date></dateline>
+           <salute><persName ref="P01930"><persName ref="P01925">Liebe Tillichs</persName></persName>,</salute>
+        </opener>
+        <p>da ich Ihnen im Trubel der Abreise nicht mehr anrufen konnte, sage ich Ihnen durch diese Karte herzlichst Lebewohl 
+        </p>
+        <closer>
+           <salute>Ihr</salute>
+           <signed><persName ref="P01522">Pollock</persName></signed>
+
+        </closer>
+        
+     </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,115 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Postkarte von Paul Tillich an Verlag Mohr Siebeck
+               <lb/>vom 22. Mai 1932
+            </title>
+            <author ref="P01930">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Sebastian Kueffner</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="Kopie">
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement ref="Berlin">Berlin</settlement>
+                  <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz</repository>
+                  <collection>Handschriftenabteilung, Archiv des Verlages J. C. B. Mohr (Paul Siebeck)</collection>
+                  <idno>Nachl. 488, A 0469,5; Blatt 143-205</idno>   
+               </msIdentifier>
+               <physDesc>
+                  <p>Postkarte; An den Verlag Mohr <placeName ref="Tübingen">Tübingen</placeName>; Maschinenschriftlich</p>
+                  </physDesc>   
+            </msDesc>
+            <biblStruct type="journal">
+               <monogr>
+                  <author>Alf Christophersen / Friedrich Wilhelm Graf</author>
+                  <title>„Beweise einer unsichtbaren Beziehung“ Die Korrespondenz zwischen Paul Tillich und dem Tübinger Verlag J. C. B. Mohr (Paul Siebeck)</title>
+                  <imprint>
+                     <pubPlace ref="Boston">Boston</pubPlace>
+                     <date when="2011-09-27">2011</date>
+                     <biblScope>S. 334</biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title>International Yearbook for Tillich Research</title>
+                  <biblScope>Band 6 Heft 1</biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01930">Paul Tillich</persName>
+              <placeName ref="Frankfurt am Main">Frankfurt am Main</placeName>
+              <date when="1932-05-22">22. Mai 1932[PS]</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P02445">Verlag Mohr Siebeck</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="SK" when="2023-07-25">Intitale Auszeichnung des Transkripts</change>
+        
+     </revisionDesc>
+  </teiHeader>
+  <text type="postcard">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+
+        <p>Hierdurch bitte ich Sie, auf meine Kosten und zum Autorenpreis zu versenden meine Schrift <bibl><!-- Paul Tillich: »Hegel und Goethe : zwei Gedenkreden« (Sammlung gemeinverständlicher Vorträge und Schriften aus dem Gebiet der Theologie und Religionsgeschichte 158), Tübingen 1932 -->„Hegel und Goethe“</bibl></p>
+        <p> 1. an <placeName ref="Frankfurt/Main">Frankfurter</placeName> Goethemuseum <placeName ref="Frankfurt/Main"><hi rend="u">Frankfurt</hi>/M</placeName> Goethehaus,<lb/>
+           2. an <persName ref="P01858">Herrn Prof. Dr. Fedor Stepun</persName> <placeName ref="Dresden"><hi rend="u">Dresden</hi></placeName> Löbtauerstr. 13<lb/>
+           3. <persName ref="P02475">Frau Bankier Sulzbach</persName> Rembrandtstr. 21 <placeName ref="Frankfurt/Main"><hi rend="u">Frankfurt/Main</hi></placeName></p>
+        <p>Ferner bitte ich, <persName ref="P01930">mir selbst</persName> fünf Exemplare an meine Adresse, 11 Vogelstr.<lb/> <placeName ref="Frankfurt/Main"><hi rend="u">Frankfurt/Main-Niederrad</hi></placeName> zu senden.   
+        </p>
+        <closer>
+           <salute>Hochachtungsvoll<lb/><persName ref="P01930">Prof. D. Dr. Paul Tillich</persName> </salute>
+           <signed><ptr/><persName ref="P01930">Tillich</persName><note type="ea">[handschr.:]</note></signed>
+        </closer>
+        
+      
+     </div>
+    </body>
+  </text>
+</TEI>

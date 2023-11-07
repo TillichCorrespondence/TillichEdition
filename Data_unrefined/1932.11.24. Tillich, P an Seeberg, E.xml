@@ -1,0 +1,119 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von <persName ref="P01930">Paul Tillich</persName> an <persName ref="P01762">Erich Seeberg</persName> 
+               <lb/>vom <date when="1932-11-24">24. November 1932</date>
+            </title>
+            <author ref="P01930">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Friedrich Schumann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="letter">
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement>Koblenz</settlement>
+                  <institution>Bundesarchiv Koblenz</institution>
+                  <collection>Nachlass Reinhold und Erich Seeberg</collection>
+                  <idno>N 1248</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>maschinenschriftlich</p>
+                  </physDesc>
+               <additional> 
+                  <listBibl>
+                     <biblStruct type="journal" n="firstPrint">
+                        <monogr>
+                           <author>Erdmann Sturm</author>
+                           <title>"Vielleicht kommen wir nun doch zu einer gemeinsamen Arbeit in Berlin". Paul Tillichs Briefe an Reinhold und Erich Seeberg (1924–1935)</title>
+                           <imprint>
+                              <pubPlace ref="Berlin">Berlin/</pubPlace><pubPlace ref="Boston, Massachusetts">Boston, MA</pubPlace>
+                              <date when="2012">2012</date>
+                              <biblScope>211–253, hier: 239–242.</biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title>International Yearbook for Tillich Research</title>
+                           <biblScope>Bd. 7, H. 1</biblScope>
+                        </series>
+                     </biblStruct>  
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01930">Paul Tillich</persName>
+              <placeName ref="Frankfurt a. M.">Frankfurt a. M.</placeName>
+              <date when="1929-11-24">24. November 1932</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01762">Erich Seeberg</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="FS" when="2023-09-04">Intitale Auszeichnung des Transkripts</change>
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+           <dateline>d. <date when="1932-11-24">24. 11. 32</date><address><placeName ref="Frankfurt a. M.">Frankfurt/Main/Niederrad, Vogelstr. 11</placeName></address></dateline>
+           <salute>Lieber Herr <persName ref="P01762">Seeberg</persName>!</salute>
+        </opener>
+        <p><bibl>Ihr Brief</bibl><!-- liegt nicht vor--> hat leider mehrere Tage auf der Universität gelegen, ehe ich ihn erhielt. Hoffentlich hat es trotz der Verspätung noch einen Sinn, dass ich antworte. Was zunächst die Chancen für mich betrifft, so beurteile ich sie natürlich genau so negativ wie Sie. Trotzdem einen kleinen Beitrag zur Legendenbildung: Ich war in der ganzen Ministerzeit <persName ref="P00718">Grimmes</persName> zweimal bei ihm, einmal, wo wir uns persönlich begrüssten und gar nichts Sachliches besprachen, und das zweitemal <date when="1932-07-12">acht Tage</date> vor seinem Sturz<!--Grimme ist im Zuge des Preußenschlages (20. Juli 1932) abgesetzt worden-->, wo ich ihn als Dekan der hiesigen Fakultät veranlasst habe, zwei vorgeschlagene Ordinarien zu ernennen, die beide politisch rechts eingestellt sind, aber bedeutende Männer sind. Der einzige, übrigens erfolglose, Beeinflussungsversuch war ein <bibl>Brief</bibl><!--liegt nicht vor (oder?)--> gegen die Aufhebung der Emeritierung.<lb/>
+Zur Sache selbst bin ich der Meinung, dass die Dinge sich seit der Zeit, wo wie <persName ref="P00137">Barth</persName> sich einmal ausdrückte, zwischen ihm und mir eine unterirdische Arbeitsgemeinschaft bestand,<!--Karl Barth, Von der Paradoxie des "positiven Paradoxes". Antworten und Fragen an Paul Tillich, in: Theologische Blätter, Jg. 2, 1923, Sp. 287-296 [287].--> <del rend="s">sich</del> gründlich geändert haben. Die Dialektik ist eindeutig zur Orthodoxie übergegangen. Die evangelische Kirche ist durch diese wie durch andere Entwicklungen in Gefahr, endgültig zu einer Sekte zu werden. Denn während der Katholizismus durch seine politische Macht und Wirksamkeit trotz der völligen Verhärtung seiner Lehre in ständiger Wechselwirkung mit der autonomen Kultur steht, hat der Protestantismus, wenigstens auf deutschem Boden, Kulturbedeutung allein durch seine wissenschaftliche Theologie errungen. Ich erlebe es ständig, wie selbst von den wohlwollend<del rend="s">st</del>en Kreisen aller geistigen in Frage kommenden Schichten des Volkes die Entwicklung des Protestantismus als völlig hoffnungslos angesehen wird, und zwar gerade wegen der <del rend="s">völligen</del> Ausscheidung des autonomen und liberalen Elementes in der letzten Entwicklung. Vielleicht ist der Blick von jemand, der wie ich zur Zeit Gelegenheit hat, die Dinge mehr von aussen anzuschauen, schärfer als der Blick von jemand, der ganz drin steht. Würde die liberale Professur in <placeName ref="Berlin">Berlin</placeName><!-- Anm. E. Sturm: Professur für Systematische Theologie (Arthur Titius)--> geopfert werden und das würde sie, wenn ein Dialektiker sie bekäme, so läge das zwar durchaus in der Konsequenz alles dessen, was in den letzten zehn Jahren geschehen ist, aber es ist die Konsequenz einer auf unabsehbare Zeit sich auswirkenden sektenhaften Absperrung und Verhärtung des deutschen Protestantismus. Sie sehen, ich sehe Ihre Frage sehr ernst an. Und ich glaube, dass Sie unter diesen Gesichtspunkten eine schwere Verantwortung für die wissenschaftliche Theologie und damit für den Gesamtprotestantismus haben. Ich muss Ihnen gestehen, dass ich persönlich mit jedem Jahr mehr Respekt vor der wissenschaftlichen Anständigkeit, Sauberkeit und Wahrhaftigkeit des alten Liberalismus bekomme, wovon die jüngere Theologengeneration, so weit ich ihr direkt und indirekt begegne, kaum mehr eine Ahnung hat. Das Totschreien des Liberalismus, an dem sich der jüngste Theologiestudent, wie der älteste Generalsuperintendent beteiligen, ist in Wirklichkeit Ausdruck der Sehnsucht nach dem, was <persName ref="P01828">Spengler</persName> zweite Religion oder Fellachisierung genannt hat.<!--Oswald Spengler, Der Untergang des Abendlandes. Umrisse einer Morphologie der Weltgeschichte, 2. Bd, München 1924. ("Aus dieser zweiten Religiosität geehen endlich die Fellachenreligionen hervor, in denen der Gegensatz von weltstädtischer und provinzieller Frömmigkeit ebenso wieder verschwunden ist wie der von primitiver und hoher Kultur." Ebd., 386)--> Es ist die Unfähigkeit, die Verantwortung der Autonomie auf sich zu nehmen. Nun bin ich der Meinung, dass zum mindestens <!--sic--> einzelne Persönlichkeiten wie in früheren so in dem kommenden Mittelalter das autonome Element durchretten müssen. Jedenfalls müssen wir dafür kämpfen, solange wir noch einen Rest von Möglichkeit dazu haben.<lb/>
+Entschuldigen Sie diese lange Ausführung, sie ist der Ausdruck einer Stimmung, die sich durch alles, was heute in der Kirche und auch jenseits der Kirche geschieht, immer mehr verstärkt hat. Für das praktische Vorgehen würde ich also in erster Linie empfehlen, Dialektiker auf der Liste zu vermeiden, und falls das im Augenblick nicht möglich ist, die Sache bis zum Abgang von <persName ref="P01227">Lütgert</persName> herauszuschieben und dann gleichzeitig eine liberale und eine dialektische Besetzung vorzunehmen. Lassen sich die Dialektiker nicht vermeiden, so würde ich unter allen Umständen <hi rend="u"><persName ref="P00694">Gogarten</persName></hi> ausschließen, der wie ich neulich hörte, infolge seiner autoritativen Verhärtung selbst bei seinen Freunden und Anhängern Kopfschütteln erregt. Jedenfalls finde ich, dass er als Hauptvertreter der systematischen Theologie in Deutschland schlechterdings nicht in Frage kommt. Systematisch der beste ist zweifellos <hi rend="u"><persName ref="P00300">Brunner</persName></hi>, aber <hi rend="u"><persName ref="P00137">Barth</persName></hi> hat durch seine menschliche Breite und seine geschichtliche Wirkung den ersten Anspruch auf Nennung.<lb/>
+Schwieriger ist die liberale Liste. <hi rend="u"><persName ref="P02097">Wobbermin</persName></hi> ist äusserst langweilig, und sein 'psychologischer Zirkel' völlig antiquiert. Dem gegenüber ist <hi rend="u"><persName ref="P01856">Stephan</persName></hi> viel beweglicher und moderner, obgleich er auch keine durchschlagende Kraft hat. Ich würde darum eher für <persName ref="P01856">Stephan</persName> als für <persName ref="P02097">Wobbermin</persName> sein. <hi rend="u"><persName ref="P02505">Wehrung</persName></hi> kommt in Frage, obwohl er keine sehr eindrucksvolle selbständige systematische Position hat. Auch von hier aus gesehen ist es vielleicht ganz gut, die Entscheidung zu verschieben, bis die Dinge im liberalen Lager sich geklärt haben.<lb/>
+Zur Geburt <persName ref="P02506">Ihres Kindes</persName> Ihnen und <persName ref="P02471">Ihrer Frau</persName> meine herzlichsten Glückwünsche. Um Neujahr herum werde ich in <placeName ref="Berlin">Berlin</placeName> sein und den Versuch machen, Sie zu treffen<!--Anm.: Tillich und Seeberg trafen sich schließlich am 8.1.1933, vgl. die beiden Briefe PTs an Hannah Tillich vom 7.1.1933-->.
+</p>
+        <closer>
+           <salute>Mit herzlichem Gruß<lb/>Ihr</salute>
+           <signed>P. Tillich</signed>
+        </closer>  
+     </div>
+    </body>
+  </text>
+</TEI>

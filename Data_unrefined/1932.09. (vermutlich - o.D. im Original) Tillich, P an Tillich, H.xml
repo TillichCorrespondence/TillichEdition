@@ -1,0 +1,101 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von <persName ref="P01930">Paul Tillich</persName> an <persName ref="P01925">Hannah Tillich</persName>
+                    <lb/>vom <date when="1932-09">September 1932</date><!--Brief ist undatiert, ungefähres Datum ergibt sich aus Kontext-->
+                </title>
+                <author ref="P01930">Paul Tillich</author>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Friedrich Schumann</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+                    <address>
+                        <street>Schenkenstraße 8-10</street>
+                        <postCode>1010</postCode>
+                        <placeName ref="Wien">
+                            <settlement>Wien</settlement>
+                            <country>Österreich</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+                </availability>        
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="Brief">
+                    <msIdentifier>
+                        <country>USA</country>
+                        <settlement>Cambridge, MA</settlement>
+                        <institution>Harvard University</institution>
+                        <repository>Harvard Divinity School Library</repository>
+                        <collection>Tillich, Hannah. Papers, 1896-1976</collection>
+                        <idno>bMS 721/3(2)</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>handschriftlich</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+            </editorialDecl>
+        </encodingDesc> 
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="P01930">Paul Tillich</persName>
+                    <placeName ref="Potsdam">Potsdam</placeName><!--Tillich befand sich bei seinen Freunden im "Haus auf dem Küssel", verwendete auch ihr Briefpapier. Der Ort ist also durch Kontext erschlossen - aufnehmen?-->
+                    <date when="1932-09">September 1932</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="P01925">Hannah Tillich</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="deu">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="FS" when="2023-05-17">Intitale Auszeichnung des Transkripts</change>
+            
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <div type="writingSession">
+                <pb n="1"/>
+                <opener>
+<dateline>Sonntag Nachmittag</dateline>
+                    <salute>Liebe <persName ref="P01925">Hannah</persName>!</salute>
+                </opener>
+                <p>Ich danke dir, daß Du angerufen hast. Der Zustand vorher war furchtbar; denke Dir alle Deine Eifersucht und alle Deine Angst um <persName ref="P00570">Erdmuthe</persName> vereinigt, und Du weiß wie mir zu Mut war. Eins verstehe ich noch nicht: Warum hast Du dich angemeldet und nicht geschrieben: "aber wegen Zahnarzt nur auf einen Tag." Dann wäre alles klar gewesen. Aber Dein Brief und das Telegramm zusammen, das war zum Wahnsinnigwerden. Nun Schluß davon, wir wollen es vergessen. - -<lb/>
+Du mußt nun kommen. <persName ref="P01212">Günther</persName> sagte heut in seiner taktvollen Weise: Es wäre irgendwie falsch, wenn sie solange mit mir und gar nicht mit Dir zusammenge<pb facs="2"/>wesen wäre. Ich finde das sehr richtig. Und <persName ref="P01211">Cläre</persName> schreibt Dir noch extra. Es kommt nicht auf den Tag an. Überanstrenge Dich ja nicht! Am besten ist, Du telephonierst am Abend, ehe Du kommst. Dann bist Du nicht vorher gebunden und wir können alles genau besprechen. Das Geld laß meine Sorge sein.<lb/>
+Sonst wäre viel zu berichten: Seit 3 Tagen liegt <persName ref="P01499">Lilly</persName> mit 39-40 Gr. Fieber; erst seit heute Besserung. Wahrscheinlich Grippe. Aber da sie im andern Haus liegt, ist Ansteckung nicht zu befürchten. – Ich habe nach vielen Qualen den neuen Titel für die <bibl>Schrift</bibl><!--Tillich, Die Sozialistische Entscheidung--> gefunden: "<hi rend="u">Die beiden Wurzeln des politischen Denkens</hi>" Untertitel: "Zur Kritik und Begründung des Sozialismus." Dazu habe ich das Einleitungskapitel nun geschrieben. Die anderen müssen noch stark umgestaltet werden. Es ist eine furchtbare Arbeit. Abends lese ich vor, dabei geht mir noch manches auf. – Eben mit <persName ref="P01700"><persName ref="P02408">Schairers</persName></persName> eine halbe Stunde im <placeName ref="Potsdam">Potsdamer</placeName> Schloß <pb facs="3"/> Kaffee; Sie wollten mich gleich nach <placeName ref="Berlin">Berlin</placeName> mitnehmen, waren sehr nett. – Hier ist Nazi-Jugendtag. 100 000 Leute mindestens, z.T. jünger als <persName ref="P00570">Erdmuthe</persName>. Heut früh Segelparade vor <persName ref="P00910">Hitler</persName>. Wir im Motorboot mitten durch; dann eine Sturmfahrt auf dem Schwielow-See. <pb facs="4"/> Vorgestern Abend mit <persName ref="P01889">Eckart</persName>, <persName ref="P02045">M.L</persName><!--sic! (Punkt nach L fehlt im Original)-->, Emmy<!--Emmy Frey oder Emmy Sachs?--> im chinesischen Restaurant Abendbrot gegessen. <persName ref="P02045">M.L.</persName> in offener Verzweiflung über <persName ref="P01889">Eckart</persName>. Emmy<!--Emmy Frey oder Emmy Sachs?--> am Verhungern, <persName ref="P01589">Ilsemargot</persName> demnächst von ihrem <persName ref="P02408">Mann</persName> verlassen. <persName ref="P01889">Eckart</persName> spielt mit Gasschlauch. So sieht ganz <placeName ref="Berlin">Berlin</placeName> aus. Für Emmy<!--Emmy Frey oder Emmy Sachs?--> vielleicht Stellung bei <persName ref="P01212">Löwenfeld</persName>. Sonst niemand in <placeName ref="Berlin">Berlin</placeName> gesehen.
+                </p>
+                <closer>
+<salute>Komm!</salute>
+                    <signed>Paul</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+

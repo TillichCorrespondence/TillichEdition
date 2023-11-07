@@ -1,0 +1,120 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von <persName ref="P01930">Paul Tillich</persName> an <persName ref="P01762">Erich Seeberg</persName> 
+               <lb/>vom <date when="1932-12-11">11. Dezember 1932</date>
+            </title>
+            <author ref="P01930">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Friedrich Schumann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="letter">
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement>Koblenz</settlement>
+                  <institution>Bundesarchiv Koblenz</institution>
+                  <collection>Nachlass Reinhold und Erich Seeberg</collection>
+                  <idno>N 1248</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>maschinenschriftlich</p>
+                  </physDesc>
+               <additional> 
+                  <listBibl>
+                     <biblStruct type="journal" n="firstPrint">
+                        <monogr>
+                           <author>Erdmann Sturm</author>
+                           <title>"Vielleicht kommen wir nun doch zu einer gemeinsamen Arbeit in Berlin". Paul Tillichs Briefe an Reinhold und Erich Seeberg (1924–1935)</title>
+                           <imprint>
+                              <pubPlace ref="Berlin">Berlin/</pubPlace><pubPlace ref="Boston, Massachusetts">Boston, MA</pubPlace>
+                              <date when="2012">2012</date>
+                              <biblScope>211–253, hier: 242f.</biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title>International Yearbook for Tillich Research</title>
+                           <biblScope>Bd. 7, H. 1</biblScope>
+                        </series>
+                     </biblStruct>  
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01930">Paul Tillich</persName>
+              <date when="1932-12-11">11. Dezember 1932</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01762">Erich Seeberg</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="FS" when="2023-09-05">Intitale Auszeichnung des Transkripts</change>
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+<dateline>d. <date when="1932-12-11">11. 12. 32</date></dateline>
+           <salute>Lieber Herr <persName ref="P01762">Seeberg</persName>!</salute>
+        </opener>
+        <p>Herzlichen Dank für Ihren <bibl>Brief</bibl><!--liegt nicht vor--> und Ihre Mitteilungen. Darf ich mir einen Vorschlag erlauben, bei dem persönliches Interesse und sachliche Situation zusammen treffen. Ich habe ähnliches schon <persName ref="P01603">Richter</persName> vorgeschlagen, der aber aus etatrechtlichen Schwierigkeiten nicht heranwollte. In dem Augenblick, wo <hi rend="g"><persName ref="P02217">Titius</persName></hi> geht, ist die Lage verändert und mein Vorschlag wäre durchführbar:<lb/>
+1. Ich übernehme als Religionsphilosoph resp. Religionswissenschaftler (so hiess ich auch in <placeName ref="Dresden">Dresden</placeName>) eine ordentliche oder ausserordentliche etatsmässige Professur in der theologischen Fakultät, die als Verbindungsprofessur zur Philosophie gedacht ist und die alte <persName ref="P01490">Pfleiderersche</persName> Tradition fortsetzt. Dazu wird die etatsmässige Stelle von <persName ref="P02217">Titius</persName> benutzt.<lb/>
+2. Um dem Oberkirchenrat entgegen zu kommen, wird ein Vertrag geschlossen, dass ich an den Prüfungen der Theologen nur als philosophischer Prüfer teilnehme, und dass ich in meinen Vorlesungen auf die eigentliche Dogmatik (Dogmatik II) oder wie es sonst definiert werden soll, verzichte.<lb/>
+3. Mit der Abhaltung der von <persName ref="P02217">Titius</persName> gehaltenen Vorlesung über Dogmatik II und den entsprechenden Übungen, sowie der Prüfung der Kandidaten in diesen Fächern wird <persName ref="P00567">Fabricius</persName>, resp. <persName ref="P01872">Stolzenburg</persName> beauftragt. Bei dem grossen Überfluss an systematischen älteren Privatdozenten in <placeName ref="Berlin">Berlin</placeName> und bei dem völligen Fehlen von Religionsphilosophie innerhalb der theologischen Fakultäten scheint mir das zum mindestens [!] bis auf weiteres eine durchaus angemessene Lösung, die den Vorzug hätte, sich durchsetzen zu lassen und zugleich meinen eigentlichsten Wünschen und Fähigkeiten zu entsprechen. Bitte geben Sie mir doch Nachricht, ob solch ein Vorschlag irgend eine Aussicht auf Verwirklichung hätte.<lb/>
+Sind Sie am <date when="1933-01-07">Sonnabend, den 7.</date> oder <date when="1933-01-08">Sonntag, den 8. Januar</date> schon wieder in <placeName ref="Berlin">Berlin</placeName>? Wenn ja, könnten wir vielleicht Sonntag mittag zusammen sein.<!--Anm.: So kam es auch. Tillich und Seeberg trafen sich am 8.1.1933, vgl. die beiden Briefe PTs an Hannah Tillich vom 7.1.1933--><lb/>
+</p>
+        <closer>
+           <salute>MMit herzlichen Grüßen, besten Wünschen für Weihnachten (leicht neidisch wegen des Hauses in <placeName ref="Ahrenshoop">Ahrenshoop</placeName>)<lb/>
+bin ich<lb/>
+Ihr</salute>
+           <signed>P. Tillich</signed>
+        </closer>  
+     </div>
+    </body>
+  </text>
+</TEI>

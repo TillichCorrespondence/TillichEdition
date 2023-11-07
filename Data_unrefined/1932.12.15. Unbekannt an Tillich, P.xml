@@ -1,0 +1,211 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Unbekannt an Paul Tillich <lb/>vom 25. Dezember 1932</title>
+
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement ref="Marburg">Marburg</settlement>
+                  <institution>Philipps-Universität Marburg</institution>
+                  <repository>Deutsches Paul-Tillich-Archiv</repository>
+                  <idno>023 Rollfilm</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Maschinenschriftlich</p>
+               </physDesc>
+               <additional>
+                  <!-- Wenn Brief bereits publiziert hier die richtige Struktur aussuchen -->
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel der Monographie<!--></title>
+                           <edition><!-->Auflage<!--></edition>
+                           <imprint>
+                              <publisher><!-->Herausgeber<!--></publisher>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Reihe<!--></title>
+                           <biblScope><!-->Reihennummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                     <biblStruct type="journal" n="reprint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel des Aufsatzes<!--></title>
+                           <imprint>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Zeitschrift<!--></title>
+                           <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <biblStruct type="monograph">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien überliefert sind und im Original nicht mehr vorhanden!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel der Monographie<!--></title>
+                  <edition><!-->Auflage<!--></edition>
+                  <imprint>
+                     <publisher><!-->Herausgeber<!--></publisher>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Reihe<!--></title>
+                  <biblScope><!-->Reihennummer<!--></biblScope>
+               </series>
+            </biblStruct>
+            <biblStruct type="journal">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften überliefert sind und im Original nicht mehr vorhanden<!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel des Aufsatzes<!--></title>
+                  <imprint>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Zeitschrift<!--></title>
+                  <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <placeName ref="Potsdam">Potsdam</placeName>
+               <date when="1932-12-25">25. Dezember 1932</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P01930">Paul Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2023-07-10">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener><dateline>
+                  <placeName ref="Potsdam">Potsdam</placeName>, den <date when="1932-12-25"
+                     >25.XII.32.</date></dateline>
+               <address>
+                  <street>Küsselstr. 40/41</street>
+               </address> Telephon: Potsdam 5034 <salute>Sehr geehrter <persName ref="P01930">Herr
+                     Professor</persName>,</salute>
+            </opener>
+            <p>Für Ihren bevorstehenden Berliner Aufenthalt erlaube ich mir, Ihre Aufmerksamkeit auf
+               mein Unternehmen zu lenken, das es sich zur Aufgabe macht, Gästen den Aufenthalt in
+               Berlin nach Möglichkeit zu erleichtern und angenehm zu gestalten. Es empfiehlt sich
+               besonders für:</p>
+            <p><hi rend="u">Besorgungen</hi>, <hi rend="u">Vermittlungen</hi>, <hi rend="u"
+                  >Botengänge</hi> jeder Art. <hi rend="u">Schriftliche Arbeiten</hi> werden schnell
+               und sauber ausgeführt.</p>
+            <p>(Dagegen können wir uns <hi rend="u">nicht</hi> anbieten für die Uebernahme von
+               Versicherungen, insbesondere nicht für <hi rend="u">Rückversicherungen</hi>).</p>
+            <p><hi rend="u">Führungen</hi> durch <placeName>Berlin</placeName> und
+                  <placeName>Potsdam</placeName> finden auf Wunsch jederzeit statt. (Geheizter
+               Aussichtswagen!)</p>
+            <p><hi rend="u">Zur Gesellschaft</hi> bei Mahlzeiten, Spaziergängen, Unter<pb n="2"
+               />nehmungen zu jeder Tages- und Nachtzeit weisen wir Ihnen angenehme Persönlichkeiten
+               nach. Vorschläge für solche Unternehmungen können Sie in grosser Auswahl von uns
+               erhalten.</p>
+            <p>In der Nähe von <placeName>Potsdam</placeName> steht unsern Kunden ein mit jedem
+               modernen Comfort eingerichtetes <hi rend="u">Landhaus zur Erholung</hi> zur
+               Verfügung. Die schöne Umgebung bietet Gelegenheit zu Ausflügen, Wasser- und
+               Wintersport. Potsdam, die Stadt der Erinnerungen, diese wunderbarste Vermählung von
+               Architektur und Natur, gibt auch im Winter eine Fülle von Anregung und Freude.</p>
+            <p>Eine Reihe hochstehender Persönlichkeiten nehmen die Dienste unseres Hauses in
+               Anspruch. Wir würden uns glücklich schätzen, auch Sie, sehr geehrter Herr Professor,
+               zu unsern Kunden zählen zu dürfen und werden uns bemühen, auch den verwöhntesten
+               Ansprüchen zu genügen. Ihre Nachrichten gern erwartend</p>
+            <closer>
+               <salute>In vorzüglicher Hochachtung ganz ergebenst</salute>
+               <!-- Unterschrift wurde geschwärzt. PS -->
+            </closer>
+
+            <postscript>
+               <p/>
+            </postscript>
+
+         </div>
+
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,127 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Verlag Mohr Siebeck an Paul Tillich
+               <lb/>vom 17. August 1932.
+            </title>
+            <author ref="P02445">Verlag Mohr Siebeck</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Sebastian Kueffner</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="Kopie">
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement ref="Berlin">Berlin</settlement>
+                  <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz</repository>
+                  <collection>Handschriftenabteilung, Archiv des Verlages J. C. B. Mohr (Paul Siebeck)</collection>
+                  <idno>Nachl. 488, A 0469,5; Blatt 143-205</idno>   
+               </msIdentifier>
+               <physDesc>
+                  <p>Brief; maschinenschriftlich; Durchschlag </p>
+                  </physDesc>   
+            </msDesc>
+            <biblStruct type="journal">
+               <monogr>
+                  <author>Alf Christophersen / Friedrich Wilhelm Graf</author>
+                  <title>„Beweise einer unsichtbaren Beziehung“ Die Korrespondenz zwischen Paul Tillich und dem Tübinger Verlag J. C. B. Mohr (Paul Siebeck)</title>
+                  <imprint>
+                     <pubPlace ref="Boston">Boston</pubPlace>
+                     <date when="2011-09-27">2011</date>
+                     <biblScope>S. 341f.</biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title>International Yearbook for Tillich Research</title>
+                  <biblScope>Band 6 Heft 1</biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P02445">Verlag Mohr Siebeck</persName>
+              <placeName ref="Tübingen">Tübingen</placeName>
+              <date when="1932-08-17">17. August 1932</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01930">Paul Tillich</persName>
+              <placeName ref="Sils Maria/Engadin"><hi rend="u">zzt. Sils Maria / Engadin</hi><lb/>
+                 Haus Salis
+              </placeName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="SK" when="2023-10-24">Intitale Auszeichnung des Transkripts</change>
+        
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        
+        <opener>
+           <dateline><date when="1932-08-17">17. August 1932.</date></dateline>
+        </opener>
+        
+        <p>Sehr verehrter <persName ref="P01930">Herr Professor</persName>, in Abwesenheit meines <persName ref="P01782">Herrn Dr. Siebeck</persName>, der sich zzt. zu einem längeren Kuraufenthalt in <placeName ref="Bad Kissingen">Bad Kissingen</placeName> befindet, danke ich Ihnen verbindlichst für Ihren freundlichen <bibl type="letter"><!-- 1932.08.15. Tillich, P an Siebeck, O -->Brief</bibl> vom <date when="1932-08-15">15. ds. Mts</date>. Die gewünschten 4 Exemplare Ihrer <bibl><!--Tillich, Der junge Hegel und das Schicksal Deutschlands, in: Tillich, Hegel und Goethe. Zwei Gedenkreden (Sammlung gemeinverständlicher Vorträge und Schriften aus dem Gebiet der Theologie und Religionsgeschichte 158), Tübingen 1932--> Hegelrede</bibl> habe ich an das <placeName ref="Frankfurt">Frankfurter</placeName> Universitätssekretariat abgesandt und dieser Sendung eine auf Ihren Namen ausgestellte Rechnung beigefügt.</p>
+        <p>Für Ihre freundlichen Mitteilungen über das in Vorbereitung befindliche
+               <ptr/><!-- Name unbekannt, Tillich weis selber nicht um was es sich handelt (betrifft die Caritas Idee) -->Manuskript
+               von <persName ref="P02495">Frau Maria Sulzbach</persName> sage ich Ihnen meinen
+               verbindlichsten Dank.<note type="ea" resp="SK">Eine entsprechende Veröffentlichung
+                  ist nicht nachweisbar(aus Graf-Edition S.341, Fußnote)</note>Ich werde <bibl
+                  type="letter"><!-- 1932.08.15. Tillich, P an Siebeck, O -->Ihren Brief</bibl>
+               meinem <persName ref="P01782">Herrn Dr. Siebeck</persName> nach seiner Rückkehr
+               vorlegen. Da das <bibl>Manuskript</bibl> ja ohnehin erst im <date when="1932-09-17"
+                  >September</date> fertig wird, geht keine Zeit verloren, wenn mein <persName
+                  ref="P01782">Herr Dr. Siebeck</persName> erst nach seiner Rückkehr zu Ihrer
+               freundlichen Anfrage Stellung nimmt. </p>
+        <closer>
+           <salute>In vorzüglicher Hochachtung Ihr ergebenster</salute>
+           <signed><ptr/>J. C. B. Mohr (<persName ref="P01783">Paul Siebeck</persName>).<note type="ea">[handschr.:]</note></signed>
+        </closer>
+      
+     </div>
+    </body>
+  </text>
+</TEI>

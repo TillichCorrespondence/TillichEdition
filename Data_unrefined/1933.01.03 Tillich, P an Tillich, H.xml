@@ -1,0 +1,99 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von <persName ref="P01930">Paul Tillich</persName> an <persName ref="P01925">Hannah Tillich</persName>
+                    <lb/>vom <date when="1933-01-03">03. Januar 1933</date>
+                </title>
+                <author ref="P01930">Paul Tillich</author>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Friedrich Schumann</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+                    <address>
+                        <street>Schenkenstraße 8-10</street>
+                        <postCode>1010</postCode>
+                        <placeName ref="Wien">
+                            <settlement>Wien</settlement>
+                            <country>Österreich</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+                </availability>        
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="Postkarte">
+                    <msIdentifier>
+                        <country>USA</country>
+                        <settlement>Cambridge, MA</settlement>
+                        <institution>Harvard University</institution>
+                        <repository>Harvard Divinity School Library</repository>
+                        <collection>Tillich, Hannah. Papers, 1896-1976</collection>
+                        <idno>bMS 721/3(3)</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>handschriftlich</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+            </editorialDecl>
+        </encodingDesc> 
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="P01930">Paul Tillich</persName>
+                    <placeName ref="Berlin">Berlin</placeName>
+                    <date when="1933-01-03">03. Januar 1933</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="P01925">Hannah Tillich</persName>
+                    <address><placeName ref="Frankfurt/Main">Frankfurt a. M.-Niederrad, Vogelstr. 11</placeName></address>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="deu">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="FS" when="2023-05-17">Intitale Auszeichnung des Transkripts</change>
+            
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <div type="writingSession">
+                <pb n="1"/>
+                <opener>
+                    <salute>Liebste <persName ref="P01925">Hannah</persName>!</salute>
+                </opener>
+                <p>Vielen Dank für <bibl>beide Briefe</bibl><!--liegen uns nicht vor-->! Dazu Folgendes: Die Wohnung von <persName ref="P01764">Elisabeth</persName> liegt 2 elektrische Haltestellen von U-Bahnhof Südring entfernt. Dieser liegt unter dem Stadtbahnhof Tempelhof (5 Min Fahrt bis Neukölln) – das Mädchen<!--nicht ermittelt--> kenne ich nicht, nicht einmal den Namen, vielleicht hat sie bei mir eine Fleißprüfung gemacht, wirklich komisch! –<lb/>
+Gestern Nachmittag mit Veronika<!--Unsicher. Vielleicht Veronika Czapski-Erdmann, aber das ist bloße Vermutung--> im Kaffee, sehr nett und problembelastet, läßt herzlich grüßen. Dann mit Emmy<!--Emmy Frey oder Emmy Sachs?--> im „Schweigh“<!--Die Abenteuer des braven Soldaten Schwejk (Brod/Reimann)--> mit <persName ref="P02412">Pallenberg</persName>. Großartig! – <persName ref="P02413">Frau Grimme</persName> <pb facs="2"/> läßt grüßen. <persName ref="P00718">Ihr Mann</persName> ist verreist. Heut Vormittag Briefe und Arbeit bei <persName ref="P01926">Vaterchen</persName>. Heut Nachmittag Haare schneiden. Abend mit <persName ref="P01499">Lilly</persName> in Shaw<!--meint verm. ein Theaterstück von G.B. Shaw?-->.
+                </p>
+                <closer>
+                    <salute>Viele herzliche Grüße und Küsse. D.P.</salute>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+

@@ -1,0 +1,120 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von <persName ref="P01930">Paul Tillich</persName> an <persName ref="P01782">Oskar Siebeck</persName> 
+               <lb/>vom <date when="1932-03-25">25. März 1932</date>
+            </title>
+            <author ref="P01930">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Friedrich Schumann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="letter">
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement>Berlin</settlement>
+                  <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz</repository>
+                  <collection>Handschriftenabteilung, Archiv des Verlages J. C. B. Mohr (Paul Siebeck)</collection>
+                  <idno>Nachl. 488, A 0469,5; Blatt 143-205</idno><!--Das ist die Angabe, die wir aus Berlin erhalten haben; ggf. separat die (alte) Signatur von Graf angeben? (Mohr Siebeck, VA, A Nr. 469 1932)-->
+               </msIdentifier>
+               <physDesc>
+                  <p>handschriftlich; Diktat</p><!--Diktat hier ausweisen?-->
+                  </physDesc>
+               <additional> 
+                  <listBibl>
+                     <biblStruct type="journal" n="firstPrint">
+                        <monogr>
+                           <author>Alf Christophersen/Friedrich Wilhelm Graf</author>
+                           <title>"Beweise einer unsichtbaren Beziehung". Die Korrespondenz zwischen Paul Tillich und dem Tübinger Verlag J. C. B. Mohr (Paul Siebeck)</title>
+                           <imprint>
+                              <pubPlace ref="Berlin">Berlin/</pubPlace><pubPlace ref="Boston, Massachusetts">Boston, MA</pubPlace>
+                              <date when="2011">2011</date>
+                              <biblScope>237-407, hier: 318f.</biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title>International Yearbook for Tillich Research</title>
+                           <biblScope>Bd. 6, H. 1</biblScope>
+                        </series>
+                     </biblStruct>  
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01930">Paul Tillich</persName>
+              <placeName ref="Menton">Menton-Garavan</placeName>
+              <date when="1932-03-25">25. März 1932</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01782">Oskar Siebeck</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="FS" when="2023-06-19">Intitale Auszeichnung des Transkripts</change>
+        
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+<dateline><placeName ref="Menton">Riviera, Frankreich, Menton-Garavan, Palace Hotel Garavan</placeName>, d. <date when="1932-03-25">25. 3. 32</date></dateline>
+           <salute>Sehr geehrter Herr <persName ref="P01782">Siebeck</persName>,</salute>
+        </opener>
+        <p>Herzlichen Dank für Ihren <bibl>Brief</bibl><!--1932.03.19 Siebeck, O an Tillich, P-->. Meine Adresse siehe oben – Anbei der unterschriebene Vertrag – Die Selbstanzeige bitte ich mir zu erlassen, da ich schlechterdings ausserstande bin (nach vielfacher Erfahrung) mich in dieser Form noch einmal zu objektivieren – Sie haben sicher Mitarbeiter, die das sehr viel besser könnten, als ich es kann –<lb/>
+Nun noch eine Frage: Ich habe im <placeName ref="Mannheim">Mannheimer</placeName> Nationaltheater die Goethe-Festrede gehalten über das Thema: <bibl>"Goethe und die Idee der Klassik"</bibl><!--Tillich, Goethe und die Idee der Klassik, in: Tillich, Hegel und Goethe. Zwei Gedenkreden (Sammlung gemeinverständlicher Vorträge und Schriften aus dem Gebiet der Theologie und Religionsgeschichte 158), Tübingen 1932, 33–48--> – Das Theater hat die Rede für ihre Blätter eingefordert – Gleichzeitig wurde ich von Prof. <persName ref="P00458">Dibelius</persName>=<placeName ref="Heidelberg">Heidelberg</placeName>, der herbeigekommen war und anderen dringend gebeten, den Vortrag einer weiteren Öffentlichkeit zugänglich zu machen – Bei der Unterhaltung mit <persName ref="P00458">Dibelius</persName> kam ich auf die Idee, ihn mit dem <bibl>Hegelvortrag</bibl><!--Tillich, Der junge Hegel und das Schicksal Deutschlands, in: Tillich, Hegel und Goethe. Zwei Gedenkreden (Sammlung gemeinverständlicher Vorträge und Schriften aus dem Gebiet der Theologie und Religionsgeschichte 158), Tübingen 1932--> zusammen zu drucken – falls Sie einverstanden wären – Er ist weniger als halb so lang wie der Hegel-Vortrag. Es müsste dann ein gemeinsamer Obertitel für die beiden Jubiläumsvorträge gefunden werden, die in positiver und negativer Stellungnahme starke Gemeinsamkeiten haben –<lb/>
+Falls Sie der Meinung sind, dass etwas derartiges in Frage kommt, bitte ich Sie, mir Mitteilung zu machen – Ich lasse dann das Manuscript schicken –
+</p>
+        <closer>
+           <salute>Mit bestem Gruss<lb/>Ihr sehr ergebener</salute>
+           <signed>P. Tillich</signed>
+        </closer>  
+      
+     </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,137 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Verlag Mohr Siebeck an Paul Tillich
+               <lb/>vom 26. Mai 1931
+            </title>
+            <author ref="P02445">Verlag Mohr Siebeck</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Sebastian Kueffner</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="Kopie">
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement ref="Berlin">Berlin</settlement>
+                  <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz</repository>
+                  <collection>Handschriftenabteilung, Archiv des Verlages J. C. B. Mohr (Paul Siebeck)</collection>
+                  <idno>Nachl. 488, A 0469,5; Blatt 143-205</idno>   
+               </msIdentifier>
+               <physDesc>
+                  <p>Brief; maschinenschriftlich; Durchschlag </p>
+                  </physDesc>   
+            </msDesc>
+            <biblStruct type="journal">
+               <monogr>
+                  <author>Alf Christophersen / Friedrich Wilhelm Graf</author>
+                  <title>„Beweise einer unsichtbaren Beziehung“ Die Korrespondenz zwischen Paul Tillich und dem Tübinger Verlag J. C. B. Mohr (Paul Siebeck)</title>
+                  <imprint>
+                     <pubPlace ref="Boston">Boston</pubPlace>
+                     <date when="2011-09-27">2011</date>
+                     <biblScope>S. 307–309</biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title>International Yearbook for Tillich Research</title>
+                  <biblScope>Band 6 Heft 1</biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P02445">Verlag Mohr Siebeck</persName>
+              <placeName ref="Tübingen">Tübingen</placeName>
+              <date when="1931-05-26">26. Mai 1931</date>
+           </correspAction>
+           <correspAction type="received">
+              
+              <persName ref="P01930">Paul Tillich</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="SK" when="2023-09-12">Intitale Auszeichnung des Transkripts</change>
+        <change who="SK" when="2023-10-25">bibl eintrag zu "1931.05.25. Tillich, P an Verlag Mohr Siebeck" ausgebessert, sowie das Datum </change>
+        
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession" n="1">
+        <pb n="1"/>
+        
+        <opener>
+           <dateline><date when="1931-05-26">26. Mai 1931</date></dateline>
+        </opener>
+        
+        <p>Sehr verehrter <persName ref="P01930">Herr Professor</persName>, Ihre freundliche <bibl type="postcard"><!-- 1931.05.25. Tillich, P an Verlag Mohr Siebeck -->Karte vom <date when="1931-05-25">25. ds. Mts</date>.</bibl> habe ich erhalten und heute 15 Exemplare Ihres Vortrags <bibl><!-- Tillich, Paul: »Kirche und Kultur« in: Sammlung gemeinverständlicher Vorträge und Schriften aus dem Gebiet der Theologie und Religionsgeschichte, Heft 111, Tübingen 1924 -->„Kirche und Kultur“</bibl> an Ihre Adresse abgehen lassen. <persName ref="P01697">Herrn Pfarrer Schafft</persName> habe ich am <date when="1931-05-23">23. Mai</date> den Sachverhalt ausführlich mitgeteilt. Ich erlaube mir, Ihnen in der <bibl type="letter"><!--1931.05.23 Verlag Mohr Siebeck an Hermann Schafft, Tübingen; maschinenschriftlich; Abschrift; Durchschlag --><ptr/>Anlage eine Abschrift meines Briefes</bibl>zu übersenden.<note type ="ea" resp="SK">Besagte Abschrift ist in der Sektion unterhalb dieses Briefes angegeben.</note> Sie ersehen daraus die Gründe, die es unmöglich machen, den Preis des Heftes herabzusetzen.
+        </p>
+        <closer>
+           <salute>In vorzüglicher Hochachtung Ihr ergebenster</salute>
+           <signed><ptr/>J. C. B. Mohr (<persName ref="P01783">Paul Siebeck</persName>).<note type="ea">[handschr.:]</note></signed>
+           
+           
+           
+        </closer>
+        
+     </div>
+        
+        <div type="writingSession" n="2">
+           <pb n="1"/>
+           <opener>
+              <dateline>Tübingen, den <date when="1931-05-23">23. Mai 1931</date></dateline>
+           </opener>
+           
+           <p>
+              Sehr geehrter <persName ref="P01697">Herr Licentiat</persName>, mit verbindlichstem Dank bestätige ich Ihr an meinen <persName ref="P01782">Herrn Dr. Siebeck</persName> gerichtetes Schreiben vom <date when="1931-05-21">21. Mai</date>. Der Preis, der in <bibl><!-- Tillich, Paul: »Kirche und Kultur« in: Sammlung gemeinverständlicher Vorträge und Schriften aus dem Gebiet der Theologie und Religionsgeschichte, Heft 111, Tübingen 1924 -->„Tillich. Kirche und Kultur“</bibl> am Schluss des Heftes mit M. 1.- angegeben ist, (der Subskriptionspreis gilt nur für Abonnenten auf die Sammlung) war s. Zt. bei Erscheinen des Heftes im <date when="1924">Jahr 1924</date> festgesetzt worden. Das <date when="1924">Jahr 1924</date> als erstes Jahr nach der Inflation zeichnete sich, wie Ihnen wohl erinnerlich sein wird, durch einen besonders hohen Geldwert der damals neuen Goldmark aus. Infolgedessen konnte s. Zt. der Preis für meine 3 Sammlungen <bibl><!-- Philosophie und Geschichte : Sammlung v. Vorträgen u. Schriften a.d. Gebiet d. Philosophie u. Geschichte, Tübingen: Mohr, 1922-1969 -->„Philosophie und Geschichte“</bibl>, <bibl><!-- Recht und Staat in Geschichte und Gegenwart : eine Sammlung von Vorträgen und Schriften aus dem Gebiet der gesamten Staatswissenschaften, ersch (1) 1913 - (512) 1983 -->[„]Recht und Staat in Geschichte und Gegenwart</bibl>“ und <bibl><!-- 
+Sammlung gemeinverständlicher Vorträge und Schriften aus dem Gebiet der Theologie und Religionsgeschichte, ersch. (1)1896- -->„Sammlung gemeinverständlicher Vorträge“</bibl> nach heutigen Begriffen sehr nieder angesetzt werden. In den folgenden Jahren haben sich aber die Herstellungskosten und allgemeinen Betriebsunkosten so gesteigert, dass Preiserhöhungen unumgänglich notwendig wurden. Sei dem <date when="1928-04-16">16. April 1928</date> beträgt der Preis für die <bibl><!-- 
+Sammlung gemeinverständlicher Vorträge und Schriften aus dem Gebiet der Theologie und Religionsgeschichte, ersch. (1)1896- -->„Sammlung gemeinverständlicher Vorträge“</bibl> einheitlich M. 1.80 für jedes Heft.</p>
+              <p>Die buchhändlerischen Bestimmungen verpflichten mich jedoch, die von mir selbst festgesetzten Ladenpreise einzuhalten; denn Sie werden selbst zugeben müssen, dass es mir nicht möglich ist, den Sortimentsbuchhandel, der die Hauptvertriebsarbeit für das Buch leistet, zu unterbieten. Die einzige Möglichkeit für einen verbilligten Bezug besteht in einer Sammelbestellung. Bei Sammelbestellungen können 10 % Ermässigung dann eingeräumt werden, wenn bei einem Buch bis zu M. 20.- Ladenpreis gleichzeitig mindestens 20 Exemplare, über M. 20.- Ladenpreis gleichzeitig mindestens 10 Exemplare abgenommen werden. Vielleicht ist es Ihnen möglich, eine Bestellung auf 20 Exemplare zusammenzubringen, die dann mit 10 % Ermässigung, d.h. zu M. 1.62 für das Exemplar, ausgeführt werden könnte.
+           </p>
+           <salute>In vorzüglicher Hochachtung ergebenst
+              (gez.) J. C. B. Mohr (<persName ref="P01783">Paul Siebeck</persName>)
+           </salute>
+          
+        </div>
+    </body>
+  </text>
+</TEI>

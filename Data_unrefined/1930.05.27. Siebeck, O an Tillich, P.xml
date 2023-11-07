@@ -1,0 +1,122 @@
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Oskar Siebeck an Paul Tillich 
+               <lb/>vom 27. Mai 1930
+            </title>
+            <author ref="P01782">Oskar Siebeck</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Sebastian Kueffner</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="Kopie">
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement>Berlin</settlement>
+                  <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz</repository>
+                  <collection>Handschriftenabteilung, Archiv des Verlages J. C. B. Mohr (Paul Siebeck)</collection>
+                  <idno>Nachl. 488, A 0469,5; Blatt 143-205</idno>
+               </msIdentifier>
+              
+               <physDesc>
+                  <p>Brief; Maschinenschriftlich-Durchschlag</p>
+                  </physDesc>
+            </msDesc>
+           
+            <biblStruct type="journal">
+               <monogr>
+                  <author>Alf Christophersen / Friedrich Wilhelm Graf</author>
+                  <title>„Beweise einer unsichtbaren Beziehung“ Die Korrespondenz zwischen Paul Tillich und dem Tübinger Verlag J. C. B. Mohr (Paul Siebeck)</title>
+                  <imprint>
+                     <pubPlace ref="Boston">Boston</pubPlace>
+                     <date when="2011-09-27">2011</date>
+                     <biblScope>S. 304f.</biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title>International Yearbook for Tillich Research</title>
+                  <biblScope>Band 6 Heft 1</biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01782">Oskar Siebeck</persName>
+              <placeName ref="Tübingen">Tübingen</placeName>
+              <date when="1930-05-27">27. Mai 1930</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01930">Paul Tillich</persName>
+              <placeName ref="Frankfurt a.M."><hi rend="u">Frankfurt (Main)</hi></placeName>
+              <address><street>Feldbergstr. 7</street></address>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="SK" when="2023-10-24">Intitale Auszeichnung des Transkripts</change>
+        
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+           <dateline><date when="1930-05-27">27. Mai 1930</date>
+           </dateline>
+           
+        </opener>
+        <p>Sehr verehrter <persName ref="P01930">Herr Professor</persName>, aus einer Besprechung von <persName ref="P01762">Erich Seeberg</persName> in der <bibl><!-- Erich Seeberg, Rez. von: Paul Tillich, Religiöse Verwirklichung, Berlin 1930, in: Deutsche Literaturzeitung 3. Folge, 1. Jg., Heft 17, 26.4.1930, 769–773. -->„Deutschen Literaturzeitung“</bibl> ersehe ich, dass die Sammlung von Vorträgen und Aufsätzen, über die wir bei meinem letzten Besuche in <placeName ref="Dresden">Dresden</placeName> gesprochen haben, im Furche-Verlag erscheint. Sie erzählten mir damals, Sie hielten sich auch für diese Veröffentlichung dem Verleger des <bibl><!--Paul Tillich: Kairos. (Hg): 1ter Band: Zur Geisteslage und Geisteswendung, Darmstadt Otto Reichl Verlag 1926 --><bibl><!-- Paul Tillich: Kairos. (Hg): 2ter Band: 
+Protestantismus als Kritik und Gestaltung, Darmstadt Otto Reichl Verlag 1929 -->„Kairos“</bibl></bibl> gegenüber für gebunden. Da ich es mir lediglich deshalb versagt haben, auf unsere frühere Unterhaltungen zurückzukommen, möchte ich Ihnen heute erneut meine Bereitwilligkeit aussprechen, die abschliessende Darstellung Ihres „Systems“ zu übernehmen, sei es nun, dass Sie diese als „Dogmatik“ oder unter einem anderen Titel zu veröffentlichen
+           beabsichtigen.<note type="ea" resp="SK"> Tillich wird die Darstellung seines Systems bzw. die Dogmatik nicht in vorhergesehener Form veröffentlichen; weder bei Siebeck noch Reichl</note></p>  
+        <p>Ich hoffe, im Laufe des kommenden <!-- möglicherweise 1930-10 ?-->Wintersemesters bestimmt wieder nach <placeName ref="Frankfurt a.M.">Frankfurt</placeName> zu kommen, und würde mich sehr freuen, wenn ich Sie bei dieser Gelegenheit dort wieder einmal aufsuchen dürfte.
+           In vorzüglicher Hochachtung empfehle ich mich Ihnen als Ihr ganz ergebener
+        </p>   
+        <closer>
+           <salute> In vorzüglicher Hochachtung empfehle ich mich Ihnen als Ihr ganz ergebener</salute>
+           <signed> <ptr/><persName ref="P01782">Dr. O. Siebeck.</persName><note type="ea">[handschr.]</note></signed>
+        </closer>
+      
+     </div>
+    </body>
+  </text>
+</TEI>

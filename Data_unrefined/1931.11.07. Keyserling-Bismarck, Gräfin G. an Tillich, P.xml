@@ -1,0 +1,104 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Gräfin G. Keyserling-Bismarck an Paul Tillich
+               <lb/>vom 07. November 1931
+            </title>
+            <author ref="P02376">Goedela Gräfin Keyserling-Bismarck</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Sebastian Kueffner</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974</collection>
+                  <idno>bMS 649/Box 158(3)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Brief; Eigenhändig</p>
+                  </physDesc>
+            </msDesc>        
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P02376">Goedela Gräfin Keyserling-Bismarck</persName>
+              <placeName ref="Darmstadt">Darmstadt</placeName>
+              <date when="1931-11-07">07. November 1931</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01930">Paul Tillich </persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="SK" when="2023-04-26">Intitale Auszeichnung des Transkripts</change>
+        
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+           <dateline><placeName ref="Darmstadt">Darmstadt</placeName>, den <date when="1931-11-07">7.11.31.</date></dateline>
+           <salute>Sehr geehrter <persName ref="P01930">Herr Professor</persName>,</salute>
+        </opener>
+        <p><persName ref="P01048">Mein Mann</persName> würde sich sehr freuen, einmal Ihre Bekanntschaft zu machen u da es ihm wegen seiner immer schwankenden Gesundheit nicht möglich ist nach <placeName ref="Frankfurt">Frankfurt</placeName> zu fahren, wollte er Sie fragen, ob Sie uns nicht einmal die Freude machen wollten, nach <placeName ref="Darmstadt">Darmstadt</placeName> zu kommen. Da <persName ref="P01048">mein Mann</persName> den ganzen Tag arbeitet, sind ihm die 
+
+           <pb n="2"/> Stunden der Mahlzeiten zum Reden die einzig angenehmen. Würde es Ihnen also passen, einen Tag zum Mittagessen herauszukommen? Es geht ein guter Zug kurz nach 12 von <placeName ref="Frankfurt">Frankfurt</placeName> weg, der um 12.40 hier ankommt.</p><p>  Es tut mir leid, dass ich Sie neulich Abends<!-- nicht klar wann--> bei <persName ref="P02377">Frau von Schnitzler</persName> garnicht mehr sah. Ich erinnere mich gern an unser angeregtes Gespräch, <sic>dass</sic> wir früher einmal in diesen gastlichen Räumen miteinander führten, so dass sich in der Hauptsache um unserem gemeinsamen Verleger 
+           <pb n="3"/><persName ref="P01571">Otto Reichl</persName> drehte. Dieser scheint ja nun endlich den lange erwarteten Zustand der Zahlungsunfähigkeit erreicht zu haben.
+        </p>
+        <closer>
+           <salute>In der Hoffnung, Sie bald einmal hier begrüssen zu können bin ich mit bestem
+                  Gruss<lb/>Ihre ergebene </salute>
+           <signed><persName ref="P02376">Goedela Gräfin Keyserling-Bismarck</persName></signed>
+        </closer>   
+      
+     </div>
+    </body>
+  </text>
+</TEI>

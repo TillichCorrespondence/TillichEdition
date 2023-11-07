@@ -1,0 +1,159 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Paul Tillich an Verlag Mohr Siebeck
+               <lb/>vom 01. Mai 1932
+            </title>
+            <author ref="P01930">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Sebastian Kueffner</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="Kopie">
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement ref="Berlin">Berlin</settlement>
+                  <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz</repository>
+                  <collection>Handschriftenabteilung, Archiv des Verlages J. C. B. Mohr (Paul Siebeck)</collection>
+                  <idno>Nachl. 488, A 0469,5; Blatt 143-205</idno> <!-- Graf Idno: Mohr Siebeck, VA, A Nr. 469 1932 --> 
+               </msIdentifier>
+               <physDesc>
+                  <p>Brief; Maschinenschriftlich</p>
+                  </physDesc>   
+            </msDesc>
+            <biblStruct type="journal">
+               <monogr>
+                  <author>Alf Christophersen / Friedrich Wilhelm Graf</author>
+                  <title>„Beweise einer unsichtbaren Beziehung“ Die Korrespondenz zwischen Paul Tillich und dem Tübinger Verlag J. C. B. Mohr (Paul Siebeck)</title>
+                  <imprint>
+                     <pubPlace ref="Boston">Boston</pubPlace>
+                     <date when="2011-09-27">2011</date>
+                     <biblScope>S. 327f</biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title>International Yearbook for Tillich Research</title>
+                  <biblScope>Band 6 Heft 1</biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01930">Paul Tillich</persName>
+              <placeName ref="Frankfurt am Main">Frankfurt am Main</placeName>
+              <date when="1932-05-01">01. Mai 1932</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P02445">Verlag Mohr Siebeck</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="SK" when="2023-07-19">Intitale Auszeichnung des Transkripts</change>
+        
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        
+        <opener>
+           <dateline>d. <date when="1932-05-01">1. 5. 32</date></dateline>
+           <salute>An den <lb/>
+              <persName ref="P02445">Verlag Mohr</persName><lb/>
+              <placeName ref="Tübingen"><hi rend="u">Tübingen</hi></placeName></salute>
+        </opener>
+        
+        <p>Hierdurch bitte ich Sie, die zwanzig Freiexemplare von <bibl><!-- Paul Tillich: »Hegel und Goethe : zwei Gedenkreden« (Sammlung gemeinverständlicher Vorträge und Schriften aus dem Gebiet der Theologie und Religionsgeschichte 158), Tübingen 1932 -->„Hegel und Goethe“</bibl> wie folgt zu versenden</p>
+        
+        <p> 1. <persName ref="P00846">Prof. Dr. Heimann</persName> Buchenstr. 10 <placeName ref="Hamburg-Wandsbeck">Hamburg-Wandsbeck</placeName><lb/>
+           2. <persName ref="P01154">Privatdozent Dr. Leese</persName> Koppel 11 <placeName ref="Hamburg">Hamburg</placeName> 5<lb/>
+           3. <persName ref="P01099">Prof. Dr. Richard Kroner</persName> Universität <placeName ref="Kiel">Kiel</placeName> Strauchweg 81<lb/>
+           4. <persName ref="P02098">Herrn Dr. Wolfers</persName> Blumeshof 15 <placeName ref="Berlin">Berlin W.</placeName> 35<lb/>
+           5. <persName ref="P01762">Herrn Geh. Konsistorialrat Prof. D. Dr. Reinhold Seeberg</persName><lb/>
+           Unter den Linden Universität <placeName ref="Berlin">Berlin</placeName> <placeName ref="Berlin-Halensee">Berlin-Halensee</placeName>,<lb/>
+           Joachim Friedrichstr. 5<lb/>
+           6. <persName ref="P01762">Prof. Dr. Erich Seeberg</persName> Nikolsburgerplatz 4<lb/>
+           <placeName ref="Berlin-Wilmersdorf">Berlin-Wilmersdorf</placeName><lb/>
+           7. <persName ref="P01765">Pfarrer Seeberger</persName> Friedrich-Franzstr. 10 <placeName ref="Berlin-Tempelhof">Berlin-Tempelhof</placeName><lb/>
+           8. <persName ref="P00641">Pfarrer Fritz</persName> Evangelisches Diakonissenhaus <placeName ref="Berlin-Teltow">Berlin-Teltow</placeName><lb/>
+           9. <persName ref="P01831">Dr. Friedrich Spiegelberg</persName> Elisenstr. 11 <placeName ref="Dresden">Dresden</placeName> A.16<lb/>
+           10. <persName ref="P01969">Ministerialrat Dr. Ulich</persName> Theresienstr. 29 <placeName ref="Dresden">Dresden</placeName><lb/>
+           11. <persName ref="P00458">Professor D. Dr. M. Dibelius</persName> Universität <placeName ref="Heidelberg">Heidelberg</placeName><lb/>
+           Bergstr. 115<lb/>
+           12. <persName ref="P00904">Professor D. E. Hirsch</persName> Universität <placeName ref="Göttingen">Göttingen</placeName><lb/>
+           Hainholzweg 66<lb/>
+           13. <persName ref="P01307">Prof. Dr. Mennicke</persName> Im Burgfeld 223<lb/>
+           <placeName ref="Frankfurt/Main/Römerstadt">Frankfurt/main/Römerstadt</placeName><lb/>
+           14. <persName ref="P01817">Prof. Dr. Martin</persName> Sommerfeld Universität <placeName ref="Frankfurt/Main">Frankfurt/M</placeName> Schumannstr.<lb/>
+           39.<lb/>
+           15. <persName ref="P01578">Prof. Dr. Reinhardt</persName> Hans Sachsstr. 3 <placeName ref="Frankfurt/Main">Frankfurt/M</placeName><lb/>
+           16. <persName ref="P00209">Baron Bethmann</persName> Friedberger Anlage <placeName ref="Frankfurt/Main">Frankfurt/Main</placeName><lb/>
+           17. <persName ref="P01912">Pfarrer Thomas</persName> <placeName ref="Bremke vor Göttingen">Bremke vor Göttingen</placeName><lb/>
+           18. <persName ref="P01437">Prof. Dr. Otto</persName> Hühnerweg 5 <placeName ref="Frankfurt/Main">Frankfurt/Main</placeName><lb/>
+           19. <persName ref="P00664">Prof. Dr. Gelb</persName> Kronprinzenstr. 28 <placeName ref="Halle/Saale">Halle/Saale</placeName><lb/>
+           20. <persName ref="P01889">Dr. E. v. Sydow</persName> Berliner Str. 58 <placeName ref="Charlottenburg">Charlottenburg</placeName><lb/>
+           21. <persName ref="P02472">Herrn Dr. Hochheimer</persName><!-- Horkheimer? --> Kronprinzenstr. 28 <placeName ref="Halle/Saale">Halle/Saale</placeName><lb/>
+           22. <persName ref="P01697">Prof. Schafft</persName> Gartenstr. 1 <placeName ref="Kassel">Kassel</placeName><lb/>
+           23. <persName ref="P02283">Prof. Büchsel</persName> Universität <placeName ref="Rostock/M">Rostock/M</placeName>. Kräwtstr. 3.<lb/>
+           24. <persName ref="P00757">Frau Margot Faust</persName> Richardstr. 14 <placeName ref="Saarbrücken">Völklingen bei Saarbrücken</placeName><lb/>
+           25. <persName ref="P01212"><persName ref="P01211">Familie Loewenfeld</persName></persName> und Pincus Küsselstr. 40 <placeName ref="Potsdam">Potsdam</placeName><lb/>
+           26. an das Philosophische Seminar, Universität <placeName ref="Frankfurt/Main">Frankfurt/Main</placeName><lb/></p>
+           
+        <p>ausserdem vier Exemplare an <persName ref="P01930">mich selbst</persName>,
+           <placeName ref="Frankfurt/Main/Niederrad"><address><street>11, Vogelstrasse</street></address>
+           <hi rend="u">Frankfurt/Main/Niederrad</hi></placeName></p>
+           
+           
+        <p>Für die über zwanzig hinausgehenden Exemplare bitte ich mir die Rechnung zum Autorenpreis zuzusenden.
+        </p>
+        <closer>
+           <salute>Hochachtungsvoll<lb/> 
+              <persName ref="P01930">Professor D. Dr. Tillich</persName></salute>
+           <signed><ptr/><persName ref="P01930">Tillich</persName><note type="ea">[handschr.:]</note></signed>
+        </closer>    
+      
+     </div>
+    </body>
+  </text>
+</TEI>

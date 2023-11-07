@@ -1,0 +1,128 @@
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Oskar Siebeck an Paul Tillich 
+               <lb/>vom 1. April 1932
+            </title>
+            <author ref="P01782">Oskar Siebeck</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Sebastian Kueffner</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="Kopie">
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement>Berlin</settlement>
+                  <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz</repository>
+                  <collection>Handschriftenabteilung, Archiv des Verlages J. C. B. Mohr (Paul Siebeck)</collection>
+                  <idno>Nachl. 488, A 0469,5; Blatt 143-205</idno>
+               </msIdentifier>
+              
+               <physDesc>
+                  <p>Brief; Maschinenschriftlich-Durchschlag</p>
+                  </physDesc>
+            </msDesc>
+           
+            <biblStruct type="journal">
+               <monogr>
+                  <author>Alf Christophersen / Friedrich Wilhelm Graf</author>
+                  <title>„Beweise einer unsichtbaren Beziehung“ Die Korrespondenz zwischen Paul Tillich und dem Tübinger Verlag J. C. B. Mohr (Paul Siebeck)</title>
+                  <imprint>
+                     <pubPlace ref="Boston">Boston</pubPlace>
+                     <date when="2011-09-27">2011</date>
+                     <biblScope>S. 319f</biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title>International Yearbook for Tillich Research</title>
+                  <biblScope>Band 6 Heft 1</biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01782">Oskar Siebeck</persName>
+              <placeName ref="Tübingen">Tübingen</placeName>
+              <date when="1932-04-01">1. April 1932</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01930">Paul Tillich</persName>
+              <placeName ref="Frankreich/Riviera"><hi rend="u">z. Z. Menton-Gararan</hi><lb/><note type="foot" resp="unknown">eigentlich Garavan</note> 
+                 Riviera. Frankreich<lb/>
+                 Palace-Hotel Gararan
+              </placeName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="SK" when="2023-05-09">Intitale Auszeichnung des Transkripts</change>
+        
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+           <dateline><date when="1932-04-01">1. April 1932</date>
+           </dateline>
+         
+        </opener>
+        <p>Sehr verehrter <persName ref="P01930">Herr Professor</persName>, für Ihren freundlichen <bibl type="letter"><!-- 1932.03.25. Tillich, P an Siebeck, O -->Brief vom <date when="1932-03-25">25. v. Mts.</date></bibl> sage ich Ihnen meinen verbindlichsten Dank. Die erste Korrektur Ihrer <bibl><!--Tillich, Der junge Hegel und das Schicksal Deutschlands, in: Tillich, Hegel und Goethe. Zwei Gedenkreden (Sammlung gemeinverständlicher Vorträge und Schriften aus dem Gebiet der Theologie und Religionsgeschichte 158), Tübingen 1932-->Hegelrede</bibl> ist noch unter Ihrer <placeName ref="Frankfurt">Frankfurter</placeName> Adresse als Brief verschickt worden. Sie wird Ihnen von dort sicherlich nachgeschickt werden. Der Schluss der Fahnenkorrektur geht voraussichtlich gleichzeitig mit diesem Brief bei Ihnen ein.</p>
+        <p>Ihre <bibl><!--Tillich, Der junge Hegel und das Schicksal Deutschlands, in: Tillich, Hegel und Goethe. Zwei Gedenkreden (Sammlung gemeinverständlicher Vorträge und Schriften aus dem Gebiet der Theologie und Religionsgeschichte 158), Tübingen 1932--><persName ref="P00690">Goethe</persName>-Festrede</bibl> ist mir für die <bibl><!-- 
+Sammlung gemeinverständlicher Vorträge und Schriften aus dem Gebiet der Theologie und Religionsgeschichte, ersch. (1)1896- -->„Sammlung gemeinverständlicher Vorträge“</bibl> unter allen Umständen sehr willkommen. Ob wir sie mit dem <bibl><persName ref="P00839">Hegel</persName>-Vortrag</bibl> zusammen in einem Heft unterbringen können, hängt natürlich vom Umfang ab. Gerade in den letzten Wochen hatte ich zwei Fälle, in denen ich Autoren die Aufnahme längst in Aussicht gestellter Manuskripte in die <bibl><!-- 
+Sammlung gemeinverständlicher Vorträge und Schriften aus dem Gebiet der Theologie und Religionsgeschichte, ersch. (1)1896-  -->„Sammlung“</bibl> abgelehnte habe, weil sie die 3-Bogengrenze überschritten haben. Deshalb möchte ich möglichst von diesem Grundsatz keine Ausnahme machen.</p>
+        <p>An sich wäre es sehr verlockend, die beiden Manuskripte in einem Heft zusammenzufassen, das etwa heissen müsste:</p>
+        <p> <!-- Tillich, Hegel und Goethe. Zwei Gedenkreden (Sammlung gemeinverständlicher Vorträge und Schriften aus dem Gebiet der Theologie und Religionsgeschichte 158), Tübingen 1932 --><bibl>Goethe und Hegel<lb/>
+        Zwei Gedenkreden.</bibl></p>
+        <p>Am besten wäre es, wenn Sie mir das Manuskript auch der zweiten Rede so schnell als möglich übersenden liessen, damit ich Ihnen dann nach einer Berechnung des Druckumfangs meine endgültigen Vorschläge unterbreiten kann.
+        </p>   
+        <closer>
+           <salute>Inzwischen bin ich mit freundlichen Empfehlungen<lb/>
+              Ihr ganz ergebener</salute>
+           <signed> <ptr/><persName ref="P01782">Dr. O. Siebeck.</persName><note type="ea">[handschr.]</note></signed>
+        </closer>
+      
+     </div>
+    </body>
+  </text>
+</TEI>

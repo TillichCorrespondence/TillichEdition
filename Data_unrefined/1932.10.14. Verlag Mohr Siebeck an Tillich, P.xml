@@ -1,0 +1,121 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Verlag Mohr Siebeck an Paul Tillich
+               <lb/>vom 14. Oktober 1932
+            </title>
+            <author ref="P02445">Verlag Mohr Siebeck</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Sebastian Kueffner</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="Kopie">
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement ref="Berlin">Berlin</settlement>
+                  <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz</repository>
+                  <collection>Handschriftenabteilung, Archiv des Verlages J. C. B. Mohr (Paul Siebeck)</collection>
+                  <idno>Nachl. 488, A 0469,5; Blatt 143-205</idno>   
+               </msIdentifier>
+               <physDesc>
+                  <p>Brief; maschinenschriftlich; Durchschlag </p>
+                  </physDesc>   
+            </msDesc>
+            <biblStruct type="journal">
+               <monogr>
+                  <author>Alf Christophersen / Friedrich Wilhelm Graf</author>
+                  <title>„Beweise einer unsichtbaren Beziehung“ Die Korrespondenz zwischen Paul Tillich und dem Tübinger Verlag J. C. B. Mohr (Paul Siebeck)</title>
+                  <imprint>
+                     <pubPlace ref="Boston">Boston</pubPlace>
+                     <date when="2011-09-27">2011</date>
+                     <biblScope>S. 343f.</biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title>International Yearbook for Tillich Research</title>
+                  <biblScope>Band 6 Heft 1</biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P02445">Verlag Mohr Siebeck</persName>
+              <placeName ref="Tübingen">Tübingen</placeName>
+              <date when="1932-10-14">14. Oktober 1932</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01930">Paul Tillich</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="SK" when="2023-10-24">Intitale Auszeichnung des Transkripts</change>
+        
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        
+        <opener>
+           <dateline><date when="1932-10-14">14. Oktober 1932.</date></dateline>
+        </opener>
+        
+        <p>Sehr verehrter <persName ref="P01930">Herr Professor</persName>, der bevorstehende Semesterbeginn veranlasst mich, einer Absatzmöglichkeit meiner Verlagswerke besondere Aufmerksamkeit zu schenken, die in verschiedenen Universitätsstädten bisher noch ziemlich uneinheitlich gehandhabt wurde. Es handelt sich um die Lieferung von Hörerexemplaren, die nach den Vereinbarungen zwischen dem <placeName ref="Deutschland">Deutschen Hochschulverband</placeName> und den buchhändlerischen Organisationen an die eigenen Hörer der Verfasser am Ort ihrer Tätigkeit gegen Hörerscheine zu besonderen Hörerpreisen geliefert werden können. Unter diese Absatzmöglichkeit fallen auch Ihre bei mir erschienenen</p>
+        <p>Schriften<lb/>
+           <bibl><!-- Tillich, Hegel und Goethe. Zwei Gedenkreden (Sammlung gemeinverständlicher Vorträge und Schriften aus dem Gebiet der Theologie und Religionsgeschichte 158), Tübingen 1932 -->Goethe und Hegel (Sammlung gemeinverst. Vorträge 158)</bibl><lb/>
+           <bibl><!-- Tillich, Paul: Das Dämonische. Ein Beitrag zur Sinndeutung der Geschichte(Sammlung gemeinverständlicher Vorträge und Schriften aus dem Gebiet der Theologie und Religionsgeschichte. 119), Tübingen 1926 -->Das Dämonische ( "		 "		 "	 119)</bibl><lb/>
+           <bibl><!-- Tillich, Paul: »Kirche und Kultur« in: Tillich, Paul: Zwei Gedenkreden (Sammlung gemeinverständlicher Vorträge und Schriften aus dem Gebiet der Theologie und Religionsgeschichte, Heft 111), Tübingen 1924 -->Kirche und Kultur ( "		 "		 "	 111)</bibl></p>
+        <p>Sowie die von Ihnen herausgegebenen beiden <bibl><!--Paul Tillich: Kairos. (Hg): 1ter Band: Zur Geisteslage und Geisteswendung, Darmstadt Otto Reichl Verlag 1926 --><bibl><!-- Paul Tillich: Kairos. (Hg): 2ter Band: 
+Protestantismus als Kritik und Gestaltung, Darmstadt Otto Reichl Verlag 1929 -->Kairos-Bände</bibl></bibl>. Um den Bezug dieser Hörerexemplare möglichst reibungslos zu gestalten, habe ich mich deshalb mit der Firma Blazek und Bergmann, Buchhandlung, Goethestr. 34, mit der ich in laufendem Geschäftsverkehr stehe, in Verbindung gesetzt, die, wie sie mir mitteilt, gerne bereit ist, Ihre oben genannten Werke an Ihre Hörer gegen Hörerscheine mit einem Nachlass von 20% zu liefern.</p>
+        <p>Hörerscheine lt. beiliegendem Muster stehen Ihnen gerne in jeder Anzahl zur Verfügung.
+           Ich wäre Ihnen deshalb sehr dankbar, wenn Sie Ihre Hörer auf diese Bezugsmöglichkeit, die mir in Zeiten, wie den heutigen im Interesse aller Beteiligten zu liegen scheint, aufmerksam machen würden und verbleibe in vorzüglichster Hochachtung Ihr ergebenster         
+        </p>
+        <closer>       
+           <signed><ptr/>J. C. B. Mohr (<persName ref="P01783">Paul Siebeck</persName>).<note type="ea">[handschr.:]</note></signed>
+        </closer>
+      
+     </div>
+    </body>
+  </text>
+</TEI>

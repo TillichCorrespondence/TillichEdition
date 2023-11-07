@@ -1,0 +1,208 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Helmuth Schreiner an Paul Tillich <lb/>vom 6. Juni 1931</title> <!-- Einige Namen in diesem Brief sind unklar. PS -->
+            <author ref="P01741">Helmuth Schreiner</author> 
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement ref="Münster">Münster</settlement>
+                  <institution>Westfälische Wilhelms-Universität Münster</institution>
+                  <repository>Universitäts- und Landesbibliothek Münster</repository>
+                  <collection>Nachlass Helmuth Schreiner</collection>
+                  <idno>Kapsel 24: Briefwechsel 1924-1928 +1929-1931, 24,083</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Maschinenschriftlich</p>
+               </physDesc>
+               <additional>
+                  <!-- Wenn Brief bereits publiziert hier die richtige Struktur aussuchen -->
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel der Monographie<!--></title>
+                           <edition><!-->Auflage<!--></edition>
+                           <imprint>
+                              <publisher><!-->Herausgeber<!--></publisher>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Reihe<!--></title>
+                           <biblScope><!-->Reihennummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                     <biblStruct type="journal" n="reprint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel des Aufsatzes<!--></title>
+                           <imprint>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Zeitschrift<!--></title>
+                           <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <biblStruct type="monograph">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien überliefert sind und im Original nicht mehr vorhanden!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel der Monographie<!--></title>
+                  <edition><!-->Auflage<!--></edition>
+                  <imprint>
+                     <publisher><!-->Herausgeber<!--></publisher>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Reihe<!--></title>
+                  <biblScope><!-->Reihennummer<!--></biblScope>
+               </series>
+            </biblStruct>
+            <biblStruct type="journal">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften überliefert sind und im Original nicht mehr vorhanden<!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel des Aufsatzes<!--></title>
+                  <imprint>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Zeitschrift<!--></title>
+                  <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P01741">Helmuth Schreiner</persName>
+
+               <date when="1931-06-06">6. Juni 1931</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P01930">Paul Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2023-07-10">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener><dateline>
+                  <date when="1931-06-06">6. Juni</date></dateline>
+               <salute>Lieber <persName ref="P01930">Tillich</persName>!</salute>
+            </opener>
+            <p>Wie mir <persName ref="P01758">Schweitzer</persName> mitteilte hast Du an meinem
+               Auftreten in dem Grosz- und Scheuen-Prozess Anstoss genommen. Das tut mir von Herzen
+               leid. Ich nehme aber an, dass Du weder meine Ausführung in der Zeitwende gelesen
+               hast, noch meine speziellen Gutachten kennst. Das ist ungerecht. Woher weisst Du, was
+               ich im Scheuen-Prozess überhaupt gesagt habe? Was die "Voss." darüber berichtet hat,
+               ist geradezu lächerlich entstellt. Warum hältst Du Dich denn nicht an den Vorwärts?
+               Ich bitte Dich auch einmal bei Herrn Dir. Krebs vom Lindenhof Nachricht einzuholen.
+               Er ist Mitglied der Soz.Dem. Partei. Ich bin mit ihm ganz einig gewesen. Wir
+               unterscheiden uns allerdings von den Herren Schloss und Bondy gründlich; vor allem
+               von Bondy, der keine Ahnung von den wirklichen Schwierigkeiten hat. Auch Krebs war
+               jahrelang Leiter eines Jugendgefängnisses. Er hat wiederholt darauf hingewiesen, dass
+               die Leitung eines Jugendgefängnisses ein Kinderspiel ist, gegenüber der Leitung einer
+               Fürsorge-Erziehungsanstalt.</p>
+            <p>Aber warum fragst Du mich nicht einmal selbst? Hast Du noch nie einmal etwas von der
+               Krisis der Gerichtsberichterstattung gelesen? Im Neuwerk hat kürzlich darüber etwas
+               sehr Vernünftiges ge<pb n="2"/>standen. Nun möchte ich Dir folgenden Vorschlag
+               machen. Wenn Du denkst, der Berneuchener Kreis würde durch meine Stellungnahme
+               kompromittiert, dann bin ich gern bereit auszuscheiden. Ich werde dementsprechend in
+               den nächsten Tagen an <persName ref="P01618">Ritter</persName> schreiben, denn ich
+               möchte nicht, dass Ihr in eine üble Lage kommt. Auf der andern Seite möchte ich aber
+               betonen und herzlich darum bitten, dass durch diesen Austritt mein bisheriges
+               Verhältnis zu Dir nicht getrübt wird. Ich bin nun einmal gern in Deiner Nähe und sei
+               es auch als Ketzer. Leider hat mir <persName ref="P01758">Schweitzer</persName> den
+               Text Deines Briefs nicht gezeigt.</p>
+            <closer>
+               <salute>Mit herzlichem Gruss</salute>
+               <signed>stets Dein getreur</signed>
+            </closer>
+
+            <postscript>
+               <p/>
+            </postscript>
+
+         </div>
+
+      </body>
+   </text>
+</TEI>
