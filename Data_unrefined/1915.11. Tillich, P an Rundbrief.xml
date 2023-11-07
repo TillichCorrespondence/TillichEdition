@@ -1,0 +1,279 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rundbrief von Paul Tillich an Margarethe Wever, Johannes Tillich und Marie
+               Tillich <lb/>vom November 1915 </title>
+            <author ref="Paul Tillich">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974.</collection>
+                  <idno>bMS 649/193(13)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+               <additional>
+                  <!-- Wenn Brief bereits publiziert hier die richtige Struktur aussuchen -->
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien stammen<!-->
+                        <monogr>
+                           <author>Paul Tillich</author>
+                           <title>Ein Lebensbild in Dokumenten. Briefe, Tabuch-Auszüge,
+                              Berichte.</title>
+                           <edition>1. Auflage</edition>
+                           <imprint>
+                              <publisher>Renate Albrecht</publisher>
+                              <publisher>Margot Hahl</publisher>
+                              <pubPlace ref="Stuttgart">Stuttgart</pubPlace>
+                              <date when="1980">1980</date>
+                              <biblScope>91-95</biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title>Ergänzungs- und Nachlassbände zu den Gesammelten Werken von Paul
+                              Tillich</title>
+                           <biblScope>Band V</biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="Paul Tillich">Paul Tillich</persName>
+               <placeName ref="ohne Ort">ohne Ort</placeName>
+               <date when="1915-11">November 1915</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="Margarethe Wever">Margarethe Wever</persName>
+               <persName ref="Johannes Tillich">Johannes Tillich</persName>
+               <persName ref="Marie Tillich">Marie Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2022-06-07">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <p>Tagelang wurde von nichts anderem gesprochen, als von dem "Angriff". Die Gegensätze
+               der oberen Instanzen wurden bekannt, die Truppe und ihre unmittelbaren Führer waren
+               dagegen; aus höheren Rücksichten wurde es durchgedrückt. Der Vorabend war dumpf und
+               drückend, wie Schlachtvorabende in alten Berichten geschildert werden; wie immer
+               saßen <persName ref="???">Ebermann</persName>, <persName ref="Ernst (?) Kappel"
+                  >Kappel</persName> und ich im Zimmer; ich schrieb die Stimmung nieder in einem
+                  <bibl type="letter" sameAs="Brief liegt nicht vor">Brief an <persName
+                     ref="Margarete Wever">Greti</persName></bibl>; dann gingen wir ins Bett.</p>
+            <p>Morgens 9 Uhr standen die Dokarts von <persName ref="Ernst (?) Kappel"
+                  >Kappel</persName> und mir mit den nötigsten Sachen für ein paar Tage, einem
+               Kopfkissen, einigen Decken, Büchsen u. s. w. bereit zur Abfahrt in den Unterstand.
+                  <persName ref="Exzellenz von Bonin">Exzellenz</persName> und <persName
+                  ref="Erich Pfeiffer">Pfeifer</persName> waren für die Gefechtstage in einen andern
+               gegangen. So wurde dieser für uns frei; und das war bei der weiten Entfernung unseres
+               Quartierortes von den Hauptarbeitsstätten nötig. Wie der Unterstand aussieht, wißt
+               Ihr ja aus dem Bild; er ist so gut und sicher wie nur irgend einer und würde selbst
+               einen schweren Volltreffer zur Not aushalten; rechts und links, vorn und hinten
+               stehen schwere Batterien; und jedesmal wenn einer der 21er Mörser einen Schuß
+               abfeuert, bebt die Erde und alles wackelt, die Pferde zittern; nur der Mensch gewöhnt
+               sich so bald daran, daß er nicht mehr hinhört. – Rechts und links von unserem
+               Unterstand befinden sich übrigens die der Leute, Burschen, Stabswache, Ordonnanzen
+               u. s. w. Unser Unterstand hat ein "Wohn- und ein Schlafzimmer", d. h. der Hauptraum,
+               der von einem Tisch mit Stühlen ringsherum gänzlich ausgefüllt ist, geht nach links
+               einige Stufen tiefer in ein Loch mit 2 Holzgestellen und einem Gang dazwischen; auf
+               dem Holz liegt ein Strohsack; und <sic>halbangezogen</sic>, mit 2 Decken über einem,
+               träumt man dort trotz Mörser und Granaten die süßesten Träume.<pb n="2"/> Fenster
+               gibt es übrigens nicht, so daß man immer Kerzen brennen muß, was am Tage nicht sehr
+               sympathisch ist. ---</p>
+            <p>Dort kamen wir also um 10 an, räumten ein und warteten des Schlages 11, wo die
+               Kanonade beginnen sollte; es war kein Trommelfeuer, das unsere Batterien machten, und
+               doch dröhnte ununterbrochen Schuß auf Schuß. In dem engen Tal hörten wir nur das
+               Feuern der nächsten Batterien; erst wenn man etwas auf die Höhe ging, brauste einem
+               der ganze Höllenlärm um die Ohren. Inzwischen aßen wir friedlich Mittag, das unten
+               Gekochte wurde warm gemacht und schmeckte trefflich.</p>
+            <p>Um 2 Uhr gingen wir über die Höhen zum Tunnel. Jenseits der Straße <hi rend="aq"
+                  >Somme-Pi-Souain</hi> lagerten die Qualmwolken der französischen Granaten; es war
+               wie ein unaufhörliches Prasseln, wie in einem Hexenkessel brodelte und zischte es;
+               wir waren wie eingesponnen von den Flugbahnen unserer Geschosse... . Am Bahndamm im
+               Unterstand lag ein schwerverwundeter Bayer; <persName ref="Ernst (?) Kapell"
+                  >Kapell</persName> gab ihm die letzte Ölung. Im Tunnel wimmelte es von Truppen,
+               alle in gehobener Stimmung, wie sie immer eintritt, wenn unsere Artillerie schießt.
+               Am Tunnelausgang oben im Wald standen die Feldkanonen; die letzte halbe Stunde vor
+               dem Sturm ist gekommen; es wird herausgeschossen was noch da ist; wie ein unerhörtes
+               Sturmesbrausen rast es über den Bahneinschnitt hinweg. Der Gegner antwortet: Seine
+               Granaten krepieren an den Bahnabhängen; es ist 4 Uhr; etwas stiller ist es schon,
+               still wird es in uns vor Erwartung. Wir trinken mit den Ärzten im Eisenbahnwagen, dem
+               Bataillons-Stabs-Quartier, Kaffee. Ein Leutnant sitzt am Telephon; endlich wird der
+               Major vom Oberst gerufen: "Angriff der ... Divisionen schreitet gut vorwärts."<pb n="3"
+               /> Der Major tritt an die Schiebetür des Viehwagens und ruft es den Leuten zu; ich
+               stehe unter den Mannschaften, krieche mit ihnen den künstlichen Sprengtrichter hinauf
+               und lasse Blitz und Donner über mich weggehen. Jetzt wird das Artillerie<space
+                  dim="horizontal"/>wäldchen mit Gasgranaten belegt; weißer Qualm zieht sich zu uns
+               herüber und verstänkert die Kleider; verirrte Gewehrkugeln singen hier und dort wie
+                  zwitsche<add resp="PS">r</add>nde Vögel --- Die ersten Gefangenen werden gemeldet;
+               wir gehen zum andern Tunnelausgang; dort liegen schon Verwundete, auch verwundete
+               Franzosen mit ihren bläulich-grauen Stahlhelmen. Aber wir müssen weiter, immer am
+               Bahndamm entlang zu einer andern Verbandsstelle. Trupps Gefangener werden
+               vorbeigeführt. Verschüttete begegnen uns, die kaum vorwärts kommen. Wir nehmen sie an
+               den Arm, rechts ein Wiesbadener, links ein Posener, so humpeln wir den Bahndamm
+               entlang. Neue Verwundete -- weiter nach Lager "Neupaderborn", wo mehrere Bataillone
+               liegen; es ist stiller geworden und Nebeldunst verhüllt den Vollmond; hier wird in
+               enger Hütte der erste flüchtige Verband angelegt..., dunkle Gruppen-, Sanitätswagen;
+               wir gehen zurück zum Tunnel, neue Verwundete; es ist 2 Uhr Nachts, und wir gehen
+               zurück, im Mondschein und Nebel den Weg verfehlend, endlich auf einer Protze in
+               Rippen-zerbrechendem Schubtrab nach Haus in den Unterstand.</p>
+            <p>Das volle Kampfziel ist nicht erreicht, das sickert allmählich durch; und so kam der
+                  31<hi rend="sup">te</hi>, der Tag der Angriffe und
+               Gegenangriffe, des furchtbarsten Ringens. Um Mittag standen wir auf einer Höhe; es
+               war so gewaltig, daß die ganze Erde wie das Fell einer Trommel schien, auf das ein
+               Rasender einschlägt. – Und dann bei Einbruch der Dunkelheit marschierten wir los. Es
+               war das gewaltigste militärische und kriege<pb n="4"/>rische Schauspiel, das ich je
+               gesehen, vielleicht eins der großartigsten überhaupt. Nirgends im ganzen russischen
+               Feldzug, vielleicht überhaupt niemals, ist so viel schwere Artillerie auf beiden
+               Seiten in einem verhältnismäßig kleinen Punkt vereinigt gewesen; die Erde bebte jetzt
+               buchstäblich, die Blitze der Abschüsse zuckten ununterbrochen an allen Teilen des
+               Schlachtfeldes. Die Einschläge <del rend="s">zuckt</del> flammten wie Leucht- und
+               Glut-Kugeln, und die Leuchtraketen verbreiteten Tageshelle. Drüben auf der Höhe
+               schlugen französische Brandgranaten ein; Fontänen von Feuer spritzen in die Höhe;
+               Schwefeldämpfe lagern auf dem Plateau über das wir gehen; ich taumelte mehr als ich
+               ging vor der sinnverwirrenden Größe der Eindrücke. Das eigne Leben wurde wie ein Atom
+               in diesem Toben der Elemente durch Menschen gegen Menschen; aber in mir bohrte ein
+               bitterer Schmerz über das Leiden und Sterben, was jede dieser Sekunden über meine
+               armen Regimenter bringt. Endlich, halb bewußtlos, begleitet von dem Brausen der
+               Schlacht, steigen wir in den Tunnel hinab. Das Bataillon ist abgerückt und liegt in
+               Bereitschaft, d.h. Tag und Nacht in Gräben ohne Dach und Unterstand ausgesetzt dem
+               feindlichen Feuer.</p>
+            <p>Wieder gehen wir die alten Wege und hören an allen Ecken die trübe Nachricht: Nur ein
+               geringer Teil des Beabsichtigten erreicht, große Verluste, viele Gefangene verloren,
+               von der eigenen Artillerie beschossen, die Nebenregimenter nicht mitgegangen u. s. w.
+               wie es nach jeder derartigen Sache durch die Luft schwirrt. Wir zweifeln und fürchten
+               und hoffen. Auf einem Lastwagen gehts zurück durch die blutige Nacht. Am Wegekreuz
+               unten kommen ein paar Jäger an. Es war 11 Uhr nachts; und sie erzählen: <persName
+                  ref="Bartenstein">Bartenstein</persName> ist gefallen. Und was nun kam, will ich
+               morgen berichten.</p>
+            <p><persName ref="Margarete Wever">Greti</persName> - <persName
+                     ref="Johannes Tillich">Papa</persName> - <persName ref="Marie Tillich"
+                     >Großmama</persName></p><pb n="5"/> <p>Mein letzter Bericht schloß mit dem Augenblick, wo am
+               31. Abends um 11 der Jäger mir den Tod <persName ref="Bartenstein"
+                  >Bartensteins</persName> berichtete; wir kannten uns von Anfang an; wir kamen uns
+               näher, als sein Vater starb und er mir viel davon erzählte; dann wurde er auf 14 Tage
+               stellvertretender Brigadeadjudant und wir gingen öfters zusammen in den Wald und
+               seine Jägerliebe für alles, was kreucht und fleucht, <choice>
+                  <sic>seine</sic>
+                  <corr>sein</corr>
+               </choice> feines Ohr für alle Stimmen in der Natur, seine Jagderzählungen, und die
+               Erzählungen von seiner Brautzeit und eben geschlossenen Ehe, die Bilder von seinem
+               Kriegsmädel und seiner "Hochzeitsreise", wie wir, nach <placeName ref="Koblenz"
+                  >Koblenz</placeName> und <placeName ref="Assmannshausen">Aßmannshausen</placeName>
+               ... das alles spann Fäden der Sympathie zwischen uns. Und dann kam die Beerdigung von
+                  <persName ref="Baumann">Baumann</persName>; <persName ref="Bartenstein"><choice>
+                     <abbr>Bart.</abbr>
+                     <expan>enstein</expan>
+                  </choice></persName> hatte die Nacht vorher 30 Franzosen gefangen genommen, ohne
+               einen Mann zu verlieren, ein echter Jägerstreich; als ich ihn begrüßte, erschrak ich;
+               sein Gesicht war verändert durch die Anstrengungen und – durch Todesahnungen. Nachher
+               kam er zu mir; ich schleppte Kaffee und Mittag- und Abendbrot, alles in einer Stunde
+               heran; er konnte sich bei mir waschen, der höchste Genuß seit 14 Tagen; dann ging er,
+               und ich war voll Sorge um ihn, und mit mir noch andere, die ihn gesehen hatten. Um
+               meiner Frau willen möchte ich zurückkehren ... hatte er mir öfters gesagt ... nun ist
+               sein Wunsch nicht erfüllt worden. Das alles, und vor allem der Gedanke an seine Frau
+               durchtobte mich. Ich konnte nicht ins Bett; ich schickte <persName
+                  ref="Ernst (?) Kapell">Kapell</persName> weg und ging zum Hauptverbandsplatz; und
+               das war gut; denn entgegen der Verabredung war niemand da ... so blieb ich denn die
+               Nacht im Schwerverwundetensaal. Stunde auf Stunde verrann, Wagen kamen, Autos fuhren,
+               immer wieder neue, erst in den Verbandsraum, dann zu mir in die Baracke. Irgendwann
+               trank ich Kaffee in der Verwundetenküche; alle Stunde schlugen <pb n="6"/> 5 Granaten
+               auf der Höhe nebenan ein, daß man herausging und dann die Verwundeten beruhigte; es
+               waren ganz alte und ganz junge, <sic>Bekante</sic> und neue aus den neuen
+               Sturmregimentern; jeder erzählte etwas anderes, jeder erzählte, daß die eigne
+               Artillerie ihn verwundet hätte, alle waren trüb und elend; wenige stöhnten, nur einer
+               mußte amputiert werden, fast jede Stunde starb einer und wurde hinausgetragen, rechts
+               und links die Wache bildend zum Eingang. 20 waren es geworden, als die Nacht zu Ende
+               ging, und sie ging zu Ende. Grau und fahl beleuchtete der Morgen Verwundete und Tote;
+               dann telegraphierte ich an <persName ref="Kapell">Kapell</persName>, er solle mich
+               ablösen, ob evangelisch oder katholisch, was macht es in diesen Stunden! Um 9 Uhr kam
+               er. Und ich fuhr ab; um 10<hi rend="sup"><hi rend="u">30</hi></hi> lag ich im
+               Unterstand und schlief bis 5 Uhr Nachm. Dann ging es die alten Wege. Auf dem
+               Hauptverbandplatz war <persName ref="Dohrmann">Dohrmann</persName>; bei einem Glase
+               Bier dachten wir an vergangene Zeiten; er blieb die Nacht da; wir gingen zurück 1 <choice>
+                  <abbr>St.</abbr>
+                  <expan>unde</expan>
+               </choice> gegen Regen und Sturm durch 30 cm Kalkschlamm, Schritt für Schritt. Bis zu
+               den Knien war eine glatte, weiße Schicht... .</p>
+            <p>Nachmittag war <persName ref="Bartenstein">Bartensteins</persName> Beerdigung. Ich
+               konnte und wollte nicht reden; aber die Liturgie hielt ich, wie für <persName
+                  ref="Baumann">Baumann</persName>; es waren die drei schwersten Hände Erde im
+               ganzen Krieg und sie blieben kleben als weißer Lehm, daß man sie hinabschleudern
+               mußte. Dann war alles vorbei; aber 2 Stunden später lagen 7 sarglose Leichen
+               nebeneinander vor mir und ich sprach etwas, aber meine Seele war bei dem einen Grab
+               ... und so ist es geblieben bis heut; Tag für Tag, zwei oft dreimal ...</p>
+            <p>Aber die <hi rend="aq">Butte de Tahure</hi> ist fest in unsern Händen. </p>
+            <postscript>
+               <p><persName ref="Margarete Wever">Greti</persName> - <persName
+                     ref="Johannes Tillich">Papa</persName> - <persName ref="Marie Tillich"
+                     >Großmama</persName></p>
+            </postscript>
+
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,123 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Paul Tillich an Maria Klein <lb/>vom 16. Mai 1915 </title>
+            <author ref="Paul Tillich">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divnity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974.</collection>
+                  <idno>bMS 649/178(8)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="Paul Tillich">Paul Tillich</persName>
+               <placeName ref="ohne Ort">ohne Ort</placeName>
+               <date when="1916-05-16">16. Mai 1916</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="Maria Klein">Maria Klein</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2022-05-10">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <dateline> d. <date when="1916-05-16">16. Mai</date></dateline> <salute>Liebe
+                  Maria!</salute>
+            </opener>
+            <p>Die Rede von <persName ref="Ernst Troeltsch">Tröltsch</persName> habe ich bekommen.
+               Sie hat mir viel Freude gemacht; es ist Geist drin, sogar Wahrheit, allerdings nicht
+               nur; der Relativismus ist zu wenig ernst bekämpft. Hab vielen Dank dafür! – Daß
+                  <persName ref="Hans Christiansen">H.</persName> bei <placeName ref="Verdun"
+                  >Verdun</placeName> ist, ist natürlich schwer für Dich; aber es mußte ja auch im
+               Westen endlich mal zu Entscheidungen kommen; und jeder kann stolz sein, der dabei
+               mitwirkt. – Warum ich Dir nicht schreibe;<pb n="2"/> Vor allem deshalb nicht, weil
+               ich seit Februar 6 mal das Quartier gewechselt habe; und jedesmal ganz neue
+               Arbeitsaufgaben zu bewältigen waren. Augenblicklich wohne ich auf einem reizenden
+               kleinen Landhaus in herrlichster Natur, mit Sammlungen, Billard u. s. w., Berge,
+               Viehweiden und lauter ungewohnte Friedensbilder. Erzähl mir mal wieder was von
+                  <placeName ref="Lichtenrade">Lichtenrade</placeName>; wo ist Dein <persName
+                  ref="Ernst August Ferdinand Klein">Vater</persName>? Ist er aus dem Sanato<pb
+                  n="3"/>rium zurück? Wie gehts <persName ref="L. Klein???">Mutti</persName>? Was macht <persName
+                  ref="Richard Wegener">Dox</persName>? Er schrieb mir lange nicht. Im März war ich
+               8 Tage auf Urlaub, mit <persName ref="Margarete Tillich geb. Wever"
+               >Greti</persName>Greti in <placeName ref="Dresden">Dresden</placeName>; herrliche
+               Tage. Die berühmte Habilitation ist in diesem Semester wenn ich Urlaub nehmen kann
+               was sehr zweifelhaft ist. – Das ist das Sachliche; und darüber hinaus? <hi rend="u"
+                  >Das zu geben ist Eure Sache</hi> denn darin haben wir Mangel, nicht an Äußerem.
+               Wir verlieren nur. Ihr solltet uns helfen, etwas zu behalten durch Berichte,
+               Gedanken, Leben, Geist… Diese "Liebesgabe" erhoffe ich von Dir.</p>
+            <closer>
+               <signed>Dein <persName ref="Paul Tillich">Paul</persName></signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

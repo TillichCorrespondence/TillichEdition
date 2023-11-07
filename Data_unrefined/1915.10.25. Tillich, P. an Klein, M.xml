@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von Paul Tillich an Maria Klein
+                    <lb/>vom 25.10.1915
+                </title>
+                <author ref="Paul Tillich">Paul Tillich</author>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Emil Lusser</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+                    <address>
+                        <street>Schenkenstraße 8-10</street>
+                        <postCode>1010</postCode>
+                        <placeName ref="Wien">
+                            <settlement>Wien</settlement>
+                            <country>Österreich</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+                </availability>        
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="typoscript">
+                    <msIdentifier>
+                        <country>USA</country>
+                        <settlement>Cambridge, MA</settlement>
+                        <institution>Harvard University</institution>
+                        <repository>Harvard Divinity School Library</repository>
+                        <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974</collection>
+                        <idno>bMS 649/178(7)</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>Kopie einer Handschrift</p>
+                    </physDesc>
+                    <additional>
+                        <listBibl>
+                            <biblStruct type="monograph" n="firstPrint">
+                                <monogr>
+                                    <author><persName ref="Paul Tillich">Paul
+                                        Tillich</persName></author>
+                                    <title><bibl>Ein Lebensbild in Dokumenten. Briefe,
+                                        Tagebuch-Auszüge, Berichte</bibl></title>
+                                    <edition>1. Auflage</edition>
+                                    <imprint>
+                                        <publisher><persName ref="Renate Albrecht">Renate
+                                            Albrecht</persName>/<persName ref="Margot Hahl"
+                                                >Margot Hahl</persName></publisher>
+                                        <pubPlace ref="Stuttgart">Stuttgart</pubPlace>
+                                        <date when="1980">1980</date>
+                                        <biblScope>115f.</biblScope>
+                                    </imprint>
+                                </monogr>
+                                <series>
+                                    <title>Ergänzungs- und Nachlassbände zu den gesammelten Werken
+                                        von Paul Tillich</title>
+                                    <biblScope>Bd. V.</biblScope>
+                                </series>
+                            </biblStruct>
+                        </listBibl>
+                    </additional>   
+                </msDesc>       
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+            </editorialDecl>
+        </encodingDesc> 
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="Paul Tillich">Paul Tillich</persName>
+                    <placeName ref="Liry">Liry</placeName>
+                    <date when="1915-10-25">25.10.1915</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="Maria Klein">Maria Klein</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="deu">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="EL" when="2022-05-09">Intitale Auszeichnung des Transkripts</change>
+            <change who="Initialien des Editors" when="1886-08-20"><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+            
+            
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <div type="writingSession1">
+                <pb n="1"/>
+                <opener><dateline><unclear cert="high" reason="illegible"><placeName ref="Liry">Liry</placeName></unclear> d.<expan>en</expan> <date when="1915-10-25">25. Okt. 1915</date>.</dateline>
+                    <salute>L.<expan>iebe</expan> <persName ref="Maria Klein">Maria</persName>!</salute>
+                </opener>
+                <p>Deinen Brief erhielt ich als einzigen in den drei Tagen, wo wir in der Gegend von <placeName ref="Nailly">Nailly</placeName> lagen. Schon damals war die bezeichnete Batterie nicht mehr da. Jetzt sind wir seit 14 Tagen in der <placeName ref="Champagne">Champagne</placeName> im Gewühl der wüstesten Schlacht dieses Krieges, die noch immer andauert und zu dem Schrecklichsten gehört, was er gebracht hat ...
+                    Wir liegen in einem ziemlich üblen Quartier zu dreien in einem Zimmer. Tag und Nacht ein ungeheures Getriebe vor <sic>unsrem</sic> Haus. Truppen aller <unclear reason="illegible" cert="high">Waffengattungen</unclear>, aller <unclear reason="illegible" cert="high">Nummern</unclear>, <placeName ref="Preußen">Preußen</placeName>, <unclear reason="illegible" cert="high"><placeName ref="Bayern">Bayern</placeName></unclear>, <placeName ref="Sachsen">Sachsen</placeName> ... vielleicht ... Es ist ein riesiges Feldlager<note type="ea"><hi>Name des Feldlagers recherchieren</hi></note> von vielen Quadrat-Kilometern, Lager an Lager, Stellung neben Stellung; dabei alles öde, dürre, unfruchtbare Gegend, Kalkwellen, Kiefernwäldchen, zertretene Täler. Es fließt täglich viel, sehr viel Blut in diesen dürren Kalk, zuweilen an einem Tag so viel wie in einem Monat bei <placeName ref="Soissons">Soissons</placeName>; nach übereinstimmendem Zeugnis aller, die aus <placeName ref="Russland">Rußland</placeName> zurück sind, viel schlimmer als dort. Ob wir lange hierbleiben, ist zweifelhaft; niemand wünscht es ...<pb n="2"/>Es waren doch schöne Tage im September und gut, daß ich nicht länger gewartet hatte; denn längst ist aller Urlaub verboten. Was macht der Studienplan fürs Wintersemester? Ich bin neugierig auf <persName ref="Elisabeth Klein">Lisas</persName> <sic><persName ref="Ernst Troeltsch">Tröltzsch</persName></sic>-Bericht. Was hat man doch alles in der Kultur an Geist und Menschen, Freunden  und – Freundinnen, und hier! Und so aussichtslos ist der Krieg!</p>
+                <closer><salute>Mit herzlichen Grüßen und den besten Wünschen fürs neue Semester bin ich Dein tr.<expan>euer</expan></salute> <signed>Paul T.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>    
+</TEI>
+

@@ -1,0 +1,155 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Hans Balke an Paul Tillich <lb/>vom 21. Januar 1908 </title>
+            <author ref="P00128">Hans Balke</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974.</collection>
+                  <idno>bMS 649/122(40)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P00128">Hans Balke</persName>
+               <placeName ref="Halle a. d. S.">Halle a. d. S.</placeName>
+               <date when="1908-01-14">14. Januar 1908</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P01930">Paul Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2022-08-23">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <dateline><placeName ref="Halle a. d. S.">Halle a. S.</placeName>, den <date
+                     when="1908-01-14">14. Jan. 08.</date></dateline>
+               <salute>Lieber <persName ref="P01930">Paul</persName>,</salute>
+            </opener>
+            <p>Was hast Du nun für Geschichten gemacht! Hoffentlich geht es weiterhin gut, so dass
+               Dich mein Gruss weit besser findet als damals, wo Du mir <bibl type="letter">diese
+                  betrübliche Nachricht</bibl> sandtest. Also von Herzen gute Besserung! Geduld hast
+               Du gewiss auch ohne meinen Wunsch schon genug. Wie gerne käme ich mal eben herüber u.
+               schaute mal bei Dir herein. Aber ich habe hier vollauf zu tun. Daran liegt's auch,
+               dass ich Dir erst heute schreibe. Der Anfang des Quartals verlief sehr nett. Dass
+                  <persName ref="P02159">Voget's</persName> Vater in den Ferien gestorben ist, hast
+               Du gewiss schon gehört. Mein lieber Lbfx ist sehr traurig u. noch stiller als sonst.
+               Der Schlag kam auch für menschliches Verstehen zu früh u. plötzlich. Nun ist auch
+               noch der Vater eines Krassen, <persName ref="P02160">Oberschmidt</persName>, Lbfx von
+                  <persName ref="P02161">Nickelby</persName>, gestorben.<pb n="2"/> Ich hatte am
+               Sonnabend meine Seminarpredigt gehalten u. folgte Deinem Beispiele, indem ich zweimal
+               stecken blieb. Das hat mich nicht weiter betrübt, besonders, da <persName
+                  ref="P01201">Loofs</persName> am nächsten Tage wiederholt sein Konzept benutzte.
+               Die Rezension zu meiner Predigt war ziemlich platt, nur ein wichtigerer Punkt wurde
+               von <persName ref="P00845">Heim</persName> anerkannt. Meine Rezension des D.C.S.V.
+               an <unclear cert="high"><persName ref="P02162">Varchmin</persName></unclear>, der mir
+               aus den Verhandlungen mit <persName ref="P02152">Herrn Schlemm</persName> bekannt
+               war, war sehr scharf u. so abgefasst, dass sich an mehreren Stellen beim Vorlesen
+               schallendes Gelächter erhob. <persName ref="P00845">Heim</persName> besprach leider
+               nur die Punkte, die sich auf das Allgemeine bezogen u. stimmte denen vollständig bei;
+               über meine zahlreichen frechen Einzelprolesen hatte er keine Zeit mehr sich zu
+               äussern, doch werde ich ihm deswegen auf die Bude rücken. Ich freue mich, dass das
+               jetzt hinter mir liegt, wenn auch noch immer nicht<pb n="3"/> Ruhe eintritt, da am
+               Freitag schon der Reichskommers mit der eines Hallenser x eigentlich unwürdigen,
+               gänzlich unangebrachten Kaiserrede folgt u. nach neuen acht Tagen unser
+               Kaiserkommers. Hoffentlich kannst Du zur Missionskneipe wieder ganz gesund
+               herüberkommen,
+               <persName>Hermann</persName><!-- Unklar, wer hier gemeint ist. Witte? Schafft? -->
+               will bestimmt erscheinen. Der letzte Sonntag verlief für mich ganz famos. Morgens
+               hörte ich eine wirklich hervorragende Predigt von <persName ref="P01201"
+                  >Loofs</persName> über die wahre Ehre, die fast wörtlich nach <placeName
+                  ref="Trotha">Trotha</placeName> vorzüglich gepasst hätte. Wenn sie gedruckt wird,
+               musst Du sie lesen! Nach Tisch wanderte ich durch die herrliche Schneelandschaft mit
+                  <persName ref="P02095">H. Witte</persName> zu den Steinbrücken u. <hi rend="sup"
+                  >wir</hi> gedachten dort Deiner mit Sehnsucht u. Wehmut. Bei <persName
+                  ref="P02095">Wittes</persName> trank ich dann in der Dämmerung gemütlich eine
+               Tasse Caffee. Abends gemeinsamer Familienabend in der Heide; hoffentlich hast Du die
+               scheussliche Karte erhalten?</p>
+            <pb n="4"/>
+            <p>die ganze Familie Meinhof, die durch uns angeregt, auch ins Waldhaus gewandert war,
+               setzte sich ein Stündchen zu uns, man war allgemein sehr fidel u. fröhlich. Hin- u.
+               Rückweg im Mondschein u. Schnee war prachtvoll.</p>
+            <p>Gestern hat sich auf dem Konvent <persName ref="P01295">Dein Lbfx</persName> von
+               einem offiziellen Abend der Verbindung dispensieren lassen, weil er den für sein
+               Studium nötig hat u. zwar abwechselnd von einer Kneipe u. einem Fuxkränzchen. Es ist
+               ja ein besonderer Ausnahmefall, aber es war nötig. Sonst hat er wieder neuen Mut,
+               hoffentlich kommt er langsam vorwärts.</p>
+            <closer>
+               <salute>Herzl. Grüsse an Deine lb. Hausgenossen. Recht baldige Genesung wünscht Dir </salute>
+               <signed>Dein tr. <persName ref="P00128"><hi rend="u">Hans</hi></persName>.</signed>
+            </closer>
+
+            <postscript>
+               <p><!-->wenn vorhanden<!--></p>
+            </postscript>
+
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von Paul Tillich an Fritz Medicus
+                    <lb/>vom 04.01.1915
+                </title>
+                <author ref="Paul Tillich">Paul Tillich</author>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Emil Lusser</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+                    <address>
+                        <street>Schenkenstraße 8-10</street>
+                        <postCode>1010</postCode>
+                        <placeName ref="Wien">
+                            <settlement>Wien</settlement>
+                            <country>Österreich</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+                </availability>        
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="manuskript">
+                    <msIdentifier>
+                        <country>Schweiz</country>
+                        <settlement>Zürich</settlement>
+                        <institution>Eidgenössische Technische Hochschule Zürich</institution>
+                        <repository>Hochschularchiv</repository>
+                        <collection>Katalogeinträge Nachlassgut, handschr. Bde/ Schriftstücke</collection>
+                        <idno>Hs 1377:698</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>Kopie einer Handschrift</p>
+                    </physDesc>   
+                </msDesc>       
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+            </editorialDecl>
+        </encodingDesc> 
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="Paul Tillich">Paul Tillich</persName>
+                    <placeName ref="Bieuxy">Bieuxy</placeName><!--/--><placeName ref="Aisne">Aisne</placeName>
+                    <date when="1914-09-25">25.09.1914</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="Fritz Medicus">Fritz Medicus</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="deu">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="EL" when="2022-04-21">Intitale Auszeichnung des Transkripts</change>
+            <change who="Initialien des Editors" when="1886-08-20"><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+            
+            
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <div type="writingSession1">
+                <pb n="1"/>
+                <opener><dateline><placeName ref="Bieuxy">Bieuxy</placeName>/<placeName ref="Aisne"
+                            >Aisne</placeName>, d.<expan>en</expan><date when="1915-01-04">4.
+                                Jan.<expan>uar</expan> 1915</date>.</dateline>
+                    <salute>Hochverehrter lieber Herr Professor!</salute></opener>
+                <p>Als <sic>Prot.<expan>estantischer</expan></sic> Felddivisionspfarrer bin ich seit <date when="1915-10-11">11.Okt.<expan>ober</expan></date><add resp="unknown1" place="superlinear">Okt.<expan>ober</expan></add> hier an der <placeName ref="Aisne">Aisne</placeName><add resp="unknown1" place="superlinear"><placeName ref="Aisne">Aisne</placeName></add>. Es geht <add resp="unknown1" place="superlinear">geht</add> in all diesen Gegenden weder  <unclear reason="illegible" cert="medium">vorwärts</unclear><add> weder <unclear reason="illegible" cert="high">vorwärts</unclear></add> noch rückwärts! Hoffentlich bald <unclear reason="covered" cert="medium">endgültig</unclear><add resp="unknown1" place="right">?</add> vorwärts! Ich habe viel zu tun. <unclear reason="covered" cert="medium">Die</unclear> Arbeit ist also wieder voll; <unclear cert="high" reason="covered">besonders</unclear> Weihnachten und Sylvester hatten wir herrliche <add resp="unknown1" place="superlinear">herrliche</add> Gottesdienste. Hier gibt es sehr viele und grosse Kalksteinhöhlen. In diesen <sic>Feiern</sic> wir, wenn irgend möglich, um gegen feindliches Feuer sicher zu sein. Sie können sich gar nicht denken, was für eine Begierde nach Religion in den Leuten wachgeworden ist und wie <add resp="unknown1" place="superlinear">wie</add> wirksam sich doch die substantielle Religiosität der Jugendzeit erweist, jetzt wo ein Anlaß da ist, sie aktuell<pb n="2"/>werden zu lassen. Man hat nur die echt evangelische Aufgabe, auszudrücken, was alle erleben. Man predigt nicht andern, wie so oft im Frieden. Was würde <persName ref="Johann Gottlieb Fichte">Fichte</persName> zu unserer Zeit sagen! <sic>Unverdienter Weise</sic> habe ich auch das eiserne Kreuz bekommen. 
+                </p>
+                <closer><salute>Es grüsst Sie herzlich Ihr dankbar ergebener</salute> <signed><persName ref="Paul Tillich">P.<expan>aul</expan><add resp="unknown1" place="superlinear">[aul]</add> Tillich</persName>.</signed></closer>
+            </div>
+        </body>
+    </text>    
+</TEI>

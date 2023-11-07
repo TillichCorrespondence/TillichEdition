@@ -1,0 +1,118 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Postkarte von Paul Tillich an Johannes Tillich <lb/>vom 12. Dezember 1914 </title>
+            <author ref="Paul Tillich">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974.</collection>
+                  <idno>bMS 649/193(12)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="Paul Tillich">Paul Tillich</persName>
+               <placeName ref="Bieuxy">Bieuxy</placeName>
+               <date when="1914-12-12">12. Dezember 1914</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="Johannes Tillich">Johannes Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2022-05-30">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="postcard">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <dateline><placeName ref="Bieuxy">Bieuxy</placeName>, d. <date when="1914-12-12">12.
+                     Dez. 1914</date></dateline>
+               <salute>L. Papa!</salute>
+            </opener>
+            <p>Wie <persName ref="Elisabeth Tillich"
+                  ><abbr>El.</abbr><expan>isabeth</expan></persName> <bibl type="letter" sameAs="Brief liegt nicht vor"></bibl>schreibt, bist Du in die
+               Generalsynode gewählt. Ich freue mich sehr darüber und gratuliere Dir herzlich! Ich
+               möchte die positiven und liberalen Parteischreier einmal nehmen, über das
+               Granatenfeld bei <placeName ref="Pasly">Pasly</placeName> führen, und dann in die
+               Höhle von <placeName ref="Nouvron">Nouvron</placeName>, vor die 36<hi rend="sup"
+                  >er</hi> stellen, nachdem sie 20 Stunden lang stündlich 1000 Granaten bekommen
+               haben; ich glaube, da würde manchen manches vergehen und sich zeigen, was in
+               Wirklichkeit <hi rend="aq">articulus stantis et cadentis ecclesiae</hi> ist! Sicher
+               nicht das, was diese Schreier meinen! Nichts gar nichts als die heilige und
+               errettende Gegenwart Gottes! Wehe <persName ref="Wilhelm Philipps"
+                     ><sic>Phillipps</sic></persName> und Genossen, wenn<pb n="2"/> sie unser jetzt
+               neu angepacktes und fein empfindendes Volk durch Parteifanatismus wieder von der
+               Kirche wegstoßen! Es kann eine furchtbare Katastrophe werden! </p>
+            <closer>
+               <salute>Herzl. Neujahrswünsche!</salute>
+               <signed>Dein <persName ref="Paul Tillich">Paul</persName>!</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

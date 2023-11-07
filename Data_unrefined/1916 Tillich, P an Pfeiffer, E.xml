@@ -1,0 +1,111 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Paul Tillich an Erich Pfeiffer <lb/>vom Oktober/November 1916 </title>
+            <author ref="Paul Tillich">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974.</collection>
+                  <idno>bMS 649/174(39)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändg</p>
+               </physDesc>
+
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="Paul Tillich">Paul Tillich</persName>
+               <placeName ref="ohne Ort">ohne Ort</placeName>
+               <date when="1916">Oktober/November 1916</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="Erich Pfeiffer">Erich Pfeiffer</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2022-05-30">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <salute><hi rend="aq">Chère Monsieur</hi>
+                  <persName ref="Erich Pfeiffer">Erich</persName>!</salute>
+            </opener>
+            <p><persName ref="Rahel">Rahels</persName> Adresse soll kein anderer wissen. Ich möchte
+               sie wirklich wiedersehen und habe ihr einen sehr innigen Brief geschrieben.</p>
+            <p>Falls aus Belgien vorläufig nichts wird, wäre es nicht möglich, daß Sie mich für 2
+               Tage zu sich einladen, als Begründung für <persName ref="Exzellenz von Bonin"
+                  >Exzellenz</persName> und wir<pb n="2"/> uns in <placeName ref="Lille">Lille</placeName> treffen? Sie müßten dann
+               zwei Tage, die Sie Urlaub kriegen können und ungefähr voraussehen, mir schreiben mit
+               Angabe der Züge von <placeName ref="Charleville">Charleville</placeName> und Treffzeit in einem von Ihnen genanntem Hotel.
+               Falls Sie kein anderes wissen, <hi rend="aq">de l'Europe</hi>.</p>
+            <p>Heute war <persName ref="Adolf Wild von Hohenborn">Wild von Hohenborn</persName>, Nachfolger von <persName ref="Bruno von Mudra">Mudra</persName> bei uns zum Frühstück!</p>
+            <closer>
+               <salute>Hoffentlich bald auf Wiedersehen!</salute>
+               <signed>Ihr <persName ref="Paul Tillich">Paul T.</persName></signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,98 @@
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von Paul Tillich an Johannes Tillich
+                    <lb/>vom 27. Juni 1916
+                </title>
+                <author ref="Paul Tillich">Paul Tillich </author>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Friedrich Schumann</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+                    <address>
+                        <street>Schenkenstraße 8-10</street>
+                        <postCode>1010</postCode>
+                        <placeName ref="Wien">
+                            <settlement>Wien</settlement>
+                            <country>Österreich</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+                </availability>        
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="manuscript">
+                    <msIdentifier>
+                        <country>USA</country>
+                        <settlement ref="Cambridge">Cambdridge, MA</settlement>
+                        <institution>Harvard University</institution>
+                        <repository>Harvard Divinity School Library</repository>
+                        <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974</collection>
+                        <idno>bMS 649/193(14)</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>Postkarte, eigenhändig</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+            </editorialDecl>
+        </encodingDesc> 
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="Paul Tillich">Paul Tillich</persName>
+                    <placeName ref="ohne Ort">ohne Ort</placeName>
+                    <date when="1916-06-27">27. Juni 1916</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="Johannes Tillich">Johannes Tillich</persName>
+                    <placeName ref="Berlin"><del rend="s" resp="unknown1">Berlin</del></placeName> <placeName ref="Przyjezierze"><add resp="unknown1">Butterfelde <unclear>bei</unclear> Mohrin (Neumark)</add></placeName><!--So die Adresszeile; Butterfelde ist in anderer Handschrift; deutet vermutlich darauf hin, dass der Brief von Johannes Tillich an Greti weitergeleitet wurde, macht auch vom Inhalt her Sinn.-->
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="deu">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="FS" when="2022-05-19">Initiale Auszeichnung des Transkripts</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="postcard">
+        <body>
+            <div type="writingSession">
+                <pb n="1"/>
+                <opener>
+                    <dateline>Geschrieben, den <date when="1916-06-27">27. Juni 1916</date></dateline><!--Gedruckter Briefkopf, quer am rechten Seitenrand. Vorgedruckt: Geschrieben, den _____ 191_-->
+                    <salute>Lieber <persName ref="Johannes Tillich">Papa</persName>!</salute>
+                </opener>
+                
+                <p>Eben habe ich einen Urlaub vom <date from="1916-07-02" to="1916-07-22">2–22 Juli</date> beantragt, will in <placeName ref="Halle an der Saale">Halle</placeName> am <date when="1916-07-03">3.</date> die geheime <bibl sameAs="Tillich, Paul. Der Begriff des christlichen Volkes, in: EW 10 (Religion, Gesellschaft, Kultur I), 114ff.">Probevorlesung</bibl> halten, dann ein Thema zur Antrittsvorlesung<!--weicht die von der Probevorlesung ab? Wenn ja: angeben; wenn nicht: anmerken!--> bereden und diese am <date when="1916-07-20">20<hi rend="sup">ten</hi></date> in <placeName ref="Halle an der Saale">Halle</placeName> öffentlich halten. Ich will in der Zwischenzeit in <placeName ref="Świnoujście"><hi rend="u">Swinemünde</hi></placeName> mit <persName ref="Margarete Tillich, geb. Wever">Greti</persName> sein. <hi rend="u">Bitte teile <persName ref="Margarete Tillich, geb. Wever">Greti</persName> mit, wann und wo Du mich sehen willst</hi>. Ich gebe dann sofort Nachricht, wenn ich in <placeName ref="Halle an der Saale">Halle</placeName> bin. Nachricht hierher hat keinen Zweck mehr.</p>
+                <closer>
+                    <salute>Auf Wiedersehen.</salute>
+                    Dein <signed>Paul</signed>.
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+

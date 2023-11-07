@@ -1,0 +1,161 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Paul Tillich an Max Wölfing
+               <lb/>vom 4. Mai 1915
+            </title>
+            <author ref="P01930">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Leopold Potyka</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974</collection>
+                  <idno>bMS 649/218 (17)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>handschriftlich</p>
+                  </physDesc>              
+            </msDesc>                     
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01930">Paul Tillich</persName>
+              <placeName ref="Bieuxy">Bieuxy</placeName>
+              <date when="1915-05-04">4. Mai 1915</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P02102">Max Wölfing</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="LP" when="2022-07-12">Intitale Auszeichnung des Transkripts</change>
+        <change who="Initialien des Editors" when="1886-08-20"><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+        
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+           <dateline><placeName ref="Bieuxy">Bieuxy</placeName>, d. <date when="1915-05-04">4. Mai 1915</date></dateline>
+        </opener>
+        <p>Bericht an den <persName ref="P02102">Herrn Evangelischen Feldpropst der Armee</persName> 
+           für die Monate März und April 1915 von 
+           Dr. <persName ref="P01930">Paul Tillich</persName> Lic. theol. Feldprediger beim 
+           IV. Res-Korps 7. Res-Division.</p>
+        <p>Statistik der Gottesdienste
+           1.	2ter 	März	<placeName ref="Chavigny">Chavigny</placeName>:	III. Battl. Res-Reg. 72.
+           2.	14te	"	<placeName ref="Bieuxy">Bieuxy</placeName>	Divisionsstab, Artillerie, Infanterie etc.
+           3.	"	"	<placeName ref="Marnuit-Ferme">Marnuit-Ferme</placeName>	II. Battl. Res-Reg. 66.
+           4.	"	"	<placeName ref="Épagny">Epagny</placeName> 	I.	"	"
+           5.	18.	"	<placeName ref="Villers-la-Fosse">Villers la Fosse</placeName>	Komp. Res-Reg. 72
+           6.	19.	"	<placeName ref="Champs">Champs</placeName>	Große Bagage 
+           7.	"	"	<placeName ref="Crécy-au-Mont">Crécy au Mont</placeName>	Schwere Reiter, Kolonnen etc.
+           8.	20.	"	<placeName ref="Tancourt">Tankourt</placeName> 	Komp. Res-Jäger 4.
+           9.	"	"	<placeName ref="Chavigny">Chavigny</placeName>	2 Kompagnien Res-Reg. 72.
+           10.	21.	"	<placeName ref="Montécouvé">Mont-Ecouvé-Ferme</placeName>	III. Batt. Res-Reg. 36
+           11.	"	"	<placeName ref="Marnuit-Ferme">Mar. –Ferme</placeName>	II	"	"	"
+           12.	"	"	<placeName ref="Épagny">Epagny</placeName>	I	"	"	"
+           13.	22.	"	<placeName ref="Pasly">Pasly</placeName>-Höhle	<unclear>F-A-T</unclear>  I. Abt. 
+           14.	24. 	"	<placeName ref="Chavigny">Chavigny</placeName>	2 Komp. Res-Reg. 72.
+           15.	"	"	<placeName ref="Villers-la-Fosse">Villers la Fosse</placeName>	Komp. Res-Reg. 72.
+           16.	28.	"	"	"	"	"	"
+           17.	"	"	<placeName ref="Chavigny">Chavigny</placeName>	2 Komp."	"	" | 2 <pb n="2"/>
+           18.	31.	März	<placeName ref="Villers-la-Fosse">Villers la Fosse</placeName>	Komp. Res-Reg. 72
+           19.	"	"	<unclear><placeName>Vauveris</placeName></unclear> 	Komp. Res-Jäg. 4, Pioniere etc.
+           20.	1.	April	<placeName ref="Leuilly-sous-Coucy">Leuilly</placeName> 	Munitions-Kolonnen.
+           21.	"	"	<placeName ref="Chavigny">Chavigny</placeName>	II. Battr. F-A-T.
+           22.	2.	April	<unclear><placeName>Laqurux</placeName></unclear>	Sanitätskompagnie, Infanterie.
+           23.	"	"	<placeName ref="Bieuxy">Bieuxy</placeName>	Division etc.
+           24.	"	"	<placeName ref="Chavigny">Chavigny</placeName>	2. Komp. Res-Reg. 72
+           25.	"	"	<placeName ref="Tartiers">Tartiers</placeName>	II. Abt. F-A-T.
+           26.	4.	"	<placeName ref="Montécouvé">Mont-Ekouvé</placeName>	III Battl. Res-Reg. 66.
+           27.	"	"	<placeName ref="Marnuit-Ferme">Ma. –Ferme</placeName>	II	"	"	"
+           28.	"	"	<placeName ref="Épagny">Epagny</placeName>	I	"	"	"
+           29.	"	"	<placeName ref="Pont-Saint-Mard">Pont-St. Mard</placeName> 	Generalkommando.
+           30.	"	"	<placeName ref="Pasly">Pasly</placeName>-Höhle	I. Abt. <unclear>F-A-T</unclear>.
+           31.	5.	"	<placeName ref="Crécy-au-Mont">Crécy-au-Mont</placeName>	Kolonnen, Lazareth etc.
+           32.	"	"	<placeName ref="Champs">Champs</placeName>	Große Bagage</p>
+       <p>Außerdem Seelsorge im hiesigen Feldlazareth.</p>
+       <p>7‒28. April Heimatsurlaub.</p>
+       <p>Irgendwelche wesentlichen Veränderungen sind nicht eingetreten. Wechsel der 
+          Quartiere und demgemäß der Gottesdienststätten ist das einzige, was hin 
+          und wieder die Gleichmäßigkeit unterbricht. Der Predigtstoff war gegeben durch 
+          die Passions- und Osterzeit. Je länger jedoch die Lage unverändert bleibt, und 
+          selbst Gefechte kleinerer Art fehlen, desto schwieriger wird die Aufgabe der Kriegspre-
+          digt; desto mehr wird sie in Stoff und Ausführung der Friedenspredigt ähneln, 
+          desto mehr wird durch das Drängen der Massen nach Gottesdiensten traditioneller<pb n="3"/>  
+          Indifferenz Platz machen; äußerste Vorsicht ist schon jetzt geboten, 
+          um Überfütterung zu vermeiden. Das gilt übrigens von den 
+          Offizieren noch mehr als von den Mannschaften. Dennoch ist keine Ursache 
+          vorhanden, es an Arbeitsfreudigkeit fehlen zu lassen. Die Wirkungsmöglich-
+          keiten sind extensiv und intensiv jeder denkbar günstigen Lage von 
+          Frieden immer noch weit überlegen, und die innersten Tiefen der Seele 
+          bleiben trotz aller Abstumpfung und Gewöhnung bewegter und darum 
+          empfänglicher für absolute Werte, als in irgend einer anderen Lage. Das 
+          Wesen des Geistes bleibt spürbar… wohin er geht, ist freilich verborgen. 
+          Wohl kaum – wie man vielleicht am Anfang hoffte – zu den Massen -<pb n="4"/>
+          Äußerlich habe ich mich insofern verbessert, als ich durch die 
+          Freundlichkeit unseres Divisionsadjudanten ein Dokart mit 
+          Pferd zur Verfügung gestellt bekommen habe: Eine ganz erheb-
+          liche Ersparnis von Arbeitskraft, statt reiten zu müssen, sich 
+          fahren zu lassen, die den Gottesdiensten zu Gute kommt.
+        </p>
+        <closer>
+           <salute>Gehorsamst</salute>
+           <signed><persName ref="P01930">P. Tillich</persName>. Pfarrer.</signed>
+        </closer>
+        
+      
+     </div>
+    </body>
+  </text>
+</TEI>

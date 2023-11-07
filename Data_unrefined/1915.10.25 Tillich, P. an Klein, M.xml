@@ -1,0 +1,103 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von <persName ref="P01930">Paul Tillich</persName> an <persName ref="P01595">Maria Rhine (geb. Klein)</persName>
+               <lb/>vom <date when="1915-10-25">25. Oktober 1915</date>
+            </title>
+            <author ref="P01930">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Niklas von Hülsen</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="Feldpost">
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement>Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974</collection>
+                  <idno>bMS 649/178(7)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>handschriftlich</p>
+                  </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01930">Paul Tillich</persName>
+              <placeName ref="Liry">Liry</placeName>
+              <date when="1915-10-25"> 25. Oktober 1915</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01595">Maria Rhine (geb. Klein)</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="NH" when="2023-06-01">Intitale Auszeichnung des Transkripts</change>
+        <change who="Initialien des Editors" when="1886-08-20"><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+        
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+           <dateline><placeName ref="Liry">Liry</placeName> d. <date when="1915-10-25">25. Okt. 1915</date></dateline>
+           <salute>L. <persName ref="P01595">Maria!</persName></salute>
+        </opener>
+        <p>Deinen <bibl>Brief<!--Brief von Maria Rhine (geb. Klein) an Paul Tillich--></bibl> erhielt ich als einzigen in den drei Tagen, wo wir in der Gegend von <placeName ref="Nailly">Nailly</placeName> lagen. Schon damals war die bezeichnete Batterie nicht mehr da. Jetzt sind wir seit 14 Tagen in der <placeName ref="Champagne">Champagne</placeName> im Gewühl der wüstesten Schlacht dieses Krieges, die noch immer andauert und zu dem Schrecklichsten gehört, was er gebracht hat …</p>
+        <p> Wir liegen in einem ziemlich üblen Quartier zu dreien in einem Zimmer. Tag und Nacht ein ungeheures Getriebe vor unserem Haus. Truppen aller Waffengattungen, aller Nummern, Preußen, Bayern, Sachsen … vielleicht … Es ist ein riesiges Feldlager von vielen Quadrat-Kilometern, Lager an Lager, Stellung neben Stellung; dabei alles öde, dürre, unfruchtbare Gegend; Kalkwellen, Kiefernwäldchen, zertretene Täler. Es fließt täglich viel, sehr viel Blut in diesen dürren Kalk, zuweilen an einem Tag so viel wie in einem Monat bei <placeName ref="Soissons">Soissons</placeName>; nach übereinstimmendem Zeugnis aller, die aus <placeName ref="Rußland">Rußland</placeName> zurück sind, viel schlimmer als dort. Ob wir lange hierbleiben, ist zweifelhaft; niemand wünscht es … 
+           <pb/>Es waren doch schöne Tage im September und gut, daß ich nicht länger gewartet hatte; denn längst ist aller Urlaub verboten. Was macht der Studienplan fürs Wintersemester? Ich bin neugierig auf <persName ref="???">Lisas</persName> Troeltscha-Bericht. Was hat man doch alles in der Kultur an Geist und Menschen, Freunden  und – Freundinnen, und hier! Und so aussichtslos ist der Krieg!
+            
+        </p>
+        <closer>
+           <salute>Mit herzlichen Grüßen und den besten Wünschen fürs neue Semester bin ich</salute>
+           <signed>Dein tr. Paul T.</signed>
+        </closer>
+     </div>
+    </body>
+  </text>
+</TEI>

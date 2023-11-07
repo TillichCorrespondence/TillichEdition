@@ -1,0 +1,164 @@
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von Paul Tillich an Johannes Tillich
+                    <lb/>vom 19. Dezember 1915
+                </title>
+                <author ref="Paul Tillich">Paul Tillich </author>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Friedrich Schumann</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+                    <address>
+                        <street>Schenkenstraße 8-10</street>
+                        <postCode>1010</postCode>
+                        <placeName ref="Wien">
+                            <settlement>Wien</settlement>
+                            <country>Österreich</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+                </availability>        
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="manuscript">
+                    <msIdentifier>
+                        <country>USA</country>
+                        <settlement ref="Cambridge">Cambdridge, MA</settlement>
+                        <institution>Harvard University</institution>
+                        <repository>Harvard Divinity School Library</repository>
+                        <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974</collection>
+                        <idno>bMS 649/193(13)</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>Brief, eigenhändig</p>
+                    </physDesc>
+                    <additional>
+                        <listBibl>
+                            <biblStruct type="monograph" n="firstPrint">
+                                <monogr>
+                                    <author>Paul Tillich</author>
+                                    <editor>Renate Albrecht/Margot Hahl (Hg.)</editor>
+                                    <title>Ein Lebensbild in Dokumenten. Briefe, Tagebuch-Auszüge, Berichte.</title>
+                                    <edition>1. Auflage</edition>
+                                    <imprint>
+                                        <publisher>Evangelisches Verlagswerk Stuttgart</publisher>
+                                        <pubPlace ref="Stuttgart">Stuttgart</pubPlace>
+                                        <date when="1980">1980</date>
+                                        <biblScope>96f.</biblScope>
+                                    </imprint>
+                                </monogr>
+                                <series>
+                                    <title>Ergänzungs- und Nachlassbände zu den Gesammelten Werken von Paul Tillich
+                                    </title>
+                                    <biblScope>V</biblScope>
+                                </series>
+                            </biblStruct>
+                            <biblStruct type="journal" n="reprint">
+                                <monogr>
+                                    <author>Erdmann Sturm</author>
+                                    <title>An der engen Pforte der historischen Methode vorbeit. Paul Tillichs Habilitation in Halle (1916) und seine Umhabilitierungen nach Berlin (1919) und Marburg (1924).</title>
+                                    <imprint>
+                                        <pubPlace ref="where">Berlin/Boston</pubPlace>
+                                        <date when="2015">2015</date>
+                                        <biblScope>306f.</biblScope>
+                                    </imprint>
+                                </monogr>
+                                <series>
+                                    <title>International Yearbook for Tillich Research</title>
+                                    <biblScope>Bd. 10/1</biblScope>
+                                </series>
+                            </biblStruct>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+            </editorialDecl>
+        </encodingDesc> 
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="Paul Tillich">Paul Tillich</persName>
+                    <placeName ref="ohne Ort">ohne Ort</placeName>
+                    <date when="1915-12-19">19. Dezember 1915</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="Johannes Tillich">Johannes Tillich</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="deu">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="FS" when="2022-05-12">Initiale Auszeichnung des Transkripts</change>
+            <change who="FS" when="2022-05-18">Korrekturdurchgang</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <div type="writingSession">
+                <pb n="1"/>
+                
+                <opener>
+                    <dateline>D. <date when="1915-12-19">19. Dez. 1915</date>.</dateline>
+                    Lieber <persName ref="Johannes Tillich">Papa</persName>! 
+                </opener>
+                
+                <p>Habe vielen herzlichen Dank für Deinen <bibl type="letter" sameAs="unbekannter Brief">Weihnachtsbrief</bibl>; 
+                    er hat mir viel gegeben, vor allem durch die Liebe die hinter jedem Deiner Worte steht. Da es aber 
+                    der menschlichen Natur nicht möglich ist, dauernd auf die Abgründe zu starren, von denen sie umgeben 
+                    ist, da das Leben die einfache Forderung der Selbsterhaltung stellt und durchsetzt, indem es die 
+                    Sinne und Gedanken mit dem Unmittelbaren erfüllt, darum will ich nun, soweit es geht, all das 
+                    Besprochene ruhen und im Unterbewußtsein sich entwickeln lassen; das Resultat wird dann selbst 
+                    Unmittelbarkeit und Lebensgefühl.<lb/>
+                    So will ich Dir zunächst einmal von dem Wichtigsten den persönlichen Unmittelbarkeiten berichten, 
+                    den Verhandlungen über meinen Beruf. Ich habe bei Madrasch 
+                    in <placeName ref="Königsberg/Neumark">Königsberg N/M</placeName> meine <bibl sameAs="Der Begriff des Übernatürlichen, sein dialektischer Charakter und das Prinzip der Identität, dargestellt an der supranaturalistischen Theologie vor Schleiermacher, Königsberg/Neumark: Madrasch 1915, VII, 58 S.">Dissertation</bibl>, d. h. den 
+                    Pflichtbogen, in Druck gegeben; bis jetzt sind zwei Bogen durch meine Hände gegangen und druckfertig, 
+                    der erste schon ganz gedruckt. Ich erwarte täglich den dritten. Zugleich habe ich an die 
+                    Fakultät den <bibl type="letter" sameAs="1915.11.09. Tillich, P an Kattenbusch, F">Antrag</bibl> gestellt, daß mir 
+                    Probevorlesung und Habilitation vom Felde aus gestattet würden, möglichst bald nach Einlieferung der 
+                    Exemplare. Die Fakultät <bibl type="letter" sameAs="1915.11.29. Kattenbusch, F an Tillich, P">antwortete</bibl> sehr 
+                    liebenswürdig, daß sie mir <pb facs="2"/> das Kolloquium erließe und jederzeit zur Abhaltung der Habilitation 
+                    bereit wäre. Von den von mir vorgeschlagenen Themata wurde 
+                    bestimmt: <bibl sameAs="Tillich, Paul. Der Begriff des christlichen Volkes, in: EW 10 (Religion, Gesellschaft, Kultur I), 114ff."> „Der Begriff des christlichen Volkes“</bibl>, 
+                    das schwerste aber am meisten zeitgemäße. Ganz klar bin ich mir über die Behandlung noch nicht. Es wird sich 
+                    um die Verhältnisbegriffe: Christianisiertes Volk auf der einen und Volkskirche auf der anderen Seite handeln. 
+                    Hoffentlich finde ich genügend Zeit, um etwas Vernünftiges zu machen. Mitte Januar würde ich dann einen Tag 
+                    Urlaub nehmen und die Sache abmachen. Längerer Urlaub würde mir den Frühlings- oder Sommerurlaub verderben. <lb/>
+                    Der Gedanke, daß ich noch mal in den so lange erwarteten und ersehnten Beruf treten sollte, ist mir unfaßbar, 
+                    wie der Friede überhaupt, auf den ich vor 1 <formula notation="TeX">\frac{1}{2}</formula>–2 Jahren nicht rechne. 
+                    Ob ich dann noch geistiger Arbeit im produktiv-wissenschaftlichen Sinne fähig sein werde, ist mir sehr zweifelhaft, 
+                    und noch zweifelhafter, ob dann in Deutschland genug Geld ist, um einen Privatdozenten zu ernähren. Aber das ist 
+                    ferne, ferne Zukunft; und was auch geschehen mag; die Ewigkeit bleibt uns. Und das sagt mir und uns allen hier 
+                    draußen der Weihnachtsbaum.</p>
+                
+                <closer>
+                    <salute>Viel Weihnachtsgrüße hin zu den Euren!<lb/>
+                        In dankbarer Liebe Dein </salute><signed>Paul</signed>! 
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

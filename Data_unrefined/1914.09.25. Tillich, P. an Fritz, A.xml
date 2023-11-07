@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von Paul Tillich und Greti Wever an Alfred Fritz
+                    <lb/>vom 25.09.1914
+                </title>
+                <author ref="Paul Tillich">Paul Tillich</author>
+                <author ref="Greti Wever">Greti Wever</author>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Emil Lusser</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+                    <address>
+                        <street>Schenkenstraße 8-10</street>
+                        <postCode>1010</postCode>
+                        <placeName ref="Wien">
+                            <settlement>Wien</settlement>
+                            <country>Österreich</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+                </availability>        
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="typoscript">
+                    <msIdentifier>
+                        <country>Deutschland</country>
+                        <settlement>Marburg</settlement>
+                        <institution>Philipps-Universität Marburg</institution>
+                        <repository>Deutsches Paul-Tillich-Archiv</repository>
+                        <idno>008C</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>Kopie einer Handschrift</p>
+                    </physDesc>   
+                </msDesc>       
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+            </editorialDecl>
+        </encodingDesc> 
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="Paul Tillich">Paul Tillich</persName>
+                    <persName ref="Greti Wever">Greti Wever</persName>
+                    <placeName ref="o.O.">o.O.</placeName>
+                    <date when="1914-09-25">25.09.1914</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="Alfred Fritz">Alfred Fritz</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="deu">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="LP" when="2022-04-05">Intitale Auszeichnung des Transkripts</change>
+            <change who="Initialien des Editors" when="1886-08-20"><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+            
+            
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <div type="writingSession1">
+                <pb n="1"/>
+                <opener>
+                    <salute>Lieber <persName ref="Alfred Fritz">Frede</persName>!</salute>
+                </opener>
+                <p>In „Ihrer“ Pension mit einer Seite aus Ihrem Tagebuch, während Sie sich anzieht zum Theater, im Nebenzimmer, sitze ich und freue mich, und denke an Dich, daß dies alles nun schon 5 Jahre bei Dir vorbei ist – und Du morgen so alt wirst, wie ich war, als ich sie<note type="ea">Paul Tillich bezieht sich auf seine erste Frau <persName ref="Greti Wever">Greti Wever</persName>.</note> noch nicht hatte, und wundre mich, wie ich mich alle Tage wundre, und wünsche Dir, daß Du auch in Eurem zweiten Jahr<note type="ea">1912 haben <persName ref="Alfred Fritz">Alfred Fritz</persName> und <persName ref="Paul Tillich">Tillichs</persName> Schwester <persName ref="Johanna Tillich">Johanna</persName> geheiratet.</note>, dem zweiten seit jenem denkwürdigen Polter-Theater<note type="ea">Anspielung auf das Theaterstück von <persName ref="Paul Tillich">Paul Tillich</persName> und <persName ref="Emanuel Hirsch">Emanuel Hirsch</persName>, welches zu <persName ref="Alfred Fritz">Alfred Fritz’</persName> Polterabend aufgeführt wurde.</note>, Dich immer wieder und immer gleich wundern möchtest –– und danke Dir für das große Opus Deines letzten Lebensjahres, mich in das Sanatorium meiner Berlin-zerrütteten Seele geführt zu haben und mir ein gar kräftig Trünklein eingegeben, das süß schmeckt und bitter zugleich <note type="ea">Anspielung auf <bibl type="bible" resp="Offb 10,10">Offenbarung 10,10.</bibl></note>, aber der Nachgeschmack ist süß: Das merke ich jetzt mehr als im „Sanatorium“ und bin im Phäakenlande
+                    <pb n="2"/>
+                    mitten in Babylon und sehe Baylon mit Phäakenblicken und spreche mit <name ref="Odysseus">Odysseus</name> zu <name ref="Nausikaa">Nausikaa</name>: <foreign xml:lang="grc">γούνουμαί σε ανάσσα θεός γέ σύ ἥ βρότος ἔσσι</foreign><note type="ea"><bibl><!--Homer: »Odyssee.«, VI, 149.-->Hom. Od. VI, 149.</bibl></note>.... freilich fällt hier kein Ball in die Wellen, daß sie mit ihm spielen... aber dennoch spielen wir–––
+                </p>
+                <closer>
+                    <signed>Dein <persName ref="Paul Tillich">Paul</persName></signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <text type="letter">
+        <body>
+            <div type="writingSession2">
+                <pb n="2"/>
+                    <opener>
+                            <salute>Lieber <persName ref="Alfred Fritz">Frede</persName></salute>
+                    </opener>
+                    <p>nachdem ich vergebens die letzten Sätze von Deinem Schwager mich zu verstehen bemüht<del rend="s">e</del> habe; bleibt mir nichts anderes übrig auf gut Glauben dieselben zu unterschreiben. Herzlichen Glückwunsch zum Geburtstage. Wenn der Arzt mir weniger auf der Seele läge, wäre an diesen Tagen nichts auszusetzen.
+                    </p>
+            <closer>
+                <salute>Mit <sic>Grussen</sic> an <persName ref="Johanna Tillich">Johanna</persName>.</salute>
+                    <signed><persName ref="Greti Wever">Greti</persName></signed>
+                </closer>
+            </div>
+        </body>
+    </text>    
+</TEI>
+

@@ -1,0 +1,170 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Paul Tillich an Marie Tillich und Margarete Tillich 
+               <lb/>vom 27.06.1915
+            </title>
+            <author ref="Paul Tillich">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Leopld Potyka</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library </repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974</collection>
+                  <idno>bMS 649/193(21)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>handschriftlich</p>
+                  </physDesc>              
+            </msDesc>                     
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="Paul Tillich">Paul Tillich</persName>
+              <placeName ref="Juvigny (Aisne)">Juvigny</placeName>
+              <date when="1915-06-27">27.06.1915</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="Marie Tillich">Marie Tillich</persName> <persName ref="Margarete Tillich">Margarete Tillich</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="LP" when="2022-05-06">Intitale Auszeichnung des Transkripts</change>
+        <change who="Initialien des Editors" when="1886-08-20"><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+        
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+           <dateline><placeName ref="Juvigny (Aisne)">Juvigny</placeName> d.<date when="1915-06-27">27. Juni 1915</date>.</dateline>
+           <salute>Mein liebes <persName ref="Marie Tillich">Großmütterlein</persName>, liebe <persName ref="Margarete Tillich">Tante Grete</persName>!</salute>
+        </opener>
+        <p>Zwei großer Sünden bin ich mir inzwischen bewußt
+           geworden, zweier Sünden, die ich zwar immer wieder be-
+           reue, aber auch immer wieder begehen werde, da es eine
+           Besserung für sie nicht gibt: daß ich Eure Geburtstage
+           vergessen habe … aber so groß ist meine Verderbnis an
+           diesem Punkt, daß ich an <persName ref="Johannes Tillich">Papas</persName>, <persName ref="Toni Winkler">Tonis</persName>, <persName ref="Johanna Tillich">Johannas</persName> und 
+           <persName ref="Elisabeth Tillich">Elisabeths</persName> Geburtstage nur dadurch erinnert wurde, 
+           daß ich pünktlich 3 Tage vorher eine Nachricht bekam: 
+           Also nun schreibe Deinen Geburtstagsbrief an mich! 
+           Als vorsichtige Leute hättet Ihr das auch so machen sollen 
+           dann wäre pünktlich die Antwort gekommen… na 
+           nächstes Jahr, wenn wir hoffentlich 20 km näher 
+           an <placeName ref="Paris">Paris</placeName> stehen, macht Ihrs so…</p>
+        <p>Aus meinen Briefen werdet Ihr ersehen haben, 
+           daß es mir schloßherrlich geht: Ich habe ein Château zur 
+           Wohnung, einen Salon, ein mit Kunstgegenständen volles 
+           Wohnzimmer, ein gemütliches Schlaf- und ein glänzendes Stu<pb n="2"/>
+           dierzimmer, alles in denselben 4 Wänden zwar 
+           aber doch selbständig organisiert; meine Aussicht 
+           ist ein herrliches Waldtal, an dessen anderem Ende 
+           zuweilen Granat-Wölkchen in die Luft steigen. Trete 
+           ich aus meinem Zimmer, so komme ich auf einen 
+           langen weißen Gang, am Ende ein Ölbild; an den 
+           Seitenwänden Reproduktionen deutscher Holzschnitte. 
+           Unten steht mir zur Verfügung ein Eß-, ein Klub- 
+           und Rauch- und Schach- ein Billardzimmer, dazu Telephon, 
+           Telegraph u. s. w. Ich habe einen Koch, einen Diener 
+           (<persName ref="Schröder">Bursche Schröder</persName>, ganz ausgezeichnet!), ein Reitpferd, 
+           einen Selbstfahrer, für weitere Fahrten zuweilen ein 
+           Auto; ich wandle auf der Schloßterrasse, gehe spazie-
+           ren auf den Schattenwegen des alt-romantischen Schloß-
+           parks etc… Was willst Du mehr, hochstrebendes 
+           Herz?</p>
+        <p>Ich will Euch sagen, was ich noch mehr will: 
+           Im Autobus Nr. 14 in der Lindenstr. einsteigen nach langem <pb n="3"/>
+           vergeblichen Warten, die Nase voll Benzin, mich schütteln 
+           und rütteln lassen, am Alexanderplatz hinstürmend zwischen 
+           einer Wagenstockung ein Billet nach <placeName ref="Berlin-Friedrichshagen">Friedrichshagen</placeName> 
+           nehmen, in einem Koupée III Klasse als 17<hi rend="sup">ter</hi> zwi-
+           schen den Bänken stehen, Geruchsorgien in Schweiß und 
+           Kohledreck feiern, in <placeName ref="Berlin-Friedrichshagen">Friedrichshagen</placeName> eilends die große 
+           Treppe heruntersausen mit mehreren Rempelungen, 
+           rechts um die Ecke biegen und dann links Nr. 15 eine 
+           enge Holztreppe hinauf herzklopfen; der <persName ref="Marie Tillich">Großmama</persName>, 
+           die erschreckt ist, weil der Kaffeetisch noch nicht ge-
+           deckt ist, in die Arme fallen, dann <persName ref="Margarete Tillich">Gretsch</persName>, die hinzukommt, 
+           einen erheblichen Kuß aufdrücken, Kaffee trinken in 
+           unsäglichen Quantitäten, Kuchen essen… dann <persName ref="Marie Tillich">Groß-
+           mama</persName> in die Elektrische setzen und mit <persName ref="Margarete Tillich">Gretsch</persName> im 
+           Schnellschritt wieder nach Bellevüe… eine Wasserfahrt, 
+           „mang die Badenden“… haarige Wassergreise 
+           steigen auf; <persName ref="Margarete Tillich">Gretsch</persName> schreit und schirmbeschwingt eilt 
+           das Boot nach dem schützenden Hafen zurück, wo Groß-<pb n="4"/>
+           mütterlein uns längst aufgegeben hat.. und dann 
+           erzähle ich von meinem ersten Kolleg in <placeName ref="Halle a.S.">Halle</placeName> und von dem 
+           großen Erfolg, daß zu dem 11<hi rend="sup">ten</hi> Studenten sich ein 12<hi rend="sup">ter</hi> 
+           hinzugefunden hat… und dann entwickle ich die Grundlagen 
+           meiner Religionsphilosophie, <persName ref="Marie Tillich">Großmütterlein</persName> staunend 
+           und grinsend, <persName ref="Margarete Tillich">Gretsch</persName> es höchst interessant findend.… 
+           und dazu der See und die Schiffe und die Musik und 
+           die kalte Platte und das Dunkle… und der Hauch der alten 
+           Liebe und des Vertrauens und der Heimat, die mir doch 
+           Heimat ist, trotzdem sie die künftige Hauptstadt der 
+           Welt sein wird… ach <persName ref="Marie Tillich">Großmütterlein</persName>, ach <persName ref="Margarete Tillich">Gretsch</persName>, 
+           „ich gäb mein Schloß und gäb mein Pferd und 
+           meinen Diener auch… was ist so groß, 
+           was ist so wert, wie alter Liebe Hauch?“</p>
+        <p>Daß es mir äußerlich gut geht und daß meine 
+           Sehnsucht nie aufhört, und daß auch Ihr zu denen gehört, 
+           nach denen ich mich ganz besonders sehne… das soll Euch dieser 
+           Gruß aus <placeName ref="Frankreich">Frankreich</placeName> sagen. </p>
+        <closer>
+           <salute>In alter Liebe und Treue! </salute>
+           <signed>Euer <persName ref="Paul Tillich">Paul</persName>.</signed>
+        </closer>
+             
+     </div>
+    </body>
+  </text>
+</TEI>

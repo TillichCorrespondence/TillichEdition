@@ -1,0 +1,102 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Karl Hartz an Paul Tillich
+               <lb/>vom 27.12.1914
+            </title>
+            <author ref="Karl Hartz">Karl Hartz</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Leopold Potyka</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge">Cambridge</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974</collection>
+                  <idno>Box 149(25)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>handschriftlich</p>
+                </physDesc>             
+            </msDesc>         
+          </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="Karl Hartz">Karl Hartz</persName>
+              <placeName ref="Front">Vom westpolnischen Kriegsschauplatz</placeName>
+              <date when="1914-12-27">27.12.1914</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="Paul Tillich">Paul Tillich</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="LP" when="2022-04-05">Intitale Auszeichnung des Transkripts</change>
+        <change who="Initialien des Editors" when="1886-08-20"><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+           <figure type="stamp" source="Poststempel der 5. Reserve Division 28.12."></figure>
+           <dateline><placeName ref="Front">Vom westpolnischen Kriegsschauplatz</placeName> am <date when="1914-12-27">27.12.14</date>.</dateline>
+           <salute><add place="across">Abs. Prof. <persName ref="Karl Hartz">Hartz</persName> Res. Reg. 48. 4. <unclear>Brig</unclear> </add> Herrn Konsistorialrat <persName ref="Paul Tillich">Tillich</persName> <placeName ref="Berlin">Berlin SW</placeName>. Nauenburgerst 3 </salute>
+        </opener>
+        <p>Sage meinen herzlichsten Dank für das liebe Weihnachts Paket, <sic>welche</sic> mir auch im Felde ein frohes<pb n="2"/>
+           Fest bereitet hat. Wir verlebten Weihnachten in Ruhe u Frieden, auch unter einem Weihnachtsbaum sangen wir die schönen Lieder Stille Nacht, o du Fröhliche u nun danket alle Gott. Dabei standen uns Alle die Thränen in den Augen u gedachten an die liebe Heimat u an unsere gefallenen Kameraden. 
+        </p>
+        <closer>
+           <salute>Mit vielen Grüßen,</salute>
+           <signed>Ihr K Hartz.</signed>
+        </closer>
+                  
+     </div>
+    </body>
+  </text>
+</TEI>

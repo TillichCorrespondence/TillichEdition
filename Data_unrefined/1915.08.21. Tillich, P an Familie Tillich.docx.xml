@@ -1,0 +1,271 @@
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von <persName ref="P01939">Paul Tillich</persName> an Familie: <persName ref="P01926">Johannes Tillich</persName>, <persName ref="P01933">Margerete Tillich-Wever</persName>, <persName ref="P00644">Johanna Fritz-Tillich</persName>, Großmama <!--vermutlich Marie Luise Tillich-Scheidemantel-->, <persName ref="P02089">Toni Winkler</persName>
+               <lb/>vom 21.08.1915
+            </title>
+            <author ref="Tillich, Paul">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Andreas Burri</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Briefe</collection>
+                  <idno>bMS 649/193</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Brief, eigenhändig</p>
+                  </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="Tillich, Paul">Paul Tillich</persName>
+              <placeName ref="Juvigny (Aisne)">Juvigny (Aisne)</placeName>
+              <date when="1915-05-16">21.08.1915</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="Tillich, Johannes">Johannes Tillich</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="AB" when="2022-05-04">Intitale Auszeichnung des Transkripts</change>
+        <change who="AB" when="2022-06-29">Überprüfung und Ergänzung der Auszeichnungen</change>
+        
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+           <dateline><placeName ref="Juvigny (Aisne)">Juvigny (Aisne)</placeName>, den <date when="1915-08-21">21.
+                     August 1915</date></dateline>
+               <salute>Kriegsgeburtstag 1915</salute>
+            </opener>
+        <p>Früher vergaß ich meistens meinen Geburtstag und war sehr erstaunt, wenn mich jemand
+               daran erinnerte, daß ich demnächst wieder ein Jahr älter würde. Dies Mal habe ich
+               schon den ganzen August daran gedacht und wurde neugierig, wie er verlaufen würde.
+               Nun ist er so schön und eigenartig verlaufen, daß er sich immer in der Erinnerung
+               weit herausheben wird aus allen anderen; und dies soll das Erinnerungsblatt sein für
+               kommende Zeiten.<lb/> Ein ordentliches Fest muß auch seine Vorfeier haben, am 19t
+               hatten wir Jugendgesellschaft, d. h. während sonst meistens <persName ref="P00252"
+                  >Exzellenz</persName> seinen Verpflichtungen gegenüber älteren Herren, Obersten u.
+               dergl. nachkommt, luden wir diesmal Leutnants, jüngere Hauptleute u. s. w. ein. Zwei
+               Flieger waren dabei, der eine ein Neffe<!-- Name unbekannt, AB --> des früheren
+               Oberpräsidenten <persName ref="P02143">Schwarzkopf</persName>, dem ich bei einem
+               Zusammentreffen auf der Division seine Ähnlichkeit mit seinem Onkel sofort auf den
+               Kopf zugesagt hatte, ein sehr elegantes feines sicheres Kerlchen von 22 Jahren, schon
+               verlobt, der beste Tänzer, den ich bis jetzt kennen gelernt habe; mein andrer Gast
+               war unser Divisionsadjudant Hauptmann <persName ref="P02144">Pulkowski</persName>,
+               von dem ich ja schon oft erzählt habe; er wusste als einziger von meinem Geburtstag
+               aus den Akten. –<lb/>
+               <pb n="2"/>Es verlief dann alles sehr vergnügt wie immer bei diesen Gesellschaften.
+               Es gab selbstgeschossene Rebhühner, aber nur Wein, keinen Sekt, grundsätzlich nicht
+               bei uns, was ich sehr schätze, da der Wein viel besser schmeckt. - - Nachher gingen
+               wir ins Billardzimmer, wo der von mir geraubte goldene Kronleuchter durch seidene
+               Papierschirme violett-gedämpftes Licht über das ganze Zimmer, die Nische, Spiegel und
+               Ölbilder ergießt; Kerzenglanz und große Sträuße mach<del rend="s">t</del>en das Ganze
+               noch festlicher … und doch war es nur für 20 Min. zum Zweck des Kaffeetrinkens; dann
+               setzte die Musik ein, Klavier, Geige, Cello, und alles zog herüber in die „Bar“.<lb/>
+               Die Bar? Schon lange war mir als „Chef der Innedekoration“ unser Klubzimmer ein Dorn
+               im Auge gewesen, eine häßliche, etwas zerrissene grüne Tapete, schmutzige Decke, zwei
+               riesige Wandschränke mit klaffenden Ritzen, zwei Türen, zwei Riesenfenster, ein
+               häßliches kleines Buffet in dem kleinen Raum, der Fußboden dreckig, das Sopha alt und
+               scheußlich, 3 große Bilder, das einzig Gute. Zugleich hatten <persName ref="P01488"
+                  >Pfeiffer</persName>, unser Adjudant und ich gesprächsweise den scherzhaften
+               Vorschlag gemacht, eine Bar einzurichten. Da fuhr <persName ref="P00252"
+                  >Exzellenz</persName> auf Urlaub und schon faßten wir den genialen Entschluß, das
+               Klubzimmer in eine Bar zu verwandeln. Und nun ging es mit militärischer
+               Schnelligkeit. Dienstag fuhren <persName ref="P01488">Pfeiffer</persName><pb n="3"
+               />und ich im Auto nach <placeName ref="Chauny (Aisne)">Chauny</placeName> und
+               requierierten Tapeten. Mittwoch war Besichtigung und Anforderung von 2 Tapezierern
+               von Regiment 36, Donnerstag wurde die Deck<unclear cert="high" reason="illegible"
+                  resp="AB">e</unclear> gestrichen und nach modernem Stil weit heruntergezogen.
+               Freitag wurde tapeziert, nachdem vorher die eine Tapetentür verschlossen und die
+               Wandschränke in zwei entzückende Wandnischen verwandelt waren. Freitag Abend waren
+               Farbenproben für die Holzteile<supplied evidence="ms" resp="AB"
+               >;</supplied><!--Semikolon fehlt im Original, AB--> schwarz, grau und violett
+               herrschen vor. Sonnabend wurde gestrichen, gefegt, eingeräumt. Der Fußboden ist
+               völlig belegt mit sehr passenden Teppichen und Läufern, in der einen Nische ist eine
+               Bank für 2 Mann mit Samtbekleidung und Kissen, in der anderen Nische ist der Stuhl
+               für den Ausschänker, rechts u<unclear cert="high" reason="illegible" resp="AB"
+                  >n</unclear>d links auf violetten Wandbrettchen die Gläser, Schnäpse, <unclear
+                  cert="high" reason="illegible" resp="AB">Wei</unclear>ne, vor ihm der Bartisch,
+               der untere Teil des alten Buffets mit Flaschen, Strohhalmen, Schokoladen, Parfums,
+               Zigaretten, u. s. w.<supplied evidence="ms" resp="AB"
+               >,</supplied><!--Beistrich fehlt im Original, AB--> vor dem Bartisch ein hoher
+               Barstuhl. Die Beleuchtung geschieht durch drei elektrische Lampen mit großen gelben
+               Stofftulpen, so daß ein gelblich gedämpftes Licht entsteht, was zu der rötlich matten
+               Tapete und dem rot<!-- (sic!), AB --> und gelben Teppich glänzend paßt; in der einen
+               Fensternische ist auch noch ein Platz mit Tischchen und zwei Sesseln, so daß im
+               Ganzen man in 4 Gruppen zu je 2-5 Menschen sitzen kann, während vorher im Ganzen für
+               6 kaum Platz war. Das Schönste aber ist<pb n="4"/>der Bilderschmuck. Schon seit
+               Monaten sammle ich in verschiedenen Mappen alle Bilder, die ich kriegen kann; dann
+               ließ ich mir von der Jugend eine Menge Nummern schicken, die zur rechten Zeit
+               ankamen; die letzte<!-- (sic!), AB --> Abende war Bilderkommission, worin wir die
+               geeigneten aussuchten, natürlich für eine Bar geeignet, also unter Ausschluß aller
+               Kriegsbilder und unter starker Bevorzugung des hier so sehr fehlenden schöneren
+               Teiles des Menschengeschlechtes in allen Formen und Gestalten; etwa 40 Bilder wurden
+               für geeignet erklärt und ich hatte sie zu gruppieren, was dann auch nach 2 Abenden
+               Arbeit und mit Hilfe der anderen so gut gelang, daß wir noch jetzt keine Veränderung
+               wünschten. Die großen Bilder wurden ins Billardzimmer gehängt und die Gruppen der
+               kleinen regen zu immer neuer Betrachtung an. – Ein Bild ist noch hinzugekommen, das
+               seine Geschichte hat; wir hatten mehrfach Debatten über die Abstammungslehre, wobei
+               sich außer <persName ref="P00252">Exzellenz</persName> alle zur Deszendenztheorie
+               bekannten; er konnte das gar nicht begreifen und ulkt<unclear cert="high"
+                  reason="illegible" resp="AB">e</unclear> uns dauernd mit unseren Vorfahren an; von
+               seinem Urlaub schrieb er mir aus dem Zoo eine entzückende Affenpostkarte; diese wurde
+               von unserm Zeichner vergrößert und gefärbt und der Affe prangt jetzt an der Rückwand
+               der Bar-Tische, dem Genießer aller dort ausgestellten Lieblichkeiten seine
+               Vergangenheit und – seine Zukunft vor Augen führend. Unterschrift von <persName
+                  ref="P00252">Exzellenz</persName>: „Mensch bleibt Mensch.“<pb n="5"/><lb/><!-- jetzt folgt eine große Zeichnung Tillichs von der Bar mit Beschriftung, ca. 8cm --><lb/>
+               <unclear cert="high" reason="illegible" resp="AB">In</unclear> beistehende Bar also
+               zog die Gesellschaft staunend und bewundernd und Entschlüsche
+               <!-- (sic!), Verschreibung wahrscheinlich, da in Kurrent doppel-S und Sch nur durch einen Schwenker unterschieden AB -->
+               fassend, sich auch eine Bar einzurichten. Nebenan spielte die Musik und lockte
+                  <persName ref="P01488">Pfeiffer</persName> und <persName ref="P02143"
+                  >Schwarzkopf</persName> heraus zu einem Boston, wie er in Berlin nicht besser
+               getanzt werden könnte. Gegen 11 gingen die Gäste und wir saßen noch herum und
+               plauderten bis <unclear cert="high" reason="illegible" resp="AB">½</unclear>1
+               <!-- Tillich scheint aus der ersten Eins einer 11 ein ½ korrigiert zu haben, AB --> ;
+               um 12 warf ich unauffällig einen Blick auf meine Uhr. Jetzt war es Geburtstag
+               geworden und niemand wusste es. --- <lb/> Am nächsten
+               Morgen<!-- Bei Paucks, Tillichs Leben, S. 56 heißt es: „In der Tat hatte man ihm zu Ehren ein zweitägiges Fest vorbereitet.“ Tillichs Brief weist aus, daß seine Geburtstagsfeier auf den 20.8. abends beschränkt blieb. Was Paucks an Einzelheiten beschreiben, bezieht sich nicht auf Tillichs Geburtstag, sondern auf eine Einladung junger Offiziere. -->
+               um 8 weckte mich <persName ref="P01744">Schröder</persName> und gratulierte mir; auf
+               Befragen, woher er es wüßte<supplied evidence="ms" resp="AB"
+               >,</supplied><!--Komma fehlt im Original, AB--> sagte der treue Kerl, er hätte es in
+               meinem Soldbuch gelesen und in sein Notizbuch geschrieben; ich war wirklich gerührt
+               über die Liebe und Anhänglichkeit, die darin lag. Dann feierte ich für mich erst
+               durch einen langen schönen Spaziergang; als ich zurückkam, las ich zur Überwindung
+               aller Müdigkeiten ein paar kräftige Kapitel aus <persName ref="P02120"
+                  >Zarathustra</persName> vom Ja zum Leben; nach Tisch las ich die Briefe, soweit
+               sie nicht schon am Tage vorher gekommen waren, und ließ mich dann in das Reich der
+               Gefühle und Wehmut und Erinnerung tragen durch <persName ref="P02145"
+                  >Münchhausens</persName> „Balladen und ritterlicher Lieder“. ---<pb n="6"/><lb/>
+               Nach dem Kaffee machte ich einen langen Ritt
+               <!--Tillich machte seinen Ausritt allein, nicht „alle machten eine Ausfahrt“, wie Paucks in Tillichs Leben, S. 56 behaupten.-->
+               durch die spätsommerlich dunstigen Felder; auf dem <placeName ref="Nouvron-Vingré"
+                  >Nouvron-Plateau</placeName> platzten ununterbrochen die Granaten und hinten im
+               Westen beim 9ten Korps ein dumpfer Schlag nach dem andern. Die Sonne war halb
+               verhüllt im Dunst und ich dachte an den anderen 20. August, wo ich 8 Jahre alt wurde
+               und wir mit Großpapa<!--vermutlich Oskar Tillich, AB--> von <placeName
+                  ref="Stubbenkammer">Stubbenkammer</placeName> nach <placeName ref="Lohme"
+                  >Lohme</placeName> gingen und ich vielleicht zum ersten Mal Sonnenuntergang als
+               Erlebnis empfand --<lb/> Als ich nach Hause kam, sagte mir der Bursche
+               <!--unklar, wer genau. Schröder (s.o.)?, AB-->, Herr Hauptmann
+               <!--unklar, wer genau. Zwar ist Pulkowski oben als Hauptmann bezeichnet, aber der Kontext hier lässt vermuten, dass es sich nun um einen anderen Hauptmann handelt, AB-->
+               ließe sagen, es sollte niemand durchs Eßzimmer gehen, <persName ref="P00252"
+                  >Exzellenz</persName> hätte eine wichtige militärische Besprechung. Da wußte ich,
+               daß <persName ref="P02144">Pulkowski</persName> geplaudert hatte und man <unclear
+                  cert="medium" reason="illegible" resp="AB">meinen</unclear> Geburtstag wußte.
+               Vorher aber hatte ich noch eine sehr nette Überraschung; unser
+               Koch<!-- Name unbekannt, AB -->, dem <persName ref="P01744">Schröder</persName>
+               natürlich davon erzählt hatte, hatte mir eine großartige Torte gebacken, und als ich
+               nach Tisch rauf kam, stand sie da, auch ein Beweis, wieviel Gemüt in den viel
+               verlästerten Sachsen steckt. ---<lb/> Zum Abendbrot wurde ich dann hereingerufen, und
+               fand meinen Stuhl umkränzt, die Bilder und das ganze Zimmer geschmückt; aber schon
+               stieß mich <persName ref="P01488">Pfeiffer</persName> weiter und im Eingang stand
+                  <persName ref="P00252">Exzellenz</persName> mit einer gelben Rose und hielt mir
+               eine kleine Geburtstagsrede, dankte im Namen aller <pb n="7"/> Zuhörer der Brigade
+               und wünschte mir Erfüllung meiner akademischen Ziele; dann gratulierten alle und
+               führten mich zu dem Geburtstagstisch. Das Tischchen vor <unclear cert="high"
+                  reason="illegible" resp="AB">der</unclear> Sitz-Nische (rechts unten) war durch
+               ein größes <!-- (sic!), AB --> ersetzt; darauf standen Sträuße und ein schön gemaltes
+               Plakat mit den Worten: „Unserem Dekorations-Strategen zum neuen Jahr viel Glück und
+               Segen“. Die „Dekoration“ bezieht sich darauf, daß ich „Chef der Innendekoration“ bin,
+               der „Stratege“ darauf, daß ich die Karten der verschiedenen Kriegsschauplätze unter
+               mir habe und öfter <persName ref="P00252">Exzellenz</persName> über die allgemeine
+               Lage in <placeName ref="Rußland">Rußland</placeName> etc. Vortrag halten muß; auf
+                  <unclear cert="low" reason="illegible" resp="AB">diesen</unclear> Punkt bezieht
+               sich auch das Schönste der Geschenke, ein amtlicher Brief mit 7 Brigade-Siegeln,
+               „eilt sehr“, „Durch Spezialboten an den „Chef des Generalstabes
+               <!-- = von Bonin?, AB -->
+               “<!-- (sic!); Anführungszeichen scheint nicht geschlossen zu werden, AB --> , etc.
+               und drinnen das vor zwei Stunden angekommene Telegramm mit der Nachricht von den 85
+               000 Russen in Nowo-Georgiewsk; die Überraschung war vollständig gelungen. Weiter
+               waren auf dem Tisch <unclear cert="medium" reason="illegible" resp="AB"
+                  >brennende</unclear>
+               <del rend="s">Kron</del>Leuchter, 29 Kerzen, die so ermöglicht waren, daß 4 davon in
+               Form einer römische<!-- (sic!), AB --> X zusammen 20 ergaben … dann Holzvögel, die
+               die gefangenen Russen hier in entzückender Ausführung machen. Dann ein Bild aus dem
+               Kunstwart, eine Spanierin, die <persName ref="P02148">Adrienne</persName> vorstellen
+               soll, eine Französin in <placeName ref="Coucy-le-Château-Auffrique"
+               >Coucy</placeName>, der ich im Auf-<pb n="8"/>trag von <persName ref="P00252"
+                  >Exzellenz</persName> mit <persName ref="P01488">Pfeiffer</persName> zusammen eine
+               Rose überbracht habe und mit der er uns nunmehr anödet, weiter Zuckerwerk, 2 Flaschen
+               Sekt, ein weißer und ein schwarzer Springer als Symbol unseres Schachspieles … Ihr
+               könnt Euch denken, wie beweglich mir das war, insbesondre auch diese
+               Liebenswürdigkeit von <persName ref="P00252">Exzellenz</persName>, der den ganzen
+               Nachmittag herumgetobt war, um alles zu machen. Zum Abendbrot gab es dann kaltes
+               Rebhuhn, und nachher gingen wir in die Bar und tranken eine Flasche Sekt; die
+                  <unclear cert="medium" reason="illegible" resp="AB">Lichter</unclear> glänzten,
+               die Blumen dufteten, und als die Lichter langsam erloschen, sagte <persName
+                  ref="P00252">Exzellenz</persName>, es ist wie Weihnachten, das war mein Geburtstag
+               in Frankreich am 20. August 1915.<lb/> In der Nacht aber wurde ich zweimal wach, so
+               donnerten die Kanonen und erinnerten mich daran, daß es Kriegs-Geburtstag war, und in
+               diesem Jahre mehr noch als sonst der 90te Psalm Wahrheit ist, den ich an jedem
+               Geburtstag und an jedem Sylvester mir in die Seele klingen lasse und der doch noch
+               gewaltiger ist, als alles Donnern der Kanonen. </p> 
+        <closer>
+           
+           <signed><persName ref="Tillich, Paul">Euer Paul!</persName></signed>
+        </closer>    
+        <postscript>
+           
+           <p>[<persName ref="P01926">Papa</persName> – <persName ref="P01933">Greti</persName> –
+                     <persName ref="P00644">Johanna</persName> – <persName ref="P01926"
+                     >Papa</persName> – Großmama<!--vermutlich Marie Luise Tillich-Scheidemantel-->
+                  – <persName ref="P02089">Toni</persName> – <persName ref="P01926"
+                  >Papa</persName>]<lb/>Extra Brief und Extra-Dank kriegt jeder in den nächsten
+                  Tagen!</p>
+        </postscript>
+     </div>
+    </body>
+  </text>
+</TEI>

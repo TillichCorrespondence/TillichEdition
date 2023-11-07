@@ -1,0 +1,134 @@
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von Paul Tillich an Johannes Tillich
+                    <lb/>vom 30. Mai 1915
+                </title>
+                <author ref="Paul Tillich">Paul Tillich</author>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Friedrich Schumann</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+                    <address>
+                        <street>Schenkenstraße 8-10</street>
+                        <postCode>1010</postCode>
+                        <placeName ref="Wien">
+                            <settlement>Wien</settlement>
+                            <country>Österreich</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+                </availability>        
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="manuscript">
+                    <msIdentifier>
+                        <country>USA</country>
+                        <settlement ref="Cambridge">Cambdridge, MA</settlement>
+                        <institution>Harvard University</institution>
+                        <repository>Harvard Divinity School Library</repository>
+                        <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974</collection>
+                        <idno>bMS 649/193(13)</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>Brief, eigenhändig</p>
+                    </physDesc>
+                    <additional>
+                        <listBibl>
+                            <biblStruct type="monograph" n="firstPrint">
+                                <monogr>
+                                    <author>Paul Tillich</author>
+                                    <editor> Renate Albrecht/Margot Hahl (Hg.)</editor>
+                                    <title>Ein Lebensbild in Dokumenten. Briefe, Tagebuch-Auszüge, Berichte</title>
+                                    <edition>Erste Auflage</edition>
+                                    <imprint>
+                                        <publisher>Evangelisches Verlagswerk Stuttgart</publisher>
+                                        <pubPlace ref="Stuttgart">Stuttgart</pubPlace>
+                                        <date when="1980">1980</date>
+                                        <biblScope>125</biblScope>
+                                    </imprint>
+                                </monogr>
+                                <series>
+                                    <title>Ergänzungs- und Nachlassbände zu den Gesammelten Werken von Paul Tillich</title>
+                                    <biblScope>V</biblScope>
+                                </series>
+                            </biblStruct>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+            </editorialDecl>
+        </encodingDesc> 
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="Paul Tillich">Paul Tillich</persName>
+                    <placeName ref="ohne Ort">ohne Ort</placeName><!--Ortsangabe fehlt-->
+                    <date when="1915-05-30">30. Mai 1915</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="Johannes Tillich">Johannes Tillich</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="deu">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="FS" when="2022-04-27">Initiale Auszeichnung des Transkripts</change>
+            <change who="FS" when="2022-05-18">Anpassungen auf Basis der Projektbesprechung vom 9.5.2022</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <div type="writingSession">
+                <pb n="1"/>
+                <opener>
+                    <salute>Lieber <persName ref="Johannes Tillich">Papa!</persName></salute>
+                </opener>
+                <p><date when="1915-06-03">In 4 Tagen</date> ist Dein Geburtstag und so will ich Dir heut schon 
+                    schreiben, daß ich in meinen Gedanken bei Dir sein werde und mit meiner Liebe zu Dir eilen 
+                    wollen und Dir sagen wie ich mich über alles freue, was ich von Dir gelesen habe während der 
+                    langen Zeit und wie froh es mich immer machte und noch macht, wenn ich von Dir hörte, daß es 
+                    Dir gut geht. Und selbst, als Du unter die Geheimen Räte gingst<!--Das war am 1.4.1915, (Erkl. Anm.)-->, 
+                    freute ich mich mit Dir und wünschte, daß Dein geheimer Rat der Kirche und uns vor allen<!--sic--> 
+                    noch lange und kräftig erhalten bleiben möge. – <!--Anm. ab hier bis Absatzende abgedruckt im ‚Lebensbild‘-Band-->
+                    Es wäre <persName ref="Margarete Wever (Tillich)">Greti</persName> und mir eine große Freude gewesen, 
+                    wenn wir Dich am Ende unserer Reise<!--Erkl. Anmerkung zur Reise?--> noch 2 Tage hätten sehen können; 
+                    aber ich verstehe ja, daß es Dir sehr schwierig war, zu kommen. Aber danken möchte ich Dir insbesondere 
+                    dafür, daß Du <persName ref="Margarete Wever (Tillich)">Greti</persName> Dein <pb facs="2"/>Vertrauen 
+                    geschenkt hast, das was sie am nötigsten braucht, da ihr es sonst niemand uneingeschränkt gibt von 
+                    meinen Freunden und den andern; Du weißt ja selbst, daß hier Schwierigkeiten liegen, die noch lange nicht überwunden sind; 
+                    und darum ist es das Größte, was Du mir schenken kannst und geschenkt hast, daß Du ein völliges Ja für mein 
+                    unendlich geliebtes <persName ref="Margarete Wever (Tillich)">Gretilein</persName> gefunden hast. Daß 
+                    sie es auch für Dich hat, brauche ich nicht zu sagen; sie wird es in ihrer Offenheit Dir selbst gesagt haben. Und 
+                    ich bitte Dich dabei <add place="superlinear">zu</add> bleiben, auch wenn sich noch größere Schwierigkeiten 
+                    finden sollten. – – – Vielen, vielen Dank dafür – – – – – </p>
+                <closer><salute>Und nun leb wohl und nimm als Geburtstagsgeschenk aus dem Felde die drei Briefe von 
+                    <bibl sameAs="1915.05.28. Tillich, P an Tillich, J">neulich</bibl>, heut und <bibl sameAs="1915.05.31. Tillich, P an Tillich, J">morgen!</bibl><lb/>
+                    Herzlichen Segenswunsch!<lb/>
+                    In Liebe und Dankbarkeit Dein Sohn </salute><signed>Paul</signed>!</closer>
+            </div>
+        </body>
+    </text>
+</TEI>

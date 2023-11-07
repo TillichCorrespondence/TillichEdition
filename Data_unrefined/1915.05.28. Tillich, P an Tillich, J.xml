@@ -1,0 +1,174 @@
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von <persName ref="Tillich, Paul">Paul Tillich</persName> an <persName ref="Tillich, Johannes">Johannes Tillich</persName>, und Familie: <persName ref="Tillich-Wever, Margerete">Margerete Tillich-Wever</persName>, <persName ref="Fritz, Alfred">Alfred Fritz (vermutlich)</persName>, <persName ref="Marie Luise, Tillich-Scheidemantel">Marie Luise Tillich-Scheidemantel (vermutlich)</persName>
+               <lb/>vom 28.05.1915
+            </title>
+            <author ref="Tillich, Paul">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Andreas Burri</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Briefe</collection>
+                  <idno>bMS 649/193</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Brief, eigenhändig</p>
+                  </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="Tillich, Paul">Paul Tillich</persName>
+              <placeName ref="Juvigny (Aisne)">Juvigny (Aisne)</placeName>
+              <date when="1915-05-16">28.05.1915</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="Tillich, Johannes">Johannes Tillich</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="AB" when="2022-04-08">Intitale Auszeichnung des Transkripts</change>
+        <change who="??" when="2022-04-08">Überprüfung und Ergänzung der Auszeichnungen</change>
+        
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+           <dateline><placeName ref="Juvigny (Aisne)">Juvigny (Aisne)</placeName>, den <date when="1915-05-28">28.
+                     Mai 1915</date></dateline>
+               <salute><persName ref="Tillich, Johannes">Lieber Papa!</persName></salute>
+            </opener>
+        <p>Aus der umstehenden Seite könnt Ihr ziemlich genau ersehen wo und wie ich wohne. Ich gebe
+               einige Erläuterungen zu den Zeichnungen.<lb/>
+               <placeName ref="Juvigny (Aisne)">Juvigny</placeName> liegt ungefähr ebensoweit wie
+                  <placeName ref="Bieuxy">Bieuxy</placeName> von der Aisne und damit von der
+               Schützenlinie entfernt; nur weiter nach Osten, am linken Flügel unseres Korps, fast
+               genau nördlich <placeName ref="Soissons">Soissons</placeName>. Es ist geographisch
+               bestimmt durch das Tal <!--sic: kein Beistrich (AB) !--> an dessen Nordzipfel es
+               liegt, und durch das es landschaftlich außerordentlich weit <placeName ref="Bieuxy"
+                  >Bieuxy</placeName> überlegen ist. Das Tal ist größtenteils bewaldet, hat
+               unendliche Krümmungen, Zipfel, Seitentäler und ist recht schwierig zu übersehen. Ich
+               habe bei meinen Fahrten von <placeName ref="Bieuxy">Bieuxy</placeName> Monate
+               gebraucht, ehe ich es ganz im Kopf hatte. Dabei sind die Entfernungen nicht groß. Die
+               Strecke <placeName ref="Juvigny (Aisne)">Juvigny</placeName>-<placeName
+                  ref="Vauxrezis">Vauxre<unclear cert="medium" reason="illegible" resp="AB"
+                     >c</unclear>is</placeName> kann man in einer Stunde leicht durchreiten. Ich
+               habe die Wege aufgezeichnet, auf denen Ihr Euch meine Tätigkeit insbesondere
+               vorstellen könnt. Durch das Schlachtfeld von <placeName ref="Soissons"
+                  >Soissons</placeName> bin ich damals auf der großen Chaussee gegangen. Nach Norden
+               ist landschaftlich nichts los. Erst in <placeName ref="Crécy-au-Mont"
+                  >Crécy</placeName>, dem Sitz des Divisionsstabs, fängt es wieder an, hübsch zu
+               werden. Dafür ist es aber leicht möglich in die östlich, bei <placeName
+                  ref="Terny-Sorny">Terny</placeName> beginnenden Täler zu reiten, wo das dritte
+               Korps liegt. Desgleichen nach <placeName ref="Leuilly-sous-Coucy"
+               >Leuilly</placeName>.<lb/> Der Ort <placeName ref="Juvigny (Aisne)"
+                  >Juvigny</placeName> ist länglich, am Talzipfel entlang, gebaut. Etwa 30 Bewohner,
+               Frauen und Kinder sind noch da; alles andere ist abtransportiert. Da nur noch eine
+               Artilleriekolonne außer dem Stabe hier liegt, sind die Hälfte der Häuser vollständig
+               ausgeraubt. Die kahlen Wände mit Tapetenfetzen sind <pb n="3"/>
+               <!--Seite 2 des Briefes ist eine seitenfüllende Zeichnung mit der Überschrift: „Juvigny d. 26. Mai 1915" (AB) !-->
+               das einzige, was übriggeblieben ist. Der Kirchturm ist von uns niedergelegt, damit er
+               der Artillerie kein Ziel bietet. Sonst ist die Kirche gut erhalten. Einigen Schaden
+               hat auch die mehrfache Beschießung des Ortes gemacht, die aber außer einem Schwein
+               noch niemand zur Strecke gebracht hat und in keiner Weise Grund zu Besorgnissen
+               bietet. Seit 14 Tagen ist überhaupt nicht mehr hergeschossen worden. Gefährlich ist
+               überhaupt nur der erste Schuß, da bis zum zweiten reichlich Zeit ist, in die
+               Unterstände und Keller zu gehen; und die meisten Schüsse gehen drüber weg und
+               nebenbei. ---<lb/>      Wir bewohnen das sogenannte Schloß, ein schmales langes Landhaus mit der
+               Front nach dem Tal, oben am Abhang mit herrlicher Aussicht auf Schloßpark und Tal.
+               Das Haus hat nur eine Reihe Zimmer, unten gehen die Zimmer nach beiden Seiten durch,
+               nach Norden auf die Straße, nach Süden ins Tal; oben haben die Zimmer nur Südfenster;
+               nach Norden ist ein Gang. Vor dem Schloß ist eine Terrasse, links beiliegende
+               Kastanie, unter der wir Kaffee trinken, rechts eine Tanne. Zur Terrasse führt eine
+               Freitreppe mit Rampe herunter. Auf dem Marsch von <placeName ref="Sedan"
+                  >Sedan</placeName> nach <placeName ref="Paris">Paris</placeName> soll 1870 der
+           <persName ref="Friedrich III.">Kronprinz</persName> hier Quartier gehabt haben. Als die Brigade einrückte, war außer den kahlen
+               Wänden nichts vorhanden. Jetzt ist alles recht gut eingerichtet, vornehmlich mit
+               Möbeln aus der Verrerie. Unter Operationszimmer ist natürlich das Zimmer für
+               militärische Operationen zu verstehen. Der Schloßpark ist völlig verwildert. Er ist
+               umschlossen von einer epheuumrankten Mauer. Die Wege sind alle nur so breit wie
+               Fußpfade, kein einziger ordentlicher Wandelgang. In der Talsohle ist Obstwiese, auf
+               der unsere Pferde weiden. Das Wort Park ist darum etwas <pb n="4"/> zu viel gesagt.<lb/>
+                     Mein Zimmer ist zweifenstrig mit herrlicher Aussicht. Das Innere ist durch alte
+               Sachen aus <placeName ref="Bieuxy">Bieuxy</placeName> und neue von hier geradezu
+               vornehm geworden. Den Steinfliesenfußboden, der hier merkwürdiger Weise im ersten
+               Stock angewandt ist, habe ich vollständig mit Teppichen und Läufern belegt. Mein
+               Arbeitstisch steht an der Wand <del rend="overstrike">neben</del> zwischen den beiden
+               Fenstern; an der Wand hinter mir steht der Reihe nach mein Kleiderschrank, ein
+               Eisenofen, Wasch- und Nachttisch, Bett: mein Studier- und Schlafzimmer. An der Wand
+               mir gegenüber steht der Reihe nach eine große Vase mit zwei Sesseln und einem runden
+               Tisch, an der Wand zwei Ölbilder aus der Verrerie
+               <!--unklar ob z. B. Ort La Verrerie in Fribourg (CH), Schloss La Verrerie in Oizon (FR) oder sonst ein Ort bzw. sonst eine verrerie (frz. für Glashütte) (AB) !-->
+               , wo auch die Vase her ist; mein gutes Zimmer, dann ein altes holzgeschnitztes Möbel,
+               als Bücherständer zu verwerten, sehr kunstvoll, dann eine Kommode. Bett und Kommode
+               gehen schon zur Türwand herum, und lassen zwischen sich die tuchbespannte Tür. Eine
+               Uhr, sonstige Vasen, seit Pfingsten zwei Maien, viele Bilderrahmen, – die einzigen
+               Überbleibsel in den verlassenen Häusern – harren der Füllung mit Jugendbildern, zwei
+               Spiegel sind angenehm und nützlich zugleich, eine elektrische Birne strahlt
+               mystisch-rotes Licht durch den Raum, schwere Vorhänge lassen die Sonne nicht durch,
+               wenn sie zu warm am Mittag scheint und weitere Herrlichkeiten stehen in Aussicht… Daß
+               gegen diese Pracht alle Schönheiten des neubemalten <placeName ref="Bieuxy"
+                  >Bieuxyer</placeName> Bauernzimmers verblassen, ist klar!… und morgen erzähle ich
+               von Menschen und Ereignissen: </p>
+        <closer>
+           <salute>Es grüßt Dich herzlich</salute>
+           <signed><persName ref="Tillich, Paul">Dein Paul!</persName></signed>
+        </closer>    
+        <postscript>
+           <label>P. S.</label>
+           <p>Rundlauf: <persName ref="Tillich, Johannes">Papa</persName> – <persName ref="Tillich-Wever, Margerete">Greti</persName> <!--Über „Papa – Greti“ ein halbrunder verbindender Bogen, darüber: „schnell“ (AB) !--> – <persName ref="Fritz, Alfred">Alfred</persName> – <persName ref="Tillich, Johannes">Papa</persName> <persName ref="Marie Luise, Tillich-Scheidemantel">(Großmama)</persName></p>
+        </postscript>
+     </div>                
+    </body>
+  </text>
+</TEI>

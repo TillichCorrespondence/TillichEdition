@@ -1,0 +1,139 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Paul Tillich an den Dekan der theologischen Fakultät der Universität
+               Halle, Ernst von Dobschütz <lb/>vom 24. Mai 1916 </title>
+            <author ref="Paul Tillich">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement ref="Halle a. S.">Halle a. S.</settlement>
+                  <institution>Martin-Luther-Universität Halle-Wittenberg</institution>
+                  <repository>Universitätsarchiv Halle-Wittenberg</repository>
+                  <collection>Rep. 27 (Theologische Fakultät)</collection>
+                  <idno>Nr. 876 (30-32)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+               <additional>
+                  <listBibl>
+                     <biblStruct type="journal" n="firstPrint">
+                        <monogr>
+                           <author>Erdmann Sturm</author>
+                           <title>An der engen Pforte der historischen Methode vorbeit. Paul
+                              Tillichs Habilitation in Halle (1916) und seine Umhabilitierungen nach
+                              Berlin (1919) und Marburg (1924).</title>
+                           <imprint>
+                              <pubPlace ref="Berlin/Boston">Berlin/Boston</pubPlace>
+                              <date when="2015">2015</date>
+                              <biblScope>309-310</biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title>International Yearbook for Tillich Research</title>
+                           <biblScope>Bd. 10/1</biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="Paul Tillich">Paul Tillich</persName>
+               <placeName ref="ohne Ort">ohne Ort</placeName>
+               <date when="1916-05-24">24. Mai 1916</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="Ernst von Dobschütz">Ernst von Dobschütz</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2022-05-31">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <dateline>Brigadestabsquartier 14. Res-Brig. d. <date when="1916-05-24">24. Mai
+                     1916.</date></dateline>
+               <salute>Hochverehrter <persName ref="Ernst von Dobschütz">Herr
+                  Professor</persName>!</salute>
+            </opener>
+            <p>Es ist mir ein Bedürfnis Ihnen und der Hochwürdigen Fakultät meinen gehorsamsten Dank
+               auszusprechen über das gütige Entgegenkommen in allen Fragen meiner Habilitation! Es
+               wäre mir natürlich eine große Freude, wenn ich die Möglichkeit bekäme, in einem
+               dreiwöchentlichen Urlaub beide Vorlesungen zu erledigen! Aber es ist<pb n="2"/> durch
+               die letzten militärischen Ereignisse in meiner Division eher unwahrscheinlich als
+               wahrscheinlich geworden. Weder wenn die Truppe sich in schweren Kämpfen befindet,
+               noch wenn sie völlig in Ruhe liegt, könnte ich ein Urlaubsgesuch einreichen. Sollten
+               wir uns aber in einer verhältnismäßig ruhigen Stellung befinden, so würde mit Hülfe
+               der gütigen Fakultätsbescheinigung ein Urlaub leicht zu erreichen sein. Es tut mir
+               Leid, daß ich nichts<pb n="3"/> Bestimmtes sagen kann. Sollte der günstige Fall
+               überraschend eintreten, so würde ich mir erlauben zu telegraphieren, und die
+               Ansetzung eines möglichst schnellen Termins für die erste Vorlesung erbitten.</p>
+            <closer>
+               <salute>Mit ergebenstem Dank bin ich Gehorsamst</salute>
+               <signed><hi rend="aq"><persName ref="Paul Tillich">Dr. P. Tillich.</persName> Lic.
+                     theol.</hi> 7. Res-Div. 14. Res-Brig. Brig-Stab.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

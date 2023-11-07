@@ -1,0 +1,133 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Paul Tillich an Johannes Tillich
+               <lb/>vom 1. September 1915
+            </title>
+            <author ref="P01930">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Leopold Potyka</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library </repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974</collection>
+                  <idno>bMS 649/193(13)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>handschriftlich</p>
+                  </physDesc>               
+            </msDesc>                     
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01930">Paul Tillich</persName>
+              <placeName ref="Juvigny">Juvigny</placeName>
+              <date when="1915-09-01">1. September 1915</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01926">Johannes Tillich></persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="LP" when="2022-07-14">Intitale Auszeichnung des Transkripts</change>
+        <change who="Initialien des Editors" when="1886-08-20"><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+        
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+           <dateline><placeName ref="Juvigny">Juv.</placeName> d. <date when="1915-09-01">1 .Sept. 1915.</date></dateline>
+           <salute>Lieber <persName ref="P01926">Papa</persName>!</salute>
+        </opener>
+        <p>Heute <unclear reason="damage"></unclear>
+           mächtig bei uns und über <unclear reason="damage"></unclear> 
+           im französischen Tagesbericht lesen <unclear reason="damage"></unclear>
+           Kämpfe auf dem Plateau von <placeName ref=" Nouvron-Vingré">Nouvron</placeName> <unclear reason="damage"></unclear> 
+           im Aisnetal, wie fast täglich; eine Erinne-
+           rung daran, daß doch immer noch Krieg ist 
+           auch an der Westfront. – Habe herzlichst Dank 
+           für Deinen lieben <bibl type="letter">Geburtstagsbrief</bibl> und die 
+           Sendung, die vortrefflich geschmeckt hat, resp. 
+           schmecken wird, soweit sie für die Tage der 
+           Not in Reserve gestellt wird!  Meinen 
+           <bibl type="letter">Geburtstagsbrief</bibl> wirst Du nun ja schon haben; 
+           es war wirklich riesig nett --- 
+           Ich haben den Plan gefaßt, wahrscheinlich 
+           schon Ende September auf Urlaub zu kommen, 
+           1. Weil es nötig ist, daß ich jetzt mal mit 
+           <persName ref="P01227">Lütgert</persName> persönlich rede und den Druck der Ar-
+           beit, die bei mir liegt, persönlich leiten kann. 
+           2. Weil es im September schöner ist als 
+           im November und ich noch an die See kann. 
+           3. Weil es im November vielleicht nicht mehr 
+           geht, und wenn es geht, ich immer noch 3 Tage 
+           zur Habilitation bekomme.</p>
+        <p>Ich will sehen <persName ref="P01227">Lütgert</persName>, den Verleger, zu <pb n="2"/>
+           rechnen 1-2 Tage, Euch mit <persName ref="P01928"><persName ref="P01932">Großeltern</persName></persName>, <persName ref="P02024">We-
+           gener</persName> und <persName>Eckardt</persName> 2 Tage, die <persName ref="P00641"><persName ref="P00644">Butterfelder</persName></persName> 
+           2 Tage, dann mit <persName ref="P01933">Greti</persName> nach <placeName ref="Misdroy/Międzyzdroje">Misdroy</placeName> 
+           gehen oder <placeName ref="Rügen">Rügen</placeName>. Bitte schreibe mir gleich, 
+           wann und wo Ihr, <persName ref="P01926">Du</persName>, <persName ref="P02089">Toni</persName>, <persName ref="P01764">Elisabeth</persName>, 
+           <persName ref="P00641">Alfred</persName>, zwischen 15. Sept. und 15. Okt. seid! 
+           Noch kann ichs nicht fassen, daß ich Euch vielleicht 
+           sehen soll…
+        </p>
+        <closer>
+           <salute>Dein</salute>
+           <signed><persName ref="P01930">Paul</persName>!</signed>
+        </closer>
+        
+      
+     </div>
+    </body>
+  </text>
+</TEI>

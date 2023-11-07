@@ -1,0 +1,116 @@
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von Paul Tillich an Johannes Tillich
+                    <lb/>vom 7. Oktober 1915
+                </title>
+                <author ref="Paul Tillich">Paul Tillich</author>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Friedrich Schumann</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+                    <address>
+                        <street>Schenkenstraße 8-10</street>
+                        <postCode>1010</postCode>
+                        <placeName ref="Wien">
+                            <settlement>Wien</settlement>
+                            <country>Österreich</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+                </availability>        
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="manuscript">
+                    <msIdentifier>
+                        <country>USA</country>
+                        <settlement ref="Cambridge">Cambdridge, MA</settlement>
+                        <institution>Harvard University</institution>
+                        <repository>Harvard Divinity School Library</repository>
+                        <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974</collection>
+                        <idno>bMS 649/193(13)</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>Brief, eigenhändig</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+            </editorialDecl>
+        </encodingDesc> 
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="Paul Tillich">Paul Tillich</persName>
+                    <placeName ref="Pargny">Pargny</placeName>
+                    <date when="1915-10-07">7. Oktober 1915</date><!-- 8. Oktober 1915 [PS]-->
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="Johannes Tillich">Johannes Tillich</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="deu">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="FS" when="2022-05-06">Initiale Auszeichnung des Transkripts</change>
+            <change who="FS" when="2022-05-18">Anpassungen auf Basis der Projektbesprechung vom 9.5.2022</change> 
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <div type="writingSession">
+                <pb n="1"/>
+                
+                <opener>
+                    <dateline>
+                        <placeName ref="Pargny">Pargny</placeName>, <date when="1915-10-07">7. Okt. 1915</date>
+                    </dateline>
+                    <salute>Lieber <persName ref="Johannes Tillich">Papa</persName>!</salute>
+                </opener>
+                
+                <p>Heut Mittag 2 Uhr kam die Nachricht: die 15. Res<expan>erve</expan>-Div.<expan>ision</expan> übernimmt die 
+                    Stellung der 7ten; die 7te kommt weg, als „Heeresreserve“, Ziel: <placeName ref="Champagne">Champagne</placeName>. 
+                    Das bedeutet für uns Ende der guten Zeiten und Krieg im wahrsten Sinne; es wird furchtbar werden in 
+                    der <placeName ref="Champagne">Champagne</placeName>, wenn dort die Kämpfe andauern; morgen schon gehts los; 
+                    wenn dieser Brief da ist, könnt Ihr schon an <unclear reason="illegible">uns</unclear><!--Alternative Lesart ist "dies"--> 
+                    denken, wenn Nachrichten aus der <placeName ref="Champagne">Champagne</placeName> da sind; es ist sehr ernst für 
+                    unsere Truppen; aber im Grunde ist Freude über die Bewegung da; ich glaube kaum, daß wir immer dort bleiben 
+                    werden; Heeresreserve ist beweglich; selbst 
+                    an <placeName ref="Champagne">Serbien</placeName><!--Vgl. hierzu den Serbienfeldzug der Mittelmächte 
+                        im Oktober 1915--> denkt mancher. – Schreibt recht oft, damit ich trotz aller Schwierigkeiten dann und 
+                    wann etwas habe; ich werde es auch tun, aber Ankunft ist unsicher, <pb facs="2"/> da ja die Post mitzieht. 
+                    Meine Adresse bleibt <hi rend="u">immer</hi> 7. Res<expan>erve</expan>-Div.<expan>ision</expan> 14. Res<expan>erve</expan>-Brig.<expan>ade</expan> 
+                    ohne Korpsangabe. Die <placeName ref="Champagne">Champagne</placeName> ist trostlos in Bezug auf Quartiere und Natur. Den ganzen Tag habe ich gepackt; 
+                    zu tun ist vorläufig nichts. Mein neues Quartier ist sehr schön; kaum gesehen wieder weg!</p> 
+                
+                <closer>
+                    <salute>In Liebe und Dank für die schönen Tage<lb/>
+                        Dein</salute> <signed>Paul</signed>.
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+
