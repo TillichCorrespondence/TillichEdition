@@ -1,0 +1,119 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Postkarte von Paul Tillich und Margarete Tillich an Mathilde Wever <lb/>vom 15.
+               September 1916 [PS] </title>
+            <author ref="Paul Tillich">Paul Tillich</author>
+            <author ref="Margarete Tillich">Margarete Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard Univeristy</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974.</collection>
+                  <idno>bMS 649/209(3)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="Paul Tillich">Paul Tillich</persName>
+               <persName ref="Margarete Tillich">Margarete Tillich</persName>
+               <placeName ref="Cochem">Cochem</placeName>
+               <date when="1916-09-15">15. September 1916</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="Mathilde Wever">Mathilde Wever</persName>
+               <placeName ref="Butterfelde">Butterfelde</placeName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2022-05-30">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="postcard">
+      <body>
+         <div type="PaulTillich">
+            <pb n="1"/>
+            <opener>
+               <salute>Liebe <persName ref="Mathilde Wever">Mutter</persName>!</salute>
+            </opener>
+            <p>Es ist höchste Zeit, daß ich schreibe, denn eben kommt die dritte halbe <unclear
+                  cert="high">Tasse Mosel</unclear> und was dann kommt, weiß niemand --- Morgen ist
+               der letzte Tag! Es war der schönste Urlaub!</p>
+            <closer>
+               <signed>Dein <persName ref="Paul Tillich">Paul</persName>.</signed>
+            </closer>
+         </div>
+         <div type="MargareteTillich">
+            <opener><salute>L. <persName ref="Mathilde Wever">M.</persName></salute></opener>
+            <p>Deinen Brief bekam ich heute, ich habe mich sehr dazu gefreut!
+                  <abbr>Sonnab-</abbr><expan>end</expan> ist nun Schluss. Ich möchte noch etwas in
+                  <placeName ref="Kassel?">Cassel</placeName> bleiben, fahre dann nach <placeName
+                  ref="Berlin">Berlin</placeName>, weiter reicht mein Geld nicht. In <placeName
+                  ref="Bad Bertrich">Bertrich</placeName>regnete es, da reisten wir ab hier ist es
+               besonders schön. Aber einmal muss ja auch Schluß sein.</p>
+            <closer><salute>Herzl. Gruss v. <persName ref="Margarete Tillich"
+                  >Greti</persName></salute></closer>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,118 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Postkarte von Paul Tillich an Johanna Tillich <lb/>vom 5. Juni 1917 </title>
+            <author ref="Paul Tillich">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement ref="Marburg">Marburg</settlement>
+                  <institution>Philipps-Universität Marburg</institution>
+                  <repository>Deutsches Paul-Tillich-Archiv</repository>
+                  <idno>008 A</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="Paul Tillich">Paul Tillich</persName>
+               <placeName ref="ohne Ort">ohne Ort</placeName>
+               <date when="1917-06-05">5. Juni 1917</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="Johanna Tillich">Johanna Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2022-06-13">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="postcard">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <dateline>D. <date when="1917-06-05">5. Juni. 1917.</date></dateline>
+               <salute>Mein liebes <persName ref="Johanna Tillich">Wumming</persName>!</salute>
+            </opener>
+            <p>Im Anblick eines Höhenzuges von ein paar Kilometern, auf dem mehr Blut geflossen ist,
+               als an einem ganzen Kriege der Vergangenheit, und wo Tag für Tag die
+               Schwefelschwaden, "der Rauch der Qual" aufsteigt -- <unclear cert="low">weh
+                  mir</unclear> unsere armen Kerls - denke ich an Euch! --- Sonntag war ich lange
+               mit <persName ref="Pfarrer Pfalzgraf">Pfarrer Pfalzgraf</persName>, <placeName
+                  ref="Bremen">Bremen</placeName>, zusammen; er war mir sehr sympathisch; sagte,
+               dass es Dir in <placeName ref="Bremen">Bremen</placeName> schwerer werden würde als
+                  <persName ref="Alfred Fritz">Frede</persName>, aber dann würdest Du immer dasein
+               wollen. --- Heut habe ich als Patenonkel 50M an Dich abgeschickt, mit der Bedingung,
+               daß Du für Dich etwas tust, entweder 10 Flaschen guter Ratskellerrotwein oder eine
+               Sonntagstour ans Meer! Oder sowas! Aber für <hi rend="u">Dich</hi>! Für <persName
+                  ref="Gisela">Gisela</persName> die drei Kornblumen! <persName ref="Alfred Fritz"
+                  >Frede</persName> einen Gruß und <persName ref="Eckehardt Fritz"
+                  >Ekkehardt</persName> einen Kuß!</p>
+            <closer>
+               <signed>Dein Junge!</signed>
+            </closer>
+
+            <postscript>
+               <p><!-->wenn vorhanden<!--></p>
+            </postscript>
+
+         </div>
+      </body>
+   </text>
+</TEI>

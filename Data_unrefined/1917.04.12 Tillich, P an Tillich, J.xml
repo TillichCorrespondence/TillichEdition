@@ -1,0 +1,129 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Paul Tillich an Johannes Tillich <lb/>vom 12. April 1917 </title>
+            <author ref="Paul Tillich">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965.</collection>
+                  <idno>bMS 649/193(15)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="Paul Tillich">Paul Tillich</persName>
+               <placeName ref="ohne Ort">ohne Ort</placeName>
+               <date when="1917-04-12">12. April 1917</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="Johannes Tillich">Johannes Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2022-05-23">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <dateline>D. <date when="1917-04-12">12. Apr. 1917</date></dateline>
+               <salute>Lieber <persName ref="Johannes Tillich">Papa</persName>!</salute>
+            </opener>
+            <p>Es sind Umstände
+               eingetreten<!--Vielleicht der in EN5 erwähnte Krach mit Exzellenz von Bodin desselben Datums? PS-->,
+               die es mir möglicherweise wünschenswert machen, im heimatlichen Kirchendienst
+               verwandt zu werden. Das Nähere ist gleichgültig. Entscheidend wäre, wenn ich<add
+                  resp="PS">,</add> wie ich es jetzt oft empfinde, mit meiner Kraft und meiner
+               Frische und meinen Kriegsnerven zu Ende wäre! Dann könnte ich vielleicht in der
+               Heimat vieles leisten, während ein anderer hier mit neuem, frischen Eifer ans Werk
+               ginge!</p>
+            <p>Ich bitte Dich nun, mir umgehend und eingehend zu schreiben, 1. wie lange Du in
+                  <placeName ref="Berlin">Berlin</placeName> bleibst. 2. In welcher Form eine
+               Reklamation vor sich gehen müßte, und was für Stellen in Betracht kämen. Auch ein
+               Tausch wäre in Erwägung zu ziehen. Augenblicklich wäre mir eine Landstelle mit wenig
+               Kasualien und 1 bis 2 Filialpredigten das Erwünschteste; aber natürlich auch Vorort
+               und <placeName ref="Berlin">Berlin</placeName> selbst kommen in Betracht!</p>
+            <p>Deinen Brief bekam ich heut früh! Herzlichen Dank! Inzwischen<pb n="2"/> war auch ein
+               Brief von <persName ref="Elisabeth Tillich">Elisabeth</persName> eingetroffen; Sie
+               hatte in der ersten Anzeige eine falsche Adresse geschrieben! Ich freue mich sehr
+               über mein Patchen <!--Wer ist das? --> und hoffe, von seiner Entwicklung mehr
+               miterleben zu können, als von <persName ref="Eckehard Fritz">Eckehardts</persName>!</p>
+               <p>Ich muß jetzt schließen und wünsche Dir, daß Du nun auch diese 14 Tage noch gut
+               überstehst!</p>
+            <closer>
+               <salute><!-->Abschlussformel<!--></salute>
+               <signed>In Treuen Dein <persName ref="Paul Tillich">Paul</persName>.</signed>
+            </closer>
+
+            <postscript>
+               <p><!-->wenn vorhanden<!--></p>
+            </postscript>
+
+         </div>
+      </body>
+   </text>
+</TEI>

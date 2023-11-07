@@ -1,0 +1,98 @@
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Postkarte von <persName ref="P01930">Paul Tillich</persName> an <persName ref="P01927">Margarethe Tillich</persName>
+               <lb/>vom 12. August 1916
+            </title>
+            <author><persName ref="P01930">Paul Tillich</persName></author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Andreas Burri</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Briefe</collection>
+                  <idno>bMS 649/237</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Postkarte, eigenhändig, fragmentarisch überliefert</p>
+                  </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P01930">Paul Tillich</persName>
+               <placeName ref="ohne Ort">ohne Ort</placeName>
+               <date when="1916-08-12">12. August 1916
+                  <!--Poststempel; die Karte wurde entsprechend dem Motiv auf der Vorderseite (‚Paul Tillich auf Pferd mit seinem Burschen‘) ausgeschnitten. Dementsprechend fragmentarisch ist der Text auf der Rückseite erhalten --></date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P01927">Margarethe Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+     <revisionDesc status="approved">
+        <change who="AB" when="2022-07-19">Intitale Auszeichnung des Transkripts</change>
+        <change who="AB" when="2022-07-19">Überprüfung und Ergänzung der Auszeichnungen</change>
+     </revisionDesc>
+  </teiHeader>
+  <text type="postcard">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <p> Wetter vorzüglich. Ich wohne an ei<unclear cert="high" reason="damage"
+           resp="AB">nem</unclear> Bergabhang mit herrlichem Blick <unclear>¿¿¿ … ¿¿¿</unclear><lb/> <hi rend="et">D<unclear>¿¿¿ … ¿¿¿</unclear></hi><lb/>
+        </p>
+        <closer>
+           <salute>Viele herzliche Grüße! <persName ref="P01927">Dir</persName> und <persName ref="P01932">Großmama</persName><unclear>¿¿¿ … ¿¿¿</unclear></salute>
+           
+        </closer>
+     </div>
+     </body>
+  </text>
+</TEI>
+           
+           
+           

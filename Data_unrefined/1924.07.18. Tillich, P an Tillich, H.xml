@@ -1,0 +1,103 @@
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von <persName ref="P01930">Paul Tillich</persName> an <persName ref="P01925">Hannah Tillich</persName>
+                    <lb/>vom <date when="1924-07-18">18.07.1924</date>
+                </title>
+                <author ref="P01930">Paul Tillich</author>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Emil Lusser</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+                    <address>
+                        <street>Schenkenstraße 8-10</street>
+                        <postCode>1010</postCode>
+                        <placeName ref="Wien">
+                            <settlement>Wien</settlement>
+                            <country>Österreich</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+                </availability>        
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="Postkarte">
+                    <msIdentifier>
+                        <country>USA</country>
+                        <settlement>Cambridge, MA</settlement>
+                        <institution>Harvard University</institution>
+                        <repository>Harvard Divinity School Library</repository>
+                        <collection>Tillich, Hannah. Papers, 1896-1976</collection>
+                        <idno>bMS 721/2(20)</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>handschriftlich</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+            </editorialDecl>
+        </encodingDesc> 
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="P01930">Paul Tillich</persName>
+                    <placeName ref="Tübingen">Tübingen</placeName><!--Poststempel-->
+                    <date when="1924-07-18">18.07.1924</date><!--Poststempel-->
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="P01925">Hannah Tillich</persName>
+                    <address><placeName ref="Marburg">Marburg <unclear>(Bahn)</unclear>
+                        <lb/>Sybelstr. 6</placeName></address>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="deu">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="EL" when="2023-07-11">Intitale Auszeichnung des Transkripts</change>
+            
+        </revisionDesc>
+    </teiHeader>
+    <text type="postcard">
+        <body>
+            <div type="writingSession">
+                <pb n="1"/>
+                <opener>
+                    <salute>Liebster <persName ref="P01925">Matz</persName>!</salute>
+                </opener>
+                <p>Das erste was mich hier empfing, war Dein Telegramm und – <persName ref="P01517">Pölchau</persName>. Er hat sich zu meinem Manager herangebildet, bestimmt mit einem Notizbuch die Verwendung jeder Stunde bis <del rend="s">morgen</del><add place="superlinear">Sonntag</add>früh! Dazu Schlafen und Essen. Eben hat er mich sogar abgelichtet! – – –
+                    <lb/>Hier umgeben mich merkwürdige Erinnerungen von vor 20 Jahren; und dann – finde ich es so merkwürdig und so herrlich, daß Du <pb n="2"/>da bist! - - Also Sonntag Ab<abbr>en</abbr>d um 12! – 
+                </p>
+                <closer>
+                    <salute>D.<abbr>ein</abbr> <persName ref="P01930">P..<abbr>aulch</abbr>en</persName>
+                        <lb/> Herzl.<abbr>ichen</abbr> Gruß
+                        <persName ref="P01517">Harald Poelchau</persName>.
+                        Herzl. Gruß
+                        Harald Poelchau. 
+                        Leb’ wohl, liebes süßes <persName ref="P01925">Hannahchen</persName>!</salute>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

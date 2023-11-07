@@ -1,0 +1,125 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Leopold Schaumann an Paul Tillich
+               <lb/>vom 15. Juli 1916
+            </title>
+            <author ref="P01701">Leopold Schaumann</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Gerrit Mauritz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement ref="Marburg">Marburg</settlement>
+                  <institution>Phillipps-Univeristät Marburg</institution>
+                  <repository>Paul-Tillich-Archiv</repository>
+                  <idno>023, Rolle 3</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Brief, maschinenschriftlich mit handschriftlichen Ergänzugen</p>
+                  </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01701">Leopold Schaumann</persName>
+              <placeName ref="Berlin">Berlin</placeName>
+              <date when="1916-07-15">15.07.1916></date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01930">Paul Tillich</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="GM" when="2023-04-24">Intitale Auszeichnung des Transkripts</change>
+        
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="printeted">
+        <pb n="1"/>
+        <head>Evangelischer Feldprobst der Armee.
+           <lb/>Nr. 3453
+        </head>
+        <opener>
+           <dateline><placeName ref="Berlin">Berlin C2</placeName>, den <date when="1916-07-15">15. Juli 1916</date></dateline>
+           <lb/><address><street>Hinter der Garnisonskirche 1.</street></address>
+        </opener>
+        <p>Die Herren Amtsbrüder ersuche ich, künftighin Anfragen, Anträge u. s. w. auf deren <hi rend="b"><hi rend="u">baldige</hi></hi> Erledigung Wert gelegt wird, nicht in den Tätigkeitsberichten, sondern gesondert auf dem militärkirchlichen Dienstwege hier vorzulegen, da das Lesen der unter Umständen in wenigen Tagen zu hunderten eingehenden Berichte mehrere Wochen erfordert und die Anträge u. s. w. infolgedessen leicht veralten oder völlig gegenstandslos werden.
+        </p>
+        <p>Die Herren Militäroberpfarrer und Referenten ersuche ich, nur solche Anträge u. s. w. hierher weiterzugeben, die unbedingt eine Entscheidung der Feldpropstei erfordern, die übrigen dagegen selbständig zu erledigen, da sonst die Beantwortung unnötig verzögert und die Last der Geschäfte hier ohne zwingenden Grund vermehrt wird.</p>
+        <closer>
+           
+           <signed>I.V.
+              <lb/><persName ref="P01701">Schaumann</persName>,</signed>
+           <lb/>Militäroberpfarrer und Konsistorialrat.
+        </closer>
+      <salute>An die Herren evangelischen Feld-, Etappen- und mobilen Garnisonsgeistlichen.</salute>
+     </div>
+     <div type="handwritten"><note type="ea">Liste von handschriftlichen Ergänzungen auf beiden Seiten der Karte. Wahrscheinlich von Paul Tillich</note>
+        <p>Dienstag d. 15ten <placeName ref="Vaux-lès-Mouron">Vaux</placeName> 9Uhr I/<del rend="s">72</del> 72 <lb/>
+           „ d. 15 ? 10 Uhr I/66 und alle Truppe<lb/>
+           <del rend="s">(Freitag d. 18 <placeName ref="Olizy">Olizy</placeName> 9 Uhr</del><lb/>
+           Sonntag d. 21<lb/>
+           9 Uhr <placeName ref="Vaux-lès-Mouron">Vaux</placeName> (Maison)<lb/>
+           10 Uhr <placeName ref="Vaux-lès-Mouron">Vaux</placeName><lb/>
+           11 Uhr <placeName>G<unclear reason="illegible">¿¿</unclear>wald</placeName><lb/>
+           <del rend="s">Dienstag d. 22 <placeName ref="Vaux-lès-Mouron">Vaux</placeName></del><lb/><pb n="2"/>
+           Freitag d. 4 August Vorm 9 Uhr <placeName ref="Olizy">Olizy</placeName> <del rend="s">Lazarettgarten</del> Kirche<lb/>
+           Sonntag d. 6 August Vorm 9 Uhr <placeName ref="Vaux-lès-Mouron">Vaux</placeName> Kirche <lb/>
+           „	„ 	„ 	„ 10 Uhr <placeName ref="Vaux-lès-Mouron">Vaux</placeName> Kirche<lb/>
+           „	„ 	„ 	„ 10 Uhr <placeName ref="Vaux-lès-Mouron">Vaux</placeName> Kirche<lb/>
+           „	„	 „	 „ 11 Uhr <placeName ref="Autry">Leury</placeName> Kirche<note type="ea">Wahrscheinlich ist der kleine Ort Autry gemeint</note><lb/>
+           Dienstag d. 8 August Vorm 9 Uhr <placeName>G<unclear reason="illegible">¿¿</unclear>wald</placeName> Kirchplatz<lb/>
+           Freitag d. 11 August Vorm 9 Uhr <placeName ref="Olizy">Olizy</placeName> Kirche<lb/>
+           Sonntag d. 13 August Vorm 9 Uhr <placeName ref="Lager Saalburg">Saalburg</placeName> Kirchplatz<lb/>
+           „	„ 	„ 	„ 10 Uhr <placeName ref="Lager Schwerinsburg"><unclear cert="high">Schwerins</unclear>burg</placeName><lb/>
+           „	„ 	„ 	„ 11 Uhr <placeName><unclear reason="illegible">¿¿</unclear>iard-<unclear reason="illegible">¿¿¿</unclear></placeName></p><!-- Wegen der Ortsnamen vgl. https://www.verdun14-18.de/tag/saalburg-lager/ -->
+     </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,125 @@
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von <persName ref="P02149">Rahel Martel</persName> an <persName ref="P01930">Paul Tillich</persName>
+               <lb/>vom 19.11.1916
+            </title>
+            <author><persName ref="P02149">Rahel Martel</persName></author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Andreas Burri</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Briefe</collection>
+                  <idno>bMS 649/174</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Brief, eigenhändig</p>
+                  </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P02149">Rahel Martel</persName>
+              <placeName ref="Lille">Lille</placeName>
+              <date when="1916-11-19">19.11.1916</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01930">Johannes Tillich</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="frz">Französisch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="AB" when="2022-06-29">Intitale Auszeichnung des Transkripts</change>
+        <change who="AB" when="2022-06-29">Überprüfung und Ergänzung der Auszeichnungen</change>
+        <!--1916.10.19 Tillich, P an Pfeiffer, E: unter «8» schildert Tillich seinen ersten Kontakt mit ihr.
+1916.11.06 Tillich, P an Pfeiffer, E.: recht am Ende des Briefes
+Deutsche (Roh-)Übersetzung: s. Transkriptionsdokument (Word)-->
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+               <dateline><placeName ref="Lille">Lille</placeName>, den <!-- Ziemlich sicher ihre Handschrift und ziemlich sicher heißt es «den»; warum sie hier also deutsch schreibt, weiß ich nicht. AB -->
+                  <date when="1916-11-19"> 19.11.1916 </date></dateline>
+           <salute>Mon cher <persName ref="P01930">Paul</persName> !</salute></opener> 
+        <p>J’ai été très heureuse de recevoir de tes nouvelles, mais tu dois m’excuser près de ton
+                  <persName ref="P01488">ami</persName> de ce que je ne l'ais
+               <!-- (sic!): Eindeutig sieht es danach aus, dass sie hinter das «ai» noch einen Buchstaben setzt, denn andere «ai» schreibt sie eindeutig normal, i. e. ohne weiteren Buchstaben. Von der Handschrift her ist es ziemlich sicher ein «-s». Jedoch ist «ais» keine gültige Form von avoir 1. Pers.Sg.! Wäre es ein «-e», also «aie», so wäre es ein subjonctif; es könnte sein, dass sie diesen hier gebraucht, wiewohl die Syntax dann ebenso nicht stimmen würde. Unwahrscheinlich, dass es ein Dialekt-, und ausgeschlossen, dass es ein Schwenker ist. Auch wenn sie sprachlich nicht allzu gebildet wäre – was unwahrscheinlich ist, da sie in einer Oper schauspielert – wäre es dennoch merkwürdig, dass sie bei einem einfachen Verb wie «avoir» dermaßen strukturell Fehler macht. Falls wer Kontakte zur Romanistik hat, wäre dem nachzugehen sinnvoll. Da es zu 99% ein «ais» ist, habe ich es hier mit (sic) übernommen. AB!-->
+               pas invité à rentrer chez moi.
+               <!-- Manchmal setzt sie keine Akzente und Interpunktionen, und manchmal fängt sie den neuen Satz nicht groß an. Ich habe jeweils Akzente, Interpunktionen, Großanfänge stillschweigend ergänzt. AB -->
+               C’est que ma maison n’est pas chic du tout et je lui ais <!-- (sic!) AB --> seulement
+               causé à la porte. <lb/> Tu me demande <!-- (sic!) AB --> si je suis toujours au
+               théâtre ? Oui j’ai encore joué cette semaine dans l’opéra de <persName ref="P02150"
+                  >Wagner</persName> « Tannhauzer » <!-- (sic!) AB --> .<lb/> J’espère que tu es
+               toujours en bonne santé et souhaite de tout cœur te revoir bientôt à Lille. Sois
+               certain <pb n="2"/> que ce sera pour moi un très grand plaisir. <lb/> Tu peux être
+               tranquille au sujet des officiers. J’ai mis à profit les conseils que tu m’as donnés
+               et les ais <!-- (sic!) AB --> trouvés bons. Tant que je le pourrai je t’écouterai.
+               Quand tu reviendras à <placeName ref="Lille">Lille</placeName> dans la journée tu
+               pourras venir chez moi. Si c’est le matin et que je suis absente laisse une lettre
+               sous la porte en me disant à quelle heure tu reviens. Je t’attendrai et te recevrai
+               mieux que je n'ais <!-- (sic!) AB --> reçu ton <persName ref="P01488">ami</persName>.
+               Je n'ais <!-- (sic!) AB --> pas pas osé le faire rentrer car justement l’oncle de mon
+               amie était là. Tu comprends comme j’étais <pb n="3"/> gênée ! Enfin j’espère que tu
+           lui <!-- Oder «bien». AB --> présentera <!-- (sic!) AB --> mes excuses. <lb/> En t’attendant le plus tôt
+               possible je t’envoie avec toutes mes amitiés mille baisers. </p> 
+        <closer>
+           <salute>Ta petite amie</salute>
+           <signed><persName ref="P02149"><hi rend="u">Rachel</hi></persName></signed>
+        </closer>    
+        <postscript>
+           <p>Rue Spriet Tellier 4</p>
+           <p><placeName ref="Mons-en-Barœul"><hi rend="u">Mons-en-Barœul</hi></placeName>
+               </p>
+        </postscript>
+     </div>
+    </body>
+  </text>
+</TEI>

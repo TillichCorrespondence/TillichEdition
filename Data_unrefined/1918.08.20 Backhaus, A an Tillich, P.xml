@@ -1,0 +1,98 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Alwin Backhaus an Paul Tillich
+               <lb/>vom 20. August 1918
+            </title>
+            <author ref="P00109">Alwin Backhaus</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Gerrit Mauritz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement>Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974</collection>
+                  <idno>bMS 649/Box 237(5)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Feldpostkarte, handgeschrieben</p>
+                  </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P00109">Alwin Backhaus</persName>
+              <placeName ref="Lille">Lille</placeName>
+              <date when="1918-08-20">20.08.1918</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01930">Paul Tillich</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="GM" when="2023-03-06">Intitale Auszeichnung des Transkripts</change>
+
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+           <dateline><date when="1918-08-20">20/8 18.</date></dateline>
+           <salute>L.C.<persName ref="P01930">T</persName>!</salute>
+        </opener>
+        <p>Ihnen zum Geburtstag einen herzl. Gruß aus der Stadt, auf die ich <ptr/><unclear cert="high">M 5,13</unclear><note type="ea">Wahrscheinlich ist Mi 5,13 gemeint: "und will deine Ascherabilder ausreißen aus deiner Mitte und deine Städte vertilgen."</note> anwenden kann. Ein Kriegsgeburtstag in den eignen 4 Wänden ist doch etwas andres als in <placeName ref="St. Clement">St. Clément</placeName>. Der <placeName ref="Champagne">Kampagne</placeName>staub quält weder Sie noch uns mehr. Es war gut, daß wir am Sonnabend u Sonntag fleißig waren u. uns fast durchpredigten. Mein Sohn geht eben dahin, wo Sie den Namen <ptr/>Schrankpastor<note type="ea">In der Unterkunft in Bieuxy hat Tillich in einem Schrank geschlafen.</note> erhielten. Sie ahnen, was das auch für mich bedeutet. Wir waren bis heute vornehme Leute zusammen mit <unclear cert="low" reason="illegible">Castoch</unclear> ein. General u Generalstäbler gefallen mir sehr, das Essen noch mehr. Aber es geht auch ohne Butter u Milchtöpfe u Tortenschalen von I. Wahrscheinlich gibt es aber noch eine Trennung, wie das zu gewissen Zeiten immer ist. Hoffentlich sind Sie an Eindrücken reich über <placeName ref="Brüssel">Brüssel</placeName>-<placeName ref="Bremen">Bremen</placeName> glücklich in <placeName ref="Berlin">B.</placeName> angekommen u. merken, daß sich in <ptr/><placeName ref="Haselhorst">Haselhorst</placeName><note type="ea">Berlin-Haselhorst war Teilgebiet der Militärkirchengemeinde Spandau, in die Tillich versetzt worden war.</note> auch wirken läßt. Gottes Segen dazu u. für das Leben daheim.
+        </p>
+        <closer>
+           <salute>Ihrer verehrt. Gattin meine besten Empfehlungen.<lb/>Ihnen beste Wünsche für das neue Lebensjahr</salute>
+           <signed>Ihr <persName ref="P00109">Backhaus</persName></signed>
+        </closer>      
+     </div>
+    </body>
+  </text>
+</TEI>

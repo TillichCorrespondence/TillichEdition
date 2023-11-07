@@ -1,0 +1,202 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Paul Tillich an Erich Pfeiffer
+               <lb/>vom 19. Oktober 1916
+            </title>
+            <author ref="Paul Tillich">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Leopold Potyka</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library </repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974</collection>
+                  <idno>bMS 649/174 (39)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>handschriftlich</p>
+                  </physDesc>              
+            </msDesc>                     
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="Paul Tillich">Paul Tillich</persName>
+              <placeName ref="o.O.">o.O. [Lille]</placeName>
+              <date when="1916-10-19">19. Oktober 1916</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="Erich Pfeiffer">Erich Pfeiffer</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="LP" when="2022-10-19">Intitale Auszeichnung des Transkripts</change>
+        <change who="Initialien des Editors" when="1886-08-20"><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+        
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+           <dateline>D. <date when="1916-10-19">19. Okt. 1916</date>.</dateline>
+           <salute>Lieber <persName ref="Erich Pfeiffer">Pfeiffer</persName>! </salute>
+        </opener>
+        <p>Nun will ich Ihnen genau nach Zeit, Ort und Eindrücken alles 
+           berichten, was ich bei dem Filial-Unternehmen unserer „Firma“ in <placeName ref="Lille">Lille</placeName> erlebt 
+           habe.</p>
+        <p>1. Also morgens, etwa eine Stunde nach Ihrer Abfahrt stand ich in <placeName ref="Valenciennes">Valenciennes</placeName> auf, 
+           frühstückte in dem Offiziersrestaurant und besuchte die Kirchen von <placeName ref="Valenciennes">Valenciennes</placeName>, 
+           das Museum, in dem u.a. ein <persName ref="Peter Paul Rubens">Rubens</persName> ist, war leider geschlossen. Um 11 
+           fuhr ich weiter nach <placeName ref="Lille">Lille</placeName>, kam dort um 1 an, ging durch die verwüstete Bahn-
+           hofsstraße zur Kommandantur, erhielt ein Quartierbillet  (gegen <hi rend="u">Ausweis</hi>) 
+           im <sic>Hotel</sic> de l’Europe rue bassé, 3 Min von der grande place, also sehr günstig. 
+           Ehe ich hinging, aß ich Mittag in der Offiziersmesse, infolge unfreundlicher Be-
+           dienung und teurem Wein <hi rend="u">nicht</hi> zu empfehlen. Als ich dann ins Hotel ging, 
+           war der ganze Saal voll von dinierenden Zivilisten, höchst erfreuliche Damen, 
+           u. s. w., so daß ich dort noch schnell Kaffee trank und den Beschluß faßte, 
+           dort immer zu essen. Um 3 fuhr ich mit der Elektrischen „G“ vom Bahn-
+           hof ab nach <sic><placeName ref="Fives">Five</placeName></sic>, wo die Rue Pierre le Grand  winkte mit ihren 
+           Nummern, 105 (<persName>Ther</persName>…), 111 (<persName>Jea</persName>…), 113 (<persName>Leo</persName>…); es ist die Hauptstraße 
+           der Vorstadt, niedrige, kleine Häuser, kleine Läden, aber die besten 
+           in der Gegend. Bei <persName>Th</persName>. fand ich nur eine ältere Schwester, der ich unsere 
+           Begegnung mitteilte, und von der ich gleich erfuhr, daß alle 6 zurück-
+           waren. Aber <persName>Th</persName>. war auf Besuchen, ich meldete mich für Abends an. 
+           Bei <persName>Jea</persName>. öffnete die Schwester <persName>Berthe</persName>, ca. 15 Jahre, die ich sofort als solche 
+           erkannte. <persName>Jea</persName>. war in weißem Arbeitskittel.. wie einst im Mai.. 
+           sie zog sich schnell um und wir tranken zusammen Kaffee; nach einiger 
+           Zeit erschien <persName>Georg</persName>.. und sehr überrascht; nur <persName>Jea</persName>… hatte noch auf unser 
+           Wiederkommen gehofft; die andern hatten gezweifelt; alle außer <persName>Th</persName>. 
+           hatten es ihren Eltern erzählt. Die Unterlassung war ein Fehler, der sich 
+           rächte. Die andern machten Andeutungen über Enge und <unclear>¿¿¿</unclear>
+           von Mutter und Schwester von <persName>Th</persName> und daß sie es darum nicht gewagt hätte 
+           davon zu reden. Ich begann, mich zu sorgen, und gegen 7 war ich wieder </p><pb n="2"/>
+        <p>in <placeName ref="Lille">Lille</placeName>, nachdem ich mich mit <persName>Jea</persName>. auf morgen um 2 verabredet 
+           hatte, und daß ich dann einen Brief von ihr an Sie mitnehmen würde. 
+           Er liegt bei, natürlich von mir nicht gelesen; die Blume stammt aus <placeName ref="Blanchefosse-et-Bay">Blanchefosse</placeName>…</p>
+        <p>2. <placeName ref="Lille">Lille</placeName> von 6‒9! Großstadt, die Hauptstraßen voll, die Bummel-
+           straße, rue nationale, die Kaffees an der grande place überfüllt. 
+           Civilisten, Soldaten, Offiziere, alles durcheinander. Der Krieg scheint ver-
+           gessen, trotzdem man jeden Schuß hört; das Licht der Läden macht die 
+           Blitze der Abschüsse unsichtbar; und – die Gesichter sichtbar, bis 9 Uhr! 
+           Damen aller Arten, vornehme Käuferinnen, üble, aber gut geputzte 
+           Kokotten in großer Zahl, „Hutlose“ in der Minderheit, französische 
+           Jünglinge, Laden-Verkäuferinnen, verhältnismäßig wenig Offiziere, 
+           recht wenig Soldaten. Die Elektrischen alle überfüllt, mehr Zivil als 
+           Soldaten. Ich gehe auf und ab, gehe in eins der Markt-Kaffees 
+           und fahre dann wieder nach <placeName ref="Fives"><sic>Five</sic></placeName>.</p>
+        <p>3. Die ganze Familie ist stehend im Laden; die Mutter, elend, tut, 
+           als wüßte sie nichts; <persName>Therese</persName> steht da, sieht traurig zu Boden, die 
+           dicke <persName><unclear>Lore</unclear></persName> grinst; die Mutter sagt, sie müßten jetzt soupieren, und 
+           dann, als ich bleiben will, sie müßten ins Bett. Ich will morgen 
+           wiederkommen, aber schnell sagt <persName>Therese</persName>, daß sie morgen Besuche 
+           machen müßte… da habe ich genug. Sie tut mir Leid; aber ich 
+           verlasse mit eleganter Verbeugung das Haus… Schluß!</p>
+        <p>4. Noch vor 9 bin ich in <placeName ref="Lille">Lille</placeName>; zwar gut angezogen aber üble Weiber reden 
+           mich an; ein Stück gehe ich mit, bis zur Wohnung, dann habe ich genug… ge-
+           mein! ‒ Bei gutem haute Sauterne und einigen andern Genüssen esse ich ein-
+           sam in meinem Hotel Abendbrot und schlafe dann, in der Hoffnung, daß es 
+           den Engländern nicht wieder, wie vor 8 Tagen einfallen möge, auf die Umgebung 
+           des Hotels zu schießen… was auch nicht geschah.</p>
+        <p>5. Besichtigung der Stadt; erst drei Kirchen. In St. Catharine, ein<pb n="3"/>
+           guter echter <persName ref="Peter Paul Rubens">Rubens</persName> neben zwei Italienern… und das Museum; es 
+           sind einige Granaten hereingegangen; einige Bilder sind <sic>kaput</sic>, einige ver-
+           letzt. Alles Bedeutende ist im Keller; aber was man sehen kann, ist 
+           immer noch ganz gut; Besuch unbedingt zu empfehlen; vorzügliche Plas-
+           tiken! Auf der Straße manche gute Erscheinung. Diner im Hotel. <placeName ref="Chablis">Chablis</placeName>!</p>
+        <p>6. Fahrt zu <persName>Jeanne</persName>. Bericht über <persName>Therese</persName>. Sie ist nicht überrascht, hat 
+           es sich gedacht. <persName>Th</persName>. war mit keiner der 6 befreundet, und sprach, 
+           wie <persName>Jeanne</persName> mir klagte, in ihrer Abwesenheit schlecht von ihr… was 
+           ich nur bedingt glaube; es liegt nach ihrer Meinung ein gewisser Parve-
+           nu = Hochmut  vor. Ich halte <persName>Th</persName>. immer noch für unschuldig… aber der Stern 
+           ist jetzt <persName>Jeanne</persName>. Nach einiger Zeit kommt <persName>Leona</persName>, nur für ein paar 
+           Minuten; denn sie hat viel zu arbeiten in <placeName ref="Lille">Lille</placeName>. Sie ist frisch und vergnügt. 
+           Ich trinke mit <persName>Jeanne</persName> und <persName>Berthe</persName> Kaffee, habe viel Kuchen mitgebracht; 
+           dann ein Besuch nebenan bei <persName>Georginas</persName> Mutter. Der übliche Kognak. Die  
+           Mutter ist sehr freundlich. Dann nehme ich Abschied – auf Wiedersehn!</p>
+        <p>7. Bummel und Einkäufe in <placeName ref="Lille">Lille</placeName>; wieder Hochbetrieb. Ich besuche 
+           die Freundin der kleinen <persName>Aurelia</persName> aus <placeName ref="Valenciennes">Valenciennes</placeName>; sie war mir ge-
+           schildert als hochelegant, kam an wie eine ältere Mamsell, aber ganz 
+           freundlich; alles nach 5 Minuten erledigt, in der rue des arts.</p>
+        <p>8. Das Letzte und Beste. Irgendwo vor einem Geschäft steht eine junge 
+           Frau mit einem Witwenschleier, kokett, hübsch. Bald unterhalten wir 
+           uns; sie geht zurück und führt mich rue des arts, zwei Häuser weiter; 
+           eine dicke alte Wirtin erscheint; es ist ein kleines Hotel; <persName>Rahel</persName>, so heißt 
+           die kleine Frau, teilt mir mit, daß sie keine Frau, sondern eine Waise 
+           ist, 18 Jahre, und daß sie noch vor 9 in einer Vorstadt sein muß. Schließlich 
+           bleibt sie; ich komme in einer Stunde wieder und wir machen ein ent-
+           zückendes Plauderstündchen mit Kaffee und Kognac bis in die Nacht um 1. Sie 
+           ist Tänzerin und Choristin am Deutschen Theater in <placeName ref="Lille">Lille</placeName>, hat bis jetzt nur 
+           einen Freund gehabt und ist auf der Suche nach einem neuen. Sie ist klein<pb n="4"/>
+           rundlich im Gesicht, entzückende Gestalt, wasserblaue Augen, unbedingt 
+           deutsch gesinnt. Sie tut mir Leid; denn ich fürchte, daß sie langsam herab-
+           gleiten wird. Ungeheuer imponierte ihr meine unbedingte Treue. Auch 
+           von Ihnen erzählte ich; und sie verlangte, daß ich durch Sie ihr Nachricht 
+           zukommen lassen soll. Schreiben Sie bitte gleich, wenn Sie Aussicht 
+           haben nach <placeName ref="Lille">Lille</placeName> zu kommen, dann schicke ich Ihnen einen Brief und 
+           die Adresse, aber <hi rend="u">nur</hi> für Sie!</p>
+        <p>9. Unendliche, langweilige Rückfahrt nach <placeName ref="Charleville">Charleville</placeName>-<hi rend="u"><placeName ref="Amagne">Amagne</placeName></hi>-
+           <placeName ref="Vouziers">Vouziers</placeName>… nächtlicher Rückmarsch von <placeName ref="Olizy">Olizy</placeName> nach <placeName ref="Vaux-lès-Mouron">Vaux</placeName>, wo wir in 
+           gut gebauten Baracken am Nordabhang wohnen.</p> 
+        <p>Das war die Fahrt.</p>
+        <p><persName ref="Henning von Bonin">Exzellenz</persName> ist grimmiger Stimmung, fährt morgen auf 14 Tage in 
+           Urlaub; <persName ref="Kapell">Kapell</persName> war 3 Tage in <placeName ref="Hirson">Hirson</placeName>, von <persName ref="Henning von Bonin">Exzellenz</persName> besucht. Hier ist 
+           alles ganz ruhig; wir fürchten aber, nicht lange zu bleiben -- </p>
+        <p>Ich bitte bald um Antwort! „Beurteilung der Lage der Firma“ u.s.w. 
+           Poemata später!</p>
+        <closer>
+           <salute>Viele herzliche Grüße!</salute>
+           <signed>Ihr <persName ref="Paul Tillich">P. Tillich</persName>!</signed>
+        </closer>
+        
+      
+     </div>
+    </body>
+  </text>
+</TEI>

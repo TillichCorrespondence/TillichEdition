@@ -1,0 +1,170 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Oskar Siebeck an Paul Tillich
+               <lb/>vom 19.07.1924
+            </title>
+            <author ref="Oskar Siebeck"></author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Niklas von Hülsen</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="Brief">
+               <msIdentifier>
+                  <!-- In: Mohr Siebeck, VA, A Nr. 415 1924 -->
+                  <country><!-->Land des Archivs<!--></country>
+                  <settlement ref="where"><!-->Stadt des Archivs<!--></settlement>
+                  <institution><!-->Name der übergeordneten Insitution<!--></institution>
+                  <repository><!-->spezifischer Name des Archivs<!--></repository>
+                  <collection><!-->spezifischer Name der Sammlung<!--></collection>
+                  <idno><!-->Identifikationsnummer des Dokuments in dem Archiv<!--></idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>maschinenschriftlich</p>
+                  </physDesc>
+               <additional> <!-- Wenn Brief bereits publiziert hier die richtige Struktur aussuchen -->
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint"><!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!--> </author>
+                           <title><!-->Titel der Monographie<!--></title>
+                           <edition><!-->Auflage<!--></edition>
+                           <imprint>
+                              <publisher><!-->Herausgeber<!--></publisher>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Reihe<!--></title>
+                           <biblScope><!-->Reihennummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                     <biblStruct type="journal" n="reprint"><!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!--> </author>
+                           <title><!-->Titel des Aufsatzes<!--></title>
+                           <imprint>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Zeitschrift<!--></title>
+                           <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <biblStruct type="monograph"><!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien überliefert sind und im Original nicht mehr vorhanden!-->
+               <monogr>
+                  <author><!-->Autor<!--> </author>
+                  <title><!-->Titel der Monographie<!--></title>
+                  <edition><!-->Auflage<!--></edition>
+                  <imprint>
+                     <publisher><!-->Herausgeber<!--></publisher>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Reihe<!--></title>
+                  <biblScope><!-->Reihennummer<!--></biblScope>
+               </series>
+            </biblStruct>
+            <biblStruct type="journal"><!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften überliefert sind und im Original nicht mehr vorhanden<!-->
+               <monogr>
+                  <author><!-->Autor<!--> </author>
+                  <title><!-->Titel des Aufsatzes<!--></title>
+                  <imprint>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Zeitschrift<!--></title>
+                  <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="Oskar Siebeck">Oskar Siebeck</persName>
+              <date when="1924-07-19">19. Juli 1924</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="Paul Tillich">Paul Tillich</persName>
+              <placeName ref="Marburg">Marburg/L. Universität</placeName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="NH" when="2022-11-14">Intitale Auszeichnung des Transkripts</change>
+        <change who="NH" when="2023-01-28"><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+           <salute>Sehr verehrter Herr Professor,</salute>
+        </opener>
+        <p>im Verfolg unserer Unterredung nach Ihrem gestrigen Vortrage erlaube ich mir, Ihnen mit gleicher Post einige Hefte der beiden Schriftenreihen zu übersenden, die für die Veröffentlichungen Ihres Vortrages in Frage kommen könnten. Ich für meinen Teil würde ihn am liebsten in die „Sammlung gemeinverständlicher Vorträge“ aufnehmen. Wie Sie aus dem Verzeichnis auf dem Umschlag der Hefte ersehen, haben in früheren Jahren die führenden Persönlichkeiten der liberalen Theologie ihre kleineren Arbeiten sehr gerne in dieser Sammlung erscheinen lassen. Nachdem sich die theologische Situation gegen jene Zeit völlig verschoben hat, ist es für die Sammlung von wesentlicher Bedeutung, dass die jüngere Generation zu ihr in ähnlicher Weise Vertrauen fasst. Deshalb freue ich mich ganz besonders, dass mir meine persönlichen Beziehungen zu der Schweiz zu den beiden Heften von <persName ref="Emil Brunner">Emil Brunner</persName> und von <persName ref="Heinrich Barth">Heinrich Barth,</persName> <persName ref="Karl Barth">Karl Barths</persName> jüngerem Bruder, verholfen haben, und ich würde es sehr begrüssen, wenn auch Ihr Vortrag in der Sammlung erscheinen könnte.</p>
+        <p> Als philosophisch-historisches Gegenstück haben wir in den letzten Jahren eine ähnliche Schriftenreihe „Philosophie und Geschichte“ in Gang gebracht, von der ich Ihnen interesseshalber ebenfalls eines der neueren Hefte zugehen lasse.</p>
+              <p>  Für die Verbreitung beider Sammlungen ist ein einheitlicher Preis von entscheidender Bedeutung. Ich kann daher im allgemeinen nur solche Manuskripte aufnehmen, die den Höchstumfang von drei Druckbogen nicht überschreiten. Auch sind mir bezüglich der Verlagsbedingungen unter diesen Umständen ziemlich enge Grenzen gezogen. Für den Druckbogen in der Satzeinrichtung der beiden Sammlungen bezahlen wir daher ein bei Druckvollendung zahlbares Honorar von 32 Mark für die erste Auflage, deren Bemessung bis zu 2000 Exemplaren wir uns im Vertrag vorbehalten.
+        </p>
+        <closer>
+           <salute>Ihren weiteren Nachrichten, gegebenenfalls der Einsendung Ihres Manuskriptes, sehe ich gerne entgegen und verbleibe in vorzüglicher Hochachtung</salute>
+           <signed>Ihr ganz ergebener Dr. O. Siebeck.<!-- "Dr. O. Siebeck" handschriftlich -->
+           </signed>
+        </closer>
+     </div>
+    </body>
+  </text>
+</TEI>

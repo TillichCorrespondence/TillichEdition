@@ -1,0 +1,189 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Paul Tillich an Maria Klein
+               <lb/>vom 27. November 1916
+            </title>
+            <author ref="Paul Tillich">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Leopold Potyka</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974</collection>
+                  <idno>bMS 649/178 (8)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>handschriftlich</p>
+                  </physDesc>
+               <additional> 
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint">
+                        <monogr>
+                           <author>Renate Albrecht / Margot Hahl</author>
+                           <title>Tillich, Paul, Ein Lebensbild in Dokumenten. Briefe, Tagebuch-Auszüge, Berichte</title>
+                           <edition>1</edition>
+                           <imprint>
+                              <publisher>Renate Albrecht / Margot Hahl</publisher>
+                              <pubPlace ref="Stuttgart">Stuttgart</pubPlace>
+                              <date when="1980">1980</date>
+                              <biblScope>118-119</biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title>Ergänzungs- und Nachlassbände zu den gesammelten Werken von Paul Tillich</title>
+                           <biblScope>5</biblScope>
+                        </series>
+                     </biblStruct>                    
+                  </listBibl>
+               </additional>
+            </msDesc>                      
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="Paul Tillich">Paul Tillich</persName>
+              <placeName ref="o.O.">o.O.</placeName>
+              <date when="1916-11-27">27. November 1916</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="Maria Klein">Maria Klein</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="LP" when="2022-05-25">Intitale Auszeichnung des Transkripts</change>
+        <change who="Initialien des Editors" when="1886-08-20"><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+        
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+           <dateline>D.<date when="1916-11-27"> 27. Nov. 1916</date>.</dateline>
+           <salute>Liebe <persName ref="Maria Klein">Maria</persName>!</salute>
+        </opener>
+        <p>Vielen Dank für Deinen 
+           Brief! Er gab mir ein dunkles Bild von 
+           dem, was Du tust und bist. „Dunkel nicht 
+           nur für mein Wissen, sondern auch nach dem 
+           was ich von Dir weiß“ – wie <persName ref="Friedrich Loofs">Loofs</persName> in seiner 
+           <bibl>Kirchengeschichte<!--vmtl. Loofs, Grundlinien der Kirchengeschichte, Halle 1901--></bibl> so „schön“ sagt. Dunkel 
+           ist mir vor allem der eine Punkt, Dein 
+           Verhältnis zu <persName ref="Hans Christiansen">Hans</persName>, das in irgend einer Weise 
+           zu Ende zu sein scheint, wie kann ich nur 
+           ahnen. Es tat mir sehr leid um Dich, als 
+           ich es damals aus Deinem Brief herauslas, 
+           aber ich hatte den Gedanken: Es soll so sein, 
+           sie hatte sich zu fest daran gehängt, darum 
+           mußte es ihr genommen werden, damit 
+           sie frei wird. Warst Du frei geworden? Ich 
+           glaube, noch nicht ganz. Denn <hi rend="u">Resignation
+           ist auch eine Art der Unfreiheit</hi>.
+           <pb n="2"/>
+           In jeder Resignation ist Bitterkeit. Wir 
+           müssen uns aber hüten, in dieser Zeit 
+           bitter zu werden, wie die meisten. Freilich 
+           kann ich eine empirische Hoffnung nicht 
+           verkündigen, tue es auch meinen Leuten 
+           nicht; auch mir selbst nicht. Ich habe sie, 
+           aber ich hänge mich nicht daran. Ich reiße 
+           mich jeweilig unter Schmerzen davon 
+           los. Ich habe immer die unmittelbarste 
+           und stärkste Empfindung in mir, nicht 
+           mehr eigentlich im Leben zu stehen; darum 
+           nehme ich mich auch nicht so wichtig! Einen 
+           Menschen finden, fröhlich werden, Gott er-
+           kennen, das sind alles Sachen des Lebens. 
+           Aber das Leben ist ja selbst kein Boden,
+           <pb n="3"/>
+           der tragfähig ist. Nicht nur, daß man 
+           jeden Tag sterben kann, Du auch, sondern, 
+           daß alle sterben, <hi rend="u">wirklich</hi> sterben, diese 
+           unerhörte Tatsache, die jetzt tägliches 
+           Erlebnis ist ... und dann das Leiden der 
+           Menschen ... ich bin reinster Eschatologe, 
+           nicht daß ich kindliche Weltuntergangsfan-
+           tasien hätte, sondern daß ich den tat-
+           sächlichen Weltuntergang dieser Zeit mit-
+           erlebe. Fast ausschließlich predige ich 
+           „das Ende“. Du willst noch nicht das 
+           Ende, ich auch nicht, aber ich muß es wollen 
+           weil es da ist. Du siehst noch etwas 
+           in der Welt, und wäre es Gotteserkennt-
+           nis, eine ganz „weltliche“ Sache! Du hast
+           <pb n="4"/>
+           auch viel erlebt, aber Du bist nicht 
+           über Leichenfelder gegangen, wirkliche 
+           und seelische! Wir wollen doch etwas 
+           neutestamentlicher empfinden und mit 
+           Fröhlichkeit auf das „Ende“ warten und 
+           überzeugt sein, daß die Welt im Argen liegt 
+           und unser Bürgertum im Himmel ist. ..</p>
+        <p>Das ist so die „Dominante“ meiner 
+           Psychologie. Sonst bin ich bald fröhlicher, bald 
+           trauriger, je nach den Umständen. Jetzt 
+           sind wir in ruhiger Stellung und ruhiger Ar-
+           beit. Nebenbei erhole ich mich durch Aufkleben 
+           von Bildern und wissenschaftlichen Untersuchungen 
+           über das System der Wissenschaften. ..</p>
+        <p>Grüße <persName ref="Ernst Ferdinand Klein">Deinen Vater</persName> und danke ihm für die Post-
+           karte mit den Versen, und grüße <persName ref="Elisabeth Klein">Mutti</persName> und 
+           <persName ref="Lisa Klein">Elisabeth</persName> und die <persName>andern drei</persName>, an die ich so oft 
+           denke!</p>   
+        <closer>
+           <salute>Dein</salute>
+           <signed><persName ref="Paul Tillich">Paul</persName>.</signed>
+        </closer>
+        
+      
+     </div>
+    </body>
+  </text>
+</TEI>

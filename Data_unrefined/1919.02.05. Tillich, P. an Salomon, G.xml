@@ -1,0 +1,108 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Paul Tillich an Gottfried Salomon
+               <lb/>vom <date when="1919-02-05">05. Februar 1919</date><!--Datum nicht ganz gesichert. Laut brief: 5.2., Jahreszahl fehlt. 1919 ist aus dem Kontext erschlossen, der Brief war zunächst dem Jahr 1925 zugeordnet worden, Anm. FS-->
+            </title>
+            <author ref="P01930">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Niklas von Hülsen</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="Brief">
+               <msIdentifier>
+                  <country>Niederlande</country>
+                  <settlement>Amsterdam</settlement>
+                  <institution>Koninklijke Nederlandse Akademie van Wetenschappen</institution>
+                  <repository>Internationaal Instituut voor Sociale Geschiedenis</repository>
+                  <collection>Gottfried Salomon-Delatour Papers, ARCH[01231]</collection>
+                  <idno>Inv.nr.[1172]</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>handschriftlich</p>
+                  </physDesc>
+
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01930">Paul Tillich</persName>
+              <placeName ref="where"><!-->Ort<!--></placeName>
+              <date when="1919-02-05">05. Februar 1919</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01679">Gottfried Salomon</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="NH" when="2022-10-24">Intitale Auszeichnung des Transkripts</change>
+        <change who="NH" when="2023-01-28"><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+        <change who="FS" when="2023-04-11">Ergänzende Auszeichnungen</change>
+        <change who="FS" when="2023-04-17">Umdatierung von 1925 auf 1919</change>
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+           <dateline><date when="1919-02-05">d. 5. II.</date></dateline>
+           <salute>Lieber Herr Dr. <persName ref="P01679">Salomon</persName>!</salute>
+        </opener>
+        <p>Seien Sie nicht böse, daß ich mich so lange in Schweigen gehüllt habe, aber es hatte wirkliche Gründe, erst die Habilitation dann einige Vorträge, Besuche bei ca 10 Professoren; dazu ist meiner <persName ref="P01933">Frau</persName> dauernd nicht wohl aus Gründen die spekulativ leicht erkennbar sind.<!--Anm. Greti Tillich war zu jener Zeit durch ihre Affäre mit Tillichs Freund Richard Wegener schwanger. Der Sohn, Wolf Tillich, den Tillich als eigenen anerkennen wollte, starb kurz nach seiner Geburt.--> Vorläufig liegt sie im Bett. - Ich habe nun vor einigen Zeit mit <persName ref="P02311">Frau Dr. Hildebrandt</persName> verabredet, daß Ich <date when="1919-02-10">Montag den 10ten</date> einen Vortrag über sozialistische Ethik bei ihr halten soll. Ich habe ihr für die Einladungen auch Ihre Adresse genannt. Mich wundert, daß Sie noch keine <pb n="2"/>Nachricht haben. Ich hoffe Sie werden hinkommen: <date when="1919-02-10">Montag d. 10ten</date> Abends 8 Uhr bei <persName ref="P02311">Frau Dr. Hildebrandt</persName>, <address><placeName ref="Berlin">Westend, Hölderlinstr. 11. (Station Reichskanzlerplatz)</placeName></address> Wir könnten dann eine Zusammenkunft in der nächsten Woche verabreden, wo ich noch ziemlich frei bin. Telephonieren Sie doch bitte in den nächsten Tagen einmal an, am besten dem Mittag herum.
+           Pfalzburg 1965<!-- sic! Was hat diese Anmerkung (Pfalzburg 1965) hier zu bedeuten? -->.
+           
+        </p>
+        <closer>
+           <salute>Herzlichen Gruß! Auch an <persName ref="P02310">Frl. Woitschach</persName>!</salute>
+           <signed>Ihr sehr ergebener 
+              Dr P. Tillich
+           </signed>
+        </closer>
+        
+     </div>
+    </body>
+  </text>
+</TEI>

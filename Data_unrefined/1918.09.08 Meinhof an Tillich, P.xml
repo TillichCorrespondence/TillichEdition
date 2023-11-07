@@ -1,0 +1,103 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Heinrich Meinhof an Paul Tillich
+               <lb/>vom 08. September 1918
+            </title>
+            <author ref="P01295">Heinrich Meinhof</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Gerrit Mauritz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement>Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974</collection>
+                  <idno>bMS 649/Box 165(41)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Brief, handschriftlich</p>
+                  </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01295">Heinrich Meinhof</persName>
+              <placeName ref="Mesopotamien">Mesopotamien</placeName>
+              <date when="1918-09-18">18.09.1918</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01930">Paul Tillich</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="GM" when="2023-03-06">Intitale Auszeichnung des Transkripts</change>
+        
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+           <dateline><placeName ref="Mesopotamien">Mesopotamien</placeName><lb/><date when="1918-09-18">8.9.18</date></dateline>
+           <salute>Lieber <ptr/><persName ref="P01930">Lbb</persName><note type="ea">Leibbursch</note>!</salute>
+        </opener>
+        <p>Deinen Geburtstag am 20/8. hab ich nicht vergessen, wenn auch nicht „beschrieben“.</p>
+        <p>In diesen Tagen war <persName ref="P02291">Lic. Schubarth</persName> in meinem Lazarett krank (Sohn des †  <persName ref="P02292">Gen. Sup. von Anhalt</persName>). Wir sprachen sehr viel von <placeName ref="Halle a.S.">Halle</placeName>. Er hat bei <persName ref="P01201">Loofs</persName> promoviert, scheint aber auch zu <persName ref="P01227">Lütgert</persName> Beziehungen zu haben und will sich noch in <placeName ref="Halle a.S.">Halle</placeName> habilitieren. Kennst Du ihn durch Zufall?</p>
+        <p>Ich glaube, das Letzte, was ich von Dir hörte, war deine P.K.I.  Stimmt’s? – Meiner Frau jüngster Bruder hat damals (<ptr/>R. I. R. 36<note type="ea">Reserve-Infantarie Regiment Nr. 36</note> ) den <placeName ref="Taillette">Taillette</placeName>-Wald mitgestürmt, schwerverwundet.</p>
+        <p>Ob Du noch bei der alten Division bist? Ich kann mir denken, daß mein <persName ref="P01930">Lbb.</persName> sich von Gas und Feuer nicht anfechten läßt.
+           – Damals schriebst Du „2 Jahre ohne Ehe verheiratet“. Uns allen geht’s so (ich war jetzt im Juli 3 Jahre). Mein Junge ist 14 Monate und ich kenne ihn noch nicht. Aber nun hoffe ich. Ich bin auf der Heimreise.</p>
+        <p>Meine 15 ½ Monate Türkei waren außerordentlich – lehr- und arbeitsreich. Ich bin in meinem Fahrwasser. Wie anders auch liest man jetzt ein Buch wie <persName ref="P02293">Hartmanns</persName> <bibl><!--Richard Hartmann, Der Islam (1909)-->„Islam“!</bibl>  - - Meine ehrlichen Wünsche für Dich</p>
+
+        <closer>
+           <salute>Dein getr. <ptr/><persName ref="P01295">Lbfx</persName><note type="ea">Leibfuchs</note>.</salute>
+        </closer>      
+     </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,134 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Paul Tillich an Margarete Tillich <lb/>vom 17. Dezember 1917 </title>
+            <author ref="Paul Tillich">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974.</collection>
+                  <idno>bMS 649/193(21)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="Paul Tillich">Paul Tillich</persName>
+               <placeName ref="ohne Ort">ohne Ort</placeName>
+               <date when="1917-12-17">17. Dezember 1917</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="Margarete Tillich">Margarete Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2022-06-20">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <dateline>D. <date when="1917-12-17">17. Dez. 1917.</date></dateline>
+               <salute>Liebe <persName ref="Margarete Tillich">Tante Grete</persName>!</salute>
+            </opener>
+            <p>Nun bist Du die Einzige, die bei <persName ref="Johannes Tillich">Papa</persName> ist
+               von all den vielen, die in vergangenen Jahren um ihn waren: die Großeltern in Gottes
+               Arm, ich nun schon zum vierten Male Kriegsweihnachten feiernd, <persName
+                  ref="Johanna Tillich">Johanna</persName> und <persName ref="Elisabeth Tillich"
+                  >Elisabeth</persName> bei ihren <persName ref="Alfred Fritz"><persName
+                     ref="Erhard Seeberger">Männern</persName></persName>, eignes Weihnachten
+               machend, und <persName ref="Johanna Tillich">Johanna</persName> schon einer neuen
+               Generation etwas von dem schenkend, was Ihr uns gabt und von Euren Eltern nahmt, und
+                  <persName ref="Toni Winkler">Tonichen</persName> in <placeName ref="Stettin"
+                  >Stettin</placeName>; still und einsam wird es Euch beiden sein, und vielleicht
+               mehr Schmerz als Freude bringend. Aber wem brächte diese Weihnachten nicht mehr
+               Wehmut als Jubel, mehr Trauer, als Freude. Und doch ist es gut so: Weihnachten ist
+               wieder befreit aus den Banden von Essen und Trinken, Geschenken und Geschäften, und
+               zeigt dem, der es sehen will, etwas, was besser ist. Wie wir es nennen, ist dabei
+               ziemlich gleichgültig. Wir nennen es anders, als Eure Generation, und unsere
+                  Kinder<pb n="2"/> werden es anders nennen, als wir; und doch sind wir eine
+               Einheit, Ihr und wir und sie; denn Weihnacht steht noch über allem Irren und Suchen
+               und Wissen; es kann davon nicht zerstört und dadurch nicht gerettet werden;
+               vielleicht verstehst Du mich, vielleicht auch nicht, denn es ist schwer, daß die
+               Generationen sich ganz verstehen. Nur die Herzen verstehen sich ganz, wenn es im
+               Tiefsten in Ordnung ist!</p>
+            <p>Leicht ist es auch nicht, die vierte Kriegsweihnachtspredigt im Felde zu halten, und
+               doch schön, es zu können, und all den Leuten, die es so schwer haben, einen
+               Lichtstrahl zu zeigen. Und sie sind so empfänglich dafür, wenn man nur etwas aus dem
+               Herzen spricht.</p>
+            <p>Schade, daß wir während der <ptr/>Hochzeit<note type="ea">Gemeint ist die Hochzeit
+                  der Schwester Elisabeth mit Erhard Seeberger im Oktober 1917</note> so wenig von
+               einander hatten aber das ist mir fast mit allen so gegangen. Es war mehr ein
+               allgemeines Zusammensein, und als solches wundervoll! Nun noch einmal, <hi rend="u"
+                  >dennoch</hi> fröhliche Weihnacht und ein besseres neues Jahr!</p>
+            <closer>
+               <signed>Dein <persName ref="Paul Tillich">Paul</persName>.</signed>
+            </closer>
+
+            <postscript>
+               <p><!-->wenn vorhanden<!--></p>
+            </postscript>
+
+         </div>
+      </body>
+   </text>
+</TEI>

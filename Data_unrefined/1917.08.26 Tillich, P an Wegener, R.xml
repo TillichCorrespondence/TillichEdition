@@ -1,0 +1,226 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Paul Tillich an Richard Wegener
+               <lb/>vom 26. August 1917
+            </title>
+            <author ref="Paul Tillich">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Leopold Potyka</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="transscript">
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement ref="Marburg">Marburg</settlement>
+                  <institution>Philipps-Universität Marburg</institution>
+                  <repository>Deutsches Paul-Tillich-Archiv</repository>
+                  <idno>008 [H]</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>maschinenschriftlich</p>
+                  </physDesc>
+               <additional>
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint">
+                        <monogr>
+                           <author>Renate Albrecht und René Tautmann</author>
+                           <title>Tillich, Paul, Briefwechsel und Streitschriften. Theologische, philosophische und politische Stellungnahmen und Gespräche</title>
+                           <edition>1.</edition>
+                           <imprint>
+                              <publisher>De Gruyter</publisher>
+                              <pubPlace ref="Frankfurt a.M.">Frankfurt a.M.</pubPlace>
+                              <date when="1983">1983</date>
+                              <biblScope>89-94</biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title>Ergänzungs- und Nachlassbände zu den gesammelten Werken von Paul Tillich</title>
+                           <biblScope>6</biblScope>
+                        </series>
+                     </biblStruct>                     
+                  </listBibl>
+               </additional>
+            </msDesc>                       
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="Paul Tillich">Paul Tillich</persName>
+              <placeName ref="o.O.">ohne Ort</placeName>
+              <date when="1917-08-26">26. August 1917</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="Richard Wegener">Richard Wegener</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="LP" when="2022-06-29">Intitale Auszeichnung des Transkripts</change>
+        <change who="Initialien des Editors" when="1886-08-20"><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+        
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+           <dateline><date when="1917-08-26">26. 8. 1917</date></dateline>
+           <salute>Lieber <persName ref="P02024">Dox</persName></salute>
+        </opener>
+        <p>Zuerst meinen herzlichen Dank für Deine Bemühungen in <placeName ref="Neukölln">Neu-Kölln</placeName>! 
+           Das sieht ja glänzend aus! Ist es aber wohl nicht in dem Maße, 
+           w<add place="superlinear">ie</add><del rend="s">eil</del> mein Mißtrauen gegen so undefinierbare Arbeiten, wie die 
+           des Pfarrers, mir sagt. Immerhin <add place="superlinear">ist</add> da<add place="superlinear">durch</add> eine wertvolle Ultima ratio, 
+           was meine Stimmung wesentlich gehoben hat. Spruchreif ist die 
+           Sache für mich erst dann, wenn ich merke, es geht hier nicht mehr 
+           so wie es gehen müßte; und zu diesem „muß“ gehört auch <del rend="s">aus</del> aus-
+           reichende Zeit zu<del rend="s">r</del> wissenschaftlicher Arbeit. In diesen drei 
+           Wochen habe ich sie gehabt und von früh bis spät ausgenutzt, so 
+           daß ich gestern schon mit dem ganzen <persName ref="P00946">Husserl</persName> fertig wurde!<bibl><!-- Hussler, E.: »Logische Untersuchungen« 1900f. --></bibl> Ich 
+           habe mancherlei dadurch gelernt; zuerst und vor allem die ganze 
+           Tiefe meines Nicht-Wissens in Bezug auf die Probleme und Methoden 
+           und auch <hi rend="u">wirklichen Leistungen</hi> unserer Philosophie. Da heißt es, 
+           Ungeheures nachholen, wenn ich überhaupt mitreden will, und das 
+           kann man doch sogar von einem wissenschaftlichen Theologen ver-
+           langen, geschweige denn einem modernen Philosophen. Etwas anderes,
+           es Kennen, etwas anderes, Abhängig-Sein; und diejenige Abhängigkeit, 
+           die man „Stehen in der Zeit“ nennt, ist doch wohl zu verlangen, 
+           schon damit man verstanden wird. --- Weiter habe ich gelernt, 
+           den Begriff der „wissenschaftlichen Philosophie“ in seiner ganzen 
+           Bedeutung zu erfassen! Das ist wirklich Schulwissenschaft und 
+           sogar in bestem Sinne Scholastik, nämlich Begriffsklärung.</p> <pb n="2"/>
+        <p>Besonders gilt das für die Phänomenologen, die ihre ganze Ar-
+           beit den „Bedeutungen“ der aktuellen Begriffe zuwenden; die 
+           Kantianer  dagegen sind von einer erschütternden formalistischen 
+           Klarheit und Inhaltslosigkeit. <persName ref="P00946">Husserl</persName> nennt alle zitierten 
+           Leute „Forscher“, was mich merkwürdig anmutete, da man diese 
+           Formulierung<del rend="s">en</del> bisher bei der Maikäfer-<add place="superlinear">Forschung</add><del rend="s">Fassung</del> bevorzugte.  Was
+           bleibt nun übrig? Philosophische Forschung und Philosophie 
+           trennen? Was macht dann aber die schöpferische, gesetzgebende 
+           Philosophie? Ist sie bloß Literatur? Muß man philosophische 
+           Wissenschaft und philosophische Literatur unterscheiden? 
+           Oder gibt es ein drittes, aus dem Inbegriff der Forschungen <del rend="s">und</del> <add place="superlinear">eine</add> 
+           Schöpfung im alten Sinne <del rend="s">be</del><add place="superlinear">er</add>stehen zu lassen, die Wissenschaft 
+           und Schöpfung ist und - von der Wissenschaft als unreinlich 
+           verworfen wird? Man kann sich das ja an den sogenannten norma-
+           tiven Wissenschaften klarmachen: sind sie Forschung, so sind 
+           sie nur angewandte Theorie; sie enthalten keine neuen Schöpfun-
+           gen, sondern lediglich normativ gewendete Wesenssätze der tech-
+           nischen und geistigen Funktionen. Also Theorie des Schiffsbaus 
+           und des Denkens und des Handelns <del rend="s">oder</del> <add place="superlinear">ohne</add> Schöpferisches; das Denken 
+           wäre dann überhaupt nur schöpferisch in seinem eigenen Ge-
+           biet, d. h. in der Methode oder der Gegenstandsbetrachtung. Eine 
+           neue Methode oder eine neue Entdeckung, <add>Analog</add> einer neuen 
+           <add>Mal</add>weise oder einem neuen Bild - der Gegenstand wäre also 
+           immer Seiendes, <del rend="s">ein</del> <add place="superlinear">nie</add> Sein-Sollendes, höchstens die <hi rend="u">Seins-Wurzelung</hi> 
+           <hi rend="u">des Sollenden</hi>. --- Das <add>Schaffen</add> wäre in der Wissenschaft 
+           immer ein Finden, als Resultat eines Suchens oder Forschens. Ist mit 
+           dieser Beschreibung nun die Sachlage bei <add place="superlinear">den</add> großen, schöpferischen 
+           Philosophen getroffen? Oder haben diese ganz anderes gewollt?  </p><pb n="3"/>
+        <p>Ich glaube fast! <persName ref="P01227">Lütgert</persName> sagt in seiner <bibl><!-- Lütgert, W.: »Gesetz und Freiheit.« 1917. -->Rektoratsrede</bibl>: „Methoden 
+           machen Schule, Ideen Geschichte!“ <persName ref="P01020">Kant's</persName> Kritizismus hat Schule, 
+           seine Freiheitsidee Geschichte gemacht. <persName ref="P00839">Hegel</persName>'s Dialektik Schule, 
+           seine Staatsidee Geschichte! Dann macht<add>e</add> also der Philosoph durch 
+           Ideen Geschichte, der Forscher durch Methoden oder Entdeckungen 
+           Schule! Wie verhalten sich nun Ideen und Entdeckungen? Sind 
+           Ideen wissenschaftlich entdeckt? Sicher nicht, aber meistens 
+           auch nicht ohne Wissenschaft. Behandelt die Wissenschaft Ideen? 
+           Sicherlich! Aber hat sie ein Recht dazu, sie anders als objekti-
+           vierend, als Tatbestand, zu behandeln? Fragen über Fragen! 
+           Doch ich will noch nicht antworten, ich will noch in die Schule 
+           gehen und - meine <del rend="s">Gedanken</del> <add place="superlinear">Ideen</add> zur Klarheit und Sicherheit bringen!
+           --- Theologische Themata strömen mir nur so zu. Die Beschäfti-
+           gung mit der katholischen Theologie (<del rend="s">jetzt</del> <add place="superlinear">z. Zt.</add> <persName ref="P01336">Möhler</persName>) ist äußerst
+           anregend. Sie treffen in ihrer Kritik fast immer das Richtige und 
+           stehen doch weit unter <del rend="s">dem</del> <add place="superlinear">den</add> Kritisierten. Die ganze Dialektik 
+           des Protestantismus ist eminent interessant, jetzt, wo wir im 
+           Wesentlichen Jenseits des historischen Protestantismus stehen.
+           --- Die Arbeit über das Formalprinzip ist sicher sehr ergiebig. 
+           Es wäre vielleicht nötig, hier den Begriff der „Weisheit“ einzu-
+           führen; die innere Antinomie zwischen Wahrheit und Weisheit im 
+           katholischen System ist bei der Behandlung jedes Problems nach-
+           weisbar. Weiter wäre ein interessantes Thema „Theologien der 
+           Wahrscheinlichkeit“, darunter könnten zusammengefaßt werden:
+           1) die Veritabilia der katholischen Apologethik, (die hin-
+           reichenden Gründe zur Annahme einer Offenbarung),
+           2) die Heils-Wahrscheinlichkeit der katholischen Dogmatik,
+           3) der dogmatisch-historische Wahrscheinlichkeitsbeweis <pb n="4"/>
+           der älteren Supranaturalisten.
+           4) Der historische Beweis der <persName ref="P01615">Ritschlianer</persName>
+           5) Die relative Religion von <persName ref="P01958">Troeltsch</persName>.
+           Evtl. könnte noch eingereiht werden: Der moralische Gottesbeweis 
+           in seinen Kantischen Formen. - Das Gegenteil sind „Theologien 
+           der Gewißheit“. Es wäre zu untersuchen und würde sich vermut-
+           lich ergeben, daß nach dem Identitätsprinzip alle Gewißheits-
+           theologien „Geistestheologien“ sind; daß die Gewißheit aus einem 
+           irgendwie formulierten Eintritt des Gegenstandes in das Subjekt 
+           abgeleitet würde. Damit hätten wir als primäres Moment eine 
+           innere Bestimmtheit, die sich durch Ausscheiden als Material-Psychologischen zu einer Kategorie er<del rend="s">o</del><add place="superlinear">u</add>ieren ließe. 
+           Die objektive Religion stände in einem genau bestimmbaren 
+           Funktionsverhältnis (streng mathematisch) zu dieser Innerlich-
+           keit. Die Innerlichkeit wäre dann als „theologisches Prinzip“ 
+           anzusprechen, die Funktionen von da aus nach dem zu erforschen-
+           den Funktionsgesetz<del rend="s">en</del> zu bestimmen. ---</p>
+        <p>Ich bitte Dich nun, mir etwas Theologisches zu schicken. 
+           In erster Linie die <bibl><!-- Troeltsch, E.: »Soziallehren.« 1912. -->Soziallehren</bibl> von <persName ref="P01958">Troeltsch</persName>, dann, wenn es irgend 
+           geht, theologische Hegelianer; wenn möglich käuflich; sonst, 
+           wenn Du es wagen willst, von Dir geliehen. Ist <add place="superlinear">I.A.</add> <persName ref="P00484">Dorner</persName>'s <bibl><!-- Dorner, I.A.: »Formaliprinzip.« 1876. -->Aufsatz</bibl> 
+           über das Verhältnis von theologischem Material- und Formalprin-
+           zip irgendwie erreichbar? An ihm läge mir sehr viel. Den 
+           <bibl> <!-- Husserl, E.: »Jahrbuch. Bd. 3.« 1913. -->dritten Band</bibl> von <persName ref="P00946">Husserl</persName> sowie <bibl><!-- Husserl, E.: »Ideen.« 1913. -->seine Phänomenologie</bibl> habe ich 
+           bei Niemann direkt bestellt. Im <placeName ref="Halle a.S.">Hallenser</placeName> Vorlesungsverzeichnis 
+           steht meine Vorlesung über „Einleitung, etc.“ als erste 
+           im ganzen Buch.
+           Wie ist <persName ref="P01933">Gretis</persName> Wohnung?
+        </p>
+        <closer>
+           <salute>Dein tr.</salute>
+           <signed><persName ref="P01930">Paul</persName>.</signed>
+        </closer>
+        
+      
+     </div>
+    </body>
+  </text>
+</TEI>

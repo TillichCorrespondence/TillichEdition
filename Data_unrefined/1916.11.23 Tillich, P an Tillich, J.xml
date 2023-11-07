@@ -1,0 +1,127 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Paul Tillich an Johannes Tillich <lb/>vom 23. November 1916 </title>
+            <author ref="Paul Tillich">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divnity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974.</collection>
+                  <idno>bMS 649/193(14)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="Paul Tillich">Paul Tillich</persName>
+               <placeName ref="ohne Ort">ohne Ort</placeName>
+               <date when="1916-11-23">23. November 1916</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="Johannes Tillich">Johannes Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2022-05-23">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <dateline>D. <date when="1916-11-23">23. Nov. 1916.</date></dateline>
+               <salute>Lieber <persName ref="Johannes Tillich">Papa</persName>!</salute>
+            </opener>
+            <p>Eben die <bibl type="letter" sameAs="???">Nachricht von <persName ref="Toni Winkler">Toni</persName></bibl><add resp="PS">Vom Tode der
+                  Großmutter</add> bekommen und an <persName ref="Margarete Tillich">Tante
+                  Grete</persName> geschrieben. Es ist nicht das was wir empfanden, als unsere
+               <persName ref="Mathilde Tillich">Mutter</persName> gestorben war, aber <add place="superlinear">es</add> ist doch für Dich ein
+               Schmerz, der nie ganz mehr verwunden werden kann. Was mir die <persName
+                  ref="Marie Tillich">Großmutter</persName> war, das weißt Du ja, wie unendlich
+               viele schönste Erinnerungen sich an sie knüpfen, das werde ich merken bis zum Ende
+               meines Lebens. Was sie Dir noch in der letzten Zeit gewesen ist, auch als Ersatz für
+               das Größte, was Du verloren hast, das wissen wir. Wir leiden miteinander, wenn wir
+               auch weit getrennt sind, wir verlieren beide unendlich viel. -- Wir halten jetzt
+                  Toten<pb n="2"/>fest-Predigten, Du vor Menschen, die ihre Lieben verloren haben,
+               ich vor Menschen, die wissen, dass ihre Todesstunde wohl nicht mehr weit ist. Es ist
+               etwas furchtbar Erschütterndes darin; und doch greifen die 1000 Toten, die wir in 14
+               Tagen an der <placeName ref="Somme">Somme</placeName> haben, nicht so gewaltig ans Herz; wie das alte geliebte
+               Großmütterlein! Ich predige über den Text: <bibl type="bible" resp="Hebr 13, 14">Wir haben hier keine bleibende Stadt</bibl> ---
+               Was sollen wir auch hier, wenn alles, alles von uns geht! Aber ich klammere mich
+               fester denn je an die zukünftige. Ich will, ich predige, ich kämpfe für die Ewigkeit.
+               Aber die Wehmut bleibt, die zermürbende Wehmut der Vergänglichkeit, des für immer
+               Vergangenen. – Unser Bürgertum ist nicht auf Erden! – Heut war wohl die Beerdigung. </p>
+            <closer>
+               <salute>Mein lieber lieber <persName ref="Johannes Tillich">Vater</persName>!</salute>
+               <signed>Dein <persName ref="Paul Tillich">Paul</persName></signed>
+            </closer>
+
+            <postscript>
+               <p><!-->wenn vorhanden<!--></p>
+            </postscript>
+
+         </div>
+      </body>
+   </text>
+</TEI>

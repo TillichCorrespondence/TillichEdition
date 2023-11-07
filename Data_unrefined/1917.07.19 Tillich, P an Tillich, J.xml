@@ -1,0 +1,112 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Postkarte von Paul Tillich an Johannes Tillich <lb/>vom 19. Juli 1917 </title>
+            <author ref="Paul Tillich">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974.</collection>
+                  <idno>bMS 649/193(15)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="Paul Tillich">Paul Tillich</persName>
+               <placeName ref="Swinemünde">Swinemünde</placeName>
+               <date when="1917-07-19">19. Juli 1917</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="Johannes Tillich">Johannes Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2022-06-14">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="postcard">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <salute>L. <persName ref="Johannes Tillich">Papa</persName>!</salute>
+            </opener>
+            <p>Bis zum 1<hi rend="sup">ten</hi> August bin ich <placeName ref="Swinemünde">Bad
+                  Swinemünde</placeName> "Strandpalast". Dann sehen wir uns noch. Am 4<hi rend="sup"
+                  >ten</hi> muß ich weg!.. Ich war bei <unclear cert="medium"><persName ref="Grimms"
+                     >Grimms</persName></unclear> und <persName ref="Steinhausen"
+                  >Steinhausen</persName>. Es geht nur durch Reklamation für eine <hi rend="u"
+                  >schwere</hi> Hilfspredigerstelle, etwa <del rend="s">Ber</del>
+               <placeName ref="Berlin-Neukölln">Neukölln</placeName>. Ich tue es nur, wenn ich
+               genügend Zeit zum wissenschaftlichen Arbeiten habe. Es müßte also – so sagte
+                  <persName ref="Steinhausen">Steinhausen</persName> – irgendwie <hi rend="u"
+                  >abgemacht werden, was ich tue, und was nicht</hi>. Erkundige Dich bitte genau,
+               was an Hilfspredigerstellen da ist! Ich muß jetzt arbeiten, sonst ist es zu spät.–
+               Hier ist es herrlich! Hoffentlich bist Du gut erholt!</p>
+            <closer>
+               <salute>Auf Wiedersehen!</salute>
+               <signed>Dein <persName ref="Paul Tillich">Paul</persName>.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

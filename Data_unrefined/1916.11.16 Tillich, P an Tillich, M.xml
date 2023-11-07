@@ -1,0 +1,147 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Paul Tillich an Marie Tillich <lb/>vom 16. November 1916 </title>
+            <author ref="Paul Tillich">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974.</collection>
+                  <idno>bMS 649/193(21)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="Paul Tillich">Paul Tillich</persName>
+               <placeName ref="ohne Ort">ohne Ort</placeName>
+               <date when="1916-11-16">16. November 1916</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="Marie Tillich">Marie Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2022-05-31">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <dateline>D. <date when="1916-11-16">16. November 1916</date></dateline>
+               <salute>Mein liebes <persName ref="Marie Tillich">Großmütterlein</persName>!</salute>
+            </opener>
+            <p>Nachdem ich nun mehr seit August keine Nachricht mehr von der <address>
+                  <street>Neuenburgerstr.</street>
+               </address> bekommen habe, wohl aber einen Brief von <persName ref="Margarete Tillich"
+                  >Tante Grete</persName> aus <placeName ref="Stettin">Stettin</placeName>Stettin,
+               will ich meine Zuflucht zu Dir nehmen. Denn ich weiß, daß wenn auch <persName
+                  ref="Johannes Tillich">Vater</persName> und <persName ref="Toni Winkler"
+                  >Pflegemutter</persName>, <persName ref="Johanna Tillich">Schwester</persName> und
+                  <persName ref="Alfred Fritz">Schwager</persName> einen vergessen, die <persName
+                  ref="Marie Tillich">Großmutter</persName> doch immer des <persName
+                  ref="Paul Tillich">Enkels</persName> gedenkt, der <hi rend="u">sie</hi> und <hi
+                  rend="u">den</hi> sie auf den Armen getragen hat! Ich freue mich, daß Du in der <address>
+                  <street>Neuenburgerstr.</street>
+               </address> bist; es ist mir ein lieber Gedanke, Euch alle zusammen zu wissen, und ich
+               sehe ordentlich die Gemütlichkeit vergangener Zeiten, von denen ich hoffe, daß sie<pb
+                  n="2"/> auch jetzt nicht fehlt. Ich beneide den oder die, der den Platz zu Deiner
+               Rechten hat, meinen Stammplatz, den ich wohl noch einmal einnehmen möchte! Ich habe
+               mich etwas geängstigt, als ich hörte, daß es Dir nicht ganz gut ginge, und ich freue
+               mich um so mehr, daß <add resp="PS">Du</add> nun wieder in Ordnung bist, meine liebe
+               junge <persName ref="Marie Tillich">Großmama</persName>! – Ist <persName
+                  ref="Margarete Tillich">Tante Grete</persName> noch in <placeName ref="Stettin"
+                  >Stettin</placeName>? Sie liebt diese große Kleinstadt ja sehr, wie ich auch, sie
+               wegen der Menschen, ich wegen der Schiffe! -- Über <persName ref="Alfred Fritz"
+                  >Alfred</persName> und <persName ref="Johanna Tillich">Johanna</persName> habe ich
+               nicht mal einen dunklen Begriff. Ob <placeName ref="Berlin">Berlin</placeName>,
+                  <placeName ref="Butterfelde">Butterfelde</placeName><pb n="3"/> oder <placeName
+                  ref="Bremen">Bremen</placeName> ist mir völlig unbekannt. Ob <persName
+                  ref="Alfred Fritz">Frede</persName> zurück ist und sonstige neugierige Fragen darf
+               man wohl gar nicht mehr stellen.</p>
+            <p>Ich wohne in einem netten Blockhäuschen im <placeName ref="Aisnetal"
+                  >Aisnetal</placeName>, nicht weit von den <placeName ref="Argonnen"
+                  >Argonnen</placeName>. Es ist ruhig und friedlich hier, infolgedessen viel
+               Predigtarbeit, aber auch viel Zeit; so daß ich sogar noch etwas zu wissenschaftlichen
+               Sachen komme, was dem Geist wie der erste Tropfen Milch dem Heißhungrigen ist. Aber
+               man muß langsam essen, so entwöhnt ist man der reinen Vernunft.</p>
+            <p>Daß wir die <placeName ref="Somme">Somme</placeName> hinter uns haben,<pb n="4"/>
+               hast Du wohl gehört; es waren schwere Tage für die Truppen und ernste Tage für uns.
+               Hoffentlich bleiben wir noch lange hier in der ruhigen Stellung. <placeName
+                  ref="Verdun">Verdun</placeName> war ein schwerer Schlag für uns. Nicht nur, daß
+               alles verloren ist, was auch unsere Division gewonnen hat, sondern noch darüber
+               hinaus sind sie gekommen. Und das mit ganz geringen Verlusten, nicht den hundertsten
+               Teil von dem, was es uns gekostet hat. Auch über Polen ist außer mir, der einen
+               gewissen romantischen Idealismus hat, jeder entsetzt ---- Wie gern würde ich mit Dir
+               über all das reden, oder vielmehr Deine temperamentvollen Fragen hören, wenn
+                  <persName ref="Johannes Tillich">Papa</persName> und ich reden --- Es war einmal,
+               alles war einmal.</p>
+            <closer>
+               <signed>Dein <persName ref="Paul Tillich">treuer Paul</persName>.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>
