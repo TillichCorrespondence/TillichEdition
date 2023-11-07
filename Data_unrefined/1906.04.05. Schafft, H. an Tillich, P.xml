@@ -1,0 +1,224 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Hermann Schafft an Paul Tillich <lb/>vom 5. April 1906 </title>
+            <author ref="P01697">Hermann Schafft</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement ref="Marburg">Marburg</settlement>
+                  <institution>Philipps-Universität Marburg</institution>
+                  <repository>Deutsches Paul-Tillich-Archiv</repository>
+                  <idno>008 G</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+               <additional>
+                  <!-- Wenn Brief bereits publiziert hier die richtige Struktur aussuchen -->
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel der Monographie<!--></title>
+                           <edition><!-->Auflage<!--></edition>
+                           <imprint>
+                              <publisher><!-->Herausgeber<!--></publisher>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Reihe<!--></title>
+                           <biblScope><!-->Reihennummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                     <biblStruct type="journal" n="reprint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel des Aufsatzes<!--></title>
+                           <imprint>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Zeitschrift<!--></title>
+                           <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <biblStruct type="monograph">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien überliefert sind und im Original nicht mehr vorhanden!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel der Monographie<!--></title>
+                  <edition><!-->Auflage<!--></edition>
+                  <imprint>
+                     <publisher><!-->Herausgeber<!--></publisher>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Reihe<!--></title>
+                  <biblScope><!-->Reihennummer<!--></biblScope>
+               </series>
+            </biblStruct>
+            <biblStruct type="journal">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften überliefert sind und im Original nicht mehr vorhanden<!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel des Aufsatzes<!--></title>
+                  <imprint>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Zeitschrift<!--></title>
+                  <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P01697">Hermann Schafft</persName>
+               <date when="1906-04-05">5. April 1906</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P01930">Paul Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2023-02-22">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <dateline>H. d. <date when="1906-04-05">V. IV. 06.</date></dateline>
+               <salute>Lieber <persName ref="P01930">Paul</persName>!</salute>
+            </opener>
+            <p>Natürlich keinen faulen Frieden! Aber die Schwierigkeit ist eben die, daß die
+               Differenz nach dem These II angenommen ist, eigentlich in Nominalismus u.
+               geschichtslosem Subjektivismus der Mbger liegt u. die Trennung von einer Menge im
+               Bunde partout nicht begriffen werden wird. Ratifiziert ist <hi rend="uu"
+               >alles</hi>!!!, außer dem einen Teilantrag: der Aktivitätszwang bleibt.- Was läßt
+               sich machen? Die Leute schnappen sämtlich über, wenn wir noch mal prinzipielle
+               Debatte anfangen.- Marburg u. Göttingen kneifen sobald man sie nagelt... Hinterher
+               ist dann ihr Standpunkt genau derselbe.- <add place="left"
+                  >Kuhlogik!</add><!-- Hier bin ich mir nicht sicher ob das richtig ausgezeichnet ist. Siehe den Scan des Briefes --><pb
+                  n="2"/> Ob wir nun die Schwierigkeit lösen durch nunmehrige Aufhebung des
+               Aktivitätszwanges, oder durch Austritt? Durch Herauswerfen Marburgs? Alles 3 ist m.
+               E. entweder ohne Zweck oder unmöglich. Daher ist der Weg: Aufnahme der
+               Wartburgresolution 05 in die Statuten ebenso der These I u. II nebst Antrag <persName
+                  ref="P00310">Büchsel</persName> nun Ziel, für das sich zunächst die Möglichkeit
+               des Gelingens bietet. Natürlich unter der deutlichen Konstatierung, daß Göttingen u.
+               Marburg sich von Bartels <!-- Unklar, wer das sein soll. -->u. der Tradition lossagen
+               - respektive einsehen, daß sie einseitig gewesen sind. - das hoffe ich, wird eine
+               größere Leichtigkeit sein als ein Herauswerfen u. wir bleiben mächtiger als durch
+               Austritt. Dann laß' sie meinetwegen auch wieder kneifen. Auf den nächsten
+               Wartburgfesten sind wir dabei u. können den Finger <hi rend="aq">occatione data</hi>
+               fester darauflegen.</p>
+            <p>Also wohlverstanden, <hi rend="u">nur</hi> in dem Sinn will ich Frieden halten. Das
+               habe ich auch m. E. an <persName ref="P02095">Witte</persName> geschrieben.<pb n="3"
+               /> - hier lege ich dir noch einen eben während des IIten Frühstücks (2 Eier, 5/10
+               Milch) produzierten Wisch bei. Mich juckt es näm- lich, daß das
+                  <unclear>¿¿¿</unclear> denkt, wir wären rechtlich verstummt. Wenn Dein Vater ihn
+               nicht zu unverschämt findet u. Du seine sachliche Richtigkeit (habe nämlich den
+               Schrieb nicht da) nicht beanstandest, schick ihn <unclear>¿¿¿ ... ¿¿¿</unclear> pp
+               ... zu. Sonst bitte = Ofenwärts. Das würde mich nicht im geringsten schmerzen. -
+               Schreibe mir dann noch mal in principiis. <persName ref="P01227">Smul</persName>
+               hatte mir eigent- lich verboten überhaupt daran zu denken; aber .... na!.. Im übrigen
+               ist die Schrift v. <persName ref="P02268">Jäger</persName> u. <persName ref="P02095"
+                  >Witte</persName> ganz ohne mein Zutun entstanden. Ich trage an meiner genug! Aber
+               ich müsste die andere von denen haben!<pb n="4"/> Man sieht mal wieder, wie Dogmen
+               die Menschen blind machen ... Im übrigen sitzest Du, was Scheußlichkeit der Klaue
+               betrifft in einem Glashause.... So nun definitv "<unclear>und</unclear> aus der
+               Luft"!</p>
+            <p>Ich vergrabe mich auch in <persName ref="P02031">Weiß</persName>, <persName
+                  ref="P00890">Hermann</persName> obwohl ich eigentlich konstant in Reitstiefeln
+               umherstolziere u. sämtliche Gebirge in Unordnung bringe indem ich vom einem z. andern
+               so viel Dreck an meinen Stiefeln mitbringe u. die Höhenlage verschiebe, jedenfalls
+               wird eine neue Verkoppelung <note place="above">Weißt Du was das is?</note> nötig
+               sein. Nun lebwohl Du Kücken! Laß Dir Ostern nicht d. den Bund stören;- oder mir doch
+               noch eine Karte!! </p>
+            <closer>
+               <signed>Tr. Gruß d. <persName ref="P01697">H</persName>.</signed>
+            </closer>
+
+            <postscript>
+               <p>Natürlich der ganzen Familie.</p>
+            </postscript>
+
+         </div>
+      </body>
+   </text>
+</TEI>

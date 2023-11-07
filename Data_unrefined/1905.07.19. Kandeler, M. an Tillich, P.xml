@@ -1,0 +1,212 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Marlen Kandeler an Paul Tillich <lb/>vom 19. Juli 1905 </title>
+            <author ref="P01017">Marlen Kandeler</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement ref="Marburg">Marburg</settlement>
+                  <institution>Philipps-Universität Marburg</institution>
+                  <repository>Deutsches Paul-Tillich-Archiv</repository>
+                  <idno>008 E</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+               <additional>
+                  <!-- Wenn Brief bereits publiziert hier die richtige Struktur aussuchen -->
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel der Monographie<!--></title>
+                           <edition><!-->Auflage<!--></edition>
+                           <imprint>
+                              <publisher><!-->Herausgeber<!--></publisher>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Reihe<!--></title>
+                           <biblScope><!-->Reihennummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                     <biblStruct type="journal" n="reprint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel des Aufsatzes<!--></title>
+                           <imprint>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Zeitschrift<!--></title>
+                           <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <biblStruct type="monograph">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien überliefert sind und im Original nicht mehr vorhanden!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel der Monographie<!--></title>
+                  <edition><!-->Auflage<!--></edition>
+                  <imprint>
+                     <publisher><!-->Herausgeber<!--></publisher>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Reihe<!--></title>
+                  <biblScope><!-->Reihennummer<!--></biblScope>
+               </series>
+            </biblStruct>
+            <biblStruct type="journal">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften überliefert sind und im Original nicht mehr vorhanden<!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel des Aufsatzes<!--></title>
+                  <imprint>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Zeitschrift<!--></title>
+                  <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P01017">Marlen Kandeler</persName>
+               <placeName ref="Berlin">Berlin</placeName>
+               <date when="1905-07-19">19. Juli 1905</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P01930">Paul Tillich</persName>
+               <placeName>Tübingen</placeName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2022-08-20">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <dateline><placeName ref="Berlin">B.</placeName> d. <date when="1905-07-19">19. VII.
+                     05.</date></dateline>
+               <salute>Mein <persName ref="P01930">lieber Freund</persName>!</salute>
+            </opener>
+            <p>Wie lieb von Dir, daß Du feurige Kohlen auf mein Haupt sammelst und mir trotz meines
+               Schweigens wieder schreibst. Ich komme Dir einen Hochachtungsschluck (in Kaffee!) –
+               Von Herzen freue ich mich, daß es Dir schon besser geht und ebenso herzlich wünsche
+               ich Dir baldige, völlige Genesung! Wenn es Dich nicht zu sehr<pb n="2"/> anstrengt,
+               würde ich mich <hi rend="u">sehr</hi> über einen ausführlichen Bericht von Dir u.
+               Deinem jetzigem Leben freuen. Ich habe gehört, daß Du schon Andachten dem Druck
+               übergeben hast. Wie gern würde ich mal eine davon haben. Du denkst
+                  <sic>vieleicht</sic>, ich werde sie mit meinem kleinen Verstandskasten doch nicht
+               im ganzen Wert erfassen. Nun, ich meine, da Deine <sic>Schreiften</sic> religiösen
+               Inhaltes sind, wird das Verständnis des Herzens da einsetzen wo<pb n="3"/> mein
+               schwacher Geist zurückbleibt. - -</p>
+            <p>Mein Vater war 6 Wochen von Amts wegen in <placeName>Leipzig</placeName> um Vorträge
+               über seine Schule mit anzuhören. Da fuhr Mutter mit den drei Bubis nach einem Gut
+               Falkenwalde bei <placeName>Ravenstein i. P.</placeName> Jetzt ist die ganze Familie
+               in <placeName>Swinemünde</placeName>. Ich muß natürlich, da ich im ersten Jahr keinen
+               Urlaub bekomme, hierbleiben. Ich esse jetzt mittags immer<pb n="4"/> mit Tante R.
+               Wiechel zusammen. Ich sagte ihr Deine Adr. Sie wird Dir auch schreiben. Die Kinder
+               sind nun schon bald 5 Wochen fort. Der Abschied ist mir sehr schwer geworden. Es ist
+               doch drollig, daß wir Männchen beide zum Liebling haben. -</p>
+            <p>Nun bekommst Du ja sehr bald Ferien nicht? Ich freue mich schon auf das Wiedersehen.
+               Hoffentlich hat Deine Würde als Tübinger Student Dich so gebessert, daß Du mich nicht
+               wie sonst braun u. blau zwickst, sondern, daß man in Vernunft mal reden kann? - Lege
+               doch, bitte, bei Hanna ein gutes Wort für mich ein. Sie ist mit Recht böse, weil ich
+               vor ihrer Abreise nicht kam, obgleich ich es vorher versprochen hatte. Entschuldige,
+               bitte, die Schmiererei, aber ich habe nicht viel Zeit u. sonst wirds wieder nichts
+               mit ein paar Zeilen für Dich. </p>
+            <closer>
+               <salute>Mit herzlichem Gruß bin ich in alter Freundschaft u. Treue </salute>
+               <signed>Deine <persName ref="P01017">M. Kandeler</persName></signed>
+            </closer>
+
+            <postscript>
+               <p>Es ist recht drollig, daß ich einem Studenten ein Stückchen Schokolade schicke.
+                  Aber ich weiß Du isst sie gern u. deshalb hoffe ich, daß du mich nicht zu sehr
+                  auslachst. - </p>
+            </postscript>
+
+         </div>
+      </body>
+   </text>
+</TEI>

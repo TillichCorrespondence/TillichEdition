@@ -1,0 +1,233 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Marie Tillich an Paul Tillich <lb/>vom 5. Juni 1905 </title>
+            <author ref="P01927">Margarete Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974.</collection>
+                  <idno>bMS 649/193</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+               <additional>
+                  <!-- Wenn Brief bereits publiziert hier die richtige Struktur aussuchen -->
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel der Monographie<!--></title>
+                           <edition><!-->Auflage<!--></edition>
+                           <imprint>
+                              <publisher><!-->Herausgeber<!--></publisher>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Reihe<!--></title>
+                           <biblScope><!-->Reihennummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                     <biblStruct type="journal" n="reprint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel des Aufsatzes<!--></title>
+                           <imprint>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Zeitschrift<!--></title>
+                           <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <biblStruct type="monograph">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien überliefert sind und im Original nicht mehr vorhanden!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel der Monographie<!--></title>
+                  <edition><!-->Auflage<!--></edition>
+                  <imprint>
+                     <publisher><!-->Herausgeber<!--></publisher>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Reihe<!--></title>
+                  <biblScope><!-->Reihennummer<!--></biblScope>
+               </series>
+            </biblStruct>
+            <biblStruct type="journal">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften überliefert sind und im Original nicht mehr vorhanden<!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel des Aufsatzes<!--></title>
+                  <imprint>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Zeitschrift<!--></title>
+                  <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P01927">Margarete Tillich</persName>
+               <placeName ref="Hohen Neuendorf">Hohen Neuendorf</placeName>
+               <date when="1905-06-05">5. Juni 1905</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P01930">Paul Tillich</persName>
+               <placeName>Tübingen</placeName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2022-10-15">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <dateline><placeName ref="Hohen Neuendorf">Hohen Neuendorf</placeName>
+                  <date when="1905-06-05">5/6. 05.</date></dateline>
+               <salute>Mein liebes <persName ref="P01930">Enkelchen</persName>!</salute>
+            </opener>
+            <p>Vielen Dank für Deinen Brief und die Wünsche zum 25. Mai. Der liebliche Kranz von
+               alten 7... entbehrte Dich sehr. - Es ist uns eine große Freude, daß es Dir gut geht,
+               hoffentlich ist die dumme Wunde auch bald ganz geheilt. <persName ref="P02227"
+                  >Hänschen Weißenborn</persName> ist entlassen und in der Schule versetzt, der<pb
+                  n="2"/> Mutter Meinung nach Dein Verdienst; ich hoffe, daß dies Dich nicht zu
+               eitel macht. - Hier ist es schön wie immer, jetzt etwas heiß, ich konnte leider darum
+               nicht nach <placeName>Berlin</placeName> zu <persName ref="P01926">Deines
+                  Papas</persName> Geburtstag, meine Reise nach <placeName>Weimar</placeName> muß
+               ich auch verschieben. Dürselens Kinder
+               <!-- Dürselen ist der Familienname von Paul Tillichs Mutter. Ich weiß nicht, welche Dürselens hier gemeint sein könnten. PS -->sind
+               sehr niedlich, doch sind sie immer auf dem Grundstück. — Flockchen ist in dem einen
+               Jahr recht alt geworden, und als Lucie
+               <!-- Auch hier weiß ich nicht wer gemeint ist bzw. welche Lucie genau. -->neulich mit
+                  ihrem<pb n="3"/> Bräutigam bei uns war, wurde er lustig, weil Erstere mit ihm
+               durch den Wald raste, wie Du einst und hoffentlich auch wieder. — Ist denn in
+                  <placeName>Tübingen</placeName> auch solche Hitze oder verbreiten die Berge
+               Kühlung? Sehr würde sich mein AnsichtsAlbum über eine Karte von dort erfreuen! -</p>
+            <p>Da <persName ref="P01932">Großmama</persName> noch schreiben will, mache ich für heut
+               Schluß, mein lieber <persName ref="P01930">Paul</persName> und wünsche, daß es Dir
+               weiter recht gut gehen möge! Ottos
+               <!-- Auch hier bin ich überfragt wer gemeint sein kann --> grüßen auch. – </p>
+            <closer>
+               <salute>Mit vielen herzlichen Grüßen</salute>
+               <signed>D. <persName ref="P01927">Tante Margarete</persName>.</signed>
+            </closer>
+
+            <postscript>
+               <p><!-->wenn vorhanden<!--></p>
+            </postscript>
+
+         </div>
+         <div>
+            <opener><salute>Mein liebes Herzblatt!</salute></opener>
+            <p>Nun auch von mir Gruß und Kuß, mein Liebling! Wie froh bin ich immer von Dir etwas zu
+               hören. Gestern war ja ein ergiebiger Tag, der uns <bibl>Nachricht von Dir</bibl>
+               <!-- liegt nicht vor --> brachte. Gott Lob, daß es Dir gut geht. Gott schütze Dich
+               ferner, und mache Dich bald ganz heil. Aber pflegen <hi rend="u">mußt</hi> Du Dich,
+               mein Junge! <persName ref="P02089">Frl Toni</persName> will ja heute eine Eßkiste
+               packen, sie hat es mir versprochen. Wir <del rend="s">war</del> waren gestern, zu den
+               2. Geburtstagsfesten, sehr munter, nur von der Hitze mastig! Du wirst wohl noch
+               Näheres darüber hören. Es geht uns hier ganz gut, nur kann sich <persName
+                  ref="P01927">Tante Grete</persName>, noch immer nicht, wie wir wünschen erholen.
+               Oft wünschen wir Dich einen Tag hier zu haben, mein Liebling. Du hast ja aber so
+               viel, viel <unclear>¿¿¿</unclear>dort. Und das ist auch unsere <unclear reason="covered">¿¿¿</unclear>
+            </p>
+            <closer><signed>Nun leb wohl mein Herz! Gott befohlen Deine treue G.Mutter <persName
+                     ref="P01932">M. T.</persName></signed></closer>
+         </div>
+         <div>
+            <p> Viel herzlichen Gruß mein lieber Junge auch von Deinem alten <persName ref="P01928"
+                  >Großpapa</persName>! Vorgestern hat <persName ref="P02228">Onkel
+               Paul</persName>seinen Licentiaten in
+                  <placeName>Greifswald</placeName> und zwar cum laude gemacht! Er ist sehr froh und
+                  <persName ref="P01926">Papa</persName> freut sich sehr!</p> <closer><salute>Gott
+                     behüte Dich!</salute>
+                  <signed><persName ref="P01928">Großpapa.</persName></signed></closer>
+            
+         </div>
+      </body>
+   </text>
+</TEI>

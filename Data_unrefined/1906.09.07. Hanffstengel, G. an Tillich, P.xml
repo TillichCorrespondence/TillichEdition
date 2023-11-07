@@ -1,0 +1,268 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Gottfried von Hanffstengel an Paul Tillich <lb/>vom 7. September
+               1906</title>
+            <author ref="P00788">Gottfried von Hanffstengel</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974.</collection>
+                  <idno>bMS 649/147</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+               <additional>
+                  <!-- Wenn Brief bereits publiziert hier die richtige Struktur aussuchen -->
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel der Monographie<!--></title>
+                           <edition><!-->Auflage<!--></edition>
+                           <imprint>
+                              <publisher><!-->Herausgeber<!--></publisher>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Reihe<!--></title>
+                           <biblScope><!-->Reihennummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                     <biblStruct type="journal" n="reprint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel des Aufsatzes<!--></title>
+                           <imprint>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Zeitschrift<!--></title>
+                           <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <biblStruct type="monograph">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien überliefert sind und im Original nicht mehr vorhanden!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel der Monographie<!--></title>
+                  <edition><!-->Auflage<!--></edition>
+                  <imprint>
+                     <publisher><!-->Herausgeber<!--></publisher>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Reihe<!--></title>
+                  <biblScope><!-->Reihennummer<!--></biblScope>
+               </series>
+            </biblStruct>
+            <biblStruct type="journal">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften überliefert sind und im Original nicht mehr vorhanden<!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel des Aufsatzes<!--></title>
+                  <imprint>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Zeitschrift<!--></title>
+                  <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P00788">Gottfried von Hanffstengel</persName>
+               <placeName ref="where">Bremervörde</placeName>
+               <date when="1906-09-07">7. September 1906</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P01930">Paul Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2023-03-06">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <dateline>
+                  <placeName ref="Bremervörde">Bremervörde</placeName>, <date when="1906-09-07">7.
+                     IX. 06.</date></dateline>
+               <salute>Lieber <persName ref="P01930">Philosoph</persName>!</salute>
+            </opener>
+            <p>habe Dank für <bibl type="letter">Deinen Brief</bibl><!-- liegt uns nicht vor -->,
+               der mich wieder an eine immer vorgehabte, aber nie zur Ausführung gekommene Pflicht
+               erinnerte, der mich jetzt aber so aus meinen Studien aufweckte, daß ich <persName
+                  ref="P01713">Schlatter's</persName>
+               <bibl type="book">Matthäus</bibl>
+               <!-- Konnte nicht herausfinden, was gemeint ist. Schlatters Matthäusbuch ist offensichtlich erst Jahrzehnte nach diesem Brief erschienen -->schleunigst
+               zur Seite lege u Dich aufkläre. Du scheintest mir nämlich von einer falschen
+               Voraussetzung auszugehen. Der erste Teil Deiner Vorstellung stimmt, der Garten u
+               meine Geschwister nebst einer kleinen Cousine beschäftigen mich intensiv, der Garten,
+                  <del rend="s">d</del> indem ich ihm alles überflüssige Obst<pb n="2"/> entziehe,
+               meine kleinen Geschwister u die Cousine, indem ich ihnen von meiner Weisheit in den
+               Sprachen etwas abgebe. Wenn du aber glaubst, ich fragte jeden Arbeiter oder
+               Handwerker, welchen Eindruck er von der Sixtinischen Madonna oder <persName
+                  ref="P02294">Mackensen's</persName> Ziege hat, so bist Du in einem schweren
+               Irrtum. Also, Scherz beiseite, ich kann das Thema nicht bewältigen, es entspricht
+                  <del rend="s">s</del> nun mal meiner auf die Wirklichkeit gerichteten Natur auch
+               sich so intensiv mit der Kunst, speziell der Malerei zu befassen. Und dann darüber
+               Theorien aufzustellen, würde mir Überhebung scheinen. Aber der Schreck, den du
+               gekriegt hast,<pb n="3"/> darf bald schwinden. Ein anderes Thema hat mich sehr
+               beschäftigt, ich hoffe es zu einem Vortrage ausarbeiten zu können. Es handelt sich um
+               die Frage: "welche<del rend="s">n</del> Pflicht hat der Staat der Volksschule
+               gegenüber in Sachen der Religion?" So oder ähnlich denke ich die Sache zu formulie-
+               ren. Literatur habe ich viel dafür, hoffentlich hat nur nicht schon ein anderer dies
+               Thema! Das wäre übel. Diese Frage interessiert mich mehr, da sie gerade jetzt aktuell
+               geworden ist durch die Entscheidung des Abgeordnetenhauses. Äußerungen verschiedener
+               Parteien stehen mir zu Gebote. Schreibe mir doch bitte ob jemand sich dies Thema
+               erwählt hat.<pb n="4"/> Etwas mehr als du Dir vorstellst, besinne ich mich doch auf
+                  <del rend="s">d</del> mein 4. Semester. Ich schaffe <persName ref="P02086"
+                  >Windelband's</persName>
+               <bibl type="book"
+                  resp="Präludien. Aufsätze und Reden zur Einleitung in die Philosophie. Freiburg im Breisgau 1884"
+                  >Präludien</bibl>, <persName ref="P01713">Schlatters</persName>
+               <bibl type="book"
+                  resp="Der Glaube im Neuen Testament. Eine Untersuchung zur neutestamentlichen Theologie. Leiden 1885"
+                  >Glaube</bibl>, die kleinen Propheten, die Psalmen, u Matthäus. Außer mit
+                  <persName ref="P01713">Schlatters</persName> Glaube denke ich mit allem fertig zu
+               werden. Meine Bibliothek hat sich auch etwas bereichert. Etwas treibe ich auch
+               Kirchengeschichte, mir liegt das Reformationszeitalter am Herzen (!), wozu ich
+                  <unclear>Hausratz's</unclear> Luther zur Erholung lese. Ein prachtvolles Werk ist
+               es, so leicht u fein geschrieben u doch merkt man die Forschung dahinter.</p>
+            <p>Ganz so schlecht wie ich mich zu Anfang geschildert habe, bin ich<pb n="5"/> doch
+               nicht. Als mir nämlich die Erkenntnis meines Unvermögens aufging schrieb ich eine
+               Postkarte <hi rend="sup">an Dich</hi> nach <placeName>Berlin</placeName>, jedoch ohne
+               weitere Adresse, da ich sie vergessen hatte. Außerdem fiel in die Zeit, es war wohl
+               der 20. <del rend="s">Sept.</del> Aug, Dein Geburtstag, zu dem ich Dir zu gratulieren
+               mir erlaubte; sogar ein griechischer Vers zierte die Karte σοὶ δὲ θεοὶ τόσα δοῖεν,
+               ὅσα φρεσὶ σῇσι μενούνας , und ..... die Karte kam zurück. In meiner Verzweiflung
+               fragte ich bei meinem Lbb in <placeName>Halle</placeName> an, ob er eine Liste der
+               Ferienadressen als Ferienchargierter besitze; Nein, auch der nicht, aber <persName
+                  ref="P02159">Voget</persName> wußte sie u schrieb sie auch. Wieder wollte ich nun
+               schreiben; aber kann<pb n="6"/> ein Sohn, der beinahe <unclear>Knödelwirt</unclear>
+               geworden wäre, Briefe schreiben, wenn seine Eltern in 8 Tagen ihre silberne Hochzeit
+               feiern? Muß er nicht sich auf sich selbst setzen und lange Gedichte verbrechen oder
+               es wenigstens versuchen? Also ich kam nicht dazu, u so gratuliere ich Dir jetzt, es
+               kommt spät, aber "letzter, bester".</p>
+            <p>Die Feiertage waren großartig, natürlich tat man nichts; 35 Personen waren wir bei
+               Tisch. Das Wetter begünstigte uns sehr. Einige Aufnahmen von da kann ich dir in
+                  <placeName>Halle</placeName> zeigen.</p>
+            <p>Vorigen Mittwoch feierten wir nochmal im Kreis der Inspektion<pb n="7"/> meines
+               Vaters. Von einigen Pastoren wurde ich auch schon angekeilt ich sollte für sie
+               predigen, übers Jahr werde ich dem kaum entgehen können. An den Konferenzen nehme ich
+               auch tätigen Anteil.</p>
+            <p>Das Studium von <persName ref="P02086">Windelbands</persName> Präludien macht mir
+               sehr viel Spaß, sehr dankbar würde ich Dir sein, wenn du mir etwas angeben könntest,
+               woraus ich etwas <persName ref="P00589">Fichte</persName> kennen lernen kann, für
+                  <persName ref="P01291">Medicus</persName> nämlich. Sehr dankbar <del rend="s"
+                  >f</del> würde ich dir auch sein, wenn du dich aus dei- ner Höhe herabließest, um
+               mit mir armen Stümper im nächsten Semester etwas<pb n="8"/> Philosophisches zu lesen.
+                  <persName ref="P01713">Schlatters</persName> "Glaube im NT" ist sehr schwer, ich
+               komme aber durch. Wenn ich mit Matthäus fertig bin, denke ich mit Johannes, ebenfalls
+               nach <persName ref="P01713">Schlatter</persName>, anzufangen.</p>
+            <p>Zum Lesen der deutschen Kulturgeschichte komme ich kaum, in der ersten Zeit etwas,
+               der Stoff liegt mir auch etwas fern; dagegen habe ich die 4 Hefte der
+                  <unclear>Kosmos</unclear>bibli- othek fast durchstudiert.</p>
+            <p>Gekneipt habe ich wenig, nur <unclear>¿¿¿</unclear> abends kegele ich mit den
+               Honoratioren der Stadt, aber deren Interessenkreis liegt meist anderswo.</p>
+            <p>Jetzt kommt noch ein Geständnis, daß nämlich das vorige Se<pb n="9"/>mester mich erst
+               etwas <unclear><sic>zereist</sic></unclear> hat, es hat mir mehr gebracht, als ich in
+                  <placeName>Tübingen</placeName> je gelernt hätte, jetzt weiß ich erst, wozu ich
+               auf der Welt u im Wingolf bin. Und das danke ich Dir, fast Dir allein, habe
+               herzlichen Dank. </p>
+            <closer>
+               <salute>Dir u Deinen Angehörigen sendet herzliche Grüße</salute>
+               <signed>Dein treuer <persName ref="P00788">G. v. Hanffstengel</persName></signed>
+            </closer>
+
+            <postscript>
+               <p/>
+            </postscript>
+
+         </div>
+
+      </body>
+   </text>
+</TEI>

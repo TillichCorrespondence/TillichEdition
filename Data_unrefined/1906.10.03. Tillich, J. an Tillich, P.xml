@@ -1,0 +1,254 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Johanna Tillich an Paul Tillich <lb/>vom 3. Okotber 1906</title>
+            <author ref="P00644">Johanna Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974.</collection>
+                  <idno>bMS 649/193</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+               <additional>
+                  <!-- Wenn Brief bereits publiziert hier die richtige Struktur aussuchen -->
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel der Monographie<!--></title>
+                           <edition><!-->Auflage<!--></edition>
+                           <imprint>
+                              <publisher><!-->Herausgeber<!--></publisher>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Reihe<!--></title>
+                           <biblScope><!-->Reihennummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                     <biblStruct type="journal" n="reprint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel des Aufsatzes<!--></title>
+                           <imprint>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Zeitschrift<!--></title>
+                           <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <biblStruct type="monograph">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien überliefert sind und im Original nicht mehr vorhanden!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel der Monographie<!--></title>
+                  <edition><!-->Auflage<!--></edition>
+                  <imprint>
+                     <publisher><!-->Herausgeber<!--></publisher>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Reihe<!--></title>
+                  <biblScope><!-->Reihennummer<!--></biblScope>
+               </series>
+            </biblStruct>
+            <biblStruct type="journal">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften überliefert sind und im Original nicht mehr vorhanden<!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel des Aufsatzes<!--></title>
+                  <imprint>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Zeitschrift<!--></title>
+                  <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P00644"/>
+               <placeName ref="where">Berlin</placeName>
+               <date when="1906-10-03">3. Oktober 1906</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P01930">Paul Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2023-03-13">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <dateline>
+                  <placeName ref="Berlin">Berlin</placeName>, den <date when="1906-10-03"
+                     >3.10.06.</date></dateline>
+               <salute>Lieber <persName ref="P01930">Paul</persName>,</salute>
+            </opener>
+            <p>endlich komme ich dazu Dir einmal länger zu schreiben. Es war in letzter Zeit so viel
+               vor, daß wir meist vor 12 Uhr nicht ins Bett kamen; Zuerst aber die Nachricht, daß
+                  <persName ref="P00800">Harders</persName> einen kleinen Buben haben; am <hi
+                  rend="aq">25. Oktober</hi>. Was sagst Du dazu? Schreib ihnen doch noch! Dein <bibl
+                  type="letter">heutiger Brief</bibl>
+               <!-- nicht erhalten -->handelte ja leider wieder von – Prinzipienstreit. Fängt das
+               nun wieder von neuem an? Dann hast Du<pb n="2"/> ja für die übrige Menschheit (d.h.
+               für den weiblichen und nichtwingolfitischen Teil) so gut wie verloren. Nun
+               hoffentlich ist das nun endlich die Krisis, die allem Streite ein Ende macht und <hi
+                  rend="sup">Dich</hi> uns wiedergibt! Das ist ja schön, daß Ihr soviel tüchtige
+                  "<hi rend="aq">lb. Brüder</hi>" habt, <placeName>Halle</placeName> ist doch gut
+               dran. Vom Berliner <abbr>W.<expan>Wingolf</expan></abbr> haben wir noch nichts
+               gehört. – <persName ref="P02089"><hi rend="aq">Frl. Toni</hi></persName> war jetzt 3
+               Tg. in <placeName><hi rend="aq">Landsberg</hi></placeName>, sie wird Dir wohl dann
+               erzählen! Montag war ich mit <persName ref="P01310"><hi rend="aq"
+                  >Lucie</hi></persName> (der Du auch einmal schreiben kannst!) im Opernhaus: <hi
+                  rend="aq">Carmen</hi>. Es war herrlich! Eine Leidenschaft u. ein Feuer liegt
+               darin! Nur,<pb n="3"/> von den ersten Kräften gesungen, da müßte man ja mitleben,
+               mitdenken, mitfühlen! Es ist doch etwas anderes als ein Schauspiel. Während man bei
+               letzterem immer den Gedanken hat, es sind ja nur Schauspieler, deren Worte man hört
+               und die schnell verklungen sind, durchlebt man in einer Oper jeden Ton mit. Ich weiß
+               nicht, ob Du verstehst, was ich meine, ich kann es Dir auch nicht so klar sagen. Die
+               Musik ist jedenfalls die schönste machtvollste Kunst!! Meinst Du nicht auch?</p>
+            <pb n="4"/>
+            <p>Dienstag war ein Theeabend und bibl. Besprechung. Dann habe ich noch <persName
+                  ref="P01926"><hi rend="aq">Papa</hi></persName> lange vorgelesen. Diesmal nichts
+               Wissenschaftliches; sondern von <persName ref="P02278"><hi rend="aq"
+                  >Zahn</hi></persName> einen Roman: die <hi rend="aq"><bibl type="book"
+                     resp="Ernst Zahn, Die Clarie-Marie, DVA, Stuttgart 1905."
+                  >Clarie-Marie</bibl></hi>. Von demselben Verfasser, dessen Buch: <hi rend="aq"
+                     ><bibl type="book" resp="Ernst Zahn, Albin Indergang, Huber, Frauenfeld 1901"
+                     >Albin Indergand</bibl></hi> uns <persName ref="P00800"><hi rend="aq">Erich
+                     H.</hi></persName> in <placeName><hi rend="aq">Misdroy</hi></placeName>
+               vorgelesen. Wenn Du letzteres (das schönste) einmal erhalten kannst, so lies es, Du
+                  <hi rend="u">mußt</hi> sie lesen, vielleicht in Euren Familienabenden! <hi
+                  rend="aq">Mittwoch</hi> war Bibelkränzchen bei <hi rend="aq">Crisollis</hi>,
+               ziemlich öde!!! <hi rend="aq">Donnerstag</hi> war Bibelstunde. Dann waren wir bei
+                  <persName ref="P01888"><persName ref="P01898"><hi rend="aq"
+                  >Sydows</hi></persName></persName>. Nun muß ich Dir eine erste Strafpredigt (im
+               Auftrag v. <persName ref="P01888">Frau von Sydow</persName>) halten. Erstens Mal, daß
+               Du nicht dort warst! Zweitens ist <persName ref="P01889"><hi rend="aq"
+                  >Eckard</hi></persName> schon böse u. traurig, daß Du nicht für seine Karte mit d.
+               Photographien gedankt hast. Er glaubt nicht mehr der Freundschaft. So hat er an seine
+               Mutter damals geschrieben! Und <persName ref="P01888">Frau v. Sydow</persName> möchte
+                  <hi rend="u">so gerne</hi> daß Du ihm etwas Freundschaft entgegenbringst. Also
+               lieber Paul, schreib ihm mal einen längeren Brief </p>
+            <closer>
+               <salute>Nun leb' wohl mein l. Junge! </salute>
+               <signed>Herzl. Sonntagsgruß v. Deiner <persName ref="P00644">J</persName>.</signed>
+            </closer>
+
+            <postscript>
+               <p>Ich schreibe jetzt die Programms, Adressen usw. für die Vorträge! Der erste
+                  (Lassen) ist am 20 d.M.</p>
+
+            </postscript>
+
+         </div>
+         <div>
+            <p>Lieber Paul, der Briefbogen ist voll u. darum heut nur noch herzl. Grüße ich muß für
+                  <persName ref="P01926">Papa</persName> schreiben. D. tr. <persName ref="P02089"
+                  >Tante Toni.</persName>
+            </p>
+         </div>
+         <div>
+            <opener><salute>M. l. <persName ref="P01930">Sohn;</persName></salute></opener>
+            <p>Es waren diese Woche wieder viel Sitzungen; außerdem nehmen die Vorbereitungen zu d.
+               Vorträgen Zeit fort. Sonst geht's gut. – Was Tante Betty betrifft so sage ihr daß an
+               weiblichen Tillichs nur <hi rend="u">ledige</hi> oder <hi rend="u">Witwen</hi> zur
+               Stiftung aufgefordert wurden, da sonst d. Mitgliedschaft ins unendliche sich
+               erweitert. So sei es auch mit Tante <unclear>Glocke</unclear> u. <unclear>¿¿¿
+                  ¿¿¿</unclear> Jedoch könnte man vielleicht Rat schaffen, indem d. verhinderten
+               Tillichs <unclear>¿¿¿ ¿¿¿</unclear> wir für ihre Person nicht aber für <unclear>¿¿¿
+                  ¿¿¿</unclear> Sage das Tante B. u. frage, was sie darüber meint!</p>
+            <closer><signed>Gruß u. Kuß D. tr. <persName ref="P01926"
+               >V.</persName></signed></closer>
+
+         </div>
+
+      </body>
+   </text>
+</TEI>

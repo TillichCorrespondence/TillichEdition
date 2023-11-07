@@ -1,0 +1,247 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Johanna Tillich und Toni Winkler an Paul Tillich <lb/>vom Juli 1906 </title>
+            <author ref="P00644">Johanna Tillich</author>
+            <author ref="P02089">Toni Winkler</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974.</collection>
+                  <idno>bMS 649/205(15)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+               <additional>
+                  <!-- Wenn Brief bereits publiziert hier die richtige Struktur aussuchen -->
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel der Monographie<!--></title>
+                           <edition><!-->Auflage<!--></edition>
+                           <imprint>
+                              <publisher><!-->Herausgeber<!--></publisher>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Reihe<!--></title>
+                           <biblScope><!-->Reihennummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                     <biblStruct type="journal" n="reprint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel des Aufsatzes<!--></title>
+                           <imprint>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Zeitschrift<!--></title>
+                           <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <biblStruct type="monograph">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien überliefert sind und im Original nicht mehr vorhanden!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel der Monographie<!--></title>
+                  <edition><!-->Auflage<!--></edition>
+                  <imprint>
+                     <publisher><!-->Herausgeber<!--></publisher>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Reihe<!--></title>
+                  <biblScope><!-->Reihennummer<!--></biblScope>
+               </series>
+            </biblStruct>
+            <biblStruct type="journal">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften überliefert sind und im Original nicht mehr vorhanden<!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel des Aufsatzes<!--></title>
+                  <imprint>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Zeitschrift<!--></title>
+                  <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P00644">Johanna Tillich</persName>
+               <persName ref="P02089">Toni Winkler</persName>
+               <placeName ref="where">Misdroy</placeName>
+               <date when="1906-07">Juli 1906</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P01930">Paul Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2023-02-24">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <dateline>
+                  <placeName ref="Misdroy">Misdroy</placeName>, i. <date when="1906-07">Juli
+                     1906</date></dateline>
+               <salute>lieber <persName ref="P01930">Paul</persName>,</salute>
+            </opener>
+            <p>Du wirst gewiß erstaunt sein, daß wir garnicht schreiben. Entschuldige nur, Du mußt
+               immer denken, wir sind in <placeName><hi rend="aq">Misdroy</hi></placeName>. Es ist
+               sehr schön hier. Vor einigen Tagen hatten wir sehr stark bewegte See, wie waren auf
+               der neuen sehr langen Seebrücke und konnten nun schön den Sturm auf der See
+                  beobachten.<pb n="2"/> Es kam grad ein Dampfer aus <placeName><hi rend="aq"
+                     >Heringsdorf</hi></placeName>, besetzt mit vielen seekranken Leuten – doch Du
+               mußt alles selbst sehen! Sonst ist <placeName><hi rend="aq">Misdroy</hi></placeName>
+               eigentlich unverändert, nur sind viel mehr Concerte; ein Strandhotel, in d.
+               Kaiserhallen, ein Kurhaus. Wir hören natürlich die Kurkapelle, die gut ist. <persName
+                  ref="P01930"><hi rend="aq">Papa</hi></persName> hat d. Dirigenten seine
+               "Mondnacht" gegeben, vielleicht spielt er sie.<pb n="3"/>
+               <persName ref="P00800"><hi rend="aq">Herr Harder</hi></persName> reiste Dienstag mit
+               s. Frau nach <placeName><hi rend="aq">Sassnitz</hi></placeName>. Es war eine schöne
+               Zeit mit ihm zusammen. Er las uns ein sehr schönes Buch vor: <bibl type="book"
+                  resp="Albin Indergand. Huber, Frauenfeld 1901"><hi rend="aq">Albin
+                  Indergand</hi></bibl> von <persName ref="P02278"><hi rend="aq"
+                  >Zahn</hi></persName>, das mußt Du auch kennen lernen. Am Jordansee waren wir auch
+               schon – unverändert schön.</p>
+            <p>In der nächsten Woche wollen wir uns mit <persName ref="P00800"><hi rend="aq"
+                     >Harders</hi></persName> in <placeName><hi rend="aq"
+                  >Heringsdorf</hi></placeName> treffen. Wir liegen, u. lesen viel im Walde,
+               vormittags natürlich am Strand am alten Platz,<pb n="4"/> wo wir zwei Strandkörbe
+               haben. Heute ist <persName ref="P01926">Papa</persName> zum Iten Mal geradelt. Allzu
+               gut geht es ihm noch nicht. Gestern haben wir gebadet, das war herrlich! <persName
+                  ref="P01764"><hi rend="aq">Elisabeth</hi></persName> pflückt Blaubeeren, die es
+               wieder in Massen gibt.– Sonntag waren wir in der Kirche; die Predigt war schön.–</p>
+            <p>Rate, wer noch hier ist!! Mosenthins! Merkwürdiges Zusammentreffen: <persName
+                  ref="P00800"><hi rend="aq">H. Harder</hi></persName>, wir u. sie.–</p>
+            <p>Denke Dir, heute schrieb mir<pb n="5"/>
+               <persName ref="P02224"><hi rend="aq">Else Flittner</hi></persName>, daß sie im Mai
+                  <hi rend="aq">Steineck</hi> verkauft haben, da es Herrn F. zuviel Arbeit wurde und
+               nach <placeName><hi rend="aq">Berlin</hi></placeName>: Spichernstr. 15. gezogen sind!
+               Das schöne <hi rend="aq">Steineck</hi>! Doch freue ich mich.</p>
+            <p>Heute haben wir die Einladung zu <hi rend="aq">Lucies</hi> Hochzeit erhalten, Du
+               auch? <hi rend="aq">Schmidts</hi> fühlen sich sehr wohl, besonders, da es keine
+               Mücken gibt!– Hoffentlich geht es Dir gut; wann schreibst Du <hi rend="uu">mir</hi>
+                  einmal??<pb n="6"/> Hoffentlch recht bald! </p>
+            <closer>
+               <salute>Nun leb' wohl. Herzliche Meeresgrüße vom schönen Ostseestrande!</salute>
+               <signed>Deine Schwester <persName ref="P00644"><hi rend="aq"
+                  >Johanna</hi></persName>.</signed>
+            </closer>
+
+            <postscript>
+               <p>x. <persName ref="P01926"><hi rend="aq">Papa</hi></persName> hat einen Aufruf
+                  unterschrieben zur Begründung eines Tübinger Philisterverbandes.</p>
+            </postscript>
+
+         </div>
+         <div>
+            <opener><salute>Lieber <persName ref="P01930"><hi rend="aq"
+                  >Paul</hi></persName></salute></opener>
+            <p>heut ist ein Regentag, den kann man so recht benutzen, um Briefe zu schreiben. Es ist
+               zwar trotz des Regens noch so schön, daß wir auch am Strand sein konnten. Es ist
+               einfach herrlich hier, u. freuen wir uns Alle schon sehr auf Dein Kommen. Schreib nur
+               recht bald und recht ausführlich, hoffentlich gehts Dir recht gut. Hat <persName
+                  ref="P00641">Herr Fritz</persName>
+               <!-- Ich nehme an, dass Alfred Fritz gemeint ist. Bin mir aber unsicher. Auch darüber, wer besagter Weber ist. -->an
+               Weber meinen Gruß bestellt, u. erinnert er sich noch meiner?– Den kleinen Hauskoffer,
+               den du, wenn du durch <placeName>Berlin</placeName> kommst mitbringen willst, steht
+               in <hi rend="u">Deiner</hi> Stube auf dem Tisch. Ich habe Frau Eisfeld noch darüber
+               Bescheid gesagt. Es liegen<pb n="7"/> auf dem Koffer 1 Nachthemd u. Unterhosen von
+               Dir, falls Du hier noch etwas gebrauchst. Die schmutzige Wäsche läßt Du dann wohl
+               gleich bei uns in unsrer Wohnung. Strümpfe findest Du hier vor. - Nun grüße ich Dich
+               herzlich u. wünsche daß Du nicht zu viel arbeitest u. Dich recht erholst. <persName ref="P01926">Papa</persName> geht
+               es leidlich der Schlaf ist immer noch nicht besonders, doch bekommt ihm die See gut,
+               u. das ist die Hauptsache. Es ist sehr gemütlich bei uns im <unclear>Thal</unclear>häuschen finde ich!!
+            </p>
+            <closer><salute>Nun Gott befohlen D. tr. <persName ref="P02089">Tante Toni</persName></salute></closer>
+         </div>
+      </body>
+   </text>
+</TEI>

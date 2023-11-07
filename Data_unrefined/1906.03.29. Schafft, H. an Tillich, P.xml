@@ -1,0 +1,271 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Hermann Schafft an Paul Tillich <lb/>vom 29. März 1906 </title>
+            <author ref="P01697">Hermann Schafft</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement ref="Marburg">Marburg</settlement>
+                  <institution>Philipps-Universität Marburg</institution>
+                  <repository>Deutsches Paul-Tillich-Archiv</repository>
+                  <idno>008 G</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+               <additional>
+                  <!-- Wenn Brief bereits publiziert hier die richtige Struktur aussuchen -->
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel der Monographie<!--></title>
+                           <edition><!-->Auflage<!--></edition>
+                           <imprint>
+                              <publisher><!-->Herausgeber<!--></publisher>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Reihe<!--></title>
+                           <biblScope><!-->Reihennummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                     <biblStruct type="journal" n="reprint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel des Aufsatzes<!--></title>
+                           <imprint>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Zeitschrift<!--></title>
+                           <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <biblStruct type="monograph">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien überliefert sind und im Original nicht mehr vorhanden!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel der Monographie<!--></title>
+                  <edition><!-->Auflage<!--></edition>
+                  <imprint>
+                     <publisher><!-->Herausgeber<!--></publisher>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Reihe<!--></title>
+                  <biblScope><!-->Reihennummer<!--></biblScope>
+               </series>
+            </biblStruct>
+            <biblStruct type="journal">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften überliefert sind und im Original nicht mehr vorhanden<!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel des Aufsatzes<!--></title>
+                  <imprint>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Zeitschrift<!--></title>
+                  <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P01697">Hermann Schafft</persName>
+               <date when="1906-03-29">29. März 1906</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P01930">Paul Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2023-02-20">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <dateline><date when="1906-03-29">29. März 1906</date></dateline>
+               <salute>Mein lieber <persName ref="P01930">Paul</persName>!!</salute>
+            </opener>
+            <p>Ehe sich meine Briefschuld vergrößert oder die baldige Aussicht auf ein Wiedersehen
+               nicht mehr solches Faulenzen (Briefschreiben) zuläßt - da natürlich, als ob es Berg
+               ab ginge in den Ferien die Steine (alias Probleme,) die man wälzen wollte, <del
+                  rend="s">sich</del> alle dem Ende zugerollt sind und hier eine hohe Mauer <hi
+                  rend="sup">bildet</hi> den armen Menschen mit guten Vorsätzen schrecken u.
+               erdrücken - also ehe ... das geschieht, einen herzlichen Gruß zuvor! χαρις και
+               αληθεiα! Du mußt ja nach Anleitung von <persName ref="P01528">Portig</persName>
+               beinahe dabei sein. <hi rend="uu">Finde</hi> nur nicht die Wahrheit, denn was sollten
+               wir sonst mit unsrer Zeit anfangen, die mit dem Suchen sich so schön<pb n="2"/>
+               füllt! - Doch ich will nicht anfangen Dummheiten zu reden. Nach einem derartig
+               stilistisch, orthographisch u. sonst glänzendem Opus Deinerseits - ist mir mein
+               Gedankenschwund noch deutlicher als sonst geworden und ich muß mich sehr bemühen alle
+               meine Gedanken zusammenzunehmen, um auch nur ein halbes Feigenblatt für die Blöße
+               meiner Geistlosigkeit herzustellen. Alle meine Gedanken? Kannst du's zählen? Nur bis
+               2! 1) <hi rend="u">Essen</hi> pp. 2) <hi rend="u">Examen</hi>. D. h. letzteres ist
+               kein eigentlicher - geht nur <hi rend="aq">sub voce</hi>! - ist eigentlich nur eine
+               von den "Dunkeln Vorstellungen" ... Denen die <hi rend="aq">perspicuitas</hi> mangelt
+               ... ein Grenzbegriff, wo alles Denken in unendliche Reihe von Seufzern sich auflöst
+               und eine akute Gehirnlähmung sofort den ganzen Menschen erschüttert....<pb n="3"/>
+               Wie preise ich Dich glücklich, daß du schon im IV Semester die <hi rend="aq">mera
+                  experientia</hi> hast - u. dazu noch <persName ref="P01528">Portig</persName>!!
+               Denn letzteres ist das wichtigste. Die erste hätte ich auch schon begrifflich im II
+               Semester; da<del rend="s">s</del> ich aber damals gerade realistischer Thomist, war
+               so begnügte ich mich, <del rend="s">sowohl</del> mit der Realität meiner Einsicht,
+                  <del rend="s">als</del> eben weil ich dazu dem Verstand über den Willen den Primat
+               gewährte u. hoffte - es würde von selbst schon losgehen....</p>
+            <p>Dies sind also meine beiden eigentlich 1 <formula notation="TeX"
+                  >\frac{1}{2}</formula> Gedanken! Damit kann ich aber unmöglich beginnen, sondern
+               ich verkrieche mich hinter den Denkfalten deines Briefes u. sehe dich gar gelehrt
+               daraus an... staune tatsächlich über deinen Fleiß. Das Kollegheft von <persName
+                  ref="P01227">Smul</persName> muß ja mit all den Beigaben unendlich anschwillen!-
+               Bitte tröste<pb n="4"/> mich u. schreibe, daß es nicht so viel §§ sind, die Du schon
+               behandelt. Dein Psalmodieren oder Weissagen zusammen mit <persName ref="P02140"
+                  >Kaumann</persName> (<persName ref="P01930">Tillich</persName> u. <persName
+                  ref="P02140"><hi rend="uu">Kau</hi></persName>) muß ja nett sein. Laßt es doch
+               drucken u. setzt dann den obigen Firmennamen drunter. Mensch a propos <persName
+                  ref="P02140">Kaumann</persName> sollte mal <persName ref="P01227">Smul</persName>
+               in die Hände kommen! Der fluchte neulich als ich es ihm anonym!!erzählte.... "Daß ich
+               immer dasselbe sage verdrießt mich nicht" pp.!... Aber das lange Aufsitzen! Ich bin
+               ja leider keine offizielle Respe<del rend="s">c</del>ktsperson für Dich, aber mein
+               lieber Junge... <hi rend="uu">gut</hi> ist das <hi rend="uu">nicht</hi>! Schlaf
+               lieber. Ich tues in einem fort. Glaube beinah, ich bin zuckerkrank, dabei tut man's
+               nämlich auch.</p>
+            <p>Im übrigen aber freue ich mich herzlich, daß allem Anschein nach alles gut bei Dir in
+               Ordnung ist. Das ist schon sehr viel. Ich bin seit vorgestern in Unordnung. Meine
+               ganze Versöhnungslehre hat sich<pb n="5"/> verwickelt. Ich wollte eine Predigt machen
+               über <bibl type="bibl" resp="Heb 9,11-15">Hebraeer: 9 11–15</bibl> u.
+                  <unclear>¿¿¿</unclear> ... Donnerstag-Freitag und es wurde absolut <hi rend="u"
+                  >nichts</hi>. Was soll das später werden. Ich bin ziemlich geknickt - es ist ja
+               immer gut in allen Stücken gedemütigt sein, aber ich bin es schon ziemlich. Na - ich
+               warte in Ruhe ab u. denke es wird noch wieder zu korrigieren sein! - Vielleicht hängt
+               es innerlich doch zusammen mit der Lektüre von <persName ref="P00890"
+                  >Herrmanns</persName>
+               <bibl type="book"
+                  resp="Der Verkehr des Christen mit Gott. Im Anschluss an Luther dargestellt. Stuttgart 1892"
+                  >Verkehr</bibl>, der mich, sowohl durch Windmühlenfechterei als aber auch durch
+               geschickte Art u. ernste geistige Christlichkeit geradezu verblüffte.. Es ist eine
+               wieder zu früh herausgelassene Taube... ich flattere über den theologischen
+               Richtungen und krieche mich dann doch lieber in meine Arche - zurück!... Aber was ist
+               das, wenn auch Erfahrung dabei ist u. auch schadhafte (kindliche)<pb n="6"/> Stellen
+               ausgebessert sind - ein fester Fußboden ist es noch nicht und ehe man den hat, ist es
+               eben sehr schwer. <hi rend="u">Es</hi> denkt u. <hi rend="u">es</hi> wächst zu sehr -
+               aber wenn man noch nicht sagen kann <hi rend="u">ich</hi> denke oder bin gedacht - je
+               nachdem - da ists noch nichts. Eine Einheit im Denken Tun Wollen muß zu Stande kommen
+               u. Denken u. Glauben natürlich auch. - Doch stopp.. Nun kannst Du Dir vielleicht
+               denken, daß in Situationen in denen man Ruhe u. Freiheit braucht - um noch zu lesen
+               u. zu denken - der Gedanke an das bestimmte Ziel und der sich eindrängende ohne
+               Wahrheitsfrage doch teilweise zu traktierende Stoff einem das Leben sauer macht.</p>
+            <p>Im übrigen aber bin ich natürlich<pb n="7"/> fröhlich, sowie was uns
+                  <unclear>zum</unclear> Semester hin u. her <unclear>gewünscht</unclear> haben. Und
+               ich hoffe auch noch einiges bis zum Ferienschluß schaffen zu können. Bisher war's
+               noch nicht viel. Raum u. Zeit stören... Auch lockt Sonne und Wald - <hi rend="aq"
+                  >horribile dictu</hi> Schlittenfahren noch in voriger Woche!- – Erlaß aus
+                  <unclear>Eigenbericht</unclear> über allerhand ergötzliche Scenen daheim. Daß ich
+               hier bin ist mir Ruhe u. Erholung. Ich denke wir beide kommen etwas weniger zappelig
+               ins Semester. Ich muß mich <unclear>strecken</unclear> und fest dran halten, es ist
+               Zeit.. der Bund - ein Wort noch ... Ich bin unter die ειρηνοποιοι gegangen. Bei der
+               späteren Kirchenschlacht, da will ich wacker mitkämpfen aber nur lieber jetzt dazu
+               die Zähne schärfen,<pb n="8"/> als Mäuse im Wingolf zu gebären. Dieses "lächerliche
+               Mäuslein" wird ja vielleicht ganz leicht nun kommen, nach dem wir genug gewerkelt
+               haben, aber .... .... erst jetzt habe ich gesehen, <hi rend="u">wie</hi> das ganze
+               "Hermann" - <unclear>fauler</unclear> Junge steht. Und wenn Professoren noch so
+               ...... sind, ... dann ist jeder Kampf aus. Ich werde jetzt aufs Übertölpeln gehn,
+               d.h. einfache Pädagogik: obs kapiert wird oder nicht... <hi rend="aq">nota bene</hi>
+               - Wenn ich nötig bin. Sonst ist Wille da - der hat schon die Zügel ganz ordentlich -
+               Der kl. <persName ref="P01050">Kilger</persName> schrieb eine Karte. Wieviel hast du
+               korrespondiert? Ich könnte noch Bände schreiben - aber was nützt's? Ich freue mich
+               der Gemeinschaft mit Dir u. grüße Dich von Herzen </p>
+            <closer>
+               <signed>D. H.</signed>
+            </closer>
+
+            <postscript>
+               <p>Grüßest Du die lb. Deinen. bes. Deinen l. <persName ref="P01926"
+                  >Vater</persName>!! Deiner <persName ref="P00644">sister</persName> kannst sagen:
+                  es sei lediglich Selbstironie auf dem Typ ... ich sei durchaus harmlos pp.
+                  Natürlich freue ich mich </p>
+            </postscript>
+
+         </div>
+      </body>
+   </text>
+</TEI>

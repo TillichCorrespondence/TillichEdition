@@ -1,0 +1,219 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Toni Winkler an Paul Tillich <lb/>vom 1. Juni 1905 </title>
+            <author ref="P02089">Toni Winkler</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974.</collection>
+                  <idno>bMS 649/205(15)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+               <additional>
+                  <!-- Wenn Brief bereits publiziert hier die richtige Struktur aussuchen -->
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel der Monographie<!--></title>
+                           <edition><!-->Auflage<!--></edition>
+                           <imprint>
+                              <publisher><!-->Herausgeber<!--></publisher>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Reihe<!--></title>
+                           <biblScope><!-->Reihennummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                     <biblStruct type="journal" n="reprint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel des Aufsatzes<!--></title>
+                           <imprint>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Zeitschrift<!--></title>
+                           <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <biblStruct type="monograph">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien überliefert sind und im Original nicht mehr vorhanden!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel der Monographie<!--></title>
+                  <edition><!-->Auflage<!--></edition>
+                  <imprint>
+                     <publisher><!-->Herausgeber<!--></publisher>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Reihe<!--></title>
+                  <biblScope><!-->Reihennummer<!--></biblScope>
+               </series>
+            </biblStruct>
+            <biblStruct type="journal">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften überliefert sind und im Original nicht mehr vorhanden<!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel des Aufsatzes<!--></title>
+                  <imprint>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Zeitschrift<!--></title>
+                  <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P02089">Toni Winkler</persName>
+               <placeName ref="Berlin">Berlin</placeName>
+               <date when="1905-06-01">1. Juni 1905</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P01930">Paul Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2023-01-13">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <dateline><placeName ref="Berlin">Berlin</placeName> d. <date when="1905-06-01">I.
+                     VI. 05.</date></dateline>
+               <salute>Mein lieber <persName ref="P01930">Paul</persName>.</salute>
+            </opener>
+            <p>Am Sonnabend sollst Du doch von uns Allen, auch von Tante Toni einen Extra Gruß
+               haben, denn dann werden wir beiden Geburtstagskinder noch besonders oft Deiner
+               gedenken u. Dich herwünschen. Hoffentlich gehts dir in dem schönen heißen Wetter alle
+               Tage besser mit dem Ohr, so daß Du doch noch zur Wartburg kannst. Und dann erst die
+               Vorfreude auf den 3 ten Juli!! <persName ref="P01764">Elisabeth</persName> und ich
+               bleiben dann noch bis zum 10. Juli in <placeName>Berlin</placeName>, da Lisbeth
+               silberne Hochzeit am 9. Juli feiert, dann fahren wir beide nach
+                  <placeName>Bielefeld</placeName> mit den Geschwistern. Du wirst dich mit<pb n="2"
+               /> uns freuen, wenn Du hörst, daß unsre Kleine noch kein einzig Mal Halsentzündung
+               gehabt seit du fort bist, hoffentlich erkältet sie sich auch heut nicht, sie ist mit
+               Annas Schwester Rike nach <placeName>Hohen Neuendorf</placeName> bei den Großeltern.
+               Letztere haben sich über Deinen Geburtstagsglückwunsch sehr gefreut, aber Du mußt
+               nicht wieder schreiben, daß nur "<hi rend="u">alte Tanten</hi>" zum Geb. kämen, u. du
+               deshalb nicht allzu traurig wärst, ihn nicht mitfeiern können zu helfen. "Alte
+               Tanten" sind meist mehr empfindlich als junge u. es klingt doch auch etwas kränkend,
+               was es doch gewiß nicht sein sollte. Es erinnerte mich lebhaft an die Aufforderung<pb
+                  n="3"/> des Wingolfiten an seinem Tanzkränzchen: "Die <hi rend="uu">alten</hi>
+               Damen sitzen unter dem Weihnachtsbaum!!! –– So etwas darf man nur denken, u. die
+               Sprache ist in solchen Dingen dazu da, die Gedanken zu verbergen. –– Ich freue mich
+               schon sehr auf <persName ref="P01926">Papas</persName> Geburtstag, weniger auf meinen
+               eigenen, übrigens muß ich Dir noch berichten, daß neulich Brandts hier durch
+                  <placeName>Berlin</placeName> gereist sind, <persName ref="P01926">Papa</persName>
+               u. ich waren <formula notation="TeX">\frac{1}{2}</formula> Std. auf der Bahn, u. hat
+               ersteren Onkel mal ganz offen wegen Marie <unclear>Blahr</unclear> Bescheid gesagt.
+               Hoffentlich hat er nun auch endlich eine richtige Auffassung der Dinge, bes. da
+                  <persName ref="P01926">Papa</persName> ihm noch zum Schluß gesagt hat, daß er
+               überhaupt nicht heiraten wollte,<pb n="4"/>
+               <hi rend="u">am aller allerwenigsten aber mich</hi>!! Nun wollen wir mal sehen, ob
+               die Menschen mich in Ruhe lassen. Daß Papa einen Phonographen zum Geb. bekommen wird
+               Dir gewiß <persName ref="P00644">Johanna</persName> berichten, die jetzt zur selben
+               Zeit drüben in <persName ref="P01926">Papa</persName> Auftrag an <bibl type="letter"
+                  >Dich schreibt</bibl>
+               <!-- Siehe 1905.05.01. Tillich, J. an Tillich, P. -->. Und nun leb wohl für heut. Im
+               nächsten Paket schicke ich Dir viel Schokolade mit. Wenn ich von irgend woher etwas
+               Kuchen oder Sonstiges bekomme, was Dir Freude macht, so bekommst du davon ab. Es
+               grüßt Dich herzlich </p>
+            <closer>
+               <signed>Deine Tante <persName ref="P02089">Tante Toni</persName></signed>
+            </closer>
+
+            <postscript>
+               <p><!-->wenn vorhanden<!--></p>
+            </postscript>
+
+         </div>
+      </body>
+   </text>
+</TEI>

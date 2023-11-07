@@ -1,0 +1,192 @@
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von <persName ref="P01930">Paul Tillich</persName> an <persName
+                  ref="P00641">Alfred Fritz</persName>
+               <lb/>von 1907 </title>
+            <author><persName ref="P01930">Paul Tillich</persName></author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Andreas Burri</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement ref="Marburg">Marburg</settlement>
+                  <institution>Philipps-Universität Marburg</institution>
+                  <repository>Deutsches Paul-Tillich-Archiv</repository>
+                  <collection>Briefe an die Familie <!-- unsicher -->
+                  </collection>
+                  <idno>008 [C]
+                     <!-- oder [A]?: unsicher, s. Ordner Marburg 1907 P1010199.JPG bis P1010201.JPG -->
+                  </idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Brief, eigenhändig</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P01930">Paul Tillich</persName>
+               <placeName ref="ohne Ort">ohne Ort</placeName>
+               <date when="1907">„Am fünften Weihnachtstag“
+                  <!--Von fremder Hand hinzugefügt: 1907?--></date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P00641">Alfred Fritz </persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="AB" when="2023-01-24">Intitale Auszeichnung des Transkripts</change>
+         <change who="AB" when="2023-01-16">Überprüfung und Ergänzung der Auszeichnungen</change>
+         <change who="GM" when="2023-04-25">Korrektur der ID von Schmuhl</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <salute>Mein lieber <persName ref="P00641">Alfred</persName>!</salute>
+            </opener>
+            <p>„Verzicht auf Recht um der Sittlichkeit willen“, so könnte man nach <persName
+               ref="P01227">Schmuhls</persName> Ethik mein Beginnen, Dir jetzt außer der Reihe
+               zuschreiben, bezeichnen; aber mit der Sittlichkeit ist das solche Sache; denn als ich
+               so manchen anderen in diesen Tagen schrieb und so in „raumlose Bezogenheit“ zu ihnen
+               trat, da hats „<unclear cert="high" reason="illegible" resp="AB">mi</unclear> halt
+                  <unclear cert="high" reason="illegible" resp="AB">verrisse</unclear>“, dasselbe
+               mit Dir zu tun, nachdem es seit so langer Zeit nicht geschehen war; auch der
+               Rundbrief konnte daran nichts ändern; denn er befand sich u. a. 3 Wochen bei
+                  <persName ref="P02194">Spatz</persName>, von den Bummeleien der übrigen gar nicht
+               zu reden. In diesem Jahre werde ich ihn also kaum mehr zu sehen bekommen:
+               Schade:<!--sic (2x Doppelpunkt--> denn gerade in der schnellen Studentenzeit muß es
+               schneller gehen, wenn nicht alles veralten will. Zwar habe ich <persName ref="P02194"
+                  >Spatz</persName> den Kopf diesbezüglich gewaschen, aber wie lange das verhält,
+               weiß man nicht; im übrigen war <persName ref="P02194"><unclear cert="high"
+                     reason="damage" resp="AB">Sp</unclear>atz</persName> einer der Durchreisenden
+               und – wie <persName ref="P00310">Fr. Büchsel</persName> unser Haus nann<del rend="s"
+                  >n</del>te – im „Hôtel zum Durchreisenden l.Br. “ einkehrenden <placeName
+                  ref="Halle">Hallenser</placeName>. Wir redeten sehr ernst und „tiefinnerlich“
+               längere Zeit über Personen und Sachen und ich war erfreut, wie sehr er zugenommen hat
+               „an Alter, Weisheit…“ <!--Anspielung auf Lk 2,52.--> – was an <placeName ref="Halle"
+                  >Halle</placeName> der Punkte folgen würde, erfuhr ich von <persName ref="P00128"
+                  >Hans Balke</persName>, der es durchaus für möglich hält, daß er im <pb n="2"/>
+               nächsten Semester x wird. So wäre ja Hermanns<!--unbekannt; Bertheau P02246?-->
+               Lieblingswunsch erfüllt; ich würde mich auch riesig freuen. – Am selben Tage war
+                  <persName ref="P00310">Fr. Büchsel</persName> da, der in <placeName ref="Soest"
+                  >Soest</placeName> „einen gut kehrenden neuen Besen“ zu Weihnachten bekam
+               (Konventsgeheimnis) und auch diesbezüglich erzählte; er hat es nicht leicht trotz der
+               5 ll. Bb., die er dort mitzuregieren hat; aber die Arbeit macht ihm viel Freude und
+               es muß auch etwas schönes sein! – In selbiger Woche hatte mich <persName ref="P00128"
+                  >Hans Balke</persName> sofort nach der Weihnachtskneipe besucht; war <unclear
+                  cert="high" reason="damage" resp="AB">der</unclear> Gedanke schon rührend, so war
+               die Ausführung grandios. Am ersten Abend Examenskneipe von Stops, der mit 2-3
+               bestanden hatte, im Kaiserkeller mit <persName ref="P02267">Ernst
+               Gründler</persName>, <persName ref="P02268">Th. Jäger</persName>, <persName
+                  ref="P02095">H. Witte</persName>.<!--sic (kein Komma)-->
+               <persName ref="P02269">Starke</persName><!--kein Komma, wohl wegen Zeilenumruch-->
+               <persName ref="P02270">Grüber</persName> und <persName ref="P02271">Hans</persName>;
+               Du wirst mich Schlemmer schimpfen und nicht mit Unrecht. Am nächsten Tage kam
+                  <persName ref="P02158">Stosch</persName> mit seinem Lbfx durch und aßen bei uns
+               Mittag; so lernte ich den jüngsten des großen Hamburger Zwar-Aber-Geschlechts kennen
+               in seinen Ähnlichkeiten und Verschiedenheiten ihn vergleichend; jedenfalls gefiel er
+               mir <unclear cert="high" reason="damage" resp="AB">se</unclear>hr gut. Die Hauptsache
+               aber war der x selbst, der die älteren Ausführungen von
+               Amos<!--unbekannt; Hensmann P00877?--> ergänzte; <placeName ref="Halle"
+                  >Halle</placeName> steht auf unerreichter Höhe. Der Geist strömt und <persName ref="P00845">Heim</persName> gibt
+               neuen und zerstört alle naturhafte Orthodoxie. Nur fehlen etwas die älteren Semester
+               die mehr gebend sein könnten, wie wir es in der Jugend hatten. <pb n="3"/> Daher
+               finden wohl schwierigere Naturen, wie <persName ref="P02142">Heller</persName>,
+                  <unclear cert="high" reason="illegible" resp="AB">F.</unclear>
+               Kilger<!--unbekannt; Albert P01050?--> u. s. w. nicht ganz, was sie wollen; ich
+               sollte <add place="superlinear">vor</add> Weihnachten hinkommen und habe es mir durch
+               große Kämpfe verwinden können; das Hindernis war die hiesige Verbindung; sie ist
+               relativ auf der Höhe, so daß sie fähig ist, sich mit <hi rend="u">dem</hi>
+               <placeName ref="Berlin">Berliner</placeName> Problem abzugeben, den Weiberkneipen;
+               nachdem ein scheußlicher Fall (Krankheit durch Küssen) die Gefährlichkeit wieder
+                  <unclear cert="high" reason="damage" resp="AB">gr</unclear>ell gezeigt hat
+                  (<unclear cert="high" reason="illegible" resp="AB">s. Ts.</unclear>
+               <persName ref="P02272">Kraut</persName>), ist eine energische Reaktion im Werke. Ich
+               denke, wir werden weitreichende Gegenmaßregeln durchbringen. Mit dem persönlichen
+               Verkehr ist natürlich nicht viel los; das ist eben einfach unmöglich gemacht durch
+               die Entfernungen. – Mein Arbeiten ist durch die vielen Betriebe etwas ins Stocken
+               geraten, zumal ein gewisser Abschnitt erledigt war: Kg. I und Einleitung ins N-T;
+               minimal, aber doch ein Anfang. Jetzt will ich ans Übersetzen des A. u. N-T. gehen;
+               das „Wie“ ist mir beim N-T noch <unclear cert="high" reason="damage" resp="AB"
+                  >sehr</unclear> dunkel; ganz ohne Kommentare geht es doch nicht. Hast Du welche
+               benutzt und zu welchen Büchern? – Etwas dazwischen kommt eine Katechese über die
+               Dämonenheilung <bibl type="bible" resp="Lk 4">Luk 4</bibl>; ich bin selten so ratlos
+               gewesen. Wie bringt man Kindern ein Begriff vom Dämonischen bei? Und wenn, wie
+               verwertet man derartige Geschichten? Am 22 Jan. bin ich dran. Dann aber gehts auf gen
+                  <placeName ref="Jerusalem">Jeru<pb n="4"/>salem</placeName> zum Kaiserkommers. –
+               Weißt Du etwas Gewisses über Hermann<!--unbekannt; Bertheau P02246?-->? man munkelt
+               viel von Lic u. s. w.?. – Wir hatten ein schönes stilles Weihnachtsfest mit unsern
+               Großeltern und Du wirst auch ein stilles Fest gehabt haben; aber ich weiß, wie das
+               erste Weihnachten ist, wo jemand fehlt, der sonst der Spender so mancher Freude war.
+               – Heute früh erhielt mein <persName ref="P01926">Vater</persName> die Nachricht von
+               dem Tode seines Lbfx, des Vaters unserer <persName ref="P02159">Vogets</persName>.
+               Die armen Jungen! Ich war t<unclear cert="high" reason="damage" resp="AB"
+                  >ief</unclear> erschüttert; der eine ist <unclear cert="high" reason="illegible"
+                  resp="AB">F-J.</unclear> in <placeName ref="Halle">Halle</placeName> und die
+               anderen beiden sind wohl noch ziemlich jung; es ist furchtbar schwer so ein
+               Weihnachten und Neujahr. – Wie hat <persName ref="P02166">Lorenz</persName> die Tage
+               überstanden? Wo war er? Tritt ihn doch mal, mir zu schreiben! – Und nun wünsche ich
+               Dir ein neues Jahr, dessen Hauptinhalt, der Sieg im Kampf mit der Prüfungskommission,
+               die recht vollständig gelingen möge! – Und <hi rend="u">mein</hi> erster Wunsch fürs
+               neue Jahr ist ein Brief von Dir auf dem ersten Morgenkaffee des Jahr<unclear
+                  cert="high" reason="damage" resp="AB">es.</unclear>
+            </p>
+            <closer>
+               <salute>Viele herzliche Grüße</salute>
+               <signed>in treuer Liebe Dein<persName ref="P01930">Paul</persName>. </signed>
+            </closer>
+            
+
+         </div>
+      </body>
+   </text>
+</TEI>

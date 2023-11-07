@@ -1,0 +1,137 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Paul Tillich an Oskar Tillich
+               <lb/>vom März 1906
+            </title>
+            <author ref="P01930">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Leopold Potyka</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement ref="Marburg">Marburg</settlement>
+                  <institution>Philipps-Universität Marburg</institution>
+                  <repository>Deutsches Paul-Tillich-Archiv</repository>
+                  <idno>008 [A]</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>handschriftlich</p>
+                  </physDesc>             
+            </msDesc>                     
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01930">Paul Tillich</persName>
+              <placeName ref="o.O.">ohne Ort</placeName>
+              <date when="1906-03">März 1906</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01928">Oskar Tillich</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="LP" when="2022-07-27">Intitale Auszeichnung des Transkripts</change>
+        <change who="Initialien des Editors" when="1886-08-20"><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+        
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+           <salute>Lieber <persName ref="P01928">Großpapa</persName>!</salute>
+        </opener>
+        <p><figure><!-- Wappen des Wingolfsbundes --></figure>
+           Die herzlichsten Glücks- und Segenswünsche sende ich Dir zu Deinem
+           Geburtstage. Möge der liebe Gott Dich gerade in diesem Jahre
+           besonders segnen, damit Du mit um so mehr Freude die
+           goldene Hochzeit feiern kannst. Vor allein gebe er Dir Gesundheit
+           und Frische für Deine Arbeit! Hoffentlich geht es Dir recht gut.
+           Wie gern würde ich mit Euch feiern! Doch in 8 Tagen komme ich
+           ja schon. – Mir geht es sehr gut. Zwar war das Semester und
+           besonders das letzte Quartal sehr <del rend="s">sch</del> anstrengend. Doch habe ich es
+           immer gut ausgehalten, ohne etwas von Krankheit zu spü-
+           ren. Doch freue ich mich schon auf die Ruhe in den Ferien. Von
+           dem Chargiertenkonvent wird Dir <persName ref="P01926">Papa</persName> schon erzählt haben;
+           es war ein großartiges Trauerspiel und äußerst aufregend.<pb n="2"/>
+           Leider konnte <persName ref="P01926">Papa</persName> nicht mehr von <placeName ref="Halle a. S.">Halle</placeName> sehn.
+           Doch habe ich mich sehr gefreut, ihm wenigstens meine
+           Bude zeigen zu können. Hoffentlich hat es ihn nicht
+           zu sehr angestrengt. Es war außerordentlich gut, daß
+           er gekommen war. Seine letzte Resolution (offiziell
+           Resolution Tillich genannt) war die letzte Rettung, an
+           die wir Besiegten uns anklammern konnten.</p>
+        <p>Unser Bundespessimismus ist durch den neuen Versuch,
+           die alte biblische Grundlage dem Wingolf zu erhalten, wie-
+           der etwas gemindert. Wenn er nur glücklich gelingen
+           würde!! – Die Kollegs, die durch all die Aufregung et-
+           was in den Hintergrund getreten sind, schließen am 6<hi rend="sup">ten</hi>.
+           Ich habe viel davon gehabt und muß in den Ferien die Fülle
+           des Stoffes, besonders von <persName ref="P01227">Lütgerts</persName> Dogmatik, allmählich ver-
+           arbeiten. Die Vorlesungen vom nächsten Semester sind
+           glänzend; ich freue mich jetzt schon drauf, besonders auf<pb n="3"/>
+           <persName ref="P01013">Kähler</persName>. Auch die Verbindung wird im nächsten Semester
+           ebenso gut bleiben, wie jetzt; es ist bei weitem die beste
+           die ich im Bunde kennengelernt habe. Sicher kommt das
+           zum großen Teil von dem engen Konnex, in dem wir zu
+           den Professoren, vor allem <persName ref="P01227">Lütgert</persName> stehen. Das nächste Semester,
+           steht also unter günstigen Auspizien. Dennoch freue ich mich sehr
+           auf die Ferien, besonders auf Euch alle.</p>
+        <p> Herzliche Grüße an <persName ref="P01932">Großmama</persName> und <persName ref="P01927">Tante 
+           Grete</persName>.            
+        </p>
+        <closer>
+           <salute>Dein treuer Enkel</salute>
+           <signed><persName ref="P01930">Paul</persName>.</signed>
+        </closer>
+        
+      
+     </div>
+    </body>
+  </text>
+</TEI>

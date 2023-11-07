@@ -1,0 +1,105 @@
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Postkarte von <persName ref="P01930">Paul Tillich</persName> an <persName ref="P01926">Johannes Tillich</persName>
+               <lb/>vom 15. Juli 1905 [PS]
+            </title>
+            <author><persName ref="P01930">Paul Tillich</persName></author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Andreas Burri</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement ref="Marburg">Marburg</settlement>
+                  <institution>Philipps-Universität Marburg</institution>
+                  <repository>Deutsches Paul-Tillich-Archiv</repository>
+                  <collection>Briefe an die Familie <!-- unsicher, AB --> </collection>
+                  <idno>008 [A] <!-- unsicher, AB --> </idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Postkarte, eigenhändig</p>
+                  </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P01930">Paul Tillich</persName>
+               <placeName ref="Tübingen">Tübingen [PS]</placeName>
+               <date when="1905-07-15">15. Juli 1905 [PS]
+                  </date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P01926">Johannes Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+     <revisionDesc status="approved">
+        <change who="AB" when="2022-07-21">Intitale Auszeichnung des Transkripts</change>
+        <change who="AB" when="2022-07-25">Überprüfung und Ergänzung der Auszeichnungen</change>
+     </revisionDesc>
+  </teiHeader>
+   <text type="postcard">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>
+           <salute>Lieber <persName ref="P01926">Papa</persName>!</salute>
+            </opener> 
+        <p>Habt Dank für Eure Karten und für die Sendung des Schlüssels! Gestern früh war
+               ich beim Arzt, er war wieder sehr zufrieden; morgen bekomme ich wieder
+               die <unclear cert="high" reason="illegible" resp="AB">Scheuklappen</unclear> Es
+               geht mir gut – nur etwas langweilig, was ja gesund ist. Gebt in <placeName
+                  ref="Sulden">Sulden</placeName> Eure nächste Adresse, an, falls die
+               Karte, die ich Sonn<unclear cert="high" reason="illegible" resp="AB"
+                  >aben</unclear>d schreiben will, nicht mehr Euch treffen sollte.</p>
+            <p><lb/>
+               <!-- Auf der Vorderseite: --> Wenn Addressat <!-- sic, AB --> noch nicht da, <unclear
+                  cert="medium" reason="illegible" resp="AB">auf</unclear> ihn warten </p>
+        <closer>
+           <salute>Herzlichen Gruß an alle</salute>
+           <signed><hi rend="u"><persName ref="P01930">Euer Paul</persName></hi></signed>
+        </closer>
+     </div>
+    </body>
+  </text>
+</TEI>

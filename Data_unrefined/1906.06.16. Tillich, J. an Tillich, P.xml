@@ -1,0 +1,241 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Johannes Tillich und Toni Winkler an Paul Tillich <lb/>vom 16. Juni
+               1906</title>
+            <author ref="P01926">Johannes Tillich</author>
+            <author ref="P02089">Toni Winkler</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="Transskript">
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement ref="Marburg">Marburg</settlement>
+                  <institution>Philipps-Universität Marburg</institution>
+                  <repository>Deutsches Paul-Tillich-Archiv</repository>
+                  <idno>008 A</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Brief. Als maschinenschriftliche Abschrift überliefert.</p>
+               </physDesc>
+               <additional>
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint">
+                        <monogr>
+                           <author>Paul Tillich </author>
+                           <title>Paul Tillich. Ein Lebensbild in Dokumenten. Briefe,
+                              Tagebuch-Auszüge, Berichte.</title>
+                           <edition>1. Auflage</edition>
+                           <imprint>
+                              <publisher>Renate Albrecht und Margot Hahl</publisher>
+                              <pubPlace ref="Stuttgart">Stuttgart</pubPlace>
+                              <date when="1980">1980</date>
+                              <biblScope>36-39</biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title>Ergänzungs- und Nachlassbände zu den Gesammelten Werken von Paul
+                              Tillich</title>
+                           <biblScope>Band V</biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P01926">Johannes Tillich</persName>
+               <persName ref="P02089">Toni Winkler</persName>
+               <placeName ref="Berlin">Berlin</placeName>
+               <date when="1906-06-16">16. Juni 1906</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P01930">Paul Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2023-02-24">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <dateline>
+                  <placeName ref="Berlin">Berlin</placeName>, <date when="1906-06-16">16. 6.
+                     1906</date></dateline>
+               <salute>Mein lieber <persName ref="P01930">Paul</persName>!</salute>
+            </opener>
+            <p><bibl type="letter">Deinen Brief vom 15.</bibl>
+               <!-- liegt nicht vor. -->haben wir erhalten und daraus ersehen, daß Du hübsche
+               Reisetage gehabt hast und daß es Dir körperlich gut geht. Es zieht sich aber durch
+               Deinen Brief ein Ton von Mißstimmung und Müdigkeit, wenn ich mich nicht täusche. Und
+               namentlich sind es Deine Bemerkungen über Deine jetzige Stellung zu den theologischen
+               Fragen, die mich stutzig machen und etwas beunruhigen. Und darum drängt es mich, Dir
+               in dieser Hinsicht einiges zur Ermutigung und zur weiteren Wegweisung zu
+               schreiben.</p>
+            <p>Deine bisherige wissenschaftliche Entwicklung hat nun einen etwas einseitigen Verlauf
+               genommen. Ihr Ausgangspunkt war ein philosophisch-theoretisches Interesse, das fort
+               und fort gewachsen ist. Ich bin dabei beteiligt, weil ich, selber stark für
+               systematische Probleme interessiert, viel mit Dir über diese Dinge gesprochen und
+               Deinen Trieb gefördert habe. Vielleicht zu sehr. Dazu kam die theoretische Behandlung
+               der Wingolfs-Fragen und Deine etwas früh begonnene Beschäftigung mit Dogmatik und
+               Apologetik. Das alles kann dazu führen, das Christentum nur verstandesmäßig
+               aufzufassen und begreifen zu wollen. Du kannst in Gefahr kommen, ein Intellektualist
+               zu werden. Und das ist eine wirkliche <hi rend="u">Gefahr</hi>.<pb n="2"/> Groß aber
+               ist der Gewinn, wenn sie rechtzeitig erkannt und überwunden wird, und diese Zeit ist
+               wohl jetzt für Dich da. So gib einmal vorläufig den Versuch auf, die christliche
+               Wahrheit intellektuell, spekulativ-theoretisch Dir zu beweisen und systematisch zu
+               konstruieren. Es gibt noch andere theologische Wege, die nicht minder
+               wissenschaftlich sind, namentlich die Exegese. Vergiß aber vor allem nicht, daß
+               Christentum <hi rend="u">Gewissens</hi>sache ist, und darum lies einmal die Bibel,
+               auch als sein <unclear>¿¿¿</unclear> mit suchendem Herzen und mit ernstem Gebet.
+               Halte fest an der Verheißung "den Demütigen und den Aufrichtigen läßt es Gott
+               wohlgelingen", und gehe den praktischen Weg nach <bibl type="bible" resp="John 7, 17"
+                  >Johannes 7, 17</bibl>. Denke an Deinen Konfirmationsspruch und handle nach <bibl
+                  type="bible" resp="John 14, 21">Johannes 14, 21</bibl>. Vergleiche <bibl
+                  type="bible" resp="Matt 11,25-30">Matthäus 11, 25 bis 30</bibl>. Du wirst dann
+               mehr verstehen lernen, was christliche Erfahrung ist. Die Gnosis kommt aus der
+               Pistis, nicht umgekehrt. Gott und seine Offenbarung läßt sich nicht verstandesmäßig
+               erfassen, das liegt in der Natur der Sache, ja im Wesen und Willen Gottes, dem wir
+               uns erst beugen müssen, ehe er uns volles Licht gibt. Und er allein ist das Licht,
+               nicht die menschliche Weisheit, die nur unter seinem Licht gedeihen kann. Gott
+               offenbare sich Dir, mein lieber Sohn, immer reichlicher, und erleuchte Dich durch den
+               neuen Geist von oben, der mehr ist als der Geist der Logik, <hi rend="u"
+                  >heiliger</hi> Geist. Das erfleht für Dich mit vielen Gebeten Dein Vater, der auch
+               die Kämpfe geistigen Ringens kennengelernt hat, aber durch Gottes Hilfe und Gnade
+               sagen kann: "Ich weiß, an wen ich glaube." Nun noch einzelnes, das ich diktieren
+               kann, in bezug auf die Schlußsätze Deines Briefes. Obwohl sie nicht ganz klar
+                  sind,<pb n="3"/> möchte ich Dich doch bitten zu prüfen, ob die bezeichneten
+               Schwierigkeiten nicht mit der besonderen philosophischen Grundanschauung
+               zusammenhängen, die Du bisher gepflegt und etwas stark festgehalten hast, auch unter
+               dem Einfluß der Bücher, die Du gelesen, und einiger Philosophen, die Du gehört hast.
+               Die Sache steht doch so: wenn ein philosophisches System sich nicht als brauchbar
+               erweist, um die Grundwahrheiten des Christentums zu lösen, so sind die letzten
+               festzuhalten und das Erste ist aufzugeben, mit anderen Worten, man korrigiert sein
+               System unter Gottes Leitung. Damit tut man der Wissenschaftlichkeit keinen Eintrag,
+               im Gegenteil, man kommt zur rechten Wissenschaft. Du schreibst, die objektive
+               Wahrheit könne sich nicht geschichtlich vermitteln; das ist <persName ref="P00588"
+                  >Fichte</persName>, <persName ref="P01020">Kant</persName>, die beide überhaupt
+               keinen lebendigen Begriff der Geschichte haben können. Freilich, nicht die ewigen
+               Ideen haben eine Geschichte, aber ihre Offenbarung und ihre Erkenntnis, "daß Gott die
+               Liebe ist", ist ewige objektive Wahrheit, (nicht nur Werturteil, sondern
+               Seinsurteil); aber diese Wahrheit ist erst durch Christi Person und Werk offenbart
+               und bezeugt. Nur muß sie mit allem, was damit zusammenhängt, theologisch durchdacht
+               und begründet werden. Dies macht die Geschichte der Theologie aus, die eine
+               Geschichte des Kampfes ist, weil auch in ihr Gottes Geist und Weltgeist einander
+               gegenüber stehen, auch weil selbst die christlich-gläubige Erkenntnis ihrem Objekt
+               nie adäquat werden kann. Daß übrigens die rationalistischen Theologen, von den
+               Gnostikern an bis zu den modernen, Kirche und Christentum nicht haben totschlagen
+               können, ist ein herrliches Zeugnis der christlichen Wahrheit. Eben solch Zeugnis
+               liegt darin, daß die Wissenschaft<pb n="4"/> immer wieder sich mit dem Christentum
+               auseinandersetzen muß und die Theologie nie aufhört, sie, die des Schweißes der
+               Edelsten wert ist. Ferner, das Verhältnis von Wahrheit und Wertschätzung aufgrund von
+               Erfahrungen ist Dir nicht klar, aber was wir an geistigen Erfahrungen haben und
+               machen, wird weder nur im Gefühl noch nur vom Intellekt aufgenommen, sondern vom
+               ganzen Geist, von der gesamten Persönlichkeit, und unser Geist, wenigstens der
+               erleuchtete Geist, hat das Vermögen, deutlich zu unterscheiden, was nur subjektive
+               Wertdeutung hat und was allgemein gültige objektive Wahrheit ist. Alle Werturteile
+               des Gewissens ruhen auf der unmittelbaren Gewißheit, daß objektive Wahrheit
+               dahintersteht. Wir sind durch die <persName ref="P01020">Kant</persName>-<persName
+                  ref="P01615">Ritschlsche</persName> Erkenntnistheorie viel zu sehr an das Wort
+               "Werturteil" gewöhnt. Neuerdings hat man nachgewiesen, daß die meisten aller unserer
+               Werturteile in Seins-Urteile übergreifen. Doch genug von diesen theoretischen
+               Erörterungen, die ich nur hinzufüge, weil sie Dinge betreffen, die – wie es mir
+               scheint – Dich geistig ermüdet haben und zum Anstoß werden können. Es wäre mir darum
+               sehr lieb, wenn Du mir recht bald Genaueres über Dein gegenwärtiges Denken und Fühlen
+               schreiben wolltest, wobei es ja auf Einzelheiten nicht ankommt. – Berliner
+               Stiftungsfest findet am 3. und 4. Juli statt. Wir freuen uns natürlich sehr, wenn Du
+               dazu herkommen wolltest. Du kannst ja auch ebensogut, wenn Du willst, eher kommen,
+               vielleicht über einen Sonntag. Gott behüte Dich an Leib und Seele.</p>
+            <closer>
+               <salute>Es küßt Dich</salute>
+               <signed>Dein treuer <persName ref="P01926">Vater</persName>.</signed>
+            </closer>
+
+            <postscript>
+               <p/>
+            </postscript>
+
+         </div>
+         <div>
+            <p>und nun, mein lieber <persName ref="P01930">Paul</persName>, möchte ich Dir noch
+               allerlei sagen, vor allen Dingen, daß Du recht sehr bald an <persName ref="P01926"
+                  >Papa</persName> schreiben mußt und ja recht ausführlich, denn ich glaube, Dein
+               Brief hat ihn mehr beunruhigt als nötig war. Es ist ja so natürlich, daß man im
+               geschriebenen Wort noch so unendlich viel zwischen den Zeilen liest, manchmal Dinge,
+               die absolut nicht drin stehen. Ich glaube, aus Deinem Brief nur eine augenblickliche
+               Stimmung herauszulesen. <persName ref="P01926">Papa</persName> meint, es seien
+               ernstliche Fragen, die Dich beunruhigten. Aber weil Du weißt, wie Papa ist, so
+               beruhige ihn bald, wenn es so ist, wie ich denke, aber nur dann, nur ja nicht auf
+               Kosten der Wahrheit, denn das wäre wiederrum ein großes Unrecht, das Du ihm antätest,
+               denn gerade Dein unbedingtes Vertrauen freut ihn, und Du kannst ihm ruhig alles
+               schreiben. Am besten ist, Du kommst Anfang Juli her ein paar Tage und Ihr
+               philosophiert wieder, (aber nicht nach Mitternacht!!). Aber bald einen ausführlichen
+               Brief, alles Ungewisse beunruhigt Papa. Am Montag schicke ich Dir ein kleines
+               Futterpäckchen-Kistchen. Papa geht es gut, er bastetlt viel abends an seinem Rad, das
+               er mit nach Misdroy nehmen will und läßt es wieder reparieren, neuen Gummi etc.
+                  <persName ref="P01764">Elisabeth</persName> feiert heute ihren Geburtstag, 8 sind
+               es an der Zahl. Morgen kommen <persName ref="P02228"><persName ref="P02229"><persName
+                        ref="P02241"><persName ref="P02242"
+                     >Dürselens</persName></persName></persName></persName>
+               <!--  Unklar, welche Dürselens genau. Ich habe einfach mal alle hier eingetragen. -->zum
+               Kaffee her und Abendbrot.</p>
+            <closer><salute>Nun behüte Dich Gott, es grüßt Dich</salute>
+               <signed>Deine getreue <persName ref="P02089">Tante Toni</persName></signed></closer>
+         </div>
+
+      </body>
+   </text>
+</TEI>

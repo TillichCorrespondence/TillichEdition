@@ -1,0 +1,136 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Johanna Tillich an Paul Tillich <lb/>vom 28.11.1905 </title>
+            <author ref="Johanna Tillich">Johanna Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974.</collection>
+                  <idno>bMS 649/193</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="Johanna Tillich">Johanna Tillich</persName>
+               <!-- Keine Ortsangabe, da nicht sicher. Aber wahrscheinlich Berlin -->
+               <date when="1905-11-28">28.11.1905</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="Paul Tillich">Paul Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="1886-08-20">Intitale Auszeichnung des Transkripts</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <salute>Lieber <persName ref="Paul Tillich">Paul</persName>,</salute>
+            </opener>
+            <p>schade, daß Du nicht gekommen bist. Es wäre sehr hübsch gewesen, und warum arbeitest
+               Du so viel, wo der Arzt es doch verboten hat?!!</p>
+            <p>Heute ist <hi rend="aq">Herr Pastor <persName ref="Herr Höfer">Höfer</persName></hi> zum Abend hier. Am
+               Nachmittag war <hi rend="aq"><persName ref="Käthe Held">Käthe Held</persName></hi> bei uns, Am Bußtag
+               <hi rend="aq"><persName ref="Martha Kandeler">Martha Kandeler</persName></hi>, mit der ich am Abend
+               zu <unclear cert="medium">Conrad</unclear> in d. Kirche ging.</p>
+            <pb n="2"/>
+            <p>Nun, wie es dort war, kannst Du Dir vielleicht denken.</p>
+            <p>Am Montag hat <persName ref="Schwester Therese">Schwester
+               <hi rend="aq">Therese</hi></persName>Geburtstag, wenn es Dir möglich ist, dann schreibst Du wohl. Und
+               nun etwas sehr Wichtiges, hast Du denn ganz vergessen, <add place="left">!!</add> den
+                  <hi rend="u">Großeltern</hi> einige Zeilen zu schreiben?? <del rend="s"><unclear
+                     cert="medium">Sit</unclear></del> Tu das bitte, <hi rend="u">für mich</hi> kann
+               ich <del rend="s"><unclear cert="medium">f</unclear></del> ja nicht einmal <sic>ein</sic> Karte
+               verlangen!</p>
+            <p>Ich habe jetzt täglich 1 Stunde <hi rend="u">Englisch</hi> od. Französisch bei
+               <persName ref="Frau Hessling">Frau <hi rend="aq">Hessling</hi></persName>. </p><pb
+                  n="3"/>
+            <p>Es ist ganz nett, doch strengt mich selbst das schon an. Ich hoffe dringend, daß es
+               bald Eisbahn gibt, denn in der Luft ist mir immer am wohlsten. Mittwoch ist bei <persName ref="Heimbachs"><hi
+                  rend="aq">Heimbachs</hi></persName> Bibelkränzchen.
+               Montag war Dr. <persName ref="Dr. Lepsius"><unclear cert="high"><hi rend="aq">
+                        Lepsius</hi></unclear></persName> hier zum Abendbrot.</p>
+            <p><persName ref="Toni Winkler"><hi rend="aq">Fräulein Toni</hi></persName> denkt schon viel an
+               Weihnachten. Wie schnell ist aber auch die Zeit vergangen! Eben macht sie mit
+               <persName ref="Elisabeth Tillich"><hi rend="aq">Elisabeth</hi></persName> Adventsrosen. - <persName
+                  ref="Onkel Adolf"><hi rend="aq">Onkel Adolf</hi></persName> dankt Dir vielmals, er hat sich sehr
+               gefreut. Kürzlich erhielt ich auch eine Karte  <pb n="4"/> von <persName
+                  ref="Erich Harder"><hi rend="aq">Herrn Harder</hi></persName>; er und seine Frau
+               kommen in nächster Zeit nach <placeName ref="Berlin">Berlin</placeName>.</p>
+            <p>Hoffentlich gefällt Dir das schöne Paket so, daß Du vor <del rend="s">al</del> Freude
+               gleich einen sehr netten Brief an die Großeltern schreibst! Sonntag Abend sind wir
+                  <add place="superlinear">immer</add> mit ihnen zusammen.</p>
+            <p>Doch nun weiß ich Dir auch garnichts mehr zu erzählen, Du hoffentlich um so mehr.
+               Noch eine Bitte, da Du diesmal keine Karte zur Warnung vor allerlei üblen
+               Gewohnheiten hast, "nimm' Dich in acht u. schone Dich in jeder Weise."</p>
+            <closer>
+               <salute>Viele Grüße</salute>
+               <signed>Deine Schwester <persName ref="Johanna Tillich">Johanna</persName></signed>
+            </closer>
+
+            
+
+         </div>
+      </body>
+   </text>
+</TEI>
