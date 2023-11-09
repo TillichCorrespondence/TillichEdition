@@ -1,0 +1,116 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Paul Tillich an Verlag Mohr Siebeck (Oskar Rühle)
+               <lb/>vom 07. April 1930
+            </title>
+            <author ref="P01930">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Sebastian Kueffner</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+         </availability>        
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="Kopie">
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement ref="Berlin">Berlin</settlement>
+                  <repository>Staatsbibliothek zu Berlin Preußischer Kulturbesitz</repository>
+                  <collection>Handschriftenabteilung, Archiv des Verlages J. C. B. Mohr (Paul Siebeck)</collection>
+                  <idno>Nachl. 488, A 0469,5; Blatt 143-205</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Brief, als maschinenschriftliche Abschrift überliefert</p>
+                  </physDesc>
+               
+            </msDesc>   
+            <biblStruct type="journal">
+               <monogr>
+                  <author>Alf Christophersen / Friedrich Wilhelm Graf</author>
+                  <title>„Beweise einer unsichtbaren Beziehung“ Die Korrespondenz zwischen Paul Tillich und dem Tübinger Verlag J. C. B. Mohr (Paul Siebeck)</title>
+                  <imprint>
+                     <pubPlace ref="Boston">Boston</pubPlace>
+                     <date when="2011-09-27">2011</date>
+                     <biblScope>S. 388</biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title>International Yearbook for Tillich Research</title>
+                  <biblScope>Band 6 Heft 1</biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+        </editorialDecl>
+     </encodingDesc> 
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName ref="P01930">Paul Tillich</persName>
+              <placeName ref="Sorrent-Italien">Sorrent-Italien</placeName>
+              <date when="1930-04-07">07. April 1930</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName ref="P01659">Oskar Rühle</persName>
+           </correspAction>
+        </correspDesc>
+        <langUsage>
+           <language ident="deu">Deutsch</language>
+        </langUsage>
+     </profileDesc>
+     <revisionDesc status="approved">
+        <change who="SK" when="2023-06-14">Intitale Auszeichnung des Transkripts</change>
+        
+       
+     </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+     <body>
+     <div type="writingSession">
+        <pb n="1"/>
+        <opener>       
+           <salute>An den Verlag Siebeck <placeName ref="Tübingen">Tübingen</placeName>, in Sachen R.G.G.</salute>
+        </opener>
+        <p>Heute empfing ich Ihren Brief und schickte gleichzeitig das eben fertig gestellte Manuskript von <bibl><!-- Gunkel Hermann und Leopold Zscharnack: »Die Religion in Geschichte und Gegenwart 2 Auflage« 1927-1932, -->„Philosophie und Religion“</bibl>. Die Korrektur von „Offenbarung“ folgt morgen.</p>
+        <p>Nun noch eine Frage: Sie erinnern mich an den Artikel <bibl><!-- Paul Tillich: »Artikel Sozialismus: II. Religiöser Sozialismus, in: RGG2, Bd. 5, Sp. 637–648 « 1931-->„Religiöser Sozialismus“</bibl>. Ich sagte schon damals zu <persName ref="P01856">Prof. Stephan</persName>, daß ich die historische Seite der Sache keinesfalls übernehmen kann. Das gilt in der Überlastung meiner neuen Stellung noch mehr als vorher. Ich werde Ihnen also in absehbarer Zeit einen systematischen Artikel über religiösen Sozialismus mit geistesgeschichtlichen Perspektiven schicken. Ich halte aber einen rein historischen Aufsatz mit Literatur-Übersicht für unbedingt nötig. Ich schlage dazu vor <persName ref="P01503">Piper</persName> , <placeName ref="Münster">Münster</placeName> oder <persName ref="P02314">Kappes</persName> , <placeName ref="Karlsruhe">Karlsruhe</placeName> oder <persName ref="P00814">Hartmann</persName>  <placeName ref="Solingen">Solingen</placeName>.</p>
+           <p>Ich wäre Ihnen für die Mitteilung darüber so wie für eine Empfangsbestätigung hierher <placeName ref="Italien-Sorrento">(Sorrento Hotel Lorelei)</placeName> sehr dankbar.
+        </p>
+        <closer>
+           <salute>Ihr sehr ergebener</salute>
+           <signed><persName ref="P01930">P. Tillich</persName>.</signed>
+        </closer>
+      
+     </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,121 @@
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Paul Tillich und Hermann Schafft an Friedrich Büchsel <lb/>12. Juni
+               1908 [PS]</title>
+            <author><persName ref="P01930">Paul Tillich</persName>, <persName ref="P01697">Hermann
+                  Schafft </persName></author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Andreas Burri</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement ref="Marburg">Marburg</settlement>
+                  <institution>Philipps-Universität Marburg</institution>
+                  <repository>Deutsches Paul-Tillich-Archiv</repository>
+                  <collection>Büchsel, Friedrich </collection>
+                  <idno>Marburg 008 B</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Brief</p>
+                  <p>handschriftlich</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P01930">Paul Tillich</persName>
+               <placeName ref="Soest">Soest</placeName>
+               <!--[PS]-->
+               <date when="1908-06-12"> </date>
+               <!--[PS]-->
+
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P00641">Alfred Fritz </persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="AB" when="2023-02-27">Intitale Auszeichnung des Transkripts</change>
+         <change who="AB" when="2023-02-28">Überprüfung und Ergänzung der Auszeichnungen</change>
+         <change who="GM" when="2023-03-22">Tillgung des persName aus dem Titel und Normalisierung
+            von Datumsangaben</change>
+         <change who="PS" when="2023-03-27">Ergänzung von dem Hermann Schafft zugeschriebenen
+            Textteil</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <salute>Lieber <persName ref="P00310">Friedrich</persName>!</salute>
+            </opener>
+            <p>
+               <hi rend="u">Ich</hi> bezeuge: Der
+               Schloßberg<!--mir unklar, welcher genau; gibt viele davon--> ist die Wohnung des
+               absoluten Ich. Man fühlt sich in jedem Moment auf der Höhe jeglicher theologischen
+               Situation und das Nichtich lagert sich in demütiger Entfernung rings herum, <hi
+                  rend="u">offen</hi> nach allen Seiten. Also komm! ja! </p>
+            <closer>
+               <salute>Herzlichen Gruß </salute>
+               <signed>Dein <persName ref="P01930">Paul</persName>. </signed>
+            </closer>
+
+
+         </div>
+         <div>
+            <p>Diesem habe ich weiter nichts zuzufügen. Freilich machte der Schreiber des obigen -
+               als wir auf obig. Berg Fichte v. <unclear>¿¿¿</unclear>. lasen - sehr "tatsächliche"
+               - also minderwertige Einwände. Im übrigen <unclear cert="medium">2er</unclear> Zungen
+               Mund - ich war schüchterner</p>
+            <closer>D. <persName ref="P01697">H.</persName></closer>
+         </div>
+      </body>
+   </text>
+</TEI>

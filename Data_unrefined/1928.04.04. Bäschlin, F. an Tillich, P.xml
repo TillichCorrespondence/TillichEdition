@@ -1,0 +1,201 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Franz Bäschlin an Paul Tillich <lb/>vom 4. April 1928</title>
+            <author ref="P00144"/>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974.</collection>
+                  <idno>bMS 649/123(9)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+               <additional>
+                  <!-- Wenn Brief bereits publiziert hier die richtige Struktur aussuchen -->
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien stammen<!-->
+                        <monogr>
+                           <author>Renate Albrecht und Margot Hahl </author>
+                           <title>Ein Lebensbild in Dokumenten. Briefe, Tagebuch-Auszüge,
+                              Berichte</title>
+                           <edition>1. Auflage</edition>
+                           <imprint>
+                              <publisher>Renate Albrecht und Margot Hahl</publisher>
+                              <pubPlace ref="Stuttgart">Stuttgart</pubPlace>
+                              <date when="1980">1980</date>
+                              <biblScope>174</biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title>Ergänzungs- und Nachlassbände zu den Gesammelten Werken von Paul
+                              Tillich</title>
+                           <biblScope>Band V</biblScope>
+                        </series>
+                     </biblStruct>
+                     <biblStruct type="journal" n="reprint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel des Aufsatzes<!--></title>
+                           <imprint>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Zeitschrift<!--></title>
+                           <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <biblStruct type="monograph">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien überliefert sind und im Original nicht mehr vorhanden!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel der Monographie<!--></title>
+                  <edition><!-->Auflage<!--></edition>
+                  <imprint>
+                     <publisher><!-->Herausgeber<!--></publisher>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Reihe<!--></title>
+                  <biblScope><!-->Reihennummer<!--></biblScope>
+               </series>
+            </biblStruct>
+            <biblStruct type="journal">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften überliefert sind und im Original nicht mehr vorhanden<!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel des Aufsatzes<!--></title>
+                  <imprint>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Zeitschrift<!--></title>
+                  <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P00144">Franz Bäschlin</persName>
+               <placeName ref="where">Aarau</placeName>
+               <date when="1928-04-04">4. April 1928</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P01930">Paul Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2023-06-01">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener><dateline>
+                  <placeName ref="Gurzelen">Gurzelen bei Seftigen</placeName>, den <date
+                     when="1928-04-04">4. April 1928</date>.</dateline>
+               <salute>Hochgeehrter <persName ref="P01930">Herr Professor</persName>,</salute>
+            </opener>
+            <p>erlauben Sie mir, Ihnen im Namen des Zentral-Komitees der Aarauer Konferenz und auch
+               ganz persönlich noch einmal den herzlichsten Dank auszusprechen für die
+               Freundlichkeit, dass Sie unserer Bitte Folge geleistet haben. Ich glaube, dass gerade
+               Ihr Vortrag erst in der Besinnung, erst in der Ruhe nach der Konferenz seine volle
+               Wirkung haben konnte, erst als man eben wieder in die Wirklichkeit gestellt wurde und
+               den "Gläubigen Realismus" so völlig brauchte wie das Brot. Mir wenigstens ist es so
+               gegangen. Ich kann Ihnen nicht sagen welche Freude es für mich war, neben der Stimme
+               der Barthischen Theologie und neben dem religiössozialen Volksmann einen Menschen zu
+               hören, mit dem man sprechen kann, auch wenn man das Wort "Gott" oder "Volk"
+               "Gemeinschaft" usw. nicht in einem Sinn aussprechen kann, hinter dem der ganze Mensch
+               steht. Sie haben den jungen Menschen, die mit der brennenden Problemlage der Realität
+               aller Wahrheiten nahe <placeName>Aarau</placeName> gekommen sind, am nächsten
+               gestanden. Darum waren Ihnen sicher auch manche Studenten<pb n="2"/> sehr dankbar für
+               den mutigen "gläubigen Realismus" in dieser bejahten Welt der Relativität. So war
+               sicher Ihr Vortrag ein "Vorstoss".</p>
+            <closer>
+               <salute>Mit den herzlichsten Osterwünschen und vielen besten Dank grüsst sie ehrerbietig</salute>
+               <signed>Ihr <persName ref="P00144">Franz Bäschlin</persName> Aktuar des Zentral-Komitees</signed>
+            </closer>
+
+            <postscript>
+               <p/>
+            </postscript>
+
+         </div>
+
+      </body>
+   </text>
+</TEI>

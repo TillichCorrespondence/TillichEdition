@@ -1,0 +1,204 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Beatrice Löwe an Paul Tillich <lb/>vom 3. Dezember 1929</title>
+            <author ref="P01208">Beatrice Löwe</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="Transskript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>USA</country>
+                  <settlement ref="Cambridge, MA">Cambridge, MA</settlement>
+                  <institution>Harvard University</institution>
+                  <repository>Harvard Divinity School Library</repository>
+                  <collection>Tillich, Paul, 1886-1965. Papers, 1894-1974.</collection>
+                  <idno>bMS 649/</idno>
+                  <!-- In der Archivliste steht der Brief sei in Harvard. Habe ihn aber am Server nicht gefunden. Quelle muss also noch ausfindig gemacht werden -->
+               </msIdentifier>
+               <physDesc>
+                  <p>k. A.</p>
+                  <!-- siehe Kommentar oben -->
+               </physDesc>
+               <additional>
+                  <!-- Wenn Brief bereits publiziert hier die richtige Struktur aussuchen -->
+                  <listBibl>
+                     <biblStruct type="monograph" n="firstPrint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien stammen<!-->
+                        <monogr>
+                           <author>Paul Tillich </author>
+                           <title>Ein Lebensbild in Dokumenten</title>
+                           <edition>1. AUflage</edition>
+                           <imprint>
+                              <publisher>Renate Albrecht</publisher>
+                              <publisher>Margot Hahl</publisher>
+                              <pubPlace ref="Stuttgart">Stuttgart</pubPlace>
+                              <date when="1980">1980</date>
+                              <biblScope>187</biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title>Ergänzungs- und Nachlassbände zu den Gesammelten Werken von Paul
+                              Tillich</title>
+                           <biblScope>Band V</biblScope>
+                        </series>
+                     </biblStruct>
+                     <biblStruct type="journal" n="reprint">
+                        <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften stammen<!-->
+                        <monogr>
+                           <author><!-->Autor<!-->
+                           </author>
+                           <title><!-->Titel des Aufsatzes<!--></title>
+                           <imprint>
+                              <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                              <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                              <biblScope><!-->Seitenzahlen<!--></biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title><!-->Titel der Zeitschrift<!--></title>
+                           <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <biblStruct type="monograph">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Monographien überliefert sind und im Original nicht mehr vorhanden!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel der Monographie<!--></title>
+                  <edition><!-->Auflage<!--></edition>
+                  <imprint>
+                     <publisher><!-->Herausgeber<!--></publisher>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Reihe<!--></title>
+                  <biblScope><!-->Reihennummer<!--></biblScope>
+               </series>
+            </biblStruct>
+            <biblStruct type="journal">
+               <!--> Diese Quellenbeschreibung nur bei Briefen, die aus Zeitschriften überliefert sind und im Original nicht mehr vorhanden<!-->
+               <monogr>
+                  <author><!-->Autor<!-->
+                  </author>
+                  <title><!-->Titel des Aufsatzes<!--></title>
+                  <imprint>
+                     <pubPlace ref="where"><!-->Publikationsort<!--></pubPlace>
+                     <date when="1886-08-20"><!-->Publiklationsjahr<!--></date>
+                     <biblScope><!-->Seitenzahlen<!--></biblScope>
+                  </imprint>
+               </monogr>
+               <series>
+                  <title><!-->Titel der Zeitschrift<!--></title>
+                  <biblScope><!-->Zeitschriftenband oder -nummer<!--></biblScope>
+               </series>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P=1208">Beatrice Löwe</persName>
+               <placeName ref="Kiel">Kiel</placeName>
+               <date when="1929-12-03">3. Dezember 1929</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P01930">Paul Tillich</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2023-08-23">Intitale Auszeichnung des Transkripts</change>
+         <change who="Initialien des Editors" when="1886-08-20"
+            ><!-->Bitte bei Änderungen im Dokument die Art der Änderung in einer neuen Zeile angeben<!--></change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener><dateline>
+                  <placeName ref="Kiel">Kiel</placeName>, <date when="1929-12-03">3. Dezember
+                     1929</date></dateline>
+               <salute>Lieber <persName ref="P01930">Herr Tillich</persName>!</salute>
+            </opener>
+            <p>Dieser Brief soll Ihnen danken für das, was Sie mir mit Ihrem Aufsatz gegeben haben!
+               Es ist unendlich beglückend, dies, was man mehr oder weniger dunkel als das Rechte
+               und Notwendige in sich fühlt, plötzlich geschrieben - und noch dazu in solch
+               meisterhafter Form - in Händen zu halten</p>
+            <p>Ich stehe nun wieder seit einiger Zeit in der sozialen Arbeit, die mir beruflich und
+               menschlich gleich nahe ist. Bei all dem Schweren, was man da erlebt, ist das
+               Traurigste der Untergrund immer wieder, die Sinnlosigkeit in dem Leben dieser
+               Menschen. Sie läßt einen verstummen und will einem jede Hoffnung nehmen.</p>
+            <p>Lieber <persName ref="P01930">Herr Tillich</persName>, ich war skeptisch für die
+               Zeitschrift! Seitdem ich Ihren Aufsatz kenne, weiß ich, daß sie gegründet werden <hi
+                  rend="u">mußte</hi> und daß es gut so ist. Und wären es nicht viele Menschen, so
+               werden es sicher die wertvollsten sein, die sich aufgerüttelt fühlen durch <hi
+                  rend="u">diesen</hi> Geist des Sozialismus, den ich mit jeder Faser bejahe. Ich
+               kann mir als Einleitendes nichts Schöneres vorstellen, als Ihre Arbeit es ist.</p>
+            <p>Ich mußte Ihnen dies sagen!</p>
+            <closer>
+               <salute>Ihnen und Ihrer lieben <persName ref="P01925">Frau</persName> und der kleinen
+                     <persName ref="P00507">Tochter</persName> alles Gute</salute>
+               <signed>Ihre <persName ref="P01208">Beatrice Löwe</persName>.</signed>
+            </closer>
+
+            <postscript>
+               <p/>
+            </postscript>
+
+         </div>
+
+      </body>
+   </text>
+</TEI>

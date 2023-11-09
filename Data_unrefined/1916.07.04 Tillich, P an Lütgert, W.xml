@@ -1,0 +1,121 @@
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von Paul Tillich an Wilhelm Lütgert
+                    <lb/>vom 4. Juli 1916
+                </title>
+                <author ref="Paul Tillich">Paul Tillich </author>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Friedrich Schumann</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title type="editionstitel">Edition der Korrespondenz von Paul Tillich 1887-1933</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+                    <address>
+                        <street>Schenkenstraße 8-10</street>
+                        <postCode>1010</postCode>
+                        <placeName ref="Wien">
+                            <settlement>Wien</settlement>
+                            <country>Österreich</country>
+                        </placeName>
+                    </address>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+                </availability>        
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="manuscript">
+                    <msIdentifier>
+                        <country>Deutschland</country>
+                        <settlement>Halle a.S.</settlement>
+                        <institution>Martin-Luther-Universität Halle-Wittenberg</institution>
+                        <repository>Universitätsarchiv Halle-Wittenberg</repository>
+                        <collection>Rep. 27 (Theologische Fakultät)</collection>
+                        <idno>Nr. 876 (37)</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>Brief, eigenhändig</p>
+                    </physDesc>
+                    <additional>
+                        <listBibl>
+                            <biblStruct type="journal" n="firstPrint">
+                                <monogr>
+                                    <author>Erdmann Sturm</author>
+                                    <title>An der engen Pforte der historischen Methode vorbeit. Paul Tillichs Habilitation in Halle (1916) und seine Umhabilitierungen nach Berlin (1919) und Marburg (1924).</title>
+                                    <imprint>
+                                        <pubPlace ref="where">Berlin/Boston</pubPlace>
+                                        <date when="2015">2015</date>
+                                        <biblScope>311f.</biblScope>
+                                    </imprint>
+                                </monogr>
+                                <series>
+                                    <title>International Yearbook for Tillich Research</title>
+                                    <biblScope>Bd. 10/1</biblScope>
+                                </series>
+                            </biblStruct>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl. https://www.deutschestextarchiv.de/doku/basisformat/</p>
+            </editorialDecl>
+        </encodingDesc> 
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="Paul Tillich">Paul Tillich</persName>
+                    <placeName ref="Przyjezierze">Butterfelde-Mohrin, Neumark</placeName><placeName ref="Berlin">Berlin</placeName><!--Tillich hat den Brief mit zwei Ortsangaben versehen-->
+                    <date when="1916-07-04">4. Juli 1916</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="Wilhelm Lütgert">Wilhelm Lütgert</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="deu">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="FS" when="2022-05-30">Initiale Auszeichnung des Transkripts</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <div type="writingSession">
+                <pb n="1"/>
+                <opener>
+                    <dateline><placeName ref="Berlin">Berlin</placeName> d. <date when="1916-07-04">4. Juli 1916</date>.</dateline>
+                    
+                    <hi rend="u"><placeName ref="Przyjezierze">Butterfelde-Mohrin<lb/>
+                        i.d. Neumark.</placeName></hi>
+                    
+                    <salute>Hochverehrter <persName ref="Wilhelm Lütgert">Herr Professor</persName>!</salute>
+                </opener>
+                <p>Die <bibl sameAs="Tillich, Paul. Der Begriff des christlichen Volkes, in: EW 10 (Religion, Gesellschaft, Kultur I), 114ff.">Probevorlesung</bibl> ist von statten gegangen, besser als ich bei der mangelnden Vorbereitungsmöglichkeit erwartet habe. Für die Antrittsvorlesung hat die Fakultät Sonnabend d. <date when="1916-07-22">22<hi rend="sup">ten</hi> Juli</date> Vormittag 11–12 angesetzt, also den gleichen Tag, den wir verabredet hatten, aber eine Stunde früher. Von den Themata entschied sich die Fakultät für das Thema: <bibl sameAs="Tillich, Paul. Monotheismus und Theodicee, in: EW 10 (Religion, Gesellschaft, Kultur I), 101-113.">„Monotheismus und Theodicee“</bibl>. Ich bitte Sie ganz ergebenst, in diesem Sinne den Druck der Ankündigung gütigst veranlassen zu wollen.<lb/>
+                    Gestatten Sie nun, daß ich Ihnen und Ihrer Frau <persName ref="Martha Lütgert, geb. Sellschopp">Gemahlin</persName> meinen und <persName ref="Margarete Tillich, geb. Wever">meiner Frau</persName> herzlichsten Dank ausspreche für die freundliche Überraschung, die Sie uns gestern durch den Rosenstrauß bereitet haben. Sie haben mir und besonders auch meiner Frau eine große Freude bereitet!</p>
+                <closer>
+                    <salute>Ihr dankbar ergebener</salute>
+                    <signed>P. Tillich</signed>.
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+

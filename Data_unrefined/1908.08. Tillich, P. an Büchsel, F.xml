@@ -1,0 +1,183 @@
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von <persName ref="P01930">Paul Tillich</persName> an <persName
+                  ref="P00310">Büchsel, Friedrich</persName>
+               <lb/>1908.08.</title>
+            <author><persName ref="P01930">Paul Tillich</persName></author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Andreas Burri</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement ref="Marburg">Marburg</settlement>
+                  <institution>Philipps-Universität Marburg</institution>
+                  <repository>Deutsches Paul-Tillich-Archiv</repository>
+                  <collection>Büchsel, Friedrich </collection>
+                  <idno>Marburg 008 B</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Brief</p>
+                  <p>als maschinenschriftliche Abschrift überliefert</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="P01930">Paul Tillich</persName>
+
+               <date when="1908-08"/>
+               <!--ohne Ort; und woher die Kenntnis vom August? Auf dem Typoskript steht nur 1908 mit Bleistift.-->
+
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="P00641">Alfred Fritz </persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="AB" when="2023-02-28">Intitale Auszeichnung des Transkripts</change>
+         <change who="AB" when="2023-03-07">Überprüfung und Ergänzung der Auszeichnungen</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession">
+            <pb n="1"/>
+            <opener>
+               <salute>Lieber <persName ref="P00310">Friedrich</persName>!</salute>
+            </opener>
+            <p> War mein Gewissen schon sehr bedrückt, als ich neulich entdeckte, daß Du im Juli
+               geboren bist, so wurde der Druck noch viel stärker, als Dein Brief ankam; und um ihn
+               zu erleichtern, sollst auch<!--sic ("Du" fehlt)--> als erster der Gratulanten
+               beantwortet<!--Im Typoskript „beamtwortet“--> werden. Hoffentlich erwirkt mir das
+               Verzeihung. – Die unangenehme Tatsache, schon 22 Jahre alt zu sein, wurde durch
+               Deinen nebst etwa 20 anderen Geburtstagsbriefen versüßt, meist von lieben Brüdern, z.
+               Teil in rührender Nächstenliebe, wie z.B. <persName ref="P01745">Daniel
+                  Schubert</persName> und <persName ref="P02199">Häfele</persName>, andere in Form
+               von glühenden Kohlen wie Du – hab herzlichen Dank. Außerdem: Ein
+               Möller<!--unklar: Wilhehlm (P01340)?-->-Schubert<!--unklar: Daniel (P01745)? Ist dies ein großes i oder eine römische eins?:-->
+               I., ein <persName ref="P01713">Schlatter</persName>: Jüdische
+               Geschichte<!--unklar: Zur Topographie u. Geschichte Palästinas. Calw u Stuttgart Vereinsbuchhandlung, 1893?-->,
+               ein <persName ref="P02286">Weizsäcker</persName>: Apostolisches Zeitalter
+               <!--Das Apostolische Zeitalter der Christlichen Kirche, Freiburg im Breisgau: Akademische Buchhandlung von J. C. B. Mohr (Paul Siebeck), 1892-->.
+               (An <persName ref="P02287">Sepp</persName>: Endlich auch der in <placeName
+                  ref="Kassel">Kassel</placeName> vermißte
+               Bakel<!--unklar: Rector Magnificus Universiteit van Amsterdam; hoogleraar theologie Evangelisch Luthers Seminarium (P02288)?-->).
+               Daß Du in <placeName ref="Homberg">Homberg</placeName> bist und Dich psycho-physisch
+               so wohl fühlst, freut mich sehr; ich rechne es mir z. Teil als Verdienst an. Daß Eure
+               geistige Nahrung allein das <placeName ref="Berlin">Berliner</placeName>
+               Tageblatt<!--sic--> ist, traue ich Euch doch nicht zu; also: Schlemmerei, neidisch
+               etc. <persName ref="P02289">Menzels</persName> Verlobung war mir neu: Auf ihn bin ich
+               noch neidischer, also vorläufig nichts zu erwarten. – Nun habe ich schon 14 Tage
+               meine Arbeiten und fühle mich noch sehr rückständig. Die erste ist in der Tat
+               umfassend, nämlich die ganze <persName ref="P00985">johanneische</persName>
+               Theologie. Nach einer Übersicht über die historische Situation der Debatte suche ich
+               zu zeigen, daß der Logosbegriff kein „theo“logischer, sondern ein christologischer
+               ist, um dann in der Christologie eine Synthese zwischen <persName ref="P00925"
+                  >Holtzmann</persName> und <persName ref="P02266">Schmuhl</persName> durchzuführen; Gegen<!--sic (nicht kleingeschrieben)-->
+               <persName ref="P00925">Holtzmann</persName> scheint mir richtig zu sein, daß der
+               Logosbegriff kein auf fremdem Boden gewachsener ist, der einen Antagonismus in die
+               ganze <persName ref="P00985">johanneische</persName> Theologie bringt, gegen
+                  <persName ref="P02266">Schmuhl</persName>, daß der hellenistische Einfluß in Ton
+               und Formulierung der Gedanken nicht auszuschließen ist. Also etwa: Die
+               Logoskonception ist im Zusammenhang der <persName ref="P00985"
+                  >johanneischen</persName> Intuition organisch erwachsen, im einzelnen sind ihre
+               Motive nachweisbar. Die Konception selbst ist in ihrem Sosein nur durch
+               hellenistischen Einfluß auf Ton und Form, aber nicht als urchristlichen
+               widersprechend, zu verstehen und ihr Einfluß auf die Gesamtstimmung des Evangeliums
+               unbestreitbar; wie auch sonst hellenistische Färbung unverkennbar ist. Die Weise, in
+               der <persName ref="P00925">Holtzmann</persName> Widersprüche sucht, finde ich eben
+               gesucht; aber die Leichtigkeit, mit der <persName ref="P02266">Schmuhl</persName> die
+               Synoptiker<!--Wie können wir Markus, Matthäus und Lukas hier alle zusammen für's Register angeben?-->
+               in <persName ref="P00985">Johannes</persName> wiederfindet, genügt zur Erklärung der
+               Eigenart nicht. Im Wesentlichen wird man allerdings auf die <persName ref="P00985"
+                  >johanneische</persName> Intuition zurückgehen müssen. Ich bin durch die Arbeit
+               und die umfangreiche Litteratur<!--(sic)--> so ziemlich in alle Probleme, die darum
+               hängen,<!--Das Komma von mir, fehlt im Typoskript.--> sehr gut hereingekommen und
+               merke, daß ich vom apostolischen Zeitalter und neuen Testament noch rein nichts
+               kapiert hatte. Daher bin ich für die Arbeit sehr dankbar, zumal ich dadurch in
+                  <persName ref="P00985">Johannes</persName> tüchtig hineinkomme, der mir doch im
+               neuen Testament am nächsten steht. – Über die andere Arbeit habe ich noch kaum
+               nachgedacht. Ich denke sie dogmen- und theologiegeschichtlich zu beginnen und bis zur
+               Gegenwart durchzuführen. Dann die Debatte so fortzuführen, daß ich die Gegenwart u.
+               a. als Renaissance des Idealismus betrachte und dann die entscheidende Debatte mit
+                  <persName ref="P01291">Medikus</persName> führe. Ob die <placeName ref="Berlin"
+                  >Berliner</placeName> dafür reif sind, ist mir egal. Mir ist das Problem, wie Du
+               weißt, immer noch eins der brennendsten und ich bin froh <foreign xml:lang="lat">ex
+                  officio</foreign> darüber nachdenken zu müssen. – Was meine Geistesfreiheit
+               betrifft, so ist sie durch die beiden Arbeiten in einer Weise erwacht, die bis an <hi
+                  rend="u">Willkür grenzt.
+               Ich</hi><!--Unterstreichung von der Typoskript-Verfassung mit der Anmerkung: „Diese – im Ms. gut lesbaren – Worte am Ende einer Seite sind etwas tintenverwischt. Darunter in Bleistiftschrift: „Verzeih! Das Löschblatt riß!““-->
+               hoffe, daß sie in den 2 Monaten nach dem Schriftlichen noch einmal wieder abgetötet
+               wird, zu Gunsten des unendlich Kleinen, das bis auf die unsterbliche <hi rend="u">
+                  <persName ref="P02295"
+               >Makrina</persName></hi><!--Unterstreichung von der Typoskript-Verfassung mit Fragezeichen.-->
+               zusammengeschmolzen ist. Gesundheitlich geht es mir bei diesem faulen Leben recht
+               gut, dank der Energie meiner
+               Schwester<!--unklar: Johanna (P00644) oder Elisabeth (P01764)? --> und allerhand von
+                  <persName ref="P01697">Schaffts</persName> importierten Eisenpräparaten. Im
+               September kommen die offiziellen <placeName ref="Międzyzdroje">Misdroyer</placeName>
+               14 Tage, die sich vielleicht noch um 8 vermehren. Ich werde dort die Predigt machen.
+                  <foreign xml:lang="lat">quae mutatio</foreign>! Sagst Du mit Recht. Ob ich den
+               „Bärentöter“ wiederfinde? Sage <persName ref="P02287">Sepp</persName>, er könnte nur
+               durch das Doppelte eines normalen Briefes Verzeihung erlangen! Und nur, wenn sofort! </p>
+            <closer>
+               <salute>Leb wohl und sei herzlich gegrüßt von Deinem treuen</salute>
+               <signed><persName ref="P01930">Paul T.</persName>. </signed>
+            </closer>
+            <postscript>
+               <label>P. S.</label>
+               <p>Auf Wiedersehen im Dezember, wo ich Dich in Examens-Frack-und-Cylinder vom Bahnhof
+                  abholen werde. Herzlichen Gruß Dein <persName ref="P01930">Paul</persName></p>
+            </postscript>
+
+
+         </div>
+      </body>
+   </text>
+</TEI>

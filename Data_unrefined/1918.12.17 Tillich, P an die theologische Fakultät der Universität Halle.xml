@@ -1,0 +1,160 @@
+
+<?xml-model href="https://raw.githubusercontent.com/GerritMauritz/Edition-Paul-Tillich-s-Correspondence/main/scheme/tei_tillichcorrespondence_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief von Paul Tillich an die theologische Fakultät der Universität Halle
+               <lb/>vom 17. Dezember 1918 </title>
+            <author ref="Paul Tillich">Paul Tillich</author>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Paul Schömann</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title type="editionstitel">Edition der Korrespondenz von Paul Tillich
+                  1887-1933</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Institut für Systematische Theologie und Religionswissenschaft</name>
+               <address>
+                  <street>Schenkenstraße 8-10</street>
+                  <postCode>1010</postCode>
+                  <placeName ref="Wien">
+                     <settlement>Wien</settlement>
+                     <country>Österreich</country>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                  Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="manuscript">
+               <!-- Manuskript, Typoskript, Transskript oder Kopie -->
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement ref="Halle a. S.">Halle a. S.</settlement>
+                  <institution>Martin-Luther-Universität Halle-Wittenberg</institution>
+                  <repository>Universitätsarchiv Halle-Wittenberg</repository>
+                  <collection>Rep. 27 (Theologische Fakultät)</collection>
+                  <idno>Nr. 876 (38-40)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Eigenhändig</p>
+               </physDesc>
+               <additional>
+                  <listBibl>
+                     <biblStruct type="journal" n="firstPrint">
+                        <monogr>
+                           <author>Erdmann Sturm</author>
+                           <title>An der engen Pforte der historischen Methode vorbeit. Paul
+                              Tillichs Habilitation in Halle (1916) und seine Umhabilitierungen nach
+                              Berlin (1919) und Marburg (1924).</title>
+                           <imprint>
+                              <pubPlace ref="Berlin/Boston">Berlin/Boston</pubPlace>
+                              <date when="2015">2015</date>
+                              <biblScope>314</biblScope>
+                           </imprint>
+                        </monogr>
+                        <series>
+                           <title>International Yearbook for Tillich Research</title>
+                           <biblScope>Bd. 10/1</biblScope>
+                        </series>
+                     </biblStruct>
+                  </listBibl>
+               </additional>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>online-Edition: Edition der Korrespondenz von Paul Tillich 1887-1933.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Die Ausgabe folgt folgenden Editorischen Richtlinien des DTA-Basisformats. Vgl.
+               https://www.deutschestextarchiv.de/doku/basisformat/</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="Paul Tillich">Paul Tillich</persName>
+               <placeName ref="Berlin-Friedenau">Berlin-Friedenau</placeName>
+               <date when="1918-12-17">17. Dezember 1918</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="Theologische Fakultät Halle">Theologische Fakultät Halle</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="deu">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="PS" when="2022-05-31">Intitale Auszeichnung des Transkripts</change>
+
+
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="HandschriftTillich">
+            <pb n="1"/>
+            <opener>
+               <dateline><placeName ref="Berlin-Friedenau">Berlin-Friedenau</placeName>, d. <date
+                     when="1918-12-17">17. Dez. 1918.</date></dateline>
+               <address>
+                  <street>Taunusstr. 1</street>
+               </address>
+            </opener>
+            <p>Der Hochwürdigen Theologischen Fakultät erlaube ich mir, folgendes zu unterbreiten:
+               Nachdem ich am 15<hi rend="sup">ten</hi> dieses Monats aus dem Heeresdienst entlassen
+               bin, ist die Frage an mich herangetreten, wie ich mir weiterhin eine finanzielle
+               Basis schaffen könnte. Die Voraussetzungen, die vor dem Krieg bestanden, sind durch
+               die Teuerung und Entwertung des Geldes hinfällig geworden. Ich hätte einige Jahre von
+               elterlichen Zuschüssen zur Not leben können; das ist jetzt nicht mehr möglich, zumal
+               ich seit Sept. 1914 verheiratet bin. Um eine Konviktsstelle in <placeName
+                  ref="Halle a. S.">Halle</placeName> wollte ich mich nicht bewerben, da, wie mir
+                  <persName ref="Wilhelm Lütgert">Herr Geheimrat Lütgert</persName> mitteilte, sie
+               nicht mehr für verheiratete Inspektoren ein<pb n="2"/>gerichtet sind. Sehr viel
+               günstiger liegen nun die Verhältnisse in <placeName ref="Berlin">Berlin</placeName>.
+               Hier wohnen <persName ref="Mathilde Wever"><persName ref="Wilhelm Wever">meine
+                     Schwiegereltern</persName></persName>, die uns weitgehend (<del rend="s"
+                  >täglich</del>) wirtschaftlich unterstützen (Bedienung, Essen etc). Außerdem hat
+               mich das Konsistorium zum "Stadtvikar" ernannt, eine Stelle, die infolge geringer
+               Arbeitsbelastung für die Privatdozentur sehr geeignet ist. Ich habe mich
+               infolgedessen nach brieflicher Rücksprache mit <persName ref="Wilhelm Lütgert">Herrn
+                  Geheimrat Lütgert</persName> bei der Berliner Fakultät erkundigt, ob sie mit einer
+               Umhabilitation einverstanden wäre. Die Fakultät hat meiner Bitte entsprochen und eine
+               Umhabilitation von <placeName ref="Halle a. S.">Halle</placeName> nach <placeName
+                  ref="Berlin">Berlin</placeName> genehmigt.</p>
+            <p>Ich bitte nun die Hochwürdige Theologische Fakultät ganz ergebenst, auch ihrerseits
+               ihr Einverständnis mit meiner Umhabilitation zu erklären. Es sind ledig<pb n="3"
+               />lich wirtschaftliche Gründe, die mich zu der Bitte zwingen, die mir aus Studium und
+               Promotion so lieb gewordene Hallenser Universität zu verlassen, und ich möchte nicht
+               versäumen, auch an dieser Stelle meinen tiefsten Dank für alle Hülfe und Förderung
+               auszusprechen, die ich der Hallenser Fakultät verdanke. </p>
+            <closer>
+               <signed><hi rend="aq">Dr. P. Tillich.</hi></signed>
+            </closer>
+         </div>
+         <div type="HandschriftdesDekans">
+            <opener><salute>Verehrter College!</salute></opener>
+            <p>Ich konnte gleich gestern Abend der versammelten Facultät Ihr Schreiben vom 17.
+               vorlegen u. theile Ihnen mit, dass die Theologische Facultät Halle in voller
+               Würdigung der Gründe, die Sie dazu veranlasst haben, ihr Einverständniß mit Ihrer
+               Umhabilitierung in die Theologische Facultät der Berliner Universität erklärt und
+               Ihnen ihre besten Wünsche in die neue Stellung mitgiebt.</p>
+            <closer><signed><hi rend="aq">Cornill Decanus</hi></signed></closer>
+         </div>
+      </body>
+   </text>
+</TEI>
